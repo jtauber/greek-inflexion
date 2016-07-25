@@ -1,0 +1,14 @@
+language: python
+sudo: false
+python:
+  - "3.3"
+  - "3.4"
+  - "3.5"
+install:
+  - pip install flake8
+  - pip install coveralls
+script:
+  - flake8 .
+  - coverage run --branch test.py
+after_success:
+  - coveralls
