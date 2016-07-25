@@ -10,6 +10,6 @@ install:
   - pip install coveralls
 script:
   - flake8 .
-  - coverage run --branch test.py
+  - coverage run --branch --source . test.py
 after_success:
   - coveralls
