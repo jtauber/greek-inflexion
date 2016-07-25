@@ -1,0 +1,3056 @@
+# tests from Keller and Russell's _Learn to Read Greek_
+
+-
+    source: LTRG§27
+
+    lemma: παύω
+
+    PAI.1S: παύω
+    PAI.2S: παύεις
+    PAI.3S: παύει
+    PAI.1P: παύομεν
+    PAI.2P: παύετε
+    PAI.3P: παύουσι(ν)
+
+
+-
+    source: LTRG§29
+
+    lemma: παύω
+
+    PMI.1S: παύομαι
+    PMI.2S: παύῃ/παύει
+    PMI.3S: παύεται
+    PMI.1P: παυόμεθα
+    PMI.2P: παύεσθε
+    PMI.3P: παύονται
+
+
+-
+    source: LTRG§30
+
+    lemma: παύω
+
+    IAI.1S: ἔπαυον
+    IAI.2S: ἔπαυες
+    IAI.3S: ἔπαυε(ν)
+    IAI.1P: ἐπαύομεν
+    IAI.2P: ἐπαύετε
+    IAI.3P: ἔπαυον
+
+
+-
+    source: LTRG§30
+
+    lemma: ἐθέλω  # (ἐ)θέλω
+
+    IAI.1S: ἤθελον
+    IAI.2S: ἤθελες
+    IAI.3S: ἤθελε(ν)
+    IAI.1P: ἠθέλομεν
+    IAI.2P: ἠθέλετε
+    IAI.3P: ἤθελον
+
+
+-
+    source: LTRG§31
+
+    lemma: παύω
+
+    IMI.1S: ἐπαυόμην
+    IMI.2S: ἐπαύου
+    IMI.3S: ἐπαύετο
+    IMI.1P: ἐπαυόμεθα
+    IMI.2P: ἐπαύεσθε
+    IMI.3P: ἐπαύοντο
+
+
+-
+    source: LTRG§32
+
+    lemma: παύω
+
+    PAN: παύειν
+
+    PMN: παύεσθαι
+
+
+-
+    source: LTRG§33
+
+    lemma: παύω
+
+    FAI.1S: παύσω
+    FAI.2S: παύσεις
+    FAI.3S: παύσει
+    FAI.1P: παύσομεν
+    FAI.2P: παύσετε
+    FAI.3P: παύσουσι(ν)
+
+    FMI.1S: παύσομαι
+    FMI.2S: παύσῃ/παύσει
+    FMI.3S: παύσεται
+    FMI.1P: παυσόμεθα
+    FMI.2P: παύσεσθε
+    FMI.3P: παύσονται
+
+    FAN: παύσειν
+
+    FMN: παύσεσθαι
+
+
+-
+    source: LTRG§34
+    tags:
+      - fpi.2s-ει
+
+    lemma: παύω
+
+    FPI.1S: παυθήσομαι
+    FPI.2S: παυθήσῃ/παυθήσει
+    FPI.3S: παυθήσεται
+    FPI.1P: παυθησόμεθα
+    FPI.2P: παυθήσεσθε
+    FPI.3P: παυθήσονται
+
+    FPN: παυθήσεσθαι
+
+
+-
+    source: LTRG§40
+
+    lemma: ποιέω
+
+    PAI.1S: ποιῶ
+    PAI.2S: ποιεῖς
+    PAI.3S: ποιεῖ
+    PAI.1P: ποιοῦμεν
+    PAI.2P: ποιεῖτε
+    PAI.3P: ποιοῦσι(ν)
+
+    PMI.1S: ποιοῦμαι
+    PMI.2S: ποιῇ/ποιεῖ
+    PMI.3S: ποιεῖται
+    PMI.1P: ποιούμεθα
+    PMI.2P: ποιεῖσθε
+    PMI.3P: ποιοῦνται
+
+    IAI.1S: ἐποίουν
+    IAI.2S: ἐποίεις
+    IAI.3S: ἐποίει
+    IAI.1P: ἐποιοῦμεν
+    IAI.2P: ἐποιεῖτε
+    IAI.3P: ἐποίουν
+
+    IMI.1S: ἐποιούμην
+    IMI.2S: ἐποιοῦ
+    IMI.3S: ἐποιεῖτο
+    IMI.1P: ἐποιούμεθα
+    IMI.2P: ἐποιεῖσθε
+    IMI.3P: ἐποιοῦντο
+
+    PAN: ποιεῖν
+
+    PMN: ποιεῖσθαι
+
+
+-
+    source: LTRG§41
+
+    lemma: νικάω  # νῑκάω
+
+    PAI.1S: νῑκῶ
+    PAI.2S: νῑκᾷς
+    PAI.3S: νῑκᾷ
+    PAI.1P: νῑκῶμεν
+    PAI.2P: νῑκᾶτε
+    PAI.3P: νῑκῶσι(ν)
+
+    PMI.1S: νῑκῶμαι
+    PMI.2S: νῑκᾷ
+    PMI.3S: νῑκᾶται
+    PMI.1P: νῑκώμεθα
+    PMI.2P: νῑκᾶσθε
+    PMI.3P: νῑκῶνται
+
+    IAI.1S: ἐνῑ́κων
+    IAI.2S: ἐνῑ́κᾱς
+    IAI.3S: ἐνῑ́κᾱ
+    IAI.1P: ἐνῑκῶμεν
+    IAI.2P: ἐνῑκᾶτε
+    IAI.3P: ἐνῑ́κων
+
+    IMI.1S: ἐνῑκώμην
+    IMI.2S: ἐνῑκῶ
+    IMI.3S: ἐνῑκᾶτο
+    IMI.1P: ἐνῑκώμεθα
+    IMI.2P: ἐνῑκᾶσθε
+    IMI.3P: ἐνῑκῶντο
+
+    PAN: νῑκᾶν
+
+    PMN: νῑκᾶσθαι
+
+
+-
+    source: LTRG§42
+
+    lemma: δηλόω
+
+    PAI.1S: δηλῶ
+    PAI.2S: δηλοῖς
+    PAI.3S: δηλοῖ
+    PAI.1P: δηλοῦμεν
+    PAI.2P: δηλοῦτε
+    PAI.3P: δηλοῦσι(ν)
+
+    PMI.1S: δηλοῦμαι
+    PMI.2S: δηλοῖ
+    PMI.3S: δηλοῦται
+    PMI.1P: δηλούμεθα
+    PMI.2P: δηλοῦσθε
+    PMI.3P: δηλοῦνται
+
+    IAI.1S: ἐδήλουν
+    IAI.2S: ἐδήλους
+    IAI.3S: ἐδήλου
+    IAI.1P: ἐδηλοῦμεν
+    IAI.2P: ἐδηλοῦτε
+    IAI.3P: ἐδήλουν
+
+    IMI.1S: ἐδηλούμην
+    IMI.2S: ἐδηλοῦ
+    IMI.3S: ἐδηλοῦτο
+    IMI.1P: ἐδηλούμεθα
+    IMI.2P: ἐδηλοῦσθε
+    IMI.3P: ἐδηλοῦντο
+
+    PAN: δηλοῦν
+
+    PMN: δηλοῦσθαι
+
+
+-
+    source: LTRG§55
+
+    lemma: εἰμί
+
+    PAI.1S: εἰμί
+    PAI.2S: εἶ
+    PAI.3S: ἐστί(ν)
+    PAI.1P: ἐσμέν
+    PAI.2P: ἐστέ
+    PAI.3P: εἰσί(ν)
+
+    IAI.1S: ἦ/ἦν
+    IAI.2S: ἦσθα
+    IAI.3S: ἦν
+    IAI.1P: ἦμεν
+    IAI.2P: ἦτε
+    IAI.3P: ἦσαν
+
+    FMI.1S: ἔσομαι
+    FMI.2S: ἔσῃ/ἔσει
+    FMI.3S: ἔσται
+    FMI.1P: ἐσόμεθα
+    FMI.2P: ἔσεσθε
+    FMI.3P: ἔσονται
+
+    PAN: εἶναι
+
+    FMN: ἔσεσθαι
+
+
+-
+    source: LTRG§60
+    tags:
+      - final-nu-aai.3s
+
+    lemma: παύω
+
+    AAI.1S: ἔπαυσα
+    AAI.2S: ἔπαυσας
+    AAI.3S: ἔπαυσε(ν)
+    AAI.1P: ἐπαύσαμεν
+    AAI.2P: ἐπαύσατε
+    AAI.3P: ἔπαυσαν
+
+    AMI.1S: ἐπαυσάμην
+    AMI.2S: ἐπαύσω
+    AMI.3S: ἐπαύσατο
+    AMI.1P: ἐπαυσάμεθα
+    AMI.2P: ἐπαύσασθε
+    AMI.3P: ἐπαύσαντο
+
+    AAN: παῦσαι
+
+    AMN: παύσασθαι
+
+
+-
+    source: LTRG§61
+    tags:
+      - final-nu-aai.3s
+
+    lemma: ἄγω
+
+    AAI.1S: ἤγαγον
+    AAI.2S: ἤγαγες
+    AAI.3S: ἤγαγε(ν)
+    AAI.1P: ἠγάγομεν
+    AAI.2P: ἠγάγετε
+    AAI.3P: ἤγαγον
+
+    AMI.1S: ἠγαγόμην
+    AMI.2S: ἠγάγου
+    AMI.3S: ἠγάγετο
+    AMI.1P: ἠγαγόμεθα
+    AMI.2P: ἠγάγεσθε
+    AMI.3P: ἠγάγοντο
+
+    AAN: ἀγαγεῖν
+
+    AMN: ἀγαγέσθαι
+
+
+-
+    source: LTRG§62
+
+    lemma: παύω
+    tags:
+      - no-sigma-in-παύω-api
+
+    API.1S: ἐπαύθην
+    API.2S: ἐπαύθης
+    API.3S: ἐπαύθη
+    API.1P: ἐπαύθημεν
+    API.2P: ἐπαύθητε
+    API.3P: ἐπαύθησαν
+
+    APN: παυθῆναι
+
+
+-
+    source: LTRG§73
+
+    lemma: παύω
+
+    PAP.NSM: παύων
+    PAP.GSM: παύοντος
+    PAP.DSM: παύοντι
+    PAP.ASM: παύοντα
+    PAP.VSM: παύων
+    PAP.NPM: παύοντες
+    PAP.VPM: παύοντες
+    PAP.GPM: παυόντων
+    PAP.DPM: παύουσι(ν)
+    PAP.APM: παύοντας
+
+    PAP.NSF: παύουσα
+    PAP.GSF: παυούσης
+    PAP.DSF: παυούσῃ
+    PAP.ASF: παύουσαν
+    PAP.VSF: παύουσα
+    PAP.NPF: παύουσαι
+    PAP.VPF: παύουσαι
+    PAP.GPF: παυουσῶν
+    PAP.DPF: παυούσαις
+    PAP.APF: παυούσᾱς
+
+    PAP.NSN: παῦον
+    PAP.GSN: παύοντος
+    PAP.DSN: παύοντι
+    PAP.ASN: παῦον
+    PAP.VSN: παῦον
+    PAP.NPN: παύοντα
+    PAP.VPN: παύοντα
+    PAP.GPN: παυόντων
+    PAP.DPN: παύουσι(ν)
+    PAP.APN: παύοντα
+
+
+-
+    source: LTRG§73
+
+    lemma: εἰμί
+
+    PAP.NSM: ὤν
+    PAP.GSM: ὄντος
+    PAP.DSM: ὄντι
+    PAP.ASM: ὄντα
+    PAP.VSM: ὤν
+    PAP.NPM: ὄντες
+    PAP.VPM: ὄντες
+    PAP.GPM: ὄντων
+    PAP.DPM: οὖσι(ν)
+    PAP.APM: ὄντας
+
+    PAP.NSF: οὖσα
+    PAP.GSF: οὔσης
+    PAP.DSF: οὔσῃ
+    PAP.ASF: οὖσαν
+    PAP.VSF: οὖσα
+    PAP.NPF: οὖσαι
+    PAP.VPF: οὖσαι
+    PAP.GPF: οὐσῶν
+    PAP.DPF: οὔσαις
+    PAP.APF: οὔσᾱς
+
+    PAP.NSN: ὄν
+    PAP.GSN: ὄντος
+    PAP.DSN: ὄντι
+    PAP.ASN: ὄν
+    PAP.VSN: ὄν
+    PAP.NPN: ὄντα
+    PAP.VPN: ὄντα
+    PAP.GPN: ὄντων
+    PAP.DPN: οὖσι(ν)
+    PAP.APN: ὄντα
+
+
+-
+    source: LTRG§73
+
+    lemma: ποιέω
+
+    PAP.NSM: ποιῶν
+    PAP.GSM: ποιοῦντος
+    PAP.DSM: ποιοῦντι
+    PAP.ASM: ποιοῦντα
+    PAP.VSM: ποιῶν
+    PAP.NPM: ποιοῦντες
+    PAP.VPM: ποιοῦντες
+    PAP.GPM: ποιούντων
+    PAP.DPM: ποιοῦσι(ν)
+    PAP.APM: ποιοῦντας
+
+    PAP.NSF: ποιοῦσα
+    PAP.GSF: ποιούσης
+    PAP.DSF: ποιούσῃ
+    PAP.ASF: ποιοῦσαν
+    PAP.VSF: ποιοῦσα
+    PAP.NPF: ποιοῦσαι
+    PAP.VPF: ποιοῦσαι
+    PAP.GPF: ποιουσῶν
+    PAP.DPF: ποιούσαις
+    PAP.APF: ποιούσᾱς
+
+    PAP.NSN: ποιοῦν
+    PAP.GSN: ποιοῦντος
+    PAP.DSN: ποιοῦντι
+    PAP.ASN: ποιοῦν
+    PAP.VSN: ποιοῦν
+    PAP.NPN: ποιοῦντα
+    PAP.VPN: ποιοῦντα
+    PAP.GPN: ποιούντων
+    PAP.DPN: ποιοῦσι(ν)
+    PAP.APN: ποιοῦντα
+
+
+-
+    source: LTRG§73
+
+    lemma: νικάω  # νῑκάω
+
+    PAP.NSM: νῑκῶν
+    PAP.GSM: νῑκῶντος
+    PAP.DSM: νῑκῶντι
+    PAP.ASM: νῑκῶντα
+    PAP.VSM: νῑκῶν
+    PAP.NPM: νῑκῶντες
+    PAP.VPM: νῑκῶντες
+    PAP.GPM: νῑκώντων
+    PAP.DPM: νῑκῶσι(ν)
+    PAP.APM: νῑκῶντας
+
+    PAP.NSF: νῑκῶσα
+    PAP.GSF: νῑκώσης
+    PAP.DSF: νῑκώσῃ
+    PAP.ASF: νῑκῶσαν
+    PAP.VSF: νῑκῶσα
+    PAP.NPF: νῑκῶσαι
+    PAP.VPF: νῑκῶσαι
+    PAP.GPF: νῑκωσῶν
+    PAP.DPF: νῑκώσαις
+    PAP.APF: νῑκώσᾱς
+
+    PAP.NSN: νῑκῶν
+    PAP.GSN: νῑκῶντος
+    PAP.DSN: νῑκῶντι
+    PAP.ASN: νῑκῶν
+    PAP.VSN: νῑκῶν
+    PAP.NPN: νῑκῶντα
+    PAP.VPN: νῑκῶντα
+    PAP.GPN: νῑκώντων
+    PAP.DPN: νῑκῶσι(ν)
+    PAP.APN: νῑκῶντα
+
+
+-
+    source: LTRG§73
+
+    lemma: δηλόω
+
+    PAP.NSM: δηλῶν
+    PAP.GSM: δηλοῦντος
+    PAP.DSM: δηλοῦντι
+    PAP.ASM: δηλοῦντα
+    PAP.VSM: δηλῶν
+    PAP.NPM: δηλοῦντες
+    PAP.VPM: δηλοῦντες
+    PAP.GPM: δηλούντων
+    PAP.DPM: δηλοῦσι(ν)
+    PAP.APM: δηλοῦντας
+
+    PAP.NSF: δηλοῦσα
+    PAP.GSF: δηλούσης
+    PAP.DSF: δηλούσῃ
+    PAP.ASF: δηλοῦσαν
+    PAP.VSF: δηλοῦσα
+    PAP.NPF: δηλοῦσαι
+    PAP.VPF: δηλοῦσαι
+    PAP.GPF: δηλουσῶν
+    PAP.DPF: δηλούσαις
+    PAP.APF: δηλούσᾱς
+
+    PAP.NSN: δηλοῦν
+    PAP.GSN: δηλοῦντος
+    PAP.DSN: δηλοῦντι
+    PAP.ASN: δηλοῦν
+    PAP.VSN: δηλοῦν
+    PAP.NPN: δηλοῦντα
+    PAP.VPN: δηλοῦντα
+    PAP.GPN: δηλούντων
+    PAP.DPN: δηλοῦσι(ν)
+    PAP.APN: δηλοῦντα
+
+
+-
+    source: LTRG§73
+
+    lemma: παύω
+
+    PMP.NSM: παυόμενος
+    PMP.GSM: παυομένου
+    PMP.DSM: παυομένῳ
+    PMP.ASM: παυόμενον
+    PMP.VSM: παυόμενε
+    PMP.NPM: παυόμενοι
+    PMP.VPM: παυόμενοι
+    PMP.GPM: παυομένων
+    PMP.DPM: παυομένοις
+    PMP.APM: παυομένους
+
+    PMP.NSF: παυομένη
+    PMP.GSF: παυομένης
+    PMP.DSF: παυομένῃ
+    PMP.ASF: παυομένην
+    PMP.VSF: παυομένη
+    PMP.NPF: παυόμεναι
+    PMP.VPF: παυόμεναι
+    PMP.GPF: παυομένων
+    PMP.DPF: παυομέναις
+    PMP.APF: παυομένᾱς
+
+    PMP.NSN: παυόμενον
+    PMP.GSN: παυομένου
+    PMP.DSN: παυομένῳ
+    PMP.ASN: παυόμενον
+    PMP.VSN: παυόμενον
+    PMP.NPN: παυόμενα
+    PMP.VPN: παυόμενα
+    PMP.GPN: παυομένων
+    PMP.DPN: παυομένοις
+    PMP.APN: παυόμενα
+
+
+-
+    source: LTRG§73
+
+    lemma: παύω
+
+    AAP.NSM: παύσᾱς
+    AAP.GSM: παύσαντος
+    AAP.DSM: παύσαντι
+    AAP.ASM: παύσαντα
+    AAP.VSM: παύσᾱς
+    AAP.NPM: παύσαντες
+    AAP.VPM: παύσαντες
+    AAP.GPM: παυσάντων
+    AAP.DPM: παύσᾱσι(ν)
+    AAP.APM: παύσαντας
+
+    AAP.NSF: παύσᾱσα
+    AAP.GSF: παυσᾱ́σης
+    AAP.DSF: παυσᾱ́σῃ
+    AAP.ASF: παύσᾱσαν
+    AAP.VSF: παύσᾱσα
+    AAP.NPF: παύσᾱσαι
+    AAP.VPF: παύσᾱσαι
+    AAP.GPF: παυσᾱσῶν
+    AAP.DPF: παυσᾱ́σαις
+    AAP.APF: παυσᾱ́σᾱς
+
+    AAP.NSN: παῦσαν
+    AAP.GSN: παύσαντος
+    AAP.DSN: παύσαντι
+    AAP.ASN: παῦσαν
+    AAP.VSN: παῦσαν
+    AAP.NPN: παύσαντα
+    AAP.VPN: παύσαντα
+    AAP.GPN: παυσάντων
+    AAP.DPN: παύσᾱσι(ν)
+    AAP.APN: παύσαντα
+
+
+-
+    source: LTRG§73
+
+    lemma: παύω
+
+    AMP.NSM: παυσάμενος
+    AMP.GSM: παυσαμένου
+    AMP.DSM: παυσαμένῳ
+    AMP.ASM: παυσάμενον
+    AMP.VSM: παυσάμενε
+    AMP.NPM: παυσάμενοι
+    AMP.VPM: παυσάμενοι
+    AMP.GPM: παυσαμένων
+    AMP.DPM: παυσαμένοις
+    AMP.APM: παυσαμένους
+
+    AMP.NSF: παυσαμένη
+    AMP.GSF: παυσαμένης
+    AMP.DSF: παυσαμένῃ
+    AMP.ASF: παυσαμένην
+    AMP.VSF: παυσαμένη
+    AMP.NPF: παυσάμεναι
+    AMP.VPF: παυσάμεναι
+    AMP.GPF: παυσαμένων
+    AMP.DPF: παυσαμέναις
+    AMP.APF: παυσαμένᾱς
+
+    AMP.NSN: παυσάμενον
+    AMP.GSN: παυσαμένου
+    AMP.DSN: παυσαμένῳ
+    AMP.ASN: παυσάμενον
+    AMP.VSN: παυσάμενον
+    AMP.NPN: παυσάμενα
+    AMP.VPN: παυσάμενα
+    AMP.GPN: παυσαμένων
+    AMP.DPN: παυσαμένοις
+    AMP.APN: παυσάμενα
+
+
+-
+    source: LTRG§73
+
+    lemma: ἄγω
+
+    AAP.NSM: ἀγαγών
+    AAP.GSM: ἀγαγόντος
+    AAP.DSM: ἀγαγόντι
+    AAP.ASM: ἀγαγόντα
+    AAP.VSM: ἀγαγών
+    AAP.NPM: ἀγαγόντες
+    AAP.VPM: ἀγαγόντες
+    AAP.GPM: ἀγαγόντων
+    AAP.DPM: ἀγαγοῦσι(ν)
+    AAP.APM: ἀγαγόντας
+
+    AAP.NSF: ἀγαγοῦσα
+    AAP.GSF: ἀγαγούσης
+    AAP.DSF: ἀγαγούσῃ
+    AAP.ASF: ἀγαγοῦσαν
+    AAP.VSF: ἀγαγοῦσα
+    AAP.NPF: ἀγαγοῦσαι
+    AAP.VPF: ἀγαγοῦσαι
+    AAP.GPF: ἀγαγουσῶν
+    AAP.DPF: ἀγαγούσαις
+    AAP.APF: ἀγαγούσᾱς
+
+    AAP.NSN: ἀγαγόν
+    AAP.GSN: ἀγαγόντος
+    AAP.DSN: ἀγαγόντι
+    AAP.ASN: ἀγαγόν
+    AAP.VSN: ἀγαγόν
+    AAP.NPN: ἀγαγόντα
+    AAP.VPN: ἀγαγόντα
+    AAP.GPN: ἀγαγόντων
+    AAP.DPN: ἀγαγοῦσι(ν)
+    AAP.APN: ἀγαγόντα
+
+
+-
+    source: LTRG§73
+
+    lemma: ἄγω
+
+    AMP.NSM: ἀγαγόμενος
+    AMP.GSM: ἀγαγομένου
+    AMP.DSM: ἀγαγομένῳ
+    AMP.ASM: ἀγαγόμενον
+    AMP.VSM: ἀγαγόμενε
+    AMP.NPM: ἀγαγόμενοι
+    AMP.VPM: ἀγαγόμενοι
+    AMP.GPM: ἀγαγομένων
+    AMP.DPM: ἀγαγομένοις
+    AMP.APM: ἀγαγομένους
+
+    AMP.NSF: ἀγαγομένη
+    AMP.GSF: ἀγαγομένης
+    AMP.DSF: ἀγαγομένῃ
+    AMP.ASF: ἀγαγομένην
+    AMP.VSF: ἀγαγομένη
+    AMP.NPF: ἀγαγόμεναι
+    AMP.VPF: ἀγαγόμεναι
+    AMP.GPF: ἀγαγομένων
+    AMP.DPF: ἀγαγομέναις
+    AMP.APF: ἀγαγομένᾱς
+
+    AMP.NSN: ἀγαγόμενον
+    AMP.GSN: ἀγαγομένου
+    AMP.DSN: ἀγαγομένῳ
+    AMP.ASN: ἀγαγόμενον
+    AMP.VSN: ἀγαγόμενον
+    AMP.NPN: ἀγαγόμενα
+    AMP.VPN: ἀγαγόμενα
+    AMP.GPN: ἀγαγομένων
+    AMP.DPN: ἀγαγομένοις
+    AMP.APN: ἀγαγόμενα
+
+
+-
+    source: LTRG§73
+
+    lemma: παύω
+
+    APP.NSM: παυθείς
+    APP.GSM: παυθέντος
+    APP.DSM: παυθέντι
+    APP.ASM: παυθέντα
+    APP.VSM: παυθείς
+    APP.NPM: παυθέντες
+    APP.VPM: παυθέντες
+    APP.GPM: παυθέντων
+    APP.DPM: παυθεῖσι(ν)
+    APP.APM: παυθέντας
+
+    APP.NSF: παυθεῖσα
+    APP.GSF: παυθείσης
+    APP.DSF: παυθείσῃ
+    APP.ASF: παυθεῖσαν
+    APP.VSF: παυθεῖσα
+    APP.NPF: παυθεῖσαι
+    APP.VPF: παυθεῖσαι
+    APP.GPF: παυθεισῶν
+    APP.DPF: παυθείσαις
+    APP.APF: παυθείσᾱς
+
+    APP.NSN: παυθέν
+    APP.GSN: παυθέντος
+    APP.DSN: παυθέντι
+    APP.ASN: παυθέν
+    APP.VSN: παυθέν
+    APP.NPN: παυθέντα
+    APP.VPN: παυθέντα
+    APP.GPN: παυθέντων
+    APP.DPN: παυθεῖσι(ν)
+    APP.APN: παυθέντα
+
+
+-
+    source: LTRG_V8
+
+    lemma: ζάω
+
+    PAI.1S: ζῶ
+    PAI.2S: ζῇς
+    PAI.3S: ζῇ
+    PAI.1P: ζῶμεν
+    PAI.2P: ζῆτε
+    PAI.3P: ζῶσι(ν)
+
+    IAI.1S: ἔζων
+    IAI.2S: ἔζης
+    IAI.3S: ἔζη
+    IAI.1P: ἐζῶμεν
+    IAI.2P: ἐζῆτε
+    IAI.3P: ἔζων
+
+    PAN: ζῆν
+
+    PAP.NSM: ζῶν
+    PAP.NSF: ζῶσα
+    PAP.NSN: ζῶν
+
+
+-
+    source: LTRG_V8
+
+    lemma: θνῄσκω
+
+    XAI.1S: τέθνηκα
+    XAI.2S: τέθνηκας
+    XAI.3S: τέθνηκε(ν)
+    XAI.1P: τέθναμεν
+    XAI.2P: τέθνατε
+    XAI.3P: τεθνᾶσι(ν)
+
+    XAN: τεθνάναι
+
+
+-
+    source: LTRG§83
+
+    lemma: παύω
+
+    XAI.1S: πέπαυκα
+    XAI.2S: πέπαυκας
+    XAI.3S: πέπαυκε(ν)
+    XAI.1P: πεπαύκαμεν
+    XAI.2P: πεπαύκατε
+    XAI.3P: πεπαύκᾱσι(ν)
+
+    YAI.1S: ἐπεπαύκη
+    YAI.2S: ἐπεπαύκης
+    YAI.3S: ἐπεπαύκει(ν)
+    YAI.1P: ἐπεπαύκεμεν
+    YAI.2P: ἐπεπαύκετε
+    YAI.3P: ἐπεπαύκεσαν
+
+    XAN: πεπαυκέναι
+
+
+-
+    source: LTRG§84
+
+    lemma: παύω
+
+    XMI.1S: πέπαυμαι
+    XMI.2S: πέπαυσαι
+    XMI.3S: πέπαυται
+    XMI.1P: πεπαύμεθα
+    XMI.2P: πέπαυσθε
+    XMI.3P: πέπαυνται
+
+    YMI.1S: ἐπεπαύμην
+    YMI.2S: ἐπέπαυσο
+    YMI.3S: ἐπέπαυτο
+    YMI.1P: ἐπεπαύμεθα
+    YMI.2P: ἐπέπαυσθε
+    YMI.3P: ἐπέπαυντο
+
+
+-
+    source: LTRG§84
+
+    lemma: ὁράω
+
+    XMI.1S: ὦμμαι
+    XMI.2S: ὦψαι
+    XMI.3S: ὦπται
+    XMI.1P: ὤμμεθα
+    XMI.2P: ὦφθε
+
+    YMI.1S: ὤμμην
+    YMI.2S: ὦψο
+    YMI.3S: ὦπτο
+    YMI.1P: ὤμμεθα
+    YMI.2P: ὦφθε
+
+
+-
+    source: LTRG§84
+
+    lemma: πείθω
+
+    XMI.1S: πέπεισμαι
+    XMI.2S: πέπεισαι
+    XMI.3S: πέπεισται
+    XMI.1P: πεπείσμεθα
+    XMI.2P: πέπεισθε
+
+    YMI.1S: ἐπεπείσμην
+    YMI.2S: ἐπέπεισο
+    YMI.3S: ἐπέπειστο
+    YMI.1P: ἐπεπείσμεθα
+    YMI.2P: ἐπέπεισθε
+
+
+-
+    source: LTRG§84
+
+    lemma: ἄρχω
+
+    XMI.1S: ἦργμαι
+    XMI.2S: ἦρξαι
+    XMI.3S: ἦρκται
+    XMI.1P: ἤργμεθα
+    XMI.2P: ἦρχθε
+
+    YMI.1S: ἤργμην
+    YMI.2S: ἦρξο
+    YMI.3S: ἦρκτο
+    YMI.1P: ἤργμεθα
+    YMI.2P: ἦρχθε
+
+
+-
+    source: LTRG§84
+
+    lemma: πέμπω
+
+    XMI.1S: πέπεμμαι
+    XMI.2S: πέπεμψαι
+    XMI.3S: πέπεμπται
+    XMI.1P: πεπέμμεθα
+    XMI.2P: πέπεμφθε
+
+    YMI.1S: ἐπεπέμμην
+    YMI.2S: ἐπέπεμψο
+    YMI.3S: ἐπέπεμπτο
+    YMI.1P: ἐπεπέμμεθα
+    YMI.2P: ἐπέπεμφθε
+
+
+-
+    source: LTRG§84
+
+    lemma: παύω
+
+    XMN: πεπαῦσθαι
+
+
+-
+    source: LTRG§84
+
+    lemma: ὁράω
+
+    XMN: ὦφθαι
+
+
+-
+    source: LTRG§84
+
+    lemma: πέμπω
+
+    XMN: πεπέμφθαι
+
+
+-
+    source: LTRG§84
+
+    lemma: πείθω
+
+    XMN: πεπεῖσθαι
+
+
+-
+    source: LTRG§84
+
+    lemma: ἄρχω
+
+    XMN: ἦρχθαι
+
+
+-
+    source: LTRG§87
+
+    lemma: φημί
+
+    PAI.1S: φημί
+    PAI.2S: φῄς
+    PAI.3S: φησί(ν)
+    PAI.1P: φαμέν
+    PAI.2P: φατέ
+    PAI.3P: φᾱσί(ν)
+
+    IAI.1S: ἔφην
+    IAI.2S: ἔφησθα/ἔφης
+    IAI.3S: ἔφη
+    IAI.1P: ἔφαμεν
+    IAI.2P: ἔφατε
+    IAI.3P: ἔφασαν
+
+    PAN: φάναι
+
+    PAP.NSM: φᾱ́ς
+    PAP.NSF: φᾶσα
+    PAP.NSN: φάν
+
+
+-
+    source: LTRG§92
+
+    tags:
+      - late-pluperfect-singulars
+
+    lemma: οἶδα
+
+    XAI.1S: οἶδα
+    XAI.2S: οἶσθα
+    XAI.3S: οἶδε(ν)
+    XAI.1P: ἴσμεν
+    XAI.2P: ἴστε
+    XAI.3P: ἴσασι(ν)
+
+    YAI.1S: ᾔδη/ᾔδειν
+    YAI.2S: ᾔδησθα/ᾔδεις
+    YAI.3S: ᾔδει(ν)
+    YAI.1P: ᾖσμεν
+    YAI.2P: ᾖστε
+    YAI.3P: ᾖσαν/ᾔδεσαν
+
+    XAN: εἰδέναι
+
+
+-
+    source: LTRG§101
+
+    tags:
+      - sigma-loss-imi.2s
+
+    lemma: δύναμαι
+
+    PMI.1S: δύναμαι
+    PMI.2S: δύνασαι
+    PMI.3S: δύναται
+    PMI.1P: δυνάμεθα
+    PMI.2P: δύνασθε
+    PMI.3P: δύνανται
+
+    IMI.1S: ἐδυνάμην
+    IMI.2S: ἐδύνω
+    IMI.3S: ἐδύνατο
+    IMI.1P: ἐδυνάμεθα
+    IMI.2P: ἐδύνασθε
+    IMI.3P: ἐδύναντο
+
+    PMN: δύνασθαι
+
+    PMP.NSM: δυνάμενος
+    PMP.NSF: δυναμένη
+    PMP.NSN: δυνάμενον
+
+
+-
+    source: LTRG§101
+
+    tags:
+      - sigma-loss-imi.2s
+
+    lemma: ἐπίσταμαι
+
+    PMI.1S: ἐπίσταμαι
+    PMI.2S: ἐπίστασαι
+    PMI.3S: ἐπίσταται
+    PMI.1P: ἐπιστάμεθα
+    PMI.2P: ἐπίστασθε
+    PMI.3P: ἐπίστανται
+
+    IMI.1S: ἠπιστάμην
+    IMI.2S: ἠπίστω
+    IMI.3S: ἠπίστατο
+    IMI.1P: ἠπιστάμεθα
+    IMI.2P: ἠπίστασθε
+    IMI.3P: ἠπίσταντο
+
+    PMN: ἐπίστασθαι
+
+    PMP.NSM: ἐπιστάμενος
+    PMP.NSF: ἐπισταμένη
+    PMP.NSN: ἐπιστάμενον
+
+
+-
+    source: LTRG_V11
+
+    lemma: χράομαι
+
+    PMI.1S: χρῶμαι
+    PMI.2S: χρῇ
+    PMI.3S: χρῆται
+    PMI.1P: χρώμεθα
+    PMI.2P: χρῆσθε
+    PMI.3P: χρῶνται
+
+    IMI.1S: ἐχρώμην
+    IMI.2S: ἐχρῶ
+    IMI.3S: ἐχρῆτο
+    IMI.1P: ἐχρώμεθα
+    IMI.2P: ἐχρῆσθε
+    IMI.3P: ἐχρῶντο
+
+    PMN: χρῆσθαι
+
+    PMP.NSM: χρώμενος
+    PMP.NSF: χρωμένη
+    PMP.NSN: χρώμενον
+
+
+-
+    source: LTRG§110
+
+    lemma: παύω
+
+    FAP.NSM: παύσων
+    FAP.GSM: παύσοντος
+    FAP.DSM: παύσοντι
+    FAP.ASM: παύσοντα
+    FAP.VSM: παύσων
+    FAP.NPM: παύσοντες
+    FAP.VPM: παύσοντες
+    FAP.GPM: παυσόντων
+    FAP.DPM: παύσουσι(ν)
+    FAP.APM: παύσοντας
+
+    FAP.NSF: παύσουσα
+    FAP.GSF: παυσούσης
+    FAP.DSF: παυσούσῃ
+    FAP.ASF: παύσουσαν
+    FAP.VSF: παύσουσα
+    FAP.NPF: παύσουσαι
+    FAP.VPF: παύσουσαι
+    FAP.GPF: παυσουσῶν
+    FAP.DPF: παυσούσαις
+    FAP.APF: παυσούσᾱς
+
+    FAP.NSN: παῦσον
+    FAP.GSN: παύσοντος
+    FAP.DSN: παύσοντι
+    FAP.ASN: παῦσον
+    FAP.VSN: παῦσον
+    FAP.NPN: παύσοντα
+    FAP.VPN: παύσοντα
+    FAP.GPN: παυσόντων
+    FAP.DPN: παύσουσι(ν)
+    FAP.APN: παύσοντα
+
+
+-
+    source: LTRG§110
+
+    lemma: παύω
+
+    FMP.NSM: παυσόμενος
+    FMP.GSM: παυσομένου
+    FMP.DSM: παυσομένῳ
+    FMP.ASM: παυσόμενον
+    FMP.VSM: παυσόμενε
+    FMP.NPM: παυσόμενοι
+    FMP.VPM: παυσόμενοι
+    FMP.GPM: παυσομένων
+    FMP.DPM: παυσομένοις
+    FMP.APM: παυσομένους
+
+    FMP.NSF: παυσομένη
+    FMP.GSF: παυσομένης
+    FMP.DSF: παυσομένῃ
+    FMP.ASF: παυσομένην
+    FMP.VSF: παυσομένη
+    FMP.NPF: παυσόμεναι
+    FMP.VPF: παυσόμεναι
+    FMP.GPF: παυσομένων
+    FMP.DPF: παυσομέναις
+    FMP.APF: παυσομένᾱς
+
+    FMP.NSN: παυσόμενον
+    FMP.GSN: παυσομένου
+    FMP.DSN: παυσομένῳ
+    FMP.ASN: παυσόμενον
+    FMP.VSN: παυσόμενον
+    FMP.NPN: παυσόμενα
+    FMP.VPN: παυσόμενα
+    FMP.GPN: παυσομένων
+    FMP.DPN: παυσομένοις
+    FMP.APN: παυσόμενα
+
+
+-
+    source: LTRG§110
+
+    lemma: παύω
+
+    FPP.NSM: παυθησόμενος
+    FPP.GSM: παυθησομένου
+    FPP.DSM: παυθησομένῳ
+    FPP.ASM: παυθησόμενον
+    FPP.VSM: παυθησόμενε
+    FPP.NPM: παυθησόμενοι
+    FPP.VPM: παυθησόμενοι
+    FPP.GPM: παυθησομένων
+    FPP.DPM: παυθησομένοις
+    FPP.APM: παυθησομένους
+
+    FPP.NSF: παυθησομένη
+    FPP.GSF: παυθησομένης
+    FPP.DSF: παυθησομένῃ
+    FPP.ASF: παυθησομένην
+    FPP.VSF: παυθησομένη
+    FPP.NPF: παυθησόμεναι
+    FPP.VPF: παυθησόμεναι
+    FPP.GPF: παυθησομένων
+    FPP.DPF: παυθησομέναις
+    FPP.APF: παυθησομένᾱς
+
+    FPP.NSN: παυθησόμενον
+    FPP.GSN: παυθησομένου
+    FPP.DSN: παυθησομένῳ
+    FPP.ASN: παυθησόμενον
+    FPP.VSN: παυθησόμενον
+    FPP.NPN: παυθησόμενα
+    FPP.VPN: παυθησόμενα
+    FPP.GPN: παυθησομένων
+    FPP.DPN: παυθησομένοις
+    FPP.APN: παυθησόμενα
+
+
+-
+    source: LTRG§110
+
+    lemma: παύω
+
+    XAP.NSM: πεπαυκώς
+    XAP.GSM: πεπαυκότος
+    XAP.DSM: πεπαυκότι
+    XAP.ASM: πεπαυκότα
+    XAP.VSM: πεπαυκώς
+    XAP.NPM: πεπαυκότες
+    XAP.VPM: πεπαυκότες
+    XAP.GPM: πεπαυκότων
+    XAP.DPM: πεπαυκόσι(ν)
+    XAP.APM: πεπαυκότας
+
+    XAP.NSF: πεπαυκυῖα
+    XAP.GSF: πεπαυκυίᾱς
+    XAP.DSF: πεπαυκυίᾳ
+    XAP.ASF: πεπαυκυῖαν
+    XAP.VSF: πεπαυκυῖα
+    XAP.NPF: πεπαυκυῖαι
+    XAP.VPF: πεπαυκυῖαι
+    XAP.GPF: πεπαυκυιῶν
+    XAP.DPF: πεπαυκυίαις
+    XAP.APF: πεπαυκυίᾱς
+
+    XAP.NSN: πεπαυκός
+    XAP.GSN: πεπαυκότος
+    XAP.DSN: πεπαυκότι
+    XAP.ASN: πεπαυκός
+    XAP.VSN: πεπαυκός
+    XAP.NPN: πεπαυκότα
+    XAP.VPN: πεπαυκότα
+    XAP.GPN: πεπαυκότων
+    XAP.DPN: πεπαυκόσι(ν)
+    XAP.APN: πεπαυκότα
+
+
+-
+    source: LTRG§110
+
+    lemma: οἶδα
+
+    XAP.NSM: εἰδώς
+    XAP.NSF: εἰδυῖα
+    XAP.NSN: εἰδός
+
+
+-
+    source: LTRG§110
+
+    lemma: θνῄσκω
+
+    XAP.NSM: τεθνηκώς/τεθνεώς
+    XAP.NSF: τεθνηκυῖα/τεθνεῶσα
+    XAP.NSN: τεθνηκός/τεθνεός
+    XAP.GSM: τεθνηκότος/τεθνεῶτος
+    XAP.GSF: τεθνηκυίᾱς/τεθνεώσης
+    XAP.GSN: τεθνηκότος/τεθνεῶτος
+
+
+-
+    source: LTRG§110
+
+    lemma: παύω
+
+    XMP.NSM: πεπαυμένος
+    XMP.GSM: πεπαυμένου
+    XMP.DSM: πεπαυμένῳ
+    XMP.ASM: πεπαυμένον
+    XMP.VSM: πεπαυμένε
+    XMP.NPM: πεπαυμένοι
+    XMP.VPM: πεπαυμένοι
+    XMP.GPM: πεπαυμένων
+    XMP.DPM: πεπαυμένοις
+    XMP.APM: πεπαυμένους
+
+    XMP.NSF: πεπαυμένη
+    XMP.GSF: πεπαυμένης
+    XMP.DSF: πεπαυμένῃ
+    XMP.ASF: πεπαυμένην
+    XMP.VSF: πεπαυμένη
+    XMP.NPF: πεπαυμέναι
+    XMP.VPF: πεπαυμέναι
+    XMP.GPF: πεπαυμένων
+    XMP.DPF: πεπαυμέναις
+    XMP.APF: πεπαυμένᾱς
+
+    XMP.NSN: πεπαυμένον
+    XMP.GSN: πεπαυμένου
+    XMP.DSN: πεπαυμένῳ
+    XMP.ASN: πεπαυμένον
+    XMP.VSN: πεπαυμένον
+    XMP.NPN: πεπαυμένα
+    XMP.VPN: πεπαυμένα
+    XMP.GPN: πεπαυμένων
+    XMP.DPN: πεπαυμένοις
+    XMP.APN: πεπαυμένα
+
+
+-
+    source: LTRG§115
+
+    lemma: δείκνυμι  # δείκνῡμι
+
+    PAI.1S: δείκνῡμι
+    PAI.2S: δείκνῡς
+    PAI.3S: δείκνῡσι(ν)
+    PAI.1P: δείκνυμεν
+    PAI.2P: δείκνυτε
+    PAI.3P: δεικνύᾱσι(ν)
+
+    PMI.1S: δείκνυμαι
+    PMI.2S: δείκνυσαι
+    PMI.3S: δείκνυται
+    PMI.1P: δεικνύμεθα
+    PMI.2P: δείκνυσθε
+    PMI.3P: δείκνυνται
+
+    IAI.1S: ἐδείκνῡν
+    IAI.2S: ἐδείκνῡς
+    IAI.3S: ἐδείκνῡ
+    IAI.1P: ἐδείκνυμεν
+    IAI.2P: ἐδείκνυτε
+    IAI.3P: ἐδείκνυσαν
+
+    IMI.1S: ἐδεικνύμην
+    IMI.2S: ἐδείκνυσο
+    IMI.3S: ἐδείκνυτο
+    IMI.1P: ἐδεικνύμεθα
+    IMI.2P: ἐδείκνυσθε
+    IMI.3P: ἐδείκνυντο
+
+    PAN: δεικνύναι
+
+    PMN: δείκνυσθαι
+
+    PAP.NSM: δεικνῡ́ς
+    PAP.NSF: δεικνῦσα
+    PAP.NSN: δεικνύν
+    PAP.GSM: δεικνύντος
+    PAP.GSF: δεικνῡ́σης
+    PAP.GSN: δεικνύντος
+
+    PMP.NSM: δεικνύμενος
+    PMP.NSF: δεικνυμένη
+    PMP.NSN: δεικνύμενον
+    PMP.GSM: δεικνυμένου
+    PMP.GSF: δεικνυμένης
+    PMP.GSN: δεικνυμένου
+
+
+-
+    source: LTRG_V12
+
+    lemma: φαίνω
+
+    XMI.1S: πέφασμαι
+    XMI.3S: πέφανται
+    XMI.1P: πεφάσμεθα
+    XMI.2P: πέφανθε
+
+
+-
+    source: LTRG§117
+
+    lemma: φημί
+
+    PAD.2S: φάθι
+    PAD.3S: φάτω
+    PAD.2P: φάτε
+    PAD.3P: φάντων
+
+
+-
+    source: LTRG§117
+
+    lemma: δείκνυμι  # δείκνῡμι
+
+    PAD.2S: δείκνῡ
+    PAD.3S: δεικνύτω
+    PAD.2P: δείκνυτε
+    PAD.3P: δεικνύντων
+
+
+-
+    source: LTRG§117
+
+    lemma: εἰμί
+
+    PAD.2S: ἴσθι
+    PAD.3S: ἔστω
+    PAD.2P: ἔστε
+    PAD.3P: ἔστων
+
+
+-
+    source: LTRG§117
+
+    lemma: ἐπιδείκνῡμι
+
+    PMD.2S: ἐπιδείκνυσο
+    PMD.3S: ἐπιδεικνύσθω
+    PMD.2P: ἐπιδείκνυσθε
+    PMD.3P: ἐπιδεικνύσθων
+
+
+-
+    source: LTRG§117
+
+    tags:
+      - sigma-loss-pmd.2s
+
+    lemma: ἐπίσταμαι
+
+    PMD.2S: ἐπίστασο/ἐπίστω
+    PMD.3S: ἐπιστάσθω
+    PMD.2P: ἐπίστασθε
+    PMD.3P: ἐπιστάσθων
+
+
+-
+    source: LTRG§117
+
+    lemma: παύω
+
+    PAD.2S: παῦε
+    PAD.3S: παυέτω
+    PAD.2P: παύετε
+    PAD.3P: παυόντων
+
+
+-
+    source: LTRG§117
+
+    lemma: ποιέω
+
+    PAD.2S: ποίει
+    PAD.3S: ποιείτω
+    PAD.2P: ποιεῖτε
+    PAD.3P: ποιούντων
+
+
+-
+    source: LTRG§117
+
+    lemma: νικάω  # νῑκάω
+
+    PAD.2S: νῖκα
+    PAD.3S: νῑκάτω
+    PAD.2P: νῑκᾶτε
+    PAD.3P: νῑκώντων
+
+
+-
+    source: LTRG§117
+
+    lemma: δηλόω
+
+    PAD.2S: δήλου
+    PAD.3S: δηλούτω
+    PAD.2P: δηλοῦτε
+    PAD.3P: δηλούντων
+
+
+-
+    source: LTRG§117
+
+    lemma: ζάω
+
+    PAD.2S: ζῆ
+    PAD.3S: ζήτω
+    PAD.2P: ζῆτε
+    PAD.3P: ζώντων
+
+
+-
+    source: LTRG§117
+
+    lemma: παύω
+
+    PMD.2S: παύου
+    PMD.3S: παυέσθω
+    PMD.2P: παύεσθε
+    PMD.3P: παυέσθων
+
+
+-
+    source: LTRG§117
+
+    lemma: ποιέω
+
+    PMD.2S: ποιοῦ
+    PMD.3S: ποιείσθω
+    PMD.2P: ποιεῖσθε
+    PMD.3P: ποιείσθων
+
+
+-
+    source: LTRG§117
+
+    lemma: νικάω  # νῑκάω
+
+    PMD.2S: νῑκῶ
+    PMD.3S: νῑκᾱ́σθω
+    PMD.2P: νῑκᾶσθε
+    PMD.3P: νῑκᾱ́σθων
+
+
+-
+    source: LTRG§117
+
+    lemma: δηλόω
+
+    PMD.2S: δηλοῦ
+    PMD.3S: δηλούσθω
+    PMD.2P: δηλοῦσθε
+    PMD.3P: δηλούσθων
+
+
+-
+    source: LTRG§117
+
+    lemma: χράομαι
+
+    PMD.2S: χρῶ
+    PMD.3S: χρήσθω
+    PMD.2P: χρῆσθε
+    PMD.3P: χρήσθων
+
+
+-
+    source: LTRG§118
+
+    lemma: παύω
+
+    AAD.2S: παῦσον
+    AAD.3S: παυσάτω
+    AAD.2P: παύσατε
+    AAD.3P: παυσάντων
+
+    AMD.2S: παῦσαι
+    AMD.3S: παυσάσθω
+    AMD.2P: παύσασθε
+    AMD.3P: παυσάσθων
+
+
+-
+    source: LTRG§118
+
+    lemma: ἄγω
+
+    AAD.2S: ἄγαγε
+    AAD.3S: ἀγαγέτω
+    AAD.2P: ἀγάγετε
+    AAD.3P: ἀγαγόντων
+
+    AMD.2S: ἀγαγοῦ
+    AMD.3S: ἀγαγέσθω
+    AMD.2P: ἀγάγεσθε
+    AMD.3P: ἀγαγέσθων
+
+
+-
+    source: LTRG§118
+
+    lemma: ἔρχομαι
+
+    AAD.2S: ἐλθέ
+
+
+-
+    source: LTRG§118
+
+    lemma: λαμβάνω
+
+    AAD.2S: λαβέ
+
+
+-
+    source: LTRG§118
+
+    lemma: λέγω
+
+    AAD.2S: εἰπέ
+
+
+-
+    source: LTRG§118
+
+    lemma: ὁράω
+
+    AAD.2S: ἴδε/ἰδέ
+
+
+-
+    source: LTRG§118
+
+    lemma: ἔχω
+
+    AAD.2S: σχές
+
+
+-
+    source: LTRG§118
+
+    lemma: παύω
+
+    APD.2S: παύθητι
+    APD.3S: παυθήτω
+    APD.2P: παύθητε
+    APD.3P: παυθέντων
+
+
+-
+    source: LTRG§119
+
+    lemma: οἶδα
+
+    XAD.2S: ἴσθι
+    XAD.3S: ἴστω
+    XAD.2P: ἴστε
+    XAD.3P: ἴστων
+
+
+-
+    source: LTRG§122
+
+    lemma: παύω
+
+    PAS.1S: παύω
+    PAS.2S: παύῃς
+    PAS.3S: παύῃ
+    PAS.1P: παύωμεν
+    PAS.2P: παύητε
+    PAS.3P: παύωσι(ν)
+
+    PMS.1S: παύωμαι
+    PMS.2S: παύῃ
+    PMS.3S: παύηται
+    PMS.1P: παυώμεθα
+    PMS.2P: παύησθε
+    PMS.3P: παύωνται
+
+
+-
+    source: LTRG§122
+
+    lemma: ποιέω
+
+    PAS.1S: ποιῶ
+    PAS.2S: ποιῇς
+    PAS.3S: ποιῇ
+    PAS.1P: ποιῶμεν
+    PAS.2P: ποιῆτε
+    PAS.3P: ποιῶσι(ν)
+
+    PMS.1S: ποιῶμαι
+    PMS.2S: ποιῇ
+    PMS.3S: ποιῆται
+    PMS.1P: ποιώμεθα
+    PMS.2P: ποιῆσθε
+    PMS.3P: ποιῶνται
+
+
+-
+    source: LTRG§122
+
+    lemma: νικάω  # νῑκάω
+
+    PAS.1S: νῑκῶ
+    PAS.2S: νῑκᾷς
+    PAS.3S: νῑκᾷ
+    PAS.1P: νῑκῶμεν
+    PAS.2P: νῑκᾶτε
+    PAS.3P: νῑκῶσι(ν)
+
+    PMS.1S: νῑκῶμαι
+    PMS.2S: νῑκᾷ
+    PMS.3S: νῑκᾶται
+    PMS.1P: νῑκώμεθα
+    PMS.2P: νῑκᾶσθε
+    PMS.3P: νῑκῶνται
+
+
+-
+    source: LTRG§122
+
+    lemma: δηλόω
+
+    PAS.1S: δηλῶ
+    PAS.2S: δηλοῖς
+    PAS.3S: δηλοῖ
+    PAS.1P: δηλῶμεν
+    PAS.2P: δηλῶτε
+    PAS.3P: δηλῶσι(ν)
+
+    PMS.1S: δηλῶμαι
+    PMS.2S: δηλοῖ
+    PMS.3S: δηλῶται
+    PMS.1P: δηλώμεθα
+    PMS.2P: δηλῶσθε
+    PMS.3P: δηλῶνται
+
+
+-
+    source: LTRG§122
+
+    lemma: ζάω
+
+    PAS.1S: ζῶ
+    PAS.2S: ζῇς
+    PAS.3S: ζῇ
+    PAS.1P: ζῶμεν
+    PAS.2P: ζῆτε
+    PAS.3P: ζῶσι(ν)
+
+
+-
+    source: LTRG§122
+
+    lemma: χράομαι
+
+    PMS.1S: χρῶμαι
+    PMS.2S: χρῇ
+    PMS.3S: χρῆται
+    PMS.1P: χρώμεθα
+    PMS.2P: χρῆσθε
+    PMS.3P: χρῶνται
+
+
+-
+    source: LTRG§122
+
+    lemma: δείκνυμι  # δείκνῡμι
+
+    PAS.1S: δεικνύω
+    PAS.2S: δεικνύῃς
+    PAS.3S: δεικνύῃ
+    PAS.1P: δεικνύωμεν
+    PAS.2P: δεικνύητε
+    PAS.3P: δεικνύωσι(ν)
+
+    PMS.1S: δεικνύωμαι
+    PMS.2S: δεικνύῃ
+    PMS.3S: δεικνύηται
+    PMS.1P: δεικνυώμεθα
+    PMS.2P: δεικνύησθε
+    PMS.3P: δεικνύωνται
+
+
+-
+    source: LTRG§122
+
+    lemma: φημί
+
+    PAS.1S: φῶ
+    PAS.2S: φῇς
+    PAS.3S: φῇ
+    PAS.1P: φῶμεν
+    PAS.2P: φῆτε
+    PAS.3P: φῶσι(ν)
+
+
+-
+    source: LTRG§122
+
+    lemma: εἰμί
+
+    PAS.1S: ὦ
+    PAS.2S: ᾖς
+    PAS.3S: ᾖ
+    PAS.1P: ὦμεν
+    PAS.2P: ἦτε
+    PAS.3P: ὦσι(ν)
+
+
+-
+    source: LTRG§122
+
+    lemma: δύναμαι
+
+    PMS.1S: δύνωμαι
+    PMS.2S: δύνῃ
+    PMS.3S: δύνηται
+    PMS.1P: δυνώμεθα
+    PMS.2P: δύνησθε
+    PMS.3P: δύνωνται
+
+
+-
+    source: LTRG§122
+
+    lemma: ἐπίσταμαι
+
+    PMS.1S: ἐπίστωμαι
+    PMS.2S: ἐπίστῃ
+    PMS.3S: ἐπίστηται
+    PMS.1P: ἐπιστώμεθα
+    PMS.2P: ἐπίστησθε
+    PMS.3P: ἐπίστωνται
+
+
+-
+    source: LTRG§123
+
+    lemma: παύω
+
+    AAS.1S: παύσω
+    AAS.2S: παύσῃς
+    AAS.3S: παύσῃ
+    AAS.1P: παύσωμεν
+    AAS.2P: παύσητε
+    AAS.3P: παύσωσι(ν)
+
+    AMS.1S: παύσωμαι
+    AMS.2S: παύσῃ
+    AMS.3S: παύσηται
+    AMS.1P: παυσώμεθα
+    AMS.2P: παύσησθε
+    AMS.3P: παύσωνται
+
+
+-
+    source: LTRG§123
+
+    lemma: ἄγω
+
+    AAS.1S: ἀγάγω
+    AAS.2S: ἀγάγῃς
+    AAS.3S: ἀγάγῃ
+    AAS.1P: ἀγάγωμεν
+    AAS.2P: ἀγάγητε
+    AAS.3P: ἀγάγωσι(ν)
+
+    AMS.1S: ἀγάγωμαι
+    AMS.2S: ἀγάγῃ
+    AMS.3S: ἀγάγηται
+    AMS.1P: ἀγαγώμεθα
+    AMS.2P: ἀγάγησθε
+    AMS.3P: ἀγάγωνται
+
+
+-
+    source: LTRG§124
+
+    lemma: παύω
+
+    APS.1S: παυθῶ
+    APS.2S: παυθῇς
+    APS.3S: παυθῇ
+    APS.1P: παυθῶμεν
+    APS.2P: παυθῆτε
+    APS.3P: παυθῶσι(ν)
+
+
+-
+    source: LTRG§125
+
+    lemma: οἶδα
+
+    XAS.1S: εἰδῶ
+    XAS.2S: εἰδῇς
+    XAS.3S: εἰδῇ
+    XAS.1P: εἰδῶμεν
+    XAS.2P: εἰδῆτε
+    XAS.3P: εἰδῶσι(ν)
+
+
+-
+    source: LTRG§132
+
+    lemma: παύω
+
+    PAO.1S: παύοιμι
+    PAO.2S: παύοις
+    PAO.3S: παύοι
+    PAO.1P: παύοιμεν
+    PAO.2P: παύοιτε
+    PAO.3P: παύοιεν
+
+    PMO.1S: παυοίμην
+    PMO.2S: παύοιο
+    PMO.3S: παύοιτο
+    PMO.1P: παυοίμεθα
+    PMO.2P: παύοισθε
+    PMO.3P: παύοιντο
+
+
+-
+    source: LTRG§132
+
+    lemma: ποιέω
+
+    PAO.1S: ποιοῖμι/ποιοίην
+    PAO.2S: ποιοῖς/ποιοίης
+    PAO.3S: ποιοῖ/ποιοίη
+    PAO.1P: ποιοῖμεν/ποιοίημεν
+    PAO.2P: ποιοῖτε/ποιοίητε
+    PAO.3P: ποιοῖεν/ποιοίησαν
+
+    PMO.1S: ποιοίμην
+    PMO.2S: ποιοῖο
+    PMO.3S: ποιοῖτο
+    PMO.1P: ποιοίμεθα
+    PMO.2P: ποιοῖσθε
+    PMO.3P: ποιοῖντο
+
+
+-
+    source: LTRG§132
+
+    lemma: νικάω  # νῑκάω
+
+    PAO.1S: νῑκῷμι/νῑκῴην
+    PAO.2S: νῑκῷς/νῑκῴης
+    PAO.3S: νῑκῷ/νῑκῴη
+    PAO.1P: νῑκῷμεν/νῑκῴημεν
+    PAO.2P: νῑκῷτε/νῑκῴητε
+    PAO.3P: νῑκῷεν/νῑκῴησαν
+
+    PMO.1S: νῑκῴμην
+    PMO.2S: νῑκῷο
+    PMO.3S: νῑκῷτο
+    PMO.1P: νῑκῴμεθα
+    PMO.2P: νῑκῷσθε
+    PMO.3P: νῑκῷντο
+
+
+-
+    source: LTRG§132
+
+    lemma: δηλόω
+
+    PAO.1S: δηλοῖμι/δηλοίην
+    PAO.2S: δηλοῖς/δηλοίης
+    PAO.3S: δηλοῖ/δηλοίη
+    PAO.1P: δηλοῖμεν/δηλοίημεν
+    PAO.2P: δηλοῖτε/δηλοίητε
+    PAO.3P: δηλοῖεν/δηλοίησαν
+
+    PMO.1S: δηλοίμην
+    PMO.2S: δηλοῖο
+    PMO.3S: δηλοῖτο
+    PMO.1P: δηλοίμεθα
+    PMO.2P: δηλοῖσθε
+    PMO.3P: δηλοῖντο
+
+
+-
+    source: LTRG§133
+
+    lemma: φημί
+
+    PAO.1S: φαίην
+    PAO.2S: φαίης
+    PAO.3S: φαίη
+    PAO.1P: φαῖμεν
+    PAO.2P: φαῖτε
+    PAO.3P: φαῖεν
+
+
+-
+    source: LTRG§133
+
+    tags:
+      - alt-eimi-opt
+
+    lemma: εἰμί
+
+    PAO.1S: εἴην
+    PAO.2S: εἴης
+    PAO.3S: εἴη
+    PAO.1P: εἶμεν/εἴημεν
+    PAO.2P: εἶτε/εἴητε
+    PAO.3P: εἶεν/εἴησαν
+
+
+-
+    source: LTRG§133
+
+    lemma: δύναμαι
+
+    PMO.1S: δυναίμην
+    PMO.2S: δύναιο
+    PMO.3S: δύναιτο
+    PMO.1P: δυναίμεθα
+    PMO.2P: δύναισθε
+    PMO.3P: δύναιντο
+
+
+-
+    source: LTRG§133
+
+    lemma: δείκνυμι  # δείκνῡμι
+
+    PAO.1S: δεικνύοιμι
+    PAO.2S: δεικνύοις
+    PAO.3S: δεικνύοι
+    PAO.1P: δεικνύοιμεν
+    PAO.2P: δεικνύοιτε
+    PAO.3P: δεικνύοιεν
+
+    PMO.1S: δεικνυοίμην
+    PMO.2S: δεικνύοιο
+    PMO.3S: δεικνύοιτο
+    PMO.1P: δεικνυοίμεθα
+    PMO.2P: δεικνύοισθε
+    PMO.3P: δεικνύοιντο
+
+
+-
+    source: LTRG§134
+
+    lemma: παύω
+
+    FAO.1S: παύσοιμι
+    FAO.2S: παύσοις
+    FAO.3S: παύσοι
+    FAO.1P: παύσοιμεν
+    FAO.2P: παύσοιτε
+    FAO.3P: παύσοιεν
+
+    FMO.1S: παυσοίμην
+    FMO.2S: παύσοιο
+    FMO.3S: παύσοιτο
+    FMO.1P: παυσοίμεθα
+    FMO.2P: παύσοισθε
+    FMO.3P: παύσοιντο
+
+
+-
+    source: LTRG§134
+
+    lemma: ἀπόλλῡμι
+
+    FAO.1S: ἀπολοῖμι
+    FAO.2S: ἀπολοῖς
+    FAO.3S: ἀπολοῖ
+    FAO.1P: ἀπολοῖμεν
+    FAO.2P: ἀπολοῖτε
+    FAO.3P: ἀπολοῖεν
+
+    FMO.1S: ἀπολοίμην
+    FMO.2S: ἀπολοῖο
+    FMO.3S: ἀπολοῖτο
+    FMO.1P: ἀπολοίμεθα
+    FMO.2P: ἀπολοῖσθε
+    FMO.3P: ἀπολοῖντο
+
+
+-
+    source: LTRG§134
+
+    lemma: παύω
+
+    FPO.1S: παυθησοίμην
+    FPO.2S: παυθήσοιο
+    FPO.3S: παυθήσοιτο
+    FPO.1P: παυθησοίμεθα
+    FPO.2P: παυθήσοισθε
+    FPO.3P: παυθήσοιντο
+
+
+-
+    source: LTRG§135
+    tags:
+      - final-nu-aao.3s
+
+    lemma: παύω
+
+    AAO.1S: παύσαιμι
+    AAO.2S: παύσαις/παύσειας
+    AAO.3S: παύσαι/παύσειε(ν)
+    AAO.1P: παύσαιμεν
+    AAO.2P: παύσαιτε
+    AAO.3P: παύσαιεν/παύσειαν
+
+    AMO.1S: παυσαίμην
+    AMO.2S: παύσαιο
+    AMO.3S: παύσαιτο
+    AMO.1P: παυσαίμεθα
+    AMO.2P: παύσαισθε
+    AMO.3P: παύσαιντο
+
+
+-
+    source: LTRG§136
+
+    lemma: ἄγω
+
+    AAO.1S: ἀγάγοιμι
+    AAO.2S: ἀγάγοις
+    AAO.3S: ἀγάγοι
+    AAO.1P: ἀγάγοιμεν
+    AAO.2P: ἀγάγοιτε
+    AAO.3P: ἀγάγοιεν
+
+    AMO.1S: ἀγαγοίμην
+    AMO.2S: ἀγάγοιο
+    AMO.3S: ἀγάγοιτο
+    AMO.1P: ἀγαγοίμεθα
+    AMO.2P: ἀγάγοισθε
+    AMO.3P: ἀγάγοιντο
+
+
+-
+    source: LTRG§137
+
+    tags:
+      - alt-apo-pl
+
+    lemma: παύω
+
+    APO.1S: παυθείην
+    APO.2S: παυθείης
+    APO.3S: παυθείη
+    APO.1P: παυθείημεν/παυθεῖμεν
+    APO.2P: παυθείητε/παυθεῖτε
+    APO.3P: παυθείησαν/παυθεῖεν
+
+
+-
+    source: LTRG§138
+
+    tags:
+      - alt-xao-pl
+
+    lemma: οἶδα
+
+    XAO.1S: εἰδείην
+    XAO.2S: εἰδείης
+    XAO.3S: εἰδείη
+    XAO.1P: εἰδείημεν/εἰδεῖμεν
+    XAO.2P: εἰδείητε/εἰδεῖτε
+    XAO.3P: εἰδείησαν/εἰδεῖεν
+
+
+-
+    source: LTRG§145
+
+    tags:
+      - alt-eimi-imp
+      - alt-εἶμι-pao.1s
+
+    lemma: εἶμι
+
+    PAI.1S: εἶμι
+    PAI.2S: εἶ
+    PAI.3S: εἶσι(ν)
+    PAI.1P: ἴμεν
+    PAI.2P: ἴτε
+    PAI.3P: ἴᾱσι(ν)
+
+    IAI.1S: ᾖα/ᾔειν
+    IAI.2S: ᾔεις
+    IAI.3S: ᾔει(ν)
+    IAI.1P: ᾖμεν
+    IAI.2P: ᾖτε
+    IAI.3P: ᾖσαν/ᾔεσαν
+
+    PAS.1S: ἴω
+    PAS.2S: ἴῃς
+    PAS.3S: ἴῃ
+    PAS.1P: ἴωμεν
+    PAS.2P: ἴητε
+    PAS.3P: ἴωσι(ν)
+
+    PAO.1S: ἰοίην
+    PAO.2S: ἴοις
+    PAO.3S: ἴοι
+    PAO.1P: ἴοιμεν
+    PAO.2P: ἴοιτε
+    PAO.3P: ἴοιεν
+
+    PAD.2S: ἴθι
+    PAD.3S: ἴτω
+    PAD.2P: ἴτε
+    PAD.3P: ἰόντων
+
+    PAN: ἰέναι
+
+    PAP.NSM: ἰών
+    PAP.NSF: ἰοῦσα
+    PAP.NSN: ἰόν
+    PAP.GSM: ἰόντος
+    PAP.GSF: ἰούσης
+    PAP.GSN: ἰόντος
+
+
+-
+    source: LTRG§146
+    tags:
+      - final-nu-aai.3s
+
+    lemma: φύω  # φῡ́ω
+
+    AAI.1S: ἔφῡσα/ἔφῡν
+    AAI.2S: ἔφῡσας/ἔφῡς
+    AAI.3S: ἔφῡσε(ν)/ἔφῡ
+    AAI.1P: ἐφῡ́σαμεν/ἔφῡμεν
+    AAI.2P: ἐφῡ́σατε/ἔφῡτε
+    AAI.3P: ἔφῡσαν
+
+    AAS.1S: φύσω/φύω
+    AAS.2S: φύσῃς/φύῃς
+    AAS.3S: φύσῃ/φύῃ
+    AAS.1P: φύσωμεν/φύωμεν
+    AAS.2P: φύσητε/φύητε
+    AAS.3P: φύσωσι(ν)/φύωσι(ν)
+
+    AAN: φῦσαι/φῦναι
+
+    AAP.NSM: φῡ́σᾱς/φῡ́ς
+    AAP.NSF: φῡ́σᾱσα/φῦσα
+    AAP.NSN: φύσαν/φύν
+    AAP.GSM: φύσαντος/φύντος
+    AAP.GSF: φῡσᾱ́σης/φῡ́σης
+    AAP.GSN: φύσαντος/φύντος
+
+
+-
+    source: LTRG_V14
+
+    tags:
+      - alt-aao-pl
+      - final-nu-aai.3s
+
+    lemma: γιγνώσκω
+
+    AAI.1S: ἔγνων
+    AAI.2S: ἔγνως
+    AAI.3S: ἔγνω
+    AAI.1P: ἔγνωμεν
+    AAI.2P: ἔγνωτε
+    AAI.3P: ἔγνωσαν
+
+    AAS.1S: γνῶ
+    AAS.2S: γνῷς
+    AAS.3S: γνῷ
+    AAS.1P: γνῶμεν
+    AAS.2P: γνῶτε
+    AAS.3P: γνῶσι(ν)
+
+    AAO.1S: γνοίην
+    AAO.2S: γνοίης
+    AAO.3S: γνοίη
+    AAO.1P: γνοίημεν/γνοῖμεν
+    AAO.2P: γνοῖτε/γνοίητε
+    AAO.3P: γνοῖεν/γνοίησαν
+
+    AAD.2S: γνῶθι
+    AAD.3S: γνώτω
+    AAD.2P: γνῶτε
+    AAD.3P: γνόντων
+
+    AAN: γνῶναι
+
+    AAP.NSM: γνούς
+    AAP.NSF: γνοῦσα
+    AAP.NSN: γνόν
+    AAP.GSM: γνόντος
+    AAP.GSF: γνούσης
+    AAP.GSN: γνόντος
+
+
+-
+    source: LTRG§148
+
+    lemma: δίδωμι
+
+    PAI.1S: δίδωμι
+    PAI.2S: δίδως
+    PAI.3S: δίδωσι(ν)
+    PAI.1P: δίδομεν
+    PAI.2P: δίδοτε
+    PAI.3P: διδόᾱσι(ν)
+
+    IAI.1S: ἐδίδουν
+    IAI.2S: ἐδίδους
+    IAI.3S: ἐδίδου
+    IAI.1P: ἐδίδομεν
+    IAI.2P: ἐδίδοτε
+    IAI.3P: ἐδίδοσαν
+
+    PAD.2S: δίδου
+    PAD.3S: διδότω
+    PAD.2P: δίδοτε
+    PAD.3P: διδόντων
+
+    PAS.1S: διδῶ
+    PAS.2S: διδῷς
+    PAS.3S: διδῷ
+    PAS.1P: διδῶμεν
+    PAS.2P: διδῶτε
+    PAS.3P: διδῶσι(ν)
+
+    PAO.1S: διδοίην
+    PAO.2S: διδοίης
+    PAO.3S: διδοίη
+    PAO.1P: διδοῖμεν
+    PAO.2P: διδοῖτε
+    PAO.3P: διδοῖεν
+
+
+-
+    source: LTRG§148
+
+    lemma: τίθημι
+
+    PAI.1S: τίθημι
+    PAI.2S: τίθης
+    PAI.3S: τίθησι(ν)
+    PAI.1P: τίθεμεν
+    PAI.2P: τίθετε
+    PAI.3P: τιθέᾱσι(ν)
+
+    IAI.1S: ἐτίθην
+    IAI.2S: ἐτίθεις
+    IAI.3S: ἐτίθει
+    IAI.1P: ἐτίθεμεν
+    IAI.2P: ἐτίθετε
+    IAI.3P: ἐτίθεσαν
+
+    PAD.2S: τίθει
+    PAD.3S: τιθέτω
+    PAD.2P: τίθετε
+    PAD.3P: τιθέντων
+
+    PAS.1S: τιθῶ
+    PAS.2S: τιθῇς
+    PAS.3S: τιθῇ
+    PAS.1P: τιθῶμεν
+    PAS.2P: τιθῆτε
+    PAS.3P: τιθῶσι(ν)
+
+    PAO.1S: τιθείην
+    PAO.2S: τιθείης
+    PAO.3S: τιθείη
+    PAO.1P: τιθεῖμεν
+    PAO.2P: τιθεῖτε
+    PAO.3P: τιθεῖεν
+
+
+-
+    source: LTRG§148
+
+    lemma: δίδωμι
+
+    PMI.1S: δίδομαι
+    PMI.2S: δίδοσαι
+    PMI.3S: δίδοται
+    PMI.1P: διδόμεθα
+    PMI.2P: δίδοσθε
+    PMI.3P: δίδονται
+
+    IMI.1S: ἐδιδόμην
+    IMI.2S: ἐδίδοσο
+    IMI.3S: ἐδίδοτο
+    IMI.1P: ἐδιδόμεθα
+    IMI.2P: ἐδίδοσθε
+    IMI.3P: ἐδίδοντο
+
+    PMD.2S: δίδοσο
+    PMD.3S: διδόσθω
+    PMD.2P: δίδοσθε
+    PMD.3P: διδόσθων
+
+    PMS.1S: διδῶμαι
+    PMS.2S: διδῷ
+    PMS.3S: διδῶται
+    PMS.1P: διδώμεθα
+    PMS.2P: διδῶσθε
+    PMS.3P: διδῶνται
+
+    PMO.1S: διδοίμην
+    PMO.2S: διδοῖο
+    PMO.3S: διδοῖτο
+    PMO.1P: διδοίμεθα
+    PMO.2P: διδοῖσθε
+    PMO.3P: διδοῖντο
+
+
+-
+    source: LTRG§148
+
+    lemma: τίθημι
+
+    tags:
+      - thematic-τίθημι-pmo.3s
+
+    PMI.1S: τίθεμαι
+    PMI.2S: τίθεσαι
+    PMI.3S: τίθεται
+    PMI.1P: τιθέμεθα
+    PMI.2P: τίθεσθε
+    PMI.3P: τίθενται
+
+    IMI.1S: ἐτιθέμην
+    IMI.2S: ἐτίθεσο
+    IMI.3S: ἐτίθετο
+    IMI.1P: ἐτιθέμεθα
+    IMI.2P: ἐτίθεσθε
+    IMI.3P: ἐτίθεντο
+
+    PMD.2S: τίθεσο
+    PMD.3S: τιθέσθω
+    PMD.2P: τίθεσθε
+    PMD.3P: τιθέσθων
+
+    PMS.1S: τιθῶμαι
+    PMS.2S: τιθῇ
+    PMS.3S: τιθῆται
+    PMS.1P: τιθώμεθα
+    PMS.2P: τιθῆσθε
+    PMS.3P: τιθῶνται
+
+    PMO.1S: τιθείμην
+    PMO.2S: τιθεῖο
+    PMO.3S: τιθοῖτο/τιθεῖτο
+    PMO.1P: τιθείμεθα
+    PMO.2P: τιθεῖσθε
+    PMO.3P: τιθεῖντο
+
+
+-
+    source: LTRG§148
+
+    lemma: δίδωμι
+
+    PAN: διδόναι
+
+    PMN: δίδοσθαι
+
+    PAP.NSM: διδούς
+    PAP.NSF: διδοῦσα
+    PAP.NSN: διδόν
+    PAP.GSM: διδόντος
+    PAP.GSF: διδούσης
+    PAP.GSN: διδόντος
+
+    PMP.NSM: διδόμενος
+    PMP.NSF: διδομένη
+    PMP.NSN: διδόμενον
+
+
+-
+    source: LTRG§148
+
+    lemma: τίθημι
+
+    PAN: τιθέναι
+
+    PMN: τίθεσθαι
+
+    PAP.NSM: τιθείς
+    PAP.NSF: τιθεῖσα
+    PAP.NSN: τιθέν
+    PAP.GSM: τιθέντος
+    PAP.GSF: τιθείσης
+    PAP.GSN: τιθέντος
+
+    PMP.NSM: τιθέμενος
+    PMP.NSF: τιθεμένη
+    PMP.NSN: τιθέμενον
+
+
+-
+    source: LTRG§148
+
+    tags:
+      - alt-aao-pl
+      - final-nu-aai.3s
+
+    lemma: δίδωμι
+
+    AAI.1S: ἔδωκα
+    AAI.2S: ἔδωκας
+    AAI.3S: ἔδωκε(ν)
+    AAI.1P: ἔδομεν
+    AAI.2P: ἔδοτε
+    AAI.3P: ἔδοσαν
+
+    AAD.2S: δός
+    AAD.3S: δότω
+    AAD.2P: δότε
+    AAD.3P: δόντων
+
+    AAS.1S: δῶ
+    AAS.2S: δῷς
+    AAS.3S: δῷ
+    AAS.1P: δῶμεν
+    AAS.2P: δῶτε
+    AAS.3P: δῶσι(ν)
+
+    AAO.1S: δοίην
+    AAO.2S: δοίης
+    AAO.3S: δοίη
+    AAO.1P: δοίημεν/δοῖμεν
+    AAO.2P: δοῖτε/δοίητε
+    AAO.3P: δοῖεν/δοίησαν
+
+
+-
+    source: LTRG§148
+
+    tags:
+      - alt-aao-1p-only
+      - final-nu-aai.3s
+
+    lemma: τίθημι
+
+    AAI.1S: ἔθηκα
+    AAI.2S: ἔθηκας
+    AAI.3S: ἔθηκε(ν)
+    AAI.1P: ἔθεμεν
+    AAI.2P: ἔθετε
+    AAI.3P: ἔθεσαν
+
+    AAD.2S: θές
+    AAD.3S: θέτω
+    AAD.2P: θέτε
+    AAD.3P: θέντων
+
+    AAS.1S: θῶ
+    AAS.2S: θῇς
+    AAS.3S: θῇ
+    AAS.1P: θῶμεν
+    AAS.2P: θῆτε
+    AAS.3P: θῶσι(ν)
+
+    AAO.1S: θείην
+    AAO.2S: θείης
+    AAO.3S: θείη
+    AAO.1P: θείημεν/θεῖμεν
+    AAO.2P: θεῖτε
+    AAO.3P: θεῖεν
+
+
+-
+    source: LTRG§148
+
+    lemma: δίδωμι
+
+    AMI.1S: ἐδόμην
+    AMI.2S: ἔδου
+    AMI.3S: ἔδοτο
+    AMI.1P: ἐδόμεθα
+    AMI.2P: ἔδοσθε
+    AMI.3P: ἔδοντο
+
+    AMD.2S: δοῦ
+    AMD.3S: δόσθω
+    AMD.2P: δόσθε
+    AMD.3P: δόσθων
+
+    AMS.1S: δῶμαι
+    AMS.2S: δῷ
+    AMS.3S: δῶται
+    AMS.1P: δώμεθα
+    AMS.2P: δῶσθε
+    AMS.3P: δῶνται
+
+    AMO.1S: δοίμην
+    AMO.2S: δοῖο
+    AMO.3S: δοῖτο
+    AMO.1P: δοίμεθα
+    AMO.2P: δοῖσθε
+    AMO.3P: δοῖντο
+
+
+-
+    source: LTRG§148
+
+    lemma: τίθημι
+
+    AMI.1S: ἐθέμην
+    AMI.2S: ἔθου
+    AMI.3S: ἔθετο
+    AMI.1P: ἐθέμεθα
+    AMI.2P: ἔθεσθε
+    AMI.3P: ἔθεντο
+
+    AMD.2S: θοῦ
+    AMD.3S: θέσθω
+    AMD.2P: θέσθε
+    AMD.3P: θέσθων
+
+    AMS.1S: θῶμαι
+    AMS.2S: θῇ
+    AMS.3S: θῆται
+    AMS.1P: θώμεθα
+    AMS.2P: θῆσθε
+    AMS.3P: θῶνται
+
+    AMO.1S: θείμην
+    AMO.2S: θεῖο
+    AMO.3S: θεῖτο
+    AMO.1P: θείμεθα
+    AMO.2P: θεῖσθε
+    AMO.3P: θεῖντο
+
+
+-
+    source: LTRG§148
+
+    lemma: δίδωμι
+
+    AAN: δοῦναι
+
+    AAP.NSM: δούς
+    AAP.NSF: δοῦσα
+    AAP.NSN: δόν
+    AAP.GSM: δόντος
+    AAP.GSF: δούσης
+    AAP.GSN: δόντος
+
+    AMN: δόσθαι
+
+    AMP.NSM: δόμενος
+    AMP.NSF: δομένη
+    AMP.NSN: δόμενον
+
+
+-
+    source: LTRG§148
+
+    lemma: τίθημι
+
+    AAN: θεῖναι
+
+    AAP.NSM: θείς
+    AAP.NSF: θεῖσα
+    AAP.NSN: θέν
+    AAP.GSM: θέντος
+    AAP.GSF: θείσης
+    AAP.GSN: θέντος
+
+    AMN: θέσθαι
+
+    AMP.NSM: θέμενος
+    AMP.NSF: θεμένη
+    AMP.NSN: θέμενον
+
+
+-
+    source: LTRG_V15
+
+    lemma: βαίνω
+
+    AAI.1S: ἔβην
+    AAI.2S: ἔβης
+    AAI.3S: ἔβη
+    AAI.1P: ἔβημεν
+    AAI.2P: ἔβητε
+    AAI.3P: ἔβησαν
+
+    AAS.1S: βῶ
+    AAS.2S: βῇς
+    AAS.3S: βῇ
+    AAS.1P: βῶμεν
+    AAS.2P: βῆτε
+    AAS.3P: βῶσι(ν)
+
+    AAO.1S: βαίην
+    AAO.2S: βαίης
+    AAO.3S: βαίη
+    AAO.1P: βαῖμεν
+    AAO.2P: βαῖτε
+    AAO.3P: βαῖεν
+
+    AAD.2S: βῆθι
+    AAD.3S: βήτω
+    AAD.2P: βῆτε
+    AAD.3P: βάντων
+
+    AAN: βῆναι
+
+    AAP.NSM: βᾱ́ς
+    AAP.NSF: βᾶσα
+    AAP.NSN: βάν
+    AAP.GSM: βάντος
+    AAP.GSF: βᾱ́σης
+    AAP.GSN: βάντος
+
+
+-
+    source: LTRG§151
+
+    lemma: ἵστημι
+
+    PAI.1S: ἵστημι
+    PAI.2S: ἵστης
+    PAI.3S: ἵστησι(ν)
+    PAI.1P: ἵσταμεν
+    PAI.2P: ἵστατε
+    PAI.3P: ἱστᾶσι(ν)
+
+    IAI.1S: ῑ̔́στην
+    IAI.2S: ῑ̔́στης
+    IAI.3S: ῑ̔́στη
+    IAI.1P: ῑ̔́σταμεν
+    IAI.2P: ῑ̔́στατε
+    IAI.3P: ῑ̔́στασαν
+
+    PAD.2S: ἵστη
+    PAD.3S: ἱστάτω
+    PAD.2P: ἵστατε
+    PAD.3P: ἱστάντων
+
+    PAS.1S: ἱστῶ
+    PAS.2S: ἱστῇς
+    PAS.3S: ἱστῇ
+    PAS.1P: ἱστῶμεν
+    PAS.2P: ἱστῆτε
+    PAS.3P: ἱστῶσι(ν)
+
+    PAO.1S: ἱσταίην
+    PAO.2S: ἱσταίης
+    PAO.3S: ἱσταίη
+    PAO.1P: ἱσταῖμεν
+    PAO.2P: ἱσταῖτε
+    PAO.3P: ἱσταῖεν
+
+
+-
+    source: LTRG§151
+
+    tags:
+      - no-sigma-loss-imi.2s
+
+    lemma: ἵστημι
+
+    PMI.1S: ἵσταμαι
+    PMI.2S: ἵστασαι
+    PMI.3S: ἵσταται
+    PMI.1P: ἱστάμεθα
+    PMI.2P: ἵστασθε
+    PMI.3P: ἵστανται
+
+    IMI.1S: ῑ̔στάμην
+    IMI.2S: ῑ̔́στασο
+    IMI.3S: ῑ̔́στατο
+    IMI.1P: ῑ̔στάμεθα
+    IMI.2P: ῑ̔́στασθε
+    IMI.3P: ῑ̔́σταντο
+
+    PMD.2S: ἵστασο
+    PMD.3S: ἱστάσθω
+    PMD.2P: ἵστασθε
+    PMD.3P: ἱστάσθων
+
+    PMS.1S: ἱστῶμαι
+    PMS.2S: ἱστῇ
+    PMS.3S: ἱστῆται
+    PMS.1P: ἱστώμεθα
+    PMS.2P: ἱστῆσθε
+    PMS.3P: ἱστῶνται
+
+    PMO.1S: ἱσταίμην
+    PMO.2S: ἱσταῖο
+    PMO.3S: ἱσταῖτο
+    PMO.1P: ἱσταίμεθα
+    PMO.2P: ἱσταῖσθε
+    PMO.3P: ἱσταῖντο
+
+
+-
+    source: LTRG§151
+
+    lemma: ἵστημι
+
+    PAN: ἱστάναι
+
+    PAP.NSM: ἱστᾱ́ς
+    PAP.NSF: ἱστᾶσα
+    PAP.NSN: ἱστάν
+    PAP.GSM: ἱστάντος
+    PAP.GSF: ἱστᾱ́σης
+    PAP.GSN: ἱστάντος
+
+    PMN: ἵστασθαι
+
+    PMP.NSM: ἱστάμενος
+    PMP.NSF: ἱσταμένη
+    PMP.NSN: ἱστάμενον
+
+
+-
+    source: LTRG§151
+    tags:
+      - final-nu-aai.3s
+      - final-nu-aao.3s
+
+    lemma: ἵστημι
+
+    AAI.1S: ἔστησα/ἔστην
+    AAI.2S: ἔστησας/ἔστης
+    AAI.3S: ἔστησε(ν)/ἔστη
+    AAI.1P: ἐστήσαμεν/ἔστημεν
+    AAI.2P: ἐστήσατε/ἔστητε
+    AAI.3P: ἔστησαν
+
+    AAD.2S: στῆσον/στῆθι
+    AAD.3S: στησάτω/στήτω
+    AAD.2P: στήσατε/στῆτε
+    AAD.3P: στησάντων/στάντων
+
+    AAS.1S: στήσω/στῶ
+    AAS.2S: στήσῃς/στῇς
+    AAS.3S: στήσῃ/στῇ
+    AAS.1P: στήσωμεν/στῶμεν
+    AAS.2P: στήσητε/στῆτε
+    AAS.3P: στήσωσι(ν)/στῶσι(ν)
+
+    AAO.1S: στήσαιμι/σταίην
+    AAO.2S: στήσαις/στήσειας/σταίης
+    AAO.3S: στήσαι/στήσειε(ν)/σταίη
+    AAO.1P: στήσαιμεν/σταῖμεν
+    AAO.2P: στήσαιτε/σταῖτε
+    AAO.3P: στήσαιεν/στήσειαν/σταῖεν
+
+
+-
+    source: LTRG§151
+
+    lemma: ἵστημι
+
+    AAN: στῆσαι/στῆναι
+
+    AAP.NSM: στήσᾱς/στᾱ́ς
+    AAP.NSF: στήσᾱσα/στᾶσα
+    AAP.NSN: στῆσαν/στάν
+    AAP.GSM: στήσαντος/στάντος
+    AAP.GSF: στησᾱ́σης/στᾱ́σης
+    AAP.GSN: στήσαντος/στάντος
+
+
+-
+    source: LTRG§151
+
+    lemma: ἵστημι
+
+    XAI.1S: ἕστηκα
+    XAI.2S: ἕστηκας
+    XAI.3S: ἕστηκε(ν)
+    XAI.1P: ἕσταμεν
+    XAI.2P: ἕστατε
+    XAI.3P: ἑστᾶσι(ν)
+
+    YAI.1S: εἱστήκη
+    YAI.2S: εἱστήκης
+    YAI.3S: εἱστήκει(ν)
+    YAI.1P: ἕσταμεν
+    YAI.2P: ἕστατε
+    YAI.3P: ἕστασαν
+
+
+-
+    source: LTRG§151
+
+    lemma: ἵστημι
+    tags:
+      - thematic-ἵστημι-xap
+
+    XAN: ἑστάναι
+
+    XAP.NSM: ἑστηκώς/ἑστώς
+    XAP.NSF: ἑστηκυῖα/ἑστῶσα
+    XAP.NSN: ἑστηκός/ἑστός
+    XAP.GSM: ἑστηκότος/ἑστῶτος
+    XAP.GSF: ἑστηκυίᾱς/ἑστώσης
+    XAP.GSN: ἑστηκότος/ἑστῶτος
+
+
+-
+    source: LTRG§155
+
+    lemma: ἵημι  # ῑ̔́ημι
+
+    PAI.1S: ῑ̔́ημι
+    PAI.2S: ῑ̔́ης
+    PAI.3S: ῑ̔́ησι(ν)
+    PAI.1P: ῑ̔́εμεν
+    PAI.2P: ῑ̔́ετε
+    PAI.3P: ῑ̔ᾶσι(ν)
+
+    IAI.1S: ῑ̔́ην
+    IAI.2S: ῑ̔́εις
+    IAI.3S: ῑ̔́ει
+    IAI.1P: ῑ̔́εμεν
+    IAI.2P: ῑ̔́ετε
+    IAI.3P: ῑ̔́εσαν
+
+    PAD.2S: ῑ̔́ει
+    PAD.3S: ῑ̔έτω
+    PAD.2P: ῑ̔́ετε
+    PAD.3P: ῑ̔έντων
+
+    PAS.1S: ῑ̔ῶ
+    PAS.2S: ῑ̔ῇς
+    PAS.3S: ῑ̔ῇ
+    PAS.1P: ῑ̔ῶμεν
+    PAS.2P: ῑ̔ῆτε
+    PAS.3P: ῑ̔ῶσι(ν)
+
+    PAO.1S: ῑ̔είην
+    PAO.2S: ῑ̔είης
+    PAO.3S: ῑ̔είη
+    PAO.1P: ῑ̔εῖμεν
+    PAO.2P: ῑ̔εῖτε
+    PAO.3P: ῑ̔εῖεν
+
+
+-
+    source: LTRG§155
+
+    lemma: ἵημι  # ῑ̔́ημι
+
+    PMI.1S: ῑ̔́εμαι
+    PMI.2S: ῑ̔́εσαι
+    PMI.3S: ῑ̔́εται
+    PMI.1P: ῑ̔έμεθα
+    PMI.2P: ῑ̔́εσθε
+    PMI.3P: ῑ̔́ενται
+
+    IMI.1S: ῑ̔έμην
+    IMI.2S: ῑ̔́εσο
+    IMI.3S: ῑ̔́ετο
+    IMI.1P: ῑ̔έμεθα
+    IMI.2P: ῑ̔́εσθε
+    IMI.3P: ῑ̔́εντο
+
+    PMD.2S: ῑ̔́εσο
+    PMD.3S: ῑ̔έσθω
+    PMD.2P: ῑ̔́εσθε
+    PMD.3P: ῑ̔έσθων
+
+    PMS.1S: ῑ̔ῶμαι
+    PMS.2S: ῑ̔ῇ
+    PMS.3S: ῑ̔ῆται
+    PMS.1P: ῑ̔ώμεθα
+    PMS.2P: ῑ̔ῆσθε
+    PMS.3P: ῑ̔ῶνται
+
+    PMO.1S: ῑ̔είμην
+    PMO.2S: ῑ̔εῖο
+    PMO.3S: ῑ̔εῖτο
+    PMO.1P: ῑ̔είμεθα
+    PMO.2P: ῑ̔εῖσθε
+    PMO.3P: ῑ̔εῖντο
+
+
+-
+    source: LTRG§155
+
+    lemma: ἵημι  # ῑ̔́ημι
+
+    PAN: ῑ̔έναι
+
+    PAP.NSM: ῑ̔είς
+    PAP.NSF: ῑ̔εῖσα
+    PAP.NSN: ῑ̔έν
+    PAP.GSM: ῑ̔έντος
+    PAP.GSF: ῑ̔είσης
+    PAP.GSN: ῑ̔έντος
+
+    PMN: ῑ̔́εσθαι
+
+    PMP.NSM: ῑ̔έμενος
+    PMP.NSF: ῑ̔εμένη
+    PMP.NSN: ῑ̔έμενον
+
+
+-
+    source: LTRG§155
+    tags:
+      - final-nu-aai.3s
+
+    lemma: ἵημι  # ῑ̔́ημι
+
+    AAI.1S: ἧκα
+    AAI.2S: ἧκας
+    AAI.3S: ἧκε(ν)
+    AAI.1P: εἷμεν
+    AAI.2P: εἷτε
+    AAI.3P: εἷσαν
+
+    AMI.1S: εἵμην
+    AMI.2S: εἷσο
+    AMI.3S: εἷτο
+    AMI.1P: εἵμεθα
+    AMI.2P: εἷσθε
+    AMI.3P: εἷντο
+
+    AAS.1S: ὧ
+    AAS.2S: ᾗς
+    AAS.3S: ᾗ
+    AAS.1P: ὧμεν
+    AAS.2P: ἧτε
+    AAS.3P: ὧσι(ν)
+
+    AMS.1S: ὧμαι
+    AMS.2S: ᾗ
+    AMS.3S: ἧται
+    AMS.1P: ὥμεθα
+    AMS.2P: ἧσθε
+    AMS.3P: ὧνται
+
+    AAO.1S: εἵην
+    AAO.2S: εἵης
+    AAO.3S: εἵη
+    AAO.1P: εἷμεν
+    AAO.2P: εἷτε
+    AAO.3P: εἷεν
+
+    AMO.1S: εἵμην
+    AMO.2S: εἷο
+    AMO.3S: εἷτο
+    AMO.1P: εἵμεθα
+    AMO.2P: εἷσθε
+    AMO.3P: εἷντο
+
+    AAD.2S: ἕς
+    AAD.3S: ἕτω
+    AAD.2P: ἕτε
+    AAD.3P: ἕντων
+
+    AMD.2S: οὗ
+    AMD.3S: ἕσθω
+    AMD.2P: ἕσθε
+    AMD.3P: ἕσθων
+
+    AAN: εἷναι
+
+    AMN: ἕσθαι
+
+    AAP.NSM: εἵς
+    AAP.NSF: εἷσα
+    AAP.NSN: ἕν
+    AAP.GSM: ἕντος
+    AAP.GSF: εἵσης
+    AAP.GSN: ἕντος
+
+    AMP.NSM: ἕμενος
+    AMP.NSF: ἑμένη
+    AMP.NSN: ἕμενον

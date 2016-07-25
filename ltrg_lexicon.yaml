@@ -1,0 +1,957 @@
+ἄγω:
+    chapter: 5
+    glosses:
+        active:
+          - lead, bring
+          - keep
+        middle:
+          - carry away with oneself
+          - marry
+        passive:
+          - be lead, be brought
+    parts:
+        present: ἄγω
+        future: ἄξω
+        aorist: ἤγαγον
+        perfect_active: ἦχα
+        perfect_middle: ἦγμαι
+        aorist_passive: ἤχθην
+    stems:
+        1-: ἀγ
+        1+: ἠγ
+        2-: ἀξ
+        3-: ἀγαγ{2nd}
+        3+: ἠγαγ{2nd}
+        4-: ἠχ
+        4+: ἠχ  # @@@
+        5-: ἠχ  # @@@
+        6-: ἀχθ
+        6+: ἠχθ
+        7-: ἀχθησ
+ἀπόλλῡμι:
+    chapter: 11
+    glosses:
+        active:
+          - lose
+          - destroy
+          - _intrans._, perish
+        middle:
+          - perish
+    parts:
+        present: ἀπόλλῡμι
+        future: ἀπολῶ
+        aorist: trans:ἀπώλεσα/intrans:ἀπωλόμην
+        perfect_active: trans:ἀπολώλεκα/intrans:ἀπόλωλα
+    stems:
+        1-: ἀπολλυ{athematic}
+        1+: ἀπωλλυ{athematic}
+        2-: ἀπολ{contract}
+        3-: ἀπολεσ # intrans:ἀπολ{2nd}-M @@@
+        3+: ἀπωλεσ # intrans:ἀπωλ{2nd}-M @@@
+        4-: ἀπολωλεκ/ἀπολωλ  # trans/intrans
+    stem_overrides:
+        - ["PAI.[123]S", "ἀπολλῡ{athematic}"]
+        - ["IAI.[123]S", "ἀπωλλῡ{athematic}"]
+ἄρχω:
+    chapter: 3
+    glosses:
+        active:
+          - rule (+ gen.)
+        middle:
+          - begin (+ gen.)
+        passive:
+          - be ruled
+    parts:
+        present: ἄρχω
+        future: ἄρξω
+        aorist: ἦρξα
+        perfect_active: ἦρχα
+        perfect_middle: ἦργμαι
+        aorist_passive: ἦρχθην
+    stems:
+        1-: ἀρχ
+        1+: ἠρχ
+        2-: ἀρξ
+        3-: ἀρξ
+        3+: ἠρξ
+        4-: ἠρχ
+        4+: ἠρχ
+        5-: ἠρχ
+        5+: ἠρχ
+        6-: ἀρχθ
+        6+: ἠρχθ
+        7-: ἀρχθησ
+βαίνω:
+    chapter: 15
+    glosses:
+        active:
+          - walk, step
+          - go
+          - _perfect_, have gone
+          - _perfect_, stand
+          - _perfect_, be (in a place or state)
+        middle:  # future only
+          - walk, step
+          - go
+    parts:
+        present: βαίνω
+        future: βήσομαι
+        aorist: ἔβην
+        perfect-active: βέβηκα
+    tags:
+      - partial-deponent-2
+    stems:
+        1-: βαιν
+        1+: ἐβαιν
+        2-: βησ
+        3-: βα{root}  # LTRG claims βη{root} and βα{root} depending on grade
+        3+: ἐβα{root}
+        4-: βεβηκ
+    # stem_overrides:
+    #     - ["AAS", "βε"]  # LTRG claims this but so far not necessary
+γιγνώσκω:
+    chapter: 14
+    glosses:
+        active:
+          - perceive, come to know
+          - recognize, know
+        middle:  # future only
+          - perceive, come to know
+          - recognize, know
+        passive:
+          - be perceived
+          - be recognized, be known
+    tags:
+      - partial-deponent-2
+    parts:
+        present: γιγνώσκω
+        future: γνώσομαι
+        aorist: ἔγνων
+        perfect-active: ἔγνωκα
+        perfect-middle: ἔγνωσμαι
+        aorist-passive: ἐγνώσθην
+    stems:
+        1-: γιγνωσκ
+        1+: ἐγιγνωσκ
+        2-: γνωσ
+        3-: γνω{root}
+        3+: ἐγνω{root}
+        4-: ἐγνωκ
+        5-: ἐγνωσ  # @@@
+        6-: γνωσθ
+        6+: ἐγνωσθ
+        7-: γνωσθησ
+    stem_overrides:
+        - ["AA[SOP]", "γνο{root}"]
+        - ["AAD.3P", "γνο{root}"]
+δείκνυμι:  # δείκνῡμι
+    chapter: 11
+    glosses:
+        active:
+          - show, point out
+          - prove
+        passive:
+          - be shown, be pointed out
+          - be proved
+    parts:
+        present: δείκνῡμι
+        future: δείξω
+        aorist: ἔδειξα
+        perfect_active: δέδειχα
+        perfect_middle: δέδειγμαι
+        aorist_passive: ἐδείχθην
+    stems:
+        1-: δεικνυ{athematic}
+        1+: ἐδεικνυ{athematic}
+        2-: δειξ
+        3-: δειξ
+        3+: ἐδειξ
+        4-: δεδειχ
+        4+: ἐδεδειχ
+        5-: δεδεικ
+        5+: ἐδεδεικ
+        6-: δειχθ
+        6+: ἐδειχθ
+        7-: δειχθησ
+    stem_overrides:
+        - ["PAI.[123]S", "δεικνῡ{athematic}"]
+        - ["IAI.[123]S", "ἐδεικνῡ{athematic}"]
+        - ["PAD.2S", "δεικνυ{#}"]
+δηλόω:
+    chapter: 4
+    glosses:
+        active:
+          - show, make clear, reveal
+        # passive rare
+    parts:
+        present: δηλόω
+        future: δηλώσω
+        aorist: ἐδήλωσα
+        perfect_active: δεδήλωκα
+        perfect_middle: δεδήλωμαι
+        aorist_passive: ἐδηλώθην
+    stems:
+        1-: δηλο
+        1+: ἐδηλο
+        2-: δηλωσ
+        3-: δηλωσ
+        3+: ἐδηλωσ
+        4-: δεδηλωκ
+        4+: ἐδεδηλωκ
+        5-: δεδηλω
+        5+: ἐδεδηλω
+        6-: δηλωθ
+        6+: ἐδηλωθ
+        7-: δηλωθησ
+δίδωμι:
+    chapter: 14
+    glosses:
+        active:
+          - give, grant
+          - offer
+        passive:
+          - be given, be granted
+          - be offered
+    parts:
+        present: δίδωμι
+        future: δώσω
+        aorist: ἔδωκα
+        perfect-active: δέδωκα
+        perfect-middle: δέδομαι
+        aorist-passive: ἐδόθην
+    stems:
+        1-: διδο{athematic}  # @@@
+        1+: ἐδιδο{athematic}  # @@@
+        2-: δωσ
+        3-: δο{athematic}
+        3+: ἐδο{athematic}
+        4-: δεδωκ
+        5-: δεδο
+        6-: δοθ
+        6+: ἐδοθ
+        7-: δοθησ
+    stem_overrides:
+      - ["PAD.2S", "διδο"]
+      - ["AAI.[123]S", "ἐδωκ"]
+δύναμαι:
+    chapter: 10
+    glosses:
+      middle:
+        - be powerful, be able
+      passive:  # aorist only
+        - be powerful, be able
+    tags:
+      - passive-in-aorist-deponent
+    parts:
+        present: δύναμαι
+        future: δυνήσομαι
+        perfect_middle: δεδύνημαι
+        aorist_passive: ἐδυνήθην
+    stems:
+        1-: δυνα{athematic}
+        1+: ἐδυνα{athematic}
+        2-: δυνησ
+        5-: δεδυνη
+        5+: ἐδεδυνη
+        6-: δυνηθ
+        6+: ἐδυνηθ
+        7-: δυνηθησ
+    stem_overrides:
+      - ["PMS", "δυν"]
+      - ["PMO", "δυνα{athematic}{recessive}"]
+ἐθέλω:  # (ἐ)θέλω
+    chapter: 3
+    glosses:
+      active:
+        - be willing, wish
+    parts:
+        present: ἐθέλω/θέλω
+        future: ἐθελήσω
+        aorist: ἠθέλησα
+        perfect_active: ἠθέληκα
+    stems:
+        1-: ἐθελ/θελ
+        1+: ἠθελ
+        2-: ἐθελησ
+        3-: ἐθελησ
+        3+: ἠθελησ
+        4-: ἠθεληκ
+        4+: ἠθεληκ  # @@@
+εἰμί:
+    chapter: 5
+    glosses:
+        active:
+          - be
+          - exist
+          - _impersonal_, it is possible
+        middle:  # future only
+          - be
+          - exist
+          - _impersonal_, it is possible
+    tags:
+      - partial-deponent-2
+    parts:
+        present: εἰμί
+        future: ἔσομαι
+    stems:
+        1-: ἐσ{athematic}
+        1+: ἠ{athematic}
+        2-: ἐσ
+    stem_overrides:
+        - ["PAI.1S", "εἰ{athematic}{enclitic}"]
+        - ["PAI.2S", "ἐσ{athematic}"]
+        - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.[12]P", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.3P", "εἰ{athematic}{enclitic}"]
+        - ["PAN", "εἰ{athematic}"]
+        - ["PAP", "0"]
+        - ["PAD.2S", "ἰσ{athematic}"]
+        - ["FMI.3S", "ἐσ{athematic}"]
+    accents:
+        - ["PAP", "ὤν"]
+    forms:
+        PAI.2S: εἶ
+        PAI.3S: ἐστί(ν)
+        IAI.2S: ἦσθα
+        IAI.3S: ἦν
+εἶμι:
+    chapter: 13
+    glosses:
+        active:
+          - go, come
+    parts:
+        present: εἶμι
+    stems:
+        1-: ἰ{athematic}
+        1+: ᾐ{athematic}
+    stem_overrides:
+        - ["PAI.[123]S", "εἰ{athematic}"]
+        - ["PAP", "ἰ"]  # @@@ should stemming just support ἰ{athematic} ?
+        - ["PAO", "ἰ"]
+    accents:
+      - ["PAP", "ἰών"]
+ἐπιδείκνῡμι:
+    chapter: 11
+    glosses:
+      active:
+        - show
+      middle:
+        - display (something of one's own or for oneself)
+      passive:
+        - be shown
+    parts:
+        present: ἐπιδείκνῡμι
+        future: ἐπιδείξω
+        aorist: ἐπέδειξα
+        perfect_active: ἐπιδέδειχα
+        perfect_middle: ἐπιδέδειγμαι
+        aorist_passive: ἐπεδείχθην
+    stems:
+        1-: ἐπιδεικνυ{athematic}
+        1+: ἐπεδεικνυ{athematic}
+        2-: ἐπιδειξ
+        3-: ἐπιδειξ
+        3+: ἐπεδειξ
+        4-: ἐπιδεδειχ
+        5-: ἐπιδεδεικ  # @@@
+        6-: ἐπιδειχθ
+        6+: ἐπεδειχθ
+        7-: ἐπιδειχθησ
+    stem_overrides:
+        - ["PAI.[123]S", "ἐπιδεικνῡ{athematic}"]
+        - ["IAI.[123]S", "ἐπεδεικνῡ{athematic}"]
+ἐπίσταμαι:
+    chapter: 10
+    glosses:
+      middle:
+        - know
+      passive:  # aorist only
+        - know
+    tags:
+      - passive-in-aorist-deponent
+    parts:
+        present: ἐπίσταμαι
+        future: ἐπιστήσομαι
+        aorist_passive: ἠπιστήθην
+    stems:
+        1-: ἐπιστα{athematic}
+        1+: ἠπιστα{athematic}
+        2-: ἐπιστησ
+        6-: ἐπιστηθ
+        6+: ἠπιστηθ
+        7-: ἐπιστηθησ
+    stem_overrides:
+      - ["PMS", "ἐπιστ"]
+ἔρχομαι:
+    chapter: 6
+    glosses:
+      active:
+        - go, come
+      middle:  # present, future only
+        - go, come
+    tags:
+      - partial-deponent-12
+    parts:
+        present: ἔρχομαι
+        future: ἐλεύσομαι
+        aorist: ἦλθον
+        perfect_active: ἐλήλυθα
+    stems:
+        1-: ἐρχ
+        1+: ἠρχ
+        2-: ἐλευσ
+        3-: ἐλθ{2nd}
+        3+: ἠλθ{2nd}
+        4-: ἐληλυθ  # 4+ would be the same but is rare
+    stem_overrides:
+      - ["AAD.2S", "ἐλθ{2nd}{enclitic}"]
+ἔχω:
+    chapter: 4
+    glosses:
+      active:
+        - have, hold
+        - inhabit, occupy
+        - get (_simple aspect_)
+        - _intrans._, be able (+ inf.)
+        - be (+ adv.)
+      middle:
+        - hold on to, cling to (+ gen.)
+      passive:
+        - be held
+        - be occupied
+        - be inhabited
+    parts:
+        present: ἔχω
+        future: ἕξω/σχήσω
+        aorist: ἔσχον
+        perfect_active: ἔσχηκα
+        perfect_middle: -έσχημαι
+    stems:
+        1-: ἐχ
+        1+: εἰχ
+        2-: ἑξ/σχησ
+        3-: σχ{2nd}  # @@@
+        3+: ἐσχ{2nd}
+        4-: ἐσχηκ  # 4+ would be the same but is rare
+        5-: -εσχη  # 5+ would be the same but is rare
+    stem_overrides:
+      - ["AAD.2S", "σχ{2nd}{sigma}"]
+ζάω:
+    chapter: 8
+    glosses:
+      active:
+        - be alive, live
+    parts:
+        present: ζάω
+        future: ζήσω
+    stems:
+        1-: ζη
+        1+: ἐζη
+        2-: ζησ
+θνῄσκω:
+    chapter: 8
+    glosses:
+      active:
+        - die
+        - _perfect_, be dead
+      middle:  # future only
+        - die
+    tags:
+      - partial-deponent-2
+    parts:
+        present: θνῄσκω
+        future: θανοῦμαι
+        aorist: ἔθανον
+        perfect_active: τέθνηκα
+    stems:
+        1-: θνῃσκ
+        1+: ἐθνῃσκ
+        2-: θαν{contract}
+        3-: θαν{2nd}
+        3+: ἐθαν{2nd}
+        4-: τεθνηκ
+    stem_overrides:
+      - ["XAI.[123]P", "τεθνα{athematic}"]
+      - ["XAP", "τεθνηκ/τεθνε{athematic}"]
+      - ["XAN", "τεθνα{athematic}"]
+ἵημι:  #ῑ̔́ημι
+    chapter: 16
+    glosses:
+        active:
+          - release, let go
+          - hurl
+        middle:
+          - hasten
+          - be eager
+        passive:
+          - be released
+          - be hurled
+    parts:
+        present: ῑ̔́ημι
+        future: ἥσω
+        aorist: ἧκα
+        perfect-active: εἷκα
+        perfect-middle: εἷμαι
+        aorist-passive: εἵθην
+    stems:
+        1-: ῑ̔ε{athematic}  # should be ῑ̔η{athematic} in PAI.[123]S ?
+        1+: ῑ̔ε{athematic}  # should be ῑ̔η{athematic} in PAI.1S ?
+        2-: ἡσ
+        3-: ἑ{athematic}
+        3+: εἱ{athematic}
+        4-: εἰκ
+        5-: εἰ
+        6+: εἰθ
+    stem_overrides:
+      - ["PAI.3P", "ῑ̔α{athematic}"]  # might want to consider {#} or something rather than α{athematic}
+      - ["PAD.2S", "ῑ̔ε"]
+      - ["AAI.[123]S", "ἡκ"]
+ἵστημι:
+    chapter: 15
+    glosses:
+        active:
+          - make or cause to stand, setup
+          - _intrans._, stand
+          - _perfect with present meaning_, be (standing)
+        middle:
+          - make or cause to stand (for oneself), set up (for onself)
+          - _intrans._, stand
+        passive:
+          - be set up
+          - stand
+    parts:
+        present: ἵστημι
+        future: στήσω
+        aorist: ἔστησα:trans/ἔστην:intrans
+        perfect-active: ἔστηκα:intrans
+        aorist-passive: ἐστάθην
+    stems:
+        1-: ἱστα{athematic}
+        1+: ῑ̔στα{athematic}
+        2-: στησ
+        3-: στησ/στα{root}
+        3+: ἐστησ/ἐστα{root}
+        4-: ἑστηκ
+        4+: εἱστηκ
+        6+: ἐσταθ
+    stem_overrides:
+      - ["PAI..S", "ἱστη{athematic}"]
+      - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+      - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
+      # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
+      # - ["IAI..2S", "ῑ̔στη"]
+      - ["[XY]AI.[123]P", "ἑστα{athematic}"]
+      - ["XAN", "ἑστα{athematic}"]
+      - ["XAP", "ἑστηκ/ἑστα{athematic}"]
+λαμβάνω:
+    chapter: 9
+    glosses:
+      active:
+        - take, seize
+        - understand
+        - receive
+      middle:
+        - take hold (of) (+ gen.)
+      passive:
+        - be taken, be seized
+        - be understood
+        - be received
+    tags:
+      - middle-deponent
+    parts:
+        present: λαμβάνω
+        future: λήψομαι
+        aorist: ἔλαβον
+        perfect_active: εἴληφα
+        perfect_middle: εἴλημμαι
+        aorist_passive: ἐλήφθην
+    stems:
+        1-: λαμβαν
+        1+: ἐλαμβαν
+        2-: ληψ
+        3-: λαβ{2nd}
+        3+: ἐλαβ{2nd}
+        4-: εἰληφ
+        5-: εἰληβ  # @@@
+        6-: ληφθ
+        6+: ἐληφθ
+        7-: ληφθησ
+    stem_overrides:
+      - ["AAD.2S", "λαβ{2nd}{enclitic}"]
+λέγω:
+    chapter: 3
+    glosses:
+      active:
+        - say
+        - speak (of) tell (of), recount
+        - call
+      # middle rare
+      passive:
+        - be said
+        - be spoken (of), be recounted
+        - be called
+    parts:
+        present: λέγω
+        future: λέξω
+        aorist: ἔλεξα/εἶπον
+        perfect_middle: λέλεγμαι
+        aorist_passive: ἐλέχθην
+    stems:
+        1-: λεγ
+        1+: ἐλεγ
+        2-: λεξ
+        3-: λεξα/εἰπ{2nd}
+        3+: ἐλεξα/εἰπ{2nd}
+        5-: λελεγ
+        6+: ἐλεχθ
+    stem_overrides:
+      - ["AAD.2S", "εἰπ{2nd}{enclitic}"]
+νικάω:  # νῑκάω
+    chapter: 4
+    glosses:
+      active:
+        - conquer, defeat
+        - prevail (over), win
+      # middle rare
+      passive:
+        - be conqured, be defeated
+    parts:
+        present: νῑκάω
+        future: νικήσω
+        aorist: ἐνίκησα
+        perfect_active: νενίκηκα
+        perfect_middle: νενίκημαι
+        aorist_passive: ἐνικήθην
+    stems:
+        1-: νῑκα
+        1+: ἐνῑκα
+        2-: νικησ
+        3-: νικησ
+        3+: ἐνικησ
+        4-: νενικηκ
+        5-: νενικη
+        6-: νικηθ
+        6+: ἐνικηθ
+        7-: νικηθησ
+οἶδα:
+    chapter: 9
+    glosses:
+      active:
+        - know
+      middle:  # future only
+        - know
+    tags:
+      - partial-deponent-2
+    parts:
+        present: οἶδα
+        future: εἴσομαι
+    stems:
+        2-: εἰσ  # < εἰδσ
+        4-: οἰδ{athematic}
+        4+: ᾐδ{athematic}
+    stem_overrides:
+        - ["XAI.[123]P", "ἰδ{athematic}"]
+        - ["XA[NP]", "εἰδ"]
+        - ["XAS", "εἰδε"]
+        - ["XAO", "εἰδ|ε{athematic}"]
+        - ["XAD", "ἰδ"]
+ὁράω:
+    chapter: 6
+    glosses:
+      active:
+        - see
+      middle:  # rare except future
+        - see
+      passive:
+        - be seen
+    tags:
+      - partial-deponent-2
+    parts:
+        present: ὁράω
+        future: ὄψομαι
+        aorist: εἶδον
+        perfect_active: ἑώρᾱκα/ἑόρᾱκα
+        perfect_middle: ἑώρᾱμαι/ὦμμαι
+        aorist_passive: ὤφθην
+    stems:
+        # 1-: ὁρα
+        # 1+: ἑωρα
+        # 2-: ὄψ
+        # 3-: ἰδ{2nd}
+        # 3+: εἰδ{2nd}
+        # 4-: ἑωρᾱκ/ἑορᾱκ  # 4+ would be the same but is rare
+        # 5-: ἑωρᾱ/ὠπ  # @@@   # 5+ would be the same but is rare
+        5-: ὠπ  # only step in §84 paradigm
+        5+: ὠπ  # rare but in §84 paradigm
+        # 6-: ὀφθ
+        # 6+: ὠφθ
+    stem_overrides:
+      - ["AAD.2S", "ἰδ{2nd}/ἰδ{2nd}{enclitic}"]
+παύω:
+    chapter: 3
+    glosses:
+      active:
+        - stop (trans.)
+      middle:
+        - stop (intrans.), cease
+      passive:
+        - be stopped
+    parts:
+        present: παύω
+        future: παύσω
+        aorist: ἔπαυσα
+        perfect_active: πέπαυκα
+        perfect_middle: πέπαυμαι
+        aorist_passive: ἐπαύθην
+    stems:
+        1-: παυ
+        1+: ἐπαυ
+        2-: παυσ
+        3-: παυσ
+        3+: ἐπαυσ
+        4-: πεπαυκ
+        4+: ἐπεπαυκ
+        5-: πεπαυ
+        5+: ἐπεπαυ
+        6-: παυθ
+        6+: ἐπαυθ
+        7-: παυθησ
+πείθω:
+    chapter: 3
+    glosses:
+      active:
+        - persuade
+      middle:
+        - obey
+        - heed
+        - believe (+ dat.)
+      passive:
+        - be persuaded
+    parts:
+        present: πείθω
+        future: πείσω
+        aorist: ἔπεισα
+        perfect_active: πέπεικα
+        perfect_middle: πέπεισμαι
+        aorist_passive: ἐπείσθην
+    stems:
+        1-: πειθ
+        1+: ἐπειθ
+        2-: πεισ
+        3-: πεισ
+        3+: ἐπεισ
+        4-: πεπεικ  # ???
+        4+: ἐπεπεικ  # ???
+        5-: πεπειθ
+        5+: ἐπεπειθ
+        6-: πεισθ
+        6+: ἐπεισθ
+πέμπω:
+    chapter: 3
+    glosses:
+      active:
+        - send
+      passive:
+        - be sent
+    parts:
+        present: πέμπω
+        future: πέμψω
+        aorist: ἔπεμψα
+        perfect_active: πέπομφα
+        perfect_middle: πέπεμμαι
+        aorist_passive: ἐπέμφθην
+    stems:
+        1-: πεμπ
+        1+: ἐπεμπ
+        2-: πεμψ
+        3-: πεμψ
+        3+: ἐπεμψ
+        4-: πέπομφ
+        5-: πεπεμπ
+        5+: ἐπεπεμπ
+        6-: πεμφθ
+        6+: ἐπεμφθ
+        7-: πεμφθησ
+ποιέω:
+    chapter: 4
+    glosses:
+      active:
+        - make
+        - do
+        - treat (+ adv.)
+      middle:
+        - make
+        - do
+        - deem, consider
+      passive:
+        - be made
+        - be done
+    parts:
+        present: ποιέω
+        future: ποιήσω
+        aorist: ἐποίησα
+        perfect_active: πεποίηκα
+        perfect_middle: πεποίημαι
+        aorist_passive: ἐποιήθην
+    stems:
+        1-: ποιε
+        1+: ἐποιε
+        2-: ποιησ
+        3-: ποιησ
+        3+: ἐποιησ
+        4-: πεποιηκ
+        4+: ἐπεποιηκ
+        5-: πεποιη
+        5+: ἐπεποιη
+        6-: ποιηθ
+        6+: ἐποιηθ
+        7-: ποιηθησ
+τίθημι:
+    chapter: 14
+    glosses:
+        active:
+          - put, place
+          - make
+          - suppose
+        middle:
+          - place (for oneself)
+          - make (for oneself)
+          - suppose
+        passive:
+          - be put, be placed
+          - be made
+          - be supposed
+    parts:
+        present: τίθημι
+        future: θήσω
+        aorist: ἔθηκα
+        perfect-active: τέθηκα
+        perfect-middle: τέθειμαι
+        aorist-passive: ἐτέθην
+    stems:
+        1-: τιθε{athematic}
+        1+: ἐτιθε{athematic}
+        2-: θησ
+        3-: θε{athematic}
+        3+: ἐθε{athematic}
+        4-: τεθηκ
+        5-: τεθει
+        6-: τεθ
+        6+: ἐτεθ
+        7-: τεθησ
+    stem_overrides:
+      - ["PAD.2S", "τιθε"]
+      - ["PMO.3S", "τιθε/τιθε{athematic}"]
+      - ["AAI.[123]S", "ἐθηκ"]
+φαίνω:
+    chapter: 12
+    glosses:
+        active:
+          - bring to light, show
+          - _perfect_, appear (+ inf.)
+          - be evident (+ suppl. part.)
+        middle:
+          - appear (+ inf.)
+          - be evident (+ suppl. part.)
+        passive:
+          - be shown
+          - _future/aorist_ appear (+ inf.)
+          - be evident (+ suppl. part.)
+    parts:
+        present: φαίνω
+        future: φανῶ
+        aorist: ἔφηνα
+        perfect_active: πέφηνα
+        perfect_middle: πέφασμαι
+        aorist_passive: ἐφάνην
+    stems:
+        1-: φαιν
+        1+: ἐφαιν
+        2-: φαν{contract}
+        3-: φην
+        3+: ἐφην
+        4-: πεφην
+        4+: ἐπεφην
+        5-: πεφασ  # see overrides
+        5+: ἐπεφασ  # see overrides
+        6-: φαν
+        6+: ἐφαν
+        7-: φανησ
+    stem_overrides:
+        - ["XMI.3S", "πεφαν"]
+        - ["XMI.2S", null] # XMI.2S doesn't appear in Ancient Greek
+        - ["XMI.2P", "πεφαν"]
+        # XMI.3P is periphrastic
+        - ["XMN", "πεφαν"]
+φημί:
+    chapter: 8
+    glosses:
+      - say, assert
+    parts:
+        present: φημί
+        future: φήσω
+        aorist: ἔφησα
+    stems:
+        1-: φα{athematic}
+        1+: ἐφα{athematic}
+        2-: φησ
+        3-: φησ
+        3+: ἐφησ
+    stem_overrides:
+      - ["PAI..S", "φη{athematic}{enclitic}"]
+      - ["PAI..P", "φα{athematic}{enclitic}"]
+      - ["PAS", "φε"]  # @@@ model this way or in stemming?
+      - ["IAI.[123]S", "ἐφη{athematic}"]
+    forms:
+        PAI.2S: φῄς
+        IAI.1S: ἔφην  # @@@
+        IAI.2S: ἔφησθα/ἔφης  # @@@
+        IAI.3S: ἔφη  # @@@
+φύω:  # φῡ́ω
+    chapter: 13
+    glosses:
+        active:
+          - produce
+          - _intrans._, be born
+          - _intrans._, be (by nature)
+        middle:
+          - be born
+          - be (by nature)
+    parts:
+        present: φῡ́ω
+        future: φῡ́σω
+        aorist: trans:ἔφῡσα/intrans:ἔφῡν
+        perfect_active: intrans:πέφῡκα
+    stems:
+        1-: φῡ
+        1+: ἐφῡ
+        2-: φῡσ
+        3-: φυσ/φυ{root}
+        3+: ἐφῡσ/ἐφῡ{root}
+        4-: πεφθκ  # intrans
+    # @@@ need to override more short-vowel grade stems
+    stem_overrides:
+      - ["AAN", "φῡσ/φῡ{root}"]
+      - ["AAP.NSM", "φῡσ/φῡ{root}"]
+      - ["AAP...F", "φῡσ/φῡ{root}"]
+χράομαι:
+    chapter: 11
+    glosses:
+      middle:
+        - use (+ dat.)
+        - experience, be subject to (+ dat.)
+        - treat (+ dat.)
+    tags:
+      - middle-deponent
+    parts:
+        present: χράομαι
+        future: χρήσομαι
+        aorist: ἐχρησάμην
+        perfect_middle: κέχρημαι
+    stems:
+        1-: χρη
+        1+: ἐχρη
+        2-: χρησ
+        3-: χρησ
+        3+: ἐχρησ
+        5-: κεχρη
