@@ -1,0 +1,225 @@
+# lexicon for tests/pratt.yaml
+
+ἄγω:
+    stems:
+        1-: ἀγ
+        2-: ἀξ
+
+βαίνω:
+    stems:
+        1-: βαιν
+        3-: βα{root}
+        3+: ἐβα{root}
+
+βάλλω:
+    stems:
+        1-: βαλλ
+        2-: βαλ{contract}
+
+γιγνώσκω:
+    stems:
+        1-: γιγνωσκ
+        3-: γνω{root}  # originally had γνο{root} for Pratt and did gradation in stemming
+        3+: ἐγνω{root}  # originally had ἐγνο{root} for Pratt and did gradation in stemming
+    stem_overrides:
+        - ["AA[SOP]", "γνο{root}"]
+        - ["AAD.3P", "γνο{root}"]
+
+δείκνυμι:
+    stems:
+        1-: δεικνυ{athematic}
+        1+: ἐδεικνυ{athematic}
+        2-: δειξ
+        3-: δειξ
+        3+: ἐδειξ
+        4-: δεδειχ
+        5-: δεδεικ  # originally had δεδειγ for Pratt
+        6+: ἐδειχθ
+        7-: δειχθησ
+    stem_overrides:
+        - ["PAI.[123]S", "δεικνῡ{athematic}"]
+        - ["IAI.[123]S", "ἐδεικνῡ{athematic}"]
+        - ["PAD.2S", "δεικνυ{#}"]
+
+δηλόω:
+    stems:
+        1-: δηλο
+        1+: ἐδηλο
+        2-: δηλωσ
+
+δίδωμι:
+    stems:
+        1-: διδο{athematic}
+        1+: ἐδιδο{athematic}
+        2-: δωσ
+        3-: δο{athematic}
+        3+: ἐδο{athematic}
+        4-: δεδωκ
+        5-: δεδο
+        6+: ἐδοθ
+        7-: δοθησ
+    stem_overrides:
+      - ["PAD.2S", "διδο"]
+      - ["AAI.[123]S", "ἐδωκ"]
+
+εἰμί:
+    stems:
+        1-: ἐσ{athematic}
+        1+: ἠ{athematic}
+        2-: ἐσ
+    stem_overrides:
+        - ["PAI.1S", "εἰ{athematic}{enclitic}"]
+        - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.[12]P", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.3P", "εἰ{athematic}{enclitic}"]
+        - ["PAN", "εἰ{athematic}"]
+        - ["PAP", "0"]
+        - ["PAD.2S", "ἰσ{athematic}"]
+        - ["FMI.3S", "ἐσ{athematic}"]
+        - ["IAI.2P", "ἠ{athematic}/ἠσ{athematic}"]  # ;+alt-εἰμί-iai.2p-stem
+    accents:
+        - ["PAP", "ὤν"]
+    forms:
+        PAI.2S: εἶ
+        PAI.3S: ἐστί(ν)
+        IAI.2S: ἦσθα
+        IAI.3S: ἦν
+
+εἶμι:
+    stems:
+        1-: ἰ{athematic}
+        1+: ᾐ{athematic}
+    stem_overrides:
+        - ["PAI.[123]S", "εἰ{athematic}"]
+        - ["PAP", "ἰ"]  # @@@ should stemming just support ἰ{athematic} ?
+        - ["PAO", "ἰ"]  # existence of ο suggests not athematic
+        - ["PAN", "ἰε{athematic}"]  # @@@
+    accents:
+        - ["PAP", "ἰών"]
+
+ἐράω:
+    stems:
+        1-: ἐρα
+        1+: ἠρα
+
+ἵημι:
+    stems:
+        1-: ἱε{athematic}
+        1+: ἱε{athematic}
+        2-: ἡσ
+        3-: ἑ{athematic}
+        3+: εἱ{athematic}
+        4-: εἱκ
+        5-: εἱ
+        6+: εἱθ
+        7-: ἑθησ
+    stem_overrides:
+        - ["PAI.3P", "ἱα{athematic}"]
+        - ["PAD.2S", "ἱε"]
+        - ["IAI.1S", "ἱε{root}"]
+        - ["AAI..S", "ἡκ"]
+
+ἵστημι:
+    stems:
+        1-: ἱστα{athematic}  # @@@ do long grade in stemming or here?
+        1+: ἱστα{athematic}  # long iota @@@ do long grade in stemming or here?
+        2-: στησ
+        3-: στησ;-intrans/στα{root};-trans
+        3+: ἐστησ;-intrans/ἐστα{root};-trans
+        4-: ἑστα{athematic}
+        4+: εἱστηκ
+        5-: ἑστα
+        6+: ἐσταθ
+        7-: σταθησ
+    stem_overrides:
+        - ["XAI..S", "ἑστηκ"]
+        - ["PAD.2S", "ἱστη"]
+    forms:
+        XAP.NSN: ἑστός
+        XAP.NSF: ἑστῶσα
+
+λαμβάνω:
+    stems:
+        1-: λαμβαν
+        2-: ληψ
+        3-: λαβ{2nd}
+        3+: ἐλαβ{2nd}
+        4-: εἰληφ
+        5-: εἰληβ  # @@@ Pratt has εἰλλη in §40 but principal parts in back have single λ
+        6-: ληφθ
+        6+: ἐληφθ
+        7-: ληφθησ
+    stem_overrides:
+      - ["AAD.2S", "λαβ{2nd}{enclitic}"]
+
+λύω:
+    stems:
+        1-: λῡ
+        1+: ἐλυ
+        2-: λῡσ
+        3-: λῡσ
+        3+: ἐλυσ
+        4-: λελυκ
+        4+: ἐλελυκ
+        5-: λελυ  # Pratt has λελῡ @@@
+        5+: ἐλελυ
+        6-: λυθ
+        6+: ἐλυθ
+        7-: λυθησ
+
+οἶδα:
+    stems:
+        2-: εἰσ  # < εἰδσ
+        4-: οἰδ{athematic}
+        4+: ᾐδ{athematic}
+    stem_overrides:
+        - ["XAI.[123]P", "ἰδ{athematic}"]
+        - ["XA[NP]", "εἰδ"]
+        - ["XAS", "εἰδε"]
+        - ["XAO", "εἰδ|ε{athematic}"]
+        - ["XAD", "ἰδ"]
+
+πέμπω:
+    stems:
+        2-: πεμψ
+
+τίθημι:
+    stems:
+        1-: τιθε{athematic}
+        1+: ἐτιθε{athematic}
+        2-: θησ
+        3-: θε{athematic}
+        3+: ἐθε{athematic}
+        4-: τεθηκ
+        5-: τεθει  # had τεθη for Pratt although principal parts suggest τεθει
+        6+: ἐτεθ
+        7-: τεθησ
+    stem_overrides:
+      # - ["IAI.1S", "ἐτιθε{root}"]  # Pratt had this
+      - ["PAD.2S", "τιθε"]
+      - ["AAI.[123]S", "ἐθηκ"]
+
+φημί:
+    stems:
+        1-: φα{athematic}
+        1+: ἐφα{athematic}
+        2-: φησ
+        3-: φησ
+        3+: ἐφησ
+    stem_overrides:
+        - ["PAI..S", "φη{athematic}{enclitic}"]
+        - ["PAI..P", "φα{athematic}{enclitic}"]
+        - ["PAS", "φε"]  # @@@ model this way or in stemming?
+        - ["IAI..S", "ἐφη{athematic}"]
+        - ["PAP", "φασκ"]  # suppletive but handled this way in Pratt
+    forms:
+        PAI.2S: φῄς
+        IAI.1S: ἔφην
+        # IAI.2S: ἔφησθα/ἔφης  # @@@
+        IAI.3S: ἔφη
+
+φιλέω:
+    stems:
+        1-: φιλε
+        1+: ἐφιλε
+        2-: φιλησ

@@ -1,0 +1,2878 @@
+AAD.2S:
+    - "|><|ον"
+    - "|{2nd}>ε<T_2|"
+    - "|{2nd}{enclitic}>έ<T_2|"
+    - "|{2nd}{sigma}>έ<|ς"  # related to {athematic} ?
+    - "|{athematic}><|ς"  # @@@
+    - "|ω{root}>ῶ<|θι"
+    - "|α{root}>ῆ<|θι"  # @@@
+    # - "|α{athematic}>ῆ<|θι"  # @@@
+AAD.3S:
+    - "|>ά<ά|τω"
+    - "|{2nd}>έ<T_2|τω"
+    - "|{athematic}><|τω"  # @@@
+    - "|ω{root}>ώ<|τω"
+    - "|α{root}>ή<@|τω"  # @@@
+    # - "|α{athematic}>ή<|τω"  # @@@
+AAD.2P:
+    - "|>α<α|τε"
+    - "|{2nd}>ε<T_2|τε"
+    - "|{athematic}><|τε"
+    - "|ω{root}>ῶ<|τε"  # do we need this?
+    # - "|ο{root}>ῶ<@|τε"  # @@@
+    - "|α{root}>ῆ<|τε"  # @@@
+    # - "|α{athematic}>ῆ<|τε"  # @@@
+AAD.3P:
+    - "|>ά<ά|ντων"
+    - "|{2nd}>ό<T_1|ντων"
+    - "|{athematic}><|ντων"
+    # - "|ω{root}>ο<|ντων"  # do we need this?
+    - "|ο{root}>ό<|ντων"  # @@@
+    - "|α{root}>ά<|ντων"  # @@@
+
+AAI.1S:
+    - "|><|α"  # §50 (1st/weak)
+    - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|ν"  # §50 (root)
+    # - "|ε{root}>η<_1|ν"  # §50 (root)
+    # - "|ο{root}>ω<_1|ν"  # §50 (root)
+    - "ῡ|{root}><|ν;-length-missing"
+    - "|ῡ{root}>υ<|ν;+length-missing"  # for when length not marked in form
+    - "ω|{root}><|ν"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<_2|ν"
+AAI.2S:
+    - "|>α<α|ς"  # §50 (1st/weak)
+    - "|{2nd}>ε<T_2|ς"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|ς"  # §50 (root)
+    # - "|ε{root}>η<_1|ς"  # §50 (root)
+    # - "|ο{root}>ω<_1|ς"  # §50 (root)
+    - "ῡ|{root}><|ς"
+    - "ω|{root}><|ς"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<_2|ς"  # §64 (mi+root)
+AAI.3S:
+    - "|>ε(ν)<|;+final-nu-aai.3s"  # §50 (1st/weak)
+    - "|>ε<|;+no-final-nu-aai.3s"
+    - "|{2nd}>ε(ν)<T_2|;+final-nu-aai.3s"  # §50 (2nd/strong)
+    - "|{2nd}>ε<T_2|;+no-final-nu-aai.3s"
+    - "|α{root}>η<|"  # §50 (root)
+    # - "|ε{root}>η<|"  # §50 (root)
+    # - "|ο{root}>ω<|"  # §50 (root)
+    - "ῡ|{root}><|"
+    - "ω|{root}><|"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<|"  # @@@
+    # - "|υ{athematic}>υ<|"  # @@@
+AAI.1P:
+    - "|>α<α|μεν"  # §50 (1st/weak)
+    - "|{2nd}>ο<T_1|μεν"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|μεν"  # §50 (root)
+    # - "|ε{root}>η<_1|μεν"  # §50 (root)
+    # - "|ο{root}>ω<_1|μεν"  # §50 (root)
+    - "ῡ|{root}><|μεν"
+    - "ω|{root}><|μεν"  # if you model it this way rather than ο{root}
+    - "|ε{athematic}>ε<|μεν"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|μεν"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|μεν"  # §62 (@@@ or treat as root?)
+    # - "|α{athematic}>η<@|μεν"  # §64 (@@@ why does vowel change? should it be {root}?)
+AAI.2P:
+    - "|>α<α|τε"  # §50 (1st/weak)
+    - "|{2nd}>ε<T_2|τε"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|τε"  # §50 (root)
+    # - "|ε{root}>η<_1|τε"  # §50 (root)
+    # - "|ο{root}>ω<_1|τε"  # §50 (root)
+    - "ῡ|{root}><|τε"
+    - "ω|{root}><|τε"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<@|τε"  # @@@
+    - "|ε{athematic}>ε<|τε"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|τε"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|τε"  # §62 (@@@ or treat as root? maybe above is decider)
+AAI.3P:
+    - "|>α<α|ν"  # §50 (1st/weak)
+    - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|σαν"  # §50 (root)
+    # - "|ε{root}>η<_1|σαν"  # §50 (root)
+    # - "|ο{root}>ω<_1|σαν"  # §50 (root)
+    - "ῡ|{root}><|σαν"
+    - "ω|{root}><|σαν"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<@|σαν"  # @@@
+    - "|ε{athematic}>ε<|σαν"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|σαν"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|σαν"  # §62 (@@@ or treat as root?)
+
+AAN:
+    - "|><|αι"  # §50 (1st/weak)
+    # - "|{2nd}><|ειν"  # §50 (2nd/strong)
+    - "|{2nd}><|εῖν"  # §56 (2nd/strong)  (Pratt doesn't have accent)
+    - "|α{root}>ῆ<_1|ναι"  # §50 (root)
+    # - "|ε{root}>ῆ<_1|ναι"  # §50 (root)
+    # - "|ο{root}>ῶ<_1|ναι"  # §50 (root)
+    # - "|υ{root}>ῦ<_1|ναι"
+    - "|ῡ{root}>ῦ<_1|ναι"
+    - "|ω{root}>ῶ<_1|ναι"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>ῆ<_2|ναι"  # ?
+    - "|ε{athematic}>εῖ<_2|ναι"  # §62
+    - "|ο{athematic}>οῦ<_2|ναι"  # §62
+    # - "|ι{2nd}><|εῖν"  # @@@ πεῖν
+
+AAO.1S:
+    - "|><|αιμι"
+    - "|{2nd}><|οιμι"
+    - "|ο{root}>οί<ι|ην"
+    - "|ε{athematic}>εί<ι|ην"
+    - "|ο{athematic}>οί<ι|ην"
+    - "|α{root}>αί<ι|ην"  # @@@
+    # - "|α{athematic}>αί<ι|ην"  # @@@
+AAO.2S:
+    - "|><|αις;-only-epsilon-aao"
+    - "|><|ειας"
+    - "|{2nd}><|οις"
+    - "|α{root}>αί<ι|ης"
+    - "|ο{root}>οί<ι|ης"
+    - "|ο{athematic}>οί<ι|ης"
+    - "|ε{athematic}>εί<ι|ης"
+    # - "|α{athematic}>αί<ι|ης"
+AAO.3S:
+    - "|><|αι;-only-epsilon-aao"  # long
+    - "|><|ειε(ν);-no-final-nu-aao.3s"
+    - "|><|ειε;+no-final-nu-aao.3s"
+    - "|{2nd}><|οι"  # long
+    - "|ο{root}>οί<ι|η"
+    - "|ο{athematic}>οί<ι|η"
+    - "|ε{athematic}>εί<ι|η"
+    # - "|ἑ{athematic}>εἵ<ι|η"  # @@@
+    - "|α{root}>αί<ι|η"  # @@@
+    # - "|α{athematic}>αί<ι|η"  # @@@
+AAO.1P:
+    - "|><|αιμεν"
+    - "|{2nd}><|οιμεν"
+    - "[αεο]|{root}><|ιημεν;+alt-aao-pl"
+    - "[εο]|{athematic}><|ιημεν;+alt-aao-pl"  # @@@ should this actually be root?
+    - "[εο]|{athematic}><|ιημεν;+alt-aao-1p-only"  # @@@ should this actually be root?
+    - "|ο{athematic}>οῖ<ι|μεν"
+    - "|ο{root}>οῖ<ι|μεν"
+    - "|ε{athematic}>εῖ<ι|μεν"
+    - "|α{root}>αῖ<ι|μεν"
+    # - "|α{athematic}>αῖ<ι|μεν"
+AAO.2P:
+    - "|><|αιτε"
+    - "|{2nd}><|οιτε"
+    - "|ο{root}>οῖ<ι|τε"
+    - "[αεο]|{root}><|ιητε;+alt-aao-pl"
+    - "|ο{athematic}>οῖ<ι|τε"
+    - "[εο]|{athematic}><|ιητε;+alt-aao-pl"  # @@@ should this actually be root?
+    - "|ε{athematic}>εῖ<ι|τε"
+    - "|α{root}>αῖ<ι|τε"  # @@@
+    # - "|α{athematic}>αῖ<ι|τε"  # @@@
+AAO.3P:
+    - "|><|αιεν;-only-epsilon-aao"
+    - "|><|ειαν"  # @@@ is this an alt-aao-pl?
+    - "|{2nd}><|οιεν"
+    - "|ο{root}>οῖ<ι|εν"
+    - "|α{root}>αῖ<ι|εν"  # @@@
+    - "[αεο]|{root}><|ιησαν;+alt-aao-pl"
+    - "|ο{athematic}>οῖ<ι|εν"
+    - "[εο]|{athematic}><|ιησαν;+alt-aao-pl"  # @@@ should this actually be root?
+    - "|ε{athematic}>εῖ<ι|εν"
+    # - "|ἑ{athematic}>εἷ<ι|εν"  # @@@
+    # - "|α{athematic}>αῖ<ι|εν"  # @@@
+
+AAP.NSM:
+    - "|>ᾱ<@|ς"  # §30 (1st)
+    - "|{2nd}>ώ<@|ν"  # §31 (2nd)
+    - "|ε{athematic}>εί<@|ς"  # §32 (mi)
+    - "|ο{athematic}>ού<@|ς"  # §32 (mi)
+    # - "|α{athematic}>ᾱ́<@|ς"  # §32 (mi+root)
+    - "|α{root}>ᾱ́<@|ς"  # §32 (mi+root)
+    - "|ο{root}>ού<@|ς"  # (root) @@@
+    - "|ῡ{root}>ῡ́<|ς"
+AAP.VSM:
+    ref: AAP.NSM
+AAP.NSF:
+    - "|>ᾱ<@|σα"  # §30 (1st)
+    - "|{2nd}>οῦ<@|σα"  # §31 (2nd)
+    - "|ε{athematic}>εῖ<@|σα"  # §32 (mi)
+    - "|ο{athematic}>οῦ<@|σα"  # §32 (mi)
+    # - "|α{athematic}>ᾶ<@|σα"  # §32 (mi+root)
+    - "|α{root}>ᾶ<@|σα"  # §32 (mi+root)
+    - "|ο{root}>οῦ<@|σα"  # root @@@
+    - "ῡ|{root}><|σα"
+    # - "|υ{athematic}>ῦ<@|σα"  # φύω @@@ thematic or athematic?
+AAP.VSF:
+    ref: AAP.NSF
+AAP.NSN:
+    ref: AAP.ASN
+AAP.VSN:
+    ref: AAP.NSN
+AAP.NPM:
+    - "|>α<|ντες"  # §30
+    - "|{2nd}>ό<|ντες"  # §31
+    # - "|α{athematic}>ά<|ντες"
+    # - "|ε{athematic}>έ<|ντες"
+    # - "|ο{athematic}>ό<|ντες"
+    # - "|α{root}>ά<|ντες"
+    # - "|ο{root}>ό<|ντες"
+    # - "υ|{root}><|ντες"
+AAP.VPM:
+    ref: AAP.NPM
+AAP.NPF:
+    - "|>ᾱ<@|σαι"  # §30
+    - "|{2nd}>οῦ<@|σαι"  # §31
+    # - "|α{root}>ᾶ<@|σαι"
+    # - "υ|{root}><|σαι"
+AAP.VPF:
+    ref: AAP.NPF
+AAP.NPN:
+    ref: AAP.APN
+AAP.VPN:
+    ref: AAP.NPN
+AAP.GSM:
+    - "|>α<|ντος"  # §30 (1st)
+    - "|{2nd}>ό<|ντος"  # §31 (2nd)
+    - "|ε{athematic}>έ<|ντος"  # §32 (mi)
+    - "|ο{athematic}>ό<|ντος"  # §32 (mi)
+    # - "|α{athematic}>ά<|ντος"  # §32 (mi+root)  # both this and below? @@@
+    - "|α{root}>ά<|ντος"  # §32 (mi+root)
+    - "|ο{root}>ό<|ντος"  # §64 root
+    - "υ|{root}><|ντος"
+AAP.GSF:
+    - "|>ᾱ́<@|σης"  # §30 (1st)
+    - "|{2nd}>ού<@|σης"  # §31 (2nd)
+    - "|ε{athematic}>εί<@|σης"  # §32 (mi)
+    - "|ο{athematic}>ού<@|σης"  # §32 (mi)
+    # - "|α{athematic}>ᾱ́<@|σης"  # §32 (mi+root)
+    - "|ο{root}>ού<@|σης"  # §64 (root)
+    - "|α{root}>ᾱ́<@|σης"  # §64 (root)
+    - "|ῡ{root}>ῡ́<@|σης"  # root
+AAP.GSN:
+    ref: AAP.GSM
+AAP.GPM:
+    - "|>ά<|ντων"  # §30
+    # - "|α{root}>ά<|ντων"  # root
+    # - "υ|{root}><|ντων"
+    - "|{2nd}>ό<|ντων"  # §31
+AAP.GPF:
+    - "|>ᾱ<|σῶν"  # §30
+    # - "ῡ|{root}><|σῶν"
+    - "|{2nd}>ου<|σῶν"  # §31
+AAP.GPN:
+    ref: AAP.GPM
+AAP.DSM:
+    - "|>α<|ντι"  # §30
+    - "|{2nd}>ό<|ντι"  # §31
+    # - "|α{root}>ά<|ντι"
+    # - "υ|{root}><|ντι"
+AAP.DSF:
+    - "|>ᾱ́<@|σῃ"  # §30
+    - "|{2nd}>ού<@|σῃ"  # §31
+    # - "ῡ|{root}><|σῃ"
+AAP.DSN:
+    ref: AAP.DSM
+AAP.DPM:
+    - "|>ᾱ<@|σι(ν)"  # §30
+    - "|{2nd}>οῦ<@|σι(ν)"  # §31
+    # - "|α{root}>ᾶ<@|σι(ν)"  # @@@
+    # - "|ο{root}>οῦ<@|σι(ν)"
+    # - "υ|{root}><|σι(ν)"
+AAP.DPF:
+    - "|>ᾱ́<|σαις"  # §30
+    - "|{2nd}>ού<|σαις"  # §31
+    # - "ῡ|{root}><|σαις"
+AAP.DPN:
+    ref: AAP.DPM
+AAP.ASM:
+    - "|>α<|ντα"  # §30
+    - "|{2nd}>ό<|ντα"  # §31
+    # - "υ|{root}><|ντα"
+    # - "|{athematic}><|ντα"  # @@@
+AAP.ASF:
+    - "|>ᾱ<@|σαν"  # §30
+    - "|{2nd}>οῦ<@|σαν"  # §31
+    # - "ῡ|{root}><|σαν"
+AAP.ASN:
+    - "|>α<|ν"  # §30 (1st)
+    - "|{2nd}>ό<|ν"  # §31 (2nd)
+    - "|ε{athematic}>έ<|ν"  # §32 (mi)
+    - "|ο{athematic}>ό<|ν"  # §32 (mi)
+    # - "|α{athematic}>ά<|ν"  # §32 (mi+root)
+    # - "|υ{athematic}>ύ<|ν"  # φύω @@@ thematic or athematic?
+    - "|α{root}>ά<|ν"  # §32 (mi+root)
+    - "|ο{root}>ό<|ν"  # §64 (root)
+    - "υ|{root}><|ν"
+AAP.APM:
+    - "|>α<|ντας"  # §30
+    - "|{2nd}>ό<|ντας"  # §31
+    # - "υ|{root}><|ντας"
+AAP.APF:
+    - "|>ᾱ́<@|σᾱς"  # §30
+    - "|{2nd}>ού<@|σᾱς"  # §31
+    # - "ῡ|{root}><|σᾱς"
+AAP.APN:
+    - "|>α<|ντα"  # §30
+    - "|{2nd}>ό<|ντα"  # §31
+    # - "υ|{root}><|ντα"
+
+AAS.1S:
+    - "|><|ω"
+    - "|{2nd}><|ω"
+    - "|ο{athematic}>ῶ<ω|"
+    - "|ε{athematic}>ῶ<ω|"
+    # - "|ἑ{athematic}>ὧ<ω|"  # hopefully can go away with better breathing support
+    - "υ|{root}><|ω"
+    # - "|ω{root}>ῶ<ω|"  # LTRG does it this way
+    - "|ο{root}>ῶ<ω|"  # current Pratt lexicon does it this way
+    - "|α{root}>ῶ<ω|"
+    # - "|α{athematic}>ῶ<ω|"  # @@@
+AAS.2S:
+    - "|><|ῃς"
+    - "|{2nd}><|ῃς"
+    - "|ο{athematic}>ῷ<ῃ|ς"
+    - "|ε{athematic}>ῇ<ῃ|ς"
+    # - "|ἑ{athematic}>ᾗ<ῃ|ς"  # hopefully can go away with better breathing support
+    - "υ|{root}><|ῃς"
+    # - "|ω{root}>ῷ<ῃ|ς"  # LTRG does it this way
+    - "|ο{root}>ῷ<ῃ|ς"  # current Pratt lexicon does it this way
+    - "|α{root}>ῇ<ῃ|ς"
+    # - "|α{athematic}>ῇ<ῃ|ς"
+AAS.3S:
+    - "|><|ῃ"
+    - "|{2nd}><|ῃ"
+    - "|ο{athematic}>ῷ<ῃ|"
+    - "|ε{athematic}>ῇ<ῃ|"
+    # - "|ἑ{athematic}>ᾗ<ῃ|"  # hopefully can go away with better breathing support
+    - "υ|{root}><|ῃ"
+    # - "|ω{root}>ῷ<ῃ|"  # LTRG does it this way
+    - "|ο{root}>ῷ<ῃ|"  # current Pratt lexicon does it this way
+    # - "|α{athematic}>ῇ<ῃ|"
+    - "|α{root}>ῇ<ῃ|"  # @@@
+AAS.1P:
+    - "|><|ωμεν"
+    - "|{2nd}><|ωμεν"
+    - "|ο{athematic}>ῶ<ω|μεν"
+    - "|ε{athematic}>ῶ<ω|μεν"
+    # - "|ἑ{athematic}>ὧ<ω|μεν"  # hopefully can go away with better breathing support
+    - "υ|{root}><|ωμεν"
+    # - "|ω{root}>ῶ<ω|μεν"  # LTRG does it this way
+    - "|ο{root}>ῶ<ω|μεν"  # current Pratt lexicon does it this way
+    - "|α{root}>ῶ<ω|μεν"
+    # - "|α{athematic}>ῶ<ω|μεν"
+AAS.2P:
+    - "|><|ητε"
+    - "|{2nd}><|ητε"
+    - "|ο{athematic}>ῶ<η|τε"
+    - "|ε{athematic}>ῆ<η|τε"
+    # - "|ἑ{athematic}>ἧ<η|τε"  # hopefully can go away with better breathing support
+    - "υ|{root}><|ητε"
+    # - "|ω{root}>ῶ<η|τε"  # is this used?
+    - "|ο{root}>ῶ<η|τε"
+    - "|α{root}>ῆ<η|τε"
+    # - "|α{athematic}>ῆ<η|τε"
+AAS.3P:
+    - "|><|ωσι(ν);-no-final-nu-aas.3p"
+    - "|><|ωσι;+no-final-nu-aas.3p"
+    - "|{2nd}><|ωσι(ν);-no-final-nu-aas.3p"
+    - "|{2nd}><|ωσι;+no-final-nu-aas.3p"
+    - "|ο{athematic}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|ε{athematic}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    # - "|ἑ{athematic}>ὧ<ω|σι(ν)"  # @@@
+    - "υ|{root}><|ωσι(ν);-no-final-nu-aas.3p"
+    # - "|ω{root}>ῶ<ω|σι(ν)"  # @@@
+    - "|ο{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
+    - "|α{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
+    # - "|α{athematic}>ῶ<ω|σι(ν)"  # @@@
+
+AMD.2S:
+    - "|><|αι"
+    - "|{2nd}><|οῦ"  # εσο
+    - "|ο{athematic}><|οῦ"
+    - "|ε{athematic}><|οῦ"
+    # - "|ἑ{athematic}><|οὗ"
+
+AMD.3S:
+    - "|>ά<ά|σθω"
+    - "|{2nd}>έ<T_2|σθω"
+    - "|{athematic}><|σθω"
+
+AMD.2P:
+    - "|>α<α|σθε"
+    - "|{2nd}>ε<T_2|σθε"
+    - "|{athematic}><|σθε"
+
+AMD.3P:
+    - "|>ά<α|σθων"
+    - "|{2nd}>έ<T_2|σθων"
+    - "|{athematic}><|σθων"
+
+AMI.1S:
+    - "|>ά<α|μην"  # §50
+    - "|{2nd}>ό<T_1|μην"  # §50
+    - "|ε{athematic}>έ<|μην"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ό<|μην"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εί<|μην"  # §62 (@@@ or treat as root?)
+AMI.2S:
+    - "|>ω<α+σο|"  # §50
+    - "|{2nd}>ου<T_1+σο|"  # §50
+    - "|ε{athematic}>ου<σο|"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ου<σο|"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|σο"  # §62 (@@@ or treat as root?)
+AMI.3S:
+    - "|>α<α|το"  # §50
+    - "|{2nd}>ε<T_2|το"  # §50
+    - "|ε{athematic}>ε<|το"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|το"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|το"
+AMI.1P:
+    - "|>ά<α|μεθα"  # §50
+    - "|{2nd}>ό<T_1|μεθα"  # §50
+    - "|ε{athematic}>έ<|μεθα"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ό<|μεθα"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εί<|μεθα"
+AMI.2P:
+    - "|>α<α|σθε"  # §50
+    - "|{2nd}>ε<T_2|σθε"  # §50
+    - "|ε{athematic}>ε<|σθε"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|σθε"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|σθε"  # §62 (@@@ or treat as root?)
+AMI.3P:
+    - "|>α<α|ντο"  # §50
+    - "|{2nd}>ο<T_1|ντο"  # §50
+    - "|ε{athematic}>ε<|ντο"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|ντο"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|ντο"
+
+AMN:
+    - "|>α<α|σθαι"  # §50
+    - "|{2nd}>έ<T_2|σθαι"  # §50 (but Pratt doesn't accent)
+    - "|ε{athematic}>έ<|σθαι"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ό<|σθαι"  # §62 (@@@ or treat as root?)
+    # - "|α>ᾶ<|σθαι"  # @@@
+
+AMO.1S:
+    - "|>α<α|ίμην"
+    - "|{2nd}>ο<ο|ίμην"
+    - "|ε{athematic}>εί<ι|μην"
+    - "|ο{athematic}>οί<ι|μην"
+AMO.2S:
+    - "|><|αιο"  # αισο
+    - "|{2nd}><|οιο"  # οισο
+    - "|ε{athematic}>εῖ<ι|ο"  # ισο
+    - "|ο{athematic}>οῖ<ι|ο"  # ισο
+AMO.3S:
+    - "|><|αιτο"
+    - "|{2nd}><|οιτο"
+    - "|ε{athematic}>εῖ<ι|το"
+    - "|ο{athematic}>οῖ<ι|το"
+AMO.1P:
+    - "|>α<α|ίμεθα"
+    - "|{2nd}>ο<ο|ίμεθα"
+    - "|ο{athematic}>οί<ι|μεθα"
+    - "|ε{athematic}>εί<ι|μεθα"
+AMO.2P:
+    - "|><|αισθε"
+    - "|{2nd}><|οισθε"
+    - "|ο{athematic}>οῖ<ι|σθε"
+    - "|ε{athematic}>εῖ<ι|σθε"
+AMO.3P:
+    - "|><|αιντο"
+    - "|{2nd}><|οιντο"
+    - "|ο{athematic}>οῖ<ι|ντο"
+    - "|ε{athematic}>εῖ<ι|ντο"
+
+AMP.NSM:
+    - "|>ά<α|μενος"  # §37
+    - "|{2nd}>ό<T_1|μενος"  # §37
+    - "|ε{athematic}>έ<|μενος"  # §37
+    - "|ο{athematic}>ό<|μενος"  # §37
+    # - "|α{athematic}>ά<|μενος"  # §37
+    - "|α{root}>ά<|μενος"  # §37
+AMP.VSM:
+    - "|>ά<α|μενε"
+    - "|{2nd}>ό<T_1|μενε"
+    # - "|{athematic}><|μενε"
+AMP.NSF:
+    - "|>α<α|μένη"  # §37
+    - "|{2nd}>ο<T_1|μένη"  # §37
+    - "|ε{athematic}>ε<|μένη"  # §37
+    - "|ο{athematic}>ο<|μένη"  # §37
+    # - "|α{athematic}>α<|μένη"  # §37
+    - "|α{root}>α<|μένη"  # §37
+AMP.VSF:
+    ref: AMP.NSF
+AMP.NSN:
+    ref: AMP.ASN
+AMP.VSN:
+    ref: AMP.NSN
+AMP.NPM:
+    - "|>ά<α|μενοι"
+    - "|{2nd}>ό<T_1|μενοι"
+    # - "|{athematic}><|μενοι"
+AMP.VPM:
+    ref: AMP.NPM
+AMP.NPF:
+    - "|>ά<α|μεναι"
+    - "|{2nd}>ό<T_1|μεναι"
+    # - "|{athematic}><|μεναι"
+AMP.VPF:
+    ref: AMP.NPF
+AMP.NPN:
+    ref: AMP.APN
+AMP.VPN:
+    ref: AMP.NPN
+AMP.GSM:
+    - "|>α<α|μένου"
+    - "|{2nd}>ο<T_1|μένου"
+    # - "|{athematic}><|μένου"
+AMP.GSF:
+    - "|>α<α|μένης"
+    - "|{2nd}>ο<T_1|μένης"
+    # - "|{athematic}><|μένης"
+AMP.GSN:
+    ref: AMP.GSM
+AMP.GPM:
+    - "|>α<α|μένων"
+    - "|{2nd}>ο<T_1|μένων"
+    # - "|{athematic}><|μένων"
+AMP.GPF:
+    ref: AMP.GPM
+AMP.GPN:
+    ref: AMP.GPM
+AMP.DSM:
+    - "|>α<α|μένῳ"
+    - "|{2nd}>ο<T_1|μένῳ"
+    # - "|{athematic}><|μένῳ"
+AMP.DSF:
+    - "|>α<α|μένῃ"
+    - "|{2nd}>ο<T_1|μένῃ"
+    # - "|{athematic}><|μένῃ"
+AMP.DSN:
+    ref: AMP.DSM
+AMP.DPM:
+    - "|>α<α|μένοις"
+    - "|{2nd}>ο<T_1|μένοις"
+    # - "|{athematic}><|μένοις"
+AMP.DPF:
+    - "|>α<α|μέναις"
+    - "|{2nd}>ο<T_1|μέναις"
+    # - "|{athematic}><|μέναις"
+AMP.DPN:
+    ref: AMP.DPM
+AMP.ASM:
+    - "|>ά<α|μενον"  # §37
+    - "|{2nd}>ό<T_1|μενον"  # §37
+    - "|{athematic}><|μενον"  # §37
+    - "|{root}><|μενον"  # §37
+AMP.ASF:
+    - "|>α<α|μένην"
+    - "|{2nd}>ο<T_1|μένην"
+    # - "|{athematic}><|μένην"
+AMP.ASN:
+    ref: AMP.ASM
+AMP.APM:
+    - "|>α<α|μένους"
+    - "|{2nd}>ο<T_1|μένους"
+    # - "|{athematic}><|μένους"
+AMP.APF:
+    - "|>α<α|μένᾱς"
+    - "|{2nd}>ο<T_1|μένᾱς"
+    # - "|{athematic}><|μένᾱς"
+AMP.APN:
+    - "|>ά<α|μενα"
+    - "|{2nd}>ό<T_1|μενα"
+    # - "|{athematic}><|μενα"
+
+AMS.1S:
+    - "|><|ωμαι"
+    - "|{2nd}><|ωμαι"
+    - "|ο{athematic}>ῶ<|μαι"
+    - "|ε{athematic}>ῶ<|μαι"
+    # - "|ἑ{athematic}>ὧ<|μαι"  # hopefully can go away with better breathing support
+AMS.2S:
+    - "|><|ῃ"
+    - "|{2nd}><|ῃ"
+    - "|ο{athematic}>ῷ<ῃ|"
+    - "|ε{athematic}>ῇ<ῃ|"
+    # - "|ἑ{athematic}>ᾗ<ῃ|"  # hopefully can go away with better breathing support
+AMS.3S:
+    - "|>η<η|ται"
+    - "|{2nd}>η<η|ται"
+    - "|ο{athematic}>ῶ<|ται"
+    - "|ε{athematic}>ῆ<|ται"
+    # - "|ἑ{athematic}>ἧ<|ται"  # hopefully can go away with better breathing support
+AMS.1P:
+    - "|>ώ<ώ|μεθα"
+    - "|{2nd}>ώ<ώ|μεθα"
+    - "|ο{athematic}>ώ<|μεθα"
+    - "|ε{athematic}>ώ<|μεθα"
+    # - "|ἑ{athematic}>ὥ<|μεθα"
+AMS.2P:
+    - "|>η<η|σθε"
+    - "|{2nd}>η<η|σθε"
+    - "|ο{athematic}>ῶ<|σθε"
+    - "|ε{athematic}>ῆ<|σθε"
+    # - "|ἑ{athematic}>ἧ<|σθε"  # @@@
+AMS.3P:
+    - "|>ω<ω|νται"
+    - "|{2nd}>ω<ω|νται"
+    - "|ο{athematic}>ῶ<|νται"
+    - "|ε{athematic}>ῶ<|νται"
+    # - "|ἑ{athematic}>ὧ<|νται"  # @@@
+
+APD.2S:
+    # - "|><|ηθι"
+    - "|><|ητι"
+
+APD.3S:
+    - "|><|ήτω"
+    # - "|><|ητω"
+
+APD.2P:
+    - "|><|ητε"
+
+APD.3P:
+    - "|><|έντων"
+    # - "|><|εντων"
+
+API.1S:
+    - "|>η<|ν"  # §50
+API.2S:
+    - "|>η<|ς"  # §50
+API.3S:
+    - "|>η<|"  # §50
+API.1P:
+    - "|>η<|μεν"  # §50
+API.2P:
+    - "|>η<|τε"  # §50
+API.3P:
+    - "|>η<|σαν"  # §50
+
+APN:
+    - "|>ῆ<|ναι"  # §50
+
+APO.1S:
+    - "|><|είην"
+    # - "|><|ειμην"
+APO.2S:
+    - "|><|είης"
+    # - "|><|ειης"
+APO.3S:
+    - "|><|είη"
+    # - "|><|ειη"
+APO.1P:
+    - "|><|ειημεν;+alt-apo-pl"
+    - "|><|εῖμεν"
+APO.2P:
+    - "|><|ειητε;+alt-apo-pl"
+    - "|><|εῖτε"
+APO.3P:
+    - "|><|ειησαν;+alt-apo-pl"
+    - "|><|εῖεν"
+
+APP.NSM:
+    - "|>εί<@|ς"  # §38
+APP.VSM:
+    ref: APP.NSM
+APP.NSF:
+    - "|>εῖ<@|σα"  # §38
+APP.VSF:
+    ref: APP.NSF
+APP.NSN:
+    ref: APP.ASN
+APP.VSN:
+    ref: APP.NSN
+APP.NPM:
+    - "|>έ<|ντες"  # §38
+APP.VPM:
+    ref: APP.NPM
+APP.NPF:
+    - "|>εῖ<@|σαι"  # §38
+APP.VPF:
+    ref: APP.NPF
+APP.NPN:
+    ref: APP.APN
+APP.VPN:
+    ref: APP.NPN
+APP.GSM:
+    - "|>έ<|ντος"  # §38
+APP.GSF:
+    - "|>εί<@|σης"  # §38
+APP.GSN:
+    ref: APP.GSM
+APP.GPM:
+    - "|>έ<|ντων"  # §38
+APP.GPN:
+    ref: APP.GPM
+APP.GPF:
+    - "|>ει<@|σῶν"  # §38
+APP.DSM:
+    - "|>έ<|ντι"  # §38
+APP.DSF:
+    - "|>εί<@|σῃ"  # §38
+APP.DSN:
+    ref: APP.DSM
+APP.DPM:
+    - "|>εῖ<@|σι(ν)"  # §38
+APP.DPF:
+    - "|>εί<@|σαις"  # §38
+APP.DPN:
+    ref: APP.DPM
+APP.ASM:
+    - "|>έ<|ντα"  # §38
+APP.ASF:
+    - "|>εῖ<@|σαν"  # §38
+APP.ASN:
+    - "|>έ<|ν"  # §38
+APP.APM:
+    - "|>έ<|ντας"  # §38
+APP.APF:
+    - "|>εί<@|σᾱς"  # §38
+APP.APN:
+    - "|>έ<|ντα"  # §38
+
+APS.1S:
+    - "|><|ῶ"  # ε-contraction
+APS.2S:
+    - "|><|ῇς"  # ε-contraction
+APS.3S:
+    - "|><|ῇ"  # ε-contraction
+APS.1P:
+    - "|><|ῶμεν"  # ε-contraction
+APS.2P:
+    - "|><|ῆτε"  # ε-contraction
+APS.3P:
+    - "|><|ῶσι(ν);-no-final-nu-aps.3p"  # ε-contraction
+    - "|><|ῶσι;+no-final-nu-aps.3p"  # ε-contraction
+
+FAI.1S:
+    - "|>ω<|"  # §49
+    - "|{contract}>ῶ<|"
+FAI.2S:
+    - "|>ει<|ς"  # §49
+    - "|{contract}>εῖ<|ς"
+FAI.3S:
+    - "|>ει<|"  # §49
+    - "|{contract}>εῖ<|"
+FAI.1P:
+    - "|>ο<T_1|μεν"  # §49
+    - "|{contract}>οῦ<T_1|μεν"
+FAI.2P:
+    - "|>ε<|τε"  # §49
+    - "|{contract}>εῖ<|τε"
+FAI.3P:
+    - "|>ου<|σι(ν);-no-final-nu-fai.3p"  # §49
+    - "|{contract}>οῦ<|σι(ν);-no-final-nu-fai.3p"
+    - "|>ου<|σι;+no-final-nu-fai.3p"
+    - "|{contract}>οῦ<|σι;+no-final-nu-fai.3p"
+
+FAN:
+    - "|>ειν<|"  # §49
+    - "|{contract}>εῖν<|"
+
+FAO.1S:
+    - "|><|οιμι"
+    - "|{contract}>οῖ<οι|μι"  # @@@ could be modeled as ε- rather than #
+FAO.2S:
+    - "|><|οις"
+    - "|{contract}>οῖ<οι|ς"
+FAO.3S:
+    - "|><|οι"  # long
+    - "|{contract}>οῖ<οι|"
+FAO.1P:
+    - "|><|οιμεν"
+    - "|{contract}>οῖ<οι|μεν"
+FAO.2P:
+    - "|><|οιτε"
+    - "|{contract}>οῖ<οι|τε"
+FAO.3P:
+    - "|><|οιεν"
+    - "|{contract}>οῖ<οι|εν"
+
+FAP.NSM:
+    - "|>ων<|"  # §29
+    - "|{contract}>ῶν<|"  # §29
+FAP.VSM:
+    ref: FAP.NSM
+FAP.NSF:
+    - "|>ου<@|σα"  # §29
+    - "|{contract}>οῦ<@|σα"  # §29
+FAP.VSF:
+    ref: FAP.NSF
+FAP.NSN:
+    ref: FAP.ASN
+FAP.VSN:
+    ref: FAP.NSN
+FAP.NPM:
+    - "|>ο<|ντες"
+    # - "|{contract}>οῦ<|ντες"
+FAP.VPM:
+    ref: FAP.NPM
+FAP.NPF:
+    - "|>ου<|σαι"
+    # - "|{contract}>οῦ<|σαι"  # accent?
+FAP.VPF:
+    ref: FAP.NPF
+FAP.NPN:
+    ref: FAP.APN
+FAP.VPN:
+    ref: FAP.NPN
+FAP.GSM:
+    - "|>ο<|ντος"
+    # - "|{contract}>οῦ<|ντος"
+FAP.GSF:
+    - "|>ού<@|σης"
+    # - "|{contract}>ού<|σης"  # accent?
+FAP.GSN:
+    - "|>ο<|ντος"
+    # - "|{contract}>οῦ<|ντος"  # accent?
+FAP.GPM:
+    - "|>ό<|ντων"
+    # - "|{contract}>ού<|ντων"  # accent?
+FAP.GPF:
+    - "|>ου<@|σῶν"
+    # - "|{contract}>ου<@|σῶν"
+FAP.GPN:
+    ref: FAP.GPM
+FAP.DSM:
+    - "|>ο<|ντι"
+    # - "|{contract}>οῦ<|ντι"  # accent?
+FAP.DSF:
+    - "|>ού<@|σῃ"
+    # - "|{contract}>ού<|σῃ"  # accent?
+FAP.DSN:
+    ref: FAP.DSM
+FAP.DPM:
+    - "|>ου<@|σι(ν)"
+    # - "|{contract}>οῦ<@|σι(ν)"  # accent?
+FAP.DPF:
+    - "|>ού<@|σαις"
+    # - "|{contract}>ού<@|σαις"
+FAP.DPN:
+    ref: FAP.DPM
+FAP.ASM:
+    - "|>ο<|ντα"
+    # - "|{contract}>οῦ<|ντα"  # accent?
+FAP.ASF:
+    - "|>ου<@|σαν"
+    # - "|{contract}>οῦ<|σαν"  # accent?
+FAP.ASN:
+    - "|>ο<|ν"  # §29
+    - "|{contract}>οῦ<|ν"  # §29
+FAP.APM:
+    - "|>ο<|ντας"
+    # - "|{contract}>οῦ<|ντας"  # accent?
+FAP.APF:
+    - "|>ού<@|σᾱς"
+    # - "|{contract}>ού<|σᾱς"  # accent?
+FAP.APN:
+    - "|>ο<|ντα"
+    # - "|{contract}>οῦ<|ντα"  # accent?
+
+FMI.1S:
+    - "|>ο<|μαι"  # §49
+    # - "|{athematic}>ο<|μαι"
+    - "|{contract}>οῦ<ο|μαι"  # added for principal parts
+FMI.2S:
+    - "|>ῃ<|;-no-fmi.2s-eta"  # §49
+    - "|>ει<|"  # §49
+    - "|{contract}>εῖ<|"
+    # - "|>ε<|σαι"  # no loss of intervocalic sigma
+    # - "|{athematic}>ει<|"
+    # - "|{athematic}>ῃ<|"
+FMI.3S:
+    - "|>ε<T|ται"  # §49
+    - "|{athematic}><|ται"
+    - "|{contract}>εῖ<T|ται"
+FMI.1P:
+    - "|>ό<T|μεθα"  # §49
+    - "|{contract}>οῦ<T|μεθα"
+    # - "|{athematic}>ό<|μεθα"
+FMI.2P:
+    - "|>ε<|σθε"  # §49
+    # - "|{athematic}>ε<|σθε"
+    - "|{contract}>εῖ<|σθε"
+FMI.3P:
+    - "|>ο<|νται"  # §49
+    # - "|{athematic}>ο<|νται"
+    - "|{contract}>οῦ<|νται"
+
+FMN:
+    - "|>ε<T|σθαι"  # §49
+    - "|{contract}>εῖ<T|σθαι"
+    # - "|ἐσ{athematic}>ἔσε<|σθαι"  # εἰμί
+    # - "|εσ{athematic}>έσε<|σθαι"
+
+FMO.1S:
+    - "|><|οίμην"
+    # - "|><|οιμην"
+    - "|{contract}>οι<οι|μην"
+FMO.2S:
+    - "|><|οιο"  # οισο
+    - "|{contract}>οῖ<οι|ο"  # οισο
+FMO.3S:
+    - "|><|οιτο"
+    - "|{contract}>οῖ<οι|το"
+FMO.1P:
+    - "|><|οίμεθα"
+    # - "|><|οιμεθα"
+    - "|{contract}>οι<οι|μεθα"
+FMO.2P:
+    - "|><|οισθε"
+    - "|{contract}>οῖ<οι|σθε"
+FMO.3P:
+    - "|><|οιντο"
+    - "|{contract}>οῖ<οι|ντο"
+
+FMP.NSM:
+    - "|>ό<|μενος"  # §36
+    - "|{contract}>ού<|μενος"
+FMP.VSM:
+    - "|>ό<|μενε"
+    - "|{contract}>ού<|μενε"
+FMP.NSF:
+    - "|>ο<|μένη"  # §36
+    - "|{contract}>ου<|μένη"
+FMP.VSF:
+    ref: FMP.NSF
+FMP.NSN:
+    ref: FMP.ASN
+FMP.VSN:
+    ref: FMP.NSN
+FMP.NPM:
+    - "|>ό<|μενοι"
+    - "|{contract}>ού<|μενοι"
+FMP.VPM:
+    ref: FMP.NPM
+FMP.NPF:
+    - "|>ό<|μεναι"
+    - "|{contract}>ού<|μεναι"
+FMP.VPF:
+    ref: FMP.NPF
+FMP.NPN:
+    ref: FMP.APN
+FMP.VPN:
+    ref: FMP.NPN
+FMP.ASM:
+    - "|>ό<|μενον"  # §36
+    - "|{contract}>ού<|μενον"
+FMP.ASF:
+    - "|>ο<|μένην"
+    - "|{contract}>ού<|μενην"
+FMP.ASN:
+    ref: FMP.ASM
+FMP.APM:
+    - "|>ο<|μένους"
+    - "|{contract}>ου<|μένους"
+FMP.APF:
+    - "|>ο<|μένᾱς"
+    - "|{contract}>ου<|μένᾱς"
+FMP.APN:
+    - "|>ό<|μενα"
+    - "|{contract}>ού<|μενα"
+FMP.GSM:
+    - "|>ο<|μένου"
+    - "|{contract}>ου<|μένου"
+FMP.GSF:
+    - "|>ο<|μένης"
+    - "|{contract}>ου<|μένης"
+FMP.GSN:
+    ref: FMP.GSM
+FMP.GPM:
+    - "|>ο<|μένων"
+    - "|{contract}>ου<|μένων"
+FMP.GPF:
+    ref: FMP.GPM
+FMP.GPN:
+    ref: FMP.GPM
+FMP.DSM:
+    - "|>ο<|μένῳ"
+    - "|{contract}>ου<|μένῳ"
+FMP.DSF:
+    - "|>ο<|μένῃ"
+    - "|{contract}>ου<|μένῃ"
+FMP.DSN:
+    ref: FMP.DSM
+FMP.DPM:
+    - "|>ο<|μένοις"
+    - "|{contract}>ου<|μένοις"
+FMP.DPF:
+    - "|>ο<|μέναις"
+    - "|{contract}>ου<|μέναις"
+FMP.DPN:
+    ref: FMP.DPM
+
+FPI.1S:
+    - "ήσ|>ο<T_1|μαι"  # §49 (+ used in principal parts testing)
+    - "ησ|>ο<T_1|μαι"  # §49 @@@
+FPI.2S:
+    # - "ήσ|>ῃ<T_2+σαι|"  # §49
+    # - "ήσ|>ει<T_2+σαι|;+fpi.2s-ει"  # §49
+    - "ησ|>ῃ<T_2+σαι|;-no-fpi.2s-eta"  # §49 @@@
+    - "ησ|>ει<T_2+σαι|;+fpi.2s-ει"  # §49 @@@
+FPI.3S:
+    # - "ήσ|>ε<T_2|ται"  # §49
+    - "ησ|>ε<T_2|ται"  # §49 @@@
+FPI.1P:
+    - "ησ|>ό<T_1|μεθα"  # §49
+FPI.2P:
+    # - "ήσ|>ε<T_2|σθε"  # §49
+    - "ησ|>ε<T_2|σθε"  # §49 @@@
+FPI.3P:
+    # - "ήσ|>ο<T_1|νται"  # §49
+    - "ησ|>ο<T_1|νται"  # §49 @@@
+
+FPN:
+    # - "ήσ|>ε<T_2|σθαι"  # §49
+    - "ησ|>ε<T_2|σθαι"  # §49 @@@
+
+FPO.1S:
+    - "|><|οίμην"
+    # - "|><|οιμην"
+FPO.2S:
+    - "|><|οιο"  # οισο
+FPO.3S:
+    - "|><|οιτο"
+FPO.1P:
+    - "|><|οίμεθα"
+    # - "|><|οιμεθα"
+FPO.2P:
+    - "|><|οισθε"
+FPO.3P:
+    - "|><|οιντο"
+
+FPP.NSM:
+    - "ησ|>ό<T_1|μενος"  # §36
+FPP.VSM:
+    - "ησ|>ό<T_1|μενε"
+FPP.NSF:
+    - "ησ|>ο<T_1|μένη"  # §36
+FPP.VSF:
+    ref: FPP.NSF
+FPP.NSN:
+    ref: FPP.ASN
+FPP.VSN:
+    ref: FPP.NSN
+FPP.NPM:
+    - "ησ|>ό<T_1|μενοι"
+FPP.VPM:
+    ref: FPP.NPM
+FPP.NPF:
+    - "ησ|>ό<T_1|μεναι"
+FPP.VPF:
+    ref: FPP.NPF
+FPP.NPN:
+    ref: FPP.APN
+FPP.VPN:
+    ref: FPP.NPN
+FPP.ASM:
+    - "ησ|>ό<T_1|μενον"
+FPP.ASF:
+    - "ησ|>ο<T_1|μένην"
+FPP.ASN:
+    - "ησ|>ό<T_1|μενον"  # §36
+FPP.APM:
+    - "ησ|>ο<T_1|μένους"
+FPP.APF:
+    - "ησ|>ο<T_1|μένᾱς"
+FPP.APN:
+    - "ησ|>ό<T_1|μενα"
+FPP.GSM:
+    - "ησ|>ο<T_1|μένου"
+FPP.GSF:
+    - "ησ|>ο<T_1|μένης"
+FPP.GSN:
+    ref: FPP.GSM
+FPP.GPM:
+    - "ησ|>ο<T_1|μένων"
+FPP.GPF:
+    ref: FPP.GPM
+FPP.GPN:
+    ref: FPP.GPM
+FPP.DSM:
+    - "ησ|>ο<T_1|μένῳ"
+FPP.DSF:
+    - "ησ|>ο<T_1|μένῃ"
+FPP.DSN:
+    ref: FPP.DSM
+FPP.DPM:
+    - "ησ|>ο<T_1|μένοις"
+FPP.DPF:
+    - "ησ|>ο<T_1|μέναις"
+FPP.DPN:
+    ref: FPP.DPM
+
+IAI.1S:
+    - "|>ο<T_1|ν"  # §48
+    - "|ε>ου<T_1|ν"  # §58
+    - "|ο>ου<T_1|ν"  # §59
+    - "|α>ω<T_1|ν"  # §57
+    - "|η>ω<T_1|ν"
+    - "|ο{athematic}>ου<_2|ν"  # §60a
+    - "|ε{athematic}>η<_1|ν"  # @@@ or stem?
+    - "|ε{root}>η<_1|ν"  # §60b
+    - "|ῡ{athematic}>ῡ<_2|ν"  # §60c
+    - "|α{athematic}>η<_2|ν"  # §60d @@@ or stem?
+    - "|η{athematic}>ῆ<|"  # §65a εἰμί
+    - "|η{athematic}>η<|ν"
+    # - "|ἠ{athematic}>ἦ<|ν"  # §65a εἰμί
+    # - "|η{athematic}{enclitic}>ῆ<|"  # -εἰμί
+    # - "|η{athematic}{enclitic}>ῆ<|ν"  # -εἰμί
+    - "|ῃ{athematic}>ῇα<|;+alt-eimi-imp"  # @@@
+    - "|ῃ{athematic}>ῄειν<|"  # @@@
+IAI.2S:
+    - "|>ε<T_2|ς"  # §48
+    - "|ε>ει<T_2|ς"  # §58
+    - "|ο>ου<T_2|ς"  # §59
+    - "|α>ᾱ<T_2|ς"  # §57
+    - "|η>η<T_2|ς"  # §57
+    - "|ο{athematic}>ου<_2|ς"  # §60a
+    - "|ε{athematic}>ει<_2|ς"  # §60b
+    - "|ῡ{athematic}>ῡ<_2|ς"  # §60c
+    - "|α{athematic}>η<_2|ς"  # §60d
+    # - "|α{athematic}>η<_2|σθα"  # @@@
+    # - "|ἠ{athematic}>ἦ<|ς"  # εἰμί
+    # - "|ἠ{athematic}>ἦ<|σθα"  # §65a εἰμί
+    - "|η{athematic}>η<|σθα"
+    - "|η{athematic}>η<|ς"
+    - "|ῃ{athematic}>ῄει<|ς"  # @@@
+    # - "|ᾐ{athematic}>ᾔει<|σθα"  # @@@
+IAI.3S:
+    - "|>ε(ν)<T_2|;-no-final-nu-iai.3s"  # §48
+    - "|>ε<T_2|;+no-final-nu-iai.3s"
+    - "|ε>ει<T_2|"  # §58 contract does not have movable nu
+    - "|ο>ου<T_2|"  # §59
+    - "|α>ᾱ<T_2|"  # §57
+    - "|η>η<T_2|"  # §57
+    - "|ο{athematic}>ου<_2|"  # §60a
+    - "|ε{athematic}>ει<_2|"  # §60b
+    - "|ῡ{athematic}>ῡ<_2|"  # §60c
+    - "|α{athematic}>η<_2|"  # §60d
+    # - "|η{athematic}>η<|"
+    # - "|η{athematic}>ῆν<|"  # §65a εἰμί
+    # - "|η{athematic}{enclitic}>ῆν<|"  # -εἰμί
+    - "|ῃ{athematic}>ῄει(ν)<|"  # @@@
+IAI.1P:
+    - "|>ο<T_1|μεν"  # §48
+    - "|ε>οῦ<T_1|μεν"  # §58
+    # @@@ add have uncontracted variants
+    - "|ο>οῦ<T_1|μεν"  # §59
+    - "|α>ῶ<T_1|μεν"  # §57
+    - "|η>ῶ<T_1|μεν"  # §57
+    - "|ο{athematic}>ο<|μεν"  # §60a
+    - "|ε{athematic}>ε<|μεν"  # §60b
+    - "|υ{athematic}>υ<|μεν"  # §60c
+    - "|α{athematic}>α<|μεν"  # §60d
+    - "|η{athematic}>ῆ<|μεν"  # §65a εἰμί/-εἰμί
+    - "|ῃ{athematic}>ῇ<|μεν"
+IAI.2P:
+    - "|>ε<T_2|τε"  # §48
+    - "|ε>εῖ<T_2|τε"  # §58
+    - "|ο>οῦ<T_2|τε"  # §59
+    - "|α>ᾶ<T_2|τε"  # §57
+    - "|η>ῆ<T_2|τε"  # ζάω
+    - "|ο{athematic}>ο<|τε"  # §60a
+    - "|ε{athematic}>ε<|τε"  # §60b
+    - "|υ{athematic}>υ<|τε"  # §60c
+    - "|α{athematic}>α<|τε"  # §60d
+    # - "|ἠ{athematic}>ἦ<|τε"  # §65a εἰμί
+    - "|η{athematic}>ῆ<|τε"  # §65a εἰμί/-εἰμί
+    - "|ησ{athematic}>ῆσ<|τε"  # §65a εἰμί alt (Pratt has this but not LTRG)
+    - "|ῃ{athematic}>ῇ<|τε"  # @@@
+IAI.3P:
+    - "|>ο<T_1|ν"  # §48
+    - "|ε>ου<T_1|ν"  # §58
+    - "|ο>ου<T_1|ν"  # §59
+    - "|α>ω<T_1|ν"  # §57
+    - "|η>ω<T_1|ν"  # §57
+    - "|ο{athematic}>ο<|σαν"  # §60a
+    - "|ε{athematic}>ε<|σαν"  # §60b
+    - "|υ{athematic}>υ<|σαν"  # §60c
+    - "|α{athematic}>α<|σαν"  # §60d
+    - "|η{athematic}>ῆ<|σαν"  # §65a εἰμί/-εἰμί
+    - "|ῃ{athematic}>ῇ<|σαν;+alt-eimi-imp"  # @@@
+    - "|ῃ{athematic}>ῄε<|σαν"  # @@@
+    # - "εἴχ|>ο<|σαν"  # @@@ coming from NT but what is reason?
+    # - "δολι|ο>οῦ<|σαν"  # @@@ coming from NT but what is reason?
+
+IMI.1S:
+    - "|>ό<T_1|μην"  # §48
+    - "|ε>ού<T_1|μην"  # §58
+    # @@@ could add uncontracted variant
+    - "|ο>ού<T_1|μην"  # §59
+    - "|α>ώ<T_1|μην"  # §57
+    - "|η>ώ<T_1|μην"
+    - "|ο{athematic}>ό<|μην"  # §60a
+    - "|ε{athematic}>έ<|μην"  # §60b
+    - "|υ{athematic}>ύ<|μην"  # §60c
+    - "|α{athematic}>ά<|μην"  # §60d
+    # - "|η{athematic}>ή<|μην"  # εἰμί
+IMI.2S:
+    - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
+    - "|ε>οῦ<σο|"  # §58
+    - "|ο>οῦ<σο|"  # §59
+    - "|α>ῶ<σο|"  # §57
+    - "|η>ῶ<σο|"
+    - "|ο{athematic}>ο<|σο"  # §60a
+    - "|ε{athematic}>ε<|σο"  # §60b
+    - "|υ{athematic}>υ<|σο"  # §60c
+    - "|ῡ{athematic}>ῡ<|σο"
+    - "|α{athematic}>α<|σο;+no-sigma-loss-imi.2s"  # §60d
+    - "|α{athematic}>ω<σο|;+sigma-loss-imi.2s"  # loss of intervocalic sigma followed by contraction (not in Pratt)
+    # - "|η{athematic}>ῆ<|σθα"
+IMI.3S:
+    - "|>ε<T_2|το"  # §48
+    - "|ε>εῖ<T_2|το"  # §58
+    - "|ο>οῦ<T_2|το"  # §59
+    - "|α>ᾶ<T_2|το"  # §57
+    - "|η>ῆ<T_2|το"
+    - "|ο{athematic}>ο<|το"  # §60a
+    - "|ε{athematic}>ε<|το"  # §60b
+    - "|υ{athematic}>υ<|το"  # §60c
+    - "|α{athematic}>α<|το"  # §60d
+    # - "|η{athematic}>η<|το"
+    # - "|ει{athematic}>ει<|το"
+IMI.1P:
+    - "|>ό<T_1|μεθα"  # §48
+    - "|ε>ού<T_1|μεθα"  # §58
+    # @@@ could add uncontracted variant
+    - "|ο>ού<T_1|μεθα"  # §59
+    - "|α>ώ<T_1|μεθα"  # §57
+    - "|η>ώ<T_1|μεθα"
+    - "|ο{athematic}>ό<|μεθα"  # §60a
+    - "|ε{athematic}>έ<|μεθα"  # §60b
+    - "|υ{athematic}>ύ<|μεθα"  # §60c
+    - "|α{athematic}>ά<|μεθα"  # §60d
+    # - "|η{athematic}>ή<|μεθα"  # εἰμί
+IMI.2P:
+    - "|>ε<T_2|σθε"  # §48
+    - "|ε>εῖ<T_2|σθε"  # §58
+    - "|ο>οῦ<T_2|σθε"  # §59
+    - "|α>ᾶ<T_2|σθε"  # §57
+    - "|η>ῆ<T_2|σθε"
+    - "|ο{athematic}>ο<|σθε"  # §60a
+    - "|ε{athematic}>ε<|σθε"  # §60b
+    - "|υ{athematic}>υ<|σθε"  # §60c
+    - "|α{athematic}>α<|σθε"  # §60d
+IMI.3P:
+    - "|>ο<T_1|ντο"  # §48
+    - "|ε>οῦ<T_1|ντο"  # §58
+    # @@@ could add uncontracted variant
+    - "|ο>οῦ<T_1|ντο"  # §59
+    - "|α>ῶ<T_1|ντο"  # §57
+    - "|η>ῶ<T_1|ντο"
+    - "|ο{athematic}>ο<|ντο"  # §60a
+    - "|ε{athematic}>ε<|ντο"  # §60b
+    - "|υ{athematic}>υ<|ντο"  # §60c
+    - "|α{athematic}>α<|ντο"  # §60d
+    # - "|ει{athematic}>ει<|ντο"
+
+PAD.2S:
+    # should this be T_2 here or just ε?
+    - "|>ε<Τ_2|"
+    - "|ε>ει<Τ_2|"
+    - "|α>α<Τ_2|"
+    - "|ο>ου<Τ_2|"
+    - "|η>η<Τ_2|"
+    # - "|ε{athematic}>ει<Τ_2|"  # can't really be T_2
+    # - "|α{athematic}>η<Τ_2|"  # review stem in Pratt
+    # - "|ο{athematic}>ου<Τ_2|"  # can't really be T_2
+    - "|υ{#}>ῡ<|"  # need to distinguish from both {athematic} and thematic
+    # - "|ε{#}>ῡ<|"  # need to distinguish from both {athematic} and thematic
+    - "|{athematic}><|θι"  # @@@
+
+PAD.3S:
+    - "|>έ<Τ_2|τω"
+    - "|ε>εί<Τ_2|τω"
+    - "|α>ά<Τ_2|τω"
+    - "|ο>ού<Τ_2|τω"
+    - "|η>η<Τ_2|τω"
+    - "|{athematic}><|τω"
+
+PAD.2P:
+    - "|>ε<Τ_2|τε"
+    - "|ε>εῖ<Τ_2|τε"
+    - "|α>ᾶ<Τ_2|τε"
+    - "|ο>οῦ<Τ_2|τε"
+    - "|η>η<Τ_2|τε"
+    - "|{athematic}><|τε"
+
+PAD.3P:
+    - "|>ό<Τ_1|ντων"
+    - "|ε>ού<Τ_1|ντων"
+    - "|α>ώ<Τ_1|ντων"
+    - "|ο>ού<Τ_1|ντων"
+    - "|η>ω<Τ_1|ντων"
+    - "|α{athematic}>ά<|ντων"
+    - "|ο{athematic}>ό<|ντων"
+    - "|ε{athematic}>έ<|ντων"
+    - "ν|υ{athematic}>ύ<|ντων"
+    # - "|η{athematic}>η<|ντων"
+    - "|σ{athematic}>σ<ν|των"
+    - "ι|{athematic}>ό<|ντων"
+    - "|εσ{athematic}>ό<|ντων;+extra-eimi-pad.3p"
+
+PAI.1S:
+    - "|>ω<ω|"  # §48
+    - "|ε>ῶ<ω|"  # §58
+    - "|ο>ῶ<ω|"  # §59
+    - "|α>ῶ<ω|"  # §57
+    - "|η>ῶ<ω|"
+    - "|ο{athematic}>ω<_1|μι"  # §60a
+    - "|ε{athematic}>η<_1|μι"  # §60b @@@ do via stem rather than this?
+    - "|ῡ{athematic}>ῡ<_1|μι"  # §60c
+    - "|ῡ{athematic}>υ<_1|μι;+length-missing"  # for case where length not marked
+    - "|α{athematic}>η<_1|μι"  # §60d @@@ do via stem as below rather than this?
+    - "|η{athematic}>η<_1|μι"
+    - "|ει{athematic}{enclitic}>ει<_1|μί"  # §65a εἰμί + §66
+    # - "|ει{athematic}>ει<_1|μι"  # -εἰμί
+    - "|ει{athematic}>εῖ<_1|μι"  # -εἰμί
+#    - "|α{athematic}>η<_1|μί"  # enclitic  (is this needed with below?)
+    - "|η{athematic}{enclitic}>η<_1|μί"  # enclitic
+PAI.2S:
+    - "|>ει<ει|ς"  # §48
+    - "|ε>εῖ<ει|ς"  # §58
+    - "|ο>οῖ<ει|ς"  # §59
+    - "|α>ᾷ<ει|ς"  # §57
+    - "|η>ῇ<ει|ς"  # ζάω
+    - "|ο{athematic}>ω<_1|ς"  # §60a  # @@@ do via stem instead?
+    - "|ε{athematic}>η<_1|ς"  # §60b  # @@@ do via stem instead?
+    - "|ῡ{athematic}>ῡ<_1|ς"  # §60c
+    - "|α{athematic}>η<_1|ς"  # §60d  # @@@  do via stem instead?
+    - "|η{athematic}>η<_1|ς"
+    # - "|α{athematic}>ή<_1|ς"
+    # - "|η{athematic}{enclitic}>ῄ<ει|ς"
+    # - "|εσ{athematic}>εῖ<@|"  # §65a εἰμί @@@
+    # - "|ει{athematic}>εῖ<|"  # §66c
+    - "|ει{athematic}>ει<|"
+PAI.3S:
+    - "|>ει<ει|"  # §48
+    - "|ε>εῖ<ει|"  # §58
+    - "|ο>οῖ<ει|"  # §59
+    - "|α>ᾷ<ει|"  # §57
+    - "|η>ῇ<ει|"  # ζάω
+    - "|ο{athematic}>ω<_1|σι(ν)"  # §60a  # @@@ do via stem instead?
+    - "|ε{athematic}>η<_1|σι(ν)"  # §60b  # @@@ do via stem instead?
+    - "|ῡ{athematic}>ῡ<_1|σι(ν)"  # §60c
+    - "|α{athematic}>η<_1|σι(ν)"  # §60d  # @@@ do via stem instead
+    - "|η{athematic}>η<_1|σι(ν)"
+    # - "|α{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic  @@@
+    - "|η{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic
+    - "|ει{athematic}>εῖ<|σι(ν)"  # §66c
+    # - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
+    # - "|εσ{athematic}>εσ<|τι(ν)"  # § -εἰμί
+PAI.1P:
+    - "|>ο<T_1|μεν"  # §48
+    - "|ε>οῦ<T_1|μεν"  # §58
+    - "|ο>οῦ<T_1|μεν"  # §59
+    - "|α>ῶ<T_1|μεν"  # §57
+    - "|η>ῶ<T_1|μεν"
+    - "|ο{athematic}>ο<|μεν"  # §60a
+    - "|ε{athematic}>ε<|μεν"  # §60b
+    - "|υ{athematic}>υ<|μεν"  # §60c
+    - "|α{athematic}>α<|μεν"  # §60d
+    - "|α{athematic}{enclitic}>α<|μέν"  # enclitic
+    - "|ι{athematic}>ί<|μεν"  # §66c
+    - "|εσ{athematic}{enclitic}>εσ<|μέν"  # §65a εἰμί
+    # - "|εσ{athematic}>εσ<|μεν"  # -εἰμί
+PAI.2P:
+    - "|>ε<T_2|τε"  # §48
+    - "|ε>εῖ<T_2|τε"  # §58
+    - "|ο>οῦ<T_2|τε"  # §59
+    - "|α>ᾶ<T_2|τε"  # §57
+    - "|η>ῆ<T_2|τε"  # ζάω
+    - "|ο{athematic}>ο<|τε"  # §60a
+    - "|ε{athematic}>ε<|τε"  # §60b
+    - "|υ{athematic}>υ<|τε"  # §60c
+    - "|α{athematic}>α<|τε"  # §60d
+    - "|α{athematic}{enclitic}>α<|τέ"  # enclitic
+    - "|εσ{athematic}{enclitic}>εσ<|τέ"  # §65a εἰμί
+    # - "|εσ{athematic}>εσ<|τε"  # -εἰμί
+    - "|ι{athematic}>ί<|τε"
+PAI.3P:
+    - "|>ου<ου|σι(ν);-no-final-nu-pai.3p"  # §48
+    - "|>ου<ου|σι;+no-final-nu-pai.3p"
+    - "|ε>οῦ<ου|σι(ν);-no-final-nu-pai.3p"  # §58
+    - "|ε>οῦ<ου|σι;+no-final-nu-pai.3p"
+    - "|ο>οῦ<ου|σι(ν)"  # §59
+    - "|α>ῶ<ου|σι(ν)"  # §57
+    - "|η>ῶ<ου|σι(ν)"  # §57
+    - "|ο{athematic}>όᾱ<ᾱ|σι(ν)"  # §60a
+    - "|ε{athematic}>έᾱ<ᾱ|σι(ν)"  # §60b
+    - "|υ{athematic}>ύᾱ<ᾱ|σι(ν)"  # §60c
+    - "|ι{athematic}>ίᾱ<ᾱ|σι(ν)"  # §66c @@@ better handle breathing
+    # - "|ι{athematic}>ία<ᾱ|σι(ν)"  # @@@
+    # - "|ι>ιᾶ<ᾱ|σι(ν)"  # @@@
+    - "|α{athematic}>ᾶ<ᾱ|σι(ν)"  # §60d
+    - "|α{athematic}{enclitic}>ᾱ<ᾱ|σί(ν)"  # enclitic
+    - "|ει{athematic}{enclitic}>ει<|σί(ν)"  # §65a εἰμί
+    # - "|ει{athematic}>ει<|σι(ν)"  # -εἰμί
+
+PAN:
+    - "|>ει<εε|ν"  # §48
+    - "|ε>εῖ<εε|ν"  # §58
+    - "|ο>οῦ<εε|ν"  # §59
+    - "|α>ᾶ<εε|ν"  # §57
+    - "|η>ῆ<εε|ν"  # ζάω
+    - "|ο{athematic}>ό<|ναι"  # §60a
+    - "|ε{athematic}>έ<|ναι"  # §60b
+    - "|υ{athematic}>ύ<|ναι"  # §60c
+    - "|α{athematic}>ά<|ναι"  # §60d
+    - "(?<!ε)ι|{athematic}>έ<|ναι"
+    - "|ει{athematic}>εῖ<|ναι"
+
+PAO.1S:
+    - "|><|οιμι"
+    - "|ε>οῖ<οι|μι;-no-alt-opt-sg"
+    - "|ε>οί<οί|ην"
+    - "|α>ῷ<οι|μι"
+    - "|α>ῴ<οί|ην"
+    - "|ο>οῖ<οι|μι"
+    - "|ο>οί<οι|ην"
+    - "|α{athematic}>αί<ι|ην"
+    - "|ο{athematic}>οί<ι|ην"  # change stem? (no because of ε{athematic})
+    - "|ε{athematic}>εί<ι|ην"
+    - "ι|>οί<οί|ην;+alt-εἶμι-pao.1s"
+    - "ν|υ{athematic}>ύ<|οιμι"  # @@@ could be modeled as stem = νυ without {athematic} ? would explain ο
+    # - "|εσ{athematic}>εί<ι|ην"
+    - "|εσ{athematic}>εί<ι|ην"
+PAO.2S:
+    - "|><|οις"
+    - "|ε>οῖ<οι|ς;-no-alt-opt-sg"
+    - "|ε>οί<οί|ης"
+    - "|α>ῷ<οι|ς"
+    - "|α>ῴ<οι|ης"
+    - "|ο>οῖ<οι|ς"
+    - "|ο>οί<οι|ης"
+    - "|α{athematic}>αί<ι|ης"
+    - "|ο{athematic}>οί<ι|ης"  # change stem? (not because of ε{athematic})
+    - "|ε{athematic}>εί<ι|ης"
+    - "|ι{athematic}>ί<|οις"
+    - "ν|υ{athematic}>ύ<|οις"
+    # - "|εσ{athematic}>ει<ι|ης"
+    - "|εσ{athematic}>εί<ι|ης"
+PAO.3S:
+    - "|><|οι"  # long
+    - "|ε>οῖ<οι|;-no-alt-opt-sg"
+    - "|ε>οί<οί|η"
+    - "|α>ῷ<οι|"
+    - "|α>ῴ<οί|η"
+    - "|ο>οῖ<οι|"
+    - "|ο>οί<οι|η"
+    - "|α{athematic}>αί<ι|η"
+    - "|ο{athematic}>οί<ι|η"
+    - "|ε{athematic}>εί<ι|η"
+    - "|ι{athematic}>ί<|οι"
+    - "ν|υ{athematic}>ύ<|οι"
+    # - "|εσ{athematic}>εί<ι|η"
+    - "|εσ{athematic}>εί<ι|η"
+PAO.1P:
+    - "|><|οιμεν"
+    - "|ε>οῖ<οι|μεν"
+    - "|ε>οι<οι|ημεν;-no-eta-pl-optative"
+    - "|α>ῷ<οι|μεν"
+    - "|α>ῳ<οι|ημεν"
+    - "|ο>οῖ<οι|μεν"
+    - "|ο>οι<οι|ημεν"
+    - "|α{athematic}>αῖ<ι|μεν"
+    # - "α|{athematic}><|ιημεν"
+    - "|ο{athematic}>οῖ<ι|μεν"
+    - "[αεο]|{athematic}><|ιημεν;+alt-mi-opt"
+    - "|ε{athematic}>εῖ<ι|μεν"
+    - "|ι{athematic}>ίοι<οι|μεν"
+    - "ν|υ{athematic}>ύ<|οιμεν"  # why ο if athematic?
+    # - "|εσ{athematic}>ει<ι|μεν"
+    # - "|εσ{athematic}>ει<ι|ημεν"
+    - "|εσ{athematic}>εῖ<ι|μεν"
+    - "|εσ{athematic}>εί<ι|ημεν;+alt-eimi-opt"
+PAO.2P:
+    - "|><|οιτε"
+    - "|ε>οῖ<οι|τε"
+    - "|ε>οι<οι|ητε;-no-eta-pl-optative"
+    - "|α>ῷ<οι|τε"
+    - "|α>ῳ<οι|ητε"
+    - "|ο>οῖ<οι|τε"
+    - "|ο>οι<οι|ητε"
+    # - "α|{athematic}><|ιητε"
+    - "|ε{athematic}>εῖ<ι|τε"
+    - "|α{athematic}>αῖ<ι|τε"
+    - "|ο{athematic}>οῖ<ι|τε"
+    - "[αεο]|{athematic}><|ιητε;+alt-mi-opt"
+    - "|ι{athematic}>ίοι<οι|τε"
+    - "ν|υ{athematic}>ύ<|οιτε"  # why is ο there if athematic?
+    # - "|εσ{athematic}>εῖ<ι|τε"
+    # - "|εσ{athematic}>ει<ι|ητε"
+    - "|εσ{athematic}>εῖ<ι|τε"
+    - "|εσ{athematic}>εί<ι|ητε;+alt-eimi-opt"
+PAO.3P:
+    - "|><|οιεν"
+    - "|ε>οῖ<οι|εν"
+    - "|ε>οι<οι|ησαν;-no-eta-pl-optative"
+    - "|α>ῷ<οι|εν"
+    - "|α>ῳ<οι|ησαν"
+    - "|ο>οῖ<οι|εν"
+    - "|ο>οι<οι|ησαν"
+    - "|α{athematic}>αῖ<ι|εν"
+    # - "α|{athematic}><|ιησαν"
+    - "|ο{athematic}>οῖ<ι|εν"
+    - "[αεο]|{athematic}><|ιησαν;+alt-mi-opt"
+    - "|ε{athematic}>εῖ<ι|εν"
+    - "|ι{athematic}>ίοι<οι|εν"
+    - "ν|υ{athematic}>ύ<|οιεν"  # why is ο there if athematic?
+    # - "|εσ{athematic}>ει<ι|εν"
+    # - "|εσ{athematic}>ει<ι|ησαν"
+    - "|εσ{athematic}>εῖ<ι|εν"
+    - "|εσ{athematic}>εί<ι|ησαν;+alt-eimi-opt"
+
+PAP.NSM:
+    # - "|0>ὤ<|ν"  # §25
+    - "|0>ω<|ν"  # §25
+    - "|>ω<|ν"  # §26
+    - "|ε>ῶ<|ν"  # §27
+    - "|ο>ῶ<|ν"  # §27
+    - "|α>ῶ<|ν"  # §27
+    - "|η>ῶ<|ν"
+    - "|ε{athematic}>εί<@|ς"  # §28
+    - "|ο{athematic}>ού<@|ς"  # §28
+    - "|α{athematic}>ᾱ́<@|ς"  # §28
+    - "|υ{athematic}>ῡ́<@|ς"  # §28
+    # - "|ο{athematic}>ώ<|ν"  # §28 why is this not ούς? @@@
+    # - "|>ώ<|ν"  # @@@
+    # - "|{contract}>ῶ<|ν"  # not sure how else to model κατακρινῶν
+PAP.VSM:
+    ref: PAP.NSM
+PAP.NSF:
+    # - "|0>οὖ<ου|σα"  # §25
+    - "|0>ου<ου|σα"  # §25
+    - "|>ου<ου|σα"  # §26
+    - "|ε>οῦ<ου|σα"  # §27
+    - "|ο>οῦ<ου|σα"  # §27
+    - "|α>ῶ<ου|σα"  # §27
+    - "|η>ῶ<ου|σα"
+    - "|ε{athematic}>εῖ<_3|σα"  # §28
+    - "|ο{athematic}>οῦ<_3|σα"  # §28
+    - "|α{athematic}>ᾶ<_3|σα"  # §28
+    - "|υ{athematic}>ῦ<_3|σα"  # §28
+PAP.VSF:
+    ref: PAP.NSF
+PAP.NSN:
+    ref: PAP.ASN
+PAP.VSN:
+    ref: PAP.NSN
+PAP.NPM:
+    # - "|0>ὄ<T_1|ντες"  # §25
+    - "|0>ο<T_1|ντες"  # §25
+    - "|>ο<T_1|ντες"  # §26
+    - "|ε>οῦ<T_1|ντες"  # §27*
+    - "|ο>οῦ<T_1|ντες"  # §27*
+    - "|α>ῶ<T_1|ντες"  # §27*
+    # - "|η>ῶ<T_1|ντες"
+    # - "|ε{athematic}>έ<|ντες"  # §28*
+    # - "|ο{athematic}>ό<|ντες"  # §28*
+    # - "|α{athematic}>ά<|ντες"  # §28*
+    # - "|υ{athematic}>ύ<|ντες"  # §28*
+PAP.VPM:
+    ref: PAP.NPM
+PAP.NPF:
+    # - "|0>οὖ<ου|σαι"  # §25
+    - "|0>ου<ου|σαι"  # §25
+    - "|>ου<ου|σαι"  # §26
+    - "|ε>οῦ<ου|σαι"  # §27*
+    - "|ο>οῦ<ου|σαι"  # §27*
+    - "|α>ῶ<ου|σαι"  # §27*
+    # - "|η>ῶ<ου|σαι"
+    # - "|ο{athematic}>οῦ<ου|σαι"
+PAP.VPF:
+    ref: PAP.NPF
+PAP.NPN:
+    ref: PAP.APN
+PAP.VPN:
+    ref: PAP.NPN
+PAP.GSM:
+    # - "|0>ὄ<T_1|ντος"  # §25
+    - "|0>ο<T_1|ντος"  # §25
+    - "|>ο<T_1|ντος"  # §26
+    - "|ε>οῦ<T_1|ντος"  # §27
+    - "|ο>οῦ<T_1|ντος"  # §27
+    - "|α>ῶ<T_1|ντος"  # §27
+    # - "|η>ῶ<T_1|ντος"
+    - "|ε{athematic}>έ<|ντος"  # §28
+    - "|ο{athematic}>ό<|ντος"  # §28
+    - "|α{athematic}>ά<|ντος"  # §28
+    - "|υ{athematic}>ύ<|ντος"  # §28
+PAP.GSF:
+    # - "|0>οὔ<ου|σης"  # §25
+    - "|0>ού<ου|σης"  # §25
+    - "|>ού<ου|σης"  # §26
+    - "|ε>ού<ου|σης"  # §27
+    - "|ο>ού<ου|σης"  # §27
+    - "|α>ώ<ου|σης"  # §27
+    # - "|η>ώ<ου|σης"
+    - "|ε{athematic}>εί<_3|σης"  # §28
+    - "|ο{athematic}>ού<_3|σης"  # §28
+    - "|α{athematic}>ᾱ́<_3|σης"  # §28
+    - "|υ{athematic}>ῡ́<_3|σης"  # §28
+PAP.GSN:
+    ref: PAP.GSM
+PAP.GPM:
+    # - "|0>ὄ<T_1|ντων"  # §25
+    - "|0>ό<T_1|ντων"  # §25
+    - "|>ό<T_1|ντων"  # §26
+    - "|ε>ού<T_1|ντων"  # §27*
+    - "|ο>ού<T_1|ντων"  # §27*
+    - "|α>ώ<T_1|ντων"  # §27*
+    # - "|η>ώ<T_1|ντων"
+    # - "ο|{athematic}><|ντων"
+PAP.GPF:
+    # - "|0>οὐ<ου|σῶν"  # §25
+    - "|0>ου<ου|σῶν"  # §25
+    - "|>ου<ου|σῶν"  # §26
+    - "|ε>ου<ου|σῶν"  # §27*
+    - "|ο>ου<ου|σῶν"  # §27*
+    - "|α>ω<ου|σῶν"  # §27*
+    # - "|η>ω<ου|σῶν"
+    # - "|ο{athematic}>ου<ου|σῶν"
+PAP.GPN:
+    ref: PAP.GPM
+PAP.DSM:
+    # - "|0>ὄ<T_1|ντι"  # §25
+    - "|0>ο<T_1|ντι"  # §25
+    - "|>ο<T_1|ντι"  # §26
+    - "|ε>οῦ<T_1|ντι"  # §27*
+    - "|ο>οῦ<T_1|ντι"  # §27*
+    - "|α>ῶ<T_1|ντι"  # §27*
+    # - "|η>ῶ<T_1|ντι"
+    # - "|ε{athematic}>έ<|ντι"  # §28*
+    # - "|ο{athematic}>ό<|ντι"  # §28*
+    # - "|α{athematic}>ά<|ντι"  # §28*
+    # - "|υ{athematic}>ύ<|ντι"  # §28*
+PAP.DSF:
+    # - "|0>οὔ<ου|σῃ"  # §25
+    - "|0>ού<ου|σῃ"  # §25
+    - "|>ού<ου|σῃ"  # §26
+    - "|ε>ού<ου|σῃ"  # §27*
+    - "|ο>ού<ου|σῃ"  # §27*
+    - "|α>ώ<ου|σῃ"  # §27*
+    # - "|η>ώ<ου|σῃ"
+    # - "|ο{athematic}>ού<ου|σῃ"
+PAP.DSN:
+    ref: PAP.DSM
+PAP.DPM:
+    # - "|0>οὖ<ου|σι(ν)"  # §25
+    - "|0>οῦ<ου|σι(ν)"  # §25
+    - "|>ου<ου|σι(ν)"  # §26
+    # - "|>οῦ<ου|σι(ν)"  # §26
+    - "|ε>οῦ<ου|σι(ν)"  # §27*
+    - "|ο>οῦ<ου|σι(ν)"  # §27*
+    - "|α>ῶ<ου|σι(ν)"  # §27*
+    # - "|η>ῶ<ου|σι(ν)"
+    # - "|ο{athematic}>οῦ<ου|σι(ν)"
+PAP.DPF:
+    # - "|0>οὔ<ου|σαις"  # §25
+    - "|0>ού<ου|σαις"  # §25
+    - "|>ού<ου|σαις"  # §26
+    - "|ε>ού<ου|σαις"  # §27*
+    - "|ο>ού<ου|σαις"  # §27*
+    - "|α>ώ<ου|σαις"  # §27*
+    # - "|η>ώ<ου|σαις"
+    # - "|ο{athematic}>ού<ου|σαις"
+PAP.DPN:
+    ref: PAP.DPM
+PAP.ASM:
+    # - "|0>ὄ<T_1|ντα"  # §25
+    - "|0>ο<T_1|ντα"  # §25
+    - "|>ο<T_1|ντα"  # §26
+    - "|ε>οῦ<T_1|ντα"  # §27*
+    - "|ο>οῦ<T_1|ντα"  # §27*
+    - "|α>ῶ<T_1|ντα"  # §27*
+    # - "|η>ῶ<T_1|ντα"
+    # - "|ε{athematic}>έ<|ντα"  # §28*
+    # - "|ο{athematic}>ό<|ντα"  # §28*
+    # - "|α{athematic}>ά<|ντα"  # §28*
+    # - "|υ{athematic}>ύ<|ντα"  # §28*
+PAP.ASF:
+    # - "|0>οὖ<ου|σαν"  # §25
+    - "|0>ου<ου|σαν"  # §25
+    - "|>ου<ου|σαν"  # §26
+    - "|ε>οῦ<ου|σαν"  # §27*
+    - "|ο>οῦ<ου|σαν"  # §27*
+    - "|α>ῶ<ου|σαν"  # §27*
+    - "|η>ῶ<ου|σαν"
+    - "|ο{athematic}>οῦ<ου|σαν"
+PAP.ASN:
+    # - "|0>ὄ<T_1|ν"  # §25
+    - "|0>ο<T_1|ν"  # §25
+    - "|>ο<T_1|ν"  # §26
+    - "|ε>οῦ<T_1|ν"  # §27
+    - "|ο>οῦ<T_1|ν"  # §27
+    - "|α>ῶ<T_1|ν"  # §27
+    - "|η>ῶ<T_1|ν"
+    - "|ε{athematic}>έ<|ν"  # §28
+    - "|ο{athematic}>ό<|ν"  # §28
+    - "|α{athematic}>ά<|ν"  # §28
+    - "|υ{athematic}>ύ<|ν"  # §28
+PAP.APM:
+    # - "|0>ὄ<T_1|ντας"  # §25
+    - "|0>ο<T_1|ντας"  # §25
+    - "|>ο<T_1|ντας"  # §26
+    - "|ε>οῦ<T_1|ντας"  # §27*
+    - "|ο>οῦ<T_1|ντας"  # §27*
+    - "|α>ῶ<T_1|ντας"  # §27*
+    # - "|η>ῶ<T_1|ντας"
+    # - "ο|{athematic}><|ντας"
+PAP.APF:
+    # - "|0>οὔ<ου|σᾱς"  # §25
+    - "|0>ού<ου|σᾱς"  # §25
+    - "|>ού<ου|σᾱς"  # §26
+    - "|ε>ού<ου|σᾱς"  # §27*
+    - "|ο>ού<ου|σᾱς"  # §27*
+    - "|α>ώ<ου|σᾱς"  # §27*
+    # - "|η>ώ<ου|σᾱς"
+    # - "|ο{athematic}>ού<ου|σᾱς"
+PAP.APN:
+    # - "|0>ὄ<T_1|ντα"  # §25
+    - "|0>ο<T_1|ντα"  # §25
+    - "|>ο<T_1|ντα"  # §26
+    - "|ε>οῦ<T_1|ντα"  # §27*
+    - "|ο>οῦ<T_1|ντα"  # §27*
+    - "|α>ῶ<T_1|ντα"  # §27*
+    # - "|η>ῶ<T_1|ντα"
+    # - "|ο{athematic}>ό<|ντα"  # §27*
+
+PAS.1S:
+    - "|><|ω"
+    - "|ε>ῶ<ω|"
+    - "|α>ῶ<ω|"
+    - "|ο>ῶ<ω|"
+    - "|η>ῶ<ω|"
+    - "|εσ{athematic}>ῶ<ω|"  # @@@ check
+    - "|ι{athematic}>ί<|ω"  # @@@ check
+    - "ν|υ{athematic}>ύ<|ω"
+    - "|α{athematic}>ῶ<ω|"
+    - "|ε{athematic}>ῶ<ω|"
+    - "|ο{athematic}>ῶ<ω|"
+PAS.2S:
+    - "|><|ῃς"
+    - "|ε>ῇ<ῃ|ς"
+    - "|α>ᾷ<ῃ|ς"
+    - "|ο>οῖ<ῃ|ς"
+    - "|η>ῇ<ῃ|ς"
+    - "|εσ{athematic}>ῇ<ῃ|ς"
+    - "|ι{athematic}>ί<|ῃς"
+    - "ν|υ{athematic}>ύ<|ῃς"
+    - "|ε{athematic}>ῇ<ῃ|ς"
+    - "|α{athematic}>ῇ<ῃ|ς"
+    - "|ο{athematic}>ῷ<ῃ|ς"
+PAS.3S:
+    - "|><|ῃ"
+    - "|ε>ῇ<ῃ|"
+    - "|α>ᾷ<ῃ|"
+    - "|ο>οῖ<ῃ|"
+    - "|η>ῇ<ῃ|"
+    - "|εσ{athematic}>ῇ<ῃ|"
+    - "|ι{athematic}>ί<|ῃ"  # @@@
+    - "ν|υ{athematic}>ύ<|ῃ"
+    - "|α{athematic}>ῇ<ῃ|"
+    - "|ε{athematic}>ῇ<ῃ|"
+    - "|ο{athematic}>ῷ<ῃ|"
+PAS.1P:
+    - "|><|ωμεν"
+    - "|ε>ῶ<ω|μεν"
+    - "|α>ῶ<ω|μεν"
+    - "|ο>ῶ<ω|μεν"
+    - "|η>ῶ<ω|μεν"
+    - "|εσ{athematic}>ῶ<ω|μεν"
+    - "|ι{athematic}>ί<|ωμεν"
+    - "ν|υ{athematic}>ύ<|ωμεν"
+    - "|α{athematic}>ῶ<ω|μεν"
+    - "|ε{athematic}>ῶ<ω|μεν"
+    - "|ο{athematic}>ῶ<ω|μεν"
+PAS.2P:
+    - "|><|ητε"
+    - "|ε>ῆ<η|τε"
+    - "|α>ᾶ<η|τε"
+    - "|ο>ῶ<η|τε"
+    - "|η>ῆ<η|τε"
+    - "|εσ{athematic}>ῆ<η|τε"
+    - "|ι{athematic}>ί<|ητε"
+    - "ν|υ{athematic}>ύ<|ητε"
+    - "|α{athematic}>ῆ<η|τε"
+    - "|ο{athematic}>ῶ<η|τε"
+    - "|ε{athematic}>ῆ<η|τε"
+PAS.3P:
+    - "|><|ωσι(ν);-no-final-nu-pas.3p"
+    - "|><|ωσι;+no-final-nu-pas.3p"
+    - "|ε>ῶ<ω|σι(ν);-no-final-nu-pas.3p"
+    - "|ε>ῶ<ω|σι;+no-final-nu-pas.3p"
+    - "|α>ῶ<ω|σι(ν)"
+    - "|ο>ῶ<ω|σι(ν)"
+    - "|η>ῶ<ω|σι(ν)"
+    - "|εσ{athematic}>ῶ<ω|σι(ν)"
+    - "|ι{athematic}>ί<|ωσι(ν)"
+    - "ν|υ{athematic}>ύ<|ωσι(ν)"  # check LTRG on this
+    - "|α{athematic}>ῶ<ω|σι(ν)"
+    - "|ο{athematic}>ῶ<ω|σι(ν)"
+    - "|ε{athematic}>ῶ<ω|σι(ν)"
+
+PMD.2S:
+    - "|><|ου"  # εσο
+    - "|ε>οῦ<ου|"  # εσο
+    - "|α>ῶ<ου|"  # εσο
+    - "|ο>οῦ<ου|"  # εσο
+    - "|η>ῶ<ου|"  # εσο
+    - "|{athematic}><|σο"
+    - "|α{athematic}>ω<σο|;+sigma-loss-pmd.2s"
+PMD.3S:
+    - "|>έ<Τ_2|σθω"
+    - "|ε>εί<Τ_2|σθω"
+    - "|α>ᾱ́<Τ_2|σθω"
+    - "|ο>ού<Τ_2|σθω"
+    - "|η>η<Τ_2|σθω"
+    - "|{athematic}><|σθω"
+PMD.2P:
+    - "|>ε<Τ_2|σθε"
+    - "|ε>εῖ<Τ_2|σθε"
+    - "|α>ᾶ<Τ_2|σθε"
+    - "|ο>οῦ<Τ_2|σθε"
+    - "|η>η<Τ_2|σθε"
+    - "|{athematic}><|σθε"
+PMD.3P:
+    - "|>έ<Τ_2|σθων"
+    - "|ε>εί<Τ_2|σθων"
+    - "|α>ᾱ́<Τ_2|σθων"
+    - "|ο>ού<Τ_2|σθων"
+    - "|η>η<Τ_2|σθων"
+    - "|{athematic}><|σθων"
+
+PMI.1S:
+    - "|>ο<T_1|μαι"  # §48
+    - "|ε>οῦ<T_1|μαι"  # §58
+    - "|ο>οῦ<T_1|μαι"  # §59
+    - "|α>ῶ<T_1|μαι"  # §57
+    - "|η>ῶ<T_1|μαι"
+    - "|ο{athematic}>ο<|μαι"  # §60a
+    - "|ε{athematic}>ε<|μαι"  # §60b
+    - "|υ{athematic}>υ<|μαι"  # §60c
+    - "|α{athematic}>α<|μαι"  # §60d
+    # - "|η{athematic}>η<|μαι"
+    - "|ει{athematic}>εῖ<|μαι"  # needed for principal parts
+    # - "|ει{athematic}>ει<|μαι"
+    - "|οι{athematic}>οῖ<|μαι"  # needed for principal parts
+PMI.2S:
+    - "|>ῃ<T_2+σαι|;-no-pmi.2s-eta"  # §48
+    - "|>ει<T_2+σαι|"  # §48
+    - "|ε>ῇ<T_2+σαι|;-no-pmi.2s-eta"  # §58
+    - "|ε>εῖ<T_2+σαι|"  # §58
+    - "|ο>οῖ<T_2+σαι|"  # §59
+    - "|α>ᾷ<T_2+σαι|"  # §57
+    - "|η>ῇ<T_2+σαι|"
+    - "|ο{athematic}>ο<|σαι"  # §60a
+    - "|ε{athematic}>ε<|σαι"  # §60b
+    - "|υ{athematic}>υ<|σαι"  # §60c
+    - "|α{athematic}>α<|σαι"  # §60d
+    # - "|α>ᾶ<T_2|σαι"  # contraction without loss of intervocalic sigma (from NT)
+    # - "|η{athematic}>ῃ<σαι|"  # loss of intervocalic sigma (from NT?)
+PMI.3S:
+    - "|>ε<T_2|ται"  # §48
+    - "|ε>εῖ<T_2|ται"  # §58
+    - "|ο>οῦ<T_2|ται"  # §59
+    - "|α>ᾶ<T_2|ται"  # §57
+    - "|η>ῆ<T_2|ται"
+    - "|ο{athematic}>ο<|ται"  # §60a
+    - "|ε{athematic}>ε<|ται"  # §60b
+    - "|υ{athematic}>υ<|ται"  # §60c
+    - "|α{athematic}>α<|ται"  # §60d
+    # - "|η{athematic}>η<|ται"
+    # - "|ει{athematic}>εῖ<|ται"
+    # - "|ει{athematic}>ει<|ται"
+PMI.1P:
+    - "|>ό<T_1|μεθα"  # §48
+    - "|ε>ού<T_1|μεθα"  # §58
+    - "|ο>ού<T_1|μεθα"  # §59
+    - "|α>ώ<T_1|μεθα"  # §57
+    - "|η>ώ<T_1|μεθα"
+    - "|ο{athematic}>ό<|μεθα"  # §60a
+    - "|ε{athematic}>έ<|μεθα"  # §60b
+    - "|υ{athematic}>ύ<|μεθα"  # §60c
+    - "|α{athematic}>ά<|μεθα"  # §60d
+    # - "|ει{athematic}>εί<|μεθα"
+PMI.2P:
+    - "|>ε<T_2|σθε"  # §48
+    - "|ε>εῖ<T_2|σθε"  # §58
+    - "|ο>οῦ<T_2|σθε"  # §59
+    - "|α>ᾶ<T_2|σθε"  # §57
+    - "|η>ῆ<T_2|σθε"
+    - "|ο{athematic}>ο<|σθε"  # §60a
+    - "|ε{athematic}>ε<|σθε"  # §60b
+    - "|υ{athematic}>υ<|σθε"  # §60c
+    - "|α{athematic}>α<|σθε"  # §60d
+PMI.3P:
+    - "|>ο<T_1|νται"  # §48
+    - "|ε>οῦ<T_1|νται"  # §58
+    - "|ο>οῦ<T_1|νται"  # §59
+    - "|α>ῶ<T_1|νται"  # §57
+    - "|η>ῶ<T_1|νται"
+    - "|ο{athematic}>ο<|νται"  # §60a
+    - "|ε{athematic}>ε<|νται"  # §60b
+    - "|υ{athematic}>υ<|νται"  # §60c
+    - "|α{athematic}>α<|νται"  # §60d
+    # - "|ει{athematic}>ει<|νται"
+
+PMN:
+    - "|>ε<T_2|σθαι"  # §48
+    - "|ε>εῖ<T_2|σθαι"  # §58
+    - "|ο>οῦ<T_2|σθαι"  # §59
+    - "|α>ᾶ<T_2|σθαι"  # §57
+    - "|η>ῆ<T_2|σθαι"
+    - "|ο{athematic}>ο<|σθαι"  # §60a
+    - "|ε{athematic}>ε<|σθαι"  # §60b
+    - "|υ{athematic}>υ<|σθαι"  # §60c
+    - "|α{athematic}>α<|σθαι"  # §60d
+    # - "|η{athematic}>ῆ<|σθαι"
+    # - "|ει{athematic}>εῖ<|σθαι"
+
+PMO.1S:
+    - "|><|οίμην"
+    - "|ε>οί<οι|μην"
+    - "|α>ῴ<οι|μην"
+    - "|ο>οί<ι|μην"
+    - "|ε{athematic}>εί<ι|μην"
+    - "|α{athematic}{recessive}>αι<ι|μην"
+    - "|α{athematic}>αί<ι|μην"
+    - "|ο{athematic}>οί<ι|μην"
+    - "νυ|{athematic}>οί<οι|μην"  # the ο suggests not athematic
+PMO.2S:
+    - "|><|οιο"  # ισο
+    - "|ε>οῖ<οι|ο"  # ισο
+    - "|α>ῷ<οι|ο"  # ισο
+    - "|ο>οῖ<οι|ο"  # ισο
+    - "|ε{athematic}>εῖ<ι|ο"  # ισο
+    - "|α{athematic}{recessive}>αι<ι|ο"  # ισο
+    - "|α{athematic}>αῖ<ι|ο"  # ισο
+    - "|ο{athematic}>οῖ<ι|ο"  # ισο
+    - "ν|υ{athematic}>ύ<|οιο"  # the ο suggests not athematic
+PMO.3S:
+    - "|><|οιτο"
+    - "|ε>οῖ<οι|το"
+    - "|α>ῷ<οι|το"
+    - "|ο>οῖ<οι|το"
+    - "|ε{athematic}>εῖ<ι|το"
+    - "|α{athematic}{recessive}>αι<ι|το"
+    - "|α{athematic}>αῖ<ι|το"
+    - "|ο{athematic}>οῖ<ι|το"
+    - "ν|υ{athematic}>ύ<|οιτο"  # ο suggests not athematic
+PMO.1P:
+    - "|><|οίμεθα"
+    - "|ε>οί<οι|μεθα"
+    - "|α>ῴ<οι|μεθα"
+    - "|ο>οί<οι|μεθα"
+    - "|ε{athematic}>εί<ι|μεθα"
+    - "|α{athematic}{recessive}>αι<ι|μεθα"
+    - "|α{athematic}>αί<ι|μεθα"
+    - "|ο{athematic}>οί<ι|μεθα"  # change stem? (no because of ε{athematic})
+    - "νυ|{athematic}>οί<οι|μεθα"  # not really athematic because of ο
+PMO.2P:
+    - "|><|οισθε"
+    - "|ε>οῖ<οι|σθε"
+    - "|α>ῷ<οι|σθε"
+    - "|ο>οῖ<οι|σθε"
+    - "|ε{athematic}>εῖ<ι|σθε"
+    - "|α{athematic}{recessive}>αι<ι|σθε"
+    - "|α{athematic}>αῖ<ι|σθε"
+    - "|ο{athematic}>οῖ<ι|σθε"
+    - "ν|υ{athematic}>ύ<|οισθε"  # ο suggests NOT athematic
+PMO.3P:
+    - "|><|οιντο"
+    - "|ε>οῖ<οι|ντο"
+    - "|α>ῷ<οι|ντο"
+    - "|ο>οῖ<οι|ντο"
+    - "|α{athematic}{recessive}>αι<ι|ντο"
+    - "|α{athematic}>αῖ<ι|ντο"
+    - "|ο{athematic}>οῖ<ι|ντο"
+    - "|ε{athematic}>εῖ<ι|ντο"
+    - "ν|υ{athematic}>ύ<|οιντο"  # ο suggests NOT athematic
+
+PMP.NSM:
+    - "|>ό<T_1|μενος"  # § 34
+    - "|ε>ού<T_1|μενος"  # § 35
+    - "|ο>ού<T_1|μενος"  # § 35
+    - "|α>ώ<T_1|μενος"  # § 35
+    - "|η>ώ<T_1|μενος"
+    - "|ε{athematic}>έ<|μενος"  # § 35
+    - "|ο{athematic}>ό<|μενος"  # § 35
+    - "|α{athematic}>ά<|μενος"  # § 35
+    - "|υ{athematic}>ύ<|μενος"  # § 35
+    - "|υ{athematic}>ύ<|μενος"  # § 35
+    # - "|η{athematic}>ή<|μενος"
+    # - "|ει{athematic}>εί<|μενος"
+PMP.VSM:
+    - "|>ό<T_1|μενε"
+    # - "|ε>ού<T_1|μενε"
+    # - "|ο>ού<T_1|μενε"
+    # - "|α>ώ<T_1|μενε"
+    # - "|η>ώ<T_1|μενε"
+    # - "|ε{athematic}>έ<|μενε"
+    # - "|ο{athematic}>ό<|μενε"
+    # - "|α{athematic}>ά<|μενε"
+    # - "|υ{athematic}>ύ<|μενε"
+    # - "|>ό<T_1|μενος"
+    # - "|ε>ού<T_1|μενος"
+    # - "|ο>ού<T_1|μενος"
+    # - "|α>ώ<T_1|μενος"
+    # - "|ε{athematic}>έ<|μενος"
+    # - "|ο{athematic}>ό<|μενος"
+    # - "|α{athematic}>ά<|μενος"
+    # - "|υ{athematic}>ύ<|μενος"
+PMP.NSF:
+    - "|>ο<T_1|μένη"  # § 34
+    - "|ε>ου<T_1|μένη"  # § 35
+    - "|ο>ου<T_1|μένη"  # § 35
+    - "|α>ω<T_1|μένη"  # § 35
+    - "|η>ω<T_1|μένη"
+    - "|ε{athematic}>ε<|μένη"  # § 35
+    - "|ο{athematic}>ο<|μένη"  # § 35
+    - "|α{athematic}>α<|μένη"  # § 35
+    - "|υ{athematic}>υ<|μένη"  # § 35
+    # - "|ει{athematic}>ει<|μένη"
+PMP.VSF:
+    ref: PMP.NSF
+PMP.NSN:
+    ref: PMP.ASN
+PMP.VSN:
+    ref: PMP.NSN
+PMP.NPM:
+    - "|>ό<T_1|μενοι"  # § 34
+    # - "|ε>ού<T_1|μενοι"  # § 35*
+    # - "|ο>ού<T_1|μενοι"  # § 35*
+    # - "|α>ώ<T_1|μενοι"  # § 35*
+    # - "|η>ώ<T_1|μενοι"
+    # - "|ε{athematic}>έ<|μενοι"  # § 35*
+    # - "|ο{athematic}>ό<|μενοι"  # § 35*
+    # - "|α{athematic}>ά<|μενοι"  # § 35*
+    # - "|υ{athematic}>ύ<|μενοι"  # § 35*
+    # - "|η{athematic}>ή<|μενοι"
+    # - "|ει{athematic}>εί<|μενοι"
+PMP.VPM:
+    ref: PMP.NPM
+PMP.NPF:
+    - "|>ό<T_1|μεναι"  # § 34
+    # - "|ε>ού<T_1|μεναι"  # § 35*
+    # - "|ο>ού<T_1|μεναι"  # § 35*
+    # - "|α>ώ<T_1|μεναι"  # § 35*
+    # - "|η>ώ<T_1|μεναι"
+    # - "|ε{athematic}>έ<|μεναι"  # § 35*
+    # - "|ο{athematic}>ό<|μεναι"  # § 35*
+    # - "|α{athematic}>ά<|μεναι"  # § 35*
+    # - "|υ{athematic}>ύ<|μεναι"  # § 35*
+    # - "|η{athematic}>ή<|μεναι"
+    # - "|ει{athematic}>εί<|μεναι"
+PMP.VPF:
+    ref: PMP.NPF
+PMP.NPN:
+    ref: PMP.APN
+PMP.VPN:
+    ref: PMP.NPN
+PMP.ASM:
+    - "|>ό<T_1|μενον"  # § 34
+    - "|ε>ού<T_1|μενον"  # § 35
+    - "|ο>ού<T_1|μενον"  # § 35
+    - "|α>ώ<T_1|μενον"  # § 35
+    - "|η>ώ<T_1|μενον"
+    - "|ε{athematic}>έ<|μενον"  # § 35
+    - "|ο{athematic}>ό<|μενον"  # § 35
+    - "|α{athematic}>ά<|μενον"  # § 35
+    - "|υ{athematic}>ύ<|μενον"  # § 35
+    # - "|η{athematic}>ή<|μενον"
+    # - "|ει{athematic}>εί<|μενον"
+PMP.ASF:
+    - "|>ο<T_1|μένην"  # § 34
+    # - "|ε>ου<T_1|μένην"  # § 35*
+    # - "|ο>ου<T_1|μένην"  # § 35*
+    # - "|α>ω<T_1|μένην"  # § 35*
+    # - "|η>ω<T_1|μένην"
+    # - "|ε{athematic}>ε<|μένην"  # § 35*
+    # - "|ο{athematic}>ο<|μένην"  # § 35*
+    # - "|α{athematic}>α<|μένην"  # § 35*
+    # - "|υ{athematic}>υ<|μένην"  # § 35*
+    # - "|η{athematic}>η<|μένην"
+    # - "|ει{athematic}>ει<|μένην"
+PMP.ASN:
+    ref: PMP.ASM
+PMP.APM:
+    - "|>ο<T_1|μένους"  # § 34
+    # - "|ε>ου<T_1|μένους"  # § 35*
+    # - "|ο>ου<T_1|μένους"  # § 35*
+    # - "|α>ω<T_1|μένους"  # § 35*
+    # - "|η>ω<T_1|μένους"
+    # - "|ε{athematic}>ε<|μένους"  # § 35*
+    # - "|ο{athematic}>ο<|μένους"  # § 35*
+    # - "|α{athematic}>α<|μένους"  # § 35*
+    # - "|υ{athematic}>υ<|μένους"  # § 35*
+    # - "|η{athematic}>η<|μένους"
+    # - "|ει{athematic}>ει<|μένους"
+PMP.APF:
+    - "|>ο<T_1|μένᾱς"  # § 34
+    # - "|ε>ου<T_1|μένᾱς"  # § 35*
+    # - "|ο>ου<T_1|μένᾱς"  # § 35*
+    # - "|α>ω<T_1|μένᾱς"  # § 35*
+    # - "|η>ω<T_1|μένᾱς"
+    # - "|ε{athematic}>ε<|μένᾱς"  # § 35*
+    # - "|ο{athematic}>ο<|μένᾱς"  # § 35*
+    # - "|α{athematic}>α<|μένᾱς"  # § 35*
+    # - "|υ{athematic}>υ<|μένᾱς"  # § 35*
+PMP.APN:
+    - "|>ό<T_1|μενα"  # § 34
+    # - "|ε>ού<T_1|μενα"  # § 35
+    # - "|ο>ού<T_1|μενα"  # § 35
+    # - "|α>ώ<T_1|μενα"  # § 35
+    # - "|η>ώ<T_1|μενα"
+    # - "|ε{athematic}>έ<|μενα"  # § 35
+    # - "|ο{athematic}>ό<|μενα"  # § 35
+    # - "|α{athematic}>ά<|μενα"  # § 35
+    # - "|υ{athematic}>ύ<|μενα"  # § 35
+    # - "|ει{athematic}>εί<|μενα"
+PMP.GSM:
+    - "|>ο<T_1|μένου"  # § 34
+    # - "|ε>ου<T_1|μένου"  # § 35*
+    # - "|ο>ου<T_1|μένου"  # § 35*
+    # - "|α>ω<T_1|μένου"  # § 35*
+    # - "|η>ω<T_1|μένου"
+    # - "|ε{athematic}>ε<|μένου"  # § 35*
+    # - "|ο{athematic}>ο<|μένου"  # § 35*
+    # - "|α{athematic}>α<|μένου"  # § 35*
+    - "|υ{athematic}>υ<|μένου"  # § 35*
+    # - "|η{athematic}>η<|μένου"
+    # - "|ει{athematic}>ει<|μένου"
+PMP.GSF:
+    - "|>ο<T_1|μένης"  # § 34
+    # - "|ε>ου<T_1|μένης"  # § 35*
+    # - "|ο>ου<T_1|μένης"  # § 35*
+    # - "|α>ω<T_1|μένης"  # § 35*
+    # - "|η>ω<T_1|μένης"
+    # - "|ε{athematic}>ε<|μένης"  # § 35*
+    # - "|ο{athematic}>ο<|μένης"  # § 35*
+    # - "|α{athematic}>α<|μένης"  # § 35*
+    - "|υ{athematic}>υ<|μένης"  # § 35*
+    # - "|η{athematic}>η<|μένης"
+    # - "|ει{athematic}>ει<|μένης"
+PMP.GSN:
+    ref: PMP.GSM
+PMP.GPM:
+    - "|>ο<T_1|μένων"  # § 34
+    # - "|ε>ου<T_1|μένων"  # § 35*
+    # - "|ο>ου<T_1|μένων"  # § 35*
+    # - "|α>ω<T_1|μένων"  # § 35*
+    # - "|η>ω<T_1|μένων"
+    # - "|ε{athematic}>ε<|μένων"  # § 35*
+    # - "|ο{athematic}>ο<|μένων"  # § 35*
+    # - "|α{athematic}>α<|μένων"  # § 35*
+    # - "|υ{athematic}>υ<|μένων"  # § 35*
+    # - "|η{athematic}>η<|μένων"
+    # - "|ει{athematic}>ει<|μένων"
+PMP.GPF:
+    ref: PMP.GPM
+PMP.GPN:
+    ref: PMP.GPM
+PMP.DSM:
+    - "|>ο<T_1|μένῳ"  # § 34
+    # - "|ε>ου<T_1|μένῳ"  # § 35*
+    # - "|ο>ου<T_1|μένῳ"  # § 35*
+    # - "|α>ω<T_1|μένῳ"  # § 35*
+    # - "|η>ω<T_1|μένῳ"
+    # - "|ε{athematic}>ε<|μένῳ"  # § 35*
+    # - "|ο{athematic}>ο<|μένῳ"  # § 35*
+    # - "|α{athematic}>α<|μένῳ"  # § 35*
+    # - "|υ{athematic}>υ<|μένῳ"  # § 35*
+    # - "|η{athematic}>η<|μένῳ"
+    # - "|ει{athematic}>ει<|μένῳ"
+PMP.DSF:
+    - "|>ο<T_1|μένῃ"  # § 34
+    # - "|ε>ου<T_1|μένῃ"  # § 35*
+    # - "|ο>ου<T_1|μένῃ"  # § 35*
+    # - "|α>ω<T_1|μένῃ"  # § 35*
+    # - "|η>ω<T_1|μένῃ"
+    # - "|ε{athematic}>ε<|μένῃ"  # § 35*
+    # - "|ο{athematic}>ο<|μένῃ"  # § 35*
+    # - "|α{athematic}>α<|μένῃ"  # § 35*
+    # - "|υ{athematic}>υ<|μένῃ"  # § 35*
+PMP.DSN:
+    ref: PMP.DSM
+PMP.DPM:
+    - "|>ο<T_1|μένοις"  # § 34
+    # - "|ε>ου<T_1|μένοις"  # § 35*
+    # - "|ο>ου<T_1|μένοις"  # § 35*
+    # - "|α>ω<T_1|μένοις"  # § 35*
+    # - "|η>ω<T_1|μένοις"
+    # - "|ε{athematic}>ε<|μένοις"  # § 35*
+    # - "|ο{athematic}>ο<|μένοις"  # § 35*
+    # - "|α{athematic}>α<|μένοις"  # § 35*
+    # - "|υ{athematic}>υ<|μένοις"  # § 35*
+    # - "|η{athematic}>η<|μένοις"
+    # - "|ει{athematic}>ει<|μένοις"
+PMP.DPF:
+    - "|>ο<T_1|μέναις"  # § 34
+    # - "|α>ω<T_1|μέναις"
+    # - "|η>ω<T_1|μέναις"
+PMP.DPN:
+    ref: PMP.DPM
+
+PMS.1S:
+    - "|><|ωμαι"
+    - "|ε>ῶ<ω|μαι"
+    - "|α>ῶ<ω|μαι"
+    - "|ο>ῶ<ω|μαι"
+    - "|η>ῶ<ω|μαι"
+    - "|ε{athematic}>ῶ<ω|μαι"
+    - "|ο{athematic}>ῶ<ω|μαι"
+    - "|α{athematic}>ῶ<ω|μαι"
+    - "ν|υ{athematic}>ύ<|ωμαι"
+PMS.2S:
+    - "|><|ῃ"  # ησαι
+    - "|ε>ῇ<ῃ|"  # ησαι
+    - "|α>ᾷ<ῃ|"  # ησαι
+    - "|ο>οῖ<ῃ|"  # ησαι
+    - "|η>ῇ<ῃ|"  # ησαι
+    - "|α{athematic}>ῇ<ῃ|"  # ησαι - check if needed outside of Pratt
+    - "|ο{athematic}>ῷ<ῃ|"  # ησαι
+    - "|ε{athematic}>ῇ<ῃ|"  # ησαι
+    - "ν|υ{athematic}>ύ<|ῃ"  # ησαι
+PMS.3S:
+    - "|><|ηται"
+    - "|ε>ῆ<η|ται"
+    - "|α>ᾶ<η|ται"
+    - "|ο>ῶ<η|ται"
+    - "|η>ῆ<η|ται"
+    - "|ε{athematic}>ῆ<η|ται"
+    - "|α{athematic}>ῆ<η|ται"  # check if needed outside of Pratt? stem alternation instead?
+    - "|ο{athematic}>ῶ<η|ται"
+    - "ν|υ{athematic}>ύ<|ηται"
+PMS.1P:
+    - "|><|ώμεθα"
+    - "|ε>ώ<ω|μεθα"
+    - "|α>ώ<ω|μεθα"
+    - "|ο>ώ<ω|μεθα"
+    - "|η>ώ<ω|μεθα"
+    - "|α{athematic}>ώ<ω|μεθα"  # check if needed outside of Pratt
+    - "|ο{athematic}>ώ<ω|μεθα"
+    - "|ε{athematic}>ώ<ω|μεθα"
+    - "νυ|{athematic}>ώ<ω|μεθα"
+PMS.2P:
+    - "|><|ησθε"
+    - "|ε>ῆ<η|σθε"
+    - "|α>ᾶ<η|σθε"
+    - "|ο>ῶ<η|σθε"
+    - "|η>ῆ<η|σθε"
+    - "|α{athematic}>ῆ<η|σθε"  # check if needed outside of Pratt
+    - "|ο{athematic}>ῶ<η|σθε"
+    - "|ε{athematic}>ῆ<η|σθε"
+    - "ν|υ{athematic}>ύ<|ησθε"
+PMS.3P:
+    - "|><|ωνται"
+    - "|ε>ῶ<ω|νται"
+    - "|α>ῶ<ω|νται"
+    - "|ο>ῶ<ω|νται"
+    - "|η>ῶ<ω|νται"
+    - "|α{athematic}>ῶ<ω|νται"  # check if needed outside of Pratt
+    - "|ο{athematic}>ῶ<ω|νται"
+    - "|ε{athematic}>ῶ<ω|νται"
+    - "ν|υ{athematic}>ύ<|ωνται"
+
+XAD.2S:
+    - "|><|ε"
+    - "|δ>σ<|θι"  # @@@ should stem diacritic indicate θι ending?
+    - "α|{athematic}><|θι"
+
+XAD.3S:
+    - "|>έ<έ|τω"
+    - "|δ>σ<|τω"
+    - "|α{athematic}>ά<|τω"
+XAD.2P:
+    - "|>ε<T_2|τε"
+    - "|δ>σ<|τε"
+    - "α|{athematic}><|τε"
+XAD.3P:
+    - "|>έ<έ|τωσαν"
+    - "|δ>σ<|των"  # @@@ should stem diacritic indicate ων ending?
+    - "|α{athematic}>ά<|ντων"  # @@@
+
+XAI.1S:
+    - "|><|α"  # §51
+    - "|{athematic}><|α"
+XAI.2S:
+    - "|>α<α|ς"  # §51
+    # - "|{2nd}>ε<ε|ς"  # @@@
+    - "|δ{athematic}>σ<σ|θα"
+    # - "ο|ἰδ>ἶσ<σ|θα"  # @@@ use line above instead{athematic}?
+XAI.3S:
+    - "|>ε(ν)<|;-no-final-nu-xai.3s"  # §51
+    - "|>ε<|;+no-final-nu-xai.3s"
+    - "|{athematic}>ε(ν)<|"
+XAI.1P:
+    - "|>α<α|μεν"  # §51
+    - "|α{athematic}>α<|μεν"  # §63
+    - "|δ{athematic}>σμ<μ|εν"
+XAI.2P:
+    - "|>α<α|τε"  # §51
+    - "|α{athematic}>α<|τε"  # §63
+    - "|δ{athematic}>στ<τ|ε"  # §65b οἶδα
+XAI.3P:
+    - "|>ᾱ<α|σι(ν);-no-final-nu-xai.3p"  # §51
+    - "|>ᾱ<α|σι;+no-final-nu-xai.3p"
+    - "|α{athematic}>ᾶ<|σι(ν)"  # §62
+    - "|δ{athematic}>σα<σα|σι(ν)"  # @@@
+    # - "|@>α<α|ν"  # @@@
+
+XAN:
+    - "|>έ<@|ναι"  # §51
+    - "|α{athematic}>ά<|ναι"  # §63
+
+XAO.1S:
+    - "|>ο<T_1|ιμι"
+    - "|ε{athematic}>εί<ι|ην"
+    - "|α{athematic}>αί<ι|ην"
+XAO.2S:
+    - "|>ο<T_1|ις"
+    - "|ε{athematic}>εί<ι|ης"
+    - "|α{athematic}>αί<ι|ης"
+XAO.3S:
+    - "|>ο<T_1|ι"
+    - "|ε{athematic}>εί<ι|η"
+    - "|α{athematic}>αί<ι|η"
+XAO.1P:
+    - "|>ο<T_1|ιμεν"
+    - "ε|{athematic}><|ιημεν;+alt-xao-pl"
+    - "|ε{athematic}>εῖ<ι|μεν"
+    - "|α{athematic}>αῖ<ι|μεν"
+XAO.2P:
+    - "|>ο<T_1|ιτε"
+    - "ε|{athematic}><|ιητε;+alt-xao-pl"
+    - "|ε{athematic}>εῖ<ι|τε"
+    - "|α{athematic}>αῖ<ι|τε"
+XAO.3P:
+    - "|>ο<T_1|ιεν"
+    - "ε|{athematic}><|ιησαν;+alt-xao-pl"
+    - "|ε{athematic}>εῖ<ι|εν"
+    - "|α{athematic}>αῖ<ι|εν"
+
+XAP.NSM:
+    - "|>ώ<@|ς"  # §33
+    - "|α{athematic}>ώ<@|ς"  # §63
+    - "ε|{athematic}>ώ<@|ς"
+XAP.VSM:
+    ref: XAP.NSM
+XAP.NSF:
+    - "|>υῖ<@σ|α"  # §33
+    - "|α{athematic}>ῶ<@|σα"  # §63
+    - "ε|{athematic}>ῶ<@|σα"
+XAP.VSF:
+    ref: XAP.NSF
+XAP.NSN:
+    ref: XAP.ASN
+XAP.VSN:
+    ref: XAP.NSN
+XAP.NPM:
+    - "|>ό<ο|τες"  # §33
+    # - "|α{athematic}>ῶ<ο|τες"
+    # - "ε|{athematic}>ῶ<ο|τες"  # @@@
+XAP.VPM:
+    ref: XAP.NPM
+XAP.NPN:
+    ref: XAP.APN
+XAP.VPN:
+    ref: XAP.NPN
+XAP.NPF:
+    - "|>υῖ<@σ|αι"  # §33
+    # - "|α{athematic}>ῶ<@|σαι"
+    # - "ε|{athematic}>ῶ<@|σαι"  # @@@
+XAP.VPF:
+    ref: XAP.NPF
+XAP.GSM:
+    - "|>ό<ο|τος"  # §33
+    - "|α{athematic}>ῶ<ο|τος"
+    - "ε|{athematic}>ῶ<ο|τος"
+XAP.GSF:
+    - "|>υίᾱς<|"  # §33
+    # - "|>υίης<|"  # @@@
+    - "|α{athematic}>ώσ<|ης"
+    - "ε|{athematic}>ώσ<|ης"
+XAP.GSN:
+    - "|>ό<ο|τος"  # §33
+    - "|α{athematic}>ῶ<ο|τος"
+    - "ε|{athematic}>ῶ<ο|τος"
+XAP.GPM:
+    - "|>ό<ο|των"  # §33
+    # - "|α{athematic}>ώ<ο|των"
+    # - "ε|{athematic}>ώ<ο|των"  # @@@
+XAP.GPF:
+    - "|>υι<@σ|ῶν"  # §33
+    # - "|α{athematic}>ω<@|σῶν"
+    # - "ε|{athematic}>ω<@|σῶν"  # @@@
+XAP.GPN:
+    ref: XAP.GPM
+XAP.DSM:
+    - "|>ό<ο|τι"  # §33
+    # - "|α{athematic}>ῶ<ο|τι"
+    # - "ε|{athematic}>ῶ<ο|τι"  # @@@
+XAP.DSF:
+    - "|>υί<@σ|ᾳ"  # §33
+    # - "|α{athematic}>ώ<@|σῃ"
+    # - "ε|{athematic}>ώ<@|σῃ"  # @@@
+XAP.DSN:
+    ref: XAP.DSM
+XAP.DPM:
+    - "|>όσι(ν)<|"  # §33
+    # - "|α{athematic}>ῶσι(ν)<|"
+    # - "ε|{athematic}>ῶσι(ν)<|"  # @@@
+XAP.DPF:
+    - "|>υί<@σ|αις"  # §33
+    # - "|α{athematic}>ώ<@|σαις"
+    # - "ε|{athematic}>ώ<@|σαις"  # @@@
+XAP.DPN:
+    ref: XAP.DPM
+XAP.ASM:
+    - "|>ό<ο|τα"  # §33
+    # - "|α{athematic}>ῶ<ο|τα"
+    # - "ε|{athematic}>ῶ<ο|τα"  # @@@
+XAP.ASF:
+    - "|>υῖ<@σ|αν"  # §33
+    # - "|α{athematic}>ῶ<@|σαν"
+    # - "ε|{athematic}>ῶ<@|σαν"  # @@@
+XAP.ASN:
+    - "|>ό<|ς"  # §33
+    - "|α{athematic}>ό<@|ς"  # §63 @@@
+    - "ε|{athematic}>ό<@|ς"  # @@@
+XAP.APM:
+    - "|>ό<ο|τας"  # §33
+    # - "|α{athematic}>ῶ<ο|τας"
+    # - "ε|{athematic}>ῶ<ο|τας"  # @@@
+XAP.APF:
+    - "|>υί<@σ|ᾱς"  # §33
+    # - "|α{athematic}>ώ<@|σᾱς"
+    # - "ε|{athematic}>ώ<@|σᾱς"  # @@@
+XAP.APN:
+    - "|>ό<ο|τα"  # §33
+    # - "|α{athematic}>ῶ<ο|τα"
+    # - "ε|{athematic}>ῶ<ο|τα"  # @@@
+
+XAS.1S:
+    - "|>ω<ω|"
+    - "|ε>ῶ<ω|"
+    - "|α{athematic}>ῶ<ω|"
+XAS.2S:
+    - "|>ῃ<ῃ|ς"
+    - "|ε>ῇ<ῃ|ς"
+    - "|α{athematic}>ῇ<ῃ|ς"
+XAS.3S:
+    - "|>ῃ<ῃ|"
+    - "|ε>ῇ<ῃ|"
+    - "|α{athematic}>ῇ<ῃ|"
+XAS.1P:
+    - "|>ω<ω|μεν"
+    - "|ε>ῶ<ω|μεν"
+    - "|α{athematic}>ῶ<ω|μεν"  # @@@
+XAS.2P:
+    - "|>η<η|τε"
+    - "|ε>ῆ<η|τε"
+    - "|α{athematic}>ῆ<η|τε"
+XAS.3P:
+    - "|>ω<ω|σι(ν);-no-final-nu-xas.3p"
+    - "|>ω<ω|σι;+no-final-nu-xas.3p"
+    - "|ε>ῶ<ω|σι(ν)"
+    - "|α{athematic}>ῶ<ω|σι"  # @@@
+
+XMD.2S:
+    - "|><|σο"  # @@@
+XMD.3S:
+    - "|><|σθω"
+XMD.2P:
+    - "|><|σθε"
+XMD.3P:
+    - "|><|σθων"
+
+XMI.1S:
+    - "|><|μαι"  # §51
+    - "|μπ>μμ<μ|αι"
+    - "[^μ]|π>μμ<μ|αι"
+    - "|β>μμ<μ|αι"
+    # - "|φ>μμ<μ|αι"
+    # - "|τ>σμ<μ|αι"
+    # - "|δ>σμ<μ|αι"
+    - "|θ>σμ<μ|αι"
+    - "|κ>γμ<μ|αι"
+    # - "|γ>γμ<μ|αι"
+    - "|χ>γμ<μ|αι"
+XMI.2S:
+    - "|><|σαι"  # §51
+    - "|π>ψ<σ|αι"
+    # - "|β>ψ<σ|αι"
+    # - "|φ>ψ<σ|αι"
+    # - "|τ>σ<σ|αι"
+    # - "|δ>σ<σ|αι"
+    - "|θ>σ<σ|αι"
+    - "|κ>ξ<σ|αι"
+    - "|γ>ξ<σ|αι"
+    - "|χ>ξ<σ|αι"
+XMI.3S:
+    - "|><|ται"  # §51
+    # - "|α>ατ<τ|αι"  # @@@
+    # - "|α>ητ<τ|αι"  # @@@
+    - "|π>πτ<τ|αι"
+    # - "|β>πτ<τ|αι"
+    # - "|φ>πτ<τ|αι"
+    # - "|τ>στ<τ|αι"
+    # - "|δ>στ<τ|αι"
+    - "|θ>στ<τ|αι"
+    - "|κ>κτ<τ|αι"
+    - "|γ>κτ<τ|αι"
+    - "|χ>κτ<τ|αι"
+XMI.1P:
+    - "|><|μεθα"  # §51
+    - "|μπ>μμ<μ|εθα"
+    - "[^μ]|π>μμ<μ|εθα"
+    # - "|β>μμ<μ|εθα"
+    # - "|φ>μμ<μ|εθα"
+    # - "|τ>σμ<μ|εθα"
+    # - "|δ>σμ<μ|εθα"
+    - "|θ>σμ<μ|εθα"
+    # - "|κ>γμ<μ|εθα"
+    # - "|γ>γμ<μ|εθα"
+    - "|χ>γμ<μ|εθα"
+XMI.2P:
+    - "|><|σθε"  # §51
+    - "|π>φθ<σθ|ε"
+    # - "|β>φθ<σθ|ε"
+    # - "|φ>φθ<σθ|ε"
+    # - "|τ>σθ<σθ|ε"
+    # - "|δ>σθ<σθ|ε"
+    - "|θ>σθ<σθ|ε"
+    - "|κ>χθ<σθ|ε"
+    - "|γ>χθ<σθ|ε"
+    - "|χ>χθ<σθ|ε"
+    - "|ν>ν<σ|θε"
+    - "|λ>λ<σ|θε"  # Sph @@@
+XMI.3P:
+    - "[αεηιουῡωρ]|><|νται"
+
+XMN:
+    - "|><|σθαι"  # §51
+    - "|π>φθ<σθ|αι"
+    # - "|β>φθ<σθ|αι"
+    # - "|φ>φθ<σθ|αι"
+    # - "|σ>σθ<σθ|αι"
+    # - "|τ>σθ<σθ|αι"
+    # - "|δ>σθ<σθ|αι"
+    - "|θ>σθ<σθ|αι"
+    - "|κ>χθ<σθ|αι"
+    - "|γ>χθ<σθ|αι"
+    - "|χ>χθ<σθ|αι"
+    # - "|ν>ν<σ|θαι"
+    - "|λ>λ<σ|θαι"  # Sph @@@
+
+XMP.NSM:
+    - "|><|μένος"  # §39
+    - "|μπ>μμ<μ|ένος"
+    - "|π>μμ<μ|ένος"
+    - "|β>μμ<μ|ένος"
+    - "|φ>μμ<μ|ένος"
+    - "|τ>σμ<μ|ένος"
+    - "|δ>σμ<μ|ένος"
+    - "|θ>σμ<μ|ένος"
+    - "|κ>γμ<μ|ένος"
+    - "|γ>γμ<μ|ένος"
+    - "|χ>γμ<μ|ένος"
+XMP.VSM:
+    - "|><|μένε"
+    # - "|π>μμ<μ|ένε"
+    # - "|β>μμ<μ|ένε"
+    # - "|φ>μμ<μ|ένε"
+    # - "|τ>σμ<μ|ένε"
+    # - "|δ>σμ<μ|ένε"
+    # - "|θ>σμ<μ|ένε"
+    # - "|κ>γμ<μ|ένε"
+    # - "|γ>γμ<μ|ένε"
+    # - "|χ>γμ<μ|ένε"
+XMP.NSF:
+    - "|><|μένη"  # §39
+    # - "|μπ>μμ<μ|ένη"
+    # - "|π>μμ<μ|ένη"
+    - "|β>μμ<μ|ένη"
+    # - "|φ>μμ<μ|ένη"
+    # - "|τ>σμ<μ|ένη"
+    # - "|δ>σμ<μ|ένη"
+    # - "|θ>σμ<μ|ένη"
+    # - "|κ>γμ<μ|ένη"
+    # - "|γ>γμ<μ|ένη"
+    # - "|χ>γμ<μ|ένη"
+XMP.VSF:
+    ref: XMP.NSF
+XMP.NSN:
+    ref: XMP.ASN
+XMP.VSN:
+    ref: XMP.NSN
+XMP.NPM:
+    - "|><|μένοι"
+    # - "|π>μμ<μ|ένοι"
+    # - "|β>μμ<μ|ένοι"
+    # - "|φ>μμ<μ|ένοι"
+    # - "|τ>σμ<μ|ένοι"
+    # - "|δ>σμ<μ|ένοι"
+    # - "|θ>σμ<μ|ένοι"
+    # - "|κ>γμ<μ|ένοι"
+    # - "|γ>γμ<μ|ένοι"
+    # - "|χ>γμ<μ|ένοι"
+XMP.VPM:
+    ref: XMP.NPM
+XMP.NPF:
+    - "|><|μέναι"
+    # - "|π>μμ<μ|έναι"
+    # - "|β>μμ<μ|έναι"
+    # - "|φ>μμ<μ|έναι"
+    # - "|τ>σμ<μ|έναι"
+    # - "|δ>σμ<μ|έναι"
+    # - "|θ>σμ<μ|έναι"
+    # - "|κ>γμ<μ|έναι"
+    # - "|γ>γμ<μ|έναι"
+    # - "|χ>γμ<μ|έναι"
+XMP.VPF:
+    ref: XMP.NPF
+XMP.NPN:
+    ref: XMP.APN
+XMP.VPN:
+    ref: XMP.NPN
+XMP.GSM:
+    - "|><|μένου"
+    # - "|π>μμ<μ|ένου"
+    # - "|β>μμ<μ|ένου"
+    # - "|φ>μμ<μ|ένου"
+    # - "|τ>σμ<μ|ένου"
+    # - "|δ>σμ<μ|ένου"
+    # - "|θ>σμ<μ|ένου"
+    # - "|κ>γμ<μ|ένου"
+    # - "|γ>γμ<μ|ένου"
+    # - "|χ>γμ<μ|ένου"
+XMP.GSF:
+    - "|><|μένης"
+    # - "|π>μμ<μ|ένης"
+    # - "|β>μμ<μ|ένης"
+    # - "|φ>μμ<μ|ένης"
+    # - "|τ>σμ<μ|ένης"
+    # - "|δ>σμ<μ|ένης"
+    # - "|θ>σμ<μ|ένης"
+    # - "|κ>γμ<μ|ένης"
+    # - "|γ>γμ<μ|ένης"
+    # - "|χ>γμ<μ|ένης"
+XMP.GSN:
+    ref: XMP.GSM
+XMP.GPM:
+    - "|><|μένων"
+    # - "|π>μμ<μ|ένων"
+    # - "|β>μμ<μ|ένων"
+    # - "|φ>μμ<μ|ένων"
+    # - "|τ>σμ<μ|ένων"
+    # - "|δ>σμ<μ|ένων"
+    # - "|θ>σμ<μ|ένων"
+    # - "|κ>γμ<μ|ένων"
+    # - "|γ>γμ<μ|ένων"
+    # - "|χ>γμ<μ|ένων"
+XMP.GPF:
+    ref: XMP.GPM
+XMP.GPN:
+    ref: XMP.GPM
+XMP.DSM:
+    - "|><|μένῳ"
+    # - "|π>μμ<μ|ένῳ"
+    # - "|β>μμ<μ|ένῳ"
+    # - "|φ>μμ<μ|ένῳ"
+    # - "|τ>σμ<μ|ένῳ"
+    # - "|δ>σμ<μ|ένῳ"
+    # - "|θ>σμ<μ|ένῳ"
+    # - "|κ>γμ<μ|ένῳ"
+    # - "|γ>γμ<μ|ένῳ"
+    # - "|χ>γμ<μ|ένῳ"
+XMP.DSF:
+    - "|><|μένῃ"
+    # - "|π>μμ<μ|ένῃ"
+    # - "|β>μμ<μ|ένῃ"
+    # - "|φ>μμ<μ|ένῃ"
+    # - "|τ>σμ<μ|ένῃ"
+    # - "|δ>σμ<μ|ένῃ"
+    # - "|θ>σμ<μ|ένῃ"
+    # - "|κ>γμ<μ|ένῃ"
+    # - "|γ>γμ<μ|ένῃ"
+    # - "|χ>γμ<μ|ένῃ"
+XMP.DSN:
+    ref: XMP.DSM
+XMP.DPM:
+    - "|><|μένοις"
+    # - "|ν>μμ<μ|ένοις"  # should this be extended to all others?
+    # - "|π>μμ<μ|ένοις"
+    # - "|β>μμ<μ|ένοις"
+    # - "|φ>μμ<μ|ένοις"
+    # - "|τ>σμ<μ|ένοις"
+    # - "|δ>σμ<μ|ένοις"
+    # - "|θ>σμ<μ|ένοις"
+    # - "|κ>γμ<μ|ένοις"
+    # - "|γ>γμ<μ|ένοις"
+    # - "|χ>γμ<μ|ένοις"
+XMP.DPF:
+    - "|><|μέναις"
+    # - "|π>μμ<μ|έναις"
+    # - "|β>μμ<μ|έναις"
+    # - "|φ>μμ<μ|έναις"
+    # - "|τ>σμ<μ|έναις"
+    # - "|δ>σμ<μ|έναις"
+    # - "|θ>σμ<μ|έναις"
+    # - "|κ>γμ<μ|έναις"
+    # - "|γ>γμ<μ|έναις"
+    # - "|χ>γμ<μ|έναις"
+XMP.DPN:
+    ref: XMP.DPM
+XMP.ASM:
+    - "|><|μένον"  # §39
+    # - "|@>ημ<μ|ένον"  # should this be extended to all others?
+    # - "|π>μμ<μ|ένον"
+    - "|β>μμ<μ|ένον"
+    # - "|φ>μμ<μ|ένον"
+    # - "|τ>σμ<μ|ένον"
+    # - "|δ>σμ<μ|ένον"
+    # - "|θ>σμ<μ|ένον"
+    # - "|κ>γμ<μ|ένον"
+    # - "|γ>γμ<μ|ένον"
+    # - "|χ>γμ<μ|ένον"
+XMP.ASF:
+    - "|><|μένην"
+    # - "|ν>μμ<μ|ένην"  # should this be extended to all others?
+    # - "|π>μμ<μ|ένην"
+    # - "|β>μμ<μ|ένην"
+    # - "|φ>μμ<μ|ένην"
+    # - "|τ>σμ<μ|ένην"
+    # - "|δ>σμ<μ|ένην"
+    # - "|θ>σμ<μ|ένην"
+    # - "|κ>γμ<μ|ένην"
+    # - "|γ>γμ<μ|ένην"
+    # - "|χ>γμ<μ|ένην"
+XMP.ASN:
+    ref: XMP.ASM
+XMP.APM:
+    - "|><|μένους"
+    # - "|π>μμ<μ|ένους"
+    # - "|β>μμ<μ|ένους"
+    # - "|φ>μμ<μ|ένους"
+    # - "|τ>σμ<μ|ένους"
+    # - "|δ>σμ<μ|ένους"
+    # - "|θ>σμ<μ|ένους"
+    # - "|κ>γμ<μ|ένους"
+    # - "|γ>γμ<μ|ένους"
+    # - "|χ>γμ<μ|ένους"
+XMP.APF:
+    - "|><|μένᾱς"
+    # - "|π>μμ<μ|ένᾱς"
+    # - "|β>μμ<μ|ένᾱς"
+    # - "|φ>μμ<μ|ένᾱς"
+    # - "|τ>σμ<μ|ένᾱς"
+    # - "|δ>σμ<μ|ένᾱς"
+    # - "|θ>σμ<μ|ένᾱς"
+    # - "|κ>γμ<μ|ένᾱς"
+    # - "|γ>γμ<μ|ένᾱς"
+    # - "|χ>γμ<μ|ένᾱς"
+XMP.APN:
+    - "|><|μένα"
+    # - "|π>μμ<μ|ένα"
+    # - "|β>μμ<μ|ένα"
+    # - "|φ>μμ<μ|ένα"
+    # - "|τ>σμ<μ|ένα"
+    # - "|δ>σμ<μ|ένα"
+    # - "|θ>σμ<μ|ένα"
+    # - "|κ>γμ<μ|ένα"
+    # - "|γ>γμ<μ|ένα"
+    # - "|χ>γμ<μ|ένα"
+
+YAI.1S:
+    - "|>η<η|"  # classical §51
+    - "|>ει<ει|ν;+late-pluperfect-singulars"
+    - "|{athematic}>η<η|"
+    - "|{athematic}>ει<ει|ν;+late-pluperfect-singulars"
+YAI.2S:
+    - "|>η<η|ς"  # classical §51
+    - "|>ει<ει|ς;+late-pluperfect-singulars"
+    - "δ|{athematic}>ησθα<|"
+    - "|{athematic}>ει<ει|ς;+late-pluperfect-singulars"
+YAI.3S:
+    - "|>ει(ν)<ει(ν)|;-no-final-nu-yai.3s"  # classical? §55 (but oddly not §51)
+    - "|>ει<ει|;+no-final-nu-yai.3s"
+    - "δ|{athematic}>ει(ν)<ει(ν)|"
+    - "|>ει<ει|;+late-pluperfect-singulars"  # §55 / §51
+YAI.1P:
+    - "|>ε<ε|μεν"  # §51
+    - "|δ{athematic}>σ<|μεν"  # οἶδα
+    - "[α]|{athematic}><|μεν"
+YAI.2P:
+    - "|>ε<ε|τε"  # classical §51
+    # - "|>ει<ει|τε"  # NTGreek
+    - "|δ{athematic}>σ<|τε"  # οἶδα
+    - "[α]|{athematic}><|τε"
+YAI.3P:
+    - "|>ε<ε|σαν"  # classical §51
+    # - "|>ει<ει|σαν"  # NTGreek
+    - "|δ{athematic}>σ<σ|αν"  # ᾖσαν (οἶδα)
+    # - "|δ>δει<ει|σαν"  # ᾔδεισαν (οἶδα)
+    - "|δ{athematic}>δε<ε|σαν"  # ᾔδεσαν (οἶδα) (classical)
+    - "[α]|{athematic}><|σαν"
+
+YMI.1S:
+    - "|><|μην"  # §51
+    - "|μπ>μμ<μ|ην"  # @@@
+    - "[^μ]|π>μμ<μ|ην"
+    # - "|β>μμ<μ|ην"
+    # - "|φ>μμ<μ|ην"
+    # - "|τ>σμ<μ|ην"
+    # - "|δ>σμ<μ|ην"
+    - "|θ>σμ<μ|ην"
+    # - "|κ>γμ<μ|ην"
+    # - "|γ>γμ<μ|ην"
+    - "|χ>γμ<μ|ην"
+YMI.2S:
+    - "|><|σο"  # §51
+    - "|π>ψ<σ|ο"
+    # - "|β>ψ<σ|ο"
+    # - "|φ>ψ<σ|ο"
+    # - "|τ>σ<σ|ο"
+    # - "|δ>σ<σ|ο"
+    - "|θ>σ<σ|ο"
+    - "|κ>ξ<σ|ο"
+    - "|γ>ξ<σ|ο"
+    - "|χ>ξ<σ|ο"
+YMI.3S:
+    - "|><|το"  # §51
+    # - "|>ητ<τ|ο"  # @@@
+    - "|π>πτ<τ|ο"
+    # - "|β>πτ<τ|ο"
+    # - "|φ>πτ<τ|ο"
+    # - "|τ>στ<τ|ο"
+    # - "|δ>στ<τ|ο"
+    - "|θ>στ<τ|ο"
+    - "|κ>κτ<τ|ο"
+    - "|γ>κτ<τ|ο"
+    - "|χ>κτ<τ|ο"
+YMI.1P:
+    - "|><|μεθα"  # §51
+    - "|μπ>μμ<μ|εθα"
+    - "[^μ]|π>μμ<μ|εθα"
+    - "|β>μμ<μ|εθα"
+    - "|φ>μμ<μ|εθα"
+    - "|τ>σμ<μ|εθα"
+    - "|δ>σμ<μ|εθα"
+    - "|θ>σμ<μ|εθα"
+    - "|κ>γμ<μ|εθα"
+    - "|γ>γμ<μ|εθα"
+    - "|χ>γμ<μ|εθα"
+YMI.2P:
+    - "|><|σθε"  # §51
+    - "|π>φθ<σθ|ε"
+    # - "|β>φθ<σθ|ε"
+    # - "|φ>φθ<σθ|ε"
+    # - "|τ>σθ<σθ|ε"
+    # - "|δ>σθ<σθ|ε"
+    - "|θ>σθ<σθ|ε"
+    - "|κ>χθ<σθ|ε"
+    - "|γ>χθ<σθ|ε"
+    - "|χ>χθ<σθ|ε"
+    - "|λ>λ<σ|θε"  # Sph @@@
+YMI.3P:
+    # only stems ending in vowel
+    - "[αεηιουῡωρ]|><|ντο"

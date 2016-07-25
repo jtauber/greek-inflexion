@@ -1,0 +1,3 @@
+greek-accentuation==0.9.9
+inflexion==0.5
+PyYAML==3.11

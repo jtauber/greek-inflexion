@@ -1,0 +1,2671 @@
+# tests from Louise Pratt's _The Essentials of Greek Grammar_
+# only paradigms from the books are included here, the principal parts are
+# covered by parts_test.yaml
+
+-
+    source: PRATT§25
+    test_length: false
+
+    lemma: εἰμί
+
+    PAP.NSM: ὤν
+    PAP.GSM: ὄντος
+    PAP.DSM: ὄντι
+    PAP.ASM: ὄντα
+    PAP.NPM: ὄντες
+    PAP.GPM: ὄντων
+    PAP.DPM: οὖσι(ν)
+    PAP.APM: ὄντας
+
+    PAP.NSF: οὖσα
+    PAP.GSF: οὔσης
+    PAP.DSF: οὔσῃ
+    PAP.ASF: οὖσαν
+    PAP.NPF: οὖσαι
+    PAP.GPF: οὐσῶν
+    PAP.DPF: οὔσαις
+    PAP.APF: οὔσας
+
+    PAP.NSN: ὄν
+    PAP.GSN: ὄντος
+    PAP.DSN: ὄντι
+    PAP.ASN: ὄν
+    PAP.NPN: ὄντα
+    PAP.GPN: ὄντων
+    PAP.DPN: οὖσι(ν)
+    PAP.APN: ὄντα
+
+-
+    source: PRATT§26
+    test_length: false
+
+    lemma: λύω
+
+    PAP.NSM: λύων
+    PAP.GSM: λύοντος
+    PAP.DSM: λύοντι
+    PAP.ASM: λύοντα
+    PAP.NPM: λύοντες
+    PAP.GPM: λυόντων
+    PAP.DPM: λύουσι(ν)
+    PAP.APM: λύοντας
+
+    PAP.NSF: λύουσα
+    PAP.GSF: λυούσης
+    PAP.DSF: λυούσῃ
+    PAP.ASF: λύουσαν
+    PAP.NPF: λύουσαι
+    PAP.GPF: λυουσῶν
+    PAP.DPF: λυούσαις
+    PAP.APF: λυούσας
+
+    PAP.NSN: λῦον
+    PAP.GSN: λύοντος
+    PAP.DSN: λύοντι
+    PAP.ASN: λῦον
+    PAP.NPN: λύοντα
+    PAP.GPN: λυόντων
+    PAP.DPN: λύουσι(ν)
+    PAP.APN: λύοντα
+
+-
+    source: PRATT§27
+    test_length: false
+
+    lemma: ἐράω
+
+    PAP.NSM: ἐρῶν
+    PAP.GSM: ἐρῶντος  # implied by given stem
+    PAP.NSF: ἐρῶσα
+    PAP.GSF: ἐρώσης  # implied by given stem
+    PAP.NSN: ἐρῶν
+    PAP.GSN: ἐρῶντος  # implied by given stem
+
+-
+    source: PRATT§27
+    test_length: false
+
+    lemma: φιλέω
+
+    PAP.NSM: φιλῶν
+    PAP.GSM: φιλοῦντος  # implied by given stem
+    PAP.NSF: φιλοῦσα
+    PAP.GSF: φιλούσης  # implied by given stem
+    PAP.NSN: φιλοῦν
+    PAP.GSN: φιλοῦντος  # implied by given stem
+
+-
+    source: PRATT§27
+    test_length: false
+
+    lemma: δηλόω
+
+    PAP.NSM: δηλῶν
+    PAP.GSM: δηλοῦντος  # implied by given stem
+    PAP.NSF: δηλοῦσα
+    PAP.GSF: δηλούσης  # implied by given stem
+    PAP.NSN: δηλοῦν
+    PAP.GSN: δηλοῦντος  # implied by given stem
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: δίδωμι
+
+    PAP.NSM: διδούς
+    PAP.GSM: διδόντος  # implied by given stem
+    PAP.NSF: διδοῦσα
+    PAP.GSF: διδούσης  # implied by given stem
+    PAP.NSN: διδόν
+    PAP.GSN: διδόντος  # implied by given stem
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: τίθημι
+
+    PAP.NSM: τιθείς
+    PAP.GSM: τιθέντος  # implied by given stem
+    PAP.NSF: τιθεῖσα
+    PAP.GSF: τιθείσης  # implied by given stem
+    PAP.NSN: τιθέν
+    PAP.GSN: τιθέντος  # implied by given stem
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: ἵστημι
+
+    PAP.NSM: ἱστάς
+    PAP.GSM: ἱστάντος  # implied by given stem
+    PAP.NSF: ἱστᾶσα
+    PAP.GSF: ἱστάσης  # implied by given stem
+    PAP.NSN: ἱστάν
+    PAP.GSN: ἱστάντος  # implied by given stem
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: δείκνυμι
+
+    PAP.NSM: δεικνύς
+    PAP.GSM: δεικνύντος  # implied by given stem (accent from Dik)
+    PAP.NSF: δεικνῦσα
+    PAP.GSF: δεικνύσης  # implied by given stem
+    PAP.NSN: δεικνύν
+    PAP.GSN: δεικνύντος  # implied by given stem (accent from Dik)
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: ἵημι
+
+    PAP.NSM: ἱείς
+    PAP.GSM: ἱέντος  # implied by given stem
+    PAP.NSF: ἱεῖσα
+    PAP.GSF: ἱείσης  # implied by given stem
+    PAP.NSN: ἱέν
+    PAP.GSN: ἱέντος  # implied by given stem
+
+-
+    source: PRATT§28
+    test_length: false
+
+    lemma: εἶμι
+
+    PAP.NSM: ἰών
+    PAP.GSM: ἰόντος  # implied by given stem
+    PAP.NSF: ἰοῦσα
+    PAP.GSF: ἰούσης  # implied by given stem
+    PAP.NSN: ἰόν
+    PAP.GSN: ἰόντος  # implied by given stem
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: λύω
+
+    FAI.1S: λύσω
+    FAP.NSM: λύσων
+    FAP.NSF: λύσουσα
+    FAP.NSN: λῦσον
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: πέμπω
+
+    FAI.1S: πέμψω
+    FAP.NSM: πέμψων
+    FAP.NSF: πέμψουσα
+    FAP.NSN: πέμψον
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: ἄγω
+
+    FAI.1S: ἄξω
+    FAP.NSM: ἄξων
+    FAP.NSF: ἄξουσα
+    FAP.NSN: ἄξον
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: φιλέω
+
+    FAI.1S: φιλήσω
+    FAP.NSM: φιλήσων
+    FAP.NSF: φιλήσουσα
+    FAP.NSN: φίλησον
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: δηλόω
+
+    FAI.1S: δηλώσω
+    FAP.NSM: δηλώσων
+    FAP.NSF: δηλώσουσα
+    FAP.NSN: δήλωσον
+
+-
+    source: PRATT§29
+    test_length: false
+
+    lemma: βάλλω
+
+    FAI.1S: βαλῶ
+    FAP.NSM: βαλῶν
+    FAP.NSF: βαλοῦσα
+    FAP.NSN: βαλοῦν
+
+-
+    source: PRATT§30
+    test_length: false
+
+    lemma: λύω
+
+    AAP.NSM: λύσας
+    AAP.GSM: λύσαντος
+    AAP.DSM: λύσαντι
+    AAP.ASM: λύσαντα
+    AAP.NPM: λύσαντες
+    AAP.GPM: λυσάντων
+    AAP.DPM: λύσασι(ν)
+    AAP.APM: λύσαντας
+
+    AAP.NSF: λύσασα
+    AAP.GSF: λυσάσης
+    AAP.DSF: λυσάσῃ
+    AAP.ASF: λύσασαν
+    AAP.NPF: λύσασαι
+    AAP.GPF: λυσασῶν
+    AAP.DPF: λυσάσαις
+    AAP.APF: λυσάσας
+
+    AAP.NSN: λῦσαν
+    AAP.GSN: λύσαντος
+    AAP.DSN: λύσαντι
+    AAP.ASN: λῦσαν
+    AAP.NPN: λύσαντα
+    AAP.GPN: λυσάντων
+    AAP.DPN: λύσασι(ν)
+    AAP.APN: λύσαντα
+
+-
+    source: PRATT§31
+    test_length: false
+
+    lemma: λαμβάνω
+
+    AAP.NSM: λαβών
+    AAP.GSM: λαβόντος
+    AAP.DSM: λαβόντι
+    AAP.ASM: λαβόντα
+    AAP.NPM: λαβόντες
+    AAP.GPM: λαβόντων
+    AAP.DPM: λαβοῦσι(ν)
+    AAP.APM: λαβόντας
+
+    AAP.NSF: λαβοῦσα
+    AAP.GSF: λαβούσης
+    AAP.DSF: λαβούσῃ
+    AAP.ASF: λαβοῦσαν
+    AAP.NPF: λαβοῦσαι
+    AAP.GPF: λαβουσῶν
+    AAP.DPF: λαβούσαις
+    AAP.APF: λαβούσας
+
+    AAP.NSN: λαβόν
+    AAP.GSN: λαβόντος
+    AAP.DSN: λαβόντι
+    AAP.ASN: λαβόν
+    AAP.NPN: λαβόντα
+    AAP.GPN: λαβόντων
+    AAP.DPN: λαβοῦσι(ν)
+    AAP.APN: λαβόντα
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: δίδωμι
+
+    AAP.NSM: δούς
+    AAP.GSM: δόντος  # implied by given stem
+    AAP.NSF: δοῦσα
+    AAP.GSF: δούσης  # implied by given stem
+    AAP.NSN: δόν
+    AAP.GSN: δόντος  # implied by given stem
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: τίθημι
+
+    AAP.NSM: θείς
+    AAP.GSM: θέντος  # implied by given stem
+    AAP.NSF: θεῖσα
+    AAP.GSF: θείσης  # implied by given stem
+    AAP.NSN: θέν
+    AAP.GSN: θέντος  # implied by given stem
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: ἵημι
+
+    AAP.NSM: εἵς
+    AAP.GSM: ἕντος  # implied by given stem
+    AAP.NSF: εἷσα
+    AAP.GSF: εἵσης  # implied by given stem
+    AAP.NSN: ἕν
+    AAP.GSN: ἕντος  # implied by given stem
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: ἵστημι
+    tags:
+      - intrans
+
+    AAP.NSM: στάς
+    AAP.GSM: στάντος  # implied by given stem
+    AAP.NSF: στᾶσα
+    AAP.GSF: στάσης  # implied by given stem
+    AAP.NSN: στάν
+    AAP.GSN: στάντος  # implied by given stem
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: βαίνω
+
+    AAP.NSM: βάς
+    AAP.GSM: βάντος  # implied by given stem
+    AAP.NSF: βᾶσα
+    AAP.GSF: βάσης  # implied by given stem
+    AAP.NSN: βάν
+    AAP.GSN: βάντος  # implied by given stem
+
+-
+    source: PRATT§32
+    test_length: false
+
+    lemma: γιγνώσκω
+
+    AAP.NSM: γνούς
+    AAP.GSM: γνόντος  # implied by given stem
+    AAP.NSF: γνοῦσα
+    AAP.GSF: γνούσης  # implied by given stem
+    AAP.NSN: γνόν
+    AAP.GSN: γνόντος  # implied by given stem
+
+-
+    source: PRATT§33
+    test_length: false
+
+    lemma: λύω
+
+    XAP.NSM: λελυκώς
+    XAP.GSM: λελυκότος
+    XAP.DSM: λελυκότι
+    XAP.ASM: λελυκότα
+    XAP.NPM: λελυκότες
+    XAP.GPM: λελυκότων
+    XAP.DPM: λελυκόσι(ν)
+    XAP.APM: λελυκότας
+
+    XAP.NSF: λελυκυῖα
+    XAP.GSF: λελυκυίας
+    XAP.DSF: λελυκυίᾳ
+    XAP.ASF: λελυκυῖαν
+    XAP.NPF: λελυκυῖαι
+    XAP.GPF: λελυκυιῶν
+    XAP.DPF: λελυκυίαις
+    XAP.APF: λελυκυίας
+
+    XAP.NSN: λελυκός
+    XAP.GSN: λελυκότος
+    XAP.DSN: λελυκότι
+    XAP.ASN: λελυκός
+    XAP.NPN: λελυκότα
+    XAP.GPN: λελυκότων
+    XAP.DPN: λελυκόσι(ν)
+    XAP.APN: λελυκότα
+
+-
+    source: PRATT§34
+    test_length: false
+
+    lemma: λύω
+
+    PMP.NSM: λυόμενος
+    PMP.GSM: λυομένου
+    PMP.DSM: λυομένῳ
+    PMP.ASM: λυόμενον
+    PMP.NPM: λυόμενοι
+    PMP.GPM: λυομένων
+    PMP.DPM: λυομένοις
+    PMP.APM: λυομένους
+
+    PMP.NSF: λυομένη
+    PMP.GSF: λυομένης
+    PMP.DSF: λυομένῃ
+    PMP.ASF: λυομένην
+    PMP.NPF: λυόμεναι
+    PMP.GPF: λυομένων
+    PMP.DPF: λυομέναις
+    PMP.APF: λυομένας
+
+    PMP.NSN: λυόμενον
+    PMP.GSN: λυομένου
+    PMP.DSN: λυομένῳ
+    PMP.ASN: λυόμενον
+    PMP.NPN: λυόμενα
+    PMP.GPN: λυομένων
+    PMP.DPN: λυομένοις
+    PMP.APN: λυόμενα
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: ἐράω
+
+    PMP.NSM: ἐρώμενος
+    PMP.NSF: ἐρωμένη
+    PMP.NSN: ἐρώμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: φιλέω
+
+    PMP.NSM: φιλούμενος
+    PMP.NSF: φιλουμένη
+    PMP.NSN: φιλούμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: δηλόω
+
+    PMP.NSM: δηλούμενος
+    PMP.NSF: δηλουμένη
+    PMP.NSN: δηλούμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: δίδωμι
+
+    PMP.NSM: διδόμενος
+    PMP.NSF: διδομένη
+    PMP.NSN: διδόμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: τίθημι
+
+    PMP.NSM: τιθέμενος
+    PMP.NSF: τιθεμένη
+    PMP.NSN: τιθέμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: ἵστημι
+
+    PMP.NSM: ἱστάμενος
+    PMP.NSF: ἱσταμένη
+    PMP.NSN: ἱστάμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: δείκνυμι
+
+    PMP.NSM: δεικνύμενος
+    PMP.NSF: δεικνυμένη
+    PMP.NSN: δεικνύμενον
+
+-
+    source: PRATT§35
+    test_length: false
+
+    lemma: ἵημι
+
+    PMP.NSM: ἱέμενος
+    PMP.NSF: ἱεμένη
+    PMP.NSN: ἱέμενον
+
+-
+    source: PRATT§37
+    test_length: false
+
+    lemma: δίδωμι
+
+    AMP.NSM: δόμενος
+    AMP.NSF: δομένη
+    AMP.NSN: δόμενον
+
+-
+    source: PRATT§37
+    test_length: false
+
+    lemma: τίθημι
+
+    AMP.NSM: θέμενος
+    AMP.NSF: θεμένη
+    AMP.NSN: θέμενον
+
+-
+    source: PRATT§37
+    test_length: false
+
+    lemma: ἵστημι
+    tags:
+      - intrans
+
+    AMP.NSM: στάμενος
+    AMP.NSF: σταμένη
+    AMP.NSN: στάμενον
+
+-
+    source: PRATT§37
+    test_length: false
+
+    lemma: δείκνυμι
+
+    AMP.NSM: δειξάμενος
+    AMP.NSF: δειξαμένη
+    AMP.NSN: δειξάμενον
+
+-
+    source: PRATT§37
+    test_length: false
+
+    lemma: ἵημι
+
+    AMP.NSM: ἕμενος  # compound verbs only
+    AMP.NSF: ἑμένη  # compound verbs only
+    AMP.NSN: ἕμενον  # compound verbs only
+
+-
+    source: PRATT§38
+    test_length: false
+
+    lemma: λύω
+
+    APP.NSM: λυθείς
+    APP.GSM: λυθέντος
+    APP.DSM: λυθέντι
+    APP.ASM: λυθέντα
+    APP.NPM: λυθέντες
+    APP.GPM: λυθέντων
+    APP.DPM: λυθεῖσι(ν)
+    APP.APM: λυθέντας
+
+    APP.NSF: λυθεῖσα
+    APP.GSF: λυθείσης
+    APP.DSF: λυθείσῃ
+    APP.ASF: λυθεῖσαν
+    APP.NPF: λυθεῖσαι
+    APP.GPF: λυθεισῶν
+    APP.DPF: λυθείσαις
+    APP.APF: λυθείσας
+
+    APP.NSN: λυθέν
+    APP.GSN: λυθέντος
+    APP.DSN: λυθέντι
+    APP.ASN: λυθέν
+    APP.NPN: λυθέντα
+    APP.GPN: λυθέντων
+    APP.DPN: λυθεῖσι(ν)
+    APP.APN: λυθέντα
+
+-
+    source: PRATT§39
+    test_length: false
+
+    lemma: λύω
+
+    PMP.NSM: λυόμενος
+    PMP.NSF: λυομένη
+    PMP.NSN: λυόμενον
+
+    FMP.NSM: λυσόμενος
+    FMP.NSF: λυσομένη
+    FMP.NSN: λυσόμενον
+
+    FPP.NSM: λυθησόμενος
+    FPP.NSF: λυθησομένη
+    FPP.NSN: λυθησόμενον
+
+    AMP.NSM: λυσάμενος
+    AMP.NSF: λυσαμένη
+    AMP.NSN: λυσάμενον
+
+    APP.NSM: λυθείς
+    APP.NSF: λυθεῖσα
+    APP.NSN: λυθέν
+
+    XMP.NSM: λελυμένος
+    XMP.NSF: λελυμένη
+    XMP.NSN: λελυμένον
+
+-
+    source: PRATT§40
+    test_length: false
+
+    lemma: λαμβάνω
+
+    PMP.NSM: λαμβανόμενος
+    PMP.NSF: λαμβανομένη
+    PMP.NSN: λαμβανόμενον
+
+    FMP.NSM: ληψόμενος
+    FMP.NSF: ληψομένη
+    FMP.NSN: ληψόμενον
+
+    FPP.NSM: ληφθησόμενος
+    FPP.NSF: ληφθησομένη
+    FPP.NSN: ληφθησόμενον
+
+    AMP.NSM: λαβόμενος
+    AMP.NSF: λαβομένη
+    AMP.NSN: λαβόμενον
+
+    APP.NSM: ληφθείς
+    APP.NSF: ληφθεῖσα
+    APP.NSN: ληφθέν
+
+    XMP.NSM: εἰλημμένος  # Pratt had double λ instead of double μ but likely typo
+    XMP.NSF: εἰλημμένη  # Pratt had double λ instead of double μ but likely typo
+    XMP.NSN: εἰλημμένον  # Pratt had double λ instead of double μ but likely typo
+
+-
+    source: PRATT§52
+    test_length: false
+
+    lemma: λύω
+
+    PAI.1S: λύω
+    PAI.2S: λύεις
+    PAI.3S: λύει
+    PAI.1P: λύομεν
+    PAI.2P: λύετε
+    PAI.3P: λύουσι(ν)
+
+    PMI.1S: λύομαι
+    PMI.2S: λύῃ/λύει
+    PMI.3S: λύεται
+    PMI.1P: λυόμεθα
+    PMI.2P: λύεσθε
+    PMI.3P: λύονται
+
+    PAD.2S: λῦε
+    PAD.3S: λυέτω
+    PAD.2P: λύετε
+    PAD.3P: λυόντων
+
+    PMD.2S: λύου
+    PMD.3S: λυέσθω
+    PMD.2P: λύεσθε
+    PMD.3P: λυέσθων
+
+    PAS.1S: λύω
+    PAS.2S: λύῃς
+    PAS.3S: λύῃ
+    PAS.1P: λύωμεν
+    PAS.2P: λύητε
+    PAS.3P: λύωσι(ν)
+
+    PMS.1S: λύωμαι
+    PMS.2S: λύῃ
+    PMS.3S: λύηται
+    PMS.1P: λυώμεθα
+    PMS.2P: λύησθε
+    PMS.3P: λύωνται
+
+    PAO.1S: λύοιμι
+    PAO.2S: λύοις
+    PAO.3S: λύοι
+    PAO.1P: λύοιμεν
+    PAO.2P: λύοιτε
+    PAO.3P: λύοιεν
+
+    PMO.1S: λυοίμην
+    PMO.2S: λύοιο
+    PMO.3S: λύοιτο
+    PMO.1P: λυοίμεθα
+    PMO.2P: λύοισθε
+    PMO.3P: λύοιντο
+
+    PAP.NSM: λύων
+    PAP.NSF: λύουσα
+    PAP.NSN: λῦον
+
+    PMP.NSM: λυόμενος
+    PMP.NSF: λυομένη
+    PMP.NSN: λυόμενον
+
+    PAN: λύειν
+    PMN: λύεσθαι
+
+    IAI.1S: ἔλυον
+    IAI.2S: ἔλυες
+    IAI.3S: ἔλυε(ν)
+    IAI.1P: ἐλύομεν
+    IAI.2P: ἐλύετε
+    IAI.3P: ἔλυον
+
+    IMI.1S: ἐλυόμην
+    IMI.2S: ἐλύου
+    IMI.3S: ἐλύετο
+    IMI.1P: ἐλυόμεθα
+    IMI.2P: ἐλύεσθε
+    IMI.3P: ἐλύοντο
+
+-
+    source: PRATT§53
+    test_length: false
+
+    lemma: λύω
+
+    FAI.1S: λύσω
+    FAI.2S: λύσεις
+    FAI.3S: λύσει
+    FAI.1P: λύσομεν
+    FAI.2P: λύσετε
+    FAI.3P: λύσουσι(ν)
+
+    FMI.1S: λύσομαι
+    FMI.2S: λύσῃ/λύσει
+    FMI.3S: λύσεται
+    FMI.1P: λυσόμεθα
+    FMI.2P: λύσεσθε
+    FMI.3P: λύσονται
+
+    FPI.1S: λυθήσομαι
+    FPI.2S: λυθήσῃ
+    FPI.3S: λυθήσεται
+    FPI.1P: λυθησόμεθα
+    FPI.2P: λυθήσεσθε
+    FPI.3P: λυθήσονται
+
+    FAO.1S: λύσοιμι
+    FAO.2S: λύσοις
+    FAO.3S: λύσοι
+    FAO.1P: λύσοιμεν
+    FAO.2P: λύσοιτε
+    FAO.3P: λύσοιεν
+
+    FMO.1S: λυσοίμην
+    FMO.2S: λύσοιο
+    FMO.3S: λύσοιτο
+    FMO.1P: λυσοίμεθα
+    FMO.2P: λύσοισθε
+    FMO.3P: λύσοιντο
+
+    FPO.1S: λυθησοίμην
+    FPO.2S: λυθήσοιο
+    FPO.3S: λυθήσοιτο
+    FPO.1P: λυθησοίμεθα
+    FPO.2P: λυθήσοισθε
+    FPO.3P: λυθήσοιντο
+
+    FAP.NSM: λύσων
+    FAP.NSF: λύσουσα
+    FAP.NSN: λῦσον
+
+    FMP.NSM: λυσόμενος
+    FMP.NSF: λυσομένη
+    FMP.NSN: λυσόμενον
+
+    FPP.NSM: λυθησόμενος
+    FPP.NSF: λυθησομένη
+    FPP.NSN: λυθησόμενον
+
+    FAN: λύσειν
+    FMN: λύσεσθαι
+    FPN: λυθήσεσθαι
+
+-
+    source: PRATT§54
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+
+    lemma: λύω
+
+    AAI.1S: ἔλυσα
+    AAI.2S: ἔλυσας
+    AAI.3S: ἔλυσε(ν)
+    AAI.1P: ἐλύσαμεν
+    AAI.2P: ἐλύσατε
+    AAI.3P: ἔλυσαν
+
+    AMI.1S: ἐλυσάμην
+    AMI.2S: ἐλύσω
+    AMI.3S: ἐλύσατο
+    AMI.1P: ἐλυσάμεθα
+    AMI.2P: ἐλύσασθε
+    AMI.3P: ἐλύσαντο  # Pratt has ἐλῦσαντο
+
+    API.1S: ἐλύθην
+    API.2S: ἐλύθης
+    API.3S: ἐλύθη
+    API.1P: ἐλύθημεν
+    API.2P: ἐλύθητε
+    API.3P: ἐλύθησαν
+
+    AAD.2S: λῦσον
+    AAD.3S: λυσάτω
+    AAD.2P: λύσατε
+    AAD.3P: λυσάντων
+
+    AMD.2S: λῦσαι
+    AMD.3S: λυσάσθω
+    AMD.2P: λύσασθε
+    AMD.3P: λυσάσθων
+
+    APD.2S: λύθητι
+    APD.3S: λυθήτω
+    APD.2P: λύθητε
+    APD.3P: λυθέντων
+
+    AAS.1S: λύσω
+    AAS.2S: λύσῃς
+    AAS.3S: λύσῃ
+    AAS.1P: λύσωμεν
+    AAS.2P: λύσητε
+    AAS.3P: λύσωσι(ν)
+
+    AMS.1S: λύσωμαι
+    AMS.2S: λύσῃ
+    AMS.3S: λύσηται
+    AMS.1P: λυσώμεθα
+    AMS.2P: λύσησθε
+    AMS.3P: λύσωνται
+
+    APS.1S: λυθῶ
+    APS.2S: λυθῇς
+    APS.3S: λυθῇ
+    APS.1P: λυθῶμεν
+    APS.2P: λυθῆτε
+    APS.3P: λυθῶσι(ν)
+
+    AAO.1S: λύσαιμι
+    AAO.2S: λύσαις/λύσειας
+    AAO.3S: λύσαι/λύσειε(ν)
+    AAO.1P: λύσαιμεν
+    AAO.2P: λύσαιτε
+    AAO.3P: λύσαιεν/λύσειαν
+
+    AMO.1S: λυσαίμην
+    AMO.2S: λύσαιο
+    AMO.3S: λύσαιτο
+    AMO.1P: λυσαίμεθα
+    AMO.2P: λύσαισθε
+    AMO.3P: λύσαιντο
+
+    APO.1S: λυθείην
+    APO.2S: λυθείης
+    APO.3S: λυθείη
+    APO.1P: λυθεῖμεν
+    APO.2P: λυθεῖτε
+    APO.3P: λυθεῖεν
+
+    AAP.NSM: λύσας
+    AAP.NSF: λύσασα
+    AAP.NSN: λῦσαν
+
+    AMP.NSM: λυσάμενος
+    AMP.NSF: λυσαμένη
+    AMP.NSN: λυσάμενον
+
+    APP.NSM: λυθείς
+    APP.NSF: λυθεῖσα
+    APP.NSN: λυθέν
+
+    AAN: λῦσαι
+    AMN: λύσασθαι
+    APN: λυθῆναι
+
+-
+    source: PRATT§55
+    test_length: false
+    tags:
+      - late-pluperfect-singulars
+
+    lemma: λύω
+
+    XAI.1S: λέλυκα
+    XAI.2S: λέλυκας
+    XAI.3S: λέλυκε(ν)
+    XAI.1P: λελύκαμεν
+    XAI.2P: λελύκατε
+    XAI.3P: λελύκασι(ν)
+
+    XMI.1S: λέλυμαι
+    XMI.2S: λέλυσαι
+    XMI.3S: λέλυται
+    XMI.1P: λελύμεθα
+    XMI.2P: λέλυσθε
+    XMI.3P: λέλυνται
+
+    XAD.2S: λέλυκε
+    XAD.3S: λελυκέτω
+    XAD.2P: λελύκετε
+    XAD.3P: λελυκέτωσαν
+
+    XMD.2S: λέλυσο
+    XMD.3S: λελύσθω
+    XMD.2P: λέλυσθε
+    XMD.3P: λελύσθων
+
+    XAS.1S: λελύκω
+    XAS.2S: λελύκῃς
+    XAS.3S: λελύκῃ
+    XAS.1P: λελύκωμεν
+    XAS.2P: λελύκητε
+    XAS.3P: λελύκωσι(ν)
+
+    XAO.1S: λελύκοιμι
+    XAO.2S: λελύκοις
+    XAO.3S: λελύκοι
+    XAO.1P: λελύκοιμεν
+    XAO.2P: λελύκοιτε
+    XAO.3P: λελύκοιεν
+
+    XAP.NSM: λελυκώς
+    XAP.NSF: λελυκυῖα
+    XAP.NSN: λελυκός
+
+    XMP.NSM: λελυμένος
+    XMP.NSF: λελυμένη
+    XMP.NSN: λελυμένον
+
+    XAN: λελυκέναι
+    XMN: λελύσθαι  # book has λελῦσθαι
+
+    YAI.1S: ἐλελύκη/ἐλελύκειν
+    YAI.2S: ἐλελύκης/ἐλελύκεις
+    YAI.3S: ἐλελύκει(ν)/ἐλελύκει
+    YAI.1P: ἐλελύκεμεν
+    YAI.2P: ἐλελύκετε
+    YAI.3P: ἐλελύκεσαν
+
+    YMI.1S: ἐλελύμην
+    YMI.2S: ἐλέλυσο
+    YMI.3S: ἐλέλυτο
+    YMI.1P: ἐλελύμεθα
+    YMI.2P: ἐλέλυσθε
+    YMI.3P: ἐλέλυντο
+
+    # no future perfect
+
+-
+    source: PRATT§56
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+
+    lemma: λαμβάνω
+
+    AAI.1S: ἔλαβον
+    AAI.2S: ἔλαβες
+    AAI.3S: ἔλαβε(ν)
+    AAI.1P: ἐλάβομεν
+    AAI.2P: ἐλάβετε
+    AAI.3P: ἔλαβον
+
+    AMI.1S: ἐλαβόμην
+    AMI.2S: ἐλάβου
+    AMI.3S: ἐλάβετο
+    AMI.1P: ἐλαβόμεθα
+    AMI.2P: ἐλάβεσθε
+    AMI.3P: ἐλάβοντο
+
+    API.1S: ἐλήφθην
+    API.2S: ἐλήφθης
+    API.3S: ἐλήφθη
+    API.1P: ἐλήφθημεν
+    API.2P: ἐλήφθητε
+    API.3P: ἐλήφθησαν
+
+    AAD.2S: λαβέ
+    AAD.3S: λαβέτω
+    AAD.2P: λάβετε
+    AAD.3P: λαβόντων
+
+    AMD.2S: λαβοῦ
+    AMD.3S: λαβέσθω
+    AMD.2P: λάβεσθε
+    AMD.3P: λαβέσθων
+
+    APD.2S: λήφθητι
+    APD.3S: ληφθήτω
+    APD.2P: λήφθητε
+    APD.3P: ληφθέντων
+
+    AAS.1S: λάβω
+    AAS.2S: λάβῃς
+    AAS.3S: λάβῃ
+    AAS.1P: λάβωμεν
+    AAS.2P: λάβητε
+    AAS.3P: λάβωσι(ν)
+
+    AMS.1S: λάβωμαι
+    AMS.2S: λάβῃ
+    AMS.3S: λάβηται
+    AMS.1P: λαβώμεθα
+    AMS.2P: λάβησθε
+    AMS.3P: λάβωνται
+
+    APS.1S: ληφθῶ
+    APS.2S: ληφθῇς
+    APS.3S: ληφθῇ
+    APS.1P: ληφθῶμεν
+    APS.2P: ληφθῆτε
+    APS.3P: ληφθῶσι(ν)
+
+    AAO.1S: λάβοιμι
+    AAO.2S: λάβοις
+    AAO.3S: λάβοι
+    AAO.1P: λάβοιμεν
+    AAO.2P: λάβοιτε
+    AAO.3P: λάβοιεν
+
+    AMO.1S: λαβοίμην
+    AMO.2S: λάβοιο
+    AMO.3S: λάβοιτο
+    AMO.1P: λαβοίμεθα
+    AMO.2P: λάβοισθε
+    AMO.3P: λάβοιντο
+
+    APO.1S: ληφθείην
+    APO.2S: ληφθείης
+    APO.3S: ληφθείη
+    APO.1P: ληφθεῖμεν
+    APO.2P: ληφθεῖτε
+    APO.3P: ληφθεῖεν
+
+    AAP.NSM: λαβών
+    AAP.NSF: λαβοῦσα
+    AAP.NSN: λαβόν
+
+    AMP.NSM: λαβόμενος
+    AMP.NSF: λαβομένη
+    AMP.NSN: λαβόμενον
+
+    APP.NSM: ληφθείς
+    APP.NSF: ληφθεῖσα
+    APP.NSN: ληφθέν
+
+    AAN: λαβεῖν
+    AMN: λαβέσθαι
+    APN: ληφθῆναι
+
+-
+    source: PRATT§57
+    test_length: false
+
+    lemma: ἐράω
+
+    PAI.1S: ἐρῶ  # -άω
+    PAI.2S: ἐρᾷς  # -άεις
+    PAI.3S: ἐρᾷ  # -άει
+    PAI.1P: ἐρῶμεν  # -άομεν
+    PAI.2P: ἐρᾶτε  # -άετε
+    PAI.3P: ἐρῶσι(ν)  # -άουσι
+
+    PMI.1S: ἐρῶμαι  # -άομαι
+    PMI.2S: ἐρᾷ  # -άει/άῃ
+    PMI.3S: ἐρᾶται  # -άεται
+    PMI.1P: ἐρώμεθα  # -αόμεθα
+    PMI.2P: ἐρᾶσθε  # -άεσθε
+    PMI.3P: ἐρῶνται  # -άονται
+
+    PAD.2S: ἔρα  # -αε
+    PAD.3S: ἐράτω  # -αέτω
+    PAD.2P: ἐρᾶτε  # -άετε
+    PAD.3P: ἐρώντων  # -αόντων
+
+    PMD.2S: ἐρῶ  # -άου
+    PMD.3S: ἐράσθω  # -αέσθω
+    PMD.2P: ἐρᾶσθε  # -άεσθε
+    PMD.3P: ἐράσθων  # -αέσθων
+
+    PAS.1S: ἐρῶ  # -άω
+    PAS.2S: ἐρᾷς  # -άῃς
+    PAS.3S: ἐρᾷ  # -άῃ
+    PAS.1P: ἐρῶμεν  # -άωμεν
+    PAS.2P: ἐρᾶτε  # -άητε
+    PAS.3P: ἐρῶσι(ν)  # -άωσι
+
+    PMS.1S: ἐρῶμαι  # -άωμαι
+    PMS.2S: ἐρᾷ  # -άῃ/άει
+    PMS.3S: ἐρᾶται  # -άηται
+    PMS.1P: ἐρώμεθα  # -αώμεθα
+    PMS.2P: ἐρᾶσθε  # -άησθε
+    PMS.3P: ἐρῶνται  # -άωνται
+
+    PAO.1S: ἐρῷμι/ἐρῴην  # -αοίην Pratt doesn't include ἐρῷμι
+    PAO.2S: ἐρῷς/ἐρῴης  # -αοίης  Pratt doesn't include ἐρῷς
+    PAO.3S: ἐρῷ/ἐρῴη  # -αοίη  Pratt doesn't include ἐρῷ
+    PAO.1P: ἐρῷμεν/ἐρῴημεν  # -άοιμεν  Pratt doesn't include ἐρῷμεν
+    PAO.2P: ἐρῷτε/ἐρῴητε  # -άοιτε  Pratt doesn't include ἐρῴητε
+    PAO.3P: ἐρῷεν/ἐρῴησαν  # -άοιεν  Pratt doesn't include ἐρῴησαν
+
+    PMO.1S: ἐρῴμην  # -αοίμην
+    PMO.2S: ἐρῷο  # -άοιο
+    PMO.3S: ἐρῷτο  # -άοιτο
+    PMO.1P: ἐρῴμεθα  # -αοίμεθα
+    PMO.2P: ἐρῷσθε  # -άοισθε
+    PMO.3P: ἐρῷντο  # -άοιντο
+
+    PAP.NSM: ἐρῶν  # -άων
+    PAP.NSF: ἐρῶσα  # -άουσα
+    PAP.NSN: ἐρῶν  # -άον
+
+    PMP.NSM: ἐρώμενος  # -αόμενος
+    PMP.NSF: ἐρωμένη  # -αομένη
+    PMP.NSN: ἐρώμενον  # -αόμενον
+
+    PAN: ἐρᾶν  # -άεεν
+    PMN: ἐρᾶσθαι  # -άεσθαι
+
+    IAI.1S: ἤρων  # -άον
+    IAI.2S: ἤρας  # -άες
+    IAI.3S: ἤρα  # -άε
+    IAI.1P: ἠρῶμεν  # -άομεν
+    IAI.2P: ἠρᾶτε  # -άετε
+    IAI.3P: ἤρων  # -αον
+
+    IMI.1S: ἠρώμην  # -αόμην
+    IMI.2S: ἠρῶ  # -άου
+    IMI.3S: ἠρᾶτο  # -άετο
+    IMI.1P: ἠρώμεθα # - αόμεθα
+    IMI.2P: ἠρᾶσθε  # -άεσθε
+    IMI.3P: ἠρῶντο  # -άοντο
+
+-
+    source: PRATT§58
+    test_length: false
+
+    lemma: φιλέω
+
+    PAI.1S: φιλῶ  # -έω
+    PAI.2S: φιλεῖς  # -έεις
+    PAI.3S: φιλεῖ  # -έει
+    PAI.1P: φιλοῦμεν  # -έομεν
+    PAI.2P: φιλεῖτε  # -έετε
+    PAI.3P: φιλοῦσι(ν)  # -έουσι
+
+    PMI.1S: φιλοῦμαι  # -έομαι
+    PMI.2S: φιλῇ/φιλεῖ  # -έῃ/έει
+    PMI.3S: φιλεῖται  # -έεται
+    PMI.1P: φιλούμεθα  # -εόμεθα
+    PMI.2P: φιλεῖσθε  # -έεσθε
+    PMI.3P: φιλοῦνται  # -έονται
+
+    PAD.2S: φίλει  # -εε
+    PAD.3S: φιλείτω  # -εέτω
+    PAD.2P: φιλεῖτε  # -έετε
+    PAD.3P: φιλούντων  # -εόντων
+
+    PMD.2S: φιλοῦ  # -έου
+    PMD.3S: φιλείσθω  # -εέσθω
+    PMD.2P: φιλεῖσθε  # -έεσθε
+    PMD.3P: φιλείσθων  # -εέσθων
+
+    PAS.1S: φιλῶ  # -έω
+    PAS.2S: φιλῇς  # -έῃς
+    PAS.3S: φιλῇ  # -έῃ
+    PAS.1P: φιλῶμεν  # -έωμεν
+    PAS.2P: φιλῆτε  # -έητε
+    PAS.3P: φιλῶσι(ν)  # -έωσι
+
+    PMS.1S: φιλῶμαι  # -έωμαι
+    PMS.2S: φιλῇ  # -έῃ
+    PMS.3S: φιλῆται  # -έηται
+    PMS.1P: φιλώμεθα  # -εώμεθα
+    PMS.2P: φιλῆσθε  # -έησθε
+    PMS.3P: φιλῶνται  # -έωνται
+
+    PAO.1S: φιλοῖμι/φιλοίην  # -εοίην  Pratt doesn't have φιλοῖμι
+    PAO.2S: φιλοῖς/φιλοίης  # -εοίης  Pratt doesn't have φιλοῖς
+    PAO.3S: φιλοῖ/φιλοίη  # -εοίη  Pratt doesn't have φιλοῖ
+    PAO.1P: φιλοῖμεν/φιλοίημεν  # -έοιμεν  Pratt doesn't have φιλοίημεν
+    PAO.2P: φιλοῖτε/φιλοίητε  # -έοιτε  Pratt doesn't have φιλοίητε
+    PAO.3P: φιλοῖεν/φιλοίησαν  # -έοιεν  Pratt doesn't have φιλοίησαν
+
+    PMO.1S: φιλοίμην  # -εοίμην
+    PMO.2S: φιλοῖο  # -έοιο
+    PMO.3S: φιλοῖτο  # -έοιτο
+    PMO.1P: φιλοίμεθα  # -εοίμεθα
+    PMO.2P: φιλοῖσθε  # -έοισθε
+    PMO.3P: φιλοῖντο  # -έοιντο
+
+    PAP.NSM: φιλῶν  # -έων
+    PAP.NSF: φιλοῦσα  # -έουσα
+    PAP.NSN: φιλοῦν  # -έον
+
+    PMP.NSM: φιλούμενος  # -εόμενος
+    PMP.NSF: φιλουμένη  # -εομένη
+    PMP.NSN: φιλούμενον  # -εόμενον
+
+    PAN: φιλεῖν  # -έεεν
+    PMN: φιλεῖσθαι  # -έεσθαι
+
+    IAI.1S: ἐφίλουν  # -εον
+    IAI.2S: ἐφίλεις  # -εες
+    IAI.3S: ἐφίλει  # -εε
+    IAI.1P: ἐφιλοῦμεν  # -έομεν
+    IAI.2P: ἐφιλεῖτε  # -έετε
+    IAI.3P: ἐφίλουν  # -εον
+
+    IMI.1S: ἐφιλούμην  # -εόμην
+    IMI.2S: ἐφιλοῦ  # -έου
+    IMI.3S: ἐφιλεῖτο  # -έετο
+    IMI.1P: ἐφιλούμεθα # - εόμεθα
+    IMI.2P: ἐφιλεῖσθε  # -έεσθε
+    IMI.3P: ἐφιλοῦντο  # -έοντο
+
+-
+    source: PRATT§59
+    test_length: false
+
+    lemma: δηλόω
+
+    PAI.1S: δηλῶ  # -όω
+    PAI.2S: δηλοῖς  # -όεις
+    PAI.3S: δηλοῖ  # -όει
+    PAI.1P: δηλοῦμεν  # -όομεν
+    PAI.2P: δηλοῦτε  # -όετε
+    PAI.3P: δηλοῦσι(ν)  # -όουσι
+
+    PMI.1S: δηλοῦμαι  # -όομαι
+    PMI.2S: δηλοῖ  # -όει/όῃ
+    PMI.3S: δηλοῦται  # -όεται
+    PMI.1P: δηλούμεθα  # -οόμεθα
+    PMI.2P: δηλοῦσθε  # -όεσθε
+    PMI.3P: δηλοῦνται  # -όονται
+
+    PAD.2S: δήλου  # -οε
+    PAD.3S: δηλούτω  # -οέτω
+    PAD.2P: δηλοῦτε  # -όετε
+    PAD.3P: δηλούντων  # -οόντων
+
+    PMD.2S: δηλοῦ  # -όου
+    PMD.3S: δηλούσθω  # -οέσθω
+    PMD.2P: δηλοῦσθε  # -οέσθε
+    PMD.3P: δηλούσθων  # -οέσθων
+
+    PAS.1S: δηλῶ  # -όω
+    PAS.2S: δηλοῖς  # -όῃς
+    PAS.3S: δηλοῖ  # -όῃ
+    PAS.1P: δηλῶμεν  # -όωμεν
+    PAS.2P: δηλῶτε  # -όητε
+    PAS.3P: δηλῶσι(ν)  # -όωσι
+
+    PMS.1S: δηλῶμαι  # -όωμαι
+    PMS.2S: δηλοῖ  # -όῃ
+    PMS.3S: δηλῶται  # -όηται
+    PMS.1P: δηλώμεθα  # -οώμεθα
+    PMS.2P: δηλῶσθε  # -όησθε
+    PMS.3P: δηλῶνται  # -όωνται
+
+    PAO.1S: δηλοῖμι/δηλοίην  # -οοίην  Pratt doesn't have δηλοῖμι
+    PAO.2S: δηλοῖς/δηλοίης  # -οοίης  Pratt doesn't have δηλοῖς
+    PAO.3S: δηλοῖ/δηλοίη  # -οοίη  Pratt doesn't have δηλοῖ
+    PAO.1P: δηλοῖμεν/δηλοίημεν  # -όοιμεν  Pratt doesn't have δηλοίημεν
+    PAO.2P: δηλοῖτε/δηλοίητε  # -όοιτε  Pratt doesn't have δηλοίητε
+    PAO.3P: δηλοῖεν/δηλοίησαν  # -όοιεν  Pratt doesn't have δηλοίησαν
+
+    PMO.1S: δηλοίμην  # -οοίμην
+    PMO.2S: δηλοῖο  # -όοιο
+    PMO.3S: δηλοῖτο  # -όοιτο
+    PMO.1P: δηλοίμεθα  # -οοίμεθα
+    PMO.2P: δηλοῖσθε  # -όοισθε
+    PMO.3P: δηλοῖντο  # -όοιντο
+
+    PAP.NSM: δηλῶν  # -όων
+    PAP.NSF: δηλοῦσα  # -όουσα
+    PAP.NSN: δηλοῦν  # -όον
+
+    PMP.NSM: δηλούμενος  # -οόμενος
+    PMP.NSF: δηλουμένη  # -οομένη
+    PMP.NSN: δηλούμενον  # -οόμενον
+
+    PAN: δηλοῦν  # -όεεν
+    PMN: δηλοῦσθαι  # -όεσθαι
+
+    IAI.1S: ἐδήλουν  # -οον
+    IAI.2S: ἐδήλους  # -οες
+    IAI.3S: ἐδήλου  # -οε
+    IAI.1P: ἐδηλοῦμεν  # -όομεν
+    IAI.2P: ἐδηλοῦτε  # -όετε
+    IAI.3P: ἐδήλουν  # -οον
+
+    IMI.1S: ἐδηλούμην  # -οόμην
+    IMI.2S: ἐδηλοῦ  # -όου
+    IMI.3S: ἐδηλοῦτο  # -όετο
+    IMI.1P: ἐδηλούμεθα # - οόμεθα
+    IMI.2P: ἐδηλοῦσθε  # -όεσθε
+    IMI.3P: ἐδηλοῦντο  # -όοντο
+
+-
+    source: PRATT§60a
+    test_length: false
+
+    lemma: δίδωμι
+
+    PAI.1S: δίδωμι
+    PAI.2S: δίδως
+    PAI.3S: δίδωσι(ν)
+    PAI.1P: δίδομεν
+    PAI.2P: δίδοτε
+    PAI.3P: διδόασι(ν)
+
+    PAD.2S: δίδου  # -οε
+    PAD.3S: διδότω
+    PAD.2P: δίδοτε
+    PAD.3P: διδόντων
+
+    PAS.1S: διδῶ
+    PAS.2S: διδῷς
+    PAS.3S: διδῷ
+    PAS.1P: διδῶμεν
+    PAS.2P: διδῶτε
+    PAS.3P: διδῶσι(ν)
+
+    PAO.1S: διδοίην
+    PAO.2S: διδοίης
+    PAO.3S: διδοίη
+    PAO.1P: διδοῖμεν
+    PAO.2P: διδοῖτε
+    PAO.3P: διδοῖεν
+
+    PAP.NSM: διδούς  # διδοντ-
+    PAP.NSF: διδοῦσα
+    PAP.NSN: διδόν
+
+    PAN: διδόναι
+
+    IAI.1S: ἐδίδουν
+    IAI.2S: ἐδίδους
+    IAI.3S: ἐδίδου
+    IAI.1P: ἐδίδομεν
+    IAI.2P: ἐδίδοτε
+    IAI.3P: ἐδίδοσαν
+
+    PMI.1S: δίδομαι
+    PMI.2S: δίδοσαι
+    PMI.3S: δίδοται
+    PMI.1P: διδόμεθα
+    PMI.2P: δίδοσθε
+    PMI.3P: δίδονται
+
+    PMD.2S: δίδοσο
+    PMD.3S: διδόσθω
+    PMD.2P: δίδοσθε
+    PMD.3P: διδόσθων
+
+    PMS.1S: διδῶμαι
+    PMS.2S: διδῷ
+    PMS.3S: διδῶται
+    PMS.1P: διδώμεθα
+    PMS.2P: διδῶσθε
+    PMS.3P: διδῶνται
+
+    PMO.1S: διδοίμην
+    PMO.2S: διδοῖο
+    PMO.3S: διδοῖτο
+    PMO.1P: διδοίμεθα
+    PMO.2P: διδοῖσθε
+    PMO.3P: διδοῖντο
+
+    PMP.NSM: διδόμενος
+    PMP.NSF: διδομένη
+    PMP.NSN: διδόμενον
+
+    PMN: δίδοσθαι
+
+    IMI.1S: ἐδιδόμην
+    IMI.2S: ἐδίδοσο
+    IMI.3S: ἐδίδοτο
+    IMI.1P: ἐδιδόμεθα
+    IMI.2P: ἐδίδοσθε
+    IMI.3P: ἐδίδοντο
+
+-
+    source: PRATT§60b
+    test_length: false
+
+    lemma: τίθημι
+
+    PAI.1S: τίθημι
+    PAI.2S: τίθης
+    PAI.3S: τίθησι(ν)
+    PAI.1P: τίθεμεν
+    PAI.2P: τίθετε
+    PAI.3P: τιθέασι(ν)
+
+    PAD.2S: τίθει  # -εε
+    PAD.3S: τιθέτω
+    PAD.2P: τίθετε
+    PAD.3P: τιθέντων
+
+    PAS.1S: τιθῶ
+    PAS.2S: τιθῇς
+    PAS.3S: τιθῇ
+    PAS.1P: τιθῶμεν
+    PAS.2P: τιθῆτε
+    PAS.3P: τιθῶσι(ν)
+
+    PAO.1S: τιθείην
+    PAO.2S: τιθείης
+    PAO.3S: τιθείη
+    PAO.1P: τιθεῖμεν
+    PAO.2P: τιθεῖτε
+    PAO.3P: τιθεῖεν
+
+    PAP.NSM: τιθείς  # τιθεντ-
+    PAP.NSF: τιθεῖσα
+    PAP.NSN: τιθέν
+
+    PAN: τιθέναι
+
+    IAI.1S: ἐτίθην
+    IAI.2S: ἐτίθεις
+    IAI.3S: ἐτίθει
+    IAI.1P: ἐτίθεμεν
+    IAI.2P: ἐτίθετε
+    IAI.3P: ἐτίθεσαν
+
+    PMI.1S: τίθεμαι
+    PMI.2S: τίθεσαι
+    PMI.3S: τίθεται
+    PMI.1P: τιθέμεθα
+    PMI.2P: τίθεσθε
+    PMI.3P: τίθενται
+
+    PMD.2S: τίθεσο
+    PMD.3S: τιθέσθω
+    PMD.2P: τίθεσθε
+    PMD.3P: τιθέσθων
+
+    PMS.1S: τιθῶμαι
+    PMS.2S: τιθῇ
+    PMS.3S: τιθῆται
+    PMS.1P: τιθώμεθα
+    PMS.2P: τιθῆσθε
+    PMS.3P: τιθῶνται
+
+    PMO.1S: τιθείμην
+    PMO.2S: τιθεῖο
+    PMO.3S: τιθεῖτο
+    PMO.1P: τιθείμεθα
+    PMO.2P: τιθεῖσθε
+    PMO.3P: τιθεῖντο
+
+    PMP.NSM: τιθέμενος
+    PMP.NSF: τιθεμένη
+    PMP.NSN: τιθέμενον
+
+    PMN: τίθεσθαι
+
+    IMI.1S: ἐτιθέμην
+    IMI.2S: ἐτίθεσο
+    IMI.3S: ἐτίθετο
+    IMI.1P: ἐτιθέμεθα
+    IMI.2P: ἐτίθεσθε
+    IMI.3P: ἐτίθεντο
+
+-
+    source: PRATT§60c
+    test_length: false
+
+    lemma: δείκνυμι
+
+    PAI.1S: δείκνυμι
+    PAI.2S: δείκνυς
+    PAI.3S: δείκνυσι(ν)
+    PAI.1P: δείκνυμεν
+    PAI.2P: δείκνυτε
+    PAI.3P: δεικνύασι(ν)
+
+    PAD.2S: δείκνυ  # -υε
+    PAD.3S: δεικνύτω
+    PAD.2P: δείκνυτε
+    PAD.3P: δεικνύντων
+
+    PAS.1S: δεικνύω
+    PAS.2S: δεικνύῃς
+    PAS.3S: δεικνύῃ
+    PAS.1P: δεικνύωμεν
+    PAS.2P: δεικνύητε
+    PAS.3P: δεικνύωσι(ν)
+
+    PAO.1S: δεικνύοιμι
+    PAO.2S: δεικνύοις
+    PAO.3S: δεικνύοι
+    PAO.1P: δεικνύοιμεν
+    PAO.2P: δεικνύοιτε
+    PAO.3P: δεικνύοιεν
+
+    PAP.NSM: δεικνύς  # δεικνυντ-
+    PAP.NSF: δεικνῦσα
+    PAP.NSN: δεικνύν
+
+    PAN: δεικνύναι
+
+    IAI.1S: ἐδείκνυν
+    IAI.2S: ἐδείκνυς
+    IAI.3S: ἐδείκνυ
+    IAI.1P: ἐδείκνυμεν
+    IAI.2P: ἐδείκνυτε
+    IAI.3P: ἐδείκνυσαν
+
+    PMI.1S: δείκνυμαι
+    PMI.2S: δείκνυσαι
+    PMI.3S: δείκνυται
+    PMI.1P: δεικνύμεθα
+    PMI.2P: δείκνυσθε
+    PMI.3P: δείκνυνται
+
+    PMD.2S: δείκνυσο
+    PMD.3S: δεικνύσθω
+    PMD.2P: δείκνυσθε
+    PMD.3P: δεικνύσθων
+
+    PMS.1S: δεικνύωμαι
+    PMS.2S: δεικνύῃ
+    PMS.3S: δεικνύηται
+    PMS.1P: δεικνυώμεθα
+    PMS.2P: δεικνύησθε
+    PMS.3P: δεικνύωνται
+
+    PMO.1S: δεικνυοίμην
+    PMO.2S: δεικνύοιο
+    PMO.3S: δεικνύοιτο
+    PMO.1P: δεικνυοίμεθα
+    PMO.2P: δεικνύοισθε
+    PMO.3P: δεικνύοιντο
+
+    PMP.NSM: δεικνύμενος
+    PMP.NSF: δεικνυμένη
+    PMP.NSN: δεικνύμενον
+
+    PMN: δείκνυσθαι
+
+    IMI.1S: ἐδεικνύμην
+    IMI.2S: ἐδείκνυσο
+    IMI.3S: ἐδείκνυτο
+    IMI.1P: ἐδεικνύμεθα
+    IMI.2P: ἐδείκνυσθε
+    IMI.3P: ἐδείκνυντο
+
+-
+    source: PRATT§60d
+    test_length: false
+    tags:
+      - no-sigma-loss-imi.2s
+
+    lemma: ἵστημι
+
+    PAI.1S: ἵστημι
+    PAI.2S: ἵστης
+    PAI.3S: ἵστησι(ν)
+    PAI.1P: ἵσταμεν
+    PAI.2P: ἵστατε
+    PAI.3P: ἱστᾶσι(ν)
+
+    PAD.2S: ἵστη  # -ηε
+    PAD.3S: ἱστάτω
+    PAD.2P: ἵστατε
+    PAD.3P: ἱστάντων
+
+    PAS.1S: ἱστῶ
+    PAS.2S: ἱστῇς
+    PAS.3S: ἱστῇ
+    PAS.1P: ἱστῶμεν
+    PAS.2P: ἱστῆτε
+    PAS.3P: ἱστῶσι(ν)
+
+    PAO.1S: ἱσταίην
+    PAO.2S: ἱσταίης
+    PAO.3S: ἱσταίη
+    PAO.1P: ἱσταῖμεν
+    PAO.2P: ἱσταῖτε
+    PAO.3P: ἱσταῖεν
+
+    PAP.NSM: ἱστάς  # ἱσταντ-
+    PAP.NSF: ἱστᾶσα
+    PAP.NSN: ἱστάν
+
+    PAN: ἱστάναι
+
+    IAI.1S: ἵστην
+    IAI.2S: ἵστης
+    IAI.3S: ἵστη
+    IAI.1P: ἵσταμεν
+    IAI.2P: ἵστατε
+    IAI.3P: ἵστασαν
+
+    PMI.1S: ἵσταμαι
+    PMI.2S: ἵστασαι
+    PMI.3S: ἵσταται
+    PMI.1P: ἱστάμεθα
+    PMI.2P: ἵστασθε
+    PMI.3P: ἵστανται
+
+    PMD.2S: ἵστασο
+    PMD.3S: ἱστάσθω
+    PMD.2P: ἵστασθε
+    PMD.3P: ἱστάσθων
+
+    PMS.1S: ἱστῶμαι
+    PMS.2S: ἱστῇ
+    PMS.3S: ἱστῆται
+    PMS.1P: ἱστώμεθα
+    PMS.2P: ἱστῆσθε
+    PMS.3P: ἱστῶνται
+
+    PMO.1S: ἱσταίμην
+    PMO.2S: ἱσταῖο
+    PMO.3S: ἱσταῖτο
+    PMO.1P: ἱσταίμεθα
+    PMO.2P: ἱσταῖσθε
+    PMO.3P: ἱσταῖντο
+
+    PMP.NSM: ἱστάμενος
+    PMP.NSF: ἱσταμένη
+    PMP.NSN: ἱστάμενον
+
+    PMN: ἵστασθαι
+
+    IMI.1S: ἱστάμην
+    IMI.2S: ἵστασο
+    IMI.3S: ἵστατο
+    IMI.1P: ἱστάμεθα
+    IMI.2P: ἵστασθε
+    IMI.3P: ἵσταντο
+
+-
+    source: PRATT§60e
+    test_length: false
+
+    lemma: ἵημι
+
+    PAI.1S: ἵημι
+    PAI.2S: ἵης
+    PAI.3S: ἵησι(ν)
+    PAI.1P: ἵεμεν
+    PAI.2P: ἵετε
+    PAI.3P: ἱᾶσι(ν)
+
+    PAD.2S: ἵει  # -εε
+    PAD.3S: ἱέτω
+    PAD.2P: ἵετε
+    PAD.3P: ἱέντων
+
+    PAS.1S: ἱῶ
+    PAS.2S: ἱῇς
+    PAS.3S: ἱῇ
+    PAS.1P: ἱῶμεν
+    PAS.2P: ἱῆτε
+    PAS.3P: ἱῶσι(ν)
+
+    PAO.1S: ἱείην
+    PAO.2S: ἱείης
+    PAO.3S: ἱείη
+    PAO.1P: ἱεῖμεν
+    PAO.2P: ἱεῖτε
+    PAO.3P: ἱεῖεν
+
+    PAP.NSM: ἱείς  # ἱεντ-
+    PAP.NSF: ἱεῖσα
+    PAP.NSN: ἱέν
+
+    PAN: ἱέναι
+
+    IAI.1S: ἵην
+    IAI.2S: ἵεις
+    IAI.3S: ἵει
+    IAI.1P: ἵεμεν
+    IAI.2P: ἵετε
+    IAI.3P: ἵεσαν
+
+    PMI.1S: ἵεμαι
+    PMI.2S: ἵεσαι
+    PMI.3S: ἵεται
+    PMI.1P: ἱέμεθα
+    PMI.2P: ἵεσθε
+    PMI.3P: ἵενται
+
+    PMD.2S: ἵεσο
+    PMD.3S: ἱέσθω
+    PMD.2P: ἵεσθε
+    PMD.3P: ἱέσθων
+
+    PMS.1S: ἱῶμαι
+    PMS.2S: ἱῇ
+    PMS.3S: ἱῆται
+    PMS.1P: ἱώμεθα
+    PMS.2P: ἱῆσθε
+    PMS.3P: ἱῶνται
+
+    PMO.1S: ἱείμην
+    PMO.2S: ἱεῖο
+    PMO.3S: ἱεῖτο
+    PMO.1P: ἱείμεθα
+    PMO.2P: ἱεῖσθε
+    PMO.3P: ἱεῖντο
+
+    PMP.NSM: ἱέμενος
+    PMP.NSF: ἱεμένη
+    PMP.NSN: ἱέμενον
+
+    PMN: ἵεσθαι
+
+    IMI.1S: ἱέμην
+    IMI.2S: ἵεσο
+    IMI.3S: ἵετο
+    IMI.1P: ἱέμεθα
+    IMI.2P: ἵεσθε
+    IMI.3P: ἵεντο
+
+-
+    source: PRATT§61a
+    test_length: false
+
+    lemma: δίδωμι
+
+    FAI.1S: δώσω
+    FMI.1S: δώσομαι
+    FPI.1S: δοθήσομαι
+
+-
+    source: PRATT§61b
+    test_length: false
+
+    lemma: τίθημι
+
+    FAI.1S: θήσω
+    FMI.1S: θήσομαι
+    FPI.1S: τεθήσομαι
+
+-
+    source: PRATT§61c
+    test_length: false
+
+    lemma: δείκνυμι
+
+    FAI.1S: δείξω
+    FMI.1S: δείξομαι
+    FPI.1S: δειχθήσομαι
+
+-
+    source: PRATT§61d
+    test_length: false
+
+    lemma: ἵστημι
+
+    FAI.1S: στήσω
+    FMI.1S: στήσομαι
+    FPI.1S: σταθήσομαι
+
+-
+    source: PRATT§61e
+    test_length: false
+
+    lemma: ἵημι
+
+    FAI.1S: ἥσω  # compounds only
+    FMI.1S: ἥσομαι  # compounds only
+    FPI.1S: ἑθήσομαι  # compounds only
+
+-
+    source: PRATT§62a
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+
+    lemma: δίδωμι
+
+    AAI.1S: ἔδωκα
+    AAI.2S: ἔδωκας
+    AAI.3S: ἔδωκε(ν)
+    AAI.1P: ἔδομεν
+    AAI.2P: ἔδοτε
+    AAI.3P: ἔδοσαν
+
+    AAD.2S: δός
+    AAD.3S: δότω
+    AAD.2P: δότε
+    AAD.3P: δόντων
+
+    AAS.1S: δῶ
+    AAS.2S: δῷς
+    AAS.3S: δῷ
+    AAS.1P: δῶμεν
+    AAS.2P: δῶτε
+    AAS.3P: δῶσι(ν)
+
+    AAO.1S: δοίην
+    AAO.2S: δοίης
+    AAO.3S: δοίη
+    AAO.1P: δοῖμεν
+    AAO.2P: δοῖτε
+    AAO.3P: δοῖεν
+
+    AAP.NSM: δούς  # (δοντ-)
+    AAP.NSF: δοῦσα
+    AAP.NSN: δόν
+
+    AAN: δοῦναι
+
+    AMI.1S: ἐδόμην
+    AMI.2S: ἔδου
+    AMI.3S: ἔδοτο
+    AMI.1P: ἐδόμεθα
+    AMI.2P: ἔδοσθε
+    AMI.3P: ἔδοντο
+
+    AMD.2S: δοῦ
+    AMD.3S: δόσθω
+    AMD.2P: δόσθε
+    AMD.3P: δόσθων
+
+    AMS.1S: δῶμαι
+    AMS.2S: δῷ
+    AMS.3S: δῶται
+    AMS.1P: δώμεθα
+    AMS.2P: δῶσθε
+    AMS.3P: δῶνται
+
+    AMO.1S: δοίμην
+    AMO.2S: δοῖο
+    AMO.3S: δοῖτο
+    AMO.1P: δοίμεθα
+    AMO.2P: δοῖσθε
+    AMO.3P: δοῖντο
+
+    AMP.NSM: δόμενος
+    AMP.NSF: δομένη
+    AMP.NSN: δόμενον
+
+    AMN: δόσθαι
+
+    API.1S: ἐδόθην
+
+-
+    source: PRATT§62b
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+
+    lemma: τίθημι
+
+    AAI.1S: ἔθηκα
+    AAI.2S: ἔθηκας
+    AAI.3S: ἔθηκε(ν)
+    AAI.1P: ἔθεμεν
+    AAI.2P: ἔθετε
+    AAI.3P: ἔθεσαν
+
+    AAD.2S: θές
+    AAD.3S: θέτω
+    AAD.2P: θέτε
+    AAD.3P: θέντων
+
+    AAS.1S: θῶ
+    AAS.2S: θῇς
+    AAS.3S: θῇ
+    AAS.1P: θῶμεν
+    AAS.2P: θῆτε
+    AAS.3P: θῶσι(ν)
+
+    AAO.1S: θείην
+    AAO.2S: θείης
+    AAO.3S: θείη
+    AAO.1P: θεῖμεν
+    AAO.2P: θεῖτε
+    AAO.3P: θεῖεν
+
+    AAP.NSM: θείς  # θεντ-
+    AAP.NSF: θεῖσα
+    AAP.NSN: θέν
+
+    AAN: θεῖναι
+
+    AMI.1S: ἐθέμην
+    AMI.2S: ἔθου
+    AMI.3S: ἔθετο
+    AMI.1P: ἐθέμεθα
+    AMI.2P: ἔθεσθε
+    AMI.3P: ἔθεντο
+
+    AMD.2S: θοῦ
+    AMD.3S: θέσθω
+    AMD.2P: θέσθε
+    AMD.3P: θέσθων
+
+    AMS.1S: θῶμαι
+    AMS.2S: θῇ
+    AMS.3S: θῆται
+    AMS.1P: θώμεθα
+    AMS.2P: θῆσθε
+    AMS.3P: θῶνται
+
+    AMO.1S: θείμην
+    AMO.2S: θεῖο
+    AMO.3S: θεῖτο
+    AMO.1P: θείμεθα
+    AMO.2P: θεῖσθε
+    AMO.3P: θεῖντο
+
+    AMP.NSM: θέμενος
+    AMP.NSF: θεμένη
+    AMP.NSN: θέμενον
+
+    AMN: θέσθαι
+
+    API.1S: ἐτέθην
+
+-
+    source: PRATT§62c
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+      - final-nu-aao.3s
+
+    lemma: δείκνυμι
+
+    AAI.1S: ἔδειξα
+    AAI.2S: ἔδειξας
+    AAI.3S: ἔδειξε(ν)
+    AAI.1P: ἐδείξαμεν
+    AAI.2P: ἐδείξατε
+    AAI.3P: ἔδειξαν
+
+    AAD.2S: δεῖξον
+    AAD.3S: δειξάτω
+    AAD.2P: δείξατε
+    AAD.3P: δειξάντων
+
+    AAS.1S: δείξω
+    AAS.2S: δείξῃς
+    AAS.3S: δείξῃ
+    AAS.1P: δείξωμεν
+    AAS.2P: δείξητε
+    AAS.3P: δείξωσι(ν)
+
+    AAO.1S: δείξαιμι
+    AAO.2S: δείξαις/δείξειας
+    AAO.3S: δείξαι/δείξειε(ν)
+    AAO.1P: δείξαιμεν
+    AAO.2P: δείξαιτε
+    AAO.3P: δείξαιεν/δείξειαν
+
+    AAP.NSM: δείξας  # δειξαντ-
+    AAP.NSF: δείξασα
+    AAP.NSN: δεῖξαν  # printed Pratt has δείξαν but confirmed with her as error
+
+    AAN: δεῖξαι
+
+    AMI.1S: ἐδειξάμην
+    AMI.2S: ἐδείξω
+    AMI.3S: ἐδείξατο
+    AMI.1P: ἐδειξάμεθα
+    AMI.2P: ἐδείξασθε
+    AMI.3P: ἐδείξαντο
+
+    AMD.2S: δεῖξαι
+    AMD.3S: δειξάσθω
+    AMD.2P: δείξασθε
+    AMD.3P: δειξάσθων
+
+    AMS.1S: δείξωμαι
+    AMS.2S: δείξῃ
+    AMS.3S: δείξηται
+    AMS.1P: δειξώμεθα
+    AMS.2P: δείξησθε
+    AMS.3P: δείξωνται
+
+    AMO.1S: δειξαίμην
+    AMO.2S: δείξαιο
+    AMO.3S: δείξαιτο
+    AMO.1P: δειξαίμεθα
+    AMO.2P: δείξαισθε
+    AMO.3P: δείξαιντο
+
+    AMP.NSM: δειξάμενος
+    AMP.NSF: δειξαμένη
+    AMP.NSN: δειξάμενον
+
+    AMN: δείξασθαι
+
+    API.1S: ἐδείχθην
+
+-
+    source: PRATT§62d
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+      - final-nu-aao.3s
+      - trans
+
+    lemma: ἵστημι
+
+    AAI.1S: ἔστησα
+    AAI.2S: ἔστησας
+    AAI.3S: ἔστησε(ν)
+    AAI.1P: ἐστήσαμεν
+    AAI.2P: ἐστήσατε
+    AAI.3P: ἔστησαν
+
+    AAD.2S: στῆσον
+    AAD.3S: στησάτω
+    AAD.2P: στήσατε
+    AAD.3P: στησάντων
+
+    AAS.1S: στήσω
+    AAS.2S: στήσῃς
+    AAS.3S: στήσῃ
+    AAS.1P: στήσωμεν
+    AAS.2P: στήσητε
+    AAS.3P: στήσωσι(ν)
+
+    AAO.1S: στήσαιμι
+    AAO.2S: στήσαις/στήσειας
+    AAO.3S: στήσαι/στήσειε(ν)
+    AAO.1P: στήσαιμεν
+    AAO.2P: στήσαιτε
+    AAO.3P: στήσαιεν/στήσειαν
+
+    AAP.NSM: στήσας  # στησαντ-
+    AAP.NSF: στήσασα
+    AAP.NSN: στῆσαν  # printed Pratt has στήσαν but confirmed with her as error
+
+    AAN: στῆσαι
+
+    AMI.1S: ἐστησάμην
+    AMI.2S: ἐστήσω
+    AMI.3S: ἐστήσατο
+    AMI.1P: ἐστησάμεθα
+    AMI.2P: ἐστήσασθε
+    AMI.3P: ἐστήσαντο
+
+    AMD.2S: στῆσαι
+    AMD.3S: στησάσθω
+    AMD.2P: στήσασθε
+    AMD.3P: στησάσθων
+
+    AMS.1S: στήσωμαι
+    AMS.2S: στήσῃ
+    AMS.3S: στήσηται
+    AMS.1P: στησώμεθα
+    AMS.2P: στήσησθε
+    AMS.3P: στήσωνται
+
+    AMO.1S: στησαίμην
+    AMO.2S: στήσαιο
+    AMO.3S: στήσαιτο
+    AMO.1P: στησαίμεθα
+    AMO.2P: στήσαισθε
+    AMO.3P: στήσαιντο
+
+    AMP.NSM: στησάμενος
+    AMP.NSF: στησαμένη
+    AMP.NSN: στησάμενον
+
+    AMN: στήσασθαι
+
+    API.1S: ἐστάθην
+
+-
+    source: PRATT§62e
+    test_length: false
+    tags:
+      - final-nu-aai.3s
+
+    lemma: ἵημι
+
+    # compound verbs only
+
+    AAI.1S: ἧκα
+    AAI.2S: ἧκας
+    AAI.3S: ἧκε(ν)
+    AAI.1P: εἷμεν
+    AAI.2P: εἷτε
+    AAI.3P: εἷσαν
+
+    AAD.2S: ἕς
+    AAD.3S: ἕτω
+    AAD.2P: ἕτε
+    AAD.3P: ἕντων
+
+    AAS.1S: ὧ
+    AAS.2S: ᾗς
+    AAS.3S: ᾗ
+    AAS.1P: ὧμεν
+    AAS.2P: ἧτε
+    AAS.3P: ὧσι(ν)
+
+    AAO.1S: εἵην
+    AAO.2S: εἵης
+    AAO.3S: εἵη
+    AAO.1P: εἷμεν
+    AAO.2P: εἷτε
+    AAO.3P: εἷεν
+
+    AAP.NSM: εἵς  # ἑντ-
+    AAP.NSF: εἷσα
+    AAP.NSN: ἕν
+
+    AAN: εἷναι
+
+    AMI.1S: εἵμην
+    AMI.2S: εἷσο
+    AMI.3S: εἷτο
+    AMI.1P: εἵμεθα
+    AMI.2P: εἷσθε
+    AMI.3P: εἷντο
+
+    AMD.2S: οὗ
+    AMD.3S: ἕσθω
+    AMD.2P: ἕσθε
+    AMD.3P: ἕσθων
+
+    AMS.1S: ὧμαι
+    AMS.2S: ᾗ
+    AMS.3S: ἧται
+    AMS.1P: ὥμεθα
+    AMS.2P: ἧσθε
+    AMS.3P: ὧνται
+
+    AMO.1S: εἵμην
+    AMO.2S: εἷο
+    AMO.3S: εἷτο
+    AMO.1P: εἵμεθα
+    AMO.2P: εἷσθε
+    AMO.3P: εἷντο
+
+    AMP.NSM: ἕμενος
+    AMP.NSF: ἑμένη
+    AMP.NSN: ἕμενον
+
+    AMN: ἕσθαι
+
+    API.1S: εἵθην  # ἑθ-
+
+-
+    source: PRATT§63a
+    test_length: false
+
+    lemma: δίδωμι
+
+    XAI.1S: δέδωκα
+    XMI.1S: δέδομαι
+
+-
+    source: PRATT§63b
+    test_length: false
+
+    lemma: τίθημι
+
+    XAI.1S: τέθηκα
+    XMI.1S: τέθειμαι  # §63b has τέθημαι but principal parts give τέθειμαι
+
+-
+    source: PRATT§63c
+    test_length: false
+
+    lemma: δείκνυμι
+
+    XAI.1S: δέδειχα
+    XMI.1S: δέδειγμαι
+
+-
+    source: PRATT§63d
+    test_length: false
+
+    lemma: ἵστημι
+
+    XAI.1S: ἕστηκα
+    XMI.1S: ἕσταμαι
+
+-
+    source: PRATT§63e
+    test_length: false
+
+    lemma: ἵημι
+
+    XAI.1S: εἷκα  # compounds only
+    XMI.1S: εἷμαι  # compounds only
+
+-
+    source: PRATT§63f
+    test_length: false
+
+    lemma: ἵστημι
+
+    XAI.1S: ἕστηκα
+    XAI.2S: ἕστηκας
+    XAI.3S: ἕστηκε(ν)
+    XAI.1P: ἕσταμεν
+    XAI.2P: ἕστατε
+    XAI.3P: ἑστᾶσι(ν)
+
+    XAD.2S: ἕσταθι
+    XAD.3S: ἑστάτω
+    XAD.2P: ἕστατε
+    XAD.3P: ἑστάντων
+
+    XAS.1S: ἑστῶ
+    XAS.2S: ἑστῇς
+    XAS.3S: ἑστῇ
+    XAS.1P: ἑστῶμεν
+    XAS.2P: ἑστῆτε
+    XAS.3P: ἑστῶσι
+
+    XAO.1S: ἑσταίην
+    XAO.2S: ἑσταίης
+    XAO.3S: ἑσταίη
+    XAO.1P: ἑσταῖμεν
+    XAO.2P: ἑσταῖτε
+    XAO.3P: ἑσταῖεν
+
+    XAP.NSM: ἑστώς
+    XAP.NSF: ἑστῶσα
+    XAP.NSN: ἑστός
+
+    XAN: ἑστάναι
+
+-
+    source: PRATT§64a
+    test_length: false
+
+    lemma: γιγνώσκω
+
+    AAI.1S: ἔγνων
+    AAI.2S: ἔγνως
+    AAI.3S: ἔγνω
+    AAI.1P: ἔγνωμεν
+    AAI.2P: ἔγνωτε
+    AAI.3P: ἔγνωσαν
+
+    AAD.2S: γνῶθι
+    AAD.3S: γνώτω
+    AAD.2P: γνῶτε
+    AAD.3P: γνόντων
+
+    AAS.1S: γνῶ
+    AAS.2S: γνῷς
+    AAS.3S: γνῷ
+    AAS.1P: γνῶμεν
+    AAS.2P: γνῶτε
+    AAS.3P: γνῶσι(ν)
+
+    AAO.1S: γνοίην
+    AAO.2S: γνοίης
+    AAO.3S: γνοίη
+    AAO.1P: γνοῖμεν
+    AAO.2P: γνοῖτε
+    AAO.3P: γνοῖεν
+
+    AAP.NSM: γνούς  # γνοντ-
+    AAP.NSF: γνοῦσα
+    AAP.NSN: γνόν
+
+    AAN: γνῶναι
+
+-
+    source: PRATT§64b
+    test_length: false
+
+    lemma: βαίνω
+
+    AAI.1S: ἔβην
+    AAI.2S: ἔβης
+    AAI.3S: ἔβη
+    AAI.1P: ἔβημεν
+    AAI.2P: ἔβητε
+    AAI.3P: ἔβησαν
+
+    AAD.2S: βῆθι
+    AAD.3S: βήτω
+    AAD.2P: βῆτε
+    AAD.3P: βάντων
+
+    AAS.1S: βῶ
+    AAS.2S: βῇς
+    AAS.3S: βῇ
+    AAS.1P: βῶμεν
+    AAS.2P: βῆτε
+    AAS.3P: βῶσι(ν)
+
+    AAO.1S: βαίην
+    AAO.2S: βαίης
+    AAO.3S: βαίη
+    AAO.1P: βαῖμεν
+    AAO.2P: βαῖτε
+    AAO.3P: βαῖεν
+
+    AAP.NSM: βάς  # βαντ-
+    AAP.NSF: βᾶσα
+    AAP.NSN: βάν
+
+    AAN: βῆναι
+
+-
+    source: PRATT§64c
+    test_length: false
+
+    lemma: ἵστημι
+    tags:
+      - intrans
+
+    AAI.1S: ἔστην
+    AAI.2S: ἔστης
+    AAI.3S: ἔστη
+    AAI.1P: ἔστημεν
+    AAI.2P: ἔστητε
+    AAI.3P: ἔστησαν
+
+    AAD.2S: στῆθι
+    AAD.3S: στήτω
+    AAD.2P: στῆτε
+    AAD.3P: στάντων
+
+    AAS.1S: στῶ
+    AAS.2S: στῇς
+    AAS.3S: στῇ
+    AAS.1P: στῶμεν
+    AAS.2P: στῆτε
+    AAS.3P: στῶσι(ν)
+
+    AAO.1S: σταίην
+    AAO.2S: σταίης
+    AAO.3S: σταίη
+    AAO.1P: σταῖμεν
+    AAO.2P: σταῖτε
+    AAO.3P: σταῖεν
+
+    AAP.NSM: στάς  # σταντ-
+    AAP.NSF: στᾶσα
+    AAP.NSN: στάν
+
+    AAN: στῆναι
+
+-
+    source: PRATT§65a
+    test_length: false
+    tags:
+      - extra-eimi-pad.3p
+      - alt-εἰμί-iai.2p-stem
+
+    lemma: εἰμί
+
+    PAI.1S: εἰμί
+    PAI.2S: εἶ
+    PAI.3S: ἐστί(ν)
+    PAI.1P: ἐσμέν
+    PAI.2P: ἐστέ
+    PAI.3P: εἰσί(ν)
+
+    PAD.2S: ἴσθι
+    PAD.3S: ἔστω
+    PAD.2P: ἔστε
+    PAD.3P: ἔστων/ὄντων
+
+    PAS.1S: ὦ
+    PAS.2S: ᾖς
+    PAS.3S: ᾖ
+    PAS.1P: ὦμεν
+    PAS.2P: ἦτε
+    PAS.3P: ὦσι(ν)
+
+    PAO.1S: εἴην
+    PAO.2S: εἴης
+    PAO.3S: εἴη
+    PAO.1P: εἶμεν
+    PAO.2P: εἶτε
+    PAO.3P: εἶεν
+
+    PAP.NSM: ὤν  # ὀντ-
+    PAP.NSF: οὖσα
+    PAP.NSN: ὄν
+
+    PAN: εἶναι
+
+    IAI.1S: ἦ/ἦν
+    IAI.2S: ἦσθα
+    IAI.3S: ἦν
+    IAI.1P: ἦμεν
+    IAI.2P: ἦτε/ἦστε
+    IAI.3P: ἦσαν
+
+-
+    source: PRATT§65b
+    test_length: false
+
+    lemma: οἶδα
+
+    XAI.1S: οἶδα
+    XAI.2S: οἶσθα
+    XAI.3S: οἶδε(ν)
+    XAI.1P: ἴσμεν
+    XAI.2P: ἴστε
+    XAI.3P: ἴσασι(ν)
+
+    # Pratt calls these present but we'll use perfect for now @@@
+    XAD.2S: ἴσθι
+    XAD.3S: ἴστω
+    XAD.2P: ἴστε
+    XAD.3P: ἴστων
+
+    # Pratt calls these present but we'll use perfect for now @@@
+    XAS.1S: εἰδῶ
+    XAS.2S: εἰδῇς
+    XAS.3S: εἰδῇ
+    XAS.1P: εἰδῶμεν
+    XAS.2P: εἰδῆτε
+    XAS.3P: εἰδῶσι(ν)
+
+    # Pratt calls these present but we'll use perfect for now @@@
+    XAO.1S: εἰδείην
+    XAO.2S: εἰδείης
+    XAO.3S: εἰδείη
+    XAO.1P: εἰδεῖμεν
+    XAO.2P: εἰδεῖτε
+    XAO.3P: εἰδεῖεν
+
+    XAP.NSM: εἰδώς  # εἰδοτ-
+    XAP.NSF: εἰδυῖα
+    XAP.NSN: εἰδός
+
+    XAN: εἰδέναι
+
+    YAI.1S: ᾔδη
+    YAI.2S: ᾔδησθα
+    YAI.3S: ᾔδει(ν)
+    YAI.1P: ᾖσμεν
+    YAI.2P: ᾖστε
+    YAI.3P: ᾖσαν/ᾔδεσαν
+
+-
+    source: PRATT§65c
+    test_length: false
+
+    lemma: εἶμι
+
+    PAD.2S: ἴθι
+    PAD.3S: ἴτω
+    PAD.2P: ἴτε
+    PAD.3P: ἰόντων
+
+    PAS.1S: ἴω
+    PAS.2S: ἴῃς
+    PAS.3S: ἴῃ
+    PAS.1P: ἴωμεν
+    PAS.2P: ἴητε
+    PAS.3P: ἴωσι(ν)
+
+    PAO.1S: ἴοιμι
+    PAO.2S: ἴοις
+    PAO.3S: ἴοι
+    PAO.1P: ἴοιμεν
+    PAO.2P: ἴοιτε
+    PAO.3P: ἴοιεν
+
+    PAP.NSM: ἰών  # ἰοντ-
+    PAP.NSF: ἰοῦσα
+    PAP.NSN: ἰόν
+
+    PAN: ἰέναι
+
+    IAI.1S: ᾖα
+    IAI.1S: ᾔειν
+    IAI.2S: ᾔεισθα
+    IAI.2S: ᾔεις
+    IAI.3S: ᾔει(ν)
+    IAI.1P: ᾖμεν
+    IAI.2P: ᾖτε
+    IAI.3P: ᾖσαν
+    IAI.3P: ᾔεσαν
+
+-
+    source: PRATT§65d
+    test_length: false
+
+    lemma: φημί
+    tags:
+      - φασκ-pap
+
+    PAI.1S: φημί
+    PAI.2S: φής
+    PAI.2S: φῄς
+    PAI.3S: φησί(ν)
+    PAI.1P: φαμέν
+    PAI.2P: φατέ
+    PAI.3P: φασί(ν)
+
+    PAD.2S: φάθι
+    PAD.3S: φάτω
+    PAD.2P: φάτε
+    PAD.3P: φάντων
+
+    PAS.1S: φῶ
+    PAS.2S: φῇς
+    PAS.3S: φῇ
+    PAS.1P: φῶμεν
+    PAS.2P: φῆτε
+    PAS.3P: φῶσι(ν)
+
+    PAO.1S: φαίην
+    PAO.2S: φαίης
+    PAO.3S: φαίη
+    PAO.1P: φαῖμεν
+    PAO.2P: φαῖτε
+    PAO.3P: φαῖεν
+
+    PAP.NSM: φάσκων  # φασκοντ-
+    PAP.NSF: φάσκουσα
+    PAP.NSN: φάσκον
+
+    PAN: φάναι
+
+    IAI.1S: ἔφην
+    IAI.2S: ἔφησθα/ἔφης
+    IAI.3S: ἔφη
+    IAI.1P: ἔφαμεν
+    IAI.2P: ἔφατε
+    IAI.3P: ἔφασαν
+
+-
+    source: PRATT§66a
+    test_length: false
+
+    lemma: εἰμί
+
+    FMI.1S: ἔσομαι
+    FMI.2S: ἔσῃ/ἔσει
+    FMI.3S: ἔσται
+    FMI.1P: ἐσόμεθα
+    FMI.2P: ἔσεσθε
+    FMI.3P: ἔσονται
+
+    FMO.1S: ἐσοίμην
+
+    FMP.NSM: ἐσόμενος
+    FMP.NSF: ἐσομένη
+    FMP.NSN: ἐσόμενον
+
+    FMN: ἔσεσθαι
+
+-
+    source: PRATT§66b
+    test_length: false
+
+    lemma: οἶδα
+
+    FMI.1S: εἴσομαι
+    FMI.2S: εἴσῃ/εἴσει  # Pratt doesn't have εἴσει
+    FMI.3S: εἴσεται
+    FMI.1P: εἰσόμεθα
+    FMI.2P: εἴσεσθε
+    FMI.3P: εἴσονται
+
+    FMO.1S: εἰσοίμην
+
+    FMP.NSM: εἰσόμενος
+    FMP.NSF: εἰσομένη
+    FMP.NSN: εἰσόμενον
+
+    FMN: εἴσεσθαι
+
+-
+    source: PRATT§66c
+    test_length: false
+
+    lemma: εἶμι
+
+    # morphologically present although used for future
+
+    PAI.1S: εἶμι
+    PAI.2S: εἶ
+    PAI.3S: εἶσι(ν)
+    PAI.1P: ἴμεν
+    PAI.2P: ἴτε
+    PAI.3P: ἴασι(ν)
+
+-
+    source: PRATT§66d
+    test_length: false
+
+    lemma: φημί
+
+    FAI.1S: φήσω
+    FAI.2S: φήσεις
+    FAI.3S: φήσει
+    FAI.1P: φήσομεν
+    FAI.2P: φήσετε
+    FAI.3P: φήσουσι(ν)
+
+    FAO.1S: φήσοιμι
+
+    FAP.NSM: φήσων
+    FAP.NSF: φήσουσα
+    FAP.NSN: φῆσον
+
+    FAN: φήσειν
