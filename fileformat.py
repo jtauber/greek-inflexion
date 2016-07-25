@@ -37,6 +37,17 @@ def load_stemming(stemming_file):
     return ruleset
 
 
+def split_stem_tags(stems):
+    for stem in stems.split("/"):
+        if ";" in stem:
+            stem, tag = stem.split(";")
+            tag = {tag}
+        else:
+            tag = set()
+
+        yield stem, tag
+
+
 def load_lexicon(lexicon_file, pre_processor=lambda x: x):
     lexicon = Lexicon()
 
@@ -77,12 +88,7 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
                 key_regex = partnum_to_key_regex[partnum]
 
-                for stem in stems.split("/"):
-                    if ";" in stem:
-                        stem, tag = stem.split(";")
-                        tag = {tag}
-                    else:
-                        tag = set()
+                for stem, tag in split_stem_tags(stems):
                     lexicon.add(lemma, key_regex, pre_processor(stem), tag)
 
             for key_regex, stems in entry.get("stem_overrides", []):
@@ -90,12 +96,7 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
                 if stems is None:
                     continue
 
-                for stem in stems.split("/"):
-                    if ";" in stem:
-                        stem, tag = stem.split(";")
-                        tag = {tag}
-                    else:
-                        tag = set()
+                for stem, tag in split_stem_tags(stems):
                     lexicon.add(lemma, key_regex, pre_processor(stem), tag)
 
             for key, form in entry.get("forms", {}).items():
