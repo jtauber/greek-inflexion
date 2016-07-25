@@ -2,14 +2,13 @@ from collections import defaultdict
 
 import yaml
 
-from inflexion.lexicon import Lexicon
 from inflexion import Inflexion
 
 from characters import strip_length
 
 from accent import debreath, calculate_accent
 
-from fileformat import load_stemming
+from fileformat import load_stemming, load_lexicon
 
 
 def generate(
@@ -27,60 +26,8 @@ def generate(
 
     ## load the stem lexicon
 
-    lexicon = Lexicon()
-
-    partnum_to_key_regex = {
-        "1-": "P",
-        "1-A": "PA",
-        "1-M": "PM",
-        "1+": "I",
-        "2-": "F[AM]",
-        "2-A": "FA",
-        "2-M": "FM",
-        "3-": "A[AM][NPDSO]",
-        "3+": "A[AM]I",
-        "3+A": "AAI",
-        "3+M": "AMI",
-        "4-": "XA",
-        "4+": "YA",
-        "5-": "X[MP]",
-        "5+": "Y[MP]",
-        "6-": "AP[NPDSO]",
-        "6+": "API",
-        "7-": "FP",
-    }
-
-    form_override = {}
-    accent_override = defaultdict(list)
-
-    with open(lexicon_file) as f:
-        for lemma, entry in yaml.load(f).items():
-            if "stems" not in entry:
-                continue
-            stems = []
-            for partnum, stems in sorted(entry["stems"].items()):
-                key_regex = partnum_to_key_regex[partnum]
-                for stem in stems.split("/"):
-                    if ";" in stem:
-                        stem, tag = stem.split(";")
-                        tag = {tag}
-                    else:
-                        tag = set()
-                    lexicon.add(lemma, key_regex, debreath(stem), tag)
-            for key_regex, stems in entry.get("stem_overrides", []):
-                if stems is None:
-                    continue
-                for stem in stems.split("/"):
-                    if ";" in stem:
-                        stem, tag = stem.split(";")
-                        tag = {tag}
-                    else:
-                        tag = set()
-                    lexicon.add(lemma, key_regex, debreath(stem), tag)
-            for key, form in entry.get("forms", {}).items():
-                form_override[(lemma, key)] = form
-            for key_regex, form in entry.get("accents", []):
-                accent_override[lemma].append((key_regex, form))
+    lexicon, form_override, accent_override = load_lexicon(
+        lexicon_file, pre_processor=debreath)
 
     ## set up Inflexion
 
