@@ -1,6 +1,7 @@
 import re
 
 from characters import accent, strip_length, remove_diacritic
+from characters import strip_accents  # noqa
 from characters import SMOOTH
 from characters import remove_redundant_macron
 from accentuation import recessive, persistent, on_penult, make_oxytone
