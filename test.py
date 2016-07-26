@@ -2,6 +2,20 @@
 
 from generate import test_generate
 
-test_generate("stemming.yaml", "pratt_lexicon.yaml", "pratt_test.yaml")
-test_generate("stemming.yaml", "dik_lexicon.yaml", "dik_test.yaml")
-test_generate("stemming.yaml", "ltrg_lexicon.yaml", "ltrg_test.yaml")
+test_generate(
+    "stemming.yaml",
+    "test_data/pratt_lexicon.yaml",
+    "test_data/pratt_test.yaml"
+)
+
+test_generate(
+    "stemming.yaml",
+    "test_data/dik_lexicon.yaml",
+    "test_data/dik_test.yaml"
+)
+
+test_generate(
+    "stemming.yaml",
+    "test_data/ltrg_lexicon.yaml",
+    "test_data/ltrg_test.yaml"
+)
