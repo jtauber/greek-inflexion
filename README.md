@@ -8,7 +8,7 @@ paradigms.
 
 `greek-inflexion` builds on my generic `inflexion` library, adding a stem
 database and ending rules for Ancient Greek along with accentuation logic
-built on top ofmy `greek-accentuation` library.
+built on top of my `greek-accentuation` library.
 
 It can precisely generate (i.e. without over-generation) all the forms in the
 verbal paradigms in Louise Pratt's _The Essentials of Greek Grammar_, Helma
@@ -19,6 +19,7 @@ For each generated form, it can show the stem, ending, and morphophonological
 
 For more of my work on linguistics and Ancient Greek, see
 <http://jktauber.com/>.
+
 
 ## TODO
 
