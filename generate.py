@@ -11,7 +11,20 @@ from accent import debreath, calculate_accent
 from fileformat import load_stemming, load_lexicon
 
 
-def generate(
+def generate_greek(inflexion, lemma, key, tags, accent_override):
+    generated = defaultdict(list)
+    for orig_form, details in inflexion.generate(
+            lemma, key, tags).items():
+        for detail in details:
+            accent_form = calculate_accent(
+                orig_form, key, lemma, detail["stem"],
+                inflexion, accent_override)
+            detail.update({"original_form": orig_form})
+            generated[accent_form].append(detail)
+    return generated
+
+
+def test_generate(
     stemming_file, lexicon_file, test_file,
     global_tags=None, debug=False
 ):
@@ -54,15 +67,10 @@ def generate(
                 if (lemma, key) in form_override:
                     pass
                 else:
-                    generated = defaultdict(list)
-                    for orig_form, details in inflexion.generate(
-                            lemma, key, tags).items():
-                        for detail in details:
-                            accent_form = calculate_accent(
-                                orig_form, key, lemma, detail["stem"],
-                                inflexion, accent_override)
-                            detail.update({"original_form": orig_form})
-                            generated[accent_form].append(detail)
+
+                    generated = generate_greek(
+                        inflexion, lemma, key, tags, accent_override)
+
                     if [strip_length(w) for w in sorted(generated)] == \
                             [strip_length(w) for w in sorted(form.split("/"))]:
                         correct = "✓"
