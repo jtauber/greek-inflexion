@@ -31,4 +31,5 @@ them up and moving them into this repo.
  - better tools for analysis of forms
  - support for parsing forms, including cases where no stem is known
  - richer stem database from principal parts lists
- - support for all forms in MorphGNT
+ - support for all verb forms in MorphGNT
+ - support for nominal forms
