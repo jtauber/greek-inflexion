@@ -1,45 +1,11 @@
 import re
 
-from characters import accent, strip_length, remove_diacritic
-from characters import strip_accents  # noqa
-from characters import SMOOTH
-from characters import remove_redundant_macron
-from accentuation import recessive, persistent, on_penult, make_oxytone
-from syllabify import add_necessary_breathing
-
-remove_smooth_breathing = remove_diacritic(SMOOTH)
-
-
-# @@@ move to greek-accentuation eventually
-def debreath(word):
-    word = remove_smooth_breathing(word)
-    word = word.replace("εἷ", "hεῖ")
-    word = word.replace("εἵ", "hεί")
-    word = word.replace("εἱ", "hει")
-    word = word.replace("ἕ", "hέ")
-    word = word.replace("ἑ", "hε")
-
-    return word
-
-
-# @@@ move to greek-accentuation eventually
-def rebreath(word):
-    if word == "":
-        return word
-    word = word.replace("hεῖ", "εἷ")
-    word = word.replace("hεί", "εἵ")
-    word = word.replace("hει", "εἱ")
-    word = word.replace("hέ", "ἕ")
-    word = word.replace("hε", "ἑ")
-    word = word.replace("hῇ", "ᾗ")
-    word = word.replace("hῶ", "ὧ")
-    word = word.replace("hῆ", "ἧ")
-    word = word.replace("hοῦ", "οὗ")
-    word = word.replace("hώ", "ὥ")
-    word = add_necessary_breathing(word)
-    word = remove_redundant_macron(word)
-
-    return word
+from greek_accentuation.characters import accent, strip_length
+from greek_accentuation.characters import strip_accents  # noqa
+from greek_accentuation.syllabify import rebreath
+from greek_accentuation.syllabify import debreath  # noqa
+from greek_accentuation.accentuation import (
+    recessive, persistent, on_penult, make_oxytone)
 
 
 def clean(w):
