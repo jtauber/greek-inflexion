@@ -4,7 +4,7 @@ import yaml
 
 from inflexion import Inflexion
 
-from accent import calculate_accent, strip_length, debreath, rebreath
+from accent import calculate_accent, strip_length, debreath
 
 from fileformat import load_stemming, load_lexicon
 
