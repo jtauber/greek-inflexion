@@ -11,5 +11,6 @@ install:
 script:
   - flake8 .
   - coverage run --branch --source . test.py
+  - coverage run --append --branch --source . -m doctest examples.rst
 after_success:
   - coveralls

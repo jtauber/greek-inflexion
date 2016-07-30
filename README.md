@@ -20,6 +20,13 @@ For each generated form, it can show the stem, ending, and morphophonological
 For more of my work on linguistics and Ancient Greek, see
 <http://jktauber.com/>.
 
+## Documentation
+
+To run the full tests from Pratt, Dik, and Keller and Russell, just run
+`./test.py`.
+
+See `examples.rst` for individual usage examples.
+
 
 ## TODO
 
