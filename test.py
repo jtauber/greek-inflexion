@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from generate import test_generate
+from test_generate import test_generate
 
 test_generate(
     "stemming.yaml",
