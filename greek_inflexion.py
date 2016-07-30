@@ -21,7 +21,7 @@ class GreekInflexion:
         self.inflexion.add_stemming_rule_set(ruleset)
 
     def find_stems(self, lemma, key, tags=None):
-        self.lexicon.find_stems(lemma, key, tags)
+        return self.lexicon.find_stems(lemma, key, tags)
 
     def generate(self, lemma, key, tags=None):
         overrides = self.form_override.get((lemma, key))
