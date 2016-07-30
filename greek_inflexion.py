@@ -44,4 +44,5 @@ class GreekInflexion:
         return generated
 
     def parse(self, form):
-        return self.inflexion.parse(form, stem_post_processor=strip_accents)
+        return self.inflexion.parse(
+            debreath(form), stem_post_processor=strip_accents)

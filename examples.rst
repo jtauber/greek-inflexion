@@ -19,7 +19,7 @@ defaultdict(<class 'list'>,
 
 or parse them
 
->>> inflexion.parse("ελυσα")
+>>> inflexion.parse("ἔλυσα")
 {('λύω', 'AAI.1S')}
 
 or find the possible stems
