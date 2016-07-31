@@ -17,15 +17,19 @@ Dik's Nifty Greek Handouts, and Keller and Russell's _Learn to Read Greek_.
 For each generated form, it can show the stem, ending, and morphophonological
 (sandhi) rule applied.
 
+The library can also parse forms whose information is in the given lexicon or
+conjecture possible stem information if not.
+
 For more of my work on linguistics and Ancient Greek, see
 <http://jktauber.com/>.
+
 
 ## Documentation
 
 To run the full data tests from Pratt, Dik, and Keller and Russell, just run
 `./data_test.py`.
 
-See `examples.rst` for individual usage examples.
+See `examples.rst` for individual usage examples of the library.
 
 
 ## TODO
@@ -36,7 +40,6 @@ them up and moving them into this repo.
  - reduction of repetition in ending rules
  - generation of entire paradigms
  - better tools for analysis of forms
- - support for parsing forms, including cases where no stem is known
  - richer stem database from principal parts lists
  - support for all verb forms in MorphGNT
  - support for nominal forms
