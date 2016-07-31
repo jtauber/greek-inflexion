@@ -22,8 +22,8 @@ For more of my work on linguistics and Ancient Greek, see
 
 ## Documentation
 
-To run the full tests from Pratt, Dik, and Keller and Russell, just run
-`./test.py`.
+To run the full data tests from Pratt, Dik, and Keller and Russell, just run
+`./data_test.py`.
 
 See `examples.rst` for individual usage examples.
 
