@@ -51,3 +51,80 @@ class GreekInflexion:
     def parse(self, form):
         return self.inflexion.parse(
             debreath(form), stem_post_processor=strip_accents)
+
+    def conjugate(self, lemma, *TVMs, tags=None):
+        print("-")
+        print("    lemma: {}".format(lemma))
+        if tags:
+            print()
+            print("    tags:")
+            for tag in tags:
+                print("      - {}".format(tag))
+        for TVM in TVMs:
+            print()
+            if TVM[2] in "ISO":
+                for PN in ["1S", "2S", "3S", "1P", "2P", "3P"]:
+                    parse = TVM + "." + PN
+                    form = "/".join(
+                        self.generate(lemma, parse, tags=tags).keys())
+                    if form:
+                        print("    {}: {}".format(parse, form))
+            elif TVM[2] == "D":
+                if "." not in TVM:
+                    for PN in ["2S", "3S", "2P", "3P"]:
+                        parse = TVM + "." + PN
+                        form = "/".join(
+                            self.generate(lemma, parse, tags=tags).keys())
+                        if form:
+                            print("    {}: {}".format(parse, form))
+                else:
+                    form = "/".join(
+                        self.generate(lemma, parse, tags=tags).keys())
+                    if form:
+                        print("    {}: {}".format(TVM, form))
+            elif TVM[2] == "N":
+                parse = TVM
+                form = "/".join(
+                    self.generate(lemma, parse, tags=tags).keys())
+                if form:
+                    print("    {}: {}".format(parse, form))
+            elif TVM[2] == "P":
+                if TVM.endswith(".N"):
+                    for NG in ["SM", "SF", "SN"]:
+                        parse = TVM + NG
+                        form = "/".join(
+                            self.generate(lemma, parse, tags=tags).keys())
+                        if form:
+                            print("    {}: {}".format(parse, form))
+                else:
+                    for CNG in ["NSM", "NSF", "NSN", "GSM", "GSF", "GSN"]:
+                        parse = TVM + "." + CNG
+                        form = "/".join(
+                            self.generate(lemma, parse, tags=tags).keys())
+                        if form:
+                            print("    {}: {}".format(parse, form))
+        print()
+        print()
+
+    def decline(self, lemma, TVM, tags=None):
+
+        if TVM[2] != "P":
+            raise ValueError
+
+        print("-")
+
+        print("    lemma: {}".format(lemma))
+
+        for G in "MFN":
+            print()
+            for CN in [
+                "NS", "GS", "DS", "AS", "VS",
+                "NP", "VP", "GP", "DP", "AP"
+            ]:
+                parse = TVM + "." + CN + G
+                form = "/".join(
+                    self.generate(lemma, parse, tags=tags).keys())
+                print("    {}: {}".format(parse, form))
+
+        print()
+        print()

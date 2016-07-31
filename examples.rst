@@ -56,3 +56,70 @@ parsing:
  ('PMI.1S', 'ποιε'),
  ('PMI.1S', 'ποιο'),
  ('XMI.1S', 'ποιου')]
+
+
+``GreekInflexion`` can also generate paradigms in a YAML format that can then
+be used for testing.
+
+>>> inflexion.conjugate("λύω", "PAI", "AAI", tags={"final-nu-aai.3s"})
+-
+    lemma: λύω
+<BLANKLINE>
+    tags:
+      - final-nu-aai.3s
+<BLANKLINE>
+    PAI.1S: λῡ́ω
+    PAI.2S: λῡ́εις
+    PAI.3S: λῡ́ει
+    PAI.1P: λῡ́ομεν
+    PAI.2P: λῡ́ετε
+    PAI.3P: λῡ́ουσι(ν)
+<BLANKLINE>
+    AAI.1S: ἔλυσα
+    AAI.2S: ἔλυσας
+    AAI.3S: ἔλυσε(ν)
+    AAI.1P: ἐλύσαμεν
+    AAI.2P: ἐλύσατε
+    AAI.3P: ἔλυσαν
+<BLANKLINE>
+<BLANKLINE>
+
+
+>>> inflexion.decline("λύω", "PAP")
+-
+    lemma: λύω
+<BLANKLINE>
+    PAP.NSM: λῡ́ων
+    PAP.GSM: λῡ́οντος
+    PAP.DSM: λῡ́οντι
+    PAP.ASM: λῡ́οντα
+    PAP.VSM: λῡ́ων
+    PAP.NPM: λῡ́οντες
+    PAP.VPM: λῡ́οντες
+    PAP.GPM: λῡόντων
+    PAP.DPM: λῡ́ουσι(ν)
+    PAP.APM: λῡ́οντας
+<BLANKLINE>
+    PAP.NSF: λῡ́ουσα
+    PAP.GSF: λῡούσης
+    PAP.DSF: λῡούσῃ
+    PAP.ASF: λῡ́ουσαν
+    PAP.VSF: λῡ́ουσα
+    PAP.NPF: λῡ́ουσαι
+    PAP.VPF: λῡ́ουσαι
+    PAP.GPF: λῡουσῶν
+    PAP.DPF: λῡούσαις
+    PAP.APF: λῡούσᾱς
+<BLANKLINE>
+    PAP.NSN: λῦον
+    PAP.GSN: λῡ́οντος
+    PAP.DSN: λῡ́οντι
+    PAP.ASN: λῦον
+    PAP.VSN: λῦον
+    PAP.NPN: λῡ́οντα
+    PAP.VPN: λῡ́οντα
+    PAP.GPN: λῡόντων
+    PAP.DPN: λῡ́ουσι(ν)
+    PAP.APN: λῡ́οντα
+<BLANKLINE>
+<BLANKLINE>

@@ -17,6 +17,9 @@ Dik's Nifty Greek Handouts, and Keller and Russell's _Learn to Read Greek_.
 For each generated form, it can show the stem, ending, and morphophonological
 (sandhi) rule applied.
 
+Entire paradigms can be generated at once in the same YAML format used for
+tests.
+
 The library can also parse forms whose information is in the given lexicon or
 conjecture possible stem information if not.
 
@@ -38,8 +41,9 @@ Most of these are partially done elsewhere and I'm in the process of cleaning
 them up and moving them into this repo.
 
  - reduction of repetition in ending rules
- - generation of entire paradigms
  - better tools for analysis of forms
+ - better stem shape heuristics when conjecturing stems
+ - better stem conjecture when multiple forms available
  - richer stem database from principal parts lists
  - support for all verb forms in MorphGNT
  - support for nominal forms
