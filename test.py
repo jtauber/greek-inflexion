@@ -49,7 +49,7 @@ class InflexionTest(unittest.TestCase):
             ]
         )
 
-    def test_possible_stems1(self):
+    def test_possible_stems2(self):
         self.assertEqual(
             sorted(self.inflexion.possible_stems('ποιοῦμαι', '.+1S$')),
             [
