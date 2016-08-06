@@ -2,7 +2,8 @@
 
 import unittest
 
-from fileformat import load_stemming, RefDoesNotExistException
+from fileformat import load_stemming, load_lexicon
+from fileformat import RefDoesNotExistException
 from greek_inflexion import GreekInflexion
 
 
@@ -11,6 +12,23 @@ class FileFormatTest(unittest.TestCase):
     def test_bad_ref(self):
         with self.assertRaises(RefDoesNotExistException):
             load_stemming("test_files/bad_ref.yaml")
+
+    def test_stemming(self):
+        s = load_stemming("test_files/stemming_test.yaml")
+        self.assertEqual(s.key_to_rules["bar"][0].surface, "ace")
+        self.assertEqual(s.key_to_rules["foo"][1].tags, {"baz"})
+
+    def test_lexicon(self):
+        lexicon, form_override, accent_override = load_lexicon(
+            "test_files/lexicon_test.yaml")
+        self.assertEqual(form_override[("lemma2", "PAI.3S")], "blah")
+        self.assertEqual(accent_override["lemma2"], [('PAI', 'blah')])
+        self.assertEqual(
+            lexicon.lemma_to_stems["lemma2"], [
+                ('I', 'baz', {'+z'}),
+                ('P', 'bar', set()),
+                ('foo', 'bar', set())
+            ])
 
 
 class InflexionTest(unittest.TestCase):

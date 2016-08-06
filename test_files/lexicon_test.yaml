@@ -1,0 +1,13 @@
+lemma1:  # no stems
+    foo: bar
+lemma2:
+    stems:
+        1-: bar
+        1+: baz;+z
+    stem_overrides:
+        - ["foo", "bar"]
+        - ["biz", null]
+    forms:
+        PAI.3S: blah
+    accents:
+        - ["PAI", "blah"]
