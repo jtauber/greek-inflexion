@@ -2,7 +2,15 @@
 
 import unittest
 
+from fileformat import load_stemming, RefDoesNotExistException
 from greek_inflexion import GreekInflexion
+
+
+class FileFormatTest(unittest.TestCase):
+
+    def test_bad_ref(self):
+        with self.assertRaises(RefDoesNotExistException):
+            load_stemming("test_files/bad_ref.yaml")
 
 
 class InflexionTest(unittest.TestCase):
