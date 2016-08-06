@@ -75,6 +75,7 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
         "6-": "AP[NPDSO]",
         "6+": "API",
         "7-": "FP",
+        "noun": "",
     }
 
     form_override = {}
