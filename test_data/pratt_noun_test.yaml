@@ -1,0 +1,122 @@
+# noun tests from Louise Pratt's _The Essentials of Greek Grammar_
+
+-
+    source: PRATT§42.1a
+    test_length: false
+
+    lemma: σπονδή
+
+    NSF: σπονδή
+    GSF: σπονδῆς
+    DSF: σπονδῇ
+    ASF: σπονδήν
+    NPF: σπονδαί
+    GPF: σπονδῶν
+    DPF: σπονδαῖς
+    APF: σπονδάς
+
+-
+    source: PRATT§42.1b
+    test_length: false
+
+    lemma: σοφία
+
+    NSF: σοφία
+    GSF: σοφίας
+    DSF: σοφίᾳ
+    ASF: σοφίαν
+    NPF: σοφίαι
+    GPF: σοφιῶν
+    DPF: σοφίαις
+    APF: σοφίας
+
+-
+    source: PRATT§42.1c
+    test_length: false
+
+    lemma: τόλμα
+
+    NSF: τόλμα
+    GSF: τόλμης
+    DSF: τόλμῃ
+    ASF: τόλμαν
+    NPF: τόλμαι
+    GPF: τολμῶν
+    DPF: τόλμαις
+    APF: τόλμας
+
+-
+    source: PRATT§42.1d
+    test_length: false
+
+    lemma: ὑβριστής
+
+    NSM: ὑβριστής
+    GSM: ὑβριστοῦ
+    DSM: ὑβριστῇ
+    ASM: ὑβριστήν
+    NPM: ὑβρισταί
+    GPM: ὑβριστῶν
+    DPM: ὑβρισταῖς
+    APM: ὑβριστάς
+
+-
+    source: PRATT§42.1e
+    test_length: false
+
+    lemma: νεανίας
+
+    NSM: νεανίας
+    GSM: νεανίου
+    DSM: νεανίᾳ
+    ASM: νεανίαν
+    NPM: νεανίαι
+    GPM: νεανιῶν
+    DPM: νεανίαις
+    APM: νεανίας
+
+
+-
+    source: PRATT§43.2aM
+    test_length: false
+
+    lemma: θεός
+
+    NSM: θεός
+    GSM: θεοῦ
+    DSM: θεῷ
+    ASM: θεόν
+    NPM: θεοί
+    GPM: θεῶν
+    DPM: θεοῖς
+    APM: θεούς
+
+-
+    source: PRATT§43.2aF
+    test_length: false
+
+    lemma: νόσος
+
+    NSF: νόσος
+    GSF: νόσου
+    DSF: νόσῳ
+    ASF: νόσον
+    NPF: νόσοι
+    GPF: νόσων
+    DPF: νόσοις
+    APF: νόσους
+
+-
+    source: PRATT§43.2b
+    test_length: false
+
+    lemma: δεῖπνον
+
+    NSN: δεῖπνον
+    GSN: δείπνου
+    DSN: δείπνῳ
+    ASN: δεῖπνον
+    NPN: δεῖπνα
+    GPN: δείπνων
+    DPN: δείπνοις
+    APN: δεῖπνα

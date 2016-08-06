@@ -1,0 +1,33 @@
+# lexicon for pratt_noun_test.yaml
+
+σπονδή:
+    stems:
+        noun: σπονδη
+
+σοφία:
+    stems:
+        noun: σοφία
+
+τόλμα:
+    stems:
+        noun: τολμα
+
+ὑβριστής:
+    stems:
+        noun: ὑβριστη
+
+νεανίας:
+    stems:
+        noun: νεανία
+
+θεός:
+    stems:
+        noun: θεο
+
+νόσος:
+    stems:
+        noun: νοσο
+
+δεῖπνον:
+    stems:
+        noun: δειπνο
