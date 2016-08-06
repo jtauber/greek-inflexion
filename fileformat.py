@@ -12,6 +12,10 @@ from inflexion.lexicon import Lexicon
 from inflexion.stemming import StemmingRuleSet
 
 
+class RefDoesNotExistException(Exception):
+    pass
+
+
 def load_stemming(stemming_file):
     ruleset = StemmingRuleSet()
 
@@ -24,8 +28,9 @@ def load_stemming(stemming_file):
             if rules["ref"] in stemming_dict:
                 rules = stemming_dict[rules["ref"]]
             else:
-                raise Exception("ref to {} which doesn't exist".format(
-                    rules["ref"]))
+                raise RefDoesNotExistException(
+                    "ref to {} which doesn't exist".format(
+                        rules["ref"]))
 
         for rule in rules:
             if ";" in rule:
