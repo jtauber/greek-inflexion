@@ -40,9 +40,10 @@ def test_generate(
                 if debug or correct == "✕":
                     print()
                     print(lemma, key, form)
-                    print("stem: {}".format(stem))
-                    print("generate[{}/{}{}]:".format(
-                        len(generated), c, correct))
+                    if stem:
+                        print("stem: {}".format(stem))
+                    print("generate[{}/{}{}]{}".format(
+                        len(generated), c, correct, ":" if generated else ""))
                     for generated_form, details in generated.items():
                         print("    - {}".format(generated_form))
                         for detail in details:
