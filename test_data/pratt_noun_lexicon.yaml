@@ -31,3 +31,79 @@
 δεῖπνον:
     stems:
         noun: δειπνο
+
+μάρτυς:
+    stems:
+        noun: μαρτυρ
+    stem_overrides:
+        - ["DPM", "μαρτυ"]
+
+νύξ:
+    stems:
+        noun: νυκτ
+
+ἀνήρ:
+    stems:
+        noun: ἀνδρ
+    stem_overrides:
+        - ["NPM", "ἄνδρ"]  # just for accent
+        - ["A[SP]M", "ἄνδρ"]  # just for accent
+    forms:
+        GPM: ἀνδρῶν  # just for accent @@@
+
+ὕδωρ:
+    stems:
+        noun: ὑδατ
+    forms:
+        NSN: ὕδωρ
+        ASN: ὕδωρ
+
+τριήρης:
+    stems:
+        noun: τριηρεσ
+
+Περικλῆς:
+    stems:
+        noun: Περικλεεσ
+
+ἔτος:
+    stems:
+        noun: ἐτεσ  # @@@
+
+γῆρας:
+    stems:
+        noun: γηρασ
+    forms:
+        DSN: γήραι  # just for accent @@@ (accent is placed pre-contraction)
+
+πόλις:
+    stems:
+        noun: πολ{i}
+
+πρέσβυς:
+    stems:
+        noun: πρεσβ{u}
+
+ἄστυ:
+    stems:
+        noun: ἀστ{u}
+
+βασιλεύς:
+    stems:
+        noun: βασιλε{u2}
+
+ἰχθύς:
+    stems:
+        noun: ἰχθυ
+
+ναῦς:
+    stems:
+        noun: ναυ
+
+Ζεύς:
+    stems:
+        noun: Ζευ
+    stem_overrides:
+        - ["[GDA]SM", "Δι"]
+    accents:
+        - ["[GD]SM", "Διός"]

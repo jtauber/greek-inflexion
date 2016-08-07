@@ -120,3 +120,221 @@
     GPN: δείπνων
     DPN: δείπνοις
     APN: δεῖπνα
+
+-
+    source: PRATT§44.3aM1
+    test_length: false
+
+    lemma: μάρτυς
+
+    NSM: μάρτυς
+    GSM: μάρτυρος
+    DSM: μάρτυρι
+    ASM: μάρτυρα
+    NPM: μάρτυρες
+    GPM: μαρτύρων
+    DPM: μάρτυσι(ν)
+    APM: μάρτυρας
+
+-
+    source: PRATT§44.3aF
+    test_length: false
+
+    lemma: νύξ
+
+    NSF: νύξ
+    GSF: νυκτός
+    DSF: νυκτί
+    ASF: νύκτα
+    NPF: νύκτες
+    GPF: νυκτῶν
+    DPF: νυξί(ν)
+    APF: νύκτας
+
+-
+    source: PRATT§44.3aM2
+    test_length: false
+
+    lemma: ἀνήρ
+
+    NSM: ἀνήρ
+    GSM: ἀνδρός
+    DSM: ἀνδρί
+    ASM: ἄνδρα
+    NPM: ἄνδρες
+    GPM: ἀνδρῶν
+    DPM: ἀνδράσι(ν)
+    APM: ἄνδρας
+
+-
+    source: PRATT§44.3b
+    test_length: false
+
+    lemma: ὕδωρ
+
+    NSN: ὕδωρ
+    GSN: ὕδατος
+    DSN: ὕδατι
+    ASN: ὕδωρ
+    NPN: ὕδατα
+    GPN: ὑδάτων
+    DPN: ὕδασι(ν)
+    APN: ὕδατα
+
+-
+    source: PRATT§45.3cF
+    test_length: false
+
+    lemma: τριήρης
+
+    NSF: τριήρης
+    GSF: τριήρους
+    DSF: τριήρει
+    ASF: τριήρη
+    NPF: τριήρεις
+    GPF: τριήρων
+    DPF: τριήρεσι(ν)
+    APF: τριήρεις
+
+-
+    source: PRATT§45.3cM
+    test_length: false
+
+    lemma: Περικλῆς
+
+    NSM: Περικλῆς
+    GSM: Περικλέους
+    DSM: Περικλεῖ
+    ASM: Περικλέα
+
+-
+    source: PRATT§45.3dN
+    test_length: false
+
+    lemma: ἔτος
+
+    NSN: ἔτος
+    GSN: ἔτους
+    DSN: ἔτει
+    ASN: ἔτος
+    NPN: ἔτη
+    GPN: ἐτῶν
+    DPN: ἔτεσι(ν)
+    APN: ἔτη
+
+-
+    source: PRATT§45.3dN
+    test_length: false
+
+    lemma: γῆρας
+
+    NSN: γῆρας
+    GSN: γήρως
+    DSN: γήραι
+    ASN: γῆρας
+    NPN: γήρα
+    GPN: γηρῶν
+    DPN: γήρασι(ν)
+    APN: γήρα
+
+-
+    source: PRATT§46.3eF
+    test_length: false
+
+    lemma: πόλις
+
+    NSF: πόλις
+    GSF: πολέως  # Pratt had πόλεως
+    DSF: πόλει
+    ASF: πόλιν
+    NPF: πόλεις
+    GPF: πολέων  # Pratt had πόλεων
+    DPF: πόλεσι(ν)
+    APF: πόλεις
+
+-
+    source: PRATT§46.3eM
+    test_length: false
+
+    lemma: πρέσβυς
+
+    NSM: πρέσβυς
+    GSM: πρεσβέως  # Pratt had πρέσβεως
+    DSM: πρέσβει
+    ASM: πρέσβυν
+    NPM: πρέσβεις
+    GPM: πρεσβέων  # Pratt had πρέσβεων
+    DPM: πρέσβεσι(ν)
+    APM: πρέσβεις
+
+-
+    source: PRATT§46.3f
+    test_length: false
+
+    lemma: ἄστυ
+
+    NSN: ἄστυ
+    GSN: ἀστέως  # Pratt had εως
+    DSN: ἄστει
+    ASN: ἄστυ
+    NPN: ἄστη
+    GPN: ἀστέων  # Pratt had εων
+    DPN: ἄστεσι(ν)
+    APN: ἄστη
+
+-
+    source: PRATT§46.3g
+    test_length: false
+
+    lemma: βασιλεύς
+
+    NSM: βασιλεύς
+    GSM: βασιλέως
+    DSM: βασιλεῖ
+    ASM: βασιλέα
+    NPM: βασιλεῖς/βασιλῆς
+    GPM: βασιλέων
+    DPM: βασιλεῦσι(ν)
+    APM: βασιλέας
+
+-
+    source: PRATT§46.3h
+    test_length: false
+
+    lemma: ἰχθύς
+
+    NSM: ἰχθύς
+    GSM: ἰχθύος
+    DSM: ἰχθύϊ  # Pratt has ἰχθύι
+    ASM: ἰχθύν
+    NPM: ἰχθύες
+    GPM: ἰχθύων
+    DPM: ἰχθύσι(ν)
+    APM: ἰχθῦς
+
+
+-
+    source: PRATT§47a
+    test_length: false
+
+    lemma: ναῦς
+
+    NSF: ναῦς
+    GSF: νέως
+    DSF: νηί
+    ASF: ναῦν
+    NPF: νῆες
+    GPF: νεῶν
+    DPF: ναυσί(ν)
+    APF: ναῦς
+
+-
+    source: PRATT§47b
+    test_length: false
+
+    lemma: Ζεύς
+
+    NSM: Ζεύς
+    GSM: Διός
+    DSM: Διί
+    ASM: Δία
