@@ -19,6 +19,16 @@ def calculate_accent(w, parse, lemma, stem, inflexion, accent_override):
     elif list(stem)[0].endswith("{enclitic}"):
         # enclitic
         return clean(make_oxytone(w))
+    elif len(parse) == 3 and parse[2] != "N":  # nominal
+        base_accent = None
+        for key_regex, accented in accent_override.get(lemma, []):
+            if re.match(key_regex, parse):
+                base_accent = accented
+                break
+        if base_accent:
+            return clean(persistent(w, base_accent))
+        else:
+            return clean(persistent(w, lemma))
     else:
         if parse[2] == "P":
             base_accent = None
