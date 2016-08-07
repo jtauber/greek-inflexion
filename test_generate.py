@@ -35,7 +35,8 @@ def test_generate(
                 if stem:
                     stem_guess = None
                 else:
-                    stem_guess = [stem for key, stem in
+                    stem_guess = [
+                        stem for key, stem in
                         ginflexion.possible_stems(form, "^" + key + "$")]
 
                 if [strip_length(w) for w in sorted(generated)] == \
