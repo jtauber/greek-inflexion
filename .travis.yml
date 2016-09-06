@@ -10,6 +10,6 @@ script:
   - flake8 .
   - python data_test.py
   - python -m doctest examples.rst
-  - coverage run --branch --source . test.py
+  - coverage run --branch --source=accent.py,fileformat.py,greek_inflexion.py test.py
 after_success:
   - coveralls
