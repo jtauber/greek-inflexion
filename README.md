@@ -12,7 +12,8 @@ built on top of my `greek-accentuation` library.
 
 It can precisely generate (i.e. without over-generation) all the forms in the
 verbal paradigms in Louise Pratt's _The Essentials of Greek Grammar_, Helma
-Dik's Nifty Greek Handouts, and Keller and Russell's _Learn to Read Greek_.
+Dik's Nifty Greek Handouts, and Keller and Russell's _Learn to Read Greek_. It
+can also generate the nouns in Pratt.
 
 For each generated form, it can show the stem, ending, and morphophonological
 (sandhi) rule applied.
@@ -32,6 +33,8 @@ For more of my work on linguistics and Ancient Greek, see
 To run the full data tests from Pratt, Dik, and Keller and Russell, just run
 `./data_test.py`.
 
+For the noun data tests, run `./noun_data_test.py`.
+
 See `examples.rst` for individual usage examples of the library.
 
 
@@ -46,4 +49,4 @@ them up and moving them into this repo.
  - better stem conjecture when multiple forms available
  - richer stem database from principal parts lists
  - support for all verb forms in MorphGNT
- - support for nominal forms
+ - support for more nominal forms

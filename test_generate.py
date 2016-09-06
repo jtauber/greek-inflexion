@@ -32,6 +32,13 @@ def test_generate(
                 stem = ginflexion.find_stems(lemma, key, tags)
                 generated = ginflexion.generate(lemma, key, tags)
 
+                if stem:
+                    stem_guess = None
+                else:
+                    stem_guess = [
+                        stem for key, stem in
+                        ginflexion.possible_stems(form, "^" + key + "$")]
+
                 if [strip_length(w) for w in sorted(generated)] == \
                         [strip_length(w) for w in sorted(form.split("/"))]:
                     correct = "✓"
@@ -40,9 +47,12 @@ def test_generate(
                 if debug or correct == "✕":
                     print()
                     print(lemma, key, form)
-                    print("stem: {}".format(stem))
-                    print("generate[{}/{}{}]:".format(
-                        len(generated), c, correct))
+                    if stem:
+                        print("stem: {}".format(stem))
+                    if stem_guess:
+                        print("stem_guess: {}".format(stem_guess))
+                    print("generate[{}/{}{}]{}".format(
+                        len(generated), c, correct, ":" if generated else ""))
                     for generated_form, details in generated.items():
                         print("    - {}".format(generated_form))
                         for detail in details:
