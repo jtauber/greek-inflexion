@@ -1144,7 +1144,7 @@ IAI.3S:
     - "|ῡ{athematic}>ῡ<_2|"  # §60c
     - "|α{athematic}>η<_2|"  # §60d
     # - "|η{athematic}>η<|"
-    # - "|η{athematic}>ῆν<|"  # §65a εἰμί
+    - "|η{athematic}>ῆν<|"  # §65a εἰμί
     # - "|η{athematic}{enclitic}>ῆν<|"  # -εἰμί
     - "|ῃ{athematic}>ῄει(ν)<|"  # @@@
 IAI.1P:
@@ -1354,7 +1354,7 @@ PAI.3S:
     # - "|α{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic  @@@
     - "|η{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic
     - "|ει{athematic}>εῖ<|σι(ν)"  # §66c
-    # - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
+    - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
     # - "|εσ{athematic}>εσ<|τι(ν)"  # § -εἰμί
 PAI.1P:
     - "|>ο<T_1|μεν"  # §48
