@@ -2060,7 +2060,7 @@ PMP.NPF:
     # - "|α{athematic}>ά<|μεναι"  # § 35*
     # - "|υ{athematic}>ύ<|μεναι"  # § 35*
     # - "|η{athematic}>ή<|μεναι"
-    # - "|ει{athematic}>εί<|μεναι"
+    - "|ει{athematic}>εί<|μεναι"
 PMP.VPF:
     ref: PMP.NPF
 PMP.NPN:
@@ -2795,7 +2795,8 @@ YAI.2S:
 YAI.3S:
     - "|>ει(ν)<ει(ν)|;-no-final-nu-yai.3s"  # classical? §55 (but oddly not §51)
     - "|>ει<ει|;+no-final-nu-yai.3s"
-    - "δ|{athematic}>ει(ν)<ει(ν)|"
+    - "δ|{athematic}>ει(ν)<ει(ν)|;-no-final-nu-yai.3s"
+    - "δ|{athematic}>ει<ει|;+no-final-nu-yai.3s"
     - "|>ει<ει|;+late-pluperfect-singulars"  # §55 / §51
 YAI.1P:
     - "|>ε<ε|μεν"  # §51
@@ -2808,10 +2809,10 @@ YAI.2P:
     - "[α]|{athematic}><|τε"
 YAI.3P:
     - "|>ε<ε|σαν"  # classical §51
-    # - "|>ει<ει|σαν"  # NTGreek
-    - "|δ{athematic}>σ<σ|αν"  # ᾖσαν (οἶδα)
-    # - "|δ>δει<ει|σαν"  # ᾔδεισαν (οἶδα)
-    - "|δ{athematic}>δε<ε|σαν"  # ᾔδεσαν (οἶδα) (classical)
+    # - "|>ει<ει|σαν"  # NTGreek (and see oida-yai3p-variant)
+    - "|δ{athematic}>σ<σ|αν;-oida-yai3p-variant"  # ᾖσαν (οἶδα)
+    - "|δ{athematic}>δει<ει|σαν;+oida-yai3p-variant"  # ᾔδεισαν (οἶδα)
+    - "|δ{athematic}>δε<ε|σαν;-oida-yai3p-variant"  # ᾔδεσαν (οἶδα) (classical)
     - "[α]|{athematic}><|σαν"
 
 YMI.1S:
