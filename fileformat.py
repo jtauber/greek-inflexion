@@ -75,7 +75,9 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
         "6-": "AP[NPDSO]",
         "6+": "API",
         "7-": "FP",
-        "noun": "",
+        "M": "..M",
+        "F": "..F",
+        "N": "..N",
     }
 
     form_override = {}
@@ -85,25 +87,24 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
         for lemma, entry in yaml.load(f).items():
 
-            if "stems" not in entry:
-                continue
+            if "stems" in entry:
 
-            stems = []
+                stems = []
 
-            for partnum, stems in sorted(entry["stems"].items()):
+                for partnum, stems in sorted(entry["stems"].items()):
 
-                key_regex = partnum_to_key_regex[partnum]
+                    key_regex = partnum_to_key_regex[partnum]
 
-                for stem, tag in split_stem_tags(stems):
-                    lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                    for stem, tag in split_stem_tags(stems):
+                        lexicon.add(lemma, key_regex, pre_processor(stem), tag)
 
-            for key_regex, stems in entry.get("stem_overrides", []):
+                for key_regex, stems in entry.get("stem_overrides", []):
 
-                if stems is None:
-                    continue
+                    if stems is None:
+                        continue
 
-                for stem, tag in split_stem_tags(stems):
-                    lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                    for stem, tag in split_stem_tags(stems):
+                        lexicon.add(lemma, key_regex, pre_processor(stem), tag)
 
             for key, form in entry.get("forms", {}).items():
                 form_override[(lemma, key)] = form
