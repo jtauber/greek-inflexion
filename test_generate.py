@@ -45,15 +45,35 @@ def test_generate(
                 else:
                     correct = "✕"
                 if debug or correct == "✕":
-                    print()
-                    print(lemma, key, form)
+                    print("-")
+                    print("    lemma: {}".format(lemma))
+                    print("    key: {}".format(key))
+                    print("    form: {}".format(form))
                     if stem:
-                        print("stem: {}".format(stem))
+                        if len(stem) == 1:
+                            print("    stem: {}".format(list(stem)[0]))
+                        else:
+                            print("    stem: {}".format(list(stem)))
                     if stem_guess:
-                        print("stem_guess: {}".format(stem_guess))
-                    print("generate[{}/{}{}]{}".format(
-                        len(generated), c, correct, ":" if generated else ""))
+                        print("    stem_guess: {}".format(stem_guess))
+                    print("    correct: \"[{}/{}{}]\"".format(
+                        len(generated), c, correct))
+                    print("    generated:")
                     for generated_form, details in generated.items():
-                        print("    - {}".format(generated_form))
+                        print("      -")
+                        print("        form: {}".format(generated_form))
+                        print("        details:")
                         for detail in details:
-                            print("        {}".format(detail))
+                            print("          -")
+                            if "stem" in detail:
+                                print("            stem: {}".format(detail["stem"]))
+                            if "stemming" in detail:
+                                print("            stemming:")
+                                print("                base: {}".format(detail["stemming"]["base"]))
+                                print("                ending: {}".format(detail["stemming"]["ending"]))
+                                print("                rule: \"{0.a}|{0.b}>{0.c}<{0.d}|{0.e}\"".format(detail["stemming"]["rule"]))
+                                print("                used_default: {}".format(detail["stemming"]["used_default"]))
+                            if "original_form" in detail:
+                                print("            original_form: {}".format(detail["original_form"]))
+                            if "override" in detail:
+                                print("            override: {}".format(detail["override"]))
