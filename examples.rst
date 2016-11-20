@@ -20,7 +20,7 @@ defaultdict(<class 'list'>,
 or just find the stems:
 
 >>> inflexion.find_stems('λύω', 'AAI.1S')
-{'ελυσ'}
+{'ἐλυσ'}
 
 
 If the lexicon file has the necessary stem information, you can parse a form:
