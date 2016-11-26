@@ -46,7 +46,7 @@ class InflexionTest(unittest.TestCase):
     def test_find_stems(self):
         self.assertEqual(
             self.inflexion.find_stems('λύω', 'AAI.1S'),
-            {'ελυσ'}
+            {'ἐλυσ'}
         )
 
     def test_parse1(self):
