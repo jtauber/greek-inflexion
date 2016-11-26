@@ -5,6 +5,58 @@ from accent import strip_length
 from greek_inflexion import GreekInflexion
 
 
+def output_detail(detail):
+    print("          -")
+
+    if "stem" in detail:
+        print("            stem: {}".format(detail["stem"]))
+
+    if "stemming" in detail:
+        print("            stemming:")
+        print("                base: {}".format(detail["stemming"]["base"]))
+        print("                ending: {}".format(
+            detail["stemming"]["ending"]))
+        print("                rule: \"{0.a}|{0.b}>{0.c}<{0.d}|{0.e}\"".format(
+            detail["stemming"]["rule"]))
+        print("                used_default: {}".format(
+            detail["stemming"]["used_default"]))
+
+    if "original_form" in detail:
+        print("            original_form: {}".format(detail["original_form"]))
+
+    if "override" in detail:
+        print("            override: {}".format(detail["override"]))
+
+
+def output_item(lemma, key, form, stem, stem_guess, generated, correct):
+    print("-")
+    print("    lemma: {}".format(lemma))
+    print("    key: {}".format(key))
+    print("    form: {}".format(form))
+
+    if stem:
+        if len(stem) == 1:
+            print("    stem: {}".format(list(stem)[0]))
+        else:
+            print("    stem: {}".format(list(stem)))
+
+    if stem_guess:
+        print("    stem_guess: {}".format(stem_guess))
+
+    print("    correct: \"[{}/{}{}]\"".format(
+        len(generated), form.count("/") + 1, correct))
+
+    if generated:
+        print("    generated:")
+
+    for generated_form, details in generated.items():
+        print("      -")
+        print("        form: {}".format(generated_form))
+        print("        details:")
+        for detail in details:
+            output_detail(detail)
+
+
 def test_generate(
     stemming_file, lexicon_file, test_file,
     global_tags=None, debug=False
@@ -28,7 +80,6 @@ def test_generate(
                 tags.update(global_tags)
 
             for key, form in sorted(test.items()):
-                c = form.count("/") + 1
                 stem = ginflexion.find_stems(lemma, key, tags)
                 generated = ginflexion.generate(lemma, key, tags)
 
@@ -45,35 +96,6 @@ def test_generate(
                 else:
                     correct = "✕"
                 if debug or correct == "✕":
-                    print("-")
-                    print("    lemma: {}".format(lemma))
-                    print("    key: {}".format(key))
-                    print("    form: {}".format(form))
-                    if stem:
-                        if len(stem) == 1:
-                            print("    stem: {}".format(list(stem)[0]))
-                        else:
-                            print("    stem: {}".format(list(stem)))
-                    if stem_guess:
-                        print("    stem_guess: {}".format(stem_guess))
-                    print("    correct: \"[{}/{}{}]\"".format(
-                        len(generated), c, correct))
-                    print("    generated:")
-                    for generated_form, details in generated.items():
-                        print("      -")
-                        print("        form: {}".format(generated_form))
-                        print("        details:")
-                        for detail in details:
-                            print("          -")
-                            if "stem" in detail:
-                                print("            stem: {}".format(detail["stem"]))
-                            if "stemming" in detail:
-                                print("            stemming:")
-                                print("                base: {}".format(detail["stemming"]["base"]))
-                                print("                ending: {}".format(detail["stemming"]["ending"]))
-                                print("                rule: \"{0.a}|{0.b}>{0.c}<{0.d}|{0.e}\"".format(detail["stemming"]["rule"]))
-                                print("                used_default: {}".format(detail["stemming"]["used_default"]))
-                            if "original_form" in detail:
-                                print("            original_form: {}".format(detail["original_form"]))
-                            if "override" in detail:
-                                print("            override: {}".format(detail["override"]))
+                    output_item(
+                        lemma, key, form,
+                        stem, stem_guess, generated, correct)
