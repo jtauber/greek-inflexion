@@ -100,11 +100,11 @@ be used for testing.
     PAP.DPM: λῡ́ουσι(ν)
     PAP.APM: λῡ́οντας
 <BLANKLINE>
-    PAP.NSF: λῡ́ουσα
+    PAP.NSF: λῡ́ουσᾰ
     PAP.GSF: λῡούσης
     PAP.DSF: λῡούσῃ
-    PAP.ASF: λῡ́ουσαν
-    PAP.VSF: λῡ́ουσα
+    PAP.ASF: λῡ́ουσᾰν
+    PAP.VSF: λῡ́ουσᾰ
     PAP.NPF: λῡ́ουσαι
     PAP.VPF: λῡ́ουσαι
     PAP.GPF: λῡουσῶν
