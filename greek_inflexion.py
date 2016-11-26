@@ -9,9 +9,9 @@ from fileformat import load_stemming, load_lexicon
 
 class GreekInflexion:
 
-    def __init__(self, stemming_file, lexicon_file):
+    def __init__(self, stemming_file, lexicon_file, strip_length=False):
 
-        self.ruleset = load_stemming(stemming_file)
+        self.ruleset = load_stemming(stemming_file, strip_length)
 
         self.lexicon, self.form_override, self.accent_override = load_lexicon(
             lexicon_file, pre_processor=debreath)

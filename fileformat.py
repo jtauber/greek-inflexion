@@ -8,6 +8,8 @@ from collections import defaultdict
 
 import yaml
 
+from greek_accentuation.characters import strip_length as do_strip_length
+
 from inflexion.lexicon import Lexicon
 from inflexion.stemming import StemmingRuleSet
 
@@ -16,7 +18,7 @@ class RefDoesNotExistException(Exception):
     pass
 
 
-def load_stemming(stemming_file):
+def load_stemming(stemming_file, strip_length=False):
     ruleset = StemmingRuleSet()
 
     with open(stemming_file) as f:
@@ -33,6 +35,8 @@ def load_stemming(stemming_file):
                         rules["ref"]))
 
         for rule in rules:
+            if strip_length:
+                rule = do_strip_length(rule)
             if ";" in rule:
                 rule, annotation = rule.split(";")
                 ruleset.add(key, rule, {annotation})
