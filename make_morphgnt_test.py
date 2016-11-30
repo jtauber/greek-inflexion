@@ -6,6 +6,7 @@ from pysblgnt import morphgnt_rows
 
 BOOK_NUM = 4
 
+
 # @@@ move this to greek-utils
 
 def bcv_tuple(bcv):
@@ -41,6 +42,7 @@ PARSE_CODES = [
     ('3YAI-S--', 'V-LAI-3S'),
 ]
 
+
 def convert_parse(ccat_parse):
     if ccat_parse[3] in "DISO":
         result = ccat_parse[1:4] + "." + ccat_parse[0] + ccat_parse[5]
@@ -48,14 +50,20 @@ def convert_parse(ccat_parse):
         result = ccat_parse[1:4] + "." + ccat_parse[4:7]
     return result
 
+
 VERBS = defaultdict(lambda: defaultdict(set))
 
 for row in morphgnt_rows(BOOK_NUM):
     b, c, v = bcv_tuple(row["bcv"])
     if c == 2 and v <= 11:
         if row["ccat-pos"] == "V-":
-            assert (row["ccat-parse"], row["robinson"]) in PARSE_CODES, (row["ccat-parse"], row["robinson"])
-            VERBS[row["lemma"]][convert_parse(row["ccat-parse"])].add(row["norm"])
+            assert (
+                row["ccat-parse"], row["robinson"]
+            ) in PARSE_CODES, (
+                row["ccat-parse"], row["robinson"]
+            )
+            VERBS[row["lemma"]][convert_parse(row["ccat-parse"])].add(
+                row["norm"])
 
 for lemma in VERBS:
     print("-")

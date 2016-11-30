@@ -2,15 +2,18 @@
 
 from collections import defaultdict
 
-import yaml
-
 from pysblgnt import morphgnt_rows
 
 from accent import strip_length
 from greek_inflexion import GreekInflexion
 
 
-ginflexion = GreekInflexion("stemming.yaml", "morphgnt_johannine_lexicon.yaml", strip_length=True)
+ginflexion = GreekInflexion(
+    "stemming.yaml",
+    "morphgnt_johannine_lexicon.yaml",
+    strip_length=True
+)
+
 
 # @@@ move this to greek-utils
 

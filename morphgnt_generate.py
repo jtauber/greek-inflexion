@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 
-import yaml
-
 from pysblgnt import morphgnt_rows
 
-from accent import strip_length, rebreath
+from accent import strip_length  # , rebreath
 from greek_inflexion import GreekInflexion
 
 
 ginflexion = GreekInflexion("stemming.yaml", "morphgnt_johannine_lexicon.yaml")
 
 debug = False
+
 
 # @@@ move this to greek-utils
 
@@ -74,12 +73,12 @@ for book_num in [4, 23, 24, 25]:
             #     correct = "✕"
             #     incorrect_count += 1
 
-            if strip_length(form) in [strip_length(w) for w in sorted(generated)]:
+            if strip_length(form) in [
+                    strip_length(w) for w in sorted(generated)]:
                 correct = "✓"
             else:
                 correct = "✕"
                 incorrect_count += 1
-
 
             if debug or correct == "✕":
                 print("-")
