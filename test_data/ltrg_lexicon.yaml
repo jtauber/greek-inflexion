@@ -142,7 +142,7 @@
         6+: ἐγνωσθ
         7-: γνωσθησ
     stem_overrides:
-        - ["AA[SOP]", "γνο{root}"]
+        - ["AA[OP]", "γνο{root}"]
         - ["AAD.3P", "γνο{root}"]
 δείκνυμι:  # δείκνῡμι
     chapter: 11
@@ -299,8 +299,8 @@
         2-: ἐσ
     stem_overrides:
         - ["PAI.1S", "εἰ{athematic}{enclitic}"]
-        - ["PAI.2S", "ἐσ{athematic}"]
-        - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
+        # - ["PAI.2S", "ἐσ{athematic}"]
+        # - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
         - ["PAI.[12]P", "ἐσ{athematic}{enclitic}"]
         - ["PAI.3P", "εἰ{athematic}{enclitic}"]
         - ["PAN", "εἰ{athematic}"]

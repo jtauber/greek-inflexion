@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import sys
+
+import yaml
+
+USAGE = """
+    ./yaml-tool check <file> - check the yaml file roundtrips without data loss
+"""
+
+
+def check(filename):
+    with open(filename) as f:
+        data1 = f.read()
+    out1 = yaml.load(data1)
+    data2 = yaml.dump(out1)
+    out2 = yaml.load(data2)
+    print(out1 == out2)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) == 3:
+        command = sys.argv[1]
+        if command == "check":
+            check(sys.argv[2])
+        else:
+            print(USAGE)
+    else:
+        print(USAGE)
