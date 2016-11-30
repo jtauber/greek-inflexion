@@ -1,3 +1,5 @@
 greek-accentuation==1.0.5
 inflexion==0.7.1
 PyYAML==3.12
+
+py-sblgnt==0.5
