@@ -5,7 +5,7 @@ AAD.2S:
     - "|{2nd}{sigma}>έ<|ς"  # related to {athematic} ?
     - "|{athematic}><|ς"  # @@@
     - "|ω{root}>ῶ<|θι"
-    - "|α{root}>ῆ<|θι"  # @@@
+    - "|α{root}>η<|θι"  # @@@
     # - "|α{athematic}>ῆ<|θι"  # @@@
 AAD.3S:
     - "|>ά<ά|τω"
@@ -20,7 +20,8 @@ AAD.2P:
     - "|{athematic}><|τε"
     - "|ω{root}>ῶ<|τε"  # do we need this?
     # - "|ο{root}>ῶ<@|τε"  # @@@
-    - "|α{root}>ῆ<|τε"  # @@@
+    # - "|α{root}>ῆ<|τε"  # @@@
+    - "|α{root}>η<|τε"  # @@@
     # - "|α{athematic}>ῆ<|τε"  # @@@
 AAD.3P:
     - "|>ά<ά|ντων"
@@ -111,7 +112,7 @@ AAN:
     # - "|α{athematic}>ῆ<_2|ναι"  # ?
     - "|ε{athematic}>εῖ<_2|ναι"  # §62
     - "|ο{athematic}>οῦ<_2|ναι"  # §62
-    # - "|ι{2nd}><|εῖν"  # @@@ πεῖν
+    - "|ι{2nd}><|εῖν"  # @@@ πεῖν
 
 AAO.1S:
     - "|><|αιμι"
@@ -205,10 +206,10 @@ AAP.VSN:
 AAP.NPM:
     - "|>α<|ντες"  # §30
     - "|{2nd}>ό<|ντες"  # §31
-    # - "|α{athematic}>ά<|ντες"
-    # - "|ε{athematic}>έ<|ντες"
+    - "|α{athematic}>ά<|ντες"  # NT
+    - "|ε{athematic}>έ<|ντες"  # NT
     # - "|ο{athematic}>ό<|ντες"
-    # - "|α{root}>ά<|ντες"
+    - "|α{root}>ά<|ντες"
     # - "|ο{root}>ό<|ντες"
     # - "υ|{root}><|ντες"
 AAP.VPM:
@@ -317,8 +318,8 @@ AAS.1S:
     - "|ε{athematic}>ῶ<ω|"
     # - "|ἑ{athematic}>ὧ<ω|"  # hopefully can go away with better breathing support
     - "υ|{root}><|ω"
-    # - "|ω{root}>ῶ<ω|"  # LTRG does it this way
-    - "|ο{root}>ῶ<ω|"  # current Pratt lexicon does it this way
+    - "|ω{root}>ῶ<ω|"  # LTRG does it this way
+    # - "|ο{root}>ῶ<ω|"  # Pratt lexicon used to do it this way
     - "|α{root}>ῶ<ω|"
     # - "|α{athematic}>ῶ<ω|"  # @@@
 AAS.2S:
@@ -326,10 +327,9 @@ AAS.2S:
     - "|{2nd}><|ῃς"
     - "|ο{athematic}>ῷ<ῃ|ς"
     - "|ε{athematic}>ῇ<ῃ|ς"
-    # - "|ἑ{athematic}>ᾗ<ῃ|ς"  # hopefully can go away with better breathing support
     - "υ|{root}><|ῃς"
-    # - "|ω{root}>ῷ<ῃ|ς"  # LTRG does it this way
-    - "|ο{root}>ῷ<ῃ|ς"  # current Pratt lexicon does it this way
+    - "|ω{root}>ῷ<ῃ|ς"  # LTRG does it this way
+    # - "|ο{root}>ῷ<ῃ|ς"  # Pratt lexicon used to do it this way but now LTRG way
     - "|α{root}>ῇ<ῃ|ς"
     # - "|α{athematic}>ῇ<ῃ|ς"
 AAS.3S:
@@ -337,10 +337,10 @@ AAS.3S:
     - "|{2nd}><|ῃ"
     - "|ο{athematic}>ῷ<ῃ|"
     - "|ε{athematic}>ῇ<ῃ|"
-    # - "|ἑ{athematic}>ᾗ<ῃ|"  # hopefully can go away with better breathing support
     - "υ|{root}><|ῃ"
-    # - "|ω{root}>ῷ<ῃ|"  # LTRG does it this way
-    - "|ο{root}>ῷ<ῃ|"  # current Pratt lexicon does it this way
+    - "|ω{root}>ῷ<ῃ|"  # LTRG does it this way
+    # - "|ο{root}>ῷ<ῃ|"  # Pratt lexicon used to do it this way
+    # - "|ο{root}>οῖ<ῃ|"  # needed for παραδοῖ in NT
     # - "|α{athematic}>ῇ<ῃ|"
     - "|α{root}>ῇ<ῃ|"  # @@@
 AAS.1P:
@@ -350,8 +350,8 @@ AAS.1P:
     - "|ε{athematic}>ῶ<ω|μεν"
     # - "|ἑ{athematic}>ὧ<ω|μεν"  # hopefully can go away with better breathing support
     - "υ|{root}><|ωμεν"
-    # - "|ω{root}>ῶ<ω|μεν"  # LTRG does it this way
-    - "|ο{root}>ῶ<ω|μεν"  # current Pratt lexicon does it this way
+    - "|ω{root}>ῶ<ω|μεν"  # LTRG does it this way
+    # - "|ο{root}>ῶ<ω|μεν"  # Pratt lexicon used to it this way
     - "|α{root}>ῶ<ω|μεν"
     # - "|α{athematic}>ῶ<ω|μεν"
 AAS.2P:
@@ -361,8 +361,8 @@ AAS.2P:
     - "|ε{athematic}>ῆ<η|τε"
     # - "|ἑ{athematic}>ἧ<η|τε"  # hopefully can go away with better breathing support
     - "υ|{root}><|ητε"
-    # - "|ω{root}>ῶ<η|τε"  # is this used?
-    - "|ο{root}>ῶ<η|τε"
+    - "|ω{root}>ῶ<η|τε"
+    # - "|ο{root}>ῶ<η|τε"
     - "|α{root}>ῆ<η|τε"
     # - "|α{athematic}>ῆ<η|τε"
 AAS.3P:
@@ -374,7 +374,7 @@ AAS.3P:
     - "|ε{athematic}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
     # - "|ἑ{athematic}>ὧ<ω|σι(ν)"  # @@@
     - "υ|{root}><|ωσι(ν);-no-final-nu-aas.3p"
-    # - "|ω{root}>ῶ<ω|σι(ν)"  # @@@
+    - "|ω{root}>ῶ<ω|σι(ν)"
     - "|ο{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
     - "|α{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
     # - "|α{athematic}>ῶ<ω|σι(ν)"  # @@@
@@ -583,37 +583,31 @@ AMS.1S:
     - "|{2nd}><|ωμαι"
     - "|ο{athematic}>ῶ<|μαι"
     - "|ε{athematic}>ῶ<|μαι"
-    # - "|ἑ{athematic}>ὧ<|μαι"  # hopefully can go away with better breathing support
 AMS.2S:
     - "|><|ῃ"
     - "|{2nd}><|ῃ"
     - "|ο{athematic}>ῷ<ῃ|"
     - "|ε{athematic}>ῇ<ῃ|"
-    # - "|ἑ{athematic}>ᾗ<ῃ|"  # hopefully can go away with better breathing support
 AMS.3S:
     - "|>η<η|ται"
     - "|{2nd}>η<η|ται"
     - "|ο{athematic}>ῶ<|ται"
     - "|ε{athematic}>ῆ<|ται"
-    # - "|ἑ{athematic}>ἧ<|ται"  # hopefully can go away with better breathing support
 AMS.1P:
     - "|>ώ<ώ|μεθα"
     - "|{2nd}>ώ<ώ|μεθα"
     - "|ο{athematic}>ώ<|μεθα"
     - "|ε{athematic}>ώ<|μεθα"
-    # - "|ἑ{athematic}>ὥ<|μεθα"
 AMS.2P:
     - "|>η<η|σθε"
     - "|{2nd}>η<η|σθε"
     - "|ο{athematic}>ῶ<|σθε"
     - "|ε{athematic}>ῆ<|σθε"
-    # - "|ἑ{athematic}>ἧ<|σθε"  # @@@
 AMS.3P:
     - "|>ω<ω|νται"
     - "|{2nd}>ω<ω|νται"
     - "|ο{athematic}>ῶ<|νται"
     - "|ε{athematic}>ῶ<|νται"
-    # - "|ἑ{athematic}>ὧ<|νται"  # @@@
 
 APD.2S:
     # - "|><|ηθι"
@@ -1001,20 +995,20 @@ FPI.1S:
     - "ήσ|>ο<T_1|μαι"  # §49 (+ used in principal parts testing)
     - "ησ|>ο<T_1|μαι"  # §49 @@@
 FPI.2S:
-    # - "ήσ|>ῃ<T_2+σαι|"  # §49
+    - "ήσ|>ῃ<T_2+σαι|"  # NT §49
     # - "ήσ|>ει<T_2+σαι|;+fpi.2s-ει"  # §49
     - "ησ|>ῃ<T_2+σαι|;-no-fpi.2s-eta"  # §49 @@@
     - "ησ|>ει<T_2+σαι|;+fpi.2s-ει"  # §49 @@@
 FPI.3S:
-    # - "ήσ|>ε<T_2|ται"  # §49
+    - "ήσ|>ε<T_2|ται"  # §49
     - "ησ|>ε<T_2|ται"  # §49 @@@
 FPI.1P:
     - "ησ|>ό<T_1|μεθα"  # §49
 FPI.2P:
-    # - "ήσ|>ε<T_2|σθε"  # §49
+    - "ήσ|>ε<T_2|σθε"  # §49
     - "ησ|>ε<T_2|σθε"  # §49 @@@
 FPI.3P:
-    # - "ήσ|>ο<T_1|νται"  # §49
+    - "ήσ|>ο<T_1|νται"  # §49
     - "ησ|>ο<T_1|νται"  # §49 @@@
 
 FPN:
@@ -1187,7 +1181,6 @@ IAI.3P:
     - "|η{athematic}>ῆ<|σαν"  # §65a εἰμί/-εἰμί
     - "|ῃ{athematic}>ῇ<|σαν;+alt-eimi-imp"  # @@@
     - "|ῃ{athematic}>ῄε<|σαν"  # @@@
-    # - "εἴχ|>ο<|σαν"  # @@@ coming from NT but what is reason?
     # - "δολι|ο>οῦ<|σαν"  # @@@ coming from NT but what is reason?
 
 IMI.1S:
@@ -1201,7 +1194,7 @@ IMI.1S:
     - "|ε{athematic}>έ<|μην"  # §60b
     - "|υ{athematic}>ύ<|μην"  # §60c
     - "|α{athematic}>ά<|μην"  # §60d
-    # - "|η{athematic}>ή<|μην"  # εἰμί
+    - "|η{athematic}>ή<|μην"  # NT εἰμί
 IMI.2S:
     - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
     - "|ε>οῦ<σο|"  # §58
@@ -1225,8 +1218,8 @@ IMI.3S:
     - "|ε{athematic}>ε<|το"  # §60b
     - "|υ{athematic}>υ<|το"  # §60c
     - "|α{athematic}>α<|το"  # §60d
-    # - "|η{athematic}>η<|το"
-    # - "|ει{athematic}>ει<|το"
+    - "|η{athematic}>η<|το"  # NT
+    - "|ει{athematic}>ει<|το"  # NT
 IMI.1P:
     - "|>ό<T_1|μεθα"  # §48
     - "|ε>ού<T_1|μεθα"  # §58
@@ -1346,6 +1339,7 @@ PAI.3S:
     - "|ο>οῖ<ει|"  # §59
     - "|α>ᾷ<ει|"  # §57
     - "|η>ῇ<ει|"  # ζάω
+    - "|υ>ύ<|ει"  # NT
     - "|ο{athematic}>ω<_1|σι(ν)"  # §60a  # @@@ do via stem instead?
     - "|ε{athematic}>η<_1|σι(ν)"  # §60b  # @@@ do via stem instead?
     - "|ῡ{athematic}>ῡ<_1|σι(ν)"  # §60c
@@ -1355,7 +1349,7 @@ PAI.3S:
     - "|η{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic
     - "|ει{athematic}>εῖ<|σι(ν)"  # §66c
     - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
-    # - "|εσ{athematic}>εσ<|τι(ν)"  # § -εἰμί
+    - "|εσ{athematic}>εσ<|τι(ν)"  # NT § -εἰμί
 PAI.1P:
     - "|>ο<T_1|μεν"  # §48
     - "|ε>οῦ<T_1|μεν"  # §58
@@ -1588,9 +1582,10 @@ PAP.GSM:
     - "|0>ο<T_1|ντος"  # §25
     - "|>ο<T_1|ντος"  # §26
     - "|ε>οῦ<T_1|ντος"  # §27
+    - "|ε{nocontract}>εο<T_1|ντος"  # NT §27
     - "|ο>οῦ<T_1|ντος"  # §27
     - "|α>ῶ<T_1|ντος"  # §27
-    # - "|η>ῶ<T_1|ντος"
+    - "|η>ῶ<T_1|ντος"  # for ζη if that's how ζάω is done
     - "|ε{athematic}>έ<|ντος"  # §28
     - "|ο{athematic}>ό<|ντος"  # §28
     - "|α{athematic}>ά<|ντος"  # §28
@@ -1682,7 +1677,7 @@ PAP.ASM:
     - "|α>ῶ<T_1|ντα"  # §27*
     # - "|η>ῶ<T_1|ντα"
     # - "|ε{athematic}>έ<|ντα"  # §28*
-    # - "|ο{athematic}>ό<|ντα"  # §28*
+    - "|ο{athematic}>ό<|ντα"  # NT §28*
     # - "|α{athematic}>ά<|ντα"  # §28*
     # - "|υ{athematic}>ύ<|ντα"  # §28*
 PAP.ASF:
@@ -1878,7 +1873,7 @@ PMI.3S:
     - "|υ{athematic}>υ<|ται"  # §60c
     - "|α{athematic}>α<|ται"  # §60d
     # - "|η{athematic}>η<|ται"
-    # - "|ει{athematic}>εῖ<|ται"
+    - "|ει{athematic}>εῖ<|ται"  # NT
     # - "|ει{athematic}>ει<|ται"
 PMI.1P:
     - "|>ό<T_1|μεθα"  # §48
@@ -1998,8 +1993,8 @@ PMP.NSM:
     - "|α{athematic}>ά<|μενος"  # § 35
     - "|υ{athematic}>ύ<|μενος"  # § 35
     - "|υ{athematic}>ύ<|μενος"  # § 35
-    # - "|η{athematic}>ή<|μενος"
-    # - "|ει{athematic}>εί<|μενος"
+    - "|η{athematic}>ή<|μενος"  # NT
+    - "|ει{athematic}>εί<|μενος"  # NT
 PMP.VSM:
     - "|>ό<T_1|μενε"
     # - "|ε>ού<T_1|μενε"
@@ -2037,7 +2032,7 @@ PMP.VSN:
     ref: PMP.NSN
 PMP.NPM:
     - "|>ό<T_1|μενοι"  # § 34
-    # - "|ε>ού<T_1|μενοι"  # § 35*
+    - "|ε>ού<T_1|μενοι"  # NT § 35*
     # - "|ο>ού<T_1|μενοι"  # § 35*
     # - "|α>ώ<T_1|μενοι"  # § 35*
     # - "|η>ώ<T_1|μενοι"
@@ -2078,7 +2073,7 @@ PMP.ASM:
     - "|α{athematic}>ά<|μενον"  # § 35
     - "|υ{athematic}>ύ<|μενον"  # § 35
     # - "|η{athematic}>ή<|μενον"
-    # - "|ει{athematic}>εί<|μενον"
+    - "|ει{athematic}>εί<|μενον"  # in NT
 PMP.ASF:
     - "|>ο<T_1|μένην"  # § 34
     # - "|ε>ου<T_1|μένην"  # § 35*
@@ -2088,9 +2083,9 @@ PMP.ASF:
     # - "|ε{athematic}>ε<|μένην"  # § 35*
     # - "|ο{athematic}>ο<|μένην"  # § 35*
     # - "|α{athematic}>α<|μένην"  # § 35*
-    # - "|υ{athematic}>υ<|μένην"  # § 35*
+    - "|υ{athematic}>υ<|μένην"  # NT § 35*
     # - "|η{athematic}>η<|μένην"
-    # - "|ει{athematic}>ει<|μένην"
+    - "|ει{athematic}>ει<|μένην"  # NT
 PMP.ASN:
     ref: PMP.ASM
 PMP.APM:
@@ -2103,7 +2098,7 @@ PMP.APM:
     # - "|ο{athematic}>ο<|μένους"  # § 35*
     # - "|α{athematic}>α<|μένους"  # § 35*
     # - "|υ{athematic}>υ<|μένους"  # § 35*
-    # - "|η{athematic}>η<|μένους"
+    - "|η{athematic}>η<|μένους"  # NT
     # - "|ει{athematic}>ει<|μένους"
 PMP.APF:
     - "|>ο<T_1|μένᾱς"  # § 34
@@ -2125,7 +2120,7 @@ PMP.APN:
     # - "|ο{athematic}>ό<|μενα"  # § 35
     # - "|α{athematic}>ά<|μενα"  # § 35
     # - "|υ{athematic}>ύ<|μενα"  # § 35
-    # - "|ει{athematic}>εί<|μενα"
+    - "|ει{athematic}>εί<|μενα"  # NT
 PMP.GSM:
     - "|>ο<T_1|μένου"  # § 34
     # - "|ε>ου<T_1|μένου"  # § 35*
@@ -2163,7 +2158,7 @@ PMP.GPM:
     # - "|α{athematic}>α<|μένων"  # § 35*
     # - "|υ{athematic}>υ<|μένων"  # § 35*
     # - "|η{athematic}>η<|μένων"
-    # - "|ει{athematic}>ει<|μένων"
+    - "|ει{athematic}>ει<|μένων"  # NT
 PMP.GPF:
     ref: PMP.GPM
 PMP.GPN:
@@ -2203,7 +2198,7 @@ PMP.DPM:
     # - "|α{athematic}>α<|μένοις"  # § 35*
     # - "|υ{athematic}>υ<|μένοις"  # § 35*
     # - "|η{athematic}>η<|μένοις"
-    # - "|ει{athematic}>ει<|μένοις"
+    - "|ει{athematic}>ει<|μένοις"  # NT
 PMP.DPF:
     - "|>ο<T_1|μέναις"  # § 34
     # - "|α>ω<T_1|μέναις"
@@ -2315,7 +2310,7 @@ XAI.3P:
     - "|>ᾱ<α|σι;+no-final-nu-xai.3p"
     - "|α{athematic}>ᾶ<|σι(ν)"  # §62
     - "|δ{athematic}>σα<σα|σι(ν)"  # @@@
-    # - "|@>α<α|ν"  # @@@
+    - "|><|αν;+HGrk"  # @@@
 
 XAN:
     - "|>έ<@|ναι"  # §51
@@ -2426,7 +2421,7 @@ XAP.DPN:
     ref: XAP.DPM
 XAP.ASM:
     - "|>ό<ο|τα"  # §33
-    # - "|α{athematic}>ῶ<ο|τα"
+    - "|α{athematic}>ῶ<ο|τα"  # NT
     # - "ε|{athematic}>ῶ<ο|τα"  # @@@
 XAP.ASF:
     - "|>υῖ<@σ|αν"  # §33
@@ -2547,6 +2542,8 @@ XMI.2P:
     - "|λ>λ<σ|θε"  # Sph @@@
 XMI.3P:
     - "[αεηιουῡωρ]|><|νται"
+    - "|ε>η<|νται"  # for κεκράτηνται @@@
+    - "|{o}>ω<|νται"  # hack for ἀφέωνται @@@
 
 XMN:
     - "|><|σθαι"  # §51
@@ -2725,9 +2722,9 @@ XMP.DPN:
 XMP.ASM:
     - "|><|μένον"  # §39
     # - "|@>ημ<μ|ένον"  # should this be extended to all others?
-    # - "|π>μμ<μ|ένον"
+    - "|π>μμ<μ|ένον"
     - "|β>μμ<μ|ένον"
-    # - "|φ>μμ<μ|ένον"
+    - "|φ>μμ<μ|ένον"
     # - "|τ>σμ<μ|ένον"
     # - "|δ>σμ<μ|ένον"
     # - "|θ>σμ<μ|ένον"
@@ -2772,9 +2769,9 @@ XMP.APF:
     # - "|χ>γμ<μ|ένᾱς"
 XMP.APN:
     - "|><|μένα"
-    # - "|π>μμ<μ|ένα"
-    # - "|β>μμ<μ|ένα"
-    # - "|φ>μμ<μ|ένα"
+    - "|π>μμ<μ|ένα"  # NT
+    - "|β>μμ<μ|ένα"  # NT
+    - "|φ>μμ<μ|ένα"  # NT
     # - "|τ>σμ<μ|ένα"
     # - "|δ>σμ<μ|ένα"
     # - "|θ>σμ<μ|ένα"
@@ -2801,19 +2798,19 @@ YAI.3S:
 YAI.1P:
     - "|>ε<ε|μεν"  # §51
     - "|δ{athematic}>σ<|μεν"  # οἶδα
-    - "[α]|{athematic}><|μεν"
+    - "α|{athematic}><|μεν"
 YAI.2P:
     - "|>ε<ε|τε"  # classical §51
-    # - "|>ει<ει|τε"  # NTGreek
+    - "|>ει<ει|τε;+HGrk"  # NTGreek
     - "|δ{athematic}>σ<|τε"  # οἶδα
-    - "[α]|{athematic}><|τε"
+    - "α|{athematic}><|τε"
 YAI.3P:
-    - "|>ε<ε|σαν"  # classical §51
-    # - "|>ει<ει|σαν"  # NTGreek (and see oida-yai3p-variant)
+    - "|>ε<ε|σαν;-HGrk"  # classical §51
+    - "|>ει<ει|σαν;+HGrk"  # NTGreek (and see oida-yai3p-variant)
     - "|δ{athematic}>σ<σ|αν;-oida-yai3p-variant"  # ᾖσαν (οἶδα)
     - "|δ{athematic}>δει<ει|σαν;+oida-yai3p-variant"  # ᾔδεισαν (οἶδα)
     - "|δ{athematic}>δε<ε|σαν;-oida-yai3p-variant"  # ᾔδεσαν (οἶδα) (classical)
-    - "[α]|{athematic}><|σαν"
+    - "α|{athematic}><|σαν"
 
 YMI.1S:
     - "|><|μην"  # §51
@@ -2877,3 +2874,4 @@ YMI.2P:
 YMI.3P:
     # only stems ending in vowel
     - "[αεηιουῡωρ]|><|ντο"
+    - "|ε>ει<ε|ντο"

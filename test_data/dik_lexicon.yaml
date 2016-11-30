@@ -89,5 +89,5 @@
         3-: γνω{root}
         3+: ἐγνω{root}
     stem_overrides:
-        - ["AA[SOP]", "γνο{root}"]
+        - ["AA[OP]", "γνο{root}"]
         - ["AAD.3P", "γνο{root}"]

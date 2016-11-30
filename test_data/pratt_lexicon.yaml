@@ -22,7 +22,7 @@
         3-: γνω{root}  # originally had γνο{root} for Pratt and did gradation in stemming
         3+: ἐγνω{root}  # originally had ἐγνο{root} for Pratt and did gradation in stemming
     stem_overrides:
-        - ["AA[SOP]", "γνο{root}"]
+        - ["AA[OP]", "γνο{root}"]
         - ["AAD.3P", "γνο{root}"]
 
 δείκνυμι:
@@ -69,7 +69,7 @@
         2-: ἐσ
     stem_overrides:
         - ["PAI.1S", "εἰ{athematic}{enclitic}"]
-        - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
+        # - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
         - ["PAI.[12]P", "ἐσ{athematic}{enclitic}"]
         - ["PAI.3P", "εἰ{athematic}{enclitic}"]
         - ["PAN", "εἰ{athematic}"]
