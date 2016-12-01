@@ -16,7 +16,7 @@ debug = False
 incorrect_count = 0
 total_count = 0
 
-for book_num in [4, 23, 24, 25]:
+for book_num in [4, 9, 23, 24, 25]:
     for row in morphgnt_rows(book_num):
         b, c, v = bcv_tuple(row["bcv"])
         if row["ccat-pos"] == "V-":

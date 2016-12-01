@@ -62,3 +62,5 @@ needs to be changed to
 `@0` means no stem could be guessed. This normally means a missing `stemming.yaml` rule.
 
 6. modify `./morphgnt_generate.py` to test your new lexicon
+
+Failures could just be mistakes you made in step 5 or could be missing `stemming.yaml` rules.
