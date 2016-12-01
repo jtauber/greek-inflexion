@@ -59,6 +59,6 @@ for lemma, parts in sorted(STEM_GUESSES.items()):
         if len(stem) == 0:
             print("        {}: {}  # @0".format(part, stem_sets))
         elif len(stem) == 1:
-            print("        {}: {}".format(part, stem.pop()))
+            print("        {}: {}  # @1".format(part, stem.pop()))
         else:
             print("        {}: {}  # @m".format(part, stem))
