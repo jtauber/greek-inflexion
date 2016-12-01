@@ -54,6 +54,7 @@ for book_num in args.books:
                 "oida-yai3p-variant",
                 "no-final-nu-yai.3s",
                 "late-pluperfect-singulars",
+                "sigma-loss-pmd.2s",
                 "HGrk",
             ])
 
