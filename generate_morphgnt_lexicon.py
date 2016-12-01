@@ -38,26 +38,59 @@ def convert_parse(ccat_parse):
     return result
 
 
+PARTS = {
+    "1-": [
+        "PAD", "PAI", "PAN", "PAP", "PAS", "PAO",
+        "PMD", "PMI", "PMN", "PMP", "PMS",
+    ],
+    "1+": [
+        "IAI",
+        "IMI",
+    ],
+    "2-": [
+        "FAI", "FAN", "FAP",
+        "FMI",
+    ],
+    "3-": [
+        "AAD", "AAN", "AAP", "AAS", "AAO",
+        "AMD", "AMN", "AMP", "AMS", "AMO",
+    ],
+    "3+": [
+        "AAI",
+        "AMI",
+    ],
+    "4-": [
+        "XAI", "XAN", "XAP", "XAS",
+    ],
+    "4+": [
+        "YAI",
+    ],
+    "5-": [
+        "XMD", "XMI", "XMN", "XMP",
+    ],
+    "5+": [
+        "YMI",
+    ],
+    "6-": [
+        "APD", "APN", "APP", "APS", "APO",
+    ],
+    "6+": [
+        "API",
+    ],
+    "7-": [
+        "FPI", "FPP",
+    ]
+}
+
+REVERSE_PARTS = {}
+
+for part, tvm_list in PARTS.items():
+    for tvm in tvm_list:
+        REVERSE_PARTS[tvm] = part
+
+
 def pp(key):
-    return {
-        "PAD": "1-", "PAI": "1-", "PAN": "1-", "PAP": "1-", "PAS": "1-", "PAO": "1-",
-        "PMD": "1-", "PMI": "1-", "PMN": "1-", "PMP": "1-", "PMS": "1-",
-                     "IAI": "1+",
-                     "IMI": "1+",
-                     "FAI": "2-", "FAN": "2-", "FAP": "2-",
-                     "FMI": "2-",
-        "AAD": "3-",              "AAN": "3-", "AAP": "3-", "AAS": "3-",
-        "AMD": "3-",              "AMN": "3-", "AMP": "3-", "AMS": "3-",
-                     "AAI": "3+",
-                     "AMI": "3+",
-                     "XAI": "4-", "XAN": "4-", "XAP": "4-", "XAS": "4-",
-                     "YAI": "4+",
-                     "XMI": "5-",              "XMP": "5-",
-                     "YMI": "5+",
-                                  "APN": "6-", "APP": "6-", "APS": "6-",
-                     "API": "6+",
-                     "FPI": "7-",
-    }[key[0:3]]
+    return REVERSE_PARTS[key[0:3]]
 
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
