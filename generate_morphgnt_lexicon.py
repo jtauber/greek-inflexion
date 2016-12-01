@@ -49,7 +49,13 @@ for book_num in args.books:
             key = convert_parse(row["ccat-parse"])
             form = row["norm"]
 
-            tags = set()
+            tags = set([
+                "final-nu-aai.3s",
+                "oida-yai3p-variant",
+                "no-final-nu-yai.3s",
+                "late-pluperfect-singulars",
+                "HGrk",
+            ])
 
             c = form.count("/") + 1
             stem = ginflexion.find_stems(lemma, key, tags)
