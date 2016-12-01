@@ -8,7 +8,7 @@ from morphgnt_utils import bcv_tuple, convert_parse
 from test_generate import output_item
 
 
-ginflexion = GreekInflexion("stemming.yaml", "morphgnt_johannine_lexicon.yaml")
+ginflexion = GreekInflexion("stemming.yaml", "morphgnt_lexicon.yaml")
 
 debug = False
 
