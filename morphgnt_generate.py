@@ -39,6 +39,10 @@ debug = False
 incorrect_count = 0
 total_count = 0
 
+IGNORE_LIST = [
+    "σαβαχθάνι",
+]
+
 for book_num in args.books:
     for row in morphgnt_rows(book_num):
         b, c, v = bcv_tuple(row["bcv"])
@@ -48,6 +52,9 @@ for book_num in args.books:
             lemma = row["lemma"]
             key = convert_parse(row["ccat-parse"])
             form = row["norm"]
+
+            if lemma in IGNORE_LIST:
+                continue
 
             tags = set([
                 "final-nu-aai.3s",
