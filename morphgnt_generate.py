@@ -4,34 +4,11 @@ from pysblgnt import morphgnt_rows
 
 from accent import strip_length  # , rebreath
 from greek_inflexion import GreekInflexion
-
+from morphgnt_utils import bcv_tuple, convert_parse
 
 ginflexion = GreekInflexion("stemming.yaml", "morphgnt_johannine_lexicon.yaml")
 
 debug = False
-
-
-# @@@ move this to greek-utils
-
-def bcv_tuple(bcv):
-    """
-    converts a BBCCVV string into a tuple of book, chapter, verse number.
-
-    e.g. "012801" returns (1, 28, 1)
-    """
-    return (int(i) for i in [bcv[0:2], bcv[2:4], bcv[4:6]])
-
-
-def convert_parse(ccat_parse):
-    if ccat_parse[3] in "DISO":
-        result = ccat_parse[1:4] + "." + ccat_parse[0] + ccat_parse[5]
-    elif ccat_parse[3] == "P":
-        result = ccat_parse[1:4] + "." + ccat_parse[4:7]
-    elif ccat_parse[3] == "N":
-        result = ccat_parse[1:4]
-    if result[1] == "P" and result[0] not in "AF":
-        result = result[0] + "M" + result[2:]
-    return result
 
 
 incorrect_count = 0
