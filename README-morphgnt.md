@@ -31,11 +31,11 @@ $ ./morphgnt_generate.py 23 24 25
 `morphgnt_generate.py` also takes `--lexicon` and `--stemming` arguments to change the stem lexicon and stemming rule files respectively.
 
 
-## How to Extend Scope of Lexicon
+## How to Extend Coverage of Lexicon
 
-1. modify `generate_morphgnt_lexicon.py` (around line 21) to run on the book you want to add support for
+1. run `generate_morphgnt_lexicon.py` on the book(s) you want to add coverage for
 2. `./generate_morphgnt_lexicon.py > tmp1`
-3. `cat morphgnt_johannine_lexicon.yaml tmp1 > tmp2`
+3. `cat morphgnt_lexicon.yaml tmp1 > tmp2`
 4. `./sort_lexicon.py tmp2 > morphgnt_lexicon.yaml`
 5. review all lines in `morphgnt_lexicon.yaml` that have `# @` (you can review about 10 a minute once you get good at it)
 

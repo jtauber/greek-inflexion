@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 from collections import defaultdict
 
 from pysblgnt import morphgnt_rows
@@ -9,16 +10,38 @@ from greek_inflexion import GreekInflexion
 from morphgnt_utils import bcv_tuple, convert_parse, key_to_part
 
 
+argparser = argparse.ArgumentParser(
+    description="generate starting point for new lexicon")
+
+argparser.add_argument(
+    "books", metavar="BOOK_NUMBER", type=int, nargs="+",
+    help="a book (Matt = 1)")
+
+argparser.add_argument(
+    "--lexicon", dest="lexicon",
+    default="morphgnt_lexicon.yaml",
+    help="path to initial stem lexicon file "
+         "(defaults to morphgnt_lexicon.yaml)")
+
+argparser.add_argument(
+    "--stemming", dest="stemming",
+    default="stemming.yaml",
+    help="path to stemming rules file "
+         "(defaults to stemming.yaml)")
+
+args = argparser.parse_args()
+
+
 ginflexion = GreekInflexion(
-    "stemming.yaml",
-    "morphgnt_johannine_lexicon.yaml",
+    args.stemming,
+    args.lexicon,
     strip_length=True
 )
 
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for book_num in [4, 23, 24, 25]:
+for book_num in args.books:
     for row in morphgnt_rows(book_num):
         b, c, v = bcv_tuple(row["bcv"])
         if row["ccat-pos"] == "V-":
