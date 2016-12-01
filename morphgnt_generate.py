@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import argparse
+
 from pysblgnt import morphgnt_rows
 
 from accent import strip_length  # , rebreath
@@ -8,7 +10,28 @@ from morphgnt_utils import bcv_tuple, convert_parse
 from test_generate import output_item
 
 
-ginflexion = GreekInflexion("stemming.yaml", "morphgnt_lexicon.yaml")
+argparser = argparse.ArgumentParser(
+    description="validation generation of correct forms")
+
+argparser.add_argument(
+    "books", metavar="BOOK_NUMBER", type=int, nargs="+",
+    help="a book (Matt = 1)")
+
+argparser.add_argument(
+    "--lexicon", dest="lexicon",
+    default="morphgnt_lexicon.yaml",
+    help="path to stem lexicon file "
+         "(defaults to morphgnt_lexicon.yaml)")
+
+argparser.add_argument(
+    "--stemming", dest="stemming",
+    default="stemming.yaml",
+    help="path to stemming rules file "
+         "(defaults to stemming.yaml)")
+
+args = argparser.parse_args()
+
+ginflexion = GreekInflexion(args.stemming, args.lexicon)
 
 debug = False
 
@@ -16,7 +39,7 @@ debug = False
 incorrect_count = 0
 total_count = 0
 
-for book_num in [4, 9, 23, 24, 25]:
+for book_num in args.books:
     for row in morphgnt_rows(book_num):
         b, c, v = bcv_tuple(row["bcv"])
         if row["ccat-pos"] == "V-":

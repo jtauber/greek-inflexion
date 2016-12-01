@@ -6,11 +6,29 @@ It adds the following files:
 
 
 * `morphgnt_johannine_lexicon.yaml` -- the stem dataset for the verbs in gospel/epistles of John
-* `morphgnt_generate.py` -- script that goes through (using `py-sblgnt`) all the verb forms in the gospel/epistles of John (or any other books, just change line 40) and validate that the code + dataset generates the correct form
+* `morphgnt_lexicon.yaml` -- WIP stem dataset with more verbs (currently above + Galatians)
+* `morphgnt_generate.py` -- script that goes through (using `py-sblgnt`) all the verb forms in given NT books and validates that the code + dataset generates the correct form
 * `generate_morphgnt_lexicon.py` -- similar to `morphgnt_generate.py` but instead of just validating an showing unexplainable forms, builds the starting point for a lexicon file to explain the forms
 * `make_morphgnt_test.py` -- script for generating a YAML test file (like those in `test_data/`) based on verbs in John (or change line 10)
 * `make_morphgnt_nominal_test.py` -- like `make-morphgnt_test.py` but for nouns and adjectives.
 * `morphgnt_utils.py` -- common code used by the above scripts
+
+
+## Using `morphgnt_generate.py`
+
+To test John's gospel:
+
+```
+$ ./morphgnt_generate.py 4
+```
+
+To test the Johannine Epistles:
+
+```
+$ ./morphgnt_generate.py 23 24 25
+```
+
+`morphgnt_generate.py` also takes `--lexicon` and `--stemming` arguments to change the stem lexicon and stemming rule files respectively.
 
 
 ## How to Extend Scope of Lexicon
@@ -61,6 +79,6 @@ needs to be changed to
 
 `@0` means no stem could be guessed. This normally means a missing `stemming.yaml` rule.
 
-6. modify `./morphgnt_generate.py` to test your new lexicon
+Run `./morphgnt_generate.py` with appropriate arguments to test your new lexicon.
 
 Failures could just be mistakes you made in step 5 or could be missing `stemming.yaml` rules.
