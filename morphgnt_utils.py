@@ -1,5 +1,6 @@
 # @@@ move this to greek-utils
 
+
 def bcv_tuple(bcv):
     """
     converts a BBCCVV string into a tuple of book, chapter, verse number.
