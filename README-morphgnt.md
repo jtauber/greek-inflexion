@@ -33,11 +33,10 @@ $ ./morphgnt_generate.py 23 24 25
 
 ## How to Extend Coverage of Lexicon
 
-1. run `generate_morphgnt_lexicon.py` on the book(s) you want to add coverage for
-2. `./generate_morphgnt_lexicon.py > tmp1`
-3. `cat morphgnt_lexicon.yaml tmp1 > tmp2`
-4. `./sort_lexicon.py tmp2 > morphgnt_lexicon.yaml`
-5. review all lines in `morphgnt_lexicon.yaml` that have `# @` (you can review about 10 a minute once you get good at it)
+1. run `generate_morphgnt_lexicon.py` on the book(s) you want to add coverage for: `./generate_morphgnt_lexicon.py BOOK1 BOOK2 ... > tmp1`
+2. `cat morphgnt_lexicon.yaml tmp1 > tmp2`
+3. `./sort_lexicon.py tmp2 > morphgnt_lexicon.yaml`
+4. review all lines in `morphgnt_lexicon.yaml` that have `# @` (you can review about 10 a minute once you get good at it)
 
 `@m` means multiple possible stems, for example:
 
