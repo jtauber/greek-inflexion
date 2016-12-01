@@ -11,7 +11,7 @@ from test_generate import output_item
 
 
 argparser = argparse.ArgumentParser(
-    description="validation generation of correct forms")
+    description="validate generation of correct forms")
 
 argparser.add_argument(
     "books", metavar="BOOK_NUMBER", type=int, nargs="+",
