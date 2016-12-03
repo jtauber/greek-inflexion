@@ -538,6 +538,7 @@
       - ["PAI..S", "ἱστη{athematic}"]
       - ["PAD.2S", "ἱστη"]  # η or α{#} ?
       - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
+      - ["PMS.3P", "ἱστα"]
       # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
       # - ["IAI..2S", "ῑ̔στη"]
       - ["[XY]AI.[123]P", "ἑστα{athematic}"]

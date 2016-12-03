@@ -55,6 +55,10 @@ for book_num in args.books:
             key = convert_parse(row["ccat-parse"])
             form = row["norm"]
 
+            # need to just do this in MorphGNT itself
+            if key == "AAO.3P":
+                form = form.replace("(ν)", "ν")
+
             if lemma in IGNORE_LIST:
                 continue
 
