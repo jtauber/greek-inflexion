@@ -134,6 +134,7 @@
     stem_overrides:
         - ["XAI..S", "ἑστηκ"]
         - ["PAD.2S", "ἱστη"]
+        - ["PMS.3P", "ἱστα"]
     forms:
         XAP.NSN: ἑστός
         XAP.NSF: ἑστῶσα

@@ -74,6 +74,7 @@
     stem_overrides:
       - ["PAI..S", "ἱστη{athematic}"]
       - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+      - ["PMS.3P", "ἱστα"]
 
 δείκνυμι:
     stems:
