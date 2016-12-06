@@ -56,7 +56,7 @@ for book_num in args.books:
             form = row["norm"]
 
             # need to just do this in MorphGNT itself
-            if key == "AAO.3P":
+            if key in ["AAO.3P", "PAO.3P"]:
                 form = form.replace("(ν)", "ν")
 
             if lemma in IGNORE_LIST:
