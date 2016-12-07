@@ -43,6 +43,7 @@ IGNORE_LIST = [
     "κουμ",
     "εφφαθα",
     "σαβαχθάνι",
+    "θά",
 ]
 
 for book_num in args.books:
