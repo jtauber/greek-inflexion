@@ -75,19 +75,16 @@ for book_num in args.books:
             stem = ginflexion.find_stems(lemma, key, tags)
             generated = ginflexion.generate(lemma, key, tags)
 
-            if stem:
-                stem_guess = None
-            else:
-                stem_guess = [
-                    stem for key, stem in
-                    ginflexion.possible_stems(form, "^" + key + "$")]
-
             if strip_length(form) in [
                     strip_length(w) for w in sorted(generated)]:
                 correct = "✓"
+                stem_guess = None
             else:
                 correct = "✕"
                 incorrect_count += 1
+                stem_guess = [
+                    possible_stem for key, possible_stem in
+                    ginflexion.possible_stems(form, "^" + key + "$")]
 
             if debug or correct == "✕":
                 output_item(
