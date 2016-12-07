@@ -911,6 +911,7 @@
         4-: ἀπολωλ
     stem_overrides:
         - ["PAI.3S", "ἀπολλυ"]  # LTRG has ἀπολλῡ{athematic} for all PAI singular
+        - ["PAD.2S", "ἀπολλυ"]
     notes:
         - investigate why PAI.3S
         -
@@ -1989,6 +1990,8 @@
         - ["IAI.3P", "ἐδιδο/ἐδιδο{athematic}"]
         - ["AAS.3S", "δο{root}/δωσ/δο{athematic}"]
         - ["PAD.2S", "διδο"]
+    forms:
+        AAO.3S: δῴη  # @@@
     notes:
         - not 100% sure about 3-
         - δωσ in 3- seems a HGrk change
@@ -2105,6 +2108,10 @@
         1-: δοκιμαζ
         3-: δοκιμασ
         3+: ἐδοκιμασ
+
+δολιόω:
+    forms:
+        IAI.3P: ἐδολιοῦσαν
 
 δοξάζω:
     stems:
@@ -2586,6 +2593,8 @@
         6-: ἐλεηθ
         6+: ἠλεηθ
         7-: ἐλεηθησ
+    stem_overrides:
+        - ["PAI.3S", "ἐλεε"]  # @@@
 
 ἐλέγχω:
     stems:
@@ -3268,7 +3277,7 @@
     stems:
         1-: ἐπιπιπτ
         3-: ἐπιπεσ{2nd}
-        3+: ἐπεπεσ{2nd}
+        3+: ἐπεπεσ
         4-: ἐπιπεπτωκ
 
 ἐπιποθέω:
@@ -3597,7 +3606,7 @@
     stems:
         1-: εὐχαριστε
         3-: εὐχαριστησ
-        3+: εὐχαριστησ
+        3+: εὐχαριστησ/ηὐχαριστησ
 
 εὔχομαι:
     stems:
@@ -4182,6 +4191,8 @@
         5-: κατακεκρι
         6+: κατεκριθ
         7-: κατακριθησ
+    accents:
+        - ["PAP.NSM", "κατακρινῶν"]
 
 κατακυριεύω:
     stems:
@@ -6777,6 +6788,7 @@
 
 σκοτίζομαι:
     stems:
+        6-: σκοτισθ
         6+: ἐσκοτισθ
         7-: σκοτισθησ
 
@@ -7837,8 +7849,8 @@
 
 φημί:
     stems:
-        1-: φη{athematic}{enclitic}  # singular; LTRG/Pratt have
-        1+: ἐφα{athematic}  # plural; LTRG/Pratt have ἐφη{athematic} in singular
+        1-: φη{athematic}{enclitic}/φα{athematic}{enclitic}
+        1+: ἐφα{athematic}
     notes:
         - Classical 1- φη{athematic}{enclitic} in singular, φα{athematic}{enclitic} in plural
         - Classical 1+ ἐφη{athematic} in singular, ἐφα{athematic} in plural
