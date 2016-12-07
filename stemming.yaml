@@ -445,7 +445,7 @@ AMN:
     - "|{2nd}>έ<T_2|σθαι"  # §50 (but Pratt doesn't accent)
     - "|ε{athematic}>έ<|σθαι"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ό<|σθαι"  # §62 (@@@ or treat as root?)
-    # - "|α>ᾶ<|σθαι"  # @@@
+    - "|α>ᾶ<|σθαι"  # @@@ or is there a intervocalic sigma lost?
 
 AMO.1S:
     - "|>α<α|ίμην"
@@ -1304,6 +1304,7 @@ PAD.3P:
     - "|εσ{athematic}>ό<|ντων;+extra-eimi-pad.3p"
     - "|>έ<T_1|τωσαν;+HGrk"
     - "|ε>εί<Τ_2|τωσαν;+HGrk"
+    - "|α>ά<Τ_2|τωσαν;+HGrk"
     - "|{athematic}><|τωσαν;+HGrk"
 
 PAI.1S:
@@ -1740,7 +1741,7 @@ PAP.APN:
     - "|ο>οῦ<T_1|ντα"  # §27*
     - "|α>ῶ<T_1|ντα"  # §27*
     - "|η>ῶ<T_1|ντα"
-    # - "|ο{athematic}>ό<|ντα"  # §27*
+    - "|ο{athematic}>ό<|ντα"  # §27*
 
 PAS.1S:
     - "|><|ω"
@@ -2216,7 +2217,7 @@ PMP.DPM:
     # - "|ε{athematic}>ε<|μένοις"  # § 35*
     # - "|ο{athematic}>ο<|μένοις"  # § 35*
     # - "|α{athematic}>α<|μένοις"  # § 35*
-    # - "|υ{athematic}>υ<|μένοις"  # § 35*
+    - "|υ{athematic}>υ<|μένοις"  # § 35*
     - "|η{athematic}>η<|μένοις"
     - "|ει{athematic}>ει<|μένοις"  # NT
 PMP.DPF:
@@ -2446,7 +2447,7 @@ XAP.ASM:
     # - "ε|{athematic}>ῶ<ο|τα"  # @@@
 XAP.ASF:
     - "|>υῖ<@σ|αν"  # §33
-    # - "|α{athematic}>ῶ<@|σαν"
+    - "|α{athematic}>ῶ<@|σαν"
     # - "ε|{athematic}>ῶ<@|σαν"  # @@@
 XAP.ASN:
     - "|>ό<|ς"  # §33
