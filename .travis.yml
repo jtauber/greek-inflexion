@@ -9,7 +9,7 @@ install:
 script:
   - flake8 .
   - python data_test.py
-  - python morphgnt_generate.py 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 23 24 25
+  - python morphgnt_generate.py 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 23 24 25
   - python -m doctest examples.rst
   - coverage run --branch --source=accent.py,fileformat.py,greek_inflexion.py test.py
 after_success:
