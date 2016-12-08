@@ -1284,6 +1284,7 @@ PAD.3S:
 PAD.2P:
     - "|>ε<Τ_2|τε"
     - "|ε>εῖ<Τ_2|τε"
+    - "|ε{nocontract}>έε<Τ_2|τε"
     - "|α>ᾶ<Τ_2|τε"
     - "|ο>οῦ<Τ_2|τε"
     - "|η>η<Τ_2|τε"
@@ -1866,7 +1867,7 @@ PMI.1S:
     - "|ε{athematic}>ε<|μαι"  # §60b
     - "|υ{athematic}>υ<|μαι"  # §60c
     - "|α{athematic}>α<|μαι"  # §60d
-    # - "|η{athematic}>η<|μαι"
+    - "|η{athematic}>η<|μαι"
     # - "|ει{athematic}>εῖ<|μαι"  # needed for principal parts
     - "|ει{athematic}>ει<|μαι"
     - "|οι{athematic}>οῖ<|μαι"  # needed for principal parts
@@ -1895,7 +1896,7 @@ PMI.3S:
     - "|ε{athematic}>ε<|ται"  # §60b
     - "|υ{athematic}>υ<|ται"  # §60c
     - "|α{athematic}>α<|ται"  # §60d
-    # - "|η{athematic}>η<|ται"
+    - "|η{athematic}>η<|ται"
     - "|ει{athematic}>εῖ<|ται"  # NT
     - "|ει{athematic}>ει<|ται"
 PMI.1P:
@@ -2110,7 +2111,7 @@ PMP.ASF:
     # - "|ο{athematic}>ο<|μένην"  # § 35*
     # - "|α{athematic}>α<|μένην"  # § 35*
     - "|υ{athematic}>υ<|μένην"  # NT § 35*
-    # - "|η{athematic}>η<|μένην"
+    - "|η{athematic}>η<|μένην"
     - "|ει{athematic}>ει<|μένην"  # NT
 PMP.ASN:
     ref: PMP.ASM
@@ -2169,7 +2170,7 @@ PMP.GSF:
     # - "|ο{athematic}>ο<|μένης"  # § 35*
     # - "|α{athematic}>α<|μένης"  # § 35*
     - "|υ{athematic}>υ<|μένης"  # § 35*
-    # - "|η{athematic}>η<|μένης"
+    - "|η{athematic}>η<|μένης"
     - "|ει{athematic}>ει<|μένης"
 PMP.GSN:
     ref: PMP.GSM
@@ -2183,7 +2184,7 @@ PMP.GPM:
     # - "|ο{athematic}>ο<|μένων"  # § 35*
     - "|α{athematic}>α<|μένων"  # § 35*
     # - "|υ{athematic}>υ<|μένων"  # § 35*
-    # - "|η{athematic}>η<|μένων"
+    - "|η{athematic}>η<|μένων"
     - "|ει{athematic}>ει<|μένων"  # NT
 PMP.GPF:
     ref: PMP.GPM
@@ -2786,7 +2787,7 @@ XMP.APM:
     - "|χ>γμ<μ|ένους"
 XMP.APF:
     - "|><|μένᾱς"
-    # - "|π>μμ<μ|ένᾱς"
+    - "|π>μμ<μ|ένᾱς"
     # - "|β>μμ<μ|ένᾱς"
     # - "|φ>μμ<μ|ένᾱς"
     # - "|τ>σμ<μ|ένᾱς"
