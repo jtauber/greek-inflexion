@@ -4,14 +4,20 @@ from unicodedata import normalize
 
 from greekutils.beta2unicode import convert
 
-from accent import strip_length, strip_accents
+from accent import strip_length
 from greek_inflexion import GreekInflexion
 from test_generate import output_item
 from normalise import convert as norm_convert
 
 book_to_num = {
     "1Mac": 24,
+    "Jonah": 42,
 }
+
+MLXX_FILES = [
+    "lxxmorph/24.1Macc.mlxx",
+    "lxxmorph/42.Jonah.mlxx",
+]
 
 
 def convert_parse(parse):
@@ -64,44 +70,45 @@ total_count = 0
 
 ginflexion = GreekInflexion("stemming.yaml", "lxx_lexicon.yaml")
 
-for row in get_words("lxxmorph/24.1Macc.mlxx"):
-    total_count += 1
+for filename in MLXX_FILES:
+    for row in get_words(filename):
+        total_count += 1
 
-    form = row["word"]
-    preverb = row["preverb"]
-    lemma = row["lemma"]
-    key = convert_parse(row["parse"])
-    if preverb:
-        lemma = "+".join(preverb.split()) + "++" + lemma
+        form = row["word"]
+        preverb = row["preverb"]
+        lemma = row["lemma"]
+        key = convert_parse(row["parse"])
+        if preverb:
+            lemma = "+".join(preverb.split()) + "++" + lemma
 
-    form = norm_convert(form, lemma, key)
+        form = norm_convert(form, lemma, key)
 
-    tags = set([
-        "final-nu-aai.3s",
-        # "oida-yai3p-variant",
-        "no-final-nu-yai.3s",
-        # "late-pluperfect-singulars",
-        # "sigma-loss-pmd.2s",
-        "HGrk",
-    ])
+        tags = set([
+            "final-nu-aai.3s",
+            # "oida-yai3p-variant",
+            "no-final-nu-yai.3s",
+            # "late-pluperfect-singulars",
+            # "sigma-loss-pmd.2s",
+            "HGrk",
+        ])
 
-    c = form.count("/") + 1
-    stem = ginflexion.find_stems(lemma, key, tags)
-    generated = ginflexion.generate(lemma, key, tags)
+        c = form.count("/") + 1
+        stem = ginflexion.find_stems(lemma, key, tags)
+        generated = ginflexion.generate(lemma, key, tags)
 
-    if strip_length(form) in [
-            strip_length(w) for w in sorted(generated)]:
-        correct = "✓"
-        stem_guess = None
-        parse_guess = None
-    else:
-        correct = "✕"
-        incorrect_count += 1
-        possible_stems = ginflexion.possible_stems(form)
+        if strip_length(form) in [
+                strip_length(w) for w in sorted(generated)]:
+            correct = "✓"
+            stem_guess = None
+            parse_guess = None
+        else:
+            correct = "✕"
+            incorrect_count += 1
+            possible_stems = ginflexion.possible_stems(form)
 
-    if debug or correct == "✕":
-        output_item(
-            lemma, key, form,
-            stem, possible_stems, generated, correct)
+        if debug or correct == "✕":
+            output_item(
+                lemma, key, form,
+                stem, possible_stems, generated, correct)
 
 print("{}/{} incorrect".format(incorrect_count, total_count))

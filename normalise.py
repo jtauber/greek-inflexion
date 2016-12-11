@@ -14,6 +14,7 @@ ACCENTS = [VARIA, OXIA, PERISPOMENI]
 def d(s):
     return unicodedata.normalize("NFD", s)
 
+
 def n(x):
     return unicodedata.normalize("NFKC", x)
 
@@ -100,7 +101,7 @@ def convert(word, lemma, parse):
         ):
             norm = norm + u"(ν)"
 
-    if norm in [u"ἐστιν", u"ἐστίν", u"ἐστι", u"ἐστί", u"ἔστιν", u"ἔστι"]: # @@@
+    if norm in [u"ἐστιν", u"ἐστίν", u"ἐστι", u"ἐστί", u"ἔστιν", u"ἔστι"]:
         norm = u"ἐστί(ν)"
 
     # if norm in [u"ἔξεστιν", u"ἔξεστι"]:
