@@ -1,0 +1,241 @@
+--- 24.1Macc.orig	2016-12-07 05:41:38.000000000 -0500
++++ 24.1Macc.mlxx	2016-12-09 22:56:52.000000000 -0500
+@@ -1076,7 +1076,7 @@
+ SU/GKRIMA                N3T ASN    SU/GKRIMA
+ TOU=                     RA  GSM    O(
+ BASILE/WS                N3V GSM    BASILEU/S
+-E)QANA/TOU               V4I IMI3S  QANATO/W
++E)QANA/TOU               V4I IAI3S  QANATO/W
+ AU)TO/N                  RD  ASM    AU)TO/S
+ 
+ 1Mac 1:58
+@@ -1611,7 +1611,7 @@
+ KAI\                     C          KAI/
+ E)ZH/LWSEN               VAI AAI3S  ZHLO/W
+ KAI\                     C          KAI/
+-E)TRO/MHSAN              VAI AAI3S  TROME/W
++E)TRO/MHSAN              VAI AAI3P  TROME/W
+ OI(                      RA  NPM    O(
+ NEFROI\                  N2  NPM    NEFRO/S
+ AU)TOU=                  RD  GSM    AU)TO/S
+@@ -2161,7 +2161,7 @@
+ GENEAI=S                 N1A DPF    GENEA/
+ AU)TW=N                  RD  GPM    AU)TO/S
+ KAI\                     C          KAI/
+-DE/CASQE                 VD  AAD2P  DE/XOMAI
++DE/CASQE                 VD  AMD2P  DE/XOMAI
+ DO/CAN                   N1S ASF    DO/CA
+ MEGA/LHN                 A1  ASF    ME/GAS
+ KAI\                     C          KAI/
+@@ -2223,7 +2223,7 @@
+ *XALEB                   N   NSM    *XALEB
+ E)N                      P          E)N
+ TW=|                     RA  DSN    O(
+-MARTU/RASQAI             VC  APN    MARTURE/W
++MARTU/RASQAI             VC  AMN    MARTURE/W
+ E)N                      P          E)N
+ TH=|                     RA  DSF    O(
+ E)KKLHSI/A|              N1A DSF    E)KKLHSI/A
+@@ -2958,7 +2958,7 @@
+ TW=N                     RA  GPM    O(
+ PARATA/CEWN              N3I GPM    PARA/TACIS
+ *IOUDOU                  N1T GSM    *I)OU/DAS
+-E)CHGEI=TO               V2I IMI3P  H)GE/OMAI        E)K
++E)CHGEI=TO               V2I IMI3S  H)GE/OMAI        E)K
+ TA\                      RA  NPN    O(
+ E)/QNH                   N3E NPN    E)/QNOS
+ 
+@@ -3064,7 +3064,7 @@
+ TA\                      RA  APN    O(
+ DO/MATA                  N3M APN    DO/MA
+ A(\                      RR  APN    O(/S
+-E)DI/DOU                 V8I IMI3S  DI/DWMI
++E)DI/DOU                 V8I IAI3S  DI/DWMI
+ E)/MPROSQEN              D          E)/MPROSQEN
+ DAYILH=|                 A3H DSF    DAYILH/S
+ XEIRI\                   N3  DSF    XEI/R
+@@ -3509,7 +3509,7 @@
+ 
+ 1Mac 3:48
+ KAI\                     C          KAI/
+-E)CEPE/TASAN             VA  AAPASN E)TA/ZW          E)K   E)PI
++E)CEPE/TASAN             VA  AAI3P  E)TA/ZW          E)K   E)PI
+ TO\                      RA  ASN    O(
+ BIBLI/ON                 N2N ASN    BIBLI/ON
+ TOU=                     RA  GSM    O(
+@@ -3556,7 +3556,7 @@
+ OU)RANO\N                N2  ASM    OU)RANO/S
+ LE/GONTES                V1  PAPNPM LE/GW
+ TI/                      RI  ASN    TI/S
+-POIH/SWMEN               VF  FAI1P  POIE/W
++POIH/SWMEN               VF  AAS1P  POIE/W
+ TOU/TOIS                 RD  DPM    OU(=TOS
+ KAI\                     C          KAI/
+ POU=                     D          POU=
+@@ -4692,7 +4692,7 @@
+ TRA/PEZAN                N1S ASF    TRA/PEZA
+ A)/RTOUS                 N2  APM    A)/RTOS
+ KAI\                     C          KAI/
+-E)CEPE/TASAN             VA  AAPASN E)TA/ZW          E)K   E)PI
++E)CEPE/TASAN             VA  AAI3P  E)TA/ZW          E)K   E)PI
+ TA\                      RA  APN    O(
+ KATAPETA/SMATA           N3M APN    KATAPE/TASMA
+ KAI\                     C          KAI/
+@@ -6657,7 +6657,7 @@
+ PROSW/POU                N2N GSN    PRO/SWPON
+ AU)TW=N                  RD  GPM    AU)TO/S
+ KAI\                     C          KAI/
+-E)PI/SXUSAN              VA  AAPASN I)SXU/W          E)PI
++E)PI/SXUSAN              VA  AAI3P  I)SXU/W          E)PI
+ O(/PLOIS                 N2N DPN    O(/PLON
+ KAI\                     C          KAI/
+ DUNA/MEI                 N3I DSF    DU/NAMIS
+@@ -7048,7 +7048,7 @@
+ 
+ 1Mac 6:24
+ KAI\                     C          KAI/
+-PERIEKA/QHNTO            VCI AMI3P  H(=MAI           PERI  KATA
++PERIEKA/QHNTO            VCI IMI3P  H(=MAI           PERI  KATA
+ E)P'                     P          E)PI/
+ AU)TH\N                  RD  ASF    AU)TO/S
+ OI(                      RA  NPM    O(
+@@ -7628,7 +7628,7 @@
+ E)KEI=                   D          E)KEI=
+ DIATROFH\                N1  NSF    DIATROFH/
+ TOU=                     RA  GSN    O(
+-SUGKEKLEI=SQAI           VM  PPN    KLEI/W           SUN
++SUGKEKLEI=SQAI           VM  XMN    KLEI/W           SUN
+ E)N                      P          E)N
+ AU)TH=|                  RD  DSF    AU)TO/S
+ O(/TI                    C          O(/TI
+@@ -8070,7 +8070,7 @@
+ TO\N                     RA  ASM    O(
+ BASILE/A                 N3V ASM    BASILEU/S
+ LE/GONTES                V1  PAPNPM LE/GW
+-A)PW/LESEN               VAI PAI3S  O)LLU/W          A)PO
++A)PW/LESEN               VAI AAI3S  O)LLU/W          A)PO
+ *IOUDAS                  N1T NSM    *I)OU/DAS
+ KAI\                     C          KAI/
+ OI(                      RA  NPM    O(
+@@ -9187,7 +9187,7 @@
+ BASILE/A                 N3V ASM    BASILEU/S
+ KAI\                     C          KAI/
+ TOU\S                    RA  APM    O(
+-E)PHRME/NOUS             V1  PMPAPM AI)/RW           E)PI
++E)PHRME/NOUS             V1  XMPAPM AI)/RW           E)PI
+ E)P'                     P          E)PI/
+ AU)TOU\S                 RD  APM    AU)TO/S
+ SUNE/TRIYAN              VAI AAI3P  TRI/BW           SUN
+@@ -9314,7 +9314,7 @@
+ TRAUMATI/AI              N1T NPM    TRAUMATI/AS
+ POLLOI/                  A1  NPM    POLU/S
+ KAI\                     C          KAI/
+-H)|XMALW/TISAN           VAI AAI3P  AI)|XMALWTI/ZW
++H)|XMALW/TISAN           VAI AAI3P  AI)XMALWTI/ZW
+ TA\S                     RA  APF    O(
+ GUNAI=KAS                N3K APF    GUNH/
+ AU)TW=N                  RD  GPM    AU)TO/S
+@@ -9660,7 +9660,7 @@
+ A)\N                     X          A)/N
+ O(                       RA  NSM    O(
+ KAIRO\S                  N2  NSM    KAIRO/S
+-U(POGRA/FH|              VD  APS3S  GRA/FW           U(PO
++U(POGRA/FH|              VD  AAS3S  GRA/FW           U(PO
+ AU)TOI=S                 RD  DPM    AU)TO/S
+ KARDI/A|                 N1A DSF    KARDI/A
+ PLH/REI                  A3H DSF    PLH/RHS
+@@ -9709,7 +9709,7 @@
+ AU)TOI=S                 RD  DPM    AU)TO/S
+ O(                       RA  NSM    O(
+ KAIRO\S                  N2  NSM    KAIRO/S
+-U(POGRA/FH|              VD  APS3S  GRA/FW           U(PO
++U(POGRA/FH|              VD  AAS3S  GRA/FW           U(PO
+ 
+ 1Mac 8:28
+ KAI\                     C          KAI/
+@@ -9986,7 +9986,7 @@
+ KAI\                     C          KAI/
+ EI)=PEN                  VBI AAI3S  EI)=PON
+ TOI=S                    RA  DPM    O(
+-KATALEIFQEI=SIN          VA  AAPDPM LEI/PW           KATA
++KATALEIFQEI=SIN          VA  APPDPM LEI/PW           KATA
+ A)NASTW=MEN              VH  AAS1P  I(/STHMI         A)NA
+ KAI\                     C          KAI/
+ A)NABW=MEN               VB  AAS1P  BAI/NW           A)NA
+@@ -11098,7 +11098,7 @@
+ TO\N                     RA  ASM    O(
+ *BAKXI/DHN               N1M ASM    *BAKXI/DHS
+ KAI\                     C          KAI/
+-SULLH/MYETAI             VF  FAI3S  LAMBA/NW         SUN
++SULLH/MYETAI             VF  FMI3S  LAMBA/NW         SUN
+ AU)TOU\S                 RD  APM    AU)TO/S
+ PA/NTAS                  A3  APM    PA=S
+ E)N                      P          E)N
+@@ -12715,7 +12715,7 @@
+ O(                       RA  NSM    O(
+ BASILEU/S                N3V NSM    BASILEU/S
+ KAI\                     C          KAI/
+-E)CE/DETO                V8I IMI3S  DI/DWMI          E)K
++E)CE/DETO                V8I AMI3S  DI/DWMI          E)K
+ AU)TW=|                  RD  DSM    AU)TO/S
+ *KLEOPA/TRAN             N1A ASF    *KLEOPA/TRA
+ TH\N                     RA  ASF    O(
+@@ -14209,7 +14209,7 @@
+ DOQH/TW                  VC  APD3S  DI/DWMI
+ *IWNAQAN                 N   DSM    *IWNAQAN
+ KAI\                     C          KAI/
+-TEQH/TW                  VA  AAD3S  TI/QHMI
++TEQH/TW                  VA  APD3S  TI/QHMI
+ E)N                      P          E)N
+ TW=|                     RA  DSN    O(
+ O)/REI                   N3E DSN    O)/ROS
+@@ -14307,7 +14307,7 @@
+ PROSH/DREUEN             V1I IAI3S  E(DREU/W         PROS
+ AU)TW=|                  RD  DSM    AU)TO/S
+ O(/PWS                   C          O(/PWS
+-PARADOI=                 VO  AAO3S  DI/DWMI          PARA
++PARADOI=                 VO  AAS3S  DI/DWMI          PARA
+ AU)TO\N                  RD  ASM    AU)TO/S
+ AU)TW=|                  RD  DSM    AU)TO/S
+ O(/PWS                   C          O(/PWS
+@@ -15363,7 +15363,7 @@
+ 
+ 1Mac 12:14
+ OU)K                     D          OU)
+-H)BOULO/MEQA             V1I PMI1P  BOU/LOMAI
++H)BOULO/MEQA             V1I IMI1P  BOU/LOMAI
+ OU)=N                    X          OU)=N
+ PARENOXLH=SAI            VA  AAN    O)XLE/W          PARA  E)N
+ U(MI=N                   RP  DP     SU/
+@@ -16001,7 +16001,7 @@
+ TOU\S                    RA  APM    O(
+ OI)/KOUS                 N2  APM    OI)=KOS
+ AU)TW=N                  RD  GPM    AU)TO/S
+-E)PI/LECAI               VA  AAN    LE/GW            E)PI
++E)PI/LECAI               VA  AMD2S  LE/GW            E)PI
+ DE\                      X          DE/
+ SEAUTW=|                 RD  DSM    SEAUTOU=
+ A)/NDRAS                 N3  APM    A)NH/R
+@@ -17568,7 +17568,7 @@
+ KAI\                     C          KAI/
+ H(                       RA  NSF    O(
+ GH=                      N1  NSF    GH=
+-E)DI/DOU                 V8I IMI3S  DI/DWMI
++E)DI/DOU                 V8I IAI3S  DI/DWMI
+ TA\                      RA  APN    O(
+ GENH/MATA                N3M APN    GE/NHMA
+ AU)TH=S                  RD  GSF    AU)TO/S
+@@ -18489,7 +18489,7 @@
+ AU)TOU=                  RD  GSM    AU)TO/S
+ R(HQHSOME/NOIS           VC  FPPDPN E(RW=
+ KAI\                     C          KAI/
+-E)PISUSTRE/YAI           VA  AAN    STRE/FW          E)PI
++E)PISUSTRE/YAI           VA  AAN    STRE/FW          E)PI  SUN
+ SUSTROFH\N               N1  ASF    SUSTROFH/
+ E)N                      P          E)N
+ TH=|                     RA  DSF    O(
+@@ -20137,4 +20137,3 @@
+ TO\N                     RA  ASM    O(
+ PATE/RA                  N3  ASM    PATH/R
+ AU)TOU=                  RD  GSM    AU)TO/S
+-
