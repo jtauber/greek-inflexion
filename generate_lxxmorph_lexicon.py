@@ -14,6 +14,7 @@ from normalise import convert as norm_convert
 book_to_num = {
     "1Mac": 24,
     "Jonah": 42,
+    "Nah": 44,
 }
 
 
@@ -106,6 +107,10 @@ def trim_multiples(stem_set, part, lemma, parts):
             pass
         elif part[0] == "1" and lemma.endswith("άω") and stem.endswith("η"):
             pass
+        elif part[0] == "1" and lemma.endswith("άω") and stem.endswith("ε"):
+            pass
+        elif part[0] == "1" and lemma.endswith("άω") and stem.endswith("ο"):
+            pass
         elif part[0] == "1" and lemma.endswith("έομαι") and stem.endswith("ο"):
             pass
         elif part[0] == "1" and lemma.endswith("όομαι") and stem.endswith("ε"):
@@ -135,7 +140,7 @@ ginflexion = GreekInflexion(
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/42.Jonah.mlxx"):
+for row in get_words("lxxmorph/44.Nahum.mlxx"):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]

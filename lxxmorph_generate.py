@@ -12,11 +12,13 @@ from normalise import convert as norm_convert
 book_to_num = {
     "1Mac": 24,
     "Jonah": 42,
+    "Nah": 44,
 }
 
 MLXX_FILES = [
     "lxxmorph/24.1Macc.mlxx",
     "lxxmorph/42.Jonah.mlxx",
+    "lxxmorph/44.Nahum.mlxx",
 ]
 
 
