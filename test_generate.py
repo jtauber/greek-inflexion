@@ -41,7 +41,9 @@ def output_item(lemma, key, form, stem, stem_guess, generated, correct):
             print("    stem: {}".format(list(stem)))
 
     if stem_guess:
-        print("    stem_guess: {}".format(stem_guess))
+        print("    stem_guess:")
+        for guess in sorted(stem_guess):
+            print("        - {}".format(guess))
 
     print("    correct: \"[{}/{}{}]\"".format(
         len(generated), form.count("/") + 1, correct))
