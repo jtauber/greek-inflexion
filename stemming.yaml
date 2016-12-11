@@ -34,6 +34,7 @@ AAD.3P:
     - "|α{root}>ά<|ντων"  # @@@
     - "|>ά<|τωσαν;+HGrk"
     - "|{2nd}>έ<T_2|τωσαν;+HGrk"
+    - "|{athematic}><|τωσαν;+HGrk"
 
 AAI.1S:
     - "|><|α"  # §50 (1st/weak)
@@ -102,6 +103,7 @@ AAI.3P:
     - "|ε{athematic}>ε<|σαν"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εῖ<|σαν"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ο<|σαν"  # §62 (@@@ or treat as root?)
+    - "|{2nd}>ο<@|σαν;+HGrk"  # @@@
 
 AAN:
     - "|><|αι"  # §50 (1st/weak)
@@ -314,6 +316,7 @@ AAP.APF:
 AAP.APN:
     - "|>α<|ντα"  # §30
     - "|{2nd}>ό<|ντα"  # §31
+    - "α|{root}><|ντα"
     # - "υ|{root}><|ντα"
 
 AAS.1S:
@@ -446,7 +449,8 @@ AMN:
     - "|{2nd}>έ<T_2|σθαι"  # §50 (but Pratt doesn't accent)
     - "|ε{athematic}>έ<|σθαι"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ό<|σθαι"  # §62 (@@@ or treat as root?)
-    - "|α>ᾶ<|σθαι"  # @@@ or is there a intervocalic sigma lost?
+    - "|α>ᾶ<|σθαι"  # @@@ or is there an intervocalic sigma lost?
+    - "|ο>οῦ<T_2|σθαι"  # @@@ or is there an intervocalic sigma lost?
 
 AMO.1S:
     - "|>α<α|ίμην"
@@ -734,6 +738,7 @@ APS.1P:
     - "|><|ῶμεν"  # ε-contraction
 APS.2P:
     - "|><|ῆτε"  # ε-contraction
+    - "|><|ητε;+HGrk"  # @@@
 APS.3P:
     - "|><|ῶσι(ν);-no-final-nu-aps.3p"  # ε-contraction
     - "|><|ῶσι;+no-final-nu-aps.3p"  # ε-contraction
@@ -1257,7 +1262,7 @@ IMI.3P:
     - "|υ{athematic}>υ<|ντο"  # §60c
     - "|α{athematic}>α<|ντο"  # §60d
     - "|ει{athematic}>ει<|ντο"  # NT
-
+    - "|η{athematic}>η<|ντο"
 PAD.2S:
     # should this be T_2 here or just ε?
     - "|>ε<Τ_2|"
@@ -1820,6 +1825,7 @@ PAS.3P:
     - "|α{athematic}>ῶ<ω|σι(ν)"
     - "|ο{athematic}>ῶ<ω|σι(ν)"
     - "|ε{athematic}>ῶ<ω|σι(ν)"
+    - "|η{athematic}>ῶ<ω|σι(ν)"
 
 PMD.2S:
     - "|><|ου"  # εσο
@@ -2050,6 +2056,7 @@ PMP.NSF:
     - "|α{athematic}>α<|μένη"  # § 35
     - "|υ{athematic}>υ<|μένη"  # § 35
     - "|ει{athematic}>ει<|μένη"
+    - "|η{athematic}>η<|μένη"
 PMP.VSF:
     ref: PMP.NSF
 PMP.NSN:
@@ -2118,7 +2125,7 @@ PMP.ASN:
 PMP.APM:
     - "|>ο<T_1|μένους"  # § 34
     - "|ε>ου<T_1|μένους"  # § 35*
-    # - "|ο>ου<T_1|μένους"  # § 35*
+    - "|ο>ου<T_1|μένους"  # § 35*
     - "|α>ω<T_1|μένους"  # § 35*
     # - "|η>ω<T_1|μένους"
     - "|ε{athematic}>ε<|μένους"  # § 35*
@@ -2180,7 +2187,7 @@ PMP.GPM:
     # - "|ο>ου<T_1|μένων"  # § 35*
     - "|α>ω<T_1|μένων"  # § 35*
     # - "|η>ω<T_1|μένων"
-    # - "|ε{athematic}>ε<|μένων"  # § 35*
+    - "|ε{athematic}>ε<|μένων"  # § 35*
     # - "|ο{athematic}>ο<|μένων"  # § 35*
     - "|α{athematic}>α<|μένων"  # § 35*
     # - "|υ{athematic}>υ<|μένων"  # § 35*
@@ -2220,7 +2227,7 @@ PMP.DPM:
     # - "|ο>ου<T_1|μένοις"  # § 35*
     - "|α>ω<T_1|μένοις"  # § 35*
     # - "|η>ω<T_1|μένοις"
-    # - "|ε{athematic}>ε<|μένοις"  # § 35*
+    - "|ε{athematic}>ε<|μένοις"  # § 35*
     # - "|ο{athematic}>ο<|μένοις"  # § 35*
     # - "|α{athematic}>α<|μένοις"  # § 35*
     - "|υ{athematic}>υ<|μένοις"  # § 35*
@@ -2506,6 +2513,7 @@ XMD.2P:
     - "|><|σθε"
 XMD.3P:
     - "|><|σθων"
+    - "|><|σθωσαν;+HGrk"
 
 XMI.1S:
     - "|><|μαι"  # §51
