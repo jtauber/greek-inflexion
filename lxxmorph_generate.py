@@ -3,10 +3,11 @@
 from unicodedata import normalize
 
 from greekutils.beta2unicode import convert
-from accent import strip_length
-from greek_inflexion import GreekInflexion
 
+from accent import strip_length, strip_accents
+from greek_inflexion import GreekInflexion
 from test_generate import output_item
+from normalise import convert as norm_convert
 
 book_to_num = {
     "1Mac": 24,
@@ -15,9 +16,12 @@ book_to_num = {
 
 def convert_parse(parse):
     if parse[2] in "DISOP":
-        return parse[:3] + "." + parse[3:]
+        result = parse[:3] + "." + parse[3:]
     elif parse[2] in "N":
-        return parse
+        result = parse
+    if result[1] == "P" and result[0] not in "AF":
+        result = result[0] + "M" + result[2:]
+    return result
 
 
 def get_words(filename):
@@ -58,16 +62,28 @@ debug = False
 incorrect_count = 0
 total_count = 0
 
-ginflexion = GreekInflexion("stemming.yaml", "morphgnt_lexicon.yaml")
+ginflexion = GreekInflexion("stemming.yaml", "lxx_lexicon.yaml")
 
 for row in get_words("lxxmorph/24.1Macc.mlxx"):
     total_count += 1
 
     form = row["word"]
+    preverb = row["preverb"]
     lemma = row["lemma"]
     key = convert_parse(row["parse"])
+    if preverb:
+        lemma = "+".join(preverb.split()) + "++" + lemma
 
-    tags = set()
+    form = norm_convert(form, lemma, key)
+
+    tags = set([
+        "final-nu-aai.3s",
+        # "oida-yai3p-variant",
+        "no-final-nu-yai.3s",
+        # "late-pluperfect-singulars",
+        # "sigma-loss-pmd.2s",
+        "HGrk",
+    ])
 
     c = form.count("/") + 1
     stem = ginflexion.find_stems(lemma, key, tags)
@@ -77,16 +93,15 @@ for row in get_words("lxxmorph/24.1Macc.mlxx"):
             strip_length(w) for w in sorted(generated)]:
         correct = "✓"
         stem_guess = None
+        parse_guess = None
     else:
         correct = "✕"
         incorrect_count += 1
-        stem_guess = [
-            possible_stem for key, possible_stem in
-            ginflexion.possible_stems(form, "^" + key + "$")]
+        possible_stems = ginflexion.possible_stems(form)
 
     if debug or correct == "✕":
         output_item(
             lemma, key, form,
-            stem, stem_guess, generated, correct)
+            stem, possible_stems, generated, correct)
 
 print("{}/{} incorrect".format(incorrect_count, total_count))
