@@ -33,7 +33,7 @@ PARTS = {
     ],
     "2-": [
         "FAI", "FAN", "FAP",
-        "FMI",
+        "FMI", "FMP",
     ],
     "3-": [
         "AAD", "AAN", "AAP", "AAS", "AAO",
