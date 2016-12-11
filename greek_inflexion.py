@@ -2,6 +2,7 @@ from collections import defaultdict
 import re
 
 from inflexion import Inflexion
+from inflexion.lexicon import Lexicon
 
 from accent import calculate_accent, strip_accents, debreath, rebreath
 from fileformat import load_stemming, load_lexicon
@@ -9,12 +10,17 @@ from fileformat import load_stemming, load_lexicon
 
 class GreekInflexion:
 
-    def __init__(self, stemming_file, lexicon_file, strip_length=False):
+    def __init__(self, stemming_file, lexicon_file=None, strip_length=False):
 
         self.ruleset = load_stemming(stemming_file, strip_length)
 
-        self.lexicon, self.form_override, self.accent_override = load_lexicon(
-            lexicon_file, pre_processor=debreath)
+        if lexicon_file:
+            self.lexicon, self.form_override, self.accent_override = \
+                load_lexicon(lexicon_file, pre_processor=debreath)
+        else:
+            self.lexicon = Lexicon()
+            self.form_override = {}
+            self.accent_override = defaultdict(list)
 
         self.inflexion = Inflexion()
         self.inflexion.add_lexicon(self.lexicon)
