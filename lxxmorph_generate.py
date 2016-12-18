@@ -13,12 +13,14 @@ book_to_num = {
     "1Mac": 24,
     "Jonah": 42,
     "Nah": 44,
+    "2Esdr": 19,
 }
 
 MLXX_FILES = [
     "lxxmorph/24.1Macc.mlxx",
     "lxxmorph/42.Jonah.mlxx",
     "lxxmorph/44.Nahum.mlxx",
+    "lxxmorph/19.2Esdras.mlxx",
 ]
 
 
@@ -101,16 +103,15 @@ for filename in MLXX_FILES:
         if strip_length(form) in [
                 strip_length(w) for w in sorted(generated)]:
             correct = "✓"
-            stem_guess = None
-            parse_guess = None
         else:
             correct = "✕"
             incorrect_count += 1
             possible_stems = ginflexion.possible_stems(form)
+            possible_parses = ginflexion.parse(form)
 
         if debug or correct == "✕":
             output_item(
                 lemma, key, form,
-                stem, possible_stems, generated, correct)
+                stem, possible_stems, possible_parses, generated, correct)
 
 print("{}/{} incorrect".format(incorrect_count, total_count))
