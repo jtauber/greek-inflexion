@@ -1,0 +1,52 @@
+--- 01.Gen.1.orig	2016-12-15 17:52:57.000000000 +0800
++++ 01.Gen.1.mlxx	2016-12-19 06:13:25.000000000 +0800
+@@ -532,7 +532,7 @@
+ KAI\                     C          KAI/
+ TA\                      RA  NPN    O(
+ PETEINA\                 N2N NPN    PETEINO/N
+-PLHQUNE/SQWSAN           VA  AMD3P  PLHQU/NW
++PLHQUNE/SQWSAN           VA  PMD3P  PLHQU/NW
+ E)PI\                    P          E)PI/
+ TH=S                     RA  GSF    O(
+ GH=S                     N1  GSF    GH=
+@@ -5406,7 +5406,7 @@
+ AU)TOU=                  RD  GSM    AU)TO/S
+ 
+ Gen 9:27
+-PLATU/NAI                V1  PAI3S  PLATU/NW
++PLATU/NAI                V1  AAO3S  PLATU/NW
+ O(                       RA  NSM    O(
+ QEO\S                    N2  NSM    QEO/S
+ TW=|                     RA  DSM    O(
+@@ -12538,7 +12538,7 @@
+ TOI=S                    RA  DPM    O(
+ PAISI\N                  N3D DPM    PAI=S
+ AU)TOU=                  RD  GSM    AU)TO/S
+-KAQI/SATE                VA  ADI2P  I(/ZW            KATA
++KAQI/SATE                VA  AAD2P  I(/ZW            KATA
+ AU)TOU=                  RD  GSM    AU)TO/S
+ META\                    P          META/
+ TH=S                     RA  GSF    O(
+@@ -12596,7 +12596,7 @@
+ TO\N                     RA  ASM    O(
+ PATE/RA                  N3  ASM    PATH/R
+ AU)TOU=                  RD  GSM    AU)TO/S
+-EI)/PAS                  VAI AAI2S  EI)=PON
++EI)/PAS                  VAI AAPNSM EI)=PON
+ PA/TER                   N3  VSM    PATH/R
+ O(                       RA  NSM    O(
+ DE\                      X          DE/
+@@ -17538,7 +17538,7 @@
+ SI/TW|                   N2  DSM    SI=TOS
+ KAI\                     C          KAI/
+ OI)/NW|                  N2  DSM    OI)=NOS
+-E)STH/RISA               VAI AAI3S  STHRI/ZW
++E)STH/RISA               VAI AAI1S  STHRI/ZW
+ AU)TO/N                  RD  ASM    AU)TO/S
+ SOI\                     RP  DS     SU/
+ DE\                      X          DE/
+@@ -18363,4 +18363,3 @@
+ A)PODEKATW/SW            VF  FAI1S  DEKATO/W         A)PO
+ AU)TA/                   RD  APN    AU)TO/S
+ SOI                      RP  DS     SU/
+-

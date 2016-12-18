@@ -81,6 +81,11 @@ def convert(word, lemma, parse):
             norm = norm[:-1] + u"(ν)"
         if norm.endswith(u"ε"):
             norm = norm + u"(ν)"
+    if parse in ["YAI.3S"]:
+        if norm.endswith(u"ειν"):
+            norm = norm[:-1] + u"(ν)"
+        if norm.endswith(u"ει"):
+            norm = norm + u"(ν)"
 
     if count_accents(norm) == 0:
         if norm in clitics_dict:

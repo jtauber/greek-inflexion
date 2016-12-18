@@ -12,6 +12,7 @@ from normalise import convert as norm_convert
 
 
 book_to_num = {
+    "Gen": 1,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,
@@ -141,7 +142,7 @@ ginflexion = GreekInflexion(
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/19.2Esdras.mlxx"):
+for row in get_words("lxxmorph/01.Gen.1.mlxx"):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]

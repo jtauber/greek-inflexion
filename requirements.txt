@@ -1,4 +1,4 @@
-greek-accentuation==1.0.5
+greek-accentuation==1.1.0
 inflexion==0.7.1
 PyYAML==3.12
 pyuca==1.1.2

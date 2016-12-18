@@ -10,10 +10,11 @@ from test_generate import output_item
 from normalise import convert as norm_convert
 
 book_to_num = {
+    "Gen": 1,
+    "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,
     "Nah": 44,
-    "2Esdr": 19,
 }
 
 MLXX_FILES = [
@@ -21,6 +22,7 @@ MLXX_FILES = [
     "lxxmorph/42.Jonah.mlxx",
     "lxxmorph/44.Nahum.mlxx",
     "lxxmorph/19.2Esdras.mlxx",
+    "lxxmorph/01.Gen.1.mlxx",
 ]
 
 
@@ -89,10 +91,6 @@ for filename in MLXX_FILES:
 
         tags = set([
             "final-nu-aai.3s",
-            # "oida-yai3p-variant",
-            "no-final-nu-yai.3s",
-            # "late-pluperfect-singulars",
-            # "sigma-loss-pmd.2s",
             "HGrk",
         ])
 

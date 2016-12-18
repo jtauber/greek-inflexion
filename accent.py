@@ -55,10 +55,10 @@ def calculate_accent(w, parse, lemma, stem, inflexion, accent_override):
                 for nsm in nsms:
                     if nsm.endswith(("ών", "ούς")):
                         # persistent participle (based on nsm)
-                        return clean(persistent(w, nsm))
+                        return clean(persistent(w, nsm, default_short=True))
                     else:
                         # persistent participle (based on lemma)
-                        return clean(persistent(w, lemma))
+                        return clean(persistent(w, lemma, default_short=True))
             elif parse[0:3] == "PAP" and parse != "PAP.NSM":
                 # calculate NSM
                 nsms = [
@@ -69,7 +69,7 @@ def calculate_accent(w, parse, lemma, stem, inflexion, accent_override):
 
                 for nsm in nsms:
                     nsm = strip_length(nsm)
-                    return clean(persistent(w, nsm))
+                    return clean(persistent(w, nsm, default_short=True))
             else:
                 return clean(recessive(w, default_short=True))
         elif parse[0:3] in ["AAN", "XAN", "XMN", "XPN"]:
