@@ -28,7 +28,9 @@ def output_detail(detail):
         print("            override: {}".format(detail["override"]))
 
 
-def output_item(lemma, key, form, stem, stem_guess, generated, correct):
+def output_item(
+        lemma, key, form, stem,
+        stem_guess, possible_parses, generated, correct):
     print("-")
     print("    lemma: {}".format(lemma))
     print("    key: {}".format(key))
@@ -41,7 +43,14 @@ def output_item(lemma, key, form, stem, stem_guess, generated, correct):
             print("    stem: {}".format(list(stem)))
 
     if stem_guess:
-        print("    stem_guess: {}".format(stem_guess))
+        print("    stem_guess:")
+        for guess in sorted(stem_guess):
+            print("        - {}".format(guess))
+
+    if possible_parses:
+        print("    possible_parses:")
+        for guess in sorted(possible_parses):
+            print("        - {}".format(guess))
 
     print("    correct: \"[{}/{}{}]\"".format(
         len(generated), form.count("/") + 1, correct))
@@ -98,4 +107,4 @@ def test_generate(
                 if debug or correct == "✕":
                     output_item(
                         lemma, key, form,
-                        stem, stem_guess, generated, correct)
+                        stem, stem_guess, None, generated, correct)
