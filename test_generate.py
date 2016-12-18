@@ -28,7 +28,9 @@ def output_detail(detail):
         print("            override: {}".format(detail["override"]))
 
 
-def output_item(lemma, key, form, stem, stem_guess, possible_parses, generated, correct):
+def output_item(
+        lemma, key, form, stem,
+        stem_guess, possible_parses, generated, correct):
     print("-")
     print("    lemma: {}".format(lemma))
     print("    key: {}".format(key))
