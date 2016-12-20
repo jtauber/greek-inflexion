@@ -24,7 +24,19 @@ with open(filename) as f:
             key = line.strip()
 
 
-for key, lines in sorted(entries.items(), key=lambda i: c.sort_key(i[0])):
+def sort_key(i):
+    key = i[0]
+    if "++" in key:
+        left_key = key.split("++")[1].split(":")[0]
+        middle_key = key.split("++")[0]
+    else:
+        left_key = key.split(":")[0]
+        middle_key = " "
+
+    return (c.sort_key(left_key), c.sort_key(middle_key), c.sort_key(key))
+
+
+for key, lines in sorted(entries.items(), key=sort_key):
     print()
     print(key)
     for line in lines:
