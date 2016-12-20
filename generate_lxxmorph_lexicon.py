@@ -80,6 +80,12 @@ def trim_multiples(stem_set, part, lemma, parts):
         elif part[0] == "3" and lemma.endswith("άω") and \
                 stem.endswith("α{root}"):
             pass
+        elif part[0] == "3" and lemma.endswith("ω") and \
+                stem.endswith("{athematic}"):
+            pass
+        elif part[0] == "2" and lemma.endswith("ω") and \
+                stem.endswith("{athematic}"):
+            pass
         elif part[0] == "1" and lemma.endswith("ω") and \
                 stem.endswith("{athematic}"):
             pass
@@ -142,7 +148,7 @@ ginflexion = GreekInflexion(
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/01.Gen.1.mlxx"):
+for row in get_words("lxxmorph/02.Gen.2.mlxx"):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]
@@ -154,10 +160,8 @@ for row in get_words("lxxmorph/01.Gen.1.mlxx"):
 
     tags = set([
         "final-nu-aai.3s",
-        # "oida-yai3p-variant",
-        "no-final-nu-yai.3s",
-        # "late-pluperfect-singulars",
-        # "sigma-loss-pmd.2s",
+        "alt-apo-pl",
+        "sigma-loss-pmd.2s",
         "HGrk",
     ])
 

@@ -23,6 +23,7 @@ MLXX_FILES = [
     "lxxmorph/44.Nahum.mlxx",
     "lxxmorph/19.2Esdras.mlxx",
     "lxxmorph/01.Gen.1.mlxx",
+    "lxxmorph/02.Gen.2.mlxx",
 ]
 
 
@@ -91,6 +92,8 @@ for filename in MLXX_FILES:
 
         tags = set([
             "final-nu-aai.3s",
+            "alt-apo-pl",
+            "sigma-loss-pmd.2s",
             "HGrk",
         ])
 
