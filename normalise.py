@@ -91,7 +91,7 @@ def convert(word, lemma, parse):
         if norm in clitics_dict:
             norm = clitics_dict[norm]
 
-    if parse[4:] in ["3S", "3P", "DPM"]:
+    if parse[4:] in ["3S", "3P", "DPM", "DPN"]:
         if (
             norm.endswith(u"σιν") or
             norm.endswith(u"σίν") or
