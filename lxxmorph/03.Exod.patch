@@ -1,0 +1,264 @@
+--- 03.Exod.orig	2016-12-21 08:25:50.000000000 +0800
++++ 03.Exod.mlxx	2016-12-23 11:41:12.000000000 +0800
+@@ -126,7 +126,7 @@
+ Exod 1:10
+ DEU=TE                   D          DEU=TE
+ OU)=N                    X          OU)=N
+-KATASOFISW/MEQA          VA  AAS1P  SOFI/ZW          KATA
++KATASOFISW/MEQA          VA  AMS1P  SOFI/ZW          KATA
+ AU)TOU/S                 RD  APM    AU)TO/S
+ MH/POTE                  D          MH/POTE
+ PLHQUNQH=|               VC  APS3S  PLHQU/NW
+@@ -274,7 +274,7 @@
+ KAI\                     C          KAI/
+ EI)=PEN                  VBI AAI3S  EI)=PON
+ O(/TAN                   D          O(/TAN
+-MAIOU=SQE                V4  PAI2P  MAIO/OMAI
++MAIOU=SQE                V4  PMI2P  MAIO/OMAI
+ TA\S                     RA  APF    O(
+ *EBRAI/AS                N1A APF    *EBRAI=A
+ KAI\                     C          KAI/
+@@ -723,7 +723,7 @@
+ DU/O                     M          DU/O
+ A)/NDRAS                 N3  APM    A)NH/R
+ *EBRAI/OUS               N2  APM    *EBRAI=OS
+-DIAPLHKTIZOME/NOUS       V1  PAPAPM PLHKTI/ZOMAI     DIA
++DIAPLHKTIZOME/NOUS       V1  PMPAPM PLHKTI/ZOMAI     DIA
+ KAI\                     C          KAI/
+ LE/GEI                   V1  PAI3S  LE/GW
+ TW=|                     RA  DSM    O(
+@@ -1126,7 +1126,7 @@
+ MH\                      D          MH/
+ E)GGI/SH|S               VA  AAS2S  E)GGI/ZW
+ W(=DE                    D          W(=DE
+-LU=SAI                   VA  AAD2S  LU/W
++LU=SAI                   VA  AMD2S  LU/W
+ TO\                      RA  ASN    O(
+ U(PO/DHMA                N3M ASN    U(PO/DHMA
+ E)K                      P          E)K
+@@ -1169,7 +1169,7 @@
+ TO\                      RA  ASN    O(
+ PRO/SWPON                N2N ASN    PRO/SWPON
+ AU)TOU=                  RD  GSM    AU)TO/S
+-EU)LABEI=TO              V2  PMI3S  EU)LABE/OMAI
++EU)LABEI=TO              V2  IMI3S  EU)LABE/OMAI
+ GA\R                     X          GA/R
+ KATEMBLE/YAI             VA  AAN    BLE/PW           KATA  E)N
+ E)NW/PION                P          E)NW/PION
+@@ -1597,7 +1597,7 @@
+ 
+ Exod 3:20
+ KAI\                     C          KAI/
+-E)KTEI/NAS               VAI AAI2S  KTEI/NW
++E)KTEI/NAS               VA? AAPNSM TEI/NW           E)K
+ TH\N                     RA  ASF    O(
+ XEI=RA                   N3  ASF    XEI/R
+ PATA/CW                  VF  FAI1S  PATA/SSW
+@@ -1748,7 +1748,7 @@
+ E)PILABOU=               VB  AMD2S  LAMBA/NW         E)PI
+ TH=S                     RA  GSF    O(
+ KE/RKOU                  N2  GSF    KE/RKOS
+-E)KTEI/NAS               VAI AAI2S  KTEI/NW
++E)KTEI/NAS               VA? AAPNSM TEI/NW           E)K
+ OU)=N                    X          OU)=N
+ TH\N                     RA  ASF    O(
+ XEI=RA                   N3  ASF    XEI/R
+@@ -2007,7 +2007,7 @@
+ *MWUSH=S                 N1M NSM    *MWUSH=S
+ DE/OMAI                  V1  PMI1S  DE/OMAI
+ KU/RIE                   N2  VSM    KU/RIOS
+-PROXEI/RISAI             VA  AAN    XEIRI/ZW         PROS
++PROXEI/RISAI             VA  AMD2S  XEIRI/ZW         PROS
+ DUNA/MENON               V6  PMPASM DU/NAMAI
+ A)/LLON                  RD  ASM    A)/LLOS
+ O(\N                     RR  ASM    O(/S
+@@ -2228,7 +2228,7 @@
+ KU/RIOS                  N2  NSM    KU/RIOS
+ PRO\S                    P          PRO/S
+ *MWUSH=N                 N1M ASM    *MWUSH=S
+-POREUOME/NOU             V1  PMD2S  POREU/OMAI
++POREUOME/NOU             V1  PMPGSM POREU/OMAI
+ SOU                      RP  GS     SU/
+ KAI\                     C          KAI/
+ A)POSTRE/FONTOS          V1  PAPGSM STRE/FW          A)PO
+@@ -2250,7 +2250,7 @@
+ *FARAW                   N   GSM    *FARAW/
+ E)GW\                    RP  NS     E)GW/
+ DE\                      X          DE/
+-SKLHRUNW=                VA  AAS1S  SKLHRU/NW
++SKLHRUNW=                VA? FAI1S  SKLHRU/NW
+ TH\N                     RA  ASF    O(
+ KARDI/AN                 N1A ASF    KARDI/A
+ AU)TOU=                  RD  GSM    AU)TO/S
+@@ -3668,12 +3668,12 @@
+ Exod 7:3
+ E)GW\                    RP  NS     E)GW/
+ DE\                      X          DE/
+-SKLHRUNW=                VA  AAS1S  SKLHRU/NW
++SKLHRUNW=                VA? FAI1S  SKLHRU/NW
+ TH\N                     RA  ASF    O(
+ KARDI/AN                 N1A ASF    KARDI/A
+ *FARAW                   N   GSM    *FARAW/
+ KAI\                     C          KAI/
+-PLHQUNW=                 VA  AAS1S  PLHQU/NW
++PLHQUNW=                 VA? FAI1S  PLHQU/NW
+ TA\                      RA  APN    O(
+ SHMEI=A/                 N2N APN    SHMEI=ON
+ MOU                      RP  GS     E)GW/
+@@ -3691,7 +3691,7 @@
+ U(MW=N                   RP  GP     SU/
+ *FARAW                   N   NSM    *FARAW/
+ KAI\                     C          KAI/
+-E)PIBALW=                VB  AAS1S  BA/LLW           E)PI
++E)PIBALW=                VB? FAI1S  BA/LLW           E)PI
+ TH\N                     RA  ASF    O(
+ XEI=RA/                  N3  ASF    XEI/R
+ MOU                      RP  GS     E)GW/
+@@ -3942,7 +3942,7 @@
+ U(/DWR                   N3  ASN    U(/DWR
+ KAI\                     C          KAI/
+ STH/SH|                  VF  FMI2S  I(/STHMI
+-SUNANTW=N                V9  PAPNSM EI)MI/           SUN   A)NTI
++SUNANTW=N                V9? PAPNSM A)NTA/W          SUN
+ AU)TW=|                  RD  DSM    AU)TO/S
+ E)PI\                    P          E)PI/
+ TO\                      RA  ASN    O(
+@@ -4092,7 +4092,7 @@
+ KAI\                     C          KAI/
+ E)PI\                    P          E)PI/
+ PA=N                     A3  ASM    PA=S
+-SUNESTHKO\S              VXI XAPASM I(/STHMI         SUN
++SUNESTHKO\S              VXI XAPASN I(/STHMI         SUN
+ U(/DWR                   N3  NSN    U(/DWR
+ AU)TW=N                  RD  GPM    AU)TO/S
+ KAI\                     C          KAI/
+@@ -4308,7 +4308,7 @@
+ 
+ Exod 7:28
+ KAI\                     C          KAI/
+-E)CEREU/CETAI            VF  FMI3P  E)REU/SOMAI
++E)CEREU/CETAI            VF  FMI3S  E)REU/GOMAI      E)K
+ O(                       RA  NSM    O(
+ POTAMO\S                 N2  NSM    POTAMO/S
+ BATRA/XOUS               N2  APM    BA/TRAXOS
+@@ -5091,7 +5091,7 @@
+ PROSQH=|S                VE  AAS2S  TI/QHMI          PROS
+ E)/TI                    D          E)/TI
+ *FARAW                   N   VSM    *FARAW/
+-E)CAPATH=SAI             VA  AAD2S  A)PATA/W         E)K
++E)CAPATH=SAI             VA? AAN    A)PATA/W         E)K
+ TOU=                     RA  GSN    O(
+ MH\                      D          MH/
+ E)CAPOSTEI=LAI           VA  AAN    STE/LLW          E)K   A)PO
+@@ -7295,7 +7295,7 @@
+ AU)TW=N                  RD  GPM    AU)TO/S
+ W)MO\N                   N2  ASM    W)=MOS
+ OU)DE\                   C          OU)DE/
+-H(YHME/NON               VA  AMPASN E(/YW
++H(YHME/NON               VA? XMPASN E(/YW
+ E)N                      P          E)N
+ U(/DATI                  N3T DSN    U(/DWR
+ A)LL'                    C          A)LLA/
+@@ -11391,7 +11391,7 @@
+ DUNATOU\S                A1  APM    DUNATO/S
+ KAI\                     C          KAI/
+ E)CELQW\N                VB  AAPNSM E)/RXOMAI        E)K
+-PARA/TACAI               VA  AAN    TA/SSW           PARA
++PARA/TACAI               VA? AMD2S  TA/SSW           PARA
+ TW=|                     RA  DSM    O(
+ *AMALHK                  N   DSM    *AMALHK
+ AU)/RION                 D          AU)/RION
+@@ -12178,7 +12178,7 @@
+ 
+ Exod 18:26
+ KAI\                     C          KAI/
+-E)KRI/NOSAN              VAI AAI3P  KRI/NW
++E)KRI/NOSAN              VAI IAI3P  KRI/NW
+ TO\N                     RA  ASM    O(
+ LAO\N                    N2  ASM    LAO/S
+ PA=SAN                   A1S ASF    PA=S
+@@ -12187,14 +12187,14 @@
+ DE\                      X          DE/
+ R(H=MA                   N3M ASN    R(H=MA
+ U(PE/ROGKON              A1B ASN    U(PE/ROGKOS
+-A)NEFE/ROSAN             VBI AAI3P  FE/RW            A)NA
++A)NEFE/ROSAN             VBI IAI3P  FE/RW            A)NA
+ E)PI\                    P          E)PI/
+ *MWUSH=N                 N1M ASM    *MWUSH=S
+ PA=N                     A3  ASN    PA=S
+ DE\                      X          DE/
+ R(H=MA                   N3M ASN    R(H=MA
+ E)LAFRO\N                A1A ASN    E)LAFRO/S
+-E)KRI/NOSAN              VAI AAI3P  KRI/NW
++E)KRI/NOSAN              VAI IAI3P  KRI/NW
+ AU)TOI/                  RD  NPM    AU)TO/S
+ 
+ Exod 18:27
+@@ -13949,7 +13949,7 @@
+ MH\                      D          MH/
+ A)FANI/SH|               VA  AAS3S  I(/ZW            A)PO  A)NA
+ AU)TO/N                  RD  ASM    AU)TO/S
+-A)NE/LH|                 VD  APS3S  E)/RXOMAI        A)NA
++A)NE/LH|                 VD? AAS3S  AI(RE/W          A)NA
+ DE\                      X          DE/
+ A)/NDRA                  N3  ASM    A)NH/R
+ H)\                      C          H)/
+@@ -14753,7 +14753,7 @@
+ 
+ Exod 23:1
+ OU)                      D          OU)
+-PARADE/CH|               VF  FAI2S  DE/XOMAI         PARA
++PARADE/CH|               VF  FMI2S  DE/XOMAI         PARA
+ A)KOH\N                  N1  ASF    A)KOH/
+ MATAI/AN                 A1A ASF    MA/TAIOS
+ OU)                      D          OU)
+@@ -15439,7 +15439,7 @@
+ KATA\                    P          KATA/
+ MIKRO\N                  A1A ASN    MIKRO/S
+ MIKRO\N                  A1A ASN    MIKRO/S
+-E)KBALW=                 VF2 FAI2S  BA/LLW           E)K
++E)KBALW=                 VF2 FAI1S  BA/LLW           E)K
+ AU)TOU\S                 RD  APM    AU)TO/S
+ A)PO\                    P          A)PO/
+ SOU=                     RP  GS     SU/
+@@ -18006,7 +18006,7 @@
+ FW=S                     N3T ASN    FW=S
+ KAU=SAI                  VA  AAN    KAI/W
+ I(/NA                    C          I(/NA
+-KA/HTAI                  V1  PMS3S  KAI/W
++KA/HTAI                  V1? AMS3S  KAI/W
+ LU/XNOS                  N2  NSM    LU/XNOS
+ DIA\                     P          DIA/
+ PANTO/S                  A3  GSM    PA=S
+@@ -23286,7 +23286,7 @@
+ Exod 34:24
+ O(/TAN                   D          O(/TAN
+ GA\R                     X          GA/R
+-E)KBA/LW                 VF  FAI1S  BA/LLW           E)K
++E)KBA/LW                 VF? AAS1S  BA/LLW           E)K
+ TA\                      RA  APN    O(
+ E)/QNH                   N3E APN    E)/QNOS
+ PRO\                     P          PRO/
+@@ -25391,7 +25391,7 @@
+ EU)=ROS                  N2  ASN    EU)=ROS
+ PE/NTE                   M          PE/NTE
+ PH/XEWN                  N3E GPM    PH=XUS
+-E)CISOU/MENON            VM  XMPNSN ISO/W            E)K
++E)CISOU/MENON            VM  PMPNSN I)SO/W           E)K
+ TOI=S                    RA  DPM    O(
+ I(STI/OIS                N2N DPN    I(STI/ON
+ TH=S                     RA  GSF    O(
+@@ -25714,7 +25714,7 @@
+ TREI=S                   A3  NPM    TREI=S
+ E)K                      P          E)K
+ TOU/TOU                  RD  GSN    OU(=TOS
+-E)CISOU/MENOI            VM  XMPNSM I)SO/W           E)K
++E)CISOU/MENOI            VM  PMPNPM I)SO/W           E)K
+ A)LLH/LOIS               RD  DPM    A)LLH/LW
+ 
+ Exod 38:16
+@@ -27143,4 +27143,3 @@
+ TAI=S                    RA  DPF    O(
+ A)NAZUGAI=S              N1  DPF    A)NAZUGH/
+ AU)TW=N                  RD  GPM    AU)TO/S
+-
