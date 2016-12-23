@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-from unicodedata import normalize
-
-from greekutils.beta2unicode import convert
-
 from accent import strip_length
 from greek_inflexion import GreekInflexion
 from test_generate import output_item
