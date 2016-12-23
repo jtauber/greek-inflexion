@@ -29,12 +29,23 @@ def output_detail(detail):
 
 
 def output_item(
-        lemma, key, form, stem,
-        stem_guess, possible_parses, generated, correct):
+        lemma, key, part, form, line, stem,
+        possible_stems, likely_stems, possible_parses, generated, correct):
+    print()
     print("-")
+    print("    form: {}".format(form))
+    print("    correct: \"{}/{} {}\"".format(
+        len(generated), form.count("/") + 1, correct))
+    print("    generated: {}".format(
+        "/".join(generated_form for generated_form, _ in generated.items())
+    ))
+    print()
     print("    lemma: {}".format(lemma))
     print("    key: {}".format(key))
-    print("    form: {}".format(form))
+    print("    part: {}".format(part))
+    if line:
+        print("    line: {}".format(line))
+    print()
 
     if stem:
         if len(stem) == 1:
@@ -42,18 +53,20 @@ def output_item(
         else:
             print("    stem: {}".format(list(stem)))
 
-    if stem_guess:
-        print("    stem_guess:")
-        for guess in sorted(stem_guess):
-            print("        - {}".format(guess))
+    if likely_stems:
+        print("    likely_stems:")
+        for likely_stem in sorted(likely_stems):
+            print("        {}: {}".format(*likely_stem))
+
+    if possible_stems:
+        print("    possible_stems:")
+        for possible_stem in sorted(possible_stems):
+            print("        - {} {}  # {}".format(*possible_stem))
 
     if possible_parses:
         print("    possible_parses:")
         for guess in sorted(possible_parses):
             print("        - {}".format(guess))
-
-    print("    correct: \"[{}/{}{}]\"".format(
-        len(generated), form.count("/") + 1, correct))
 
     if generated:
         print("    generated:")
@@ -107,4 +120,4 @@ def test_generate(
                 if debug or correct == "✕":
                     output_item(
                         lemma, key, form,
-                        stem, stem_guess, None, generated, correct)
+                        stem, stem_guess, None, None, generated, correct)
