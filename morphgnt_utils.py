@@ -24,15 +24,15 @@ def convert_parse(ccat_parse):
 
 PARTS = {
     "1-": [
-        "PAD", "PAI", "PAN", "PAP", "PAS", "PAO",
-        "PMD", "PMI", "PMN", "PMP", "PMS",
+        "PAI", "PAD", "PAN", "PAP", "PAS", "PAO",
+        "PMI", "PMD", "PMN", "PMP", "PMS", "PMO",
     ],
     "1+": [
         "IAI",
         "IMI",
     ],
     "2-": [
-        "FAI", "FAN", "FAP",
+        "FAI", "FAN", "FAP", "FAO",
         "FMI", "FMP",
     ],
     "3-": [
@@ -44,13 +44,13 @@ PARTS = {
         "AMI",
     ],
     "4-": [
-        "XAI", "XAN", "XAP", "XAS",
+        "XAI", "XAD", "XAN", "XAP", "XAS", "XAO",
     ],
     "4+": [
         "YAI",
     ],
     "5-": [
-        "XMD", "XMI", "XMN", "XMP",
+        "XMI", "XMD", "XMN", "XMP",
     ],
     "5+": [
         "YMI",

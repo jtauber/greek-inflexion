@@ -8,14 +8,9 @@ from accent import strip_length
 from greek_inflexion import GreekInflexion
 from test_generate import output_item
 from normalise import convert as norm_convert
+from morphgnt_utils import key_to_part
+from lxxmorph_utils import get_words, convert_parse
 
-book_to_num = {
-    "Gen": 1,
-    "2Esdr": 19,
-    "1Mac": 24,
-    "Jonah": 42,
-    "Nah": 44,
-}
 
 MLXX_FILES = [
     "lxxmorph/24.1Macc.mlxx",
@@ -24,50 +19,8 @@ MLXX_FILES = [
     "lxxmorph/19.2Esdras.mlxx",
     "lxxmorph/01.Gen.1.mlxx",
     "lxxmorph/02.Gen.2.mlxx",
+    "lxxmorph/03.Exod.mlxx",
 ]
-
-
-def convert_parse(parse):
-    if parse[2] in "DISOP":
-        result = parse[:3] + "." + parse[3:]
-    elif parse[2] in "N":
-        result = parse
-    if result[1] == "P" and result[0] not in "AF":
-        result = result[0] + "M" + result[2:]
-    return result
-
-
-def get_words(filename):
-
-    state = 0
-
-    with open(filename) as f:
-        for line in f:
-            s = line.strip()
-            if state == 0:  # expecting verse ref
-                b, cv = s.split()
-                c, v = cv.split(":")
-                w = 0
-                state = 1
-            elif state == 1:    # expecting word line or blank link
-                if s:
-                    w += 1
-                    if s[25] == "V":  # verb
-                        yield {
-                            "ref": "{:02d}.{:03d}.{:03d}.{:03d}".format(
-                                book_to_num[b], int(c), int(v), w),
-                            "word": normalize(
-                                "NFKC", convert(s[:25].strip() + " ").strip()),
-                            "type": s[25:28].strip(),
-                            "parse": s[29:35].strip(),
-                            "lemma": normalize(
-                                "NFKC", convert(
-                                    s[36:52].strip() + " ").strip()),
-                            "preverb": normalize(
-                                "NFKC", convert(s[53:].strip() + " ").strip()),
-                        }
-                else:
-                    state = 0  # blank link so back to expecting verse ref
 
 
 debug = False
@@ -81,6 +34,7 @@ for filename in MLXX_FILES:
     for row in get_words(filename):
         total_count += 1
 
+        line = row["line"]
         form = row["word"]
         preverb = row["preverb"]
         lemma = row["lemma"]
@@ -107,12 +61,21 @@ for filename in MLXX_FILES:
         else:
             correct = "✕"
             incorrect_count += 1
-            possible_stems = ginflexion.possible_stems(form)
+            possible_stems = [
+                (key_to_part(a), b, a)
+                for a, b in ginflexion.possible_stems(form)
+            ]
+            likely_stems = [
+                (key_to_part(a), b)
+                for a, b in ginflexion.possible_stems(form, "^" + key + "$")
+            ]
             possible_parses = ginflexion.parse(form)
 
         if debug or correct == "✕":
             output_item(
-                lemma, key, form,
-                stem, possible_stems, possible_parses, generated, correct)
+                lemma, key, key_to_part(key), form, line,
+                stem, possible_stems, likely_stems, possible_parses,
+                generated, correct)
 
+print()
 print("{}/{} incorrect".format(incorrect_count, total_count))
