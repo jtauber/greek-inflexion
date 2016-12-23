@@ -1,6 +1,8 @@
 greek-accentuation==1.1.0
-inflexion==0.7.1
+inflexion==0.8.0
 PyYAML==3.12
 pyuca==1.1.2
 
 py-sblgnt==0.5
+
+greek-utils==0.2
