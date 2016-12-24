@@ -53,7 +53,7 @@ PARTS = {
         "XMI", "XMD", "XMN", "XMP",
     ],
     "5+": [
-        "YMI",
+        "YMI", "YMP",
     ],
     "6-": [
         "APD", "APN", "APP", "APS", "APO",
@@ -63,7 +63,10 @@ PARTS = {
     ],
     "7-": [
         "FPI", "FPP",
-    ]
+    ],
+    "8-": [
+        "ZMI",
+    ],
 }
 
 REVERSE_PARTS = {}

@@ -16,6 +16,7 @@ MLXX_FILES = [
     "lxxmorph/01.Gen.1.mlxx",
     "lxxmorph/02.Gen.2.mlxx",
     "lxxmorph/03.Exod.mlxx",
+    "lxxmorph/04.Lev.mlxx",
 ]
 
 
