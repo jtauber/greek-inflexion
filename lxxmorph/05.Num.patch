@@ -1,5 +1,5 @@
 --- 05.Num.orig	2016-12-24 14:30:36.000000000 +0800
-+++ 05.Num.mlxx	2016-12-28 10:02:39.000000000 +0800
++++ 05.Num.mlxx	2016-12-28 13:43:43.000000000 +0800
 @@ -228,7 +228,7 @@
  DEUTE/ROU                A1A GSN    DEU/TEROS
  E)/TOUS                  N3E GSN    E)/TOS
@@ -126,6 +126,15 @@
  TIQHNO\S                 A1B NSF    TIQHNO/S
  TO\N                     RA  ASM    O(
  QHLA/ZONTA               V1  PAPASM QHLA/ZW
+@@ -9793,7 +9793,7 @@
+ DE/OMAI                  V1  PMI1S  DE/OMAI
+ KU/RIE                   N2  VSM    KU/RIOS
+ MH\                      D          MH/
+-SUNEPIQH=|               V7  PAS3S  TI/QHMI          SUN   E)PI
++SUNEPIQH=|               V7? AMS2S  TI/QHMI          SUN   E)PI
+ H(MI=N                   RP  DP     E)GW/
+ A(MARTI/AN               N1A ASF    A(MARTI/A
+ DIO/TI                   C          DIO/TI
 @@ -9832,7 +9832,7 @@
  QEO/S                    N2  NSM    QEO/S
  DE/OMAI/                 V1  PMI1S  DE/OMAI
