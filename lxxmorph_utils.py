@@ -7,6 +7,7 @@ book_to_num = {
     "Gen": 1,
     "Exod": 3,
     "Lev": 4,
+    "Num": 5,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,

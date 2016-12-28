@@ -16,7 +16,7 @@ ginflexion = GreekInflexion(
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/04.Lev.mlxx"):
+for row in get_words("lxxmorph/05.Num.mlxx"):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]
@@ -30,6 +30,7 @@ for row in get_words("lxxmorph/04.Lev.mlxx"):
         "final-nu-aai.3s",
         "alt-apo-pl",
         "sigma-loss-pmd.2s",
+        "late-pluperfect-singulars",
         "HGrk",
     ])
 
