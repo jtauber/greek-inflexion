@@ -1,5 +1,5 @@
 --- 03.Exod.orig	2016-12-21 08:25:50.000000000 +0800
-+++ 03.Exod.mlxx	2016-12-23 11:41:12.000000000 +0800
++++ 03.Exod.mlxx	2016-12-28 10:32:07.000000000 +0800
 @@ -126,7 +126,7 @@
  Exod 1:10
  DEU=TE                   D          DEU=TE
@@ -230,6 +230,15 @@
  LU/XNOS                  N2  NSM    LU/XNOS
  DIA\                     P          DIA/
  PANTO/S                  A3  GSM    PA=S
+@@ -22339,7 +22339,7 @@
+ SKHNH=S                  N1  GSF    SKHNH/
+ AU)TOU=                  RD  GSM    AU)TO/S
+ KAI\                     C          KAI/
+-KATENOOU=SAN             VAI AAI3P  NOE/W            KATA
++KATENOOU=SAN             V?? IAI3P  NOE/W            KATA
+ A)PIO/NTOS               V9  PAPGSM EI)=MI           A)PO
+ *MWUSH=                  N1M GSM    *MWUSH=S
+ E(/WS                    P          E(/WS
 @@ -23286,7 +23286,7 @@
  Exod 34:24
  O(/TAN                   D          O(/TAN

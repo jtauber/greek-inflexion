@@ -1,5 +1,5 @@
 --- 01.Gen.1.orig	2016-12-15 17:52:57.000000000 +0800
-+++ 01.Gen.1.mlxx	2016-12-19 06:13:25.000000000 +0800
++++ 01.Gen.1.mlxx	2016-12-28 10:36:31.000000000 +0800
 @@ -532,7 +532,7 @@
  KAI\                     C          KAI/
  TA\                      RA  NPN    O(
@@ -18,6 +18,15 @@
  O(                       RA  NSM    O(
  QEO\S                    N2  NSM    QEO/S
  TW=|                     RA  DSM    O(
+@@ -6096,7 +6096,7 @@
+ PA/NTA                   A3  APN    PA=S
+ O(/SA                    A1  APN    O(/SOS
+ A)\N                     X          A)/N
+-E)PIQW=NTAI              V7  PMS3P  TI/QHMI          E)PI
++E)PIQW=NTAI              V7? AMS3P  TI/QHMI          E)PI
+ POIEI=N                  V2  PAN    POIE/W
+ 
+ Gen 11:7
 @@ -12538,7 +12538,7 @@
  TOI=S                    RA  DPM    O(
  PAISI\N                  N3D DPM    PAI=S
