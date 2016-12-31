@@ -8,6 +8,7 @@ book_to_num = {
     "Exod": 3,
     "Lev": 4,
     "Num": 5,
+    "Deut": 6,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,
@@ -69,7 +70,7 @@ def trim_multiples(stem_set, part, lemma, parts):
             pass
         elif stem.endswith("@"):  # rarely a real stem
             pass
-        elif part[0] == "3" and lemma.endswith(("άω", "έω", "όω")) and \
+        elif part[0] == "3" and lemma.endswith(("άω", "έω", "όω", "εύω")) and \
                 stem.endswith(("{root}", "{athematic}", "{2nd}")):
             pass
         elif lemma.endswith(("ω", "ομαι")) and stem.endswith("{athematic}"):
@@ -86,6 +87,8 @@ def trim_multiples(stem_set, part, lemma, parts):
         elif part[0] == "1" and lemma.endswith("έομαι") and stem.endswith("ο"):
             pass
         elif part[0] == "1" and lemma.endswith("όομαι") and stem.endswith("ε"):
+            pass
+        elif part[0] == "1" and lemma.endswith("άομαι") and stem.endswith("η"):
             pass
         else:
             trimmed_stems.add(stem)

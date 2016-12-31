@@ -18,6 +18,7 @@ MLXX_FILES = [
     "lxxmorph/03.Exod.mlxx",
     "lxxmorph/04.Lev.mlxx",
     "lxxmorph/05.Num.mlxx",
+    "lxxmorph/06.Deut.mlxx",
 ]
 
 
@@ -46,6 +47,7 @@ for filename in MLXX_FILES:
             "final-nu-aai.3s",
             "alt-apo-pl",
             "sigma-loss-pmd.2s",
+            "sigma-loss-imi.2s",
             "late-pluperfect-singulars",
             "HGrk",
         ])
