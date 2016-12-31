@@ -1,5 +1,5 @@
---- 05.Num.orig	2016-12-24 14:30:36.000000000 +0800
-+++ 05.Num.mlxx	2016-12-28 13:43:43.000000000 +0800
+--- 05.Num.orig	2016-12-31 11:11:06.000000000 +0400
++++ 05.Num.mlxx	2016-12-31 11:10:53.000000000 +0400
 @@ -228,7 +228,7 @@
  DEUTE/ROU                A1A GSN    DEU/TEROS
  E)/TOUS                  N3E GSN    E)/TOS
@@ -126,6 +126,15 @@
  TIQHNO\S                 A1B NSF    TIQHNO/S
  TO\N                     RA  ASM    O(
  QHLA/ZONTA               V1  PAPASM QHLA/ZW
+@@ -9013,7 +9013,7 @@
+ MOI                      RP  DS     E)GW/
+ A)PO/KTEINO/N            VA  AAD2S  KTEI/NW          A)PO
+ ME                       RP  AS     E)GW/
+-A)NAIRE/SEI              V2  PAD2S  AI(RE/W          A)NA
++A)NAIRE/SEI              N?? DSF    A)NAI/RESIS
+ EI)                      C          EI)
+ EU(/RHKA                 VX  XAI1S  EU(RI/SKW
+ E)/LEOS                  N3E ASN    E)/LEOS
 @@ -9793,7 +9793,7 @@
  DE/OMAI                  V1  PMI1S  DE/OMAI
  KU/RIE                   N2  VSM    KU/RIOS
@@ -297,8 +306,3 @@
  E)N                      P          E)N
  U(MI=N                   RP  DP     SU/
  E)N                      P          E)N
-@@ -27630,4 +27630,3 @@
- *IORDA/NOU               N1M GSM    *I)ORDA/NHS
- KATA\                    P          KATA/
- *IERIXW                  N   AS     *IERIXW
--
