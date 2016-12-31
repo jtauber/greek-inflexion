@@ -33,7 +33,7 @@ PARTS = {
     ],
     "2-": [
         "FAI", "FAN", "FAP", "FAO",
-        "FMI", "FMP",
+        "FMI", "FMP", "FMO",
     ],
     "3-": [
         "AAD", "AAN", "AAP", "AAS", "AAO",
@@ -62,7 +62,7 @@ PARTS = {
         "API",
     ],
     "7-": [
-        "FPI", "FPP",
+        "FPI", "FPP", "FPO",
     ],
     "8-": [
         "ZMI",
