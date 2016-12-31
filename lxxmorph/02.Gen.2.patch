@@ -1,0 +1,248 @@
+--- 02.Gen.2.orig	2016-12-19 03:42:26.000000000 +0400
++++ 02.Gen.2.mlxx	2016-12-20 15:52:52.000000000 +0400
+@@ -1303,7 +1303,7 @@
+ AU)TOU=                  RD  GSM    AU)TO/S
+ *IWSHF                   N   ASM    *IWSHF
+ LE/GOUSA                 V1  PAPNSF LE/GW
+-PROSQE/TW                VE  AMD3S  TI/QHMI          PROS
++PROSQE/TW                VE  AAD3S  TI/QHMI          PROS
+ O(                       RA  NSM    O(
+ QEO/S                    N2  NSM    QEO/S
+ MOI                      RP  DS     E)GW/
+@@ -2735,7 +2735,7 @@
+ AI)=GE/S                 N3G NPF    AI)/C
+ SOU                      RP  GS     SU/
+ OU)K                     D          OU)
+-H)TEKNW/QHSAN            VCI API3S  A)TEKNO/W
++H)TEKNW/QHSAN            VCI API3P  A)TEKNO/W
+ KRIOU\S                  N2  APM    KRIO/S
+ TW=N                     RA  GPN    O(
+ PROBA/TWN                N2N GPN    PRO/BATON
+@@ -3037,7 +3037,7 @@
+ O(/RASIS                 N3I NSF    O(/RASIS
+ H(\N                     RR  ASF    O(/S
+ EI)=PEN                  VBI AAI3S  EI)=PON
+-E)PI/DOI                 VO  AAO2S  DI/DWMI          E)PI
++E)PI/DOI                 V?  AAO3S  O(RA/W           E)PI
+ O(                       RA  NSM    O(
+ QEO\S                    N2  NSM    QEO/S
+ A)NA\                    P          A)NA/
+@@ -3374,7 +3374,7 @@
+ *ISAAK                   N   GSM    *ISAAK
+ KU/RIE                   N2  VSM    KU/RIOS
+ O(                       RA  NSM    O(
+-EI)/PAS                  VAI AAI2S  EI)=PON
++EI)/PAS                  VAI AAPNSM EI)=PON
+ MOI                      RP  DS     E)GW/
+ A)PO/TREXE               V1  PAD2S  TRE/XW           A)PO
+ EI)S                     P          EI)S
+@@ -3752,7 +3752,7 @@
+ *IAKWB                   N   GSM    *I)AKW/B
+ E)N                      P          E)N
+ TW=|                     RA  DSN    O(
+-PALAI/EIN                VB  AAN    PALAI/W
++PALAI/EIN                VB  PAN    PALAI/W
+ AU)TO\N                  RD  ASM    AU)TO/S
+ MET'                     P          META/
+ AU)TOU=                  RD  GSM    AU)TO/S
+@@ -3811,7 +3811,7 @@
+ O)/NOMA/                 N3M NSN    O)/NOMA
+ SOU                      RP  GS     SU/
+ O(/TI                    C          O(/TI
+-E)NI/SXUSAS              VA  AAPNSM I)SXU/W          E)N
++E)NI/SXUSAS              VA  AAI2S  I)SXU/W          E)N
+ META\                    P          META/
+ QEOU=                    N2  GSM    QEO/S
+ KAI\                     C          KAI/
+@@ -6540,7 +6540,7 @@
+ *EDWM                    N   GS     *EDWM
+ E)N                      P          E)N
+ TAI=S                    RA  DPF    O(
+-KATW|KODOMHME/NAIS       VA  AMPDPF OI)KODOME/W      KATA
++KATW|KODOMHME/NAIS       VA  XMPDPF OI)KODOME/W      KATA
+ E)N                      P          E)N
+ TH=|                     RA  DSF    O(
+ GH=|                     N1  DSF    GH=
+@@ -7158,7 +7158,7 @@
+ 
+ Gen 37:27
+ DEU=TE                   D          DEU=TE
+-A)PODW/MEQA              VF  FMI1P  DI/DWMI          A)PO
++A)PODW/MEQA              VF  AMS1P  DI/DWMI          A)PO
+ AU)TO\N                  RD  ASM    AU)TO/S
+ TOI=S                    RA  DPM    O(
+ *ISMAHLI/TAIS            N1M DPM    *ISMAHLI/THS
+@@ -7926,7 +7926,7 @@
+ EI)=PEN                  VBI AAI3S  EI)=PON
+ DE\                      X          DE/
+ *IOUDAS                  N   NSM    *I)OU/DAS
+-E)XE/TW                  V1  PAD2P  E)/XW
++E)XE/TW                  V1  PAD3S  E)/XW
+ AU)TA/                   RD  APN    AU)TO/S
+ A)LLA\                   C          A)LLA/
+ MH/POTE                  D          MH/POTE
+@@ -8521,7 +8521,7 @@
+ A)KOU=SAI                VA  AAN    A)KOU/W
+ AU)TO\N                  RD  ASM    AU)TO/S
+ O(/TI                    C          O(/TI
+-U(/YWSA                  V4  PAPNSF U(YO/W
++U(/YWSA                  V4  AAI1S  U(YO/W
+ TH\N                     RA  ASF    O(
+ FWNH/N                   N1  ASF    FWNH/
+ MOU                      RP  GS     E)GW/
+@@ -8588,7 +8588,7 @@
+ DE\                      X          DE/
+ H)/KOUSEN                VAI AAI3S  A)KOU/W
+ O(/TI                    C          O(/TI
+-U(/YWSA                  V4  PAPNSF U(YO/W
++U(/YWSA                  V4  AAI1S  U(YO/W
+ TH\N                     RA  ASF    O(
+ FWNH/N                   N1  ASF    FWNH/
+ MOU                      RP  GS     E)GW/
+@@ -10207,7 +10207,7 @@
+ A)/NEU                   P          A)/NEU
+ SOU=                     RP  GS     SU/
+ OU)K                     D          OU)
+-E)CAREI=                 VF2 PAI3S  AI)/RW           E)K
++E)CAREI=                 VF2 FAI3S  AI)/RW           E)K
+ OU)QEI\S                 A3  NSM    OU)DEI/S
+ TH\N                     RA  ASF    O(
+ XEI=RA                   N3  ASF    XEI/R
+@@ -10651,7 +10651,7 @@
+ EI)=PEN                  VBI AAI3S  EI)=PON
+ AU)TOI=S                 RD  DPM    AU)TO/S
+ PO/QEN                   D          PO/QEN
+-H(/KATE                  V1  PAI2P  H(/KW
++H(/KATE                  V1  XAI2P  H(/KW
+ OI(                      RA  NPM    O(
+ DE\                      X          DE/
+ EI)=PAN                  VAI AAI3P  EI)=PON
+@@ -10693,7 +10693,7 @@
+ I)/XNH                   N3E APN    I)/XNOS
+ TH=S                     RA  GSF    O(
+ XW/RAS                   N1A GSF    XW/RA
+-H(/KATE                  V1  PAI2P  H(/KW
++H(/KATE                  V1  XAI2P  H(/KW
+ 
+ Gen 42:10
+ OI(                      RA  NPM    O(
+@@ -10813,7 +10813,7 @@
+ U(MW=N                   RP  GP     SU/
+ U(MEI=S                  RP  NP     SU/
+ DE\                      X          DE/
+-A)PA/XQHTE               VQ  API2P  A)/GW            A)PO
++A)PA/XQHTE               VQ  APD2P  A)/GW            A)PO
+ E(/WS                    P          E(/WS
+ TOU=                     RA  GSN    O(
+ FANERA\                  A1A APN    FANERO/S
+@@ -11722,7 +11722,7 @@
+ TOU=                     RA  GSM    O(
+ A)NQRW/POU               N2  GSM    A)/NQRWPOS
+ KAI\                     C          KAI/
+-A)POSTEI/LAI             VA  AMD2S  STE/LLW          A)PO
++A)POSTEI/LAI             VA  AAO3S  STE/LLW          A)PO
+ TO\N                     RA  ASM    O(
+ A)DELFO\N                N2  ASM    A)DELFO/S
+ U(MW=N                   RP  GP     SU/
+@@ -13468,7 +13468,7 @@
+ OI)=KON                  N2  ASM    OI)=KOS
+ *FARAW                   N   GSM    *FARAW/
+ LE/GONTES                V1  PAPNPM LE/GW
+-H(/KASIN                 V1  PAI3P  H(/KW
++H(/KASIN                 V1  XAI3P  H(/KW
+ OI(                      RA  NPM    O(
+ A)DELFOI\                N2  NPM    A)DELFO/S
+ *IWSHF                   N   GSM    *IWSHF
+@@ -13492,7 +13492,7 @@
+ SOU                      RP  GS     SU/
+ TOU=TO                   RD  ASN    OU(=TOS
+ POIH/SATE                VA  AAD2P  POIE/W
+-GEMI/SATE                VA  AAD2S  GEMI/ZW
++GEMI/SATE                VA  AAD2P  GEMI/ZW
+ TA\                      RA  APN    O(
+ POREI=A                  N2N APN    POREI=ON
+ U(MW=N                   RP  GP     SU/
+@@ -13790,7 +13790,7 @@
+ O(RA/MATI                N3M DSN    O(/RAMA
+ TH=S                     RA  GSF    O(
+ NUKTO\S                  N3  GSF    NU/C
+-EI)/PAS                  VAI AAI2S  EI)=PON
++EI)/PAS                  VAI AAPNSM EI)=PON
+ *IAKWB                   N   VSM    *I)AKW/B
+ *IAKWB                   N   VSM    *I)AKW/B
+ O(                       RA  NSM    O(
+@@ -14417,7 +14417,7 @@
+ E)N                      P          E)N
+ GH=|                     N1  DSF    GH=
+ *XANAAN                  N    S     *XANAAN
+-H(/KASIN                 V1  PAI3P  H(/KW
++H(/KASIN                 V1  XAI3P  H(/KW
+ PRO/S                    P          PRO/S
+ ME                       RP  AS     E)GW/
+ 
+@@ -14580,7 +14580,7 @@
+ E)N                      P          E)N
+ TH=|                     RA  DSF    O(
+ GH=|                     N1  DSF    GH=
+-H(/KAMEN                 V1  PAI1P  H(/KW
++H(/KAMEN                 V1  XAI1P  H(/KW
+ OU)                      D          OU)
+ GA/R                     X          GA/R
+ E)STIN                   V9  PAI3S  EI)MI/
+@@ -14613,7 +14613,7 @@
+ *FARAW                   N   NSM    *FARAW/
+ TW=|                     RA  DSM    O(
+ *IWSFH                   N   DSM    *IWSFH
+-KATOIKEI/TWSAN           VA  AAD3P  OI)KE/W          KATA
++KATOIKEI/TWSAN           VA  PAD3P  OI)KE/W          KATA
+ E)N                      P          E)N
+ GH=|                     N1  DSF    GH=
+ *GESEM                   N    S     *GESEM
+@@ -14661,7 +14661,7 @@
+ OI(                      RA  NPM    O(
+ A)DELFOI/                N2  NPM    A)DELFO/S
+ SOU                      RP  GS     SU/
+-H(/KASI                  V1  PAI3P  H(/KW
++H(/KASI                  V1  XAI3P  H(/KW
+ PRO\S                    P          PRO/S
+ SE/                      RP  AS     SU/
+ 
+@@ -15257,7 +15257,7 @@
+ *AI)GU/PTOU              N2  GSF    *AI)/GUPTOS
+ TW=|                     RA  DSM    O(
+ *FARAW                   N   DSM    *FARAW/
+-A)POPEMPTOU=N            V4  PAPNSM PEMPTO/W         A)PO
++A)POPEMPTOU=N            V4  PAPNSN PEMPTO/W         A)PO
+ XWRI\S                   P          XWRI/S
+ TH=S                     RA  GSF    O(
+ GH=S                     N1  GSF    GH=
+@@ -15891,7 +15891,7 @@
+ GA\R                     X          GA/R
+ O(                       RA  NSM    O(
+ PRWTO/TOKOS              A1B NSM    PRWTO/TOKOS
+-E)PI/QES                 VBI AAI2S  PEI/QW
++E)PI/QES                 V?? AAD2S  TI/QHMI          E)PI
+ TH\N                     RA  ASF    O(
+ DECIA/N                  A1A ASF    DECIO/S
+ SOU                      RP  GS     SU/
+@@ -16035,7 +16035,7 @@
+ H(MERW=N                 N1A GPF    H(ME/RA
+ 
+ Gen 49:2
+-A)QROI/SQHTE             VS  AAD2P  A)QROI/ZW
++A)QROI/SQHTE             VS  APD2P  A)QROI/ZW
+ KAI\                     C          KAI/
+ A)KOU/SATE               VA  AAD2P  A)KOU/W
+ UI(OI\                   N2  NPM    UI(O/S
+@@ -17253,10 +17253,9 @@
+ E)/QAYAN                 VAI AAI3P  QA/PTW
+ AU)TO\N                  RD  ASM    AU)TO/S
+ KAI\                     C          KAI/
+-E)/QHKAN                 VAI AAI3S  TI/QHMI
++E)/QHKAN                 VAI AAI3P  TI/QHMI
+ E)N                      P          E)N
+ TH=|                     RA  DSF    O(
+ SORW=|                   N2  DSF    SORO/S
+ E)N                      P          E)N
+ *AI)GU/PTW|              N2  DSF    *AI)/GUPTOS
+-
