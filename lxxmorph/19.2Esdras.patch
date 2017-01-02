@@ -1,5 +1,5 @@
---- 19.2Esdras.orig	2016-12-15 17:53:39.000000000 +0800
-+++ 19.2Esdras.mlxx	2016-12-18 11:56:57.000000000 +0800
+--- 19.2Esdras.orig	2016-12-15 04:53:39.000000000 -0500
++++ 19.2Esdras.mlxx	2016-12-31 04:18:37.000000000 -0500
 @@ -184,7 +184,7 @@
  PA/NTES                  A3  NPM    PA=S
  OI(                      RA  NPM    O(
@@ -72,6 +72,15 @@
  GNWRIEI=TE               VF2 FAI2P  GNWRI/ZW
  
  2Esdr 7:26
+@@ -4969,7 +4969,7 @@
+ KAI\                     C          KAI/
+ E)NETRA/PHN              VDI API1S  TRE/PW           E)N
+ TOU=                     RA  GSM    O(
+-U(YW=SAI                 V4  PAPNPF U(YO/W
++U(YW=SAI                 V?? AAN    U(YO/W
+ TO\                      RA  ASN    O(
+ PRO/SWPO/N               N2N ASN    PRO/SWPON
+ MOU                      RP  GS     E)GW/
 @@ -5071,7 +5071,7 @@
  H(MW=N                   RP  GP     E)GW/
  KAI\                     C          KAI/
@@ -81,15 +90,18 @@
  MIKRA\N                  A1A ASF    MIKRO/S
  E)N                      P          E)N
  TH=|                     RA  DSF    O(
-@@ -5104,7 +5104,7 @@
+@@ -5104,9 +5104,9 @@
  *PERSW=N                 N1M GPM    *PE/RSHS
  DOU=NAI                  VO  AAN    DI/DWMI
  H(MI=N                   RP  DP     E)GW/
 -ZWOPOI/HSIN              VA  AAS3P  ZWOPOIE/W
 +ZWOPOI/HSIN              N3I ASF    ZWOPOI/HSIS
  TOU=                     RA  GSM    O(
- U(YW=SAI                 V4  PAPNPF U(YO/W
+-U(YW=SAI                 V4  PAPNPF U(YO/W
++U(YW=SAI                 V?? AAN    U(YO/W
  AU)TOU\S                 RD  APM    AU)TO/S
+ TO\N                     RA  ASM    O(
+ OI)=KON                  N2  ASM    OI)=KOS
 @@ -6560,7 +6560,7 @@
  EI)S                     P          EI)S
  TO\N                     RA  ASM    O(
