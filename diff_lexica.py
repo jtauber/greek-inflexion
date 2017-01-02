@@ -29,14 +29,19 @@ print("both", len(in_both))
 print("1 only", len(in_1_only))
 print("2 only", len(in_2_only))
 
+PARTS = [
+    "1-", "1+", "2-", "3-", "3+",
+    "4-", "4+", "5-", "5+",
+    "6-", "6+", "7-", "8-",
+]
+
 match = 0
 mismatch = 0
 none_1 = 0
 none_2 = 0
 
 for key in in_both:
-
-    for part in ["1-", "1+", "2-", "3-", "3+", "4-", "4+", "5-", "5+", "6-", "6+", "7-", "8-"]:
+    for part in PARTS:
         value1 = lexicon1[key].get("stems", {}).get(part)
         value2 = lexicon2[key].get("stems", {}).get(part)
 
