@@ -6,7 +6,7 @@ from pysblgnt import morphgnt_rows
 
 from accent import strip_length  # , rebreath
 from greek_inflexion import GreekInflexion
-from morphgnt_utils import bcv_tuple, convert_parse
+from morphgnt_utils import bcv_tuple, convert_parse, key_to_part
 from test_generate import output_item
 
 
@@ -83,13 +83,21 @@ for book_num in args.books:
             else:
                 correct = "✕"
                 incorrect_count += 1
-                stem_guess = [
-                    possible_stem for key, possible_stem in
-                    ginflexion.possible_stems(form, "^" + key + "$")]
+                possible_stems = [
+                    (key_to_part(a), b, a)
+                    for a, b in ginflexion.possible_stems(form)
+                ]
+                likely_stems = [
+                    (key_to_part(a), b)
+                    for a, b in ginflexion.possible_stems(
+                        form, "^" + key + "$")
+                ]
+                possible_parses = ginflexion.parse(form)
 
             if debug or correct == "✕":
                 output_item(
-                    lemma, key, form,
-                    stem, stem_guess, generated, correct)
+                    lemma, key, key_to_part(key), form, None,
+                    stem, possible_stems, likely_stems, possible_parses,
+                    generated, correct)
 
 print("{}/{} incorrect".format(incorrect_count, total_count))
