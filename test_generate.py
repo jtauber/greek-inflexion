@@ -119,5 +119,5 @@ def test_generate(
                     correct = "✕"
                 if debug or correct == "✕":
                     output_item(
-                        lemma, key, form,
-                        stem, stem_guess, None, None, generated, correct)
+                        lemma, key, None, form, None, stem,
+                        stem_guess, None, None, generated, correct)
