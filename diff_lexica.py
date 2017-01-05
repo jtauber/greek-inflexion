@@ -25,9 +25,9 @@ for key in lexicon2:
     else:
         in_2_only.add(key)
 
-print("both", len(in_both))
-print("1 only", len(in_1_only))
-print("2 only", len(in_2_only))
+# print("both", len(in_both))
+# print("1 only", len(in_1_only))
+# print("2 only", len(in_2_only))
 
 PARTS = [
     "1-", "1+", "2-", "3-", "3+",
@@ -35,8 +35,10 @@ PARTS = [
     "6-", "6+", "7-", "8-",
 ]
 
-match = 0
-mismatch = 0
+exact_match = 0
+set_match = 0
+compatible = 0
+incompatible = 0
 none_1 = 0
 none_2 = 0
 
@@ -51,14 +53,24 @@ for key in in_both:
             elif value2 is None:
                 none_2 += 1
             else:
-                mismatch += 1
-                print(key, part, value1, value2)
+                if set(value1.split("/")) == set(value2.split("/")):
+                    set_match += 1
+                    print(key, part, value1, value2)
+                else:
+                    if set(value1.split("/")) < set(value2.split("/")) or \
+                            set(value1.split("/")) > set(value2.split("/")):
+                        compatible += 1
+                    else:
+                        incompatible += 1
+                        print(key, part, value1, value2)
         else:
-            match += 1
+            exact_match += 1
 
 print(
-    match, "match;",
+    exact_match, "exact_match;",
+    set_match, "set_match;",
     none_1, "none1;",
     none_2, "none2;",
-    mismatch, "mismatch"
+    compatible, "compatible",
+    incompatible, "incompatible"
 )
