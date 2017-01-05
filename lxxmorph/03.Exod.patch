@@ -1,5 +1,5 @@
---- 03.Exod.orig	2016-12-21 08:25:50.000000000 +0800
-+++ 03.Exod.mlxx	2016-12-28 10:32:07.000000000 +0800
+--- 03.Exod.orig	2016-12-20 18:25:50.000000000 -0600
++++ 03.Exod.mlxx	2017-01-05 14:40:37.000000000 -0600
 @@ -126,7 +126,7 @@
  Exod 1:10
  DEU=TE                   D          DEU=TE
@@ -159,6 +159,15 @@
  E)N                      P          E)N
  U(/DATI                  N3T DSN    U(/DWR
  A)LL'                    C          A)LLA/
+@@ -9193,7 +9193,7 @@
+ PRO\S                    P          PRO/S
+ TO\N                     RA  ASM    O(
+ LAO/N                    N2  ASM    LAO/S
+-QARSEI=TE                V2  PAD2P  QARRE/W
++QARSEI=TE                V2  PAD2P  QARSE/W
+ STH=TE                   VH  AAD2P  I(/STHMI
+ KAI\                     C          KAI/
+ O(RA=TE                  V3  PAD2P  O(RA/W
 @@ -11391,7 +11391,7 @@
  DUNATOU\S                A1  APM    DUNATO/S
  KAI\                     C          KAI/
@@ -194,6 +203,15 @@
  AU)TOI/                  RD  NPM    AU)TO/S
  
  Exod 18:27
+@@ -13221,7 +13221,7 @@
+ LE/GEI                   V1  PAI3S  LE/GW
+ AU)TOI=S                 RD  DPM    AU)TO/S
+ *MWUSH=S                 N1M NSM    *MWUSH=S
+-QARSEI=TE                V2  PAD2P  QARRE/W
++QARSEI=TE                V2  PAD2P  QARSE/W
+ E(/NEKEN                 P          E(/NEKEN
+ GA\R                     X          GA/R
+ TOU=                     RA  GSN    O(
 @@ -13949,7 +13949,7 @@
  MH\                      D          MH/
  A)FANI/SH|               VA  AAS3S  I(/ZW            A)PO  A)NA

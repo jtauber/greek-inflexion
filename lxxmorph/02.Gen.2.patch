@@ -1,5 +1,5 @@
---- 02.Gen.2.orig	2016-12-19 03:42:26.000000000 +0400
-+++ 02.Gen.2.mlxx	2016-12-20 15:52:52.000000000 +0400
+--- 02.Gen.2.orig	2016-12-18 17:42:26.000000000 -0600
++++ 02.Gen.2.mlxx	2017-01-05 14:40:04.000000000 -0600
 @@ -1303,7 +1303,7 @@
  AU)TOU=                  RD  GSM    AU)TO/S
  *IWSHF                   N   ASM    *IWSHF
@@ -54,6 +54,15 @@
  META\                    P          META/
  QEOU=                    N2  GSM    QEO/S
  KAI\                     C          KAI/
+@@ -5574,7 +5574,7 @@
+ AU)TH=|                  RD  DSF    AU)TO/S
+ H(                       RA  NSF    O(
+ MAI=A                    N1A NSF    MAI=A
+-QA/RSEI                  V2  PAD2S  QARRE/W
++QA/RSEI                  V2  PAD2S  QARSE/W
+ KAI\                     C          KAI/
+ GA\R                     X          GA/R
+ OU(=TO/S                 RD  NSM    OU(=TOS
 @@ -6540,7 +6540,7 @@
  *EDWM                    N   GS     *EDWM
  E)N                      P          E)N
