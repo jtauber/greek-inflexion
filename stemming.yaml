@@ -95,7 +95,8 @@ AAI.3P:
     - "|ε{athematic}>ε<|σαν"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εῖ<|σαν"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ο<|σαν"  # §62 (@@@ or treat as root?)
-    - "|{2nd}>ο<@|σαν;+HGrk"  # @@@
+    - "|{2nd}>ο<@|σαν;+HGrk"  # @@@ LXX only?
+    - "|>η<@|σαν;+HGrk"  # @@@ LXX only? is this right way to model this?
 
 AAN:
     - "|><|αι"  # §50 (1st/weak)
