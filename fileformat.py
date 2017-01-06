@@ -96,7 +96,9 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
                 stems = []
 
-                for partnum, stems in sorted(entry["stems"].items()):
+                for partnum, stems in sorted((
+                    entry["stems"] if entry.get("stems") else {}
+                ).items()):
 
                     key_regex = partnum_to_key_regex[partnum]
 
