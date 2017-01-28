@@ -16,7 +16,7 @@ ginflexion = GreekInflexion(
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/06.Deut.mlxx"):
+for row in get_words("lxxmorph/08.JoshA.mlxx"):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]
@@ -44,7 +44,7 @@ for row in get_words("lxxmorph/06.Deut.mlxx"):
     else:
         stem_guess = [
             stem for key, stem in
-            ginflexion.possible_stems(form, "^" + key + "$")]
+            ginflexion.possible_stems2(form, "^" + key + "$")]
 
     if [strip_length(w) for w in sorted(generated)] == \
             [strip_length(w) for w in sorted(form.split("/"))]:

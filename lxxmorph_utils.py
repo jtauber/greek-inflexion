@@ -9,6 +9,8 @@ book_to_num = {
     "Lev": 4,
     "Num": 5,
     "Deut": 6,
+    "JoshB": 7,
+    "JoshA": 8,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,
@@ -36,7 +38,7 @@ def get_words(filename):
             if state == 0:  # expecting verse ref
                 b, cv = s.split()
                 c, v = cv.split(":")
-                if v[-1] in "a":  # @@@
+                if v[-1] in "abcdef":  # @@@
                     v = v[:-1]
                 else:
                     w = 0

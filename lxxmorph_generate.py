@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from collections import defaultdict
+
 from accent import strip_length
 from greek_inflexion import GreekInflexion
 from test_generate import output_item
@@ -19,6 +21,8 @@ MLXX_FILES = [
     "lxxmorph/04.Lev.mlxx",
     "lxxmorph/05.Num.mlxx",
     "lxxmorph/06.Deut.mlxx",
+    "lxxmorph/07.JoshB.mlxx",
+    "lxxmorph/08.JoshA.mlxx",
 ]
 
 
@@ -26,6 +30,8 @@ debug = False
 
 incorrect_count = 0
 total_count = 0
+
+summary_by_lemma = defaultdict(set)
 
 ginflexion = GreekInflexion("stemming.yaml", "lxx_lexicon.yaml")
 
@@ -62,6 +68,7 @@ for filename in MLXX_FILES:
         else:
             correct = "✕"
             incorrect_count += 1
+            summary_by_lemma[lemma].add(key)
             possible_stems = [
                 (key_to_part(a), b, a)
                 for a, b in ginflexion.possible_stems(form)
@@ -80,3 +87,4 @@ for filename in MLXX_FILES:
 
 print()
 print("{}/{} incorrect".format(incorrect_count, total_count))
+print(len(summary_by_lemma))
