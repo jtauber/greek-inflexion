@@ -1,0 +1,61 @@
+--- 07.JoshB.orig	2017-01-28 04:29:54.000000000 -0500
++++ 07.JoshB.mlxx	2017-01-28 14:20:38.000000000 -0500
+@@ -559,7 +559,7 @@
+ GA\R                     X          GA/R
+ TH\N                     RA  ASF    O(
+ GH=N                     N1  ASF    GH=
+-H(/KASIN                 V1  PAI3P  H(/KW
++H(/KASIN                 V1? XAI3P  H(/KW
+ 
+ JoshB 2:4
+ KAI\                     C          KAI/
+@@ -3267,7 +3267,7 @@
+ PLHMME/LEIAN             N1A ASF    PLHMME/LEIA
+ MEGA/LHN                 A1  ASF    ME/GAS
+ KAI\                     C          KAI/
+-E)NOSFI/SANTO            VAI AAI3P  NOSFI/ZOMAI
++E)NOSFI/SANTO            VAI AMI3P  NOSFI/ZOMAI
+ A)PO\                    P          A)PO/
+ TOU=                     RA  GSN    O(
+ A)NAQE/MATOS             N3M GSN    A)NA/QEMA
+@@ -3923,7 +3923,7 @@
+ TI/                      RI  ASN    TI/S
+ W)LE/QREUSAS             VAI AAI2S  O)LEQREU/W
+ H(MA=S                   RP  AP     E)GW/
+-E)COLEQREU/SAI           VA  AAN    O)LEQREU/W       E)K
++E)COLEQREU/SAI           VA  AAO3S  O)LEQREU/W       E)K
+ SE                       RP  AS     SU/
+ KU/RIOS                  N2  NSM    KU/RIOS
+ KAQA\                    D          KAQA/
+@@ -5030,7 +5030,7 @@
+ E)K                      P          E)K
+ GH=S                     N1  GSF    GH=
+ MAKRO/QEN                D          MAKRO/QEN
+-H(/KAMEN                 V1  PAI1P  H(/KW
++H(/KAMEN                 V1? XAI1P  H(/KW
+ KAI\                     C          KAI/
+ NU=N                     D          NU=N
+ DIA/QESQE                VE  AMD2P  TI/QHMI          DIA
+@@ -5083,7 +5083,7 @@
+ GH=S                     N1  GSF    GH=
+ MAKRO/QEN                D          MAKRO/QEN
+ SFO/DRA                  D          SFO/DRA
+-H(/KASIN                 V1  PAI3P  H(/KW
++H(/KASIN                 V1? XAI3P  H(/KW
+ OI(                      RA  NPM    O(
+ PAI=DE/S                 N3D NPM    PAI=S
+ SOU                      RP  GS     SU/
+@@ -15000,7 +15000,7 @@
+ U(MW=N                   RP  GP     SU/
+ E(/WS                    C          E(/WS
+ A)\N                     X          A)/N
+-A)PO/LHSQE               VA  APS2P  O)LLU/W          A)PO
++A)PO/LHSQE               VA  AMS2P  O)LLU/W          A)PO
+ A)PO\                    P          A)PO/
+ TH=S                     RA  GSF    O(
+ GH=S                     N1  GSF    GH=
+@@ -16211,4 +16211,3 @@
+ E)/TH                    N3E APN    E)/TOS
+ DE/KA                    M          DE/KA
+ O)KTW/                   M          O)KTW/
+-
