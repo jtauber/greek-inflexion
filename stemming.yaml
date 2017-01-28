@@ -87,8 +87,8 @@ AAI.3P:
     - "|>α<α|ν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
     - "|α{root}>η<_1|σαν"  # §50 (root)
-    # - "|ε{root}>η<_1|σαν"  # §50 (root)
-    # - "|ο{root}>ω<_1|σαν"  # §50 (root)
+    - "|ε{root}>η<_1|σαν"  # §50 (root)
+    - "|ο{root}>ω<_1|σαν"  # §50 (root)
     - "ῡ|{root}><|σαν"
     - "ω|{root}><|σαν"  # if you model it this way rather than ο{root}
     # - "|α{athematic}>η<@|σαν"  # @@@
@@ -2198,7 +2198,8 @@ PMS.2S:
     - "|α>ᾷ<η+σαι|"
     - "|ο>οῖ<η+σαι|"
     - "|η>ῇ<η+σαι|"
-    - "|α{athematic}>ῇ<η+σαι|"  # @@@ check if needed outside of Pratt
+    - "|α{athematic}>ῇ<η+σαι|;-HGrk"  # @@@ check this accentuation
+    - "|α{athematic}>ῃ<η+σαι|;+HGrk"
     - "|ο{athematic}>ῷ<η+σαι|"
     - "|ε{athematic}>ῇ<η+σαι|"
     - "ν|υ{athematic}>ύῃ<η+σαι|"
@@ -2229,7 +2230,8 @@ PMS.2P:
     - "|α>ᾶ<η|σθε"
     - "|ο>ῶ<η|σθε"
     - "|η>ῆ<η|σθε"
-    - "|α{athematic}>ῆ<η|σθε"  # check if needed outside of Pratt
+    - "|α{athematic}>ῆ<η|σθε;-HGrk"  # @@@ check this accentuation
+    - "|α{athematic}>η<η|σθε;+HGrk"
     - "|ο{athematic}>ῶ<η|σθε"
     - "|ε{athematic}>ῆ<η|σθε"
     - "ν|υ{athematic}>ύ<|ησθε"  # η suggests not athematic
