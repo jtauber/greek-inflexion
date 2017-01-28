@@ -87,8 +87,8 @@ AAI.3P:
     - "|>α<α|ν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
     - "|α{root}>η<_1|σαν"  # §50 (root)
-    # - "|ε{root}>η<_1|σαν"  # §50 (root)
-    # - "|ο{root}>ω<_1|σαν"  # §50 (root)
+    - "|ε{root}>η<_1|σαν"  # §50 (root)
+    - "|ο{root}>ω<_1|σαν"  # §50 (root)
     - "ῡ|{root}><|σαν"
     - "ω|{root}><|σαν"  # if you model it this way rather than ο{root}
     # - "|α{athematic}>η<@|σαν"  # @@@
