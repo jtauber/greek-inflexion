@@ -55,6 +55,11 @@ class GreekInflexion:
             if key_regex is None or re.match(key_regex, key):
                 yield key, rebreath(strip_accents(stem))
 
+    def possible_stems2(self, form, key_regex=None):
+        for key, stem in self.ruleset.possible_stems2(debreath(form)):
+            if key_regex is None or re.match(key_regex, key):
+                yield key, rebreath(strip_accents(stem))
+
     def parse(self, form):
         return self.inflexion.parse(
             debreath(form), stem_post_processor=strip_accents)
