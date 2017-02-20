@@ -11,6 +11,7 @@ book_to_num = {
     "Deut": 6,
     "JoshB": 7,
     "JoshA": 8,
+    "JudgB": 9,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,

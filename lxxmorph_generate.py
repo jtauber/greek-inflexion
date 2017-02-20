@@ -23,6 +23,7 @@ MLXX_FILES = [
     "lxxmorph/06.Deut.mlxx",
     "lxxmorph/07.JoshB.mlxx",
     "lxxmorph/08.JoshA.mlxx",
+    "lxxmorph/09.JudgesB.mlxx",
 ]
 
 
@@ -55,6 +56,7 @@ for filename in MLXX_FILES:
             "sigma-loss-pmd.2s",
             "sigma-loss-imi.2s",
             "late-pluperfect-singulars",
+            "alt-eimi-imp",
             "HGrk",
         ])
 
