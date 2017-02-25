@@ -11,10 +11,6 @@ from lxxmorph_utils import get_words, convert_parse
 
 
 MLXX_FILES = [
-    "lxxmorph/24.1Macc.mlxx",
-    "lxxmorph/42.Jonah.mlxx",
-    "lxxmorph/44.Nahum.mlxx",
-    "lxxmorph/19.2Esdras.mlxx",
     "lxxmorph/01.Gen.1.mlxx",
     "lxxmorph/02.Gen.2.mlxx",
     "lxxmorph/03.Exod.mlxx",
@@ -24,6 +20,12 @@ MLXX_FILES = [
     "lxxmorph/07.JoshB.mlxx",
     "lxxmorph/08.JoshA.mlxx",
     "lxxmorph/09.JudgesB.mlxx",
+    "lxxmorph/10.JudgesA.mlxx",
+
+    "lxxmorph/19.2Esdras.mlxx",
+    "lxxmorph/24.1Macc.mlxx",
+    "lxxmorph/42.Jonah.mlxx",
+    "lxxmorph/44.Nahum.mlxx",
 ]
 
 
