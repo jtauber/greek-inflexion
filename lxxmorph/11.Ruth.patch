@@ -1,5 +1,23 @@
 --- 11.Ruth.orig	2017-03-09 10:01:20.000000000 -0500
-+++ 11.Ruth.mlxx	2017-03-09 10:17:25.000000000 -0500
++++ 11.Ruth.mlxx	2017-03-09 11:52:09.000000000 -0500
+@@ -303,7 +303,7 @@
+ ME                       RP  ASF    E)GW/
+ A)NDRI\                  N3  DSM    A)NH/R
+ KAI\                     C          KAI/
+-TE/COMAI                 VF  FAI1S  TI/KTW
++TE/COMAI                 VF  FMI1S  TI/KTW
+ UI(OU/S                  N2  APM    UI(O/S
+ 
+ Ruth 1:13
+@@ -434,7 +434,7 @@
+ A)POQA/NH|S              VB  AAS2S  QNH/SKW          A)PO
+ A)POQANOU=MAI            VF2 FMI1S  QNH/SKW          A)PO
+ KA)KEI=                  C+D        KAI/+E)KEI=
+-TAFH/SOMAI               VF  FMI1S  QA/PTW
++TAFH/SOMAI               V@@ FPI1S  QA/PTW
+ TA/DE                    RD  APN    O(/DE
+ POIH/SAI                 VA  AAO3S  POIE/W
+ MOI                      RP  DSF    E)GW/
 @@ -462,7 +462,7 @@
  POREU/ESQAI              V1  PMN    POREU/OMAI
  MET'                     P          META/
@@ -9,6 +27,60 @@
  TOU=                     RA  GSN    O(
  LALH=SAI                 VA  AAN    LALE/W
  PRO\S                    P          PRO/S
+@@ -480,7 +480,7 @@
+ EI)S                     P          EI)S
+ *BAIQLEEM                N   AS     *BAIQLEEM
+ KAI\                     C          KAI/
+-H)/XHSEN                 V2  AAI3P  H)XE/W
++H)/XHSEN                 V2  AAI3S  H)XE/W
+ PA=SA                    A1S NSF    PA=S
+ H(                       RA  NSF    O(
+ PO/LIS                   N3I NSF    PO/LIS
+@@ -793,7 +793,7 @@
+ TA\                      RA  APN    O(
+ SKEU/H                   N3E APN    SKEU=OS
+ KAI\                     C          KAI/
+-PI/ESAI                  VF  FAI2S  PI/NW
++PI/ESAI                  VF  FMI2S  PI/NW
+ O(/QEN                   D          O(/QEN
+ A)\N                     X          A)/N
+ U(DREU/WNTAI             V1  PMS3P  U(DREU/W
+@@ -873,7 +873,7 @@
+ LAO\N                    N2  ASM    LAO/S
+ O(\N                     RR  ASM    O(/S
+ OU)K                     D          OU)
+-H)/|DEIS                 V   YAI3S  OI)=DA
++H)/|DEIS                 V   YAI2S  OI)=DA
+ E)XQE\S                  D          E)XQE/S
+ KAI\                     C          KAI/
+ TRI/THS                  A1  GSF    TRI/TOS
+@@ -943,7 +943,7 @@
+ W(/RA|                   N1A DSF    W(/RA
+ TOU=                     RA  GSN    O(
+ FAGEI=N                  VB  AAN    E)SQI/W
+-PRO/SELQE                VA  AMD2S  E)/RXOMAI        PROS
++PRO/SELQE                VA  AAD2S  E)/RXOMAI        PROS
+ W(=DE                    D          W(=DE
+ KAI\                     C          KAI/
+ FA/GESAI                 VF  FMI2S  E)SQI/W
+@@ -1516,7 +1516,7 @@
+ E)A\N                    C          E)A/N
+ DE\                      X          DE/
+ MH\                      D          MH/
+-BOU/LHTAI                V1  PAS3S  BOU/LOMAI
++BOU/LHTAI                V1  PMS3S  BOU/LOMAI
+ A)GXISTEU=SAI/           VA  AAN    A)GXISTEU/W
+ SE                       RP  ASF    SU/
+ A)GXISTEU/SW             VF  FAI1S  A)GXISTEU/W
+@@ -1873,7 +1873,7 @@
+ U(PO/DHMA                N3M ASN    U(PO/DHMA
+ AU)TOU=                  RD  GSM    AU)TO/S
+ KAI\                     C          KAI/
+-E)DI/DOU                 V8I IMI3S  DI/DWMI
++E)DI/DOU                 V@@ IAI3S  DI/DWMI
+ TW=|                     RA  DSM    O(
+ PLHSI/ON                 D          PLHSI/ON
+ AU)TOU=                  RD  GSM    AU)TO/S
 @@ -2239,4 +2239,3 @@
  E)GE/NNHSEN              VAI AAI3S  GENNA/W
  TO\N                     RA  ASM    O(
