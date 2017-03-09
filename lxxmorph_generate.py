@@ -21,6 +21,7 @@ MLXX_FILES = [
     "lxxmorph/08.JoshA.mlxx",
     "lxxmorph/09.JudgesB.mlxx",
     "lxxmorph/10.JudgesA.mlxx",
+    "lxxmorph/11.Ruth.mlxx",
 
     "lxxmorph/19.2Esdras.mlxx",
     "lxxmorph/24.1Macc.mlxx",
