@@ -2382,7 +2382,7 @@ XAP.GPN:
     ref: XAP.GPM
 XAP.DSM:
     - "|>ό<ο|τι"  # §33
-    # - "|α{athematic}>ῶ<ο|τι"
+    - "|α{athematic}>ῶ<ο|τι"
     # - "ε|{athematic}>ῶ<ο|τι"  # @@@
 XAP.DSF:
     - "|>υί<@σ|ᾳ"  # §33
