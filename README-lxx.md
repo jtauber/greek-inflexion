@@ -67,6 +67,9 @@ needs to be changed to
 
 `@0` means no stem could be guessed. This normally means a missing `stemming.yaml` rule.
 
-Update `MLXX_FILES` in `lxxmorph_generate.py` and run to test your new lexicon.
+At the end of all this, you can run `./generate_lxxmorph_lexicon.py` again and
+if you haven't made any mistakes, it should return nothing.
 
-Failures could just be mistakes you made in step 7, could be missing `stemming.yaml` rules, or (actually most likely at this point) could be mistakes in the .`mlxx` file that need to be corrected.
+8. Update `MLXX_FILES` in `lxxmorph_generate.py` and run to test your new lexicon.
+
+You will almost certainly get failures. These could just be mistakes you made in step 7, could be missing `stemming.yaml` rules, or (actually most likely at this stage in the project) could be mistakes in the .`mlxx` file that need to be corrected.
