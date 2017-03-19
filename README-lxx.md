@@ -19,7 +19,7 @@ The particular books to be tested are configured in the `MLXX_FILES` variable in
 
 ## How to Extend Coverage of Lexicon
 
-1. see `LXX_FILENAME` in `generate_lxxmorph_lexicon.py` to the path of the lxxmorph file you want to work on
+1. set `LXX_FILENAME` in `generate_lxxmorph_lexicon.py` to the path of the lxxmorph file you want to work on
 2. run `generate_lxxmorph_lexicon.py > tmp1`
 3. `cat lxx_lexicon.yaml tmp1 > tmp2`
 4. `./sort_lexicon.py tmp2 > lxx_lexicon.yaml`
