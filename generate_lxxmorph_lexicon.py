@@ -13,10 +13,11 @@ ginflexion = GreekInflexion(
     "stemming.yaml", "lxx_lexicon.yaml", strip_length=True
 )
 
+LXX_FILENAME = "lxxmorph/12.1Sam.mlxx"
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
 
-for row in get_words("lxxmorph/11.Ruth.mlxx"):
+for row in get_words(LXX_FILENAME):
     form = row["word"]
     preverb = row["preverb"]
     lemma = row["lemma"]
@@ -33,6 +34,7 @@ for row in get_words("lxxmorph/11.Ruth.mlxx"):
         "sigma-loss-imi.2s",
         "late-pluperfect-singulars",
         "alt-eimi-imp",
+        "fpi.2s-ει",
         "HGrk",
     ])
 

@@ -14,6 +14,7 @@ book_to_num = {
     "JudgB": 9,
     "JudgA": 10,
     "Ruth": 11,
+    "1Sam/K": 12,
     "2Esdr": 19,
     "1Mac": 24,
     "Jonah": 42,

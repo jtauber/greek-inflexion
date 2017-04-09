@@ -22,6 +22,7 @@ MLXX_FILES = [
     "lxxmorph/09.JudgesB.mlxx",
     "lxxmorph/10.JudgesA.mlxx",
     "lxxmorph/11.Ruth.mlxx",
+    "lxxmorph/12.1Sam.mlxx",
 
     "lxxmorph/19.2Esdras.mlxx",
     "lxxmorph/24.1Macc.mlxx",
@@ -60,6 +61,7 @@ for filename in MLXX_FILES:
             "sigma-loss-imi.2s",
             "late-pluperfect-singulars",
             "alt-eimi-imp",
+            "fpi.2s-ει",
             "HGrk",
         ])
 
@@ -82,7 +84,13 @@ for filename in MLXX_FILES:
                 (key_to_part(a), b)
                 for a, b in ginflexion.possible_stems(form, "^" + key + "$")
             ]
-            possible_parses = ginflexion.parse(form)
+            possible_parses = []
+            for plemma, pparse in ginflexion.parse(form):
+                possible_parses.append((
+                    plemma,
+                    pparse,
+                    set(ginflexion.generate(plemma, pparse, tags))
+                ))
 
         if debug or correct == "✕":
             output_item(
