@@ -1,4 +1,4 @@
-greek-accentuation==1.1.1
+greek-accentuation==1.2.0
 # inflexion==0.8.0
 -e git://github.com/jtauber/inflexion.git@939e356f667054ce985fc87cb8bd91c055e6629a#egg=inflexion
 
