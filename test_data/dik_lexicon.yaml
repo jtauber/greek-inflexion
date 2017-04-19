@@ -59,7 +59,6 @@
     stem_overrides:
         - ["PAI.3P", "ἱα{athematic}"]
         - ["PAD.2S", "ἱε"]
-        - ["IAI.1S", "ἱε{root}"]
         - ["AAI..S", "ἡκ"]
 
 ἵστημι:
@@ -67,14 +66,15 @@
         1-: ἱστα{athematic}
         1+: ἱστα{athematic}
         2-: στησ
-        3-: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστα{root};-trans
+        3-: στησ;-intrans/στη{root};-trans
+        3-altroot: στησ;-intrans/στα{root};-trans
+        3+: ἐστησ;-intrans/ἐστη{root};-trans
         6+: ἐσταθ
         7-: σταθησ
     stem_overrides:
-      - ["PAI..S", "ἱστη{athematic}"]
-      - ["PAD.2S", "ἱστη"]  # η or α{#} ?
-      - ["PMS.3P", "ἱστα"]
+        - ["PAI..S", "ἱστη{athematic}"]
+        - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+        - ["PMS.3P", "ἱστα"]
 
 δείκνυμι:
     stems:
@@ -88,7 +88,5 @@
 γιγνώσκω:
     stems:
         3-: γνω{root}
+        3-altroot: γνο{root}
         3+: ἐγνω{root}
-    stem_overrides:
-        - ["AA[OP]", "γνο{root}"]
-        - ["AAD.3P", "γνο{root}"]

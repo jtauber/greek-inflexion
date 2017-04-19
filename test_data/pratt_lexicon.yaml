@@ -8,8 +8,9 @@
 βαίνω:
     stems:
         1-: βαιν
-        3-: βα{root}
-        3+: ἐβα{root}
+        3-: βη{root}
+        3-altroot: βα{root}
+        3+: ἐβη{root}
 
 βάλλω:
     stems:
@@ -19,11 +20,9 @@
 γιγνώσκω:
     stems:
         1-: γιγνωσκ
-        3-: γνω{root}  # originally had γνο{root} for Pratt and did gradation in stemming
-        3+: ἐγνω{root}  # originally had ἐγνο{root} for Pratt and did gradation in stemming
-    stem_overrides:
-        - ["AA[OP]", "γνο{root}"]
-        - ["AAD.3P", "γνο{root}"]
+        3-: γνω{root}
+        3-altroot: γνο{root}
+        3+: ἐγνω{root}
 
 δείκνυμι:
     stems:
@@ -116,7 +115,6 @@
     stem_overrides:
         - ["PAI.3P", "ἱα{athematic}"]
         - ["PAD.2S", "ἱε"]
-        - ["IAI.1S", "ἱε{root}"]
         - ["AAI..S", "ἡκ"]
 
 ἵστημι:
@@ -124,8 +122,9 @@
         1-: ἱστα{athematic}  # @@@ do long grade in stemming or here?
         1+: ἱστα{athematic}  # long iota @@@ do long grade in stemming or here?
         2-: στησ
-        3-: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστα{root};-trans
+        3-: στησ;-intrans/στη{root};-trans
+        3-altroot: στησ;-intrans/στα{root};-trans
+        3+: ἐστησ;-intrans/ἐστη{root};-trans
         4-: ἑστα{athematic}
         4+: εἱστηκ
         5-: ἑστα
@@ -135,6 +134,7 @@
         - ["XAI..S", "ἑστηκ"]
         - ["PAD.2S", "ἱστη"]
         - ["PMS.3P", "ἱστα"]
+
     forms:
         XAP.NSN: ἑστός
         XAP.NSF: ἑστῶσα
@@ -196,7 +196,6 @@
         6+: ἐτεθ
         7-: τεθησ
     stem_overrides:
-      # - ["IAI.1S", "ἐτιθε{root}"]  # Pratt had this
       - ["PAD.2S", "τιθε"]
       - ["AAI.[123]S", "ἐθηκ"]
 

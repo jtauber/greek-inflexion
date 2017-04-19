@@ -104,11 +104,13 @@
         1-: βαιν
         1+: ἐβαιν
         2-: βησ
-        3-: βα{root}  # LTRG claims βη{root} and βα{root} depending on grade
-        3+: ἐβα{root}
+        3-: βη{root}
+        3-altroot: βα{root}
+        3+: ἐβη{root}
         4-: βεβηκ
-    # stem_overrides:
-    #     - ["AAS", "βε"]  # LTRG claims this but so far not necessary
+    notes:
+        - LTRG claims AAS stem is βε but no need for this
+
 γιγνώσκω:
     chapter: 14
     glosses:
@@ -135,15 +137,13 @@
         1+: ἐγιγνωσκ
         2-: γνωσ
         3-: γνω{root}
+        3-altroot: γνο{root}
         3+: ἐγνω{root}
         4-: ἐγνωκ
         5-: ἐγνωσ  # @@@
         6-: γνωσθ
         6+: ἐγνωσθ
         7-: γνωσθησ
-    stem_overrides:
-        - ["AA[OP]", "γνο{root}"]
-        - ["AAD.3P", "γνο{root}"]
 δείκνυμι:  # δείκνῡμι
     chapter: 11
     glosses:
@@ -529,21 +529,22 @@
         1-: ἱστα{athematic}
         1+: ῑ̔στα{athematic}
         2-: στησ
-        3-: στησ/στα{root}
-        3+: ἐστησ/ἐστα{root}
+        3-: στησ;-intrans/στη{root};-trans
+        3-altroot: στησ;-intrans/στα{root};-trans
+        3+: ἐστησ;-intrans/ἐστη{root};-trans
         4-: ἑστηκ
         4+: εἱστηκ
         6+: ἐσταθ
     stem_overrides:
-      - ["PAI..S", "ἱστη{athematic}"]
-      - ["PAD.2S", "ἱστη"]  # η or α{#} ?
-      - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
-      - ["PMS.3P", "ἱστα"]
-      # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
-      # - ["IAI..2S", "ῑ̔στη"]
-      - ["[XY]AI.[123]P", "ἑστα{athematic}"]
-      - ["XAN", "ἑστα{athematic}"]
-      - ["XAP", "ἑστηκ/ἑστα{athematic}"]
+        - ["PAI..S", "ἱστη{athematic}"]
+        - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+        - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
+        - ["PMS.3P", "ἱστα"]
+        # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
+        # - ["IAI..2S", "ῑ̔στη"]
+        - ["[XY]AI.[123]P", "ἑστα{athematic}"]
+        - ["XAN", "ἑστα{athematic}"]
+        - ["XAP", "ἑστηκ/ἑστα{athematic}"]
 λαμβάνω:
     chapter: 9
     glosses:
