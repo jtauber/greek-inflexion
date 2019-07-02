@@ -12,6 +12,8 @@ pyuca = "==1.1.2"
 py-sblgnt = "==0.5"
 greek-utils = "==0.2"
 PyYAML = "==3.12"
+lxml = "*"
+greek-normalisation = {editable = true,path = "./../greek-normalisation"}
 
 [requires]
 python_version = "3.7"
