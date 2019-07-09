@@ -53,7 +53,8 @@ class GreekInflexion:
     def possible_stems(self, form, key_regex=None):
         for key, stem in self.ruleset.possible_stems(debreath(form)):
             if key_regex is None or re.match(key_regex, key):
-                yield key, rebreath(strip_accents(stem))
+                if stem != "h":
+                    yield key, rebreath(strip_accents(stem))
 
     def possible_stems2(self, form, key_regex=None):
         for key, stem in self.ruleset.possible_stems2(debreath(form)):
