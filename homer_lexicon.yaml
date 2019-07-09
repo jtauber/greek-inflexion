@@ -1,7 +1,8 @@
 
 ἀάω:
     stems:
-        # 3+: {frozenset({'ἀσ', 'ἀσ{2nd}'}), frozenset({'ἀασ'}), frozenset({'ἀσ'})}  # @0
+        1-: ἀα
+        3+: ἀασ/ᾱ̓σ
         6-: ἀασθ
         6+: ἀασθ
 
@@ -9,11 +10,26 @@
     stems:
         3+: ἀβακησ
 
+ἀβροτάζω:
+    stems:
+        3-: ἀβροταξ
+
+ἀγαίομαι:
+    stems:
+        1-: ἀγαι
+
+ἀγάλλω:
+    stems:
+        1-: ἀγαλλ
+
 ἄγαμαι:
     stems:
+        1-: ἀγα{athematic}/ἀγαα{athematic}
+        1+: ἠγαα{athematic}
         2-: ἀγασσ
+        3-: ἀγασ/ἀγασσ
         # 3-: {frozenset({'ἀγασ'}), frozenset({'ἀγασσα{athematic}', 'ἀγασσ'}), frozenset({'ἀγασσα{root}', 'ἀγασσ'}), frozenset({'ἀγασ', 'ἀγασ{2nd}'})}  # @0
-        # 3+: {frozenset({'ἀγασ'}), frozenset({'ἀγασσ'}), frozenset({'ἠγασσ'})}  # @0
+        3+: ἀγασ/ἀγασσ/ἠγασσ
 
 ἀγαπάζω:
     stems:
@@ -35,14 +51,21 @@
 ἀγείρω:
     stems:
         1-: ἀγειρ
+        3-: ἀγειρ/ἀγρ{2nd}/ἀγερ{2nd}
         # 3-: {frozenset({'ἀγρ{2nd}'}), frozenset({'ἀγρ{2nd}', 'ἀγρο{athematic}'}), frozenset({'ἀγειρ'})}  # @0
+        3+: ἀγειρ/ἠγειρ/ἀγερ{2nd}
         # 3+: {frozenset({'ἀγερ{2nd}', 'ἀγερο{athematic}'}), frozenset({'ἠγειρ{2nd}', 'ἠγειρ'}), frozenset({'ἀγειρ'}), frozenset({'ἠγειρ'})}  # @0
         6+: ἀγερθ
+    stems:
 
 ἀγινέω:
     stems:
         1-: ἀγινε
+        1+: ἀγινεσκ  # @@@
         # 1+: {frozenset({'ἀγινε{nocontract}', 'ἀγινε'}), frozenset({'ἀγινεσκ'}), frozenset({'ἠγινε{nocontract}', 'ἠγινε'})}  # @0
+
+ἀγκάζομαι:
+    stems:
 
 ἀγλαίζω:
     stems:
@@ -50,17 +73,21 @@
 
 ἀγνοέω:
     stems:
-        3+: ἀγνωσασκ
+        3+: ἀγνωσασκ/ἠγνοιησ  # @@@
 
 ἄγνυμι:
     stems:
         2-: ἀξ
         3-: ἀξ
+        3+: ἐαξ
         # 3+: {frozenset({'ἠξ{2nd}', 'ἠξ'}), frozenset({'ἐαξ'}), frozenset({'ἐαξ', 'ἐαξ{2nd}'})}  # @0
+        6+: ἀγ/ἐαγ
         # 6+: {frozenset({'ἀγ'}), frozenset({'ἐαγ'})}  # @0
 
 ἀγοράομαι:
     stems:
+        1-: ἀγοραα{athematic}
+        1+: ἠγοραα{athematic}
         3+: ἀγορησ
 
 ἀγορεύω:
@@ -90,9 +117,12 @@
 ἄγω:
     stems:
         1-: ἀγ
+        1+: ἀγ/ἠγ
         # 1+: {frozenset({'ἠγο{athematic}', 'ἠγ'}), frozenset({'ἀγ'}), frozenset({'ἠγ'})}  # @0
         2-: ἀξ
+        3-: ἀγαγ{2nd}
         # 3-: {frozenset({'ἀξεμεν'}), frozenset({'ἀξ{2nd}', 'ἀξε{athematic}'}), frozenset({'ἀγαγ', 'ἀγαγ{2nd}'}), frozenset({'ἀγαγο{root}', 'ἀγαγ{2nd}'}), frozenset({'ἀγαγ{2nd}'}), frozenset({'ἀγαγο{root}', 'ἀγαγο{athematic}', 'ἀγαγ{2nd}'}), frozenset({'ἀγαγε{athematic}', 'ἀγαγ{2nd}'})}  # @0
+        3+: ἀγαγ/ἀγαγ{2nd}/ἠγαγ/ἠγαγ{2nd}
         # 3+: {frozenset({'ἀξ{2nd}', 'ἀξο{athematic}'}), frozenset({'ἀγαγ', 'ἀγαγ{2nd}'}), frozenset({'ἠγαγ{2nd}', 'ἠγαγε{athematic}'}), frozenset({'ἠγαγ{2nd}', 'ἠγαγ'}), frozenset({'ἠγαγο{athematic}', 'ἠγαγ{2nd}'}), frozenset({'ἀγαγ{2nd}'}), frozenset({'ἠγαγ{2nd}'})}  # @0
 
 ἀδέω:
@@ -102,6 +132,7 @@
 ἀείδω:
     stems:
         1-: ἀειδ
+        1+: ἀειδ/ἠειδ
         # 1+: {frozenset({'ἀειδ'}), frozenset({'ἠειδ'})}  # @0
         2-: ἀεισ
         3-: ἀεισ
@@ -118,6 +149,7 @@
         1-: ἀειρ
         1+: ἀειρ
         3-: ἀειρ
+        3+: ἀειρ/ἠειρ
         # 3+: {frozenset({'ἠειρ'}), frozenset({'ἀειρ'}), frozenset({'ἀειρ{2nd}', 'ἀειρ'})}  #@0
         6-: ἀερθ
         6+: ἀερθ
@@ -136,14 +168,22 @@
         3-: ἀεσ
         3+: ἀσ
 
+ἅζομαι:
+    stems:
+        1-: ἁζ
+    stems:
+
+ἄζω:
+    stems:
+
 ἀηθέσσω:
     stems:
         1+: ἀηθεσσ
 
 ἄημι:
     stems:
-        1-: ἀε{athematic}
-        1+: ἀα{athematic}
+        1-: ἀε{athematic}/ἀη{athematic}
+        1+: ἀα{athematic}/ἀη{athematic}
 
 ἀθερίζω:
     stems:
@@ -152,6 +192,7 @@
 
 ἀθλεύω:
     stems:
+        1-: ἀεθλευ
         # 1-: {frozenset({'ἀεθλευ'}), frozenset({'ἀθλευ0', 'ἀθλευ'})}  #@0
 
 ἀθλέω:
@@ -171,12 +212,22 @@
         # 2-: {frozenset({'αἰδεσε{athematic}', 'αἰδεσ'}), frozenset({'αἰδεσσ', 'αἰδεσσε{athematic}'}), frozenset({'αἰδεσσ'})}  # @0
         3-: αἰδεσσ
         6-: αἰδεσθ
+    stems:
+
+αἴθω:
+    stems:
+        1-: αἰθ
 
 αἰνέω:
     stems:
         1-: αἰνε
         1+: ᾐνε
         3-: αἰνησ
+
+αἴνυμαι:
+    stems:
+        1-: αἰνυ{athematic}
+    stems:
 
 αἰόλλω:
     stems:
@@ -189,6 +240,7 @@
         # 2-: {frozenset({'ἑλ{contract}'}), frozenset({'αἱρησ'})}  # @0
         3-: ἑλ{2nd}
         # 3+: {frozenset({'εἱλε{athematic}', 'εἱλ{2nd}'}), frozenset({'εἱλ{2nd}', 'εἱλ'}), frozenset({'ἑλεσκ', 'ἑλεσκ{2nd}'}), frozenset({'ἑλ{2nd}', 'ἑλο{athematic}'}), frozenset({'ἑλ{2nd}'}), frozenset({'εἱλ{2nd}'}), frozenset({'ἑλ{2nd}', 'ἑλ'}), frozenset({'εἱλ{2nd}', 'εἱλο{athematic}'}), frozenset({'ἑλ{2nd}', 'ἑλε{athematic}'}), frozenset({'ἑλεσκ{2nd}'})}  # @0
+    stems:
 
 αἴρω:
     stems:
@@ -196,6 +248,7 @@
         3-: ἀρ{2nd}
         # 3+: {frozenset({'ἀρο{athematic}', 'ἀρ{2nd}'}), frozenset({'ἠρ'}), frozenset({'ἠρα{athematic}'})}  # @0
         6-: ἀρθ
+    stems:
 
 ἀίσθω:
     stems:
@@ -206,10 +259,12 @@
     stems:
         # 1-: {frozenset({'ἀϊσσ', 'ἀϊσσ0'}), frozenset({'αἰσσ0', 'αἰσσ'}), frozenset({'ἀϊσσ'})}  # @0
         1+: ἠϊσσ
+        3-: ἀϊξ
         # 3-: {frozenset({'ἀϊξ{2nd}', 'ἀϊξ'}), frozenset({'αἰξ'}), frozenset({'ἀϊξα{athematic}', 'ἀϊξ', 'ἀϊξα{root}'}), frozenset({'ἀϊξ'})}  # @0
         # 3+: {frozenset({'ἠϊξ', 'ἠϊξ{2nd}'}), frozenset({'ἠιξ'}), frozenset({'ἀϊξασκ', 'ἀϊξασκ{2nd}'}), frozenset({'ἠϊξ'})}  # @0
         6-: ἀϊχθ
         6+: ἠϊχθ
+    stems:
 
 ἀιστόω:
     stems:
@@ -221,6 +276,7 @@
         1-: αἰσχυν
         1+: ᾐσχυν
         3+: ᾐσχυν
+    stems:
 
 αἰτέω:
     stems:
@@ -228,6 +284,11 @@
         1+: ᾐτε
         2-: αἰτησ
         3-: αἰτησ
+
+αἰτιάομαι:
+    stems:
+        1-: αἰτιαα{athematic}
+        1+: ᾐτιαα{athematic}
 
 αἰτίζω:
     stems:
@@ -241,6 +302,7 @@
     stems:
         # 1-: {frozenset({'αἰ'}), frozenset({'αἰ0', 'αἰ'}), frozenset({'ἀϊ0', 'ἀϊ'}), frozenset({'ἀϊ'})}  # @0
         1+: ἀϊ
+    stems:
 
 ἀκαχίζω:
     stems:
@@ -248,11 +310,14 @@
 
 ἀκέομαι:
     stems:
+        1-: ἀκει
         # 3-: {frozenset({'ἀκεσα{athematic}', 'ἀκεσ'}), frozenset({'ἀκεσσ'})}  # @0
+    stems:
 
 ἀκηδέω:
     stems:
         1+: ἀκηδε
+        3+: ἀκηδεσ
 
 ἀκοντίζω:
     stems:
@@ -260,10 +325,14 @@
         1+: ἀκοντιζ
         # 3-: {frozenset({'ἀκοντισσ'}), frozenset({'ἀκοντισ'})}  # @0
         # 3+: {frozenset({'ἠκοντισ'}), frozenset({'ἀκοντισ', 'ἀκοντισ{2nd}'}), frozenset({'ἀκοντισ'})}  # @0
+    stems:
 
 ἀκοστάω:
     stems:
         3-: ἀκοστησ
+
+ἀκουάζομαι:
+    stems:
 
 ἀκούω:
     stems:
@@ -272,15 +341,32 @@
         2-: ἀκουσ
         3-: ἀκουσ
         # 3+: {frozenset({'ἠκουσ'}), frozenset({'ἀκουσ', 'ἀκου{root}'}), frozenset({'ἀκουσ', 'ἀκουσ{2nd}'}), frozenset({'ἠκουσ{2nd}', 'ἠκουσ'}), frozenset({'ἀκουσ'}), frozenset({'ἀκουσ', 'ἀκουσα{athematic}'})}  # @0
+    stems:
 
 ἀκροκελαινιάω:
     stems:
         1-: ἀκροκελαινιο
 
+ἀλάλημαι:
+    stems:
+        1-: ἀλαλη{athematic}
+
 ἄλαλκε:
     stems:
         # 3-: {frozenset({'ἀλαλκ{2nd}', 'ἀλαλκι{2nd}'}), frozenset({'ἀλαλκεμεν'}), frozenset({'ἀλαλκ{2nd}'})}  # @0
         3+: ἀλαλκ
+    stems:
+
+ἀλαλύκτημαι:
+    stems:
+        5-: ἀλαλυκτη
+
+ἀλάομαι:
+    stems:
+
+ἀλαόω:
+    stems:
+        3+: ἀλαωσ
 
 ἀλαπάζω:
     stems:
@@ -330,16 +416,20 @@
     stems:
         3-: ἀλειψ
         # 3+: {frozenset({'ἠλειψ'}), frozenset({'ἀλειψ'})}  # @0
+    stems:
 
 ἀλέξω:
     stems:
+        1-: ἀλεξ
         2-: ἀλεξησ
         # 3-: {frozenset({'ἀλεξησ'}), frozenset({'ἀλεξ'})}  # @0
+    stems:
 
 ἀλέομαι:
     stems:
         # 3-: {frozenset({'ἀλε', 'ἀλεα{athematic}'}), frozenset({'ἀλε'}), frozenset({'ἀλευα{root}', 'ἀλευ'}), frozenset({'ἀλευα{athematic}', 'ἀλευ'}), frozenset({'ἀλευ'}), frozenset({'ἀλευα{root}', 'ἀλευα{athematic}', 'ἀλευ'})}  # @0
         # 3+: {frozenset({'ἠλευ'}), frozenset({'ἀλευ'})}  # @0
+    stems:
 
 ἀλετρεύω:
     stems:
@@ -354,6 +444,9 @@
     stems:
         1-: ἀλητευ
 
+ἄλθομαι:
+    stems:
+
 ἁλιόω:
     stems:
         3-: ἁλιωσ
@@ -363,6 +456,7 @@
     stems:
         # 3-: {frozenset({'ἁλω', 'ἁλω{2nd}'}), frozenset({'ἁλο{root}', 'ἁλω{root}', 'ἁλων'}), frozenset({'ἁλο{root}', 'ἁλο{athematic}'}), frozenset({'ἁλωμεν'}), frozenset({'ἁλο{root}', 'ἁλ{2nd}', 'ἁλο{athematic}'})}  # @0
         3+: ἡλω{root}
+    stems:
 
 ἀλιταίνω:
     stems:
@@ -425,6 +519,7 @@
         2-: ἁμαρτησ
         3-: ἁμαρτ{2nd}
         # 3+: {frozenset({'ἠμβροτ', 'ἠμβροτ{2nd}'}), frozenset({'ἠμβροτ{2nd}'}), frozenset({'ἁμαρτ', 'ἁμαρτ{2nd}'})}  # @0
+    stems:
 
 ἀμάω:
     stems:
@@ -441,11 +536,16 @@
 
 ἀμέλγω:
     stems:
+        1-: ἀμελγ
         1+: ἠμελγ
 
 ἀμελέω:
     stems:
         3+: ἀμελησ
+
+ἀμενηνόω:
+    stems:
+        3+: ἀμενηνωσ
 
 ἀμέρδω:
     stems:
@@ -459,6 +559,7 @@
         1-: ἀμυν
         # 1+: {frozenset({'ἀμυν'}), frozenset({'ἠμυν'})}  # @0
         3-: ἀμυν
+    stems:
 
 ἀμύσσω:
     stems:
@@ -468,6 +569,7 @@
 ἀμφαγαπάζω:
     stems:
         1+: ἀμφαγαπαζ
+    stems:
 
 ἀμφαγείρομαι:
     stems:
@@ -507,6 +609,9 @@
     stems:
         4-: ἀμφιδεδη
 
+ἀμφιδινέομαι:
+    stems:
+
 ἀμφιέννυμι:
     stems:
         3+: ἀμφιεσ
@@ -515,6 +620,7 @@
     stems:
         1-: ἀμφιεπ
         # 1+: {frozenset({'ἀμφεπ'}), frozenset({'ἀμφιεπ'})}  # @0
+    stems:
 
 ἀμφιζάνω:
     stems:
@@ -539,9 +645,27 @@
     stems:
         1+: ἀμφελαχαιν
 
+ἀμφιμάχομαι:
+    stems:
+        1-: ἀμφιμαχ
+    stems:
+
+ἀμφινέμομαι:
+    stems:
+
 ἀμφιξέω:
     stems:
         3+: ἀμφεξεσ
+
+ἀμφιπέλομαι:
+    stems:
+        1-: ἀμφιπελ
+
+ἀμφιπένομαι:
+    stems:
+
+ἀμφιπεριστέφομαι:
+    stems:
 
 ἀμφιπεριστρωφάω:
     stems:
@@ -554,6 +678,14 @@
 ἀμφιπολεύω:
     stems:
         1-: ἀμφιπολευ
+
+ἀμφιπονέομαι:
+    stems:
+        1+: ἀμφεπονε
+
+ἀμφιποτάομαι:
+    stems:
+        1+: ἀμφεποτα
 
 ἀμφίστημι:
     stems:
@@ -576,6 +708,7 @@
     stems:
         6-: ἀμφιχυθ
         6+: ἀμφεχυθ
+    stems:
 
 ἀναβαίνω:
     stems:
@@ -583,19 +716,23 @@
         1+: ἀνεβαιν
         # 3-: {frozenset({'ἀμβα{root}'}), frozenset({'ἀναβησα{athematic}', 'ἀναβησ'}), frozenset({'ἀναβημεν'}), frozenset({'ἀναβα{root}'}), frozenset({'ἀναβα{root}', 'ἀναβε{athematic}'}), frozenset({'ἀναβα{athematic}', 'ἀναβα{root}'})}  # @0
         3+: ἀνεβησ{2nd}
+    stems:
 
 ἀναβάλλω:
     stems:
         1-: ἀναβαλλ
+    stems:
 
 ἀναβρόχω:
     stems:
         # 3-: {frozenset({'ἀναβροξ'}), frozenset({'ἀναβροχε{athematic}'})}  # @0
+    stems:
 
 ἀναγιγνώσκω:
     stems:
         # 3-: {frozenset({'ἀναγνο{root}', 'ἀναγνο{athematic}'}), frozenset({'ἀναγν{2nd}'}), frozenset({'ἀναγνο{root}', 'ἀναγν{2nd}', 'ἀναγνο{athematic}'})}  # @0
         3+: ἀνεγνω{root}
+    stems:
 
 ἀναγνάμπτω:
     stems:
@@ -607,6 +744,11 @@
         1-: ἀναγ
         # 1+: {frozenset({'ἀνηγ'}), frozenset({'ἀναγ'})}  # @0
         3+: ἀνηγαγ{2nd}
+    stems:
+
+ἀναδέρκομαι:
+    stems:
+        3+: ἀνεδρακ
 
 ἀναδέχομαι:
     stems:
@@ -616,6 +758,7 @@
     stems:
         3-: ἀναδυ{root}
         3+: ἀνεδυ{root}
+    stems:
 
 ἀναείρω:
     stems:
@@ -632,14 +775,17 @@
 
 ἀναίνομαι:
     stems:
+        1-: ἀναιν
         3-: ἀνην
         3+: ἀνην
+    stems:
 
 ἀναιρέω:
     stems:
         2-: ἀναιρησ
         3-: ἀνελ{2nd}
         # 3+: {frozenset({'ἀνελο{athematic}', 'ἀνελ{2nd}'}), frozenset({'ἀνειλε{athematic}', 'ἀνειλ{2nd}'})}  # @0
+    stems:
 
 ἀναίσσω:
     stems:
@@ -657,6 +803,7 @@
 
 ἀνακλίνω:
     stems:
+        3-: ἀνακλιν
         # 3-: {frozenset({'ἀνακλιν'}), frozenset({'ἀγκλιν'})}  # @0
         6-: ἀνακλινθ
 
@@ -720,6 +867,9 @@
     stems:
         1+: ἀναμορμυρεσκ
 
+ἀνανέομαι:
+    stems:
+
 ἀνανεύω:
     stems:
         1+: ἀνενευ
@@ -732,10 +882,19 @@
 ἀναπάλλω:
     stems:
         3-: ἀμπεπαλ{2nd}
+    stems:
+
+ἀναπαύω:
+    stems:
+        3+: ἀνεπαυσ
 
 ἀναπείρω:
     stems:
         3-: ἀμπειρ
+
+ἀναπετάννυμι:
+    stems:
+        5-: ἀναπεπτα
 
 ἀναπηδάω:
     stems:
@@ -757,6 +916,7 @@
         # 3-: {frozenset({'ἀμπνευσ'}), frozenset({'ἀναπνευσ', 'ἀναπνευσ{2nd}'}), frozenset({'ἀναπνευσ'})}  # @0
         3+: ἀνεπνευσ
         6+: ἀμπνυνθ
+    stems:
 
 ἀναπρήθω:
     stems:
@@ -766,11 +926,13 @@
     stems:
         1+: ἀνηπτ
         3-: ἀναψ
+        3+: ἀνηψ
 
 ἀναρπάζω:
     stems:
         3-: ἀναρπαξ
         # 3+: {frozenset({'ἀνηρπασ', 'ἀνηρπασ{2nd}'}), frozenset({'ἀνηρπαξ'})}  # @0
+    stems:
 
 ἀναρρήγνυμι:
     stems:
@@ -786,16 +948,26 @@
     stems:
         # 1-: {frozenset({'ἀναροιβδε'}), frozenset({'ἀναρροιβδε'})}  # @0
         3+: ἀνερροιβδησ
+    stems:
+
+ἀνασεύομαι:
+    stems:
+        1+: ἀνεσσυ{athematic}
 
 ἀνάσσω:
     stems:
         1-: ἀνασσ
         # 1+: {frozenset({'ἀνασσ'}), frozenset({'ἠνασσ'})}  # @0
         2-: ἀναξ
+    stems:
+
+ἀναστενάχω:
+    stems:
 
 ἀναστρέφω:
     stems:
         3-: ἀνστρεψ
+    stems:
 
 ἀναστρωφάω:
     stems:
@@ -832,6 +1004,7 @@
 ἀναχάζω:
     stems:
         3-: ἀναχασσ
+    stems:
 
 ἀναχωρέω:
     stems:
@@ -852,6 +1025,7 @@
         3-: ἁδ{2nd}
         # 3+: {frozenset({'ἁδ', 'ἁδ{2nd}'}), frozenset({'εὐαδ', 'εὐαδ{2nd}'})}  # @0
         # 4-: {frozenset({'ἁδηκ'}), frozenset({'ἑαδ'})}  # @0
+    stems:
 
 ἀνέβραχε:
     stems:
@@ -890,9 +1064,16 @@
     stems:
         3+: ἀνηρειψ
 
+ἀνέρομαι:
+    stems:
+        1-: ἀνειρ
+    stems:
+
 ἀνέρχομαι:
     stems:
+        1-: ἀνερχ
         3-: ἀνελθ{2nd}
+        3+: ἀνηλυθ
 
 ἀνερωτάω:
     stems:
@@ -905,6 +1086,11 @@
         # 2-: {frozenset({'ἀνσχησ'}), frozenset({'ἀνεξ'})}  # @0
         3-: ἀνασχ{2nd}
         # 3+: {frozenset({'ἀνεσχ{2nd}', 'ἀνεσχε{athematic}'}), frozenset({'ἀνεσχεθ{2nd}', 'ἀνεσχεθ'}), frozenset({'ἀνεσχ{2nd}'}), frozenset({'ἀνεσχ', 'ἀνεσχ{2nd}'})}  # @0
+    stems:
+
+ἀνηκουστέω:
+    stems:
+        3+: ἀνηκουστησ
 
 ἀνήκω:
     stems:
@@ -913,6 +1099,10 @@
 ἀνθέω:
     stems:
         3-: ἀνθησ
+
+ἀνθίστημι:
+    stems:
+        1+: ἀνθιστα{athematic}
 
 ἀνιάζω:
     stems:
@@ -923,6 +1113,7 @@
     stems:
         2-: ἀνιησ
         6-: ἀνιηθ
+    stems:
 
 ἀνίημι:
     stems:
@@ -931,14 +1122,17 @@
         2-: ἀνησ
         # 3-: {frozenset({'ἀνε{athematic}'}), frozenset({'ἀνη{2nd}', 'ἀνη'})}  # @0
         # 3+: {frozenset({'ἀνηκ'}), frozenset({'ἀνηκ', 'ἀνηκ{2nd}'}), frozenset({'ἀνε{athematic}', 'ἀνεσ'})}  # @0
+    stems:
 
 ἀνίστημι:
     stems:
+        1-: ἀνιστα{athematic}
         1+: ἀνιστα{athematic}
         # 2-: {frozenset({'ἀναστησ'}), frozenset({'ἀνστησ'})}  # @0
         # 3-: {frozenset({'ἀνστα{athematic}', 'ἀνστα{root}'}), frozenset({'ἀνστημεν'}), frozenset({'ἀνστα{root}'}), frozenset({'ἀναστησ'}), frozenset({'ἀναστα{root}'}), frozenset({'ἀναστε{athematic}', 'ἀναστα{root}'}), frozenset({'ἀνστησ'}), frozenset({'ἀναστα{athematic}', 'ἀναστα{root}'})}  # @0
         3+: ἀνεστ
         4+: ἀνεστ{athematic}
+    stems:
 
 ἀνιχνεύω:
     stems:
@@ -948,6 +1142,7 @@
     stems:
         # 1+: {frozenset({'ἀναοιγεσκ'}), frozenset({'ἀνεῳγ'})}  # @0
         3+: ἀνεῳξ{2nd}
+    stems:
 
 ἀνορούω:
     stems:
@@ -973,8 +1168,10 @@
 ἀντιάω:
     stems:
         # 1-: {frozenset({'ἀντιο'}), frozenset({'ἀντιο0', 'ἀντιο'}), frozenset({'ἀντιοα'})}  # @0
+        1+: ἀντιαα{athematic}
         2-: ἀντιασ
         3-: ἀντιασ
+    stems:
 
 ἀντιβολέω:
     stems:
@@ -985,19 +1182,30 @@
 ἀντιτορέω:
     stems:
         3-: ἀντιτορησ
+        3+: ἀντετορησ
 
 ἀντιφερίζω:
     stems:
         1-: ἀντιφεριζ
+
+ἀντιφέρω:
+    stems:
+
+ἄντομαι:
+    stems:
+        1-: ἀντ
+    stems:
 
 ἀνύω:
     stems:
         1-: ἀνυ
         2-: ἀνυσσ
         3-: ἀνυσ
+        3+: ἠνυσ
 
 ἄνω:
     stems:
+        1-: ἀν
         1+: ἠν
 
 ἄνωγα:
@@ -1008,6 +1216,7 @@
         3-: ἀνωξ
         4-: ἀνωγ
         # 4+: {frozenset({'ἠνωγ'}), frozenset({'ἀνωγ'})}  # @0
+    stems:
 
 ἀνωθέω:
     stems:
@@ -1039,6 +1248,12 @@
         2-: ἀπαξ
         3+: ἀπηγαγ{2nd}
 
+ἀπαείρω:
+    stems:
+
+ἀπαίνυμαι:
+    stems:
+
 ἀπαίσσω:
     stems:
         3-: ἀπαϊξ
@@ -1056,13 +1271,23 @@
         2-: ἀπαλεξησ
         3-: ἀπαλεξησ
 
+ἀπαλοάω:
+    stems:
+        3+: ἀπηλοιησ
+
 ἀπαμάω:
     stems:
         3-: ἀπαμησ
 
+ἀπαμείβομαι:
+    stems:
+        1-: ἀπαμειβ
+    stems:
+
 ἀπαμύνω:
     stems:
         3-: ἀπαμυν
+    stems:
 
 ἀπαναίνομαι:
     stems:
@@ -1081,6 +1306,9 @@
     stems:
         3-: ἀπαρεσσ
 
+ἀπάρχω:
+    stems:
+
 ἀπατάω:
     stems:
         2-: ἀπατησ
@@ -1093,6 +1321,7 @@
 ἀπαυράω:
     stems:
         1+: ἀπηυρα
+        3-: ἀποερσ
         # 3-: {frozenset({'ἀπουρ'}), frozenset({'ἀποερσ'})}  # @0
 
 ἀπαφίσκω:
@@ -1108,17 +1337,20 @@
         2-: ἀπειλησ
         3-: ἀπειλησ
         # 3+: {frozenset({'ἀπειλησ'}), frozenset({'ἠπειλησ{2nd}', 'ἠπειλησ'}), frozenset({'ἀπειλε{root}', 'ἀπειλησ', 'ἀπειλα{root}'})}  # @0
+    stems:
 
 ἄπειμι:
     stems:
         # 1-: {frozenset({'ἀπει{athematic}'}), frozenset({'ἀπε', 'ἀπε{nocontract}', 'ἀπε0'}), frozenset({'ἀπεο{athematic}'}), frozenset({'ἀπιο{athematic}'})}  # @0
         # 1+: {frozenset({'ἀπε{athematic}'}), frozenset({'ἀπη{athematic}'})}  # @0
         # 2-: {frozenset({'ἀπεσσ{contract}', 'ἀπεσσει{athematic}'}), frozenset({'ἀπεσσ'}), frozenset({'ἀπεσσε{athematic}', 'ἀπεσσ'})}  # @0
+    stems:
 
 ἀπεῖπον:
     stems:
         # 3-: {frozenset({'ἀποειπ{2nd}'}), frozenset({'ἀποειπ{2nd}', 'ἀποειπ'}), frozenset({'ἀποειπι{2nd}', 'ἀποειπ{2nd}'}), frozenset({'ἀπειπο{root}', 'ἀπειπ{2nd}', 'ἀπειπο{athematic}'})}  # @0
         3+: ἀπεειπ{2nd}
+    stems:
 
 ἀπείργαθον:
     stems:
@@ -1132,13 +1364,19 @@
     stems:
         3-: ἀπεκλελαθ{2nd}
 
+ἀπεμέω:
+    stems:
+        3+: ἀπεμεσσ
+
 ἀπερύκω:
     stems:
         1-: ἀπερυκ
 
 ἀπέρχομαι:
     stems:
+        3+: ἀπηλθ
         4-: ἀπεληλυθ
+    stems:
 
 ἀπερωέω:
     stems:
@@ -1153,6 +1391,11 @@
     stems:
         3-: ἀπεχθ{2nd}
         3+: ἀπηχθ{2nd}
+    stems:
+
+ἀπέχθομαι:
+    stems:
+        1-: ἀπεχθ
 
 ἀπέχω:
     stems:
@@ -1160,6 +1403,7 @@
         1+: ἀπεχ
         # 2-: {frozenset({'ἀποσχησ'}), frozenset({'ἀφεξ'})}  # @0
         3-: ἀποσχ{2nd}
+    stems:
 
 ἀπιθέω:
     stems:
@@ -1183,6 +1427,7 @@
         2-: ἀποβησ
         3-: ἀποβα{root}
         # 3+: {frozenset({'ἀπεβησε{athematic}', 'ἀπεβησ{2nd}'}), frozenset({'ἀπεβε{root}', 'ἀπεβησ', 'ἀπεβα{root}'})}  # @0
+    stems:
 
 ἀποβλύζω:
     stems:
@@ -1226,11 +1471,13 @@
 ἀποδρύπτω:
     stems:
         # 3-: {frozenset({'ἀποδρυφ{2nd}'}), frozenset({'ἀποδρυψ', 'ἀποδρυψ{2nd}'})}  # @0
+    stems:
 
 ἀποδύνω:
     stems:
         3-: ἀποδυ{root}
         # 3+: {frozenset({'ἀπεδυσ', 'ἀπεδυσ{2nd}'}), frozenset({'ἀπεδυν', 'ἀπεδυν{2nd}'})}  # @0
+    stems:
 
 ἀποδύω:
     stems:
@@ -1250,6 +1497,7 @@
         # 1-: {frozenset({'ἀποθνησκ', 'ἀποθνησκ0'}), frozenset({'ἀποθνῃσκ0', 'ἀποθνῃσκ'})}  # @0
         4-: ἀποτεθνηα{athematic}
         4+: ἀποτεθνα{athematic}
+    stems:
 
 ἀποθρώσκω:
     stems:
@@ -1263,9 +1511,21 @@
     stems:
         3+: ἀπῳκισ
 
+ἀποίχομαι:
+    stems:
+        1-: ἀποιχ
+
+ἀποκαίνυμαι:
+    stems:
+        1+: ἀπεκαινυ{athematic}
+
 ἀποκείρω:
     stems:
         3+: ἀπεκειρ
+
+ἀποκηδέω:
+    stems:
+        3-: ἀποκηδησ
 
 ἀποκινέω:
     stems:
@@ -1281,9 +1541,18 @@
     stems:
         1+: ἀπεκοσμε
 
+ἀποκρεμάννυμι:
+    stems:
+        3+: ἀπεκρεμασ
+
+ἀποκρίνω:
+    stems:
+        6-: ἀποκρινθ
+
 ἀποκρύπτω:
     stems:
         3-: ἀποκρυψ
+        3+: ἀπεκρυψ
 
 ἀποκτείνω:
     stems:
@@ -1291,6 +1560,13 @@
         # 3-: {frozenset({'ἀποκταν', 'ἀποκταν{2nd}'}), frozenset({'ἀποκτ'}), frozenset({'ἀποκταμεν'}), frozenset({'ἀποκτειν', 'ἀποκτε{athematic}'})}  # @0
         # 3+: {frozenset({'ἀπεκταν{2nd}'}), frozenset({'ἀπεκτ'}), frozenset({'ἀπεκταν', 'ἀπεκταν{2nd}'})}  # @0
         4-: ἀπεκτ
+    stems:
+
+ἀπολάμπω:
+    stems:
+
+ἀπολείβω:
+    stems:
 
 ἀπολείπω:
     stems:
@@ -1309,9 +1585,14 @@
 
 ἀπόλλυμι:
     stems:
+        1-: ἀπολλυ{athematic}
         3-: ἀπολ{2nd}
         # 3+: {frozenset({'ἀπωλεσ', 'ἀπωλε{athematic}'}), frozenset({'ἀπολο{athematic}', 'ἀπολ{2nd}'}), frozenset({'ἀπωλεσ'}), frozenset({'ἀπωλεσ', 'ἀπωλεσ{2nd}'}), frozenset({'ἀπωλ{2nd}', 'ἀπωλε{athematic}'}), frozenset({'ἀπολεσσ'})}  # @0
         4-: ἀπολωλ
+    stems:
+
+ἀπολυμαίνομαι:
+    stems:
 
 ἀπολύω:
     stems:
@@ -1329,6 +1610,7 @@
 
 ἀπόμνυμι:
     stems:
+        1+: ἀπωμνυ
         # 1+: {frozenset({'ἀπωμνυ'}), frozenset({'ἀπωμνυ{athematic}'})}  # @0
         3+: ἀπωμοσ
 
@@ -1337,14 +1619,26 @@
         1+: ἀπομοργνυ{athematic}
         3+: ἀπομορξ
 
+ἀπομυθέομαι:
+    stems:
+
 ἀποναίω:
     stems:
         3+: ἀπενασσ
+
+ἀπονέομαι:
+    stems:
+        1-: ἀπονε
+    stems:
+
+ἀπονέω:
+    stems:
 
 ἀπονίζω:
     stems:
         1-: ἀπονιζ
         3-: ἀπονιψ
+    stems:
 
 ἀπονίναμαι:
     stems:
@@ -1375,6 +1669,7 @@
         # 2-: {frozenset({'ἀππεμψ'}), frozenset({'ἀποπεμψ'})}  # @0
         3-: ἀποπεμψ
         3+: ἀπεπεμψ
+    stems:
 
 ἀποπέτομαι:
     stems:
@@ -1424,6 +1719,10 @@
     stems:
         1-: ἀποπτυ
 
+ἀπόρνυμι:
+    stems:
+        1-: ἀπορνυ{athematic}
+
 ἀπορούω:
     stems:
         3+: ἀπορουσ
@@ -1444,6 +1743,19 @@
 ἀπορρίπτω:
     stems:
         3-: ἀπορριψ
+
+ἀποσεύω:
+    stems:
+        1-: ἀπεσσυ{athematic}
+        1+: ἀπεσσυ{athematic}
+
+ἀποσκεδάννυμι:
+    stems:
+        3+: ἀπεσκεδασ
+
+ἀποσκίδναμαι:
+    stems:
+        1-: ἀποσκιδνα{athematic}
 
 ἀποσκυδμαίνω:
     stems:
@@ -1479,13 +1791,19 @@
 ἀποτέμνω:
     stems:
         1+: ἀπεταμν
+    stems:
+
+ἀποτίθημι:
+    stems:
 
 ἀποτίνω:
     stems:
         1-: ἀποτιν
+        1+: ἀπετινυ{athematic}
         # 2-: {frozenset({'ἀποτισ'}), frozenset({'ἀποτεισ'}), frozenset({'ἀποτισε{athematic}', 'ἀποτισ'})}  # @0
         3-: ἀποτισ
         3+: ἀπετισ
+    stems:
 
 ἀποτμήγω:
     stems:
@@ -1522,23 +1840,28 @@
 ἀποφθίνω:
     stems:
         3-: ἀποφθι{athematic}
+        5+: ἀπεφθι
 
 ἀποψύχω:
     stems:
         1-: ἀποψυχ
         6-: ἀποψυχθ
+    stems:
 
 ἅπτω:
     stems:
+        1-: ἁπτ
         2-: ἁψ
         3-: ἁψ
         # 3+: {frozenset({'ἁψ'}), frozenset({'ἡψ'})}  # @0
+    stems:
 
 ἀπωθέω:
     stems:
         2-: ἀπωσ
         3-: ἀπωσ
         # 3+: {frozenset({'ἀπεωσ{2nd}', 'ἀπεωσ'}), frozenset({'ἀπωσ'})}  # @0
+    stems:
 
 ἀραβέω:
     stems:
@@ -1546,6 +1869,8 @@
 
 ἀράομαι:
     stems:
+        1-: ἀρα
+        1+: ἠρα
         2-: ἀρησ
         3-: ἀρησ
         3+: ἠρησ
@@ -1557,6 +1882,7 @@
         # 3+: {frozenset({'ἀραρ{2nd}'}), frozenset({'ἀρσ{2nd}', 'ἀρσ'}), frozenset({'ἠραρ{2nd}', 'ἠραρ'})}  # @0
         # 4-: {frozenset({'ἀραρ'}), frozenset({'ἀρηρ'}), frozenset({'ἀρηρα{athematic}', 'ἀρηρ'})}  # @0
         # 4+: {frozenset({'ἀρηρ'}), frozenset({'ἠρηρ'})}  # @0
+    stems:
 
 ἀράσσω:
     stems:
@@ -1564,20 +1890,30 @@
         3+: ἀραξ
         6+: ἀραχθ
 
+ἀράω:
+    stems:
+        5-: ἀρη
+
 ἀρέσκω:
     stems:
         2-: ἀρεσσ
         # 3-: {frozenset({'ἀρεσα{athematic}', 'ἀρεσ'}), frozenset({'ἀρεσ'}), frozenset({'ἀρεσσα{athematic}', 'ἀρεσσ'}), frozenset({'ἀρεσσα{root}', 'ἀρεσσ'})}  # @0
+    stems:
 
 ἀρετάω:
     stems:
         # 1-: {frozenset({'ἀρετε'}), frozenset({'ἀρετα'})}  # @0
+    stems:
 
 ἀρήγω:
     stems:
         1-: ἀρηγ
         2-: ἀρηξ
         3-: ἀρηξ
+
+ἀρθμέω:
+    stems:
+        3-: ἀρθμησ
 
 ἀριθμέω:
     stems:
@@ -1600,11 +1936,27 @@
     stems:
         3+: ἡρμοσ
 
+ἀρνέομαι:
+    stems:
+        1+: ἠρνε
+        3-: ἀρνησ
+    stems:
+
+ἄρνυμαι:
+    stems:
+        1-: ἀρνυ{athematic}
+
+ἀρόω:
+    stems:
+        5-: ἀρηρο
+
 ἁρπάζω:
     stems:
+        1-: ἁρπαζ
         2-: ἁρπαξ
         # 3-: {frozenset({'ἁρπαξ'}), frozenset({'ἁρπασ', 'ἁρπασ{2nd}'})}  # @0
         # 3+: {frozenset({'ἡρπασ{2nd}', 'ἡρπασ'}), frozenset({'ἡρπαξ{2nd}', 'ἡρπαξ'})}  # @0
+    stems:
 
 ἀρτύνω:
     stems:
@@ -1631,6 +1983,7 @@
         3-: ἀρξ
         3+: ἠρξ
         4-: ἠρχ
+    stems:
 
 ἀσθμαίνω:
     stems:
@@ -1640,6 +1993,10 @@
     stems:
         3-: ἀσκησ
         3+: ἠσκησ
+    stems:
+
+ἀσπάζομαι:
+    stems:
 
 ἀσπαίρω:
     stems:
@@ -1683,6 +2040,7 @@
     stems:
         1-: ἀτιμαζ
         1+: ἀτιμαζεσκ
+        3+: ἠτιμασ
 
 ἀτιμάω:
     stems:
@@ -1700,17 +2058,22 @@
 
 ἀτύζω:
     stems:
+        1-: ἀτυζ
         6-: ἀτυχθ
 
 αὐαίνω:
     stems:
         6-: αὐανθ
 
+αὐγάζω:
+    stems:
+
 αὐδάω:
     stems:
         1-: αὐδα
         1+: ηὐδα
         3-: αὐδησ
+        3+: αὐδησασκ
 
 αὐερύω:
     stems:
@@ -1732,17 +2095,20 @@
         1+: αὐ
         # 3-: {frozenset({'ἀϋσα{root}', 'ἀϋσ'}), frozenset({'ἀϋσ'}), frozenset({'αὐσ'})}  # @0
         # 3+: {frozenset({'ἀϋσ{2nd}', 'ἀϋσ'}), frozenset({'αὐσ', 'αὐ{root}'}), frozenset({'ἠϋσ', 'ἠϋσ{2nd}'})}  # @0
+    stems:
 
 ἀφαιρέω:
     stems:
         2-: ἀφαιρησ
         3-: ἀφελ{2nd}
         # 3+: {frozenset({'ἀφελ{2nd}', 'ἀφελε{athematic}'}), frozenset({'ἀφειλ', 'ἀφειλ{2nd}'}), frozenset({'ἀφελο{athematic}', 'ἀφελ{2nd}'}), frozenset({'ἀφειλε{athematic}', 'ἀφειλ{2nd}'})}  # @0
+    stems:
 
 ἀφαμαρτάνω:
     stems:
         3-: ἀφαμαρτ{2nd}
         # 3+: {frozenset({'ἀπημβροτ', 'ἀπημβροτ{2nd}'}), frozenset({'ἀφαμαρτ{2nd}', 'ἀφαμαρτ'})}  # @0
+    stems:
 
 ἀφανδάνω:
     stems:
@@ -1758,6 +2124,7 @@
         2-: ἀφησ
         # 3-: {frozenset({'ἀφη', 'ἀφη{2nd}'}), frozenset({'ἀφε{athematic}'}), frozenset({'ἀφε', 'ἀφε{2nd}'})}  # @0
         # 3+: {frozenset({'ἀφηκ{2nd}', 'ἀφηκ'}), frozenset({'ἀφεηκ{2nd}', 'ἀφεηκ'})}  # @0
+    stems:
 
 ἀφικάνω:
     stems:
@@ -1768,12 +2135,18 @@
         2-: ἀφιξ
         3-: ἀφικ{2nd}
         3+: ἀφικ{2nd}
+    stems:
 
 ἀφίστημι:
     stems:
+        1-: ἀφιστα{athematic}
         3-: ἀποστησ
         # 4-: {frozenset({'ἀφεστ', 'ἀφεστα{athematic}'}), frozenset({'ἀφεστα{athematic}'}), frozenset({'ἀφεστα'})}  # @0
         # 4+: {frozenset({'ἀφεστα{athematic}', 'ἀφεσταδ{athematic}'}), frozenset({'ἀφεστηκ'})}  # @0
+    stems:
+
+ἀφοπλίζω:
+    stems:
 
 ἀφορμάω:
     stems:
@@ -1801,12 +2174,20 @@
         2-: ἀφυξ
         3-: ἀφυσσ
         # 3+: {frozenset({'ἀφυσσ'}), frozenset({'ἠφυσ'}), frozenset({'ἀφυσσ{2nd}', 'ἀφυσσ'}), frozenset({'ἠφυσ', 'ἠφυσα{athematic}'})}  # @0
+    stems:
 
 ἀχεύω:
     stems:
         # 1-: {frozenset({'ἀχε{nocontract}', 'ἀχε0', 'ἀχε'}), frozenset({'ἀχευ', 'ἀχευ0'})}  # @0
         3-: ἀκαχ{2nd}
         # 3+: {frozenset({'ἠκαχ{2nd}', 'ἠκαχ'}), frozenset({'ἀκαχο{athematic}', 'ἀκαχ{2nd}'}), frozenset({'ἀκαχησ', 'ἀκαχησ{2nd}'})}  # @0
+        5-: ἀκηχε
+    stems:
+
+ἄχθομαι:
+    stems:
+        1-: ἀχθ
+    stems:
 
 ἀχλύω:
     stems:
@@ -1826,6 +2207,7 @@
     stems:
         1-: βαζ
         1+: ἐβαζ
+    stems:
 
 βαθύνω:
     stems:
@@ -1840,6 +2222,7 @@
         # 3+: {frozenset({'ἐβησ', 'ἐβησα{athematic}'}), frozenset({'ἐβ'}), frozenset({'ἐβα{root}'}), frozenset({'βησ'}), frozenset({'ἐβη{athematic}', 'ἐβα{root}'}), frozenset({'ἐβησ{2nd}', 'ἐβησε{athematic}'}), frozenset({'βησ{2nd}', 'βησ'}), frozenset({'βησα{athematic}', 'βησ'}), frozenset({'βη{athematic}'}), frozenset({'ἐβησ', 'ἐβε{root}', 'ἐβα{root}'})}  # @0
         # 4-: {frozenset({'βεβα'}), frozenset({'βεβαα{athematic}', 'βεβα'}), frozenset({'βεβηκ'}), frozenset({'βεβαα{athematic}'}), frozenset({'βεβα{athematic}'})}  # @0
         # 4+: {frozenset({'βεβα{athematic}', 'βεβαδ{athematic}'}), frozenset({'ἐβεβηκ'}), frozenset({'βεβηκ'})}  # @0
+    stems:
 
 βάλλω:
     stems:
@@ -1850,6 +2233,9 @@
         # 3+: {frozenset({'ἐβαλο{athematic}', 'ἐβαλ{2nd}'}), frozenset({'βαλ{2nd}', 'βαλε{athematic}'}), frozenset({'βαλ{2nd}', 'βαλο{athematic}'}), frozenset({'ἐβαλ{2nd}'}), frozenset({'βαλ{2nd}', 'βαλ'}), frozenset({'ἐβαλ{2nd}', 'ἐβαλ'}), frozenset({'βαλ{2nd}'})}  # @0
         4-: βεβληκ
         4+: βεβληκ
+        5-: βεβλη
+        5+: βεβλη
+    stems:
 
 βαμβαίνω:
     stems:
@@ -1872,27 +2258,38 @@
         # 1+: {frozenset({'βαρυν'}), frozenset({'ἐβαρυν'})}  # @0
         3+: ἐβαρυν
         6-: βαρυνθ
+    stems:
 
 βασιλεύω:
     stems:
         1-: βασιλευ
         1+: βασιλευ
         2-: βασιλευσ
+        3-: βασιλευσ
 
 βαστάζω:
     stems:
         1-: βασταζ
         3+: ἐβαστασ
 
+βεβόλημαι:
+    stems:
+        5-: βεβολη
+
+βέομαι:
+    stems:
+
 βιάζω:
     stems:
         1-: βιαζ
+    stems:
 
 βιάω:
     stems:
         2-: βιησ
         3-: βιησ
         # 3+: {frozenset({'βιησ'}), frozenset({'ἐβιησ'})}  # @0
+    stems:
 
 βιβάσθω:
     stems:
@@ -1909,6 +2306,7 @@
 βιβρώσκω:
     stems:
         # 4-: {frozenset({'βεβρωκ', 'βεβρωκα{athematic}'}), frozenset({'βεβρωθ'})}  # @0
+    stems:
 
 βιόω:
     stems:
@@ -1922,6 +2320,7 @@
         # 3+: {frozenset({'βλαψ{2nd}', 'βλαψ'}), frozenset({'ἐβλαψ', 'ἐβλαψ{2nd}'}), frozenset({'ἐβλαψ'}), frozenset({'βλαψ'})}  # @0
         6-: βλαφθ
         6+: ἐβλαφθ
+    stems:
 
 βλεμεαίνω:
     stems:
@@ -1935,8 +2334,10 @@
 βοάω:
     stems:
         # 1-: {frozenset({'βοο0', 'βοο'}), frozenset({'βοα'}), frozenset({'βοε', 'βοη', 'βοα', 'βοο'})}  # @0
+        3-: βωσ
         # 3-: {frozenset({'βωσ'}), frozenset({'βοησ'})}  # @0
         # 3+: {frozenset({'ἐβοησ'}), frozenset({'βοε{root}', 'βοησ', 'βοα{root}'}), frozenset({'ἐβοησ', 'ἐβοησ{2nd}'})}  # @0
+    stems:
 
 βομβέω:
     stems:
@@ -1959,6 +2360,10 @@
         2-: βουλευσ
         3-: βουλευσ
         # 3+: {frozenset({'βουλευσ', 'βουλευ{root}'}), frozenset({'ἐβουλευσ'}), frozenset({'βουλευσ'})}  # @0
+    stems:
+
+βούλομαι:
+    stems:
 
 βουφονέω:
     stems:
@@ -1971,6 +2376,7 @@
 βραχεῖν:
     stems:
         # 3+: {frozenset({'ἐβραχ', 'ἐβραχ{2nd}'}), frozenset({'βραχ{2nd}', 'βραχ'})}  # @0
+    stems:
 
 βρέμω:
     stems:
@@ -1997,6 +2403,11 @@
     stems:
         3-: βροντησ
         # 3+: {frozenset({'ἐβροντησ'}), frozenset({'βροντησ', 'βροντησ{2nd}'})}  # @0
+    stems:
+
+βροτόομαι:
+    stems:
+        5-: βεβροτω
 
 βρυχάομαι:
     stems:
@@ -2011,6 +2422,10 @@
     stems:
         1-: βυσσοδομευ
         1+: βυσσοδομευ
+
+βύω:
+    stems:
+        5-: βεβυσ
 
 βωστρέω:
     stems:
@@ -2029,6 +2444,7 @@
 
 γάνυμαι:
     stems:
+        1-: γανυ{athematic}
         2-: γανυσσ
 
 γέγωνα:
@@ -2043,15 +2459,19 @@
 
 γείνομαι:
     stems:
+        1-: γειν
         3-: γειν
         # 3+: {frozenset({'γειν'}), frozenset({'ἐγειν'})}  # @0
+    stems:
 
 γελάω:
     stems:
         # 1-: {frozenset({'γελω', 'γελω0'}), frozenset({'γελο'})}  # @0
         1+: γελοια
+        3-: γελασ
         # 3-: {frozenset({'γελασσ'}), frozenset({'γελασ'})}  # @0
         # 3+: {frozenset({'γελασσ{2nd}', 'γελασσ'}), frozenset({'ἐγελασσ{2nd}', 'ἐγελασσ'}), frozenset({'γελασσ'}), frozenset({'ἐγελασσ'}), frozenset({'γελασ'})}  # @0
+    stems:
 
 γενειάω:
     stems:
@@ -2066,6 +2486,10 @@
         2-: γευσ
         3-: γευσ
 
+γεφυρόω:
+    stems:
+        3+: γεφυρωσ
+
 γηθέω:
     stems:
         1-: γηθε
@@ -2078,15 +2502,20 @@
 
 γηράσκω:
     stems:
+        1-: γηρασκ
         # 1-: {frozenset({'γηρασκ'}), frozenset({'γηρασκ0', 'γηρασκ'}), frozenset({'γηρα{athematic}'})}  # @0
+        1+: γηρασκ
         # 1+: {frozenset({'γηρασκ'}), frozenset({'ἐγηρα'})}  # @0
 
 γίγνομαι:
     stems:
+        1-: γιγν
         3-: γεν{2nd}
         # 3+: {frozenset({'γενε{athematic}', 'γεν{2nd}'}), frozenset({'γενο{athematic}', 'γεν{2nd}'}), frozenset({'γενεσκε{athematic}', 'γενεσκ{2nd}'}), frozenset({'ἐγεν{2nd}', 'ἐγενε{athematic}'}), frozenset({'ἐγενο{athematic}', 'ἐγεν{2nd}'})}  # @0
         # 4-: {frozenset({'γεγα'}), frozenset({'γεγαα{athematic}'})}  # @0
+        4-: γεγαα{athematic}  # @@@
         4+: γεγον
+    stems:
 
 γιγνώσκω:
     stems:
@@ -2095,10 +2524,15 @@
         2-: γνωσ
         # 3-: {frozenset({'γνωμεν'}), frozenset({'γνο{root}', 'γνων', 'γνω{root}'}), frozenset({'γνω{root}', 'γνε{athematic}', 'γνο{athematic}', 'γνα{root}'}), frozenset({'γνο{root}', 'γνο{athematic}'}), frozenset({'γνω{root}', 'γνο{athematic}'}), frozenset({'γνω{2nd}', 'γνω'}), frozenset({'γνω{athematic}'})}  # @0
         3+: ἐγνω{root}
+    stems:
 
 γλαυκιάω:
     stems:
         1-: γλαυκιο
+
+γνάμπτω:
+    stems:
+        3+: γναμψ
 
 γοάω:
     stems:
@@ -2107,9 +2541,20 @@
         2-: γοησ
         3+: γο{2nd}
 
+γουνάζομαι:
+    stems:
+        2-: γουνασ
+    stems:
+
+γουνόομαι:
+    stems:
+        1-: γουνο
+    stems:
+
 γράφω:
     stems:
         3-: γραψ
+        3+: γραψ
 
 γυιόω:
     stems:
@@ -2117,8 +2562,10 @@
 
 γυμνόω:
     stems:
+        1-: γυμνο
         6-: γυμνωθ
         # 6+: {frozenset({'ἐγυμνωθ'}), frozenset({'γυμνωθ'})}  # @0
+    stems:
 
 δαιδάλλω:
     stems:
@@ -2129,10 +2576,12 @@
         1-: δαϊζ
         1+: ἐδαϊζ
         3-: δαϊξ
+        5-: δεδαϊγ
 
 δαίνυμι:
     stems:
-        1-: {frozenset({'δαινυ{athematic}'}), frozenset({'δαινυ{#}'})}  # @0
+        1-: δαινυ{athematic}
+        # 1-: {frozenset({'δαινυ{athematic}'}), frozenset({'δαινυ{#}'})}  # @0
         1+: δαινυ{athematic}
         2-: δαισ
         3-: δαισ
@@ -2146,10 +2595,12 @@
 
 δαίω:
     stems:
+        1-: δαι
         1+: δαι
         3-: δα
         # 4-: {frozenset({'δεδα'}), frozenset({'δεδη'})}  # @0
         4+: δεδη
+    stems:
 
 δάκνω:
     stems:
@@ -2163,13 +2614,17 @@
     stems:
         3-: δακρυσ
         3+: δακρυσ
+        5-: δεδακρυ
 
 δαμάζω:
     stems:
         # 3-: {frozenset({'δαμασσ'}), frozenset({'δαμασ'}), frozenset({'δαμασσα{root}', 'δαμασσ'}), frozenset({'δαμασσ{2nd}', 'δαμασσ'}), frozenset({'δαμασσ', 'δαμασσα{athematic}'}), frozenset({'δαμασ{2nd}', 'δαμασ'})}  # @0
         # 3+: {frozenset({'ἐδαμασσ'}), frozenset({'δαμασσ'}), frozenset({'ἐδαμασσ', 'ἐδαμασσ{2nd}'}), frozenset({'δαμασ'}), frozenset({'δαμασσ', 'δαμασσ{2nd}'}), frozenset({'δαμασ{2nd}', 'δαμασ'})}  # @0
+        5-: δεδμη
+        5+: δεδμη
         # 6-: {frozenset({'δμηθ'}), frozenset({'δαμ'}), frozenset({'δαμασθ'})}  # @0
         # 6+: {frozenset({'ἐδαμασθ'}), frozenset({'δαμασθ'}), frozenset({'δαμ'}), frozenset({'ἐδαμ'})}  # @0
+    stems:
 
 δαμνάω:
     stems:
@@ -2178,6 +2633,7 @@
 
 δάμνημι:
     stems:
+        1-: δαμνα{athematic}
         1+: ἐδαμνα
 
 δάπτω:
@@ -2191,21 +2647,34 @@
         2-: δασ
         # 3-: {frozenset({'δασσ'}), frozenset({'δασ{2nd}', 'δασ'}), frozenset({'δασσ', 'δασσα{athematic}'}), frozenset({'δασ'})}  # @0
         # 3+: {frozenset({'δασασκ{2nd}', 'δασασκε{athematic}'}), frozenset({'δασσ'})}  # @0
+    stems:
 
 δάω:
     stems:
         # 3-: {frozenset({'δαην', 'δαα{root}'}), frozenset({'δαω{root}', 'δαα{root}', 'δαε{athematic}', 'δαο{athematic}'}), frozenset({'δαει', 'δαει{2nd}'}), frozenset({'δαημεν'}), frozenset({'δεδα'})}  # @0
         3+: ἐδαα{root}
         # 4-: {frozenset({'δεδα', 'δεδαα{athematic}'}), frozenset({'δεδαηκ'})}  # @0
+    stems:
+
+δεδίσκομαι:
+    stems:
+
+δεδοκημένος:
+    stems:
+        5-: δεδοκη
 
 δεῖ:
     stems:
         1-: δε
 
+δειδίσκομαι:
+    stems:
+
 δειδίσσομαι:
     stems:
         2-: δειδιξ
         3-: δειδιξ
+    stems:
 
 δείδω:
     stems:
@@ -2215,6 +2684,7 @@
         # 3+: {frozenset({'ἐδεισ', 'ἐδεισ{2nd}'}), frozenset({'ἐδεισ'}), frozenset({'δει{athematic}', 'δεισ'}), frozenset({'δεισ', 'δεισ{2nd}'}), frozenset({'ἐδεισα{athematic}', 'ἐδεισ'})}  # @0
         # 4-: {frozenset({'δειδι', 'δειδι{athematic}'}), frozenset({'δειδι'}), frozenset({'δειδοικ{athematic}', 'δειδοικ'}), frozenset({'δειδοικ'})}  # @0
         # 4+: {frozenset({'ἐδειδιδ{athematic}'}), frozenset({'δειδιδ{athematic}'})}  # @0
+    stems:
 
 δειελιάω:
     stems:
@@ -2226,6 +2696,10 @@
         2-: δειξ
         # 3-: {frozenset({'δεξ'}), frozenset({'δεξα{athematic}', 'δεξ'}), frozenset({'δειξ'})}  # @0
         # 3+: {frozenset({'δεξ'}), frozenset({'ἐδειξ', 'ἐδειξ{2nd}'}), frozenset({'δειξ', 'δειξ{2nd}'})}  # @0
+    stems:
+
+δείλομαι:
+    stems:
 
 δείξω:
     stems:
@@ -2249,7 +2723,10 @@
 δέμω:
     stems:
         1+: δεμ
+        3-: δειμ
         3+: ἐδειμ
+        5-: δεδμη
+    stems:
 
 δενδίλλω:
     stems:
@@ -2257,26 +2734,33 @@
 
 δέρκομαι:
     stems:
+        1-: δερκ
         3+: ἐδρακ{2nd}
         4-: δεδορκ
+    stems:
 
 δέρω:
     stems:
         # 1+: {frozenset({'δερ'}), frozenset({'ἐδερ'})}  # @0
         3-: δειρ
         3+: ἐδειρ
+    stems:
 
 δεύω:
     stems:
         1-: δευ
         # 1+: {frozenset({'δευ'}), frozenset({'δευεσκ'})}  # @0
         # 2-: {frozenset({'δευσ'}), frozenset({'δευησ'})}  # @0
+        3+: ἐδευησ
+    stems:
 
 δέχομαι:
     stems:
+        1-: δεχ
         2-: δεξ
         3-: δεξ
         # 3+: {frozenset({'δεξ'}), frozenset({'ἐδεξ'})}  # @0
+    stems:
 
 δέψω:
     stems:
@@ -2289,10 +2773,13 @@
         2-: δησ
         3-: δησ
         # 3+: {frozenset({'δησ', 'δησ{2nd}'}), frozenset({'δησασκε{athematic}', 'δησασκ{2nd}'}), frozenset({'ἐδα{root}', 'ἐδησ', 'ἐδε{root}'}), frozenset({'δησ'}), frozenset({'ἐδησ'}), frozenset({'ἐδησ', 'ἐδησ{2nd}'})}  # @0
+        5+: δεδε
+    stems:
 
 δηθύνω:
     stems:
         1-: δηθυν
+        3-: δηθυν
 
 δηιόω:
     stems:
@@ -2301,9 +2788,17 @@
         2-: δῃωσ
         3-: δῃωσ
         6-: δῃωθ
+    stems:
+
+δηλέομαι:
+    stems:
+        3-: δηλησ
+        3+: δηλησ
+    stems:
 
 δηριάομαι:
     stems:
+        1-: δηριαα{athematic}  # @@@
         3+: δηρισ
 
 δήω:
@@ -2312,6 +2807,8 @@
 
 διαβαίνω:
     stems:
+        1-: διαβαιν
+        3-: διαβημεν
         # 3-: {frozenset({'διαβημεν'}), frozenset({'διαβα{root}'})}  # @0
 
 διαγιγνώσκω:
@@ -2327,14 +2824,23 @@
     stems:
         3-: διαδρακ{2nd}
 
+διαδηλέομαι:
+    stems:
+        3+: διεδηλησ
+
 διαείδω:
     stems:
         2-: διαεισ
+    stems:
 
 διάημι:
     stems:
         1-: δια
         1+: διαα{athematic}
+
+διαθειόω:
+    stems:
+        3+: διεθειωσ
 
 διαθρύπτω:
     stems:
@@ -2379,10 +2885,19 @@
     stems:
         1+: διεμετρε
 
+διαμοιράω:
+    stems:
+        1+: διεμοιρα
+
+διανύω:
+    stems:
+        3+: διηνυσ
+
 διαπέρθω:
     stems:
         3-: διαπερσ
         # 3+: {frozenset({'διεπραθε{athematic}', 'διεπραθ{2nd}'}), frozenset({'διεπραθ{2nd}', 'διεπραθο{athematic}'}), frozenset({'διεπερσ', 'διεπερσα{athematic}'}), frozenset({'διεπραθ{2nd}'}), frozenset({'διεπερσ{2nd}', 'διεπερσ'})}  # @0
+    stems:
 
 διαπέταμαι:
     stems:
@@ -2413,8 +2928,17 @@
         2-: διαρραισ
         3-: διαρραισ
 
+διασεύομαι:
+    stems:
+        1+: διεσσυ{athematic}
+
+διασκοπιάομαι:
+    stems:
+        1-: διασκοπια
+
 διασχίζω:
     stems:
+        3+: διεσχισ
         6+: διεσχισθ
 
 διατμήγω:
@@ -2436,6 +2960,9 @@
         1-: διατριβ
         3-: διατριψ
 
+διαφαίνω:
+    stems:
+
 διαφθείρω:
     stems:
         2-: διαφθερσ
@@ -2448,6 +2975,7 @@
 διαφύσσω:
     stems:
         3+: διηφυσ
+    stems:
 
 διαχέω:
     stems:
@@ -2455,7 +2983,9 @@
 
 διδάσκω:
     stems:
+        1-: διδασκ
         # 3+: {frozenset({'διδαξ', 'διδαξα{athematic}'}), frozenset({'ἐδιδαξ'}), frozenset({'διδαξ', 'διδαξ{2nd}'}), frozenset({'ἐδιδαξ', 'ἐδιδαξ{2nd}'})}  # @0
+    stems:
 
 δίδημι:
     stems:
@@ -2464,12 +2994,15 @@
 
 δίδωμι:
     stems:
-        1-: {frozenset({'διδο'}), frozenset({'διδο{athematic}'}), frozenset({'διδε'}), frozenset({'διδω{athematic}'}), frozenset({'διδο{athematic}', 'διδου{athematic}'}), frozenset({'διδο{athematic}', 'διδο', 'διδε'}), frozenset({'διδου{#}', 'διδο'}), frozenset({'διδο{athematic}', 'διδ'})}  # @0
+        1-: διδο{athematic}
+        # 1-: {frozenset({'διδο'}), frozenset({'διδο{athematic}'}), frozenset({'διδε'}), frozenset({'διδω{athematic}'}), frozenset({'διδο{athematic}', 'διδου{athematic}'}), frozenset({'διδο{athematic}', 'διδο', 'διδε'}), frozenset({'διδου{#}', 'διδο'}), frozenset({'διδο{athematic}', 'διδ'})}  # @0
         # 1+: {frozenset({'διδο{athematic}', 'διδ'}), frozenset({'δοσκ'}), frozenset({'ἐδιδου{athematic}', 'ἐδιδο{athematic}', 'ἐδιδο'}), frozenset({'διδο{athematic}', 'διδου{athematic}', 'διδο'})}  # @0
         # 2-: {frozenset({'διδωσ'}), frozenset({'δωσ'})}  # @0
         # 3-: {frozenset({'δουν', 'δο{athematic}', 'δου{root}'}), frozenset({'δο{athematic}', 'δω{root}'}), frozenset({'δο{root}', 'δ{2nd}', 'δο{athematic}'}), frozenset({'δε{athematic}', 'δα{root}', 'δω{root}', 'δο{athematic}'}), frozenset({'δο{athematic}'}), frozenset({'δω', 'δω{2nd}'}), frozenset({'δο{root}', 'δο{athematic}'}), frozenset({'δο{root}', 'δ{2nd}'}), frozenset({'δομεν'})}  # @0
         # 3+: {frozenset({'δοσ'}), frozenset({'ἐδ{2nd}', 'ἐδο{athematic}'}), frozenset({'δο{athematic}'}), frozenset({'ἐδωκ'}), frozenset({'δωκ'}), frozenset({'ἐδ{2nd}', 'ἐδοσ', 'ἐδο{athematic}'}), frozenset({'δωκ', 'δωκ{2nd}'}), frozenset({'ἐδωκ{2nd}', 'ἐδωκ'})}  # @0
+        5-: δεδο
         6-: δοθ
+    stems:
 
 διεῖπον:
     stems:
@@ -2483,6 +3016,13 @@
     stems:
         3+: διηλασ{2nd}
 
+δίεμαι:
+    stems:
+        1-: διε{athematic}
+
+διεξερέομαι:
+    stems:
+
 διέπω:
     stems:
         1+: διεπ
@@ -2493,6 +3033,7 @@
 
 διέρχομαι:
     stems:
+        1-: διερχ
         2-: διελευσ
         3-: διελθ{2nd}
         3+: διηλθ{2nd}
@@ -2500,6 +3041,11 @@
 διέχω:
     stems:
         3+: διεσχ{2nd}
+
+δίζημαι:
+    stems:
+        1-: διζη{athematic}
+        5-: διζη
 
 δίζω:
     stems:
@@ -2515,8 +3061,10 @@
 
 διίστημι:
     stems:
+        1+: διιστα{athematic}
         3-: διαστα{athematic}
         # 3+: {frozenset({'διεστα{athematic}', 'διεστ'}), frozenset({'διεστα{root}', 'διεστησ', 'διεστε{root}'})}  # @0
+    stems:
 
 δικάζω:
     stems:
@@ -2532,6 +3080,7 @@
         # 1+: {frozenset({'δινε{nocontract}', 'δινεο{athematic}', 'δινε'}), frozenset({'ἐδινευ'}), frozenset({'δινε'}), frozenset({'ἐδινε', 'ἐδινε{nocontract}'})}  # @0
         3-: δινησ
         6-: δινηθ
+    stems:
 
 διοιστεύω:
     stems:
@@ -2556,7 +3105,12 @@
 
 δίω:
     stems:
+        1-: δι
         1+: δι
+
+διωθέω:
+    stems:
+        3+: διωσ
 
 διώκω:
     stems:
@@ -2589,6 +3143,7 @@
     stems:
         1-: δονε
         3-: δονησ
+        3+: ἐδονησ
 
 δορπέω:
     stems:
@@ -2611,6 +3166,9 @@
     stems:
         1-: δραιν
 
+δράσσομαι:
+    stems:
+
 δράω:
     stems:
         1-: δρω
@@ -2628,18 +3186,24 @@
         2-: δυνησ
         # 3+: {frozenset({'δυνησ'}), frozenset({'ἐδυνησ'})}  # @0
         # 6+: {frozenset({'δυνασθ'}), frozenset({'ἐδυνασθ'})}  # @0
+    stems:
 
 δυσμενέων:
     stems:
         1-: δυσμενε/δυσμενε{nocontract}
+
+δυσωρέομαι:
+    stems:
 
 δύω:
     stems:
         # 1-: {frozenset({'δυ'}), frozenset({'δυν0', 'δυν'}), frozenset({'δυν'}), frozenset({'δυ0', 'δυ'})}  # @0
         # 1+: {frozenset({'ἐδυν'}), frozenset({'δυν'})}  # @0
         2-: δυσ
+        3-: δυ{root}
         # 3-: {frozenset({'δυσ'}), frozenset({'δυσ', 'δυσ{2nd}'}), frozenset({'δυ{athematic}', 'δυ{root}'}), frozenset({'δυ{athematic}'}), frozenset({'δυμεν'}), frozenset({'δυ{root}', 'δυν'}), frozenset({'δυ{2nd}', 'δυ'})}  # @0
         # 3+: {frozenset({'ἐδυ{root}', 'ἐδυ{athematic}'}), frozenset({'δυσ'}), frozenset({'δυσε{athematic}', 'δυσ{2nd}'}), frozenset({'ἐδυσ{2nd}', 'ἐδυσε{athematic}'}), frozenset({'ἐδυ{root}'}), frozenset({'δυν{2nd}', 'δυν'}), frozenset({'ἐδυν', 'ἐδυν{2nd}'}), frozenset({'ἐδυ{root}', 'ἐδυσ'}), frozenset({'ἐδυσ'})}  # @0
+    stems:
 
 ἑάφθη:
     stems:
@@ -2652,6 +3216,7 @@
         2-: ἐασ
         3-: ἐασ
         # 3+: {frozenset({'εἰασ{2nd}', 'εἰασ'}), frozenset({'ἐασ{2nd}', 'ἐασ'}), frozenset({'εἰασ'}), frozenset({'ἐασ'})}  # @0
+    stems:
 
 ἐγγείνωνται:
     stems:
@@ -2668,12 +3233,17 @@
         3-: ἐγγυαλιξ
         3+: ἐγγυαλιξ
 
+ἐγγυάω:
+    stems:
+        1-: ἐγγυαα{athematic}
+
 ἐγείρω:
     stems:
         1-: ἐγειρ
         1+: ἐγειρ
         # 3-: {frozenset({'ἐγρο{athematic}', 'ἐγρ{2nd}'}), frozenset({'ἐγειρ'}), frozenset({'ἐγρ{2nd}'})}  # @0
         # 3+: {frozenset({'ἐγρε{athematic}', 'ἐγρ{2nd}'}), frozenset({'ἐγειρ{2nd}', 'ἐγειρ'}), frozenset({'ἠγειρ'}), frozenset({'ἠγειρ', 'ἠγειρα{root}'})}  # @0
+    stems:
 
 ἐγκατατίθεμαι:
     stems:
@@ -2682,6 +3252,10 @@
 ἐγκεράννυμι:
     stems:
         3-: ἐγκερασ
+
+ἐγκλίνω:
+    stems:
+        5-: ἐγκεκλι
 
 ἐγκονέω:
     stems:
@@ -2707,6 +3281,9 @@
     stems:
         1-: ἐγρησσ
 
+ἔγρω:
+    stems:
+
 ἐγχέω:
     stems:
         1-: ἐγχει
@@ -2715,6 +3292,11 @@
     stems:
         3-: ἐγχριμψ
         # 6-: {frozenset({'ἐνιχριμφθ'}), frozenset({'ἐγχριμφθ'})}  # @0
+    stems:
+
+ἑδριάω:
+    stems:
+        1-: ἑδριαα{athematic}
 
 ἔδω:
     stems:
@@ -2722,11 +3304,16 @@
         # 1+: {frozenset({'ἐδ'}), frozenset({'ἐδεσκ'})}  # @0
         2-: ἐδ
         4-: ἐδηδ
+        5-: ἐδηδο
+    stems:
 
 ἕζομαι:
     stems:
+        1-: ἑζ
+        1+: ἑζ
         3-: ἑσ
         # 3+: {frozenset({'ἑζο{athematic}', 'ἑζ{2nd}'}), frozenset({'ἐεσσ'}), frozenset({'ἑζε{athematic}', 'ἑζ{2nd}'}), frozenset({'εἱσ', 'εἱ{athematic}'})}  # @0
+    stems:
 
 ἐθείρω:
     stems:
@@ -2738,6 +3325,7 @@
         # 1+: {frozenset({'ἠθελ'}), frozenset({'ἐθελεσκ'}), frozenset({'ἐθελ'})}  # @0
         2-: ἐθελησ
         3+: ἐθελησ
+    stems:
 
 ἔθω:
     stems:
@@ -2753,12 +3341,16 @@
     stems:
         # 3-: {frozenset({'εἰσ'}), frozenset({'ἐεισα{root}', 'ἐεισ'}), frozenset({'εἰσ', 'εἰσα{root}'})}  # @0
         # 3+: {frozenset({'εἰσ'}), frozenset({'ἐεισ'})}  # @0
+    stems:
+        1-: εἰδ
+    stems:
 
 εἶδον:
     stems:
         2-: εἰδησ
         3-: ἰδ{2nd}
         # 3+: {frozenset({'εἰδ{2nd}', 'εἰδ'}), frozenset({'ἰδ', 'ἰδ{2nd}'}), frozenset({'ἰδο{athematic}', 'ἰδ{2nd}'}), frozenset({'εἰδ{2nd}', 'εἰδο{athematic}'}), frozenset({'ἰδεσκ', 'ἰδεσκ{2nd}'}), frozenset({'εἰδ{2nd}'}), frozenset({'ἰδ{2nd}'}), frozenset({'ἰδε{athematic}', 'ἰδ{2nd}'})}  # @0
+    stems:
 
 εἴδω:
     stems:
@@ -2766,16 +3358,19 @@
         3+: εἰσ
         # 4-: {frozenset({'ἰδ{athematic}'}), frozenset({'οἰδ{athematic}', 'οἰδ'}), frozenset({'οἰδ'}), frozenset({'εἰδα{athematic}', 'εἰδ'}), frozenset({'οἰδ{athematic}'}), frozenset({'εἰδ'}), frozenset({'ἰδε'})}  # @0
         # 4+: {frozenset({'ἰδ{athematic}'}), frozenset({'ἠειδ'})}  # @0
+    stems:
 
 εἰκός:
     stems:
         # 4-: {frozenset({'ἐϊκα{athematic}', 'ἐϊκ'}), frozenset({'εἰκ'}), frozenset({'ἐϊκ'})}  # @0
+    stems:
 
 εἴκω:
     stems:
         1-: εἰκ
         3-: εἰξ
         # 3+: {frozenset({'εἰξασκ', 'εἰξασκ{2nd}'}), frozenset({'εἰξ'}), frozenset({'εἰξ{2nd}', 'εἰξ'})}  # @0
+    stems:
 
 εἰλαπινάζω:
     stems:
@@ -2784,24 +3379,31 @@
 εἰλυφάζω:
     stems:
         # 1-: {frozenset({'εἰλυφαζ'}), frozenset({'εἰλυφο0', 'εἰλυφο'})}  # @0
+    stems:
 
 εἰλύω:
     stems:
         2-: εἰλυσ
+        5-: εἰλυ
+        5+: εἰλυ
 
 εἴλω:
     stems:
+        1-: εἰλ
         1+: εἰλε
         # 3-: {frozenset({'ἐελσ'}), frozenset({'ἐλσ'})}  # @0
         3+: ἐλσ
+        5-: ἐελ
         6-: ἀλ
         6+: ἐαλ
+    stems:
 
 εἰμί:
     stems:
         # 1-: {frozenset({'ἐ', 'ἐ{nocontract}', 'ἐ0'}), frozenset({'ἰ'}), frozenset({'', 'ἐ', 'ὀ', 'οὐ{athematic}', 'ὀ{athematic}', '0'}), frozenset({'ἐ', 'ἐε', 'ἐ{nocontract}', 'ἐ0', 'ἐο{athematic}', 'ἐου{athematic}', 'ἐο'}), frozenset({'εἰ{athematic}'}), frozenset({'ἐο{athematic}'}), frozenset({'ἐσ{athematic}', 'ἐ{athematic}'}), frozenset({'ἐ0', 'ἐο{athematic}'}), frozenset({'ἐ', 'ἐ{nocontract}'}), frozenset({'ἐσ{athematic}'}), frozenset({'ἰο', 'ἰε'}), frozenset({'ἐε', 'ἐο', 'ἐο{athematic}'}), frozenset({'ἐε', 'ἐου{athematic}', 'ἐο', 'ἐο{athematic}'}), frozenset({'εἰ{athematic}{enclitic}'}), frozenset({'ἰο{athematic}'}), frozenset({'ἐ'}), frozenset({'ἐσ{athematic}{enclitic}'}), frozenset({'ἐε', 'ἐ', 'ἐ{nocontract}', 'ἐ0', 'ἐο'}), frozenset({'ἰο{athematic}', 'ἰο', 'ἰε'}), frozenset({'ἰο{athematic}', 'ἰου{athematic}', 'ἰο', 'ἰε'}), frozenset({'εἰ{athematic}', 'ἐσ{athematic}'}), frozenset({''})}  # @0
         # 1+: {frozenset({'ἐσκ'}), frozenset({'ἐ'}), frozenset({'ἐ', 'ἠ{athematic}', 'ἠ'}), frozenset({'ἠ{athematic}'}), frozenset({'ἐη{athematic}'})}  # @0
         # 2-: {frozenset({'ἐσ'}), frozenset({'ἐσσ'}), frozenset({'ἐσ', 'ἐσε{athematic}'}), frozenset({'ἐσσ{contract}', 'ἐσσει{athematic}'}), frozenset({'ἐσ{athematic}'}), frozenset({'ἐσσ', 'ἐσσε{athematic}'})}  # @0
+    stems:
 
 εἶμι:
     stems:
@@ -2809,19 +3411,24 @@
         # 1+: {frozenset({'ἠϊ'}), frozenset({'ᾐ', 'ᾐο{athematic}'}), frozenset({'ᾐε', 'ᾐε{athematic}'}), frozenset({'ᾐ'}), frozenset({'ἰ'}), frozenset({'ἠι', 'ἠιο{athematic}'}), frozenset({'ἠι'})}  # @0
         2-: εἰσ
         # 3+: {frozenset({'εἰσ'}), frozenset({'ἐεισ'})}  # @0
+    stems:
 
 εἶπον:
     stems:
         # 3-: {frozenset({'εἰπ', 'εἰπα{athematic}'}), frozenset({'εἰπ{2nd}', 'εἰπι{2nd}'}), frozenset({'εἰπ{2nd}', 'εἰπ'}), frozenset({'εἰπεμεν'}), frozenset({'εἰπο{athematic}', 'εἰπο{root}', 'εἰπ{2nd}'}), frozenset({'εἰπ{2nd}{enclitic}'}), frozenset({'εἰπ{2nd}'}), frozenset({'ἐσπε{athematic}', 'ἐσπ{2nd}'})}  # @0
         # 3+: {frozenset({'εἰπ'}), frozenset({'ἐειπ{2nd}'}), frozenset({'εἰπεσκ', 'εἰπεσκ{2nd}'}), frozenset({'ἐειπ', 'ἐειπ{2nd}'}), frozenset({'εἰπ{2nd}', 'εἰπ'}), frozenset({'εἰπο{athematic}', 'εἰπ{2nd}'}), frozenset({'εἰπ{2nd}'})}  # @0
+    stems:
 
 εἴρω:
     stems:
         1-: εἰρ
+        5-: ἐερ
+        5+: ἐερ
 
 εἰσαγείρω:
     stems:
         3+: ἐσαγειρ
+    stems:
 
 εἰσάγω:
     stems:
@@ -2870,6 +3477,10 @@
     stems:
         3+: ἐσεδρακ{2nd}
 
+εἰσεῖδον:
+    stems:
+        3+: εἰσιδ
+
 εἰσείδω:
     stems:
         1+: εἰσιδ
@@ -2891,13 +3502,19 @@
 
 εἰσέρχομαι:
     stems:
+        1-: ἐσερχ
         2-: ἐσελευσ
         # 3-: {frozenset({'ἐσελθ{2nd}', 'ἐσελθι{2nd}'}), frozenset({'εἰσελθο{athematic}', 'εἰσελθ{2nd}', 'εἰσελθο{root}'}), frozenset({'ἐσελθε{athematic}', 'ἐσελθ{2nd}'}), frozenset({'εἰσελθ{2nd}'})}  # @0
         # 3+: {frozenset({'εἰσηλυθ{2nd}'}), frozenset({'εἰσελθ{2nd}', 'εἰσελθ'}), frozenset({'εἰσηλθ', 'εἰσηλθ{2nd}'}), frozenset({'εἰσηλθ{2nd}'})}  # @0
+    stems:
 
 εἰσθρῴσκω:
     stems:
         3+: ἐσθορ
+
+εἰσίζομαι:
+    stems:
+        1-: ἐσιζ
 
 εἰσκαταβαίνω:
     stems:
@@ -2907,6 +3524,7 @@
     stems:
         # 1-: {frozenset({'ἐϊσκο{athematic}', 'ἐϊσκ'}), frozenset({'εἰσκ0', 'εἰσκ'}), frozenset({'ἐϊσκ'}), frozenset({'εἰσκ'}), frozenset({'εἰσκο{athematic}', 'εἰσκ'})}  # @0
         # 1+: {frozenset({'ἠισκ'}), frozenset({'ἠϊσκ', 'ἠϊσκο{athematic}'}), frozenset({'εἰσκο{athematic}', 'εἰσκ'})}  # @0
+    stems:
 
 εἰσμαίομαι:
     stems:
@@ -2922,6 +3540,7 @@
         2-: ἐσοψ
         3-: ἐσιδ{2nd}
         # 3+: {frozenset({'εἰσειδ', 'εἰσειδ{2nd}'}), frozenset({'εἰσιδ{2nd}'}), frozenset({'εἰσιδ{2nd}', 'εἰσιδ'})}  # @0
+    stems:
 
 εἰσπέτομαι:
     stems:
@@ -2930,6 +3549,7 @@
 εἰσφέρω:
     stems:
         1+: ἐσφερ
+    stems:
 
 εἰσφορέω:
     stems:
@@ -2939,6 +3559,7 @@
     stems:
         1-: ἐκβαιν
         # 3-: {frozenset({'ἐκβα{root}', 'ἐκβα{athematic}'}), frozenset({'ἐκβα{root}'}), frozenset({'ἐκβησ'})}  # @0
+    stems:
 
 ἐκβάλλω:
     stems:
@@ -2953,10 +3574,17 @@
     stems:
         3+: ἐξεγεν{2nd}
         # 4-: {frozenset({'ἐκγεγαα{athematic}'}), frozenset({'ἐκγεγα'})}  # @0
+    stems:
+
+ἐκδέρκομαι:
+    stems:
 
 ἐκδέρω:
     stems:
         3-: ἐκδειρ
+
+ἐκδέχομαι:
+    stems:
 
 ἐκδέω:
     stems:
@@ -2975,6 +3603,7 @@
     stems:
         3-: ἐκδυ{root}
         3+: ἐκδυν
+    stems:
 
 ἐκθνήσκω:
     stems:
@@ -2984,6 +3613,7 @@
     stems:
         1-: ἐκθρῳσκ
         # 3+: {frozenset({'ἐκθορ{2nd}', 'ἐκθορ'}), frozenset({'ἐξεθορ', 'ἐξεθορ{2nd}'})}  # @0
+    stems:
 
 ἐκκαθαίρω:
     stems:
@@ -2991,11 +3621,16 @@
 
 ἐκκαλέω:
     stems:
+        1+: ἐξεκαλε
         3-: ἐκκαλεσ
 
 ἐκκατεῖδον:
     stems:
         3-: ἐκκατιδ{2nd}
+
+ἐκκλέπτω:
+    stems:
+        3+: ἐξεκλεψ
 
 ἐκκλύω:
     stems:
@@ -3009,11 +3644,16 @@
     stems:
         3-: ἐκλελαθ{2nd}
         3+: ἐκλελαθ{2nd}
+    stems:
 
 ἐκλύω:
     stems:
         2-: ἐκλυσ
         6+: ἐξελυθ
+
+ἐκμολεῖν:
+    stems:
+        3+: ἐκμολ
 
 ἐκμυζάω:
     stems:
@@ -3026,6 +3666,9 @@
 ἐκπαιφάσσω:
     stems:
         1-: ἐκπαιφασσ
+
+ἐκπατάσσω:
+    stems:
 
 ἐκπέμπω:
     stems:
@@ -3047,19 +3690,31 @@
 ἐκπίνω:
     stems:
         3+: ἐκπι{2nd}
+        5-: ἐκπεπο
 
 ἐκπίπτω:
     stems:
         1+: ἐκπιπτ
         3+: ἐκπεσ{2nd}
 
+ἐκποτάομαι:
+    stems:
+
 ἐκπρολείπω:
     stems:
         3-: ἐκπρολιπ{2nd}
 
+ἐκπτύω:
+    stems:
+        3+: ἐξεπτυσ
+
 ἐκρήγνυμι:
     stems:
         3+: ἐξερρηξ
+
+ἐκσεύομαι:
+    stems:
+        1+: ἐξεσσυ{athematic}
 
 ἐκσπάω:
     stems:
@@ -3089,11 +3744,13 @@
         2-: ἐκτελε
         3-: ἐκτελεσ
         3+: ἐξετελεσσ
+    stems:
 
 ἐκτέμνω:
     stems:
         1-: ἐκταμν
         # 3+: {frozenset({'ἐξεταμ{2nd}'}), frozenset({'ἐκτα{athematic}', 'ἐκτ'})}  # @0
+    stems:
 
 ἐκτίνω:
     stems:
@@ -3103,15 +3760,22 @@
     stems:
         2-: ἐκφαν{contract}
         # 6+: {frozenset({'ἐξεφαανθ'}), frozenset({'ἐξεφαν'})}  # @0
+    stems:
 
 ἐκφέρω:
     stems:
         1-: ἐκφερ
         # 1+: {frozenset({'ἐξεφερ'}), frozenset({'ἐκφερ'})}  # @0
+    stems:
 
 ἐκφεύγω:
     stems:
         # 3+: {frozenset({'ἐκφυγο{athematic}', 'ἐκφυγ{2nd}'}), frozenset({'ἐκφυγ', 'ἐκφυγ{2nd}'}), frozenset({'ἐξεφυγ{2nd}'})}  # @0
+    stems:
+
+ἐκφθίνω:
+    stems:
+        5+: ἐξεφθι
 
 ἐκφορέω:
     stems:
@@ -3136,11 +3800,17 @@
         # 1+: {frozenset({'ἐλαυν'}), frozenset({'ἐλαυν', 'ἐλαυνο{athematic}'}), frozenset({'ἐλα', 'ἐλο', 'ἐλη'})}  # @0
         # 3-: {frozenset({'ἐλασσ'}), frozenset({'ἐλασ'}), frozenset({'ἐλασσ{2nd}', 'ἐλασσ'}), frozenset({'ἐλασ', 'ἐλασα{root}'}), frozenset({'ἐλασ{2nd}', 'ἐλασ'}), frozenset({'ἐλασσα{root}', 'ἐλασσ'})}  # @0
         # 3+: {frozenset({'ἐλασσ'}), frozenset({'ἠλασ{2nd}', 'ἠλασ'}), frozenset({'ἐλασ'}), frozenset({'ἐλασσ{2nd}', 'ἐλασσ'}), frozenset({'ἠλασ'}), frozenset({'ἐλασ{2nd}', 'ἐλασ'})}  # @0
+        5-: ἐληλα
+    stems:
+
+ἔλδομαι:
+    stems:
 
 ἐλεαίρω:
     stems:
         1-: ἐλεαιρ
         # 1+: {frozenset({'ἐλεαιρ'}), frozenset({'ἐλεαιρεσκ'})}  # @0
+    stems:
 
 ἐλέγχω:
     stems:
@@ -3159,21 +3829,26 @@
         3+: ἐλελιξ
         6-: ἐλελιχθ
         6+: ἐλελιχθ
+    stems:
 
 ἐλεφαίρομαι:
     stems:
         3-: ἐλεφηρ
+    stems:
 
 ἑλίσσω:
     stems:
+        1-: ἑλισσ
         3-: ἑλιξ
         6-: ἑλιχθ
+    stems:
 
 ἑλκέω:
     stems:
         # 1+: {frozenset({'εἱλκε', 'εἱλκε{nocontract}'}), frozenset({'ἑλκε{athematic}', 'ἑλκε'})}  # @0
         3+: ἑλκησ
         6-: ἑλκηθ
+    stems:
 
 ἑλκυστάζω:
     stems:
@@ -3189,6 +3864,7 @@
         1-: ἐλπ
         4-: ἐολπ
         4+: ἐωλπ
+    stems:
 
 ἐλύω:
     stems:
@@ -3203,6 +3879,7 @@
         3-: ἐμβη
         # 4-: {frozenset({'ἐμβεβαα{athematic}'}), frozenset({'ἐμβεβα'})}  # @0
         4+: ἐμβεβα{athematic}
+    stems:
 
 ἐμβάλλω:
     stems:
@@ -3215,6 +3892,9 @@
     stems:
         1+: ἐμβασιλευ
 
+ἐμβρέμομαι:
+    stems:
+
 ἐμέω:
     stems:
         1-: ἐμε/ἐμε{nocontract}
@@ -3222,11 +3902,18 @@
 ἐμμεμαώς:
     stems:
         # 4-: {frozenset({'ἐμμεμαα{athematic}', 'ἐμμεμα'}), frozenset({'ἐμμεμαα{athematic}'}), frozenset({'ἐμμεμα'})}  # @0
+    stems:
+
+ἐμπάζομαι:
+    stems:
+        2-: ἐμπαξ
+    stems:
 
 ἐμπίμπρημι:
     stems:
         2-: ἐνιπρησ
         3-: ἐνιπρησ
+        3+: ἐνεπρησ
 
 ἐμπίπλημι:
     stems:
@@ -3234,6 +3921,7 @@
         # 3-: {frozenset({'ἐμπλησ', 'ἐμπλησα{root}'}), frozenset({'ἐνιπλησ', 'ἐνιπλησ{2nd}'}), frozenset({'ἐμπλησ'})}  # @0
         # 3+: {frozenset({'ἐνεπλησ', 'ἐνεπλα{root}', 'ἐνεπλε{root}'}), frozenset({'ἐμπλησ'})}  # @0
         6-: ἐνιπλησθ
+    stems:
 
 ἐμπίπτω:
     stems:
@@ -3246,6 +3934,8 @@
 
 ἐμπνέω:
     stems:
+        1-: ἐμπνει  # @@@
+        3-: ἐμπνευσ
         # 3+: {frozenset({'ἐνεπνευσ', 'ἐνεπνευσ{2nd}'}), frozenset({'ἐμπνευσ', 'ἐμπνευσ{2nd}'})}  # @0
         6+: ἐμπνυνθ
 
@@ -3258,9 +3948,15 @@
         1+: ἐνεπρηθ
         # 2-: {frozenset({'ἐνιπρησ'}), frozenset({'ἐμπρησ'})}  # @0
         3-: ἐνιπρησ
+        3+: ἐνεπρησ
+    stems:
+
+ἐμφορέω:
+    stems:
 
 ἐμφύω:
     stems:
+        3+: ἐνεφυσ
         4-: ἐμπεφυ
 
 ἐναίρω:
@@ -3297,6 +3993,7 @@
 ἐνδύω:
     stems:
         1+: ἐνδυν
+        3-: ἐνδυ{root}
         3+: ἐνδυν
 
 ἐνέζομαι:
@@ -3306,6 +4003,7 @@
 ἔνειμι:
     stems:
         # 1-: {frozenset({'ἐνει{athematic}'}), frozenset({'ἐνε{athematic}', 'ἐνεσ{athematic}'})}  # @0
+    stems:
 
 ἐνέπω:
     stems:
@@ -3314,6 +4012,7 @@
         # 2-: {frozenset({'ἐνιψ'}), frozenset({'ἐνισπησ'})}  # @0
         # 3-: {frozenset({'ἐνισπε{athematic}'}), frozenset({'ἐνισπι{2nd}', 'ἐνισπ{2nd}'}), frozenset({'ἐνισπ{2nd}'}), frozenset({'ἐνισπ{2nd}', 'ἐνισπ'})}  # @0
         3+: ἐνισπ{2nd}
+    stems:
 
 ἐνερείδω:
     stems:
@@ -3331,6 +4030,10 @@
     stems:
         3+: ἐνθορ
 
+ἐνθρῴσκω:
+    stems:
+        3+: ἐνθορ
+
 ἐνιαύω:
     stems:
         1+: ἐνιαυ
@@ -3345,6 +4048,7 @@
         2-: ἐνησ
         3-: ἐνε{athematic}
         # 3+: {frozenset({'ἐνηκ', 'ἐνηκα{athematic}'}), frozenset({'ἐνηκ', 'ἐνηκ{2nd}'}), frozenset({'ἐνεηκ', 'ἐνεηκ{2nd}'}), frozenset({'ἐνηκ'})}  # @0
+    stems:
 
 ἐνικλάω:
     stems:
@@ -3354,17 +4058,24 @@
     stems:
         1-: ἐνιπτ
         # 3+: {frozenset({'ἐνενιπ{2nd}', 'ἐνενιπ'}), frozenset({'ἠνιπαπ{2nd}', 'ἠνιπαπ'})}  # @0
+    stems:
 
 ἐνίσσω:
     stems:
         1-: ἐνισσ
 
+ἔννυμι:
+    stems:
+
 ἕννυμι:
     stems:
+        1-: ἑννυ{athematic}
+        1+: ἑννυ{athematic}
         2-: ἑσσ
         # 3-: {frozenset({'ἑσ'}), frozenset({'ἑσσ', 'ἑσσα{root}'}), frozenset({'ἑσσ', 'ἑσσα{athematic}'}), frozenset({'ἑσσ'})}  # @0
         # 3+: {frozenset({'ἑσ'}), frozenset({'ἑσσ{2nd}', 'ἑσσ'}), frozenset({'ἑεσσ'}), frozenset({'ἑσσ'})}  # @0
         5+: ἑσ/ἑσθ
+    stems:
 
 ἐνόρνυμι:
     stems:
@@ -3378,7 +4089,17 @@
 
 ἐνσκίμπτω:
     stems:
+        3-: ἐνισκιμψ
         6+: ἐνισκιμφθ
+
+ἐνστάζω:
+    stems:
+
+ἐνστηρίζω:
+    stems:
+
+ἐνστρέφω:
+    stems:
 
 ἐντανύω:
     stems:
@@ -3387,11 +4108,20 @@
         3-: ἐντανυσ
         3+: ἐντανυσ
 
+ἐντείνω:
+    stems:
+        5-: ἐντετα
+        5+: ἐντετα
+
 ἐντίθημι:
     stems:
         2-: ἐνθησ
         # 3-: {frozenset({'ἐνθεμεν'}), frozenset({'ἐνθε{athematic}'})}  # @0
         3+: ἐνθε{athematic}
+    stems:
+
+ἐντρέπω:
+    stems:
 
 ἐντρέχω:
     stems:
@@ -3401,10 +4131,15 @@
     stems:
         3-: ἐντυν
         3+: ἐντυν{2nd}
+    stems:
 
 ἐντύω:
     stems:
         1+: ἐντυ
+
+ἐξαγγέλλω:
+    stems:
+        3+: ἐξηγγειλ
 
 ἐξάγω:
     stems:
@@ -3412,10 +4147,17 @@
         1+: ἐξηγ
         3-: ἐξαγαγ{2nd}
         # 3+: {frozenset({'ἐξηγαγ{2nd}', 'ἐξηγαγ'}), frozenset({'ἐξαγαγ', 'ἐξαγαγ{2nd}'})}  # @0
+    stems:
+
+ἐξαίνυμαι:
+    stems:
+        1+: ἐξαινυ{athematic}
 
 ἐξαιρέω:
     stems:
+        1+: ἐξαιρευ{athematic}
         # 3+: {frozenset({'ἐξειλο{athematic}', 'ἐξειλ{2nd}'}), frozenset({'ἐξελ{2nd}', 'ἐξελο{athematic}'}), frozenset({'ἐξελ{2nd}'}), frozenset({'ἐξειλε{athematic}', 'ἐξειλ{2nd}'}), frozenset({'ἐξελ{2nd}', 'ἐξελε{athematic}'}), frozenset({'ἐξελ{2nd}', 'ἐξελ'})}  # @0
+    stems:
 
 ἐξαίρω:
     stems:
@@ -3424,6 +4166,7 @@
 ἐξακέομαι:
     stems:
         3-: ἐξακεσ
+    stems:
 
 ἐξαλαόω:
     stems:
@@ -3435,6 +4178,9 @@
         2-: ἐξαλαπαξ
         3-: ἐξαλαπαξ
         3+: ἐξαλαπαξ
+
+ἐξάλλομαι:
+    stems:
 
 ἐξαναβαίνω:
     stems:
@@ -3457,6 +4203,7 @@
     stems:
         2-: ἐξαπατησ
         3-: ἐξαπατησ
+        3+: ἐξαπατησ
 
 ἐξαπαφίσκω:
     stems:
@@ -3474,6 +4221,9 @@
 ἐξαπόλλυμι:
     stems:
         4-: ἐξαπολωλ
+
+ἐξαπονέομαι:
+    stems:
 
 ἐξαποτίνω:
     stems:
@@ -3506,9 +4256,14 @@
     stems:
         1-: ἐξαφυ
 
+ἐξεῖδον:
+    stems:
+        3+: ἐξιδ
+
 ἔξειμι:
     stems:
         # 1-: {frozenset({'ἐξι{athematic}'}), frozenset({'ἐξιε{athematic}'}), frozenset({'ἐξει{athematic}'})}  # @0
+    stems:
 
 ἐξεῖπον:
     stems:
@@ -3519,6 +4274,7 @@
         2-: ἐξελα
         3-: ἐξελασ
         # 3+: {frozenset({'ἐξηλασσ'}), frozenset({'ἐξηλασ{2nd}', 'ἐξηλασ'}), frozenset({'ἐξελασ', 'ἐξελασ{2nd}'})}  # @0
+    stems:
 
 ἐξέλκω:
     stems:
@@ -3548,16 +4304,23 @@
     stems:
         2-: ἐξερε
 
+ἐξέρομαι:
+    stems:
+        1-: ἐξερε
+    stems:
+
 ἐξερύω:
     stems:
         1-: ἐξερυ
         3-: ἐξερυσ
         # 3+: {frozenset({'ἐξερυσ{2nd}', 'ἐξερυσ'}), frozenset({'ἐξειρυσσ'}), frozenset({'ἐξειρυσ{2nd}', 'ἐξειρυσ'}), frozenset({'ἐξερυσ', 'ἐξερυ{root}'}), frozenset({'ἐξερυσασκ', 'ἐξερυσασκ{2nd}'})}  # @0
+    stems:
 
 ἐξέρχομαι:
     stems:
         # 3-: {frozenset({'ἐξελθ{2nd}', 'ἐξελθο{root}'}), frozenset({'ἐξελθι{2nd}', 'ἐξελθ{2nd}'}), frozenset({'ἐξελθεμεν'}), frozenset({'ἐξελθ{2nd}'}), frozenset({'ἐξελθο{athematic}', 'ἐξελθ{2nd}', 'ἐξελθο{root}'}), frozenset({'ἐξελθ', 'ἐξελθ{2nd}'})}  # @0
         3+: ἐξηλθ{2nd}
+    stems:
 
 ἐξερωέω:
     stems:
@@ -3566,6 +4329,9 @@
 ἐξευρίσκω:
     stems:
         3-: ἐξευρ{2nd}
+
+ἐξηγέομαι:
+    stems:
 
 ἐξίημι:
     stems:
@@ -3583,6 +4349,9 @@
     stems:
         1-: ἐξισχ
 
+ἐξοίχομαι:
+    stems:
+
 ἐξόλλυμι:
     stems:
         3-: ἐξολεσ
@@ -3595,11 +4364,19 @@
     stems:
         3-: ἐξορμησ
 
+ἐξοφέλλω:
+    stems:
+        3+: ἐξωφελλ
+
 ἔοικα:
     stems:
         1+: εἰκ
         # 4-: {frozenset({'εἰοικ'}), frozenset({'ἐοικ'}), frozenset({'ἐοικ', 'ἐοικα{athematic}'}), frozenset({'ἐοικ{athematic}', 'ἐοικ'})}  # @0
         # 4+: {frozenset({'ἐοικ', 'ἐοικεδ{athematic}'}), frozenset({'ἐῳκ'})}  # @0
+    stems:
+
+ἐπαγάλλομαι:
+    stems:
 
 ἐπαγείρω:
     stems:
@@ -3639,6 +4416,7 @@
         1+: ἐπηϊσσ
         # 3-: {frozenset({'ἐπαιξ'}), frozenset({'ἐπαϊξ'})}  # @0
         # 3+: {frozenset({'ἐπηϊξ'}), frozenset({'ἐπαϊξασκ{2nd}', 'ἐπαϊξασκ'}), frozenset({'ἐπηιξ'})}  # @0
+    stems:
 
 ἐπαιτέω:
     stems:
@@ -3665,6 +4443,11 @@
 ἐπαμάω:
     stems:
         3+: ἐπαμησ
+
+ἐπαμείβω:
+    stems:
+        3-: ἐπαμειψ
+    stems:
 
 ἐπαμύνω:
     stems:
@@ -3705,11 +4488,18 @@
     stems:
         3-: ἐπαρξ
 
+ἐπασκέω:
+    stems:
+
 ἐπαυρέω:
     stems:
         1-: ἐπαυρε
         2-: ἐπαυρησ
         3-: ἐπαυρ{2nd}
+
+ἐπαφύσσω:
+    stems:
+        3+: ἐπηφυσ
 
 ἐπεγείρω:
     stems:
@@ -3731,10 +4521,15 @@
         # 1-: {frozenset({'ἐπεσ{athematic}', 'ἐπε{athematic}'}), frozenset({'ἐπιο{athematic}'}), frozenset({'ἐπει{athematic}'})}  # @0
         # 1+: {frozenset({'ἐπε{athematic}'}), frozenset({'ἐπῃ{athematic}'})}  # @0
         # 2-: {frozenset({'ἐπεσσε{athematic}', 'ἐπεσσ'}), frozenset({'ἐπιεισ'})}  # @0
+    stems:
 
 ἐπελαύνω:
     stems:
         3+: ἐπελασσ
+        5+: ἐπεληλα
+
+ἐπέλπομαι:
+    stems:
 
 ἐπεμβαίνω:
     stems:
@@ -3767,10 +4562,12 @@
 
 ἐπέρχομαι:
     stems:
+        1-: ἐπερχ
         2-: ἐπελευσ
         3-: ἐπελθ{2nd}
         # 3+: {frozenset({'ἐπηλυθ{2nd}'}), frozenset({'ἐπηλυθ', 'ἐπηλυθ{2nd}'}), frozenset({'ἐπηλθ{2nd}', 'ἐπηλθ'}), frozenset({'ἐπηλθ{2nd}'})}  # @0
         4-: ἐπεληλυθ
+    stems:
 
 ἐπευφημέω:
     stems:
@@ -3778,8 +4575,10 @@
 
 ἐπεύχομαι:
     stems:
+        1-: ἐπευχ
         3-: ἐπευξ
         3+: ἐπευξ
+    stems:
 
 ἐπέχω:
     stems:
@@ -3787,10 +4586,15 @@
         1+: ἐπειχ
         # 3-: {frozenset({'ἐπισχο{athematic}', 'ἐπισχο{root}'}), frozenset({'ἐπισχ{2nd}'})}  # @0
         3+: ἐπεσχ{2nd}
+    stems:
 
 ἐπηπύω:
     stems:
         1+: ἐπηπυ
+
+ἐπιάλλω:
+    stems:
+        3+: ἐπιηλ
 
 ἐπιάχω:
     stems:
@@ -3798,14 +4602,22 @@
 
 ἐπιβαίνω:
     stems:
+        1-: ἐπιβαιν
         1+: ἐπεβαιν
         2-: ἐπιβησ
+        # 3-: ἐπιβα{root}
         # 3-: {frozenset({'ἐπιβημεν'}), frozenset({'ἐπιβα{root}', 'ἐπιβην'}), frozenset({'ἐπιβα{root}'}), frozenset({'ἐπιβησ'}), frozenset({'ἐπιβα{root}', 'ἐπιβα{athematic}'})}  # @0
         # 3+: {frozenset({'ἐπεβησε{athematic}', 'ἐπεβησ{2nd}'}), frozenset({'ἐπεβησ', 'ἐπεβησ{2nd}'}), frozenset({'ἐπεβησ', 'ἐπεβα{root}', 'ἐπεβε{root}'}), frozenset({'ἐπεβα{root}'}), frozenset({'ἐπεβα{root}', 'ἐπεβη{athematic}'}), frozenset({'ἐπεβ'})}  # @0
+    stems:
 
 ἐπιβάλλω:
     stems:
         1+: ἐπεβαλλ
+    stems:
+
+ἐπιβάσκω:
+    stems:
+        1-: ἐπιβασκ
 
 ἐπιβρέμω:
     stems:
@@ -3816,6 +4628,9 @@
         3-: ἐπιβρισ
         3+: ἐπεβρισ
 
+ἐπιγίγνομαι:
+    stems:
+
 ἐπιγιγνώσκω:
     stems:
         3-: ἐπιγνω
@@ -3824,15 +4639,21 @@
     stems:
         1-: ἐπιγναμπτ
         3-: ἐπιγναμψ
+        3+: ἐπεγναμψ
 
 ἐπιγράφω:
     stems:
         3-: ἐπιγραψ
         3+: ἐπεγραψ
 
+ἐπιδεύομαι:
+    stems:
+        1-: ἐπιδευ
+
 ἐπιδέω:
     stems:
         3+: ἐπεδησ
+    stems:
 
 ἐπιδημεύω:
     stems:
@@ -3846,11 +4667,14 @@
 ἐπιδινέω:
     stems:
         3-: ἐπιδινησ
+        6-: ἐπιδινηθ
+    stems:
 
 ἐπιέννυμι:
     stems:
         2-: ἐφεσσ
         3-: ἐφεσσ
+        5-: ἐπιει
 
 ἐπιθαρσύνω:
     stems:
@@ -3873,6 +4697,10 @@
         1-: ἐπιθυ
         3-: ἐπιθυσ
 
+ἐπίκειμαι:
+    stems:
+        1+: ἐπεκει{athematic}
+
 ἐπικείρω:
     stems:
         3+: ἐπεκερσ
@@ -3880,6 +4708,7 @@
 ἐπικέλλω:
     stems:
         3-: ἐπικελσ
+        3+: ἐπεκελσ
 
 ἐπικεράννυμι:
     stems:
@@ -3895,9 +4724,18 @@
         2-: ἐπικευσ
         3-: ἐπικευσ
 
+ἐπικίδνημι:
+    stems:
+        1-: ἐπικιδνα{athematic}
+
+ἐπικλίνω:
+    stems:
+        5-: ἐπικεκλι
+
 ἐπικλύω:
     stems:
         1+: ἐπεκλυ
+        3+: ἐπεκλυ
 
 ἐπικλώθω:
     stems:
@@ -3916,6 +4754,11 @@
     stems:
         1+: ἐπεκραιαιν
         # 3-: {frozenset({'ἐπικρην'}), frozenset({'ἐπικρηην'})}  # @0
+    stems:
+
+ἐπικρατέω:
+    stems:
+        1-: ἐπικρατε
 
 ἐπιλάμπω:
     stems:
@@ -3932,6 +4775,8 @@
 ἐπιλήθω:
     stems:
         2-: ἐπιλησ
+        3+: ἐπελησ
+    stems:
 
 ἐπιληκέω:
     stems:
@@ -3948,14 +4793,25 @@
 ἐπιμαίομαι:
     stems:
         3-: ἐπιμασσ
+    stems:
+
+ἐπιμάσσομαι:
+    stems:
 
 ἐπιμειδάω:
     stems:
         3-: ἐπιμειδησ
 
+ἐπιμέμφομαι:
+    stems:
+        1-: ἐπιμεμφ
+
 ἐπιμένω:
     stems:
         3-: ἐπιμειν
+
+ἐπιμήδομαι:
+    stems:
 
 ἐπιμηνίω:
     stems:
@@ -3968,6 +4824,10 @@
 ἐπιμίμνω:
     stems:
         1-: ἐπιμιμν
+
+ἐπιμίσγω:
+    stems:
+        1-: ἐπιμισγ
 
 ἐπιμύζω:
     stems:
@@ -3996,12 +4856,21 @@
 
 ἐπιπείθομαι:
     stems:
+        1-: ἐπιπειθ
         2-: ἐπιπεισ
+    stems:
+
+ἐπιπέλομαι:
+    stems:
 
 ἐπιπέτομαι:
     stems:
         3-: ἐπιπτ{2nd}
         3+: ἐπεπτ
+
+ἐπιπίλναμαι:
+    stems:
+        1-: ἐπιπιλνα{athematic}
 
 ἐπιπλάζομαι:
     stems:
@@ -4013,6 +4882,7 @@
         1+: ἐπεπλε/ἐπεπλε{nocontract}
         3-: ἐπιπλωσ
         3+: ἐπεπλω{root}
+    stems:
 
 ἐπιπλήσσω:
     stems:
@@ -4039,6 +4909,11 @@
     stems:
         3+: ἐπεπταρ{2nd}
 
+ἐπιπωλέομαι:
+    stems:
+        1+: ἐπεπωλε
+    stems:
+
 ἐπιρράσσω:
     stems:
         1+: ἐπιρρησσεσκ
@@ -4063,6 +4938,7 @@
 ἐπιρρώομαι:
     stems:
         3+: ἐπερρωσ
+    stems:
 
 ἐπισείω:
     stems:
@@ -4072,14 +4948,29 @@
     stems:
         1-: ἐπισσευ
         3-: ἐπισσευ
+        3+: ἐπεσσευ
+    stems:
+
+ἐπισκύζομαι:
+    stems:
+        3-: ἐπισκυσσ
+    stems:
 
 ἐπισπέρχω:
     stems:
         1-: ἐπισπερχ
 
+ἐπισσεύω:
+    stems:
+
 ἐπίσταμαι:
     stems:
+        1+: ἐπιστα{athematic}
         2-: ἐπιστησ
+    stems:
+
+ἐπιστενάχω:
+    stems:
 
 ἐπιστέφω:
     stems:
@@ -4104,6 +4995,9 @@
         3-: ἐπιτειλ
         3+: ἐπετειλ
 
+ἐπιτέρπομαι:
+    stems:
+
 ἐπιτίθημι:
     stems:
         2-: ἐπιθησ
@@ -4120,11 +5014,16 @@
         1-: ἐπιτολμα
         3+: ἐπετολμησ
 
+ἐπιτοξάζομαι:
+    stems:
+
 ἐπιτρέπω:
     stems:
         1+: ἐπετρεπ
         3-: ἐπιτρεψ
         # 3+: {frozenset({'ἐπετραπε{athematic}', 'ἐπετραπ{2nd}'}), frozenset({'ἐπετρεψ'}), frozenset({'ἐπετραπ{2nd}', 'ἐπετραπο{athematic}'})}  # @0
+        5-: ἐπιτετραπ
+    stems:
 
 ἐπιτρέχω:
     stems:
@@ -4174,12 +5073,18 @@
     stems:
         1-: ἐπιψαυ
 
+ἐποίχομαι:
+    stems:
+        1-: ἐποιχ
+    stems:
+
 ἕπομαι:
     stems:
         1-: ἑπ
         2-: ἑψ
         # 3-: {frozenset({'ἑσπ{2nd}', 'ἑσπο{athematic}'}), frozenset({'σπε{athematic}', 'σπ{2nd}'}), frozenset({'ἑσπ', 'ἑσπ{2nd}'})}  # @0
         3+: ἑσπ{2nd}
+    stems:
 
 ἐπόμνυμι:
     stems:
@@ -4228,20 +5133,37 @@
 ἔραμαι:
     stems:
         # 3+: {frozenset({'ἠρασ'}), frozenset({'ἠρασσ'})}  # @0
+    stems:
+        1-: ἐρα{athematic}
+    stems:
 
 ἐρατίζω:
     stems:
         1-: ἐρατιζ
 
+ἐράω:
+    stems:
+        1+: ἐραα{athematic}
+
+ἐργάζομαι:
+    stems:
+        1-: ἐργαζ
+    stems:
+
+ἐργαθεῖν:
+    stems:
+
 ἔργνυμι:
     stems:
         1+: ἐεργνυ{athematic}
+    stems:
 
 ἔργω:
     stems:
         # 1-: {frozenset({'ἐεργ'}), frozenset({'εἰργ'}), frozenset({'ἐεργ0', 'ἐεργ'})}  # @0
         1+: ἐεργ
         3+: ἐρξ
+    stems:
 
 ἔρδω:
     stems:
@@ -4252,6 +5174,7 @@
         # 3+: {frozenset({'ἐρξ', 'ἐρξ{2nd}'}), frozenset({'ἐοργ', 'ἐοργ{2nd}'})}  # @0
         4-: ἐοργ
         4+: ἐωργ
+    stems:
 
 ἐρεείνω:
     stems:
@@ -4275,6 +5198,10 @@
         3+: ἐρεισ
         6-: ἐρεισθ
         6+: ἐρεισθ
+    stems:
+
+ἐρέικω:
+    stems:
 
 ἐρείπω:
     stems:
@@ -4282,6 +5209,11 @@
         1+: ἐρειπ
         3-: ἐριπ{2nd}
         3+: ἠριπ{2nd}
+        5+: ἐρεριπ
+
+ἐρέπτομαι:
+    stems:
+        1-: ἐρεπτ
 
 ἐρέσσω:
     stems:
@@ -4290,7 +5222,10 @@
 
 ἐρεύγομαι:
     stems:
+        1-: ἐρευγ
         3-: ἐρυγ{2nd}
+        3+: ἠρυγ
+    stems:
 
 ἐρεύθω:
     stems:
@@ -4320,6 +5255,7 @@
         1+: ἐρητυ
         3-: ἐρητυσ
         # 3+: ἐρητυσασκ  # @@@
+    stems:
 
 ἐριδαίνω:
     stems:
@@ -4332,11 +5268,13 @@
         1+: ἐριζεσκ
         # 3-: {frozenset({'ἐρισ'}), frozenset({'ἐρισσ'})}  # @0
         4-: ἠρικ
+    stems:
 
 ἔρομαι:
     stems:
         2-: εἰρησ
         3-: ἐρ{2nd}
+    stems:
 
 ἑρπύζω:
     stems:
@@ -4351,6 +5289,9 @@
     stems:
         1-: ἐρρ
 
+ἐρυθαίνομαι:
+    stems:
+
 ἐρυκανάω:
     stems:
         1+: ἐρυκαν
@@ -4362,6 +5303,7 @@
         2-: ἐρυξ
         # 3-: {frozenset({'ἐρυκακ{2nd}'}), frozenset({'ἐρυξ'}), frozenset({'ἐρυκακε{athematic}', 'ἐρυκακ{2nd}'})}  # @0
         # 3+: {frozenset({'ἐρυξ', 'ἐρυξ{2nd}'}), frozenset({'ἠρυκακ{2nd}', 'ἠρυκακ'}), frozenset({'ἐρυξ'}), frozenset({'ἐρυκακ{2nd}', 'ἐρυκακ'})}  # @0
+    stems:
 
 ἐρύομαι:
     stems:
@@ -4374,19 +5316,27 @@
         # 2-: {frozenset({'ἐρυ'}), frozenset({'ἐρυσσ'}), frozenset({'ἐρυσσε{athematic}', 'ἐρυσσ'}), frozenset({'εἰρυσσ'})}  # @0
         # 3-: {frozenset({'ἐρυσσ', 'ἐρυσσα{athematic}'}), frozenset({'εἰρυσσ'}), frozenset({'ἐρυσσ{2nd}', 'ἐρυσσ'}), frozenset({'ἐρυσσ'}), frozenset({'εἰρυσσα{athematic}', 'εἰρυσσ'}), frozenset({'ἐρυσσ', 'ἐρυσσα{root}'}), frozenset({'ἐρυσ'}), frozenset({'ἐρυσ{2nd}', 'ἐρυσ'}), frozenset({'ἐρυσ', 'ἐρυσα{root}'})}  # @0
         # 3+: {frozenset({'ἐρυσσ', 'ἐρυσσα{athematic}'}), frozenset({'ἐρυ{root}', 'ἐρυσ'}), frozenset({'εἰρυσσ'}), frozenset({'ἐρυσσ'}), frozenset({'εἰρυσ'}), frozenset({'εἰρυσσ{2nd}', 'εἰρυσσ'}), frozenset({'εἰρυσ', 'εἰρυ{root}'}), frozenset({'ἐρυσ'}), frozenset({'εἰρυσ', 'εἰρυσ{2nd}'})}  # @0
+        5-: εἰρυ
+        5+: εἰρυ
+    stems:
 
 ἔρχομαι:
     stems:
+        1-: ἐρχ
         2-: ἐλευσ
         # 3-: {frozenset({'ἐλθο{root}', 'ἐλθο{athematic}', 'ἐλθ{2nd}'}), frozenset({'ἐλθ{2nd}'}), frozenset({'ἐλθο{root}', 'ἐλθ{2nd}'}), frozenset({'ἐλθεμεν'}), frozenset({'ἐλθ{2nd}{enclitic}'}), frozenset({'ἐλθ', 'ἐλθ{2nd}'}), frozenset({'ἐλθ{2nd}', 'ἐλθι{2nd}'})}  # @0
         # 3+: {frozenset({'ἠλθ', 'ἠλθ{2nd}'}), frozenset({'ἠλυθ{2nd}'}), frozenset({'ἠλυθ', 'ἠλυθ{2nd}'}), frozenset({'ἠλθ{2nd}'}), frozenset({'ἠλθ{2nd}', 'ἠλθο{athematic}'}), frozenset({'ἠλθε{athematic}', 'ἠλθ{2nd}'})}  # @0
         # 4-: {frozenset({'εἰληλουθ'}), frozenset({'εἰληλουθ{athematic}', 'εἰληλουθ'}), frozenset({'ἐληλουθα{athematic}', 'ἐληλουθ'}), frozenset({'εἰληλουθα{athematic}', 'εἰληλουθ'})}  # @0
         4+: εἰληλουθ
+    stems:
 
 ἐρῶ:
     stems:
         # 2-: {frozenset({'ἐρε'}), frozenset({'εἰρησε{athematic}', 'εἰρησ'})}  # @0
+        5-: εἰρη
+        5+: εἰρη
         6-: ῥηθ
+    stems:
 
 ἐρωέω:
     stems:
@@ -4404,6 +5354,7 @@
     stems:
         1+: εἰσειδ
         # 3+: {frozenset({'ἐσιδ', 'ἐσιδ{2nd}'}), frozenset({'εἰσειδ{2nd}'})}  # @0
+    stems:
 
 ἐσθίω:
     stems:
@@ -4422,6 +5373,7 @@
 ἑταιρίζω:
     stems:
         # 3-: {frozenset({'ἑταιρισσ'}), frozenset({'ἑταρισσ'})}  # @0
+    stems:
 
 ἑτοιμάζω:
     stems:
@@ -4435,7 +5387,9 @@
 
 εὐνάζω:
     stems:
+        1+: εὐναζ
         2-: εὐνασ
+    stems:
 
 εὐνάω:
     stems:
@@ -4447,6 +5401,7 @@
         1-: εὑρισκ
         # 3-: {frozenset({'εὑρεμεν'}), frozenset({'εὑρ{2nd}'}), frozenset({'εὑρ{2nd}', 'εὑρο{athematic}'}), frozenset({'εὑρ{2nd}', 'εὑρι{2nd}'}), frozenset({'εὑρ{2nd}', 'εὑρ'})}  # @0
         3+: εὑρ{2nd}
+    stems:
 
 εὐρύνω:
     stems:
@@ -4461,9 +5416,15 @@
         1-: ἐϋφραιν
         # 2-: {frozenset({'εὐφρανε'}), frozenset({'ἐϋφρανε'})}  # @0
         # 3-: {frozenset({'ἐϋφρην{2nd}', 'ἐϋφρην'}), frozenset({'εὐφρην', 'εὐφρα{root}'})}  # @0
+    stems:
+
+εὐχετάομαι:
+    stems:
 
 εὔχομαι:
     stems:
+        1-: εὐχ
+        1+: εὐχ
         3-: εὐξ
         3+: εὐξ
 
@@ -4475,15 +5436,30 @@
 ἐφάλλομαι:
     stems:
         # 3-: {frozenset({'ἐπαλ{athematic}'}), frozenset({'ἐπιαλ{root}', 'ἐπιαλ{athematic}'})}  # @0
+    stems:
 
 ἐφανδάνω:
     stems:
         1-: ἐπιανδαν
         # 1+: {frozenset({'ἐπιηνδαν'}), frozenset({'ἐφηνδαν'})}  # @0
+    stems:
+
+ἐφάπτω:
+    stems:
+        5-: ἐφηπ
+        5+: ἐφηπ
 
 ἐφαρμόζω:
     stems:
         3-: ἐφαρμοσσ
+
+ἐφέζομαι:
+    stems:
+        1-: ἐφεζ
+    stems:
+
+ἐφέλκω:
+    stems:
 
 ἐφέπω:
     stems:
@@ -4492,11 +5468,16 @@
         2-: ἐφεψ
         3-: ἐπισπ{2nd}
         3+: ἐπεσπ{2nd}
+    stems:
 
 ἐφευρίσκω:
     stems:
         3-: ἐφευρ{2nd}
         3+: ἐφευρ{2nd}
+
+ἔφημαι:
+    stems:
+        1-: ἐφη{athematic}
 
 ἐφιζάνω:
     stems:
@@ -4507,6 +5488,7 @@
         # 1+: {frozenset({'ἐφιζ'}), frozenset({'ἐφιζεσκ'})}  # @0
         # 3-: {frozenset({'ἐπιεισ', 'ἐπιεισα{root}'}), frozenset({'ἐφεσσ'}), frozenset({'ἐφεσσα{root}', 'ἐφεσσ'})}  # @0
         3+: ἐπιεσσ
+    stems:
 
 ἐφίημι:
     stems:
@@ -4515,6 +5497,7 @@
         2-: ἐφησ
         # 3-: {frozenset({'ἐφει', 'ἐφει{2nd}'}), frozenset({'ἐφε{athematic}'})}  # @0
         # 3+: {frozenset({'ἐφεηκ'}), frozenset({'ἐφεηκ', 'ἐφεηκ{2nd}'}), frozenset({'ἐφηκ{2nd}', 'ἐφηκ'}), frozenset({'ἐφηκ'})}  # @0
+    stems:
 
 ἐφικνέομαι:
     stems:
@@ -4522,9 +5505,11 @@
 
 ἐφίστημι:
     stems:
+        1+: ἐφιστα{athematic}
         3-: ἐπιστα{athematic}
         4-: ἐφεστα
         # 4+: {frozenset({'ἐφεσταδ{athematic}', 'ἐφεστα{athematic}'}), frozenset({'ἐφεστηκ'})}  # @0
+    stems:
 
 ἐφομαρτέω:
     stems:
@@ -4534,15 +5519,18 @@
     stems:
         1-: ἐφοπλιζ
         # 3-: {frozenset({'ἐφοπλισσ{2nd}', 'ἐφοπλισσ'}), frozenset({'ἐφοπλισσ'}), frozenset({'ἐφοπλισ'})}  # @0
+    stems:
 
 ἐφοράω:
     stems:
         1-: ἐφορα
         1+: ἐφορε
         # 2-: {frozenset({'ἐπιοψ'}), frozenset({'ἐποψ'})}  # @0
+    stems:
 
 ἐφορμάω:
     stems:
+        1-: ἐφορμα
         3-: ἐφορμησ
         3+: ἐφωρμησ
         6-: ἐφορμηθ
@@ -4554,6 +5542,7 @@
 
 ἐχθαίρω:
     stems:
+        1-: ἐχθαιρ
         1+: ἐχθαιρ
         3-: ἐχθηρ
         # 3+: {frozenset({'ἐχθηρ{2nd}', 'ἐχθηρ'}), frozenset({'ἠχθηρ', 'ἠχθηρ{2nd}'})}  # @0
@@ -4562,6 +5551,9 @@
     stems:
         3-: ἐχθοδοπησ
 
+ἔχθω:
+    stems:
+
 ἔχω:
     stems:
         # 1-: {frozenset({'ἐχ', 'ἐχε{athematic}'}), frozenset({'ἐ', 'ἐ{nocontract}', 'ἐ0'}), frozenset({'ἐχ'}), frozenset({'ἐχ', 'ἐχο{athematic}'}), frozenset({'ἐχ', 'ἐχε', 'ἐχ0', 'ἐχο'}), frozenset({'ἐχ', 'ἐχ0'})}  # @0
@@ -4569,6 +5561,11 @@
         # 2-: {frozenset({'σχησ'}), frozenset({'ἑξ', 'ἑξε{athematic}'}), frozenset({'ἑξ'})}  # @0
         # 3-: {frozenset({'σχε{athematic}', 'σχ{2nd}'}), frozenset({'σχ{2nd}'}), frozenset({'σχε{athematic}'}), frozenset({'σχ{2nd}', 'σχι{2nd}'}), frozenset({'σχο{athematic}', 'σχ{2nd}'}), frozenset({'σχεθ{2nd}', 'σχεθε{athematic}'}), frozenset({'σχο{athematic}', 'σχα{root}', 'σχω{root}', 'σχε{athematic}'})}  # @0
         # 3+: {frozenset({'ἐσχο{athematic}', 'ἐσχ{2nd}'}), frozenset({'σχεθ{2nd}'}), frozenset({'ἐσχ', 'ἐσχ{2nd}'}), frozenset({'σχεθ{2nd}', 'σχεθ'}), frozenset({'ἐσχεθ{2nd}'}), frozenset({'ἐσχ{2nd}'}), frozenset({'ἐσχε{athematic}', 'ἐσχ{2nd}'}), frozenset({'ἐσχεθ', 'ἐσχεθ{2nd}'})}  # @0
+    stems:
+
+ἑψιάομαι:
+    stems:
+        1-: ἑψιαα{athematic}
 
 ἕωμεν:
     stems:
@@ -4577,17 +5574,20 @@
 ζάω:
     stems:
         # 1-: {frozenset({'ζω0', 'ζω'}), frozenset({'ζη', 'ζα'})}  # @0
+    stems:
 
 ζεύγνυμι:
     stems:
         # 1+: {frozenset({'ζευγνυ{athematic}'}), frozenset({'ζευγνυ'})}  # @0
         3-: ζευξ
         # 3+: {frozenset({'ἐζευξ'}), frozenset({'ζευξ'})}  # @0
+    stems:
 
 ζέω:
     stems:
         1-: ζε
         1+: ζε
+        3+: ζεσσ
 
 ζητέω:
     stems:
@@ -4604,8 +5604,10 @@
 
 ζώννυμι:
     stems:
+        1-: ζωννυ{athematic}
         3-: ζωσ
         3+: ζωσ
+    stems:
 
 ζώω:
     stems:
@@ -4616,6 +5618,7 @@
     stems:
         # 1-: {frozenset({'ἡβο', 'ἡβη', 'ἡβα', 'ἡβε'}), frozenset({'ἡβω', 'ἡβω0'}), frozenset({'ἡβω'})}  # @0
         3-: ἡβησ
+    stems:
 
 ἡγεμονεύω:
     stems:
@@ -4625,9 +5628,16 @@
 
 ἡγέομαι:
     stems:
+        1+: ἡγε
         2-: ἡγησ
         3-: ἡγησ
         3+: ἡγησ
+    stems:
+
+ἠγερέθομαι:
+    stems:
+        1-: ἠγερεθ
+    stems:
 
 ἡγηλάζω:
     stems:
@@ -4636,6 +5646,9 @@
 ἥδομαι:
     stems:
         3+: ἡσ
+
+ἠερέθομαι:
+    stems:
 
 ἥκω:
     stems:
@@ -4652,6 +5665,7 @@
 ἧμαι:
     stems:
         # 5+: {frozenset({'ἡ'}), frozenset({'ἡθ', 'ἡσ'})}  # @0
+    stems:
 
 ἠμύω:
     stems:
@@ -4675,6 +5689,7 @@
 
 θαάσσω:
     stems:
+        1-: θαασσ
         1+: θαασσ
 
 θαλέθω:
@@ -4685,6 +5700,7 @@
     stems:
         # 4-: {frozenset({'τεθηλα{athematic}', 'τεθηλ'}), frozenset({'τεθαλ'})}  # @0
         4+: τεθηλ
+    stems:
 
 θαλπιάω:
     stems:
@@ -4709,6 +5725,7 @@
         1-: θαπτ
         1+: θαπτ
         3+: θαψ
+        5+: ἐτεθαπ
 
 θαρσέω:
     stems:
@@ -4723,12 +5740,14 @@
         # 1+: {frozenset({'θαρσυνεσκ'}), frozenset({'θαρσυν'})}  # @0
         3-: θαρσυν
         3+: θαρσυν
+    stems:
 
 θαυμάζω:
     stems:
         1-: θαυμαζ
         # 1+: {frozenset({'θαυμαζο{athematic}', 'θαυμαζ'}), frozenset({'θαυμαζ'}), frozenset({'θαυμαζεσκ'})}  # @0
         2-: θαυμασσ
+    stems:
 
 θαυμαίνω:
     stems:
@@ -4737,21 +5756,29 @@
 θάω:
     stems:
         3+: θησ
+    stems:
 
 θεάομαι:
     stems:
+        1+: θηε
+        3-: θηησ
         3+: θηησ
+    stems:
 
 θεειόω:
     stems:
         3-: θεειωσ
+    stems:
 
 θείνω:
     stems:
         1-: θειν
         1+: ἐθειν
+        3-: πεφν{2nd}
         # 3-: {frozenset({'θειν'}), frozenset({'πεφνο{root}', 'πεφν{2nd}', 'πεφνο{athematic}'}), frozenset({'πεφν{2nd}', 'πεφν'})}  # @0
         # 3+: {frozenset({'ἐπεφν', 'ἐπεφν{2nd}'}), frozenset({'πεφν{2nd}'}), frozenset({'ἐπεφνε{athematic}', 'ἐπεφν{2nd}'}), frozenset({'θειν', 'θειν{2nd}'}), frozenset({'πεφν{2nd}', 'πεφν'}), frozenset({'ἐπεφνο{athematic}', 'ἐπεφν{2nd}'}), frozenset({'ἐπεφν{2nd}'})}  # @0
+        5-: πεφα
+    stems:
 
 θέλγω:
     stems:
@@ -4761,6 +5788,7 @@
         3-: θελξ
         3+: ἐθελξ
         6+: ἐθελχθ
+    stems:
 
 θεμιστεύω:
     stems:
@@ -4780,14 +5808,17 @@
 
 θερμαίνω:
     stems:
+        1-: θερμαιν
         3-: θερμην
 
 θέρμω:
     stems:
         1-: θερμ
+    stems:
 
 θέρω:
     stems:
+        1-: θερ
         2-: θερσ
 
 θέω:
@@ -4795,6 +5826,7 @@
         # 1-: {frozenset({'θε{nocontract}', 'θεο{athematic}', 'θε'}), frozenset({'θει'}), frozenset({'θε', 'θε0'}), frozenset({'θε{nocontract}', 'θεε', 'θεο', 'θε', 'θε0', 'θεου{athematic}', 'θεο{athematic}'}), frozenset({'θει{athematic}', 'θει'}), frozenset({'θε{nocontract}', 'θε', 'θε0'}), frozenset({'θε'})}  # @0
         # 1+: {frozenset({'θε'}), frozenset({'θεεσκ'}), frozenset({'ἐθε', 'ἐθε{athematic}'})}  # @0
         2-: θευσ
+    stems:
 
 θήγω:
     stems:
@@ -4807,6 +5839,7 @@
 
 θητεύω:
     stems:
+        1-: θητευ
         3+: θητευσ
 
 θλάω:
@@ -4825,6 +5858,7 @@
         3-: θαν{2nd}
         3+: θαν{2nd}
         # 4-: {frozenset({'τεθνηκ'}), frozenset({'τεθνηα{athematic}'}), frozenset({'τεθνα{athematic}'}), frozenset({'τεθνη'}), frozenset({'τεθνηα{athematic}', 'τεθνη'}), frozenset({'τεθνεα{athematic}'})}  # @0
+    stems:
 
 θοινάω:
     stems:
@@ -4837,6 +5871,11 @@
 θρηνέω:
     stems:
         # 1+: {frozenset({'ἐθρηνε', 'ἐθρηνε{nocontract}'}), frozenset({'θρηνε', 'θρηνε{nocontract}'})}  # @0
+    stems:
+
+θριγκόω:
+    stems:
+        3+: ἐθριγκωσ
 
 θρυλίσσω:
     stems:
@@ -4848,6 +5887,7 @@
         1+: θρῳσκ
         3-: θορ{2nd}
         # 3+: {frozenset({'ἐθορ', 'ἐθορ{2nd}'}), frozenset({'θορ{2nd}'}), frozenset({'θορ{2nd}', 'θορ'})}  # @0
+    stems:
 
 θυμηγερέων:
     stems:
@@ -4858,19 +5898,27 @@
         1-: θυν
         1+: θυν
 
+θυόω:
+    stems:
+        5-: τεθυω
+
 θύω:
     stems:
         1-: θυ
         1+: θυ
         3-: θυσ
         # 3+: {frozenset({'θυσ{2nd}', 'θυσ'}), frozenset({'ἐθυσα{athematic}', 'ἐθυσ'})}  # @0
+    stems:
 
 θωρήσσω:
     stems:
+        1-: θωρησσ
         2-: θωρηξ
         3-: θωρηξ
+        3+: θωρηξ
         6-: θωρηχθ
         6+: θωρηχθ
+    stems:
 
 ἰαίνω:
     stems:
@@ -4878,6 +5926,7 @@
         3-: ἰην
         6-: ἰανθ
         6+: ἰανθ
+    stems:
 
 ἰάλλω:
     stems:
@@ -4885,6 +5934,12 @@
         1+: ἰαλλ
         3-: ἰηλ
         3+: ἰηλ
+
+ἰάομαι:
+    stems:
+        3-: ἰησ
+        3+: ἰησ
+    stems:
 
 ἰάπτω:
     stems:
@@ -4895,6 +5950,7 @@
         1-: ἰαυ
         # 1+: {frozenset({'ἰαυ'}), frozenset({'ἰαυεσκ'})}  # @0
         3-: ἰαυσ
+    stems:
 
 ἰάχω:
     stems:
@@ -4915,6 +5971,7 @@
         # 1-: {frozenset({'ἱδρω', 'ἱδρω0'}), frozenset({'ἱδρα'})}  # @0
         2-: ἱδρωσ
         3+: ἱδρωσ
+    stems:
 
 ἱδρύω:
     stems:
@@ -4934,6 +5991,8 @@
         2-: ἱερευσ
         # 3-: {frozenset({'ἱρευσ'}), frozenset({'ἱερευσ', 'ἱερευσ{2nd}'}), frozenset({'ἱερευσ', 'ἱερευσα{athematic}'}), frozenset({'ἱερευσ'})}  # @0
         3+: ἱερευσ
+        5+: ἱερευ
+    stems:
 
 ἱζάνω:
     stems:
@@ -4946,6 +6005,7 @@
         # 1+: {frozenset({'ἱζεσκ'}), frozenset({'ἱζ'})}  # @0
         # 3-: {frozenset({'ἑσ'}), frozenset({'εἱσ'}), frozenset({'ἑσσ'})}  # @0
         # 3+: {frozenset({'ἑσσ{2nd}', 'ἑσσ'}), frozenset({'εἱσ{2nd}', 'εἱσ'}), frozenset({'ἑσσ'}), frozenset({'εἱσ', 'εἱ{athematic}'})}  # @0
+    stems:
 
 ἵημι:
     stems:
@@ -4954,11 +6014,13 @@
         2-: ἡσ
         3-: ἑ{athematic}
         # 3+: {frozenset({'εἰσ'}), frozenset({'ἑσ'}), frozenset({'ἑηκ{2nd}', 'ἑηκ'}), frozenset({'ἡκ'}), frozenset({'ἡκ{2nd}', 'ἡκ'})}  # @0
+    stems:
 
 ἰθύνω:
     stems:
         1-: ἰθυν
         1+: ἰθυν
+        3-: ἰθυν
         3+: ἰθυν
 
 ἰθύω:
@@ -4978,6 +6040,7 @@
 
 ἱκνέομαι:
     stems:
+        1-: ἱκνευ{athematic}
         2-: ἱξ
         3-: ἱκ{2nd}
         3+: ἱκ{2nd}
@@ -4991,6 +6054,16 @@
 ἱλάομαι:
     stems:
         3-: ἱλασσ
+    stems:
+
+ἱλάσκομαι:
+    stems:
+        1-: ἱλασκ
+    stems:
+
+ἱλήκω:
+    stems:
+        1-: ἱληκ  # @1
 
 ἵλημι:
     stems:
@@ -5000,11 +6073,21 @@
     stems:
         1-: ἱμασσ
         3-: ἱμασσ
+        3+: ἱμασ
 
 ἱμείρω:
     stems:
         1-: ἱμειρ
         3-: ἱμειρ
+
+ἰνδάλλομαι:
+    stems:
+
+ἴπτομαι:
+    stems:
+
+ἰσάζω:
+    stems:
 
 ἴσκε:
     stems:
@@ -5032,6 +6115,7 @@
         # 4-: {frozenset({'ἑστεα{athematic}'}), frozenset({'ἑστα'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         # 4+: {frozenset({'ἑσταδ{athematic}', 'ἑστα{athematic}'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         6+: ἐσταθ
+    stems:
 
 ἰσχανάω:
     stems:
@@ -5072,9 +6156,24 @@
         3-: καθηρ
         3+: καθηρ/ἐκαθηρ
 
+καθάλλομαι:
+    stems:
+
+καθάπτω:
+    stems:
+        1-: καθαπτ
+    stems:
+
+καθέζομαι:
+    stems:
+
+καθέζω:
+    stems:
+
 καθέννυμι:
     stems:
         1+: καταεινυ{athematic}
+        5-: καταει
 
 καθεύδω:
     stems:
@@ -5083,7 +6182,10 @@
 
 κάθημαι:
     stems:
+        1+: ἡ{athematic}
+        5-: καθη
         # 5+: καθησ  # @@@
+    stems:
 
 καθιδρύω:
     stems:
@@ -5097,13 +6199,16 @@
     stems:
         1-: καθιζ
         1+: καθιζ
+        3-: καθισ
         # 3-: {frozenset({'καθισ'}), frozenset({'καθισσ'})}  # @0
         # 3+: {frozenset({'καθισ'}), frozenset({'καταεισ'}), frozenset({'καθεισ{2nd}', 'καθεισ'})}  # @0
+    stems:
 
 καθίημι:
     stems:
         1-: καθιε{athematic}
         # 3+: {frozenset({'καθεηκ'}), frozenset({'καθε{athematic}'})}  # @0
+    stems:
 
 καθίστημι:
     stems:
@@ -5113,6 +6218,12 @@
     stems:
         1-: καθορα
 
+καίνυμαι:
+    stems:
+        1+: ἐκαινυ{athematic}
+        5-: κεκασ
+    stems:
+
 καίω:
     stems:
         1-: και
@@ -5120,12 +6231,17 @@
         3-: κη
         # 3+: {frozenset({'κη'}), frozenset({'ἐκη'}), frozenset({'κει'}), frozenset({'ἐκη{2nd}', 'ἐκη'})}  # @0
         # 6+: {frozenset({'ἐκα'}), frozenset({'κα'})}  # @0
+    stems:
+
+κακίζω:
+    stems:
 
 κακόω:
     stems:
         1-: κακο
         3-: κακωσ
         3+: ἐκακωσ
+        5-: κεκακω
 
 καλέω:
     stems:
@@ -5134,6 +6250,8 @@
         2-: καλε
         # 3-: {frozenset({'καλεσσα{root}', 'καλεσσ'}), frozenset({'καλεσσ{2nd}', 'καλεσσ'}), frozenset({'καλεσ'}), frozenset({'καλεσα{root}', 'καλεσ', 'καλεσα{athematic}'}), frozenset({'καλεσ', 'καλεσα{athematic}'}), frozenset({'καλεσσ'})}  # @0
         # 3+: {frozenset({'ἐκαλεσσ'}), frozenset({'καλεσσ', 'καλεσσ{2nd}'}), frozenset({'καλεσσ'}), frozenset({'καλεσ'})}  # @0
+        5-: κεκλη
+    stems:
 
 καλύπτω:
     stems:
@@ -5142,7 +6260,9 @@
         2-: καλυψ
         3-: καλυψ
         # 3+: {frozenset({'ἐκαλυψ'}), frozenset({'καλυψ', 'καλυψ{2nd}'}), frozenset({'ἐκαλυψ{2nd}', 'ἐκαλυψ'}), frozenset({'καλυψ'})}  # @0
+        5+: κεκαλυπ
         6-: καλυφθ
+    stems:
 
 κάμνω:
     stems:
@@ -5152,6 +6272,7 @@
         3-: καμ{2nd}
         # 3+: {frozenset({'ἐκαμ{2nd}'}), frozenset({'καμ{2nd}'}), frozenset({'ἐκαμ{2nd}', 'ἐκαμο{athematic}'}), frozenset({'καμ', 'καμ{2nd}'})}  # @0
         # 4-: {frozenset({'κεκμηκ'}), frozenset({'κεκμηα{athematic}', 'κεκμη'}), frozenset({'κεκμηα{athematic}'}), frozenset({'κεκμη'})}  # @0
+    stems:
 
 κάμπτω:
     stems:
@@ -5182,12 +6303,15 @@
 κάρφω:
     stems:
         2-: καρψ
+        3+: καρψ
+        5+: κεκαλυπ
 
 καταβαίνω:
     stems:
         1+: κατεβαιν
         # 3-: {frozenset({'καταβημεν'}), frozenset({'καταβα{root}'}), frozenset({'καταβα{root}', 'καταβην'})}  # @0
         # 3+: {frozenset({'κατεβησ{2nd}', 'κατεβησε{athematic}'}), frozenset({'κατεβα{root}'}), frozenset({'κατεβ'}), frozenset({'κατεβα{root}', 'κατεβε{root}', 'κατεβησ'})}  # @0
+    stems:
 
 καταβάλλω:
     stems:
@@ -5213,6 +6337,8 @@
 κατάγω:
     stems:
         1-: καταγ
+        3+: κατηγαγ
+    stems:
 
 καταδάπτω:
     stems:
@@ -5227,6 +6353,9 @@
 καταδέομαι:
     stems:
         3+: κατεδησ
+
+καταδέρκομαι:
+    stems:
 
 καταδεύω:
     stems:
@@ -5246,6 +6375,7 @@
     stems:
         # 3-: {frozenset({'καταδυμεν'}), frozenset({'καταδυ{root}'}), frozenset({'καταδυ{athematic}', 'καταδυ{root}'}), frozenset({'καταδυ{root}', 'καταδυν'})}  # @0
         # 3+: {frozenset({'κατεδυσε{athematic}', 'κατεδυσ{2nd}'}), frozenset({'κατεδυ{root}'})}  # @0
+    stems:
 
 καταζαίνω:
     stems:
@@ -5256,11 +6386,19 @@
         1-: καταθαπτ
         3-: κατθαψ
 
+καταθέλγω:
+    stems:
+        3+: κατεθελξ
+
 καταθνήσκω:
     stems:
         1-: καταθνῃσκ
         3+: κατθαν{2nd}
         # 4-: {frozenset({'κατατεθνηα{athematic}'}), frozenset({'κατατεθνηκ'}), frozenset({'κατατεθνη'}), frozenset({'κατατεθνα{athematic}'})}  # @0
+    stems:
+
+καταικίζω:
+    stems:
 
 καταισχύνω:
     stems:
@@ -5269,9 +6407,11 @@
 
 κατακαίω:
     stems:
+        1-: κατακαι
         1+: κατεκαι
         # 3-: {frozenset({'κακκη'}), frozenset({'κατακη'})}  # @0
         3+: κατεκη
+    stems:
 
 κατακείρω:
     stems:
@@ -5281,7 +6421,11 @@
 
 κατακείω:
     stems:
+        1-: κατακει{athematic}
+        1+: κατεκει{athematic}
         # 2-: {frozenset({'κατακει'}), frozenset({'κακκει'})}  # @0
+        3-: κατακει
+    stems:
 
 κατακλάω:
     stems:
@@ -5314,6 +6458,7 @@
         # 2-: {frozenset({'κατακτενε'}), frozenset({'κατακτεν{contract}'})}  # @0
         # 3-: {frozenset({'κατακτα{root}'}), frozenset({'κατακτειν'}), frozenset({'κατακταν', 'κατακταν{2nd}'}), frozenset({'κατακτειν', 'κατακτειν{2nd}'}), frozenset({'κατακτειν', 'κατακτε{athematic}'}), frozenset({'κατακταμεν'}), frozenset({'κατακτειν', 'κατακτεινα{athematic}', 'κατακτεινα{root}'}), frozenset({'κατακτα{root}', 'κατακτ'})}  # @0
         # 3+: {frozenset({'κατεκταν', 'κατεκταν{2nd}'}), frozenset({'κακταν{2nd}', 'κακταν'}), frozenset({'κατεκταν{2nd}', 'κατεκτανο{athematic}'}), frozenset({'κατεκταν{2nd}'})}  # @0
+    stems:
 
 κατακύπτω:
     stems:
@@ -5335,9 +6480,11 @@
         1+: κατελειπ
         # 2-: {frozenset({'καλλειψ'}), frozenset({'καταλειψ'})}  # @0
         3+: καλλιπ{2nd}
+    stems:
 
 καταλύω:
     stems:
+        3-: καταλυσ
         3+: κατελυσ
 
 καταμάρπτω:
@@ -5357,8 +6504,12 @@
     stems:
         1-: κατανευ
         2-: κατανευσ
+        3-: κατανευσ
         # 3-: {frozenset({'κατανευσ{2nd}', 'κατανευσ'}), frozenset({'κατανευσ'}), frozenset({'καννευσ'})}  # @0
         3+: κατενευσ
+
+κατάνομαι:
+    stems:
 
 καταπαύω:
     stems:
@@ -5373,6 +6524,7 @@
 καταπήγνυμι:
     stems:
         3+: κατεπηξ
+    stems:
 
 καταπίπτω:
     stems:
@@ -5394,6 +6546,14 @@
     stems:
         1-: καταπτωσσ
 
+καταπύθω:
+    stems:
+
+καταράομαι:
+    stems:
+        1+: κατηρα
+    stems:
+
 καταρρέζω:
     stems:
         1-: καρρεζ
@@ -5403,9 +6563,16 @@
     stems:
         1-: καταρρε/καταρρε{nocontract}
 
+κατάρχω:
+    stems:
+
 κατασβέννυμι:
     stems:
         3+: κατεσβεσ{2nd}
+
+κατασεύομαι:
+    stems:
+        1+: κατεσσυ{athematic}
 
 κατασκιάω:
     stems:
@@ -5415,6 +6582,10 @@
     stems:
         3+: κατεστορεσ
 
+καταστόρνυμι:
+    stems:
+        3-: καστορνυ{root}
+
 καταστυγέω:
     stems:
         3+: κατεστυγ
@@ -5423,11 +6594,17 @@
     stems:
         3+: κασχεθ
 
+κατατήκω:
+    stems:
+        3+: κατετηξ
+    stems:
+
 κατατίθημι:
     stems:
         2-: καταθησ
         # 3-: {frozenset({'κατθε{athematic}'}), frozenset({'κατθ{2nd}', 'κατθε{athematic}'}), frozenset({'καταθε{athematic}'}), frozenset({'καταθε{athematic}', 'καταθειν'})}  # @0
         # 3+: {frozenset({'κατθε{athematic}'}), frozenset({'κατεθηκ'}), frozenset({'κατεθηκ', 'κατεθηκ{2nd}'}), frozenset({'κατεθε{athematic}'}), frozenset({'κατθε{athematic}', 'κατθεσ'})}  # @0
+    stems:
 
 κατατρύχω:
     stems:
@@ -5461,9 +6638,15 @@
         1-: κατεδ
         2-: κατεδ
 
+κατείβω:
+    stems:
+        1-: κατειβ
+    stems:
+
 κάτειμι:
     stems:
         # 1-: {frozenset({'κατιε', 'κατιο', 'κατιο{athematic}'}), frozenset({'κατιο', 'κατιου{athematic}', 'κατιε', 'κατιο{athematic}'}), frozenset({'κατιο{athematic}'}), frozenset({'κατει{athematic}'})}  # @0
+    stems:
 
 κατεναίρομαι:
     stems:
@@ -5486,10 +6669,18 @@
     stems:
         # 1-: {frozenset({'κατερυκαν'}), frozenset({'κατερυκ'})}  # @0
         1+: κατερυκ
+    stems:
+
+κατερύω:
+    stems:
+        3+: κατειρυσ
+    stems:
 
 κατέρχομαι:
     stems:
+        1-: κατερχ
         # 3+: {frozenset({'κατηλυθ{2nd}'}), frozenset({'κατηλθ', 'κατηλθ{2nd}'}), frozenset({'κατηλθ{2nd}'}), frozenset({'κατηλθο{athematic}', 'κατηλθ{2nd}'})}  # @0
+    stems:
 
 κατεσθίω:
     stems:
@@ -5508,6 +6699,7 @@
         2-: καθεξ
         3-: κατασχ{2nd}
         3+: κατεσχ{2nd}
+    stems:
 
 κατηφέω:
     stems:
@@ -5522,7 +6714,9 @@
     stems:
         # 3-: {frozenset({'κεασ'}), frozenset({'κεασσ'})}  # @0
         # 3+: {frozenset({'κεασ'}), frozenset({'κεασ', 'κεασ{2nd}'}), frozenset({'κεασσ{2nd}', 'κεασσ'}), frozenset({'ἐκεασσ', 'ἐκεασσ{2nd}'})}  # @0
+        5-: κεκεασ
         6+: κεασθ
+    stems:
 
 κεδάννυμι:
     stems:
@@ -5532,6 +6726,7 @@
 κεῖμαι:
     stems:
         # 2-: {frozenset({'κεισ'}), frozenset({'κε'}), frozenset({'κεισ', 'κεισε{athematic}'})}  # @0
+    stems:
 
 κείρω:
     stems:
@@ -5540,6 +6735,7 @@
         2-: κερε
         # 3-: {frozenset({'κειρ'}), frozenset({'κερσ'})}  # @0
         3+: κερσ
+    stems:
 
 κείω:
     stems:
@@ -5573,6 +6769,7 @@
         2-: κελευσ
         3-: κελευσ
         # 3+: {frozenset({'κελευσ', 'κελευσ{2nd}'}), frozenset({'ἐκελευσ', 'ἐκελευ{root}'}), frozenset({'ἐκελευσ{2nd}', 'ἐκελευσ'}), frozenset({'κελευσ'}), frozenset({'κελευσ', 'κελευ{root}'}), frozenset({'ἐκελευσ'})}  # @0
+    stems:
 
 κελητίζω:
     stems:
@@ -5584,9 +6781,12 @@
 
 κέλομαι:
     stems:
+        1-: κελ
+        1+: κελ
         2-: κελησ
         3-: κεκλ{2nd}
         # 3+: {frozenset({'κεκλε{athematic}', 'κεκλ{2nd}'}), frozenset({'κεκλο{athematic}', 'κεκλ{2nd}'}), frozenset({'ἐκεκλε{athematic}', 'ἐκεκλ{2nd}'})}  # @0
+    stems:
 
 κεντέω:
     stems:
@@ -5605,10 +6805,12 @@
     stems:
         # 3-: {frozenset({'κερασ'}), frozenset({'κερασσ', 'κερασσα{root}'})}  # @0
         # 3+: {frozenset({'κεκρα'}), frozenset({'κερασσ', 'κερασσ{2nd}'}), frozenset({'κερασσ'})}  # @0
+    stems:
 
 κεράω:
     stems:
         1-: κερα
+    stems:
 
 κερτομέω:
     stems:
@@ -5628,12 +6830,14 @@
         3+: κυθ{2nd}
         4-: κεκευθ
         4+: ἐκεκευθ
+    stems:
 
 κήδω:
     stems:
         1-: κηδ
         # 1+: {frozenset({'κηδ'}), frozenset({'ἐκηδ'}), frozenset({'κηδεσκ'})}  # @0
         2-: κηδησ
+    stems:
 
 κηκίω:
     stems:
@@ -5643,6 +6847,11 @@
     stems:
         1-: κηρυσσ
         1+: ἐκηρυσσ
+
+κίδναμαι:
+    stems:
+        1-: κιδνα{athematic}
+        1+: ἐκιδνα{athematic}
 
 κιθαρίζω:
     stems:
@@ -5660,10 +6869,16 @@
         6-: κινηθ
         6+: κινηθ
 
+κίνυμαι:
+    stems:
+        1-: κινυ{athematic}
+        1+: κινυ{athematic}
+
 κιρνάω:
     stems:
         1-: κιρνα{athematic}
         # 1+: {frozenset({'κιρνη', 'κιρνα', 'κιρνε', 'κιρνα{athematic}'}), frozenset({'ἐκιρνα'})}  # @0
+    stems:
 
 κιχάνω:
     stems:
@@ -5672,12 +6887,14 @@
         2-: κιχησ
         # 3-: {frozenset({'κιχ{2nd}'}), frozenset({'κιχει', 'κιχει{2nd}'}), frozenset({'κιχε{athematic}'})}  # @0
         # 3+: {frozenset({'κιχ{2nd}'}), frozenset({'κιχησ'})}  # @0
+    stems:
 
 κίω:
     stems:
         1-: κι
         # 1+: {frozenset({'κι'}), frozenset({'κιο{athematic}', 'κι'}), frozenset({'ἐκι'})}  # @0
         3-: κι{2nd}
+    stems:
 
 κλάζω:
     stems:
@@ -5693,6 +6910,7 @@
         2-: κλαυσ
         3-: κλαυσ
         3+: κλαυσ
+    stems:
 
 κλάω:
     stems:
@@ -5703,6 +6921,7 @@
     stems:
         1-: κλει
         3-: κληϊσ
+    stems:
 
 κλέπτω:
     stems:
@@ -5710,18 +6929,24 @@
         3-: κλεψ
         3+: ἐκλεψ{2nd}
 
+κλέω:
+    stems:
+
 κλίνω:
     stems:
         1-: κλιν
         1+: ἐκλιν
         3-: κλιν
         # 3+: {frozenset({'κλιν'}), frozenset({'κλιν{2nd}', 'κλιν'}), frozenset({'ἐκλιν'})}  # @0
+        5-: κεκλι
         # 6-: {frozenset({'κλιθ'}), frozenset({'κλινθ'})}  # @0
         # 6+: {frozenset({'ἐκλινθ'}), frozenset({'ἐκλιθ'}), frozenset({'κλινθ'})}  # @0
+    stems:
 
 κλονέω:
     stems:
         1-: κλονε
+    stems:
 
 κλοτοπεύω:
     stems:
@@ -5737,10 +6962,12 @@
         # 1+: {frozenset({'κλυ'}), frozenset({'ἐκλυ'})}  # @0
         # 3-: {frozenset({'κεκλυ{root}', 'κεκλυ{athematic}'}), frozenset({'κλυ{athematic}'})}  # @0
         # 3+: {frozenset({'ἐκλυ{2nd}', 'ἐκλυ'}), frozenset({'κεκλυ{root}', 'κεκλυ{athematic}'}), frozenset({'ἐκλυ{2nd}'}), frozenset({'κλυ{2nd}'})}  # @0
+    stems:
 
 κνυζόω:
     stems:
         2-: κνυζωσ
+        3+: κνυζωσ
 
 κοιμάω:
     stems:
@@ -5748,6 +6975,7 @@
         3+: κοιμησ
         6-: κοιμηθ
         6+: κοιμηθ
+    stems:
 
 κοιρανέω:
     stems:
@@ -5773,6 +7001,7 @@
         2-: κομι{contract}
         # 3-: {frozenset({'κομισσ'}), frozenset({'κομισ'}), frozenset({'κομισσ{2nd}', 'κομισσ'})}  # @0
         # 3+: {frozenset({'κομισ'}), frozenset({'κομισσ{2nd}', 'κομισσ'}), frozenset({'κομισσ'}), frozenset({'ἐκομισσ'}), frozenset({'ἐκομισσ', 'ἐκομισσ{2nd}'}), frozenset({'κομισ{2nd}', 'κομισ'})}  # @0
+    stems:
 
 κομπέω:
     stems:
@@ -5794,6 +7023,8 @@
     stems:
         1-: κονι
         3+: ἐκονισ
+        5-: κεκονι
+        5+: κεκονι
 
 κοπρίζω:
     stems:
@@ -5806,23 +7037,34 @@
         3-: κοψ
         # 3+: {frozenset({'ἐκοψ'}), frozenset({'κοψ'}), frozenset({'κοψ{2nd}', 'κοψ'})}  # @0
         4-: κεκοπ
+    stems:
 
 κορέννυμι:
     stems:
         2-: κορε
         # 3-: {frozenset({'κορεσ', 'κορεσ{2nd}'}), frozenset({'κορεσσ', 'κορεσσα{root}'}), frozenset({'κορεσ'})}  # @0
         # 3+: {frozenset({'κορεσσ'}), frozenset({'κορεσσα{athematic}'}), frozenset({'ἐκορεσσ'})}  # @0
+        4-: κεκορη
+        5-: κεκορη
         # 6+: {frozenset({'ἐκορεσθ'}), frozenset({'κορεσθ'})}  # @0
+    stems:
 
 κορέω:
     stems:
         3-: κορησ
+
+κορθύνω:
+    stems:
 
 κορύσσω:
     stems:
         1-: κορυσσ
         1+: κορυσσ
         3-: κορυσσ
+        5-: κεκορυθ
+
+κορυφόω:
+    stems:
 
 κοσμέω:
     stems:
@@ -5837,10 +7079,14 @@
         3-: κοτεσσ
         3+: κοτεσσ
         4-: κεκοτη
+    stems:
 
 κουρίζω:
     stems:
         1-: κουριζ
+
+κραδαίνω:
+    stems:
 
 κραδάω:
     stems:
@@ -5851,6 +7097,8 @@
         1-: κραιν
         2-: κρανε
         # 3-: {frozenset({'κρην'}), frozenset({'κρηα{root}', 'κρηην'}), frozenset({'κρα{root}', 'κρην'}), frozenset({'κρηην'})}  # @0
+        5-: κεκρααν
+    stems:
 
 κρατέω:
     stems:
@@ -5862,8 +7110,10 @@
 
 κρεμάννυμι:
     stems:
+        1+: ἐκρεμα{athematic}
         2-: κρεμο
         3-: κρεμασ
+        3+: κρεμασ
 
 κρίζω:
     stems:
@@ -5874,6 +7124,7 @@
         1-: κριν
         3-: κριν
         3+: ἐκριν
+        5-: κεκρι
         6-: κρινθ
 
 κροαίνω:
@@ -5896,10 +7147,13 @@
         3-: κρυψ
         3+: ἐκρυψ
         6+: κρυφθ
+    stems:
 
 κτάομαι:
     stems:
+        1-: κτα{athematic}
         # 3+: {frozenset({'ἐκτησ'}), frozenset({'κτησ'})}  # @0
+    stems:
 
 κτεατίζω:
     stems:
@@ -5913,6 +7167,12 @@
         # 2-: {frozenset({'κτεν{contract}'}), frozenset({'κτανε'}), frozenset({'κτενε'})}  # @0
         # 3-: {frozenset({'κτ'}), frozenset({'κτειν'}), frozenset({'κτειν{2nd}', 'κτειν'}), frozenset({'κτειν', 'κτε{athematic}'}), frozenset({'κταμεν'}), frozenset({'κτε{2nd}', 'κτε'})}  # @0
         # 3+: {frozenset({'κταν', 'κταν{2nd}'}), frozenset({'κτειν'}), frozenset({'ἐκτ'}), frozenset({'κταν{2nd}'}), frozenset({'κτειν{2nd}', 'κτειν'}), frozenset({'ἐκταν{2nd}'}), frozenset({'ἐκτειν', 'ἐκτειν{2nd}'}), frozenset({'ἐκταν{2nd}', 'ἐκταν'})}  # @0
+    stems:
+
+κτέομαι:
+    stems:
+        3+: κτησ
+    stems:
 
 κτερείζω:
     stems:
@@ -5936,6 +7196,7 @@
     stems:
         1-: κτυπε
         # 3+: {frozenset({'ἐκτυπ{2nd}', 'ἐκτυπ'}), frozenset({'κτυπ', 'κτυπ{2nd}'})}  # @0
+    stems:
 
 κυβερνάω:
     stems:
@@ -5951,6 +7212,7 @@
         1-: κυδαιν
         1+: κυδαιν
         3-: κυδην  # κυδα{root}
+        3+: κυδην
 
 κυδάνω:
     stems:
@@ -5976,6 +7238,7 @@
         1+: ἐκυκα
         3+: κυκησ
         6+: κυκηθ
+    stems:
 
 κυκλέω:
     stems:
@@ -5985,6 +7248,7 @@
     stems:
         1-: κυλινδ
         6+: κυλισθ
+    stems:
 
 κυμαίνω:
     stems:
@@ -5995,6 +7259,7 @@
         1+: κυνε
         # 3-: {frozenset({'κυσ'}), frozenset({'κυσσ'})}  # @0
         # 3+: {frozenset({'ἐκυσσ', 'ἐκυσσ{2nd}'}), frozenset({'κυσσ', 'κυσσ{2nd}'}), frozenset({'κυσ'}), frozenset({'κυσ', 'κυσ{2nd}'})}  # @0
+    stems:
 
 κύπτω:
     stems:
@@ -6004,6 +7269,7 @@
     stems:
         1+: κυρ
         3-: κυρσ
+    stems:
 
 κυρτόω:
     stems:
@@ -6014,12 +7280,19 @@
         1-: κωκυ
         1+: ἐκωκυ
         3-: κωκυσ
+        3+: κωκυσ
 
 λαγχάνω:
     stems:
         # 1+: {frozenset({'ἐλαγχαν'}), frozenset({'λαγχαν'})}  # @0
         # 3-: {frozenset({'λαχο{root}', 'λαχο{athematic}', 'λαχ{2nd}'}), frozenset({'λαχι{2nd}', 'λαχ{2nd}'}), frozenset({'λαχ', 'λαχ{2nd}'}), frozenset({'λελαχ', 'λελαχ{2nd}'}), frozenset({'λαχ{2nd}'})}  # @0
         # 3+: {frozenset({'λαχ', 'λαχ{2nd}'}), frozenset({'ἐλαχ', 'ἐλαχ{2nd}'}), frozenset({'λαχο{athematic}', 'λαχ{2nd}'}), frozenset({'λαχ{2nd}'}), frozenset({'ἐλαχ{2nd}'})}  # @0
+    stems:
+
+λάζομαι:
+    stems:
+        5-: λελασ
+    stems:
 
 λακτίζω:
     stems:
@@ -6029,10 +7302,13 @@
     stems:
         # 3-: {frozenset({'λαβ{2nd}', 'λαβε{athematic}'}), frozenset({'λαβ{2nd}', 'λαβο{root}'}), frozenset({'λελαβ{2nd}', 'λελαβε{athematic}'}), frozenset({'λαβ{2nd}{enclitic}'}), frozenset({'λαβο{athematic}', 'λαβ{2nd}', 'λαβο{root}'}), frozenset({'λαβ{2nd}', 'λαβ'}), frozenset({'λαβ{2nd}'})}  # @0
         # 3+: {frozenset({'λαβ{2nd}', 'λαβ'}), frozenset({'λαβ{2nd}'}), frozenset({'ἐλαβ{2nd}', 'ἐλαβ'}), frozenset({'ἐλλαβ', 'ἐλλαβ{2nd}'})}  # @0
+    stems:
 
 λάμπω:
     stems:
+        1-: λαμπ
         # 1+: {frozenset({'λαμπ'}), frozenset({'ἐλαμπ'})}  # @0
+    stems:
 
 λανθάνω:
     stems:
@@ -6041,6 +7317,7 @@
         2-: λησ
         # 3-: {frozenset({'λαθ{2nd}', 'λαθο{athematic}'}), frozenset({'λαθ{2nd}'}), frozenset({'λελαθ{2nd}', 'λελαθ'}), frozenset({'λελαθ{2nd}', 'λελαθε{athematic}'}), frozenset({'λαθ{2nd}', 'λαθε{athematic}'})}  # @0
         # 3+: {frozenset({'λαθ{2nd}', 'λαθο{athematic}'}), frozenset({'λαθ{2nd}'}), frozenset({'ἐλαθ', 'ἐλαθ{2nd}'}), frozenset({'λαθ', 'λαθ{2nd}'}), frozenset({'λελαθ{2nd}', 'λελαθο{athematic}'})}  # @0
+    stems:
 
 λάπτω:
     stems:
@@ -6050,6 +7327,7 @@
     stems:
         3+: λακ
         # 4-: {frozenset({'λεληκα{athematic}', 'λεληκ'}), frozenset({'λελακ'})}  # @0
+    stems:
 
 λαφύσσω:
     stems:
@@ -6074,6 +7352,7 @@
         3-: λεξ
         # 3+: {frozenset({'λεξ'}), frozenset({'ἐλεξ'})}  # @0
         # 6+: {frozenset({'ἐλεγμ'}), frozenset({'ἐλεχθ'})}  # @0
+    stems:
 
 λείβω:
     stems:
@@ -6088,7 +7367,13 @@
         2-: λειψ
         3-: λιπ{2nd}
         # 3+: {frozenset({'ἐλιπ{2nd}'}), frozenset({'ἐλιπ{2nd}', 'ἐλιπο{athematic}'}), frozenset({'ἐλιπ', 'ἐλιπ{2nd}'}), frozenset({'λιπ{2nd}'}), frozenset({'λιπ', 'λιπ{2nd}'}), frozenset({'λιπο{athematic}', 'λιπ{2nd}'})}  # @0
+        5-: λελειπ
         8-: λελειψ
+    stems:
+
+λελίημαι:
+    stems:
+        5-: λελιη
 
 λέπω:
     stems:
@@ -6110,6 +7395,15 @@
         2-: ληξ
         3-: ληξ
         3+: ληξ
+    stems:
+
+ληίζομαι:
+    stems:
+        2-: ληϊσσ
+    stems:
+
+λιάζομαι:
+    stems:
 
 λιγαίνω:
     stems:
@@ -6123,14 +7417,22 @@
     stems:
         1-: λικμα
 
+λιλαίομαι:
+    stems:
+        1-: λιλαι
+    stems:
+
 λιπάω:
     stems:
         # 1-: {frozenset({'λιπο{athematic}', 'λιπου{athematic}', 'λιπε', 'λιπο'}), frozenset({'λιπε'}), frozenset({'λιπ'})}  # @0
+    stems:
 
 λίσσομαι:
     stems:
+        1-: λισσ
         # 3-: {frozenset({'λισ', 'λισ{2nd}'}), frozenset({'λιτο{athematic}', 'λιτ{2nd}'}), frozenset({'λισ'}), frozenset({'λιτ{2nd}', 'λιτε{athematic}'})}  # @0
         3+: ἐλλισ
+    stems:
 
 λιστρεύω:
     stems:
@@ -6139,13 +7441,17 @@
 λιτανεύω:
     stems:
         # 1+: {frozenset({'λιτανευ'}), frozenset({'ἐλλιτανευ'})}  # @0
+        3-: λιτανευσ
         3+: ἐλλιτανευσ
+    stems:
 
 λούω:
     stems:
         1+: λοε
         # 3-: {frozenset({'λοεσσ', 'λοεσσα{root}'}), frozenset({'λοεσσ'}), frozenset({'λουσ'}), frozenset({'λουσ{2nd}', 'λουσ'}), frozenset({'λουσα{athematic}', 'λουσ'})}  # @0
         # 3+: {frozenset({'λουσ'}), frozenset({'λοεσσ'})}  # @0
+        5-: λελου
+    stems:
 
 λοχάω:
     stems:
@@ -6154,11 +7460,24 @@
 λύω:
     stems:
         1-: λυ
+        1+: ἐλυ
         # 1+: {frozenset({'λυ'}), frozenset({'ἐλυ'}), frozenset({'λυ', 'λυο{athematic}'})}  # @0
         2-: λυσ
-        3-: λυσ
+        3-: λῡσ
+        3+: ἐλῡσ
         # 3+: {frozenset({'λυσ', 'λυσ{2nd}'}), frozenset({'ἐλυσ'}), frozenset({'ἐλυσ', 'ἐλυ{root}'}), frozenset({'ἐλυσ', 'ἐλυσ{2nd}'}), frozenset({'λυσ'})}  # @0
+        4-: λελυκ
+        4+: ἐλελυκ
+        5-: λελυ
+        5+: λελυ
+        6-: λυθ
         # 6+: {frozenset({'λυμ'}), frozenset({'λυθ'})}  # @0
+    stems:
+
+λωβάομαι:
+    stems:
+        3-: λωβησ
+    stems:
 
 λωβεύω:
     stems:
@@ -6174,6 +7493,15 @@
         1-: μαιμω
         3+: μαιμησ
 
+μαίνομαι:
+    stems:
+        1-: μαιν
+    stems:
+
+μαίομαι:
+    stems:
+        1-: μαι
+
 μακαρίζω:
     stems:
         1-: μακαριζ
@@ -6181,10 +7509,19 @@
 μανθάνω:
     stems:
         # 3+: {frozenset({'μαθ{2nd}'}), frozenset({'ἐμμαθ{2nd}'})}  # @0
+    stems:
+
+μαντεύομαι:
+    stems:
+        1-: μαντευ
+        2-: μαντευσ
+        3+: μαντευσ
+    stems:
 
 μαραίνω:
     stems:
         6+: ἐμαρανθ
+    stems:
 
 μαργαίνω:
     stems:
@@ -6194,15 +7531,27 @@
     stems:
         1-: μαρμαιρ
 
+μάρναμαι:
+    stems:
+        1-: μαρνα{athematic}
+    stems:
+
 μάρπτω:
     stems:
         # 1+: {frozenset({'μαρπτ'}), frozenset({'ἐμαρπτ'})}  # @0
         2-: μαρψ
         3-: μαρψ
+        3+: ἐμαρψ
+    stems:
+        1-: μαρπτ  # @1
 
 μάσσω:
     stems:
         3-: μασ
+
+μαστίζω:
+    stems:
+        3+: μαστιξ
 
 μαστίω:
     stems:
@@ -6221,6 +7570,7 @@
         # 2-: {frozenset({'μαχησε{athematic}', 'μαχησ'}), frozenset({'μαχησ'}), frozenset({'μαχε'})}  # @0
         # 3-: {frozenset({'μαχησ'}), frozenset({'μαχεσ'}), frozenset({'μαχεσσ'}), frozenset({'μαχεσσα{athematic}', 'μαχεσσ', 'μαχεσσα{root}'})}  # @0
         3+: μαχεσσ
+    stems:
 
 μεγαίρω:
     stems:
@@ -6228,13 +7578,18 @@
         3-: μεγηρ
         3+: μεγηρ{2nd}
 
+μεγαλίζομαι:
+    stems:
+
 μεδέων:
     stems:
         1-: μεδε/μεδε{nocontract}
 
 μέδομαι:
     stems:
+        1-: μεδ
         2-: μεδησ
+    stems:
 
 μέδω:
     stems:
@@ -6257,9 +7612,11 @@
         2-: μεθησ
         # 3-: {frozenset({'μεθει', 'μεθει{2nd}'}), frozenset({'μεθε{athematic}'}), frozenset({'μεθω{root}', 'μεθε{athematic}', 'μεθα{root}', 'μεθο{athematic}'})}  # @0
         # 3+: {frozenset({'μεθηκ', 'μεθηκ{2nd}'}), frozenset({'μεθεηκ'}), frozenset({'μεθεηκ', 'μεθεηκ{2nd}'})}  # @0
+    stems:
 
 μεθίστημι:
     stems:
+        1+: μεθιστα{athematic}
         2-: μεταστησ
 
 μεθομιλέω:
@@ -6283,22 +7640,35 @@
     stems:
         1-: μειδιο
 
+μειλίσσω:
+    stems:
+        1-: μειλισσ
+
 μείρομαι:
     stems:
         4-: ἐμμορ
+        5+: εἱμαρ
+
+μελαίνω:
+    stems:
 
 μελάνω:
     stems:
         1-: μελαν
 
+μέλδομαι:
+    stems:
+
 μέλλω:
     stems:
         1-: μελλ
         # 1+: {frozenset({'ἐμελλ'}), frozenset({'μελλ'}), frozenset({'ἐμελλε{athematic}', 'ἐμελλ'})}  # @0
+    stems:
 
 μέλπω:
     stems:
         1-: μελπ
+    stems:
 
 μέλω:
     stems:
@@ -6308,11 +7678,13 @@
         3-: μελησ
         4-: μεμηλ
         4+: μεμηλ
+        5+: μεμβλε
 
 μέμαα:
     stems:
         # 4-: {frozenset({'μεμαα{athematic}'}), frozenset({'μεμ', 'μεμα{athematic}'}), frozenset({'μεμα'}), frozenset({'μεμαα{athematic}', 'μεμα'}), frozenset({'μεμα{athematic}'})}  # @0
         4+: μεμα{athematic}  # μεμαδ{athematic}
+    stems:
 
 μέμονα:
     stems:
@@ -6329,6 +7701,8 @@
         # 1-: {frozenset({'μενοινα'}), frozenset({'μενοινε', 'μενοινη', 'μενοινα', 'μενοινο'}), frozenset({'μενοινω'})}  # @0
         # 1+: {frozenset({'μενοινα'}), frozenset({'μενοινε', 'μενοινε{nocontract}'})}  # @0
         3-: μενοινησ
+        3+: μενοινησ
+    stems:
 
 μένω:
     stems:
@@ -6337,6 +7711,7 @@
         2-: μενε
         3-: μειν
         # 3+: {frozenset({'μειν', 'μεινα{athematic}'}), frozenset({'ἐμειν'}), frozenset({'μειν'}), frozenset({'μειν', 'μειν{2nd}'}), frozenset({'ἐμειν', 'ἐμειν{2nd}'}), frozenset({'ἐμεινα{athematic}', 'ἐμειν'})}  # @0
+    stems:
 
 μερμηρίζω:
     stems:
@@ -6351,6 +7726,7 @@
 
 μεταδαίνυμαι:
     stems:
+        1-: μεταδαινυ{athematic}
         2-: μεταδαισ
 
 μεταίζω:
@@ -6393,11 +7769,20 @@
 μετανίσσομαι:
     stems:
         3+: μετενισ{2nd}
+    stems:
+
+μεταπαύομαι:
+    stems:
+        1-: μεταπαυ
 
 μεταπρέπω:
     stems:
         1-: μεταπρεπ
         1+: μετεπρεπ
+
+μετασεύομαι:
+    stems:
+        1+: μετεσσυ{athematic}
 
 μεταστένω:
     stems:
@@ -6412,6 +7797,10 @@
 μετατίθημι:
     stems:
         3+: μετεθηκ
+
+μετατρέπομαι:
+    stems:
+        1-: μετατρεπ
 
 μεταυδάω:
     stems:
@@ -6430,6 +7819,7 @@
         # 1-: {frozenset({'μετει{athematic}'}), frozenset({'μετει{athematic}', 'μετει'}), frozenset({'μετει{athematic}', 'μετεσ{athematic}'}), frozenset({'μετε'}), frozenset({'μετε{athematic}', 'μετεσ{athematic}'})}  # @0
         2-: μετεσσ
         # 3-: μετεισ  # @@@
+    stems:
 
 μετεῖπον:
     stems:
@@ -6437,8 +7827,12 @@
 
 μετέρχομαι:
     stems:
+        1-: μετερχ
         2-: μετελευσ
         3-: μετελθ{2nd}
+
+μετοίχομαι:
+    stems:
 
 μετοκλάζω:
     stems:
@@ -6454,23 +7848,31 @@
 
 μήδομαι:
     stems:
+        1-: μηδ
         # 3+: {frozenset({'μησ'}), frozenset({'ἐμησ'})}  # @0
+    stems:
 
 μηκάομαι:
     stems:
         1+: μεμηκ
         3-: μακ{2nd}
         # 4-: {frozenset({'μεμακ'}), frozenset({'μεμηκ', 'μεμηκα{athematic}'})}  # @0
+    stems:
 
 μηνίω:
     stems:
         1-: μηνι
         # 1+: {frozenset({'μηνι'}), frozenset({'ἐμηνι'})}  # @0
         3-: μηνισ
+    stems:
 
 μηρύομαι:
     stems:
         3+: μηρυσ
+
+μητιάω:
+    stems:
+        1-: μητιαα{athematic}
 
 μητίομαι:
     stems:
@@ -6478,19 +7880,32 @@
         3-: μητισ
         3+: ἐμητισ
 
+μηχανάομαι:
+    stems:
+        1-: μηχαναα{athematic}
+        1+: μηχαναα{athematic}
+
 μιαίνω:
     stems:
         3-: μιην
         6+: μιανθ
+    stems:
+
+μιγάζομαι:
+    stems:
+        1-: μιγαζ
 
 μίγνυμι:
     stems:
+        1-: μισγ
         # 1+: {frozenset({'ἐμισγ'}), frozenset({'μισγ'})}  # @0
         2-: μιξ
         3-: μιξ
         3+: ἐμιξ
+        5-: μεμιγ
         # 6-: {frozenset({'μιχθ'}), frozenset({'μιγ'})}  # @0
         # 6+: {frozenset({'ἐμιχθ'}), frozenset({'ἐμιγ'}), frozenset({'μιγ'}), frozenset({'μιχθ'})}  # @0
+    stems:
 
 μιμνάζω:
     stems:
@@ -6498,15 +7913,19 @@
 
 μιμνήσκω:
     stems:
+        1-: μιμνησκ
         2-: μνησ
         3-: μνησ
         # 3+: {frozenset({'μνησασκ{2nd}', 'μνησασκε{athematic}'}), frozenset({'ἐμνησ'}), frozenset({'μνησ'})}  # @0
+        5-: μεμνη
         6-: μνησθ
+    stems:
 
 μίμνω:
     stems:
         1-: μιμν
         # 1+: {frozenset({'ἐμιμν'}), frozenset({'ἐμιμν', 'ἐμιμνο{athematic}'}), frozenset({'μιμν'}), frozenset({'μιμν', 'μιμνο{athematic}'})}  # @0
+    stems:
 
 μινύθω:
     stems:
@@ -6518,9 +7937,16 @@
         1-: μινυριζ
         1+: μινυριζ
 
+μισέω:
+    stems:
+        3+: μισησ
+
 μιστύλλω:
     stems:
         1+: μιστυλλ
+
+μνάομαι:
+    stems:
 
 μνηστεύω:
     stems:
@@ -6532,15 +7958,20 @@
         1-: μογε/μογε{nocontract}
         3-: μογησ
         # 3+: {frozenset({'ἐμογησ', 'ἐμογησ{2nd}'}), frozenset({'ἐμογα{root}', 'ἐμογησ', 'ἐμογε{root}'}), frozenset({'ἐμογησ'}), frozenset({'μογησ', 'μογε{root}', 'μογα{root}'}), frozenset({'μογησ'})}  # @0
+    stems:
 
 μονόω:
     stems:
         3+: μουνωσ
         # 6-: {frozenset({'μουνωθ'}), frozenset({'μονωθ'})}  # @0
+    stems:
 
 μορμύρω:
     stems:
         1-: μορμυρ
+
+μορύσσω:
+    stems:
 
 μοχθέω:
     stems:
@@ -6554,6 +7985,14 @@
     stems:
         1+: ἐμοχλε/ἐμοχλε{nocontract}
 
+μυθέομαι:
+    stems:
+        1-: μυθε
+        2-: μυθησ
+        3-: μυθησ
+        3+: μυθησ
+    stems:
+
 μυθολογεύω:
     stems:
         1-: μυθολογευ
@@ -6564,9 +8003,17 @@
         4-: μεμυκ
         4+: μεμυκ
 
+μύρω:
+    stems:
+        1-: μυρ
+
 μύω:
     stems:
         3+: μυσ
+
+μωμάομαι:
+    stems:
+        2-: μωμησ
 
 μωμεύω:
     stems:
@@ -6576,6 +8023,7 @@
     stems:
         # 1-: {frozenset({'ναιετοη', 'ναιετοα'}), frozenset({'ναιετα', 'ναιετα0'}), frozenset({'ναιετα'}), frozenset({'ναιετοα'})}  # @0
         1+: ναιεταασκ
+    stems:
 
 ναίω:
     stems:
@@ -6583,6 +8031,7 @@
         # 1+: {frozenset({'ναι'}), frozenset({'ναιεσκ'}), frozenset({'ἐναι'})}  # @0
         3+: νασσ
         6+: νασθ
+    stems:
 
 ναρκάω:
     stems:
@@ -6591,6 +8040,9 @@
 νάσσω:
     stems:
         3+: ἐναξ/ἐναξ{2nd}
+
+ναυτίλλομαι:
+    stems:
 
 νάω:
     stems:
@@ -6602,6 +8054,10 @@
         # 1+: {frozenset({'νεικε'}), frozenset({'νεικει'}), frozenset({'ἐνεικε{nocontract}', 'ἐνεικε'}), frozenset({'νεικε', 'νεικε{nocontract}'}), frozenset({'νεικειεσκ'})}  # @0
         2-: νεικεσ
         # 3+: {frozenset({'νεικεσσ', 'νεικεσσ{2nd}'}), frozenset({'ἐνεικεσ'}), frozenset({'νεικεσ', 'νεικεσ{2nd}'})}  # @0
+    stems:
+
+νεμέθω:
+    stems:
 
 νεμεσάω:
     stems:
@@ -6612,6 +8068,12 @@
         3+: νεμεσησ
         6-: νεμεσσηθ
         6+: νεμεσσηθ
+    stems:
+
+νεμεσίζομαι:
+    stems:
+        1-: νεμεσιζ
+    stems:
 
 νέμω:
     stems:
@@ -6619,6 +8081,10 @@
         # 1+: {frozenset({'νεμ'}), frozenset({'ἐνεμ'})}  # @0
         3-: νειμ
         # 3+: {frozenset({'ἐνειμ{2nd}', 'ἐνειμ'}), frozenset({'νειμ', 'νειμ{2nd}'}), frozenset({'νειμ'}), frozenset({'ἐνειμ'})}  # @0
+    stems:
+
+νέομαι:
+    stems:
 
 νευστάζω:
     stems:
@@ -6653,6 +8119,7 @@
 
 νήχω:
     stems:
+        1-: νηχ
         1+: νηχ
 
 νίζω:
@@ -6662,6 +8129,7 @@
         2-: νιψ
         3-: νιψ
         3+: νιψ
+        5-: νενιπ
 
 νικάω:
     stems:
@@ -6671,12 +8139,18 @@
         3-: νικησ
         # 3+: {frozenset({'νικησ', 'νικησ{2nd}'}), frozenset({'ἐνικησ'}), frozenset({'νικησ'})}  # @0
         6-: νικηθ
+    stems:
 
 νίσσομαι:
     stems:
         2-: νισ
         3-: νισ{2nd}
         3+: νισ{2nd}
+    stems:
+
+νίφω:
+    stems:
+        1-: νιφ
 
 νοέω:
     stems:
@@ -6685,6 +8159,7 @@
         2-: νοησ
         3-: νοησ
         # 3+: {frozenset({'ἐνοησ{2nd}', 'ἐνοησ'}), frozenset({'ἐνοησ', 'ἐνοε{root}', 'ἐνοα{root}'}), frozenset({'νοησ'}), frozenset({'ἐνοησ'}), frozenset({'νοησ{2nd}', 'νοησ'})}  # @0
+    stems:
 
 νομεύω:
     stems:
@@ -6696,6 +8171,12 @@
         2-: νοστησ
         3-: νοστησ
         3+: νοστησ
+
+νοσφίζομαι:
+    stems:
+        1-: νοσφιζο
+        3-: νοσφισσ
+        3+: νοσφισ
 
 νύσσω:
     stems:
@@ -6709,6 +8190,7 @@
         # 1+: {frozenset({'ἐνωμο', 'ἐνωμα', 'ἐνωμη'}), frozenset({'νωμα'}), frozenset({'ἐνωμα'})}  # @0
         3-: νωμησ
         3+: νωμησ
+    stems:
 
 ξαίνω:
     stems:
@@ -6720,11 +8202,13 @@
         2-: ξεινισσ
         3-: ξεινισ
         # 3+: {frozenset({'ξεινισσ', 'ξεινισσ{2nd}'}), frozenset({'ξεινισ'}), frozenset({'ἐξεινισσ'}), frozenset({'ξεινισσ'})}  # @0
+    stems:
 
 ξέω:
     stems:
         1+: ἐξε
         # 3+: {frozenset({'ξεσσ{2nd}', 'ξεσσ'}), frozenset({'ἐξεσ', 'ἐξεσ{2nd}'})}  # @0
+    stems:
 
 ξηραίνω:
     stems:
@@ -6736,30 +8220,45 @@
 
 ὀαρίζω:
     stems:
+        1-: ὀαριζ
         1+: ὀαριζ
 
 ὁδεύω:
     stems:
         1-: ὁδευ
 
+ὀδύρομαι:
+    stems:
+        1-: ὀδυρ
+    stems:
+
 ὀδύσσομαι:
     stems:
         # 3+: {frozenset({'ὀδυσ'}), frozenset({'ὠδυσ'})}  # @0
+    stems:
 
 ὄζω:
     stems:
         4+: ὀδωδ
 
+ὄθομαι:
+    stems:
+        1-: ὀθ
+
 οἴγω:
     stems:
+        1+: ὠϊγνυ{athematic}
         3-: οἰξ
         # 3+: {frozenset({'ὠιξ', 'ὠιξ{2nd}'}), frozenset({'ὠϊξ'}), frozenset({'ὠϊξ', 'ὠϊξ{2nd}'}), frozenset({'ᾠξ{2nd}', 'ᾠξ'})}  # @0
+    stems:
 
 οἶδα:
     stems:
         # 2-: {frozenset({'εἰσ'}), frozenset({'εἰδησ'}), frozenset({'εἰσ', 'εἰσε{athematic}'})}  # @0
         # 4-: {frozenset({'εἰδε{athematic}'}), frozenset({'εἰδα{athematic}'}), frozenset({'ἰδ{athematic}'}), frozenset({'οἰδ{athematic}', 'οἰδ'}), frozenset({'ἰδε', 'ἰδα{athematic}'}), frozenset({'οἰδ'}), frozenset({'εἰδα{athematic}', 'εἰδε'}), frozenset({'ἰδ'}), frozenset({'εἰδα{athematic}', 'εἰδ'}), frozenset({'οἰδ{athematic}'}), frozenset({'ἰσ'}), frozenset({'εἰδ'}), frozenset({'εἰδε'})}  # @0
+        4-: εἰδ
         4+: ἰδ{athematic}
+    stems:
 
 οἰδάνω:
     stems:
@@ -6778,11 +8277,13 @@
     stems:
         1-: οἰκε/οἰκε{nocontract}
         # 1+: {frozenset({'ᾠκε', 'ᾠκε{nocontract}'}), frozenset({'ᾠκε', 'ᾠκε{athematic}'}), frozenset({'οἰκε{nocontract}', 'οἰκε'})}  # @0
+    stems:
 
 οἰκτείρω:
     stems:
         1-: οἰκτιρ
         # 1+: {frozenset({'ᾠκτειρ'}), frozenset({'ᾠκτιρ'})}  # @0
+    stems:
 
 οἰμάω:
     stems:
@@ -6792,6 +8293,9 @@
     stems:
         3-: οἰμωξ
         3+: ᾠμωξ
+
+οἰνίζομαι:
+    stems:
 
 οἰνοποτάζω:
     stems:
@@ -6805,6 +8309,7 @@
     stems:
         # 1+: {frozenset({'οἰνοχοε', 'οἰνοχοε{athematic}'}), frozenset({'ἐοινοχοε', 'ἐοινοχοε{athematic}'}), frozenset({'ἐῳνοχοε', 'ἐῳνοχοε{athematic}'})}  # @0
         3-: οἰνοχοησ
+    stems:
 
 οἰνόω:
     stems:
@@ -6817,15 +8322,22 @@
         # 3+: {frozenset({'ὀϊσ'}), frozenset({'οἰσ'})}  # @0
         6-: ὀϊσθ
         6+: ὠϊσθ
+    stems:
 
 ὀιστεύω:
     stems:
         1-: ὀϊστευ
+        3-: ὀϊστευσ
         # 3-: {frozenset({'οἰστευσ'}), frozenset({'ὀϊστευσ'})}  # @0
 
 οἰχνέω:
     stems:
         1+: οἰχνεσκ
+
+οἴχομαι:
+    stems:
+        1-: οἰχ
+        1+: ᾠχ
 
 οἴω:
     stems:
@@ -6865,12 +8377,18 @@
         # 3+: {frozenset({'ὀλεσσ{2nd}', 'ὀλεσσ'}), frozenset({'ὠλ{2nd}', 'ὠλε{athematic}'}), frozenset({'ὀλεσσ'}), frozenset({'ὠλεσ', 'ὠλε{athematic}'}), frozenset({'ὠλεσ'}), frozenset({'ὠλεσ{2nd}', 'ὠλεσ'}), frozenset({'ὀλο{athematic}', 'ὀλ{2nd}'}), frozenset({'ὀλεσ', 'ὀλε{athematic}'}), frozenset({'ὀλεσ{2nd}', 'ὀλεσ'})}  # @0
         4-: ὀλωλ
         4+: ὀλωλ
+    stems:
 
 ὀλολύζω:
     stems:
         1-: ὀλολυζ
         3-: ὀλολυξ
         3+: ὀλολυξ
+
+ὀλοφύρομαι:
+    stems:
+        1-: ὀλοφυρ
+        3+: ὀλοφυρ
 
 ὁμαδέω:
     stems:
@@ -6880,6 +8398,10 @@
     stems:
         1-: ὁμαρτε/ὁμαρτε{nocontract}
         3-: ὁμαρτησ
+
+ὁμηγυρίζομαι:
+    stems:
+        3-: ὁμηγυρισ
 
 ὁμηρέω:
     stems:
@@ -6899,12 +8421,14 @@
         2-: ὀμ{contract}
         # 3-: {frozenset({'ὀμοσσ{2nd}', 'ὀμοσσ'}), frozenset({'ὀμοσσ'}), frozenset({'ὀμοσ'}), frozenset({'ὀμοσσα{athematic}', 'ὀμοσσ'})}  # @0
         # 3+: {frozenset({'ὠμοσ'}), frozenset({'ὠμοσσ', 'ὠμοσσα{athematic}'}), frozenset({'ὀμ{2nd}', 'ὀμοσ', 'ὀμο{athematic}'}), frozenset({'ὠμοσ', 'ὠμοσ{2nd}'})}  # @0
+    stems:
 
 ὁμοκλέω:
     stems:
         # 1+: {frozenset({'ὁμοκλε', 'ὁμοκλε{nocontract}', 'ὁμοκλεο{athematic}'}), frozenset({'ὁμοκλε', 'ὁμοκλε{nocontract}'}), frozenset({'ὁμοκλα'})}  # @0
         3-: ὁμοκλησ
         # 3+: {frozenset({'ὁμοκλε{root}', 'ὁμοκλησ', 'ὁμοκλα{root}'}), frozenset({'ὁμοκλησασκ{2nd}', 'ὁμοκλησασκ'})}  # @0
+    stems:
 
 ὀμόργνυμι:
     stems:
@@ -6933,18 +8457,21 @@
     stems:
         2-: ὀνησ
         # 3+: {frozenset({'ὀνησ'}), frozenset({'ὠνησ'}), frozenset({'ὠνε{root}', 'ὠνησ', 'ὠνα{root}'})}  # @0
+    stems:
 
 ὀνομάζω:
     stems:
         1-: ὀνομαζ
         1+: ὀνομαζ
         # 3+: {frozenset({'ὀνομαξ{2nd}', 'ὀνομαξ'}), frozenset({'ὠνομασ'})}  # @0
+    stems:
 
 ὄνομαι:
     stems:
         2-: ὀνοσσ
         # 3-: {frozenset({'ὀνοσ'}), frozenset({'ὀνοσσα{root}', 'ὀνοσσ'})}  # @0
         # 3+: {frozenset({'ὠν'}), frozenset({'ὠνοσ'})}  # @0
+    stems:
 
 ὀνομαίνω:
     stems:
@@ -6963,6 +8490,10 @@
         2-: ὀπασσ
         # 3-: {frozenset({'ὀπασ'}), frozenset({'ὀπασσα{root}', 'ὀπασσ'}), frozenset({'ὀπασσ'})}  # @0
         # 3+: {frozenset({'ὠπασ', 'ὠπασ{2nd}'}), frozenset({'ὠπασ'}), frozenset({'ὀπασσ{2nd}', 'ὀπασσ'}), frozenset({'ὀπασσ'})}  # @0
+    stems:
+
+ὀπίζομαι:
+    stems:
 
 ὀπιπτεύω:
     stems:
@@ -6978,6 +8509,10 @@
     stems:
         # 3-: {frozenset({'ὁπλισ'}), frozenset({'ὁπλισσ'})}  # @0
         # 3+: {frozenset({'ὡπλισσ', 'ὡπλισσ{2nd}'}), frozenset({'ὡπλισσ'}), frozenset({'ὁπλισσ'})}  # @0
+    stems:
+
+ὅπλομαι:
+    stems:
 
 ὀπτάω:
     stems:
@@ -6985,11 +8520,13 @@
         3-: ὀπτησ
         # 3+: {frozenset({'ὠπτησ{2nd}', 'ὠπτησ'}), frozenset({'ὠπτα{root}', 'ὠπτε{root}', 'ὠπτησ'}), frozenset({'ὀπτα{root}', 'ὀπτε{root}', 'ὀπτησ'})}  # @0
         6-: ὀπτηθ
+    stems:
 
 ὀπυίω:
     stems:
         1-: ὀπυι
         # 1+: {frozenset({'ὀπυι'}), frozenset({'ὠπυι'})}  # @0
+    stems:
 
 ὁράω:
     stems:
@@ -6999,6 +8536,7 @@
         3-: ὀψ{2nd}
         4-: ὀπωπ
         4+: ὀπωπ
+    stems:
 
 ὀρέγνυμι:
     stems:
@@ -7010,6 +8548,7 @@
         2-: ὀρεξ
         3-: ὀρεξ
         # 3+: {frozenset({'ὀρεξ'}), frozenset({'ὠρεξ', 'ὠρεξ{2nd}'}), frozenset({'ὠρεξ'})}  # @0
+    stems:
 
 ὀρεχθέω:
     stems:
@@ -7028,18 +8567,21 @@
         # 3+: {frozenset({'ὀριν', 'ὀριν{2nd}'}), frozenset({'ὠριν'}), frozenset({'ὀριν'})}  # @0
         6-: ὀρινθ
         # 6+: {frozenset({'ὀρινθ'}), frozenset({'ὠρινθ'})}  # @0
+    stems:
 
 ὁρμαίνω:
     stems:
         1-: ὁρμαιν
         # 1+: {frozenset({'ὁρμαιν'}), frozenset({'ὡρμαιν'})}  # @0
         3+: ὡρμην
+    stems:
 
 ὁρμάω:
     stems:
         3-: ὁρμησ
         6-: ὁρμηθ
         # 6+: {frozenset({'ὡρμηθ'}), frozenset({'ὁρμηθ'})}  # @0
+    stems:
 
 ὁρμέω:
     stems:
@@ -7048,6 +8590,7 @@
 
 ὁρμίζω:
     stems:
+        3-: ὁρμισσ
         3+: ὡρμισ
 
 ὄρνυμι:
@@ -7059,12 +8602,19 @@
         # 3+: {frozenset({'ὀρσ', 'ὀρσ{2nd}'}), frozenset({'ὠρσ'}), frozenset({'ὀρε{2nd}', 'ὀρεο{athematic}'}), frozenset({'ὠρορ{2nd}', 'ὠρορ'}), frozenset({'ὠρσ', 'ὠρσ{2nd}'}), frozenset({'ὠρε{athematic}', 'ὠρ{2nd}'})}  # @0
         4-: ὀρωρ
         # 4+: {frozenset({'ὀρωρ'}), frozenset({'ὠρωρ'})}  # @0
+    stems:
 
 ὀροθύνω:
     stems:
         1-: ὀροθυν
         1+: ὀροθυν
         3-: ὀροθυν
+        3+: ὀροθυν
+
+ὄρομαι:
+    stems:
+        1-: ὀρ
+    stems:
 
 ὀρούω:
     stems:
@@ -7081,6 +8631,11 @@
     stems:
         3-: ὀρχησ
 
+ὄσσομαι:
+    stems:
+        1+: ὀσσ
+    stems:
+
 ὀτρύνω:
     stems:
         1-: ὀτρυν
@@ -7088,6 +8643,7 @@
         2-: ὀτρυνε
         3-: ὀτρυν
         # 3+: {frozenset({'ὀτρυν', 'ὀτρυν{2nd}'}), frozenset({'ὠτρυν'})}  # @0
+    stems:
 
 οὔλω:
     stems:
@@ -7099,6 +8655,7 @@
         1+: οὐταζ
         3-: οὐτασ
         3+: οὐτασ
+    stems:
 
 οὐτάω:
     stems:
@@ -7107,17 +8664,20 @@
         # 3-: {frozenset({'οὐταμεν'}), frozenset({'οὐτ'}), frozenset({'οὐτ', 'οὐτα{athematic}'})}  # @0
         # 3+: {frozenset({'οὐτησ', 'οὐτησ{2nd}'}), frozenset({'οὐτησασκ{2nd}', 'οὐτησασκ'})}  # @0
         6-: οὐτηθ
+    stems:
 
 ὀφείλω:
     stems:
         1+: ὀφειλ
         # 3+: {frozenset({'ὀφελ{2nd}'}), frozenset({'ὠφελ{2nd}'})}  # @0
+    stems:
 
 ὀφέλλω:
     stems:
         1-: ὀφελλ
         # 1+: {frozenset({'ὠφελλ'}), frozenset({'ὀφελλ', 'ὀφελλε{athematic}'}), frozenset({'ὀφελλ'})}  # @0
         3+: ὠφελλ
+    stems:
 
 ὀχέω:
     stems:
@@ -7153,6 +8713,10 @@
     stems:
         1+: ἐπαλαι
         2-: παλαισ
+        3+: ἐπαλαισ
+
+παλάσσω:
+    stems:
 
 παλιμπλάζομαι:
     stems:
@@ -7170,25 +8734,40 @@
         1-: παλυν
         1+: παλυν
         3-: παλυν
+        3+: παλυν
 
 παμφαίνω:
     stems:
         1-: παμφαιν
         1+: παμφαιν
 
+πάομαι:
+    stems:
+
 παπταίνω:
     stems:
         1-: παπταιν
         3-: παπτην
+        3+: παπτην
 
 παραβαίνω:
     stems:
         1+: παρεβασκ
         4-: παρβεβα
 
+παραβάλλω:
+    stems:
+
 παραβλώσκω:
     stems:
         4-: παρμεμβλωκ
+
+παραγίγνομαι:
+    stems:
+
+παραδαρθάνω:
+    stems:
+        3+: παρεδραθ
 
 παραδείκνυμι:
     stems:
@@ -7215,6 +8794,11 @@
     stems:
         3+: παρακαββαλ{2nd}
 
+παράκειμαι:
+    stems:
+        1-: παρακει{athematic}
+        1+: παρεκει{athematic}
+
 παρακλίνω:
     stems:
         3-: παρακλιν
@@ -7235,21 +8819,42 @@
     stems:
         3-: παραμειψ
 
+παραμένω:
+    stems:
+        1-: παρμεν
+        3+: παρεμειν
+
 παραμίμνω:
     stems:
         1-: παραμιμν
+
+παραμυθέομαι:
+    stems:
+        3-: παραμυθησ
 
 παρανηνέω:
     stems:
         1+: παρενηνε/παρενηνε{nocontract}
 
+παραπαφίσκω:
+    stems:
+        3+: παρηπαφ
+
 παραπείθω:
     stems:
         # 3-: {frozenset({'παρπεπιθο{root}', 'παρπεπιθ{2nd}'}), frozenset({'παραιπεπιθο{root}', 'παραιπεπιθ{2nd}', 'παραιπεπιθο{athematic}'}), frozenset({'παρπεπιθ{2nd}'})}  # @0
+    stems:
+        3+: παρεπεισ
+    stems:
+
+παραπέμπω:
+    stems:
+        3+: παρεπεμψ
 
 παραπλάζω:
     stems:
         3-: παραπλαγξ
+        3+: παρεπλαγξ
         6+: παρεπλαγχθ
 
 παραπλέω:
@@ -7259,6 +8864,10 @@
 παραπνέω:
     stems:
         3-: παραπνευσ
+
+παρασφάλλω:
+    stems:
+        3+: παρεσφηλ
 
 παρατεκταίνομαι:
     stems:
@@ -7270,6 +8879,7 @@
         2-: παραθησ
         # 3-: {frozenset({'παρθε{athematic}'}), frozenset({'παραθε{athematic}'})}  # @0
         # 3+: {frozenset({'παρθε{athematic}', 'παρθεσ'}), frozenset({'παρεθηκ', 'παρεθηκ{2nd}'})}  # @0
+    stems:
 
 παρατρέπω:
     stems:
@@ -7304,11 +8914,15 @@
     stems:
         3-: παραφθα{root}
 
+παρέζομαι:
+    stems:
+
 πάρειμι:
     stems:
         # 1-: {frozenset({'παρε', 'παρε0', 'παρε{nocontract}'}), frozenset({'παρει{athematic}', 'παρεσ{athematic}'}), frozenset({'παρεο{athematic}'}), frozenset({'παρε{athematic}', 'παρεσ{athematic}'}), frozenset({'παρεσ{athematic}'})}  # @0
         1+: παρε{athematic}
         # 2-: {frozenset({'παρεσσ'}), frozenset({'παρεσ{athematic}'}), frozenset({'παρεσσε{athematic}', 'παρεσσ'})}  # @0
+    stems:
 
 παρεῖπον:
     stems:
@@ -7319,14 +8933,25 @@
         3-: παρελασσ
         3+: παρηλασ
 
+παρέλκω:
+    stems:
+
+παρεξελαύνω:
+    stems:
+        3-: παρεξελασ  # @1
+
 παρεξέρχομαι:
     stems:
         3-: παρεξελθ{2nd}
 
 παρέρχομαι:
     stems:
+        1-: παρερχ
         3-: παρελθ{2nd}
         3+: παρηλθ{2nd}
+
+παρευνάζομαι:
+    stems:
 
 παρέχω:
     stems:
@@ -7334,6 +8959,15 @@
         # 1+: {frozenset({'παρειχ'}), frozenset({'παρεχ'})}  # @0
         2-: παρεξ
         3-: παρασχ{2nd}
+    stems:
+
+παρήμαι:
+    stems:
+        1-: παρη{athematic}
+
+πάρημαι:
+    stems:
+        1-: παρη{athematic}
 
 παριαύω:
     stems:
@@ -7345,20 +8979,27 @@
 
 παρίστημι:
     stems:
+        1-: παριστα{athematic}
+        1+: παριστα{athematic}
         2-: παραστησ
         # 3-: {frozenset({'παρστη{athematic}', 'παρστα{root}'}), frozenset({'παραστα{root}'}), frozenset({'παρστα{root}'})}  # @0
         3+: παρεστ
         4+: παρεστ
+    stems:
 
 παρίσχω:
     stems:
         1-: παρισχ
+
+παροίχομαι:
+    stems:
 
 πάσσω:
     stems:
         1-: πασσ
         # 1+: {frozenset({'πασσ'}), frozenset({'ἐπασσ'})}  # @0
         3+: πασ
+    stems:
 
 πάσχω:
     stems:
@@ -7369,6 +9010,7 @@
         # 3+: {frozenset({'παθ{2nd}'}), frozenset({'ἐπαθ{2nd}'}), frozenset({'παθο{athematic}', 'παθ{2nd}'})}  # @0
         4-: πεπονθ
         4+: ἐπεπονθ
+    stems:
 
 πατάσσω:
     stems:
@@ -7379,6 +9021,7 @@
     stems:
         # 3-: {frozenset({'πασσ'}), frozenset({'πασ'})}  # @0
         3+: πασ
+    stems:
 
 πατέω:
     stems:
@@ -7391,16 +9034,22 @@
         2-: παυσ
         3-: παυσ
         # 3+: {frozenset({'ἐπαυσ{2nd}', 'ἐπαυσ'}), frozenset({'παυσ', 'παυσ{2nd}'}), frozenset({'παυσ'}), frozenset({'παυσα{athematic}'}), frozenset({'ἐπαυσα{athematic}'}), frozenset({'ἐπαυσ'}), frozenset({'παυσα{athematic}', 'παυσ'})}  # @0
+        5-: πεπαυ
+    stems:
 
 παφλάζω:
     stems:
         1-: παφλαζ
+
+παχνόω:
+    stems:
 
 πεδάω:
     stems:
         1+: πεδαασκ
         3-: πεδησ
         # 3+: {frozenset({'ἐπεδησ', 'ἐπεδησ{2nd}'}), frozenset({'πεδησ{2nd}', 'πεδησ'})}  # @0
+    stems:
 
 πείθω:
     stems:
@@ -7411,6 +9060,7 @@
         # 3+: {frozenset({'πιθο{athematic}', 'πιθ{2nd}'}), frozenset({'ἐπιθο{athematic}', 'ἐπιθ{2nd}'})}  # @0
         4-: πεποιθ
         4+: ἐπεποιθ
+    stems:
 
 πεινάω:
     stems:
@@ -7420,6 +9070,10 @@
     stems:
         1-: πειραζ
 
+πειραίνω:
+    stems:
+        3-: πειρην
+
 πειράω:
     stems:
         1-: πειρα
@@ -7428,6 +9082,7 @@
         # 3+: {frozenset({'ἐπειρησ'}), frozenset({'πειρησ'})}  # @0
         6-: πειρηθ
         6+: πειρηθ
+    stems:
 
 πειρητίζω:
     stems:
@@ -7439,6 +9094,8 @@
         1-: πειρ
         # 1+: {frozenset({'πειρ'}), frozenset({'ἐπειρ'})}  # @0
         # 3+: {frozenset({'πειρ'}), frozenset({'ἐπειρ'})}  # @0
+        5-: πεπαρ
+    stems:
 
 πέκω:
     stems:
@@ -7450,11 +9107,19 @@
         1-: πελαζ
         # 3-: {frozenset({'πελασσ', 'πελασσ{2nd}'}), frozenset({'πελασσ', 'πελασσα{athematic}'}), frozenset({'πελασ', 'πελασ{2nd}'}), frozenset({'πελασσ'}), frozenset({'πελασ'})}  # @0
         # 3+: {frozenset({'πελασ', 'πελασ{2nd}'}), frozenset({'ἐπελασσ{2nd}', 'ἐπελασσ'}), frozenset({'πελασσ', 'πελασσ{2nd}'}), frozenset({'πελασ'})}  # @0
+        5-: πεπλη
         6+: πελασθ
+    stems:
+
+πελεκάω:
+    stems:
+        3+: πελεκκησ
 
 πελεμίζω:
     stems:
+        1-: πελεμιζ
         3-: πελεμιξ
+        3+: πελεμιξ
         6+: πελεμιχθ
 
 πέλω:
@@ -7469,10 +9134,20 @@
         2-: πεμψ
         3-: πεμψ
         # 3+: {frozenset({'ἐπεμψ{2nd}', 'ἐπεμψ'}), frozenset({'πεμψ'}), frozenset({'ἐπεμψ'})}  # @0
+    stems:
 
 πενθέω:
     stems:
+        1-: πενθει
         3-: πενθησ
+
+πένομαι:
+    stems:
+
+πέπνυμαι:
+    stems:
+        5-: πεπνυ
+    stems:
 
 περαιόω:
     stems:
@@ -7485,12 +9160,19 @@
         2-: περησ
         # 3-: {frozenset({'περασ{2nd}', 'περασ'}), frozenset({'περασ'}), frozenset({'περησ{2nd}', 'περησ'}), frozenset({'περησ'})}  # @0
         # 3+: {frozenset({'περασ'}), frozenset({'ἐπερασσ', 'ἐπερασσ{2nd}'}), frozenset({'ἐπερησ'}), frozenset({'περησ', 'περησα{athematic}'}), frozenset({'ἐπερασσ'}), frozenset({'ἐπερησ{2nd}', 'ἐπερησ'}), frozenset({'περησ{2nd}', 'περησ'})}  # @0
+    stems:
 
 πέρθω:
     stems:
+        1-: περθ
         2-: περσ
         3-: περσ
         # 3+: {frozenset({'περσ'}), frozenset({'ἐπραθ{2nd}'}), frozenset({'περσ', 'περσ{2nd}'})}  # @0
+    stems:
+
+περιάγνυμι:
+    stems:
+        1-: περιαγνυ{athematic}
 
 περιβαίνω:
     stems:
@@ -7501,6 +9183,9 @@
     stems:
         1-: περιβαλλ
         1+: περιβαλλ
+
+περιγίγνομαι:
+    stems:
 
 περιγνάμπτω:
     stems:
@@ -7528,11 +9213,23 @@
     stems:
         1-: περιει{athematic}
 
+περιηχέω:
+    stems:
+        3+: περιηχησ
+
 περιίστημι:
     stems:
         1-: περιστα{athematic}
         3+: περιστησ
         6+: περισταθ
+
+περίκειμαι:
+    stems:
+        1-: περικει{athematic}
+        1+: περικει{athematic}
+
+περικήδομαι:
+    stems:
 
 περιναιετάω:
     stems:
@@ -7541,6 +9238,10 @@
 περίοιδα:
     stems:
         4-: περιοιδ
+
+περιπέλομαι:
+    stems:
+        1-: περιπλ
 
 περιπλέκω:
     stems:
@@ -7560,6 +9261,9 @@
         1-: περισσαιν
         1+: περισσαιν
 
+περισείομαι:
+    stems:
+
 περισθενέω:
     stems:
         1-: περισθενε/περισθενε{nocontract}
@@ -7572,6 +9276,15 @@
     stems:
         3-: περιστειλ
 
+περιστεναχίζομαι:
+    stems:
+
+περιστεναχίζω:
+    stems:
+
+περιστένω:
+    stems:
+
 περιστέφω:
     stems:
         1-: περιστεφ
@@ -7582,11 +9295,19 @@
 
 περιτέλλομαι:
     stems:
+        1-: περιτελλ
         3-: περιτελλ{2nd}
+
+περιτέμνω:
+    stems:
+        1-: περιταμν
 
 περιτίθημι:
     stems:
         3-: περιθε{athematic}
+
+περιτρέφομαι:
+    stems:
 
 περιτρέχω:
     stems:
@@ -7596,9 +9317,16 @@
     stems:
         3+: περιτρεσ
 
+περιτρομέω:
+    stems:
+
 περιτροπέω:
     stems:
         1-: περιτροπε/περιτροπε{nocontract}
+
+περιφαίνομαι:
+    stems:
+        1-: περιφαιν
 
 περιφύομαι:
     stems:
@@ -7617,10 +9345,15 @@
 πέρνημι:
     stems:
         1-: περνα{athematic}
+        5-: πεπερη
 
 περονάω:
     stems:
+        1+: περονα
         3+: περονησ
+
+πεσσεύω:
+    stems:
 
 πέσσω:
     stems:
@@ -7628,23 +9361,36 @@
 
 πετάννυμι:
     stems:
+        3-: πετασ
         # 3-: {frozenset({'πετασσ'}), frozenset({'πετασ'})}  # @0
         # 3+: {frozenset({'πετασσ'}), frozenset({'πετασ'})}  # @0
+        5-: πεπτα
+        5+: πεπτα
         6-: πετασθ
         6+: πετασθ
+    stems:
 
 πέτομαι:
     stems:
+        1-: πετ
         # 3-: {frozenset({'πτε{athematic}'}), frozenset({'πτ', 'πτα{root}'})}  # @0
         3+: ἐπτ
+    stems:
+
+πεύθομαι:
+    stems:
+        1-: πευθ
+    stems:
 
 πήγνυμι:
     stems:
+        1-: πηγνυ{athematic}
         2-: πηξ
         3-: πηξ
         # 3+: {frozenset({'ἐπηξ', 'ἐπηξ{2nd}'}), frozenset({'πηξα{athematic}', 'πηξ'}), frozenset({'πηξ', 'πηξ{2nd}'})}  # @0
         # 4+: {frozenset({'πεπηγ'}), frozenset({'ἐπεπηγ'})}  # @0
         # 6+: {frozenset({'ἐπαγ'}), frozenset({'παγ'})}  # @0
+    stems:
 
 πηδάω:
     stems:
@@ -7664,9 +9410,19 @@
         1-: πιεζ
         # 1+: {frozenset({'ἐπιεζ'}), frozenset({'πιεζ'})}  # @0
         6-: πιεσθ
+    stems:
+
+πιλνάω:
+    stems:
+        1-: πιλνα{athematic}
+        1+: πιλνα{athematic}
+
+πιμπλάνομαι:
+    stems:
 
 πίμπλημι:
     stems:
+        1+: πιμπλα{athematic}
         3-: πλησ
         3+: πλησ
         6+: ἐπλησθ
@@ -7675,6 +9431,10 @@
     stems:
         3-: πρησ
 
+πινύσκω:
+    stems:
+        3+: ἐπινυσσ
+
 πίνω:
     stems:
         1-: πιν
@@ -7682,6 +9442,7 @@
         2-: πι
         3-: πι{2nd}
         # 3+: {frozenset({'πι{2nd}'}), frozenset({'ἐπι{2nd}'})}  # @0
+    stems:
 
 πίπτω:
     stems:
@@ -7691,6 +9452,7 @@
         3-: πεσ{2nd}
         # 3+: {frozenset({'πεσ{2nd}'}), frozenset({'ἐπεσ{2nd}'}), frozenset({'πεσ', 'πεσ{2nd}'}), frozenset({'ἐπεσ{2nd}', 'ἐπεσ'})}  # @0
         # 4-: {frozenset({'πεπτεα{athematic}'}), frozenset({'πεπτη', 'πεπτηα{athematic}'}), frozenset({'πεπτηα{athematic}'})}  # @0
+    stems:
 
 πιστόω:
     stems:
@@ -7724,6 +9486,7 @@
     stems:
         # 1-: {frozenset({'πλει'}), frozenset({'πλεε', 'πλε', 'πλεο', 'πλε0'}), frozenset({'πλω'}), frozenset({'πλε', 'πλε0', 'πλε{nocontract}'}), frozenset({'πλει0', 'πλει'})}  # @0
         # 1+: {frozenset({'πλε', 'πλεο{athematic}', 'πλε{nocontract}'}), frozenset({'ἐπλεο{athematic}', 'ἐπλε', 'ἐπλε{nocontract}'}), frozenset({'πλε'}), frozenset({'ἐπλε', 'ἐπλε{nocontract}'}), frozenset({'πλω'}), frozenset({'ἐπλε'})}  # @0
+    stems:
 
 πλήθω:
     stems:
@@ -7737,6 +9500,10 @@
         4-: πεπληγ
         6-: πληγ
         6+: πληγ
+    stems:
+
+πλίσσομαι:
+    stems:
 
 πλύνω:
     stems:
@@ -7749,6 +9516,7 @@
     stems:
         # 1-: {frozenset({'πνε'}), frozenset({'πνει0', 'πνει'}), frozenset({'πνει'})}  # @0
         3-: πνευσ
+    stems:
 
 ποθέω:
     stems:
@@ -7756,13 +9524,16 @@
         # 1+: {frozenset({'ποθεεσκ'}), frozenset({'ποθε{nocontract}', 'ποθε'}), frozenset({'ποθε', 'ποθε{athematic}'})}  # @0
         3-: ποθεσ
         3+: ποθεσ
+    stems:
 
 ποιέω:
     stems:
+        1-: ποιε{nocontract}
         # 1+: {frozenset({'ποιε{athematic}', 'ποιε'}), frozenset({'ποιε{nocontract}', 'ποιε'}), frozenset({'ἐποιε', 'ἐποιε{athematic}'})}  # @0
         2-: ποιησ
         3-: ποιησ
         # 3+: {frozenset({'ἐποια{root}', 'ἐποιε{root}', 'ἐποιησ'}), frozenset({'ποιησ'}), frozenset({'ποιησ{2nd}', 'ποιησ'}), frozenset({'ποιε{root}', 'ποιησ', 'ποια{root}'})}  # @0
+    stems:
 
 ποικίλλω:
     stems:
@@ -7771,12 +9542,14 @@
 ποιμαίνω:
     stems:
         1-: ποιμαιν
+    stems:
 
 ποιπνύω:
     stems:
         1-: ποιπνυ
         # 1+: {frozenset({'ἐποιπνυ'}), frozenset({'ποιπνυ'})}  # @0
         3-: ποιπνυσ
+    stems:
 
 πολεμίζω:
     stems:
@@ -7785,6 +9558,7 @@
         # 2-: {frozenset({'πολεμιξ'}), frozenset({'πτολεμιξ'})}  # @0
         3-: πτολεμιξ{2nd}
         3+: πολεμιξ{2nd}
+    stems:
 
 πολεύω:
     stems:
@@ -7793,6 +9567,7 @@
 πολίζω:
     stems:
         3+: πολισσ
+    stems:
 
 πομπεύω:
     stems:
@@ -7801,6 +9576,9 @@
 πονέω:
     stems:
         3-: πονησ
+        3+: πονησ
+        5+: πεπονη
+    stems:
 
 ποντοπορεύω:
     stems:
@@ -7813,6 +9591,7 @@
 πορθέω:
     stems:
         # 1+: {frozenset({'ἐπορθε', 'ἐπορθε{nocontract}'}), frozenset({'πορθε{nocontract}', 'πορθε'})}  # @0
+    stems:
 
 πορσύνω:
     stems:
@@ -7828,6 +9607,11 @@
     stems:
         3-: πορ{2nd}
         # 3+: {frozenset({'πορ{2nd}'}), frozenset({'ἐπορ{2nd}'}), frozenset({'πορ', 'πορ{2nd}'})}  # @0
+        5-: πεπρω
+    stems:
+
+ποτάομαι:
+    stems:
 
 ποτινίσσομαι:
     stems:
@@ -7835,6 +9619,7 @@
 
 ποτιπτύσσω:
     stems:
+        1-: ποτιπτυσσο
         2-: προσπτυξ
         3+: προσπτυξ
 
@@ -7855,6 +9640,10 @@
     stems:
         3+: πρησ
 
+πρίαμαι:
+    stems:
+        1+: πρια{athematic}
+
 προβαίνω:
     stems:
         4-: προβεβηκ
@@ -7863,6 +9652,7 @@
     stems:
         3-: προβαλ{2nd}
         # 3+: {frozenset({'προβαλ{2nd}', 'προβαλο{athematic}'}), frozenset({'προβαλεσκ{2nd}', 'προβαλεσκ'})}  # @0
+    stems:
 
 προβέβουλα:
     stems:
@@ -7882,6 +9672,10 @@
         1-: προβλωσκ
         3-: προμολ{2nd}
         3+: προμολ{2nd}
+
+προβοάω:
+    stems:
+        1-: προβοα
 
 προγίγνομαι:
     stems:
@@ -7915,10 +9709,13 @@
 προέχω:
     stems:
         1-: προὐχ
+    stems:
 
 προθέω:
     stems:
         1+: προθεεσκ
+    stems:
+        3-: προθε  # @1
 
 προθρώσκω:
     stems:
@@ -7931,13 +9728,16 @@
 προιάπτω:
     stems:
         2-: προϊαψ
+        3+: προϊαψ
 
 προίημι:
     stems:
+        1-: προϊε
         # 1-: {frozenset({'προϊε'}), frozenset({'προϊε{athematic}'})}  # @0
         1+: προϊε{athematic}
         3-: προε{athematic}
         # 3+: {frozenset({'προεηκ'}), frozenset({'προηκ', 'προηκ{2nd}'}), frozenset({'προεσ', 'προε{athematic}'}), frozenset({'προεηκ', 'προεηκ{2nd}'})}  # @0
+    stems:
 
 προίστημι:
     stems:
@@ -7952,6 +9752,19 @@
         3-: προκαλεσσ
         3+: προκαλεσσ
 
+προκαλίζομαι:
+    stems:
+
+πρόκειμαι:
+    stems:
+        1-: προκει{athematic}
+
+προκυλίνδομαι:
+    stems:
+
+προλέγω:
+    stems:
+
 προλείπω:
     stems:
         3-: προλιπ{2nd}
@@ -7959,6 +9772,9 @@
 προμαχίζω:
     stems:
         1-: προμαχιζ
+
+προμάχομαι:
+    stems:
 
 προμίγνυμι:
     stems:
@@ -7980,6 +9796,9 @@
 προποδίζω:
     stems:
         1-: προποδιζ
+
+προπροκυλίνδομαι:
+    stems:
 
 προρέω:
     stems:
@@ -8015,6 +9834,14 @@
     stems:
         3-: προσβα{root}
         # 3+: {frozenset({'προσεβησε{athematic}', 'προσεβησ{2nd}'}), frozenset({'προσεβ'})}  # @0
+    stems:
+
+προσδέρκομαι:
+    stems:
+
+προσδέχομαι:
+    stems:
+        3-: ποτιδεγ{athematic}
 
 προσειλέω:
     stems:
@@ -8029,18 +9856,34 @@
         3-: προτιειπ{2nd}
         3+: προσεειπ{2nd}
 
+προσερεύγομαι:
+    stems:
+
 προσθέω:
     stems:
         1+: προσεθε
+
+πρόσκειμαι:
+    stems:
+        1+: προσεκει{athematic}
 
 προσκλίνω:
     stems:
         1+: προσεκλιν
         3+: προσεκλιν
+        5-: ποτικεκλι
+
+προσμυθέομαι:
+    stems:
+        3-: προτιμυθησ
 
 προσπελάζω:
     stems:
         3-: προσπελασ
+
+προσπίλναμαι:
+    stems:
+        1+: προσεπιλνα{athematic}
 
 προσπίπτω:
     stems:
@@ -8059,6 +9902,10 @@
     stems:
         1-: ποτιτερπ
 
+προστίθημι:
+    stems:
+        3+: προσεθηκ
+
 πρόσφημι:
     stems:
         1+: προσεφα{athematic}
@@ -8075,9 +9922,20 @@
     stems:
         3-: προταμ{2nd}
 
+προτεύχω:
+    stems:
+
+προτίθημι:
+    stems:
+        3+: προυθηκ
+
+προτιόσσομαι:
+    stems:
+
 προτρέπω:
     stems:
         3-: προτραπ{2nd}
+    stems:
 
 προτύπτω:
     stems:
@@ -8086,6 +9944,8 @@
 προφαίνω:
     stems:
         1+: προυφαιν
+        5-: προπεφαν
+        6-: προφαν
 
 προφέρω:
     stems:
@@ -8098,18 +9958,29 @@
 προχέω:
     stems:
         1-: προχε
+    stems:
+
+πταίρω:
+    stems:
+        3+: ἐπταρ
 
 πτήσσω:
     stems:
         # 3+: {frozenset({'πτηξ', 'πτηξ{2nd}'}), frozenset({'ἐπτηξ'})}  # @0
+    stems:
 
 πτύσσω:
     stems:
         3-: πτυξ
+    stems:
 
 πτύω:
     stems:
         1-: πτυ
+
+πτωσκάζω:
+    stems:
+        1-: πτωσκαζ
 
 πτώσσω:
     stems:
@@ -8123,6 +9994,7 @@
 
 πύθω:
     stems:
+        1-: πυθ
         2-: πυσ
 
 πυκάζω:
@@ -8130,12 +10002,15 @@
         1-: πυκαζ
         3-: πυκασ
         3+: πυκασ
+        5-: πεπυκασ
 
 πυνθάνομαι:
     stems:
         2-: πευσ
         3-: πυθ{2nd}
         # 3+: {frozenset({'πυθο{athematic}', 'πυθ{2nd}'}), frozenset({'ἐπυθο{athematic}', 'ἐπυθ{2nd}'})}  # @0
+        5-: πεπυσ
+    stems:
 
 πυρακτέω:
     stems:
@@ -8149,12 +10024,20 @@
     stems:
         1-: πυρπολε/πυρπολε{nocontract}
 
+πωλέομαι:
+    stems:
+
+πωτάομαι:
+    stems:
+
 ῥαίνω:
     stems:
         3-: ῥασσ
+    stems:
 
 ῥαίω:
     stems:
+        1-: ῥαι
         1+: ἐρραι
         3-: ῥαισ
         6+: ἐρραισθ
@@ -8165,6 +10048,7 @@
         # 1+: {frozenset({'ῥαπτ', 'ῥαπτο{athematic}'}), frozenset({'ἐραπτο{athematic}', 'ἐραπτ'})}  # @0
         3-: ῥαψ
         3+: ῥαψ{2nd}
+    stems:
 
 ῥέζω:
     stems:
@@ -8174,6 +10058,7 @@
         3-: ῥεξ
         # 3+: {frozenset({'ἐρρεξ{2nd}', 'ἐρρεξ'}), frozenset({'ἐρεξ'}), frozenset({'ἐρεξ', 'ἐρεξα{athematic}'}), frozenset({'ἐρεξ', 'ἐρεξ{2nd}'})}  # @0
         6-: ῥεχθ
+    stems:
 
 ῥέπω:
     stems:
@@ -8184,6 +10069,7 @@
         1-: ῥε
         # 1+: {frozenset({'ἐρρε{nocontract}', 'ἐρρε'}), frozenset({'ἐρρε'}), frozenset({'ἐρρε', 'ἐρρε{athematic}'}), frozenset({'ῥε'})}  # @0
         6+: ῥυ
+    stems:
 
 ῥήγνυμι:
     stems:
@@ -8192,6 +10078,7 @@
         2-: ῥηξ
         3-: ῥηξ
         # 3+: {frozenset({'ῥηξ', 'ῥηξ{2nd}'}), frozenset({'ἐρρηξ'}), frozenset({'ῥηξ'})}  # @0
+    stems:
 
 ῥιγέω:
     stems:
@@ -8199,6 +10086,12 @@
         2-: ῥιγησ
         # 3+: {frozenset({'ἐρριγησ', 'ἐρριγησ{2nd}'}), frozenset({'ῥιγησ{2nd}', 'ῥιγησ'}), frozenset({'ἐρριγα{root}', 'ἐρριγε{root}', 'ἐρριγησ'})}  # @0
         4-: ἐρριγ
+    stems:
+
+ῥιζόω:
+    stems:
+        3+: ἐρριζωσ
+        5-: ἐρριζω
 
 ῥιπτάζω:
     stems:
@@ -8209,6 +10102,11 @@
         1+: ῥιπτασκ
         2-: ῥιψ
         # 3+: {frozenset({'ἐρριψ{2nd}', 'ἐρριψ'}), frozenset({'ῥιψ', 'ῥιψ{2nd}'})}  # @0
+    stems:
+
+ῥοιζέω:
+    stems:
+        3+: ῥοιζησ
 
 ῥοχθέω:
     stems:
@@ -8217,16 +10115,26 @@
 
 ῥύομαι:
     stems:
+        1-: ῥυ
         3-: ῥυσ
         # 3+: {frozenset({'ἐρρυσ'}), frozenset({'ῥυσ'})}  # @0
+    stems:
 
 ῥυπάω:
     stems:
         1-: ῥυπο
 
+ῥυπόομαι:
+    stems:
+        5-: ῥερυπω
+
+ῥυστάζω:
+    stems:
+
 ῥώομαι:
     stems:
         3+: ἐρρωσ
+    stems:
 
 σαίνω:
     stems:
@@ -8234,10 +10142,21 @@
         1+: σαιν
         3+: ἐσην{2nd}
 
+σαλπίζω:
+    stems:
+        3+: σαλπιγξ
+
 σβέννυμι:
     stems:
         3-: σβεσσ
         3+: σβεσ
+
+σεβάζομαι:
+    stems:
+        3+: σεβασσ
+
+σέβομαι:
+    stems:
 
 σείω:
     stems:
@@ -8251,6 +10170,8 @@
         1+: σευ
         3-: σευ
         # 3+: {frozenset({'ἐσσευ{2nd}', 'ἐσσευ'}), frozenset({'ἐσσευ'}), frozenset({'σευ{2nd}', 'σευ'}), frozenset({'σευ'})}  # @0
+        5-: ἐσσυ
+    stems:
 
 σημαίνω:
     stems:
@@ -8258,14 +10179,24 @@
         1+: σημαιν
         2-: σημανε
         # 3+: {frozenset({'σημην', 'σημην{2nd}'}), frozenset({'ἐσημην'})}  # @0
+    stems:
 
 σήπω:
     stems:
         4-: σεσηπ
+    stems:
 
 σιγάω:
     stems:
         1-: σιγα
+
+σίνομαι:
+    stems:
+        1-: σιν
+    stems:
+
+σιτέομαι:
+    stems:
 
 σιφλόω:
     stems:
@@ -8287,10 +10218,25 @@
 σκεδάννυμι:
     stems:
         3-: σκεδασ
+    stems:
+
+σκέπτομαι:
+    stems:
+
+σκήπτω:
+    stems:
+
+σκηρίπτομαι:
+    stems:
 
 σκιάζω:
     stems:
         3-: σκιασ
+
+σκίδνημι:
+    stems:
+        1-: σκιδνα{athematic}
+        1+: ἐσκιδνα{athematic}
 
 σκιρτάω:
     stems:
@@ -8301,6 +10247,14 @@
         1-: σκοπιαζ
         1+: ἐσκοπιαζ
 
+σκυδμαίνω:
+    stems:
+        1-: σκυδμαιν
+
+σκύζομαι:
+    stems:
+        1-: σκυζ
+
 σμαραγέω:
     stems:
         1-: σμαραγε
@@ -8308,6 +10262,7 @@
 
 σμύχω:
     stems:
+        1-: σμυχ
         3-: σμυξ
 
 σπάω:
@@ -8315,6 +10270,7 @@
         3-: σπασσ
         # 3+: {frozenset({'σπασ'}), frozenset({'σπασσ'}), frozenset({'ἐσπασ'})}  # @0
         6-: σπασθ
+    stems:
 
 σπένδω:
     stems:
@@ -8322,6 +10278,7 @@
         1+: σπενδεσκ
         3-: σπεισ
         # 3+: {frozenset({'ἐσπεισ'}), frozenset({'σπει{athematic}', 'σπεισ'}), frozenset({'σπεισασκ{2nd}', 'σπεισασκ'})}  # @0
+    stems:
 
 σπέρχω:
     stems:
@@ -8344,11 +10301,17 @@
         1-: στειβ
         1+: στειβ
 
+στείνω:
+    stems:
+        1-: στειν
+    stems:
+
 στείχω:
     stems:
         1-: στειχ
         # 1+: {frozenset({'στειχ'}), frozenset({'ἐστειχ'})}  # @0
         3+: ἐστιχ{2nd}
+    stems:
 
 στέλλω:
     stems:
@@ -8356,14 +10319,17 @@
         2-: στελε
         # 3-: {frozenset({'στειλα{athematic}', 'στειλα{root}', 'στειλ'}), frozenset({'στελλε{athematic}', 'στελλ{2nd}'})}  # @0
         3+: στειλ
+    stems:
 
 στεναχίζω:
     stems:
         1-: στεναχιζ
+    stems:
 
 στενάχω:
     stems:
         1-: στεναχ
+    stems:
 
 στένω:
     stems:
@@ -8374,6 +10340,15 @@
     stems:
         3-: στερεσ
 
+στεῦμαι:
+    stems:
+        1-: στευ{athematic}
+
+στεφανόω:
+    stems:
+        5-: ἐστεφανω
+        5+: ἐστεφανω
+
 στέφω:
     stems:
         1-: στεφ
@@ -8383,6 +10358,7 @@
     stems:
         3-: στηριξ
         # 3+: {frozenset({'ἐστηριξ{2nd}', 'ἐστηριξ'}), frozenset({'στηριξ', 'στηριξ{2nd}'})}  # @0
+    stems:
 
 στίλβω:
     stems:
@@ -8396,11 +10372,18 @@
     stems:
         3-: στορεσ
         3+: στορεσ
+        5+: ἐστρω
 
 στόρνυμι:
     stems:
         3-: στορεσ
         3+: στορεσ
+
+στρατόω:
+    stems:
+
+στρεύγομαι:
+    stems:
 
 στρέφω:
     stems:
@@ -8409,6 +10392,7 @@
         3-: στρεψ
         # 3+: {frozenset({'στρεψ'}), frozenset({'στρεψασκ{2nd}'})}  # @0
         6-: στρεφθ
+    stems:
 
 στροφαλίζω:
     stems:
@@ -8429,6 +10413,7 @@
         1-: στυφελιζ
         3-: στυφελιξ
         # 3+: {frozenset({'στυφελιξ', 'στυφελιξ{2nd}'}), frozenset({'ἐστυφελιξ'}), frozenset({'ἐστυφελιξ', 'ἐστυφελιξ{2nd}'})}  # @0
+    stems:
 
 συγκαλέω:
     stems:
@@ -8448,6 +10433,7 @@
         1+: συγχε
         3-: συγχευ
         # 3+: {frozenset({'συγχε'}), frozenset({'συνεχευ{2nd}', 'συνεχευ'})}  # @0
+    stems:
 
 συλάω:
     stems:
@@ -8467,6 +10453,7 @@
 
 συμβάλλω:
     stems:
+        1-: ξυμβλη{athematic}
         3+: συμβαλ{2nd}
 
 συμμάρπτω:
@@ -8475,7 +10462,23 @@
 
 συμμαχέω:
     stems:
+        1-: μαχε
         2-: μαχησ
+
+συμμητιάομαι:
+    stems:
+        1-: συμμητιαα{athematic}
+
+συμμίγνυμι:
+    stems:
+
+συμπήγνυμι:
+    stems:
+        3+: συνεπηξ
+
+συμπλαταγέω:
+    stems:
+        3+: συμπλαταγησ
 
 συμφράζομαι:
     stems:
@@ -8491,19 +10494,31 @@
 συνάγνυμι:
     stems:
         # 3+: {frozenset({'συνεαξ{2nd}', 'συνεαξ'}), frozenset({'ξυνεαξ'}), frozenset({'ξυνεαξ', 'ξυνεαξ{2nd}'})}  # @0
+    stems:
 
 συνάγω:
     stems:
         1-: ξυναγ
         1+: συναγ
 
+συναείρω:
+    stems:
+
+συναίνυμαι:
+    stems:
+        1+: συναινυ{athematic}
+
 συναιρέω:
     stems:
         3-: συνελ{2nd}
+        3+: συνελ
 
 συναντάω:
     stems:
         3-: συναντησ
+
+συνάντομαι:
+    stems:
 
 συνδέω:
     stems:
@@ -8518,6 +10533,7 @@
     stems:
         # 1-: {frozenset({'ξυνιο{athematic}'}), frozenset({'ξυνι', 'ξυνι0'})}  # @0
         2-: ξυνεσ
+    stems:
 
 συνελαύνω:
     stems:
@@ -8543,10 +10559,15 @@
     stems:
         4-: συνεστα
 
+συνορίνω:
+    stems:
+        1-: συνοριν
+
 συνόχωκα:
     stems:
         1-: ξυνεχ
         1+: συνεχ
+        4-: συνοχωκ
 
 συντίθημι:
     stems:
@@ -8556,15 +10577,24 @@
     stems:
         3+: συνεδραμ{2nd}
 
+συρράσσω:
+    stems:
+
 σφάζω:
     stems:
         1-: σφαζ
         1+: ἐσφαζ
         3+: ἐσφαξ
+    stems:
 
 σφάλλω:
     stems:
         3-: σφηλ
+        3+: σφηλ
+
+σχίζω:
+    stems:
+        3+: ἐσχισ
 
 σώζω:
     stems:
@@ -8573,11 +10603,16 @@
         3-: σαωσ
         # 3+: {frozenset({'σαωσ'}), frozenset({'ἐσαωσ', 'ἐσαο{root}', 'ἐσαω{root}'}), frozenset({'σαωσ', 'σαωσ{2nd}'}), frozenset({'ἐσαωσ'}), frozenset({'ἐσαωσ{2nd}', 'ἐσαωσ'})}  # @0
         6-: σαωθ
+    stems:
 
 σώω:
     stems:
         1-: σω
         1+: σωεσκ
+
+τάνυμαι:
+    stems:
+        1-: τανυ{athematic}
 
 τανύω:
     stems:
@@ -8586,6 +10621,7 @@
         # 3-: {frozenset({'τανυσσα{root}', 'τανυσσ'}), frozenset({'τανυσσ{2nd}', 'τανυσσ'}), frozenset({'τανυσ{2nd}', 'τανυσ'}), frozenset({'τανυσσ'})}  # @0
         # 3+: {frozenset({'ἐτανυσσ{2nd}', 'ἐτανυσσ'}), frozenset({'τανυσσ{2nd}', 'τανυσσ'}), frozenset({'τανυσσ'}), frozenset({'ἐτανυσσ'}), frozenset({'τανυσ{2nd}', 'τανυσ'})}  # @0
         6-: τανυσθ
+    stems:
 
 ταράσσω:
     stems:
@@ -8610,6 +10646,7 @@
     stems:
         3-: ταφ{2nd}
         4-: τεθηπ
+        4+: ἐτεθηπ
 
 τείνω:
     stems:
@@ -8618,12 +10655,15 @@
         3-: τειν
         3+: τειν
         6-: ταθ
+        5-: τετα
+        5+: τετα
         6+: ταθ
 
 τείρω:
     stems:
         1-: τειρ
         # 1+: {frozenset({'ἐτειρ'}), frozenset({'τειρ'})}  # @0
+    stems:
 
 τειχίζω:
     stems:
@@ -8631,6 +10671,7 @@
 
 τεκμαίρομαι:
     stems:
+        1-: τεκμαιρ
         3+: τεκμηρ
 
 τεκταίνομαι:
@@ -8658,13 +10699,16 @@
         # 2-: {frozenset({'τελεσσ'}), frozenset({'τελ{contract}'}), frozenset({'τελε'})}  # @0
         # 3-: {frozenset({'τελεσσ', 'τελεσσ{2nd}'}), frozenset({'τελεσ', 'τελεσ{2nd}'}), frozenset({'τελεσσ'}), frozenset({'τελεσ'})}  # @0
         # 3+: {frozenset({'ἐτελεσσ'}), frozenset({'τελεσσ'}), frozenset({'ἐτελεσσ', 'ἐτελεσσ{2nd}'})}  # @0
+        5-: τετελεσ
         # 6+: {frozenset({'ἐτελεσθ'}), frozenset({'τελεσθ'})}  # @0
+    stems:
 
 τέλλω:
     stems:
         1+: ἐτελλ
         2-: τελε
         3+: ἐτελλ
+    stems:
 
 τέμνω:
     stems:
@@ -8672,6 +10716,8 @@
         # 1+: {frozenset({'ταμν'}), frozenset({'ἐταμν'})}  # @0
         3-: ταμ{2nd}
         3+: ταμ{2nd}
+        5-: τετμη
+    stems:
 
 τέρπω:
     stems:
@@ -8682,6 +10728,7 @@
         3+: τεταρπ{2nd}
         # 6-: {frozenset({'ταρπ'}), frozenset({'τερφθ'})}  # @0
         # 6+: {frozenset({'ἐτερφθ'}), frozenset({'ταρπ'}), frozenset({'ταρφθ'})}  # @0
+    stems:
 
 τερσαίνω:
     stems:
@@ -8690,14 +10737,19 @@
 τέρσομαι:
     stems:
         6-: τερσ
+    stems:
 
 τεταγών:
     stems:
         3-: τεταγ{2nd}
 
+τετευχῆσθαι:
+    stems:
+
 τετίημαι:
     stems:
         4-: τετιη
+        5-: τετιη
 
 τέτμον:
     stems:
@@ -8709,6 +10761,9 @@
     stems:
         3+: τετρην
 
+τεύκω:
+    stems:
+
 τεύχω:
     stems:
         1-: τευχ
@@ -8716,12 +10771,21 @@
         2-: τευξ
         # 3-: {frozenset({'τετυκ{2nd}', 'τετυκι{2nd}'}), frozenset({'τευξ'}), frozenset({'τετυκ{2nd}', 'τετυκε{athematic}'})}  # @0
         # 3+: {frozenset({'τετυκο{athematic}', 'τετυκ{2nd}'}), frozenset({'ἐτευξ'}), frozenset({'ἐτευξ', 'ἐτευξ{2nd}'}), frozenset({'τευξ'}), frozenset({'τευξ', 'τευξ{2nd}'})}  # @0
+        5-: τετυγ
         6+: ἐτυχθ
+    stems:
+
+τεχνάομαι:
+    stems:
+        2-: τεχνησ
+        3-: τεχνησ
+        3+: τεχνησ
 
 τήκω:
     stems:
         1-: τηκ
         4-: τετηκ
+    stems:
 
 τηλεθάω:
     stems:
@@ -8738,6 +10802,7 @@
         2-: θησ
         # 3-: {frozenset({'θε{2nd}', 'θε'}), frozenset({'θ{2nd}{sigma}', 'θε{athematic}'}), frozenset({'θει', 'θει{2nd}'}), frozenset({'θεμεν'}), frozenset({'θη', 'θη{2nd}'}), frozenset({'θε{athematic}', 'θ{2nd}'}), frozenset({'θε{athematic}', 'θειν'}), frozenset({'θε{athematic}'})}  # @0
         # 3+: {frozenset({'θεσ'}), frozenset({'θηκ{2nd}', 'θηκ'}), frozenset({'ἐθε{athematic}'}), frozenset({'ἐθ{2nd}', 'ἐθε{athematic}'}), frozenset({'ἐθηκ', 'ἐθηκ{2nd}'}), frozenset({'ἐθεσ', 'ἐθε{athematic}'}), frozenset({'ἐθηκ'}), frozenset({'θηκ'}), frozenset({'θε{athematic}'})}  # @0
+    stems:
 
 τίκτω:
     stems:
@@ -8746,6 +10811,7 @@
         # 2-: {frozenset({'τεκ{contract}'}), frozenset({'τεξ'})}  # @0
         3-: τεκ{2nd}
         # 3+: {frozenset({'τεκο{athematic}', 'τεκ{2nd}'}), frozenset({'ἐτεκ', 'ἐτεκ{2nd}'}), frozenset({'τεκ{2nd}', 'τεκε{athematic}'}), frozenset({'τεκ{2nd}', 'τεκ'}), frozenset({'ἐτεκ{2nd}'}), frozenset({'τεκ{2nd}'})}  # @0
+    stems:
 
 τίλλω:
     stems:
@@ -8759,6 +10825,7 @@
         2-: τιμησ
         3-: τιμησ
         3+: τιμησ
+        5-: τετιμη
 
 τινάσσω:
     stems:
@@ -8766,6 +10833,11 @@
         # 1+: {frozenset({'τινασσ'}), frozenset({'ἐτινασσ'})}  # @0
         3-: τιναξ
         # 3+: {frozenset({'ἐτιναξ{2nd}', 'ἐτιναξ'}), frozenset({'τιναξ{2nd}', 'τιναξ'})}  # @0
+    stems:
+
+τίνυμαι:
+    stems:
+        1-: τινυ{athematic}
 
 τίνω:
     stems:
@@ -8773,6 +10845,7 @@
         # 2-: {frozenset({'τισε{athematic}', 'τισ'}), frozenset({'τισ'}), frozenset({'τεισ'})}  # @0
         3-: τισ
         # 3+: {frozenset({'ἐτισ', 'ἐτισ{2nd}'}), frozenset({'ἐτισ'}), frozenset({'τισ'})}  # @0
+    stems:
 
 τιταίνω:
     stems:
@@ -8786,11 +10859,18 @@
         2-: τρωσ
         3-: τρωσ
 
+τιτύσκομαι:
+    stems:
+        1-: τιτυσκ
+    stems:
+
 τίω:
     stems:
         1-: τι
         # 1+: {frozenset({'ἐτι'}), frozenset({'ἐτι', 'ἐτιο{athematic}'}), frozenset({'τι'}), frozenset({'τιεσκ'})}  # @0
         2-: τισ
+        5-: τετι
+    stems:
 
 τλάω:
     stems:
@@ -8799,6 +10879,7 @@
         # 3-: {frozenset({'τλη{athematic}', 'τλα{root}'}), frozenset({'τλη{athematic}'}), frozenset({'τλα{root}'}), frozenset({'ταλασσ{2nd}', 'ταλασσ'})}  # @0
         # 3+: {frozenset({'τλη{athematic}'}), frozenset({'ἐτλα{root}'}), frozenset({'ἐταλασσ'}), frozenset({'ἐτλη{athematic}', 'ἐτλα{root}'})}  # @0
         # 4-: {frozenset({'τετλη'}), frozenset({'τετλα{athematic}', 'τετλ'}), frozenset({'τετλα{athematic}'}), frozenset({'τετληκ'})}  # @0
+    stems:
 
 τμήγω:
     stems:
@@ -8808,11 +10889,17 @@
     stems:
         # 1+: {frozenset({'ἐτολμα'}), frozenset({'τολμα', 'τολμη', 'τολμο'})}  # @0
         3-: τολμησ
+    stems:
 
 τολυπεύω:
     stems:
         1-: τολυπευ
         3+: τολυπευσ
+
+τοξάζομαι:
+    stems:
+        3-: τοξασσ
+    stems:
 
 τοξεύω:
     stems:
@@ -8822,6 +10909,10 @@
     stems:
         3+: ἐτορ
 
+τορνόομαι:
+    stems:
+        3+: τορνωσ
+
 τραπέω:
     stems:
         1-: τραπε
@@ -8829,6 +10920,7 @@
 τρέμω:
     stems:
         # 1+: {frozenset({'τρεμ'}), frozenset({'ἐτρεμ'})}  # @0
+    stems:
 
 τρέπω:
     stems:
@@ -8837,7 +10929,9 @@
         2-: τρεψ
         # 3-: {frozenset({'τρεψ'}), frozenset({'τρεψ', 'τρεψα{athematic}'}), frozenset({'τραπ{2nd}', 'τραπε{athematic}'})}  # @0
         # 3+: {frozenset({'ἐτραπ', 'ἐτραπ{2nd}'}), frozenset({'τραπ{2nd}', 'τραπο{athematic}'}), frozenset({'ἐτραπ{2nd}'}), frozenset({'τραπ{2nd}', 'τραπ'}), frozenset({'ἐτρεψ', 'ἐτρεψ{2nd}'}), frozenset({'ἐτραπε{athematic}', 'ἐτραπ{2nd}'}), frozenset({'τρεψ{2nd}', 'τρεψ'}), frozenset({'τραπ{2nd}', 'τραπε{athematic}'})}  # @0
+        5+: τετραπ
         6-: τραφθ
+    stems:
 
 τρέφω:
     stems:
@@ -8846,27 +10940,32 @@
         3-: θρεψ
         # 3+: {frozenset({'θρεψ', 'θρεψ{2nd}'}), frozenset({'θρεψ'}), frozenset({'ἐθρεψ{2nd}', 'ἐθρεψ'})}  # @0
         # 6+: {frozenset({'τραφ'}), frozenset({'ἐτραφ'})}  # @0
+    stems:
 
 τρέχω:
     stems:
         1-: τρεχ
         # 3+: {frozenset({'ἐδραμ', 'ἐδραμ{2nd}'}), frozenset({'θρεξασκ{2nd}'}), frozenset({'ἐδραμ{2nd}'})}  # @0
+    stems:
 
 τρέω:
     stems:
         1-: τρε
         3-: τρεσσ
         # 3+: {frozenset({'τρεσσ'}), frozenset({'τρεσ', 'τρεσ{2nd}'}), frozenset({'ἐτρεσ{2nd}', 'ἐτρεσ'}), frozenset({'ἐτρεσ', 'ἐτρε{athematic}'}), frozenset({'τρεσσ', 'τρεσσ{2nd}'})}  # @0
+    stems:
 
 τρίβω:
     stems:
         3-: τριψ
+    stems:
 
 τρίζω:
     stems:
         1-: τριζ
         # 4-: {frozenset({'τετριγα{athematic}'}), frozenset({'τετριγ'})}  # @0
         4+: τετριγ
+    stems:
 
 τρομέω:
     stems:
@@ -8897,6 +10996,7 @@
 τρωπάω:
     stems:
         1-: τρωπα
+    stems:
 
 τρωχάω:
     stems:
@@ -8906,9 +11006,11 @@
     stems:
         1+: τυγχαν
         2-: τευξ
+        3-: τυχ{2nd}
         # 3-: {frozenset({'τυχ', 'τυχ{2nd}'}), frozenset({'τυχησ'}), frozenset({'τυχ{2nd}'})}  # @0
         # 3+: {frozenset({'ἐτυχησ', 'ἐτυχησ{2nd}'}), frozenset({'τυχησ', 'τυχησ{2nd}'}), frozenset({'τυχ', 'τυχ{2nd}'}), frozenset({'ἐτυχ{2nd}'})}  # @0
         # 4-: {frozenset({'τετυχηκ'}), frozenset({'τετυχηκ', 'τετυχηκα{athematic}'}), frozenset({'τετευχ', 'τετευχα{athematic}'})}  # @0
+    stems:
 
 τύπτω:
     stems:
@@ -8931,10 +11033,12 @@
 ὑδραίνω:
     stems:
         # 3-: ὑδρην/ὑδρηνα{root}  # @@@
+    stems:
 
 ὑδρεύω:
     stems:
         1-: ὑδρευ
+    stems:
 
 ὑλακτέω:
     stems:
@@ -8982,6 +11086,7 @@
         1-: ὑποεικ
         1+: ὑποεικ
         2-: ὑποειξ
+        3-: ὑποειξ
         3+: ὑποειξ
 
 ὕπειμι:
@@ -9000,14 +11105,20 @@
     stems:
         3-: ὑπεκπροφυγ{2nd}
 
+ὑπεκσῴζω:
+    stems:
+        3+: ὑπεξεσαωσ
+
 ὑπεκφέρω:
     stems:
         # 1+: {frozenset({'ὑπεξεφερ'}), frozenset({'ὑπεκφερ'})}  # @0
+    stems:
 
 ὑπεκφεύγω:
     stems:
         3-: ὑπεκφυγ{2nd}
         # 3+: {frozenset({'ὑπεξεφυγ{2nd}'}), frozenset({'ὑπεκφυγ{2nd}'}), frozenset({'ὑπεξεφυγ{2nd}', 'ὑπεξεφυγ'}), frozenset({'ὑπεκφυγ', 'ὑπεκφυγ{2nd}'})}  # @0
+    stems:
 
 ὑπεμνήμυκε:
     stems:
@@ -9038,6 +11149,7 @@
 ὑπερβάλλω:
     stems:
         # 3+: {frozenset({'ὑπερβαλ{2nd}', 'ὑπερβαλ'}), frozenset({'ὑπειρεβαλ{2nd}'})}  # @0
+    stems:
 
 ὑπερείπω:
     stems:
@@ -9052,6 +11164,7 @@
         1+: ὑπειρεχ
         3-: ὑπερσχ
         # 3+: {frozenset({'ὑπερεσχεθ{2nd}', 'ὑπερεσχεθ'}), frozenset({'ὑπερεσχ{2nd}', 'ὑπερεσχ'})}  # @0
+    stems:
 
 ὑπερηφανέω:
     stems:
@@ -9069,6 +11182,9 @@
     stems:
         2-: ὑπερησ
 
+ὑπερικταίνομαι:
+    stems:
+
 ὑπερκαταβαίνω:
     stems:
         3+: ὑπερκατεβα{root}/ὑπερκατεβησ
@@ -9085,6 +11201,7 @@
     stems:
         3-: ὑπελθ
         # 3+: {frozenset({'ὑπηλυθ{2nd}', 'ὑπηλυθ'}), frozenset({'ὑπηλθ{2nd}', 'ὑπηλθε{athematic}'})}  # @0
+    stems:
 
 ὑπερωέω:
     stems:
@@ -9099,6 +11216,11 @@
     stems:
         3-: ὑποσχεσθ
         3+: ὑπεσχ{2nd}
+    stems:
+
+ὑπίσχομαι:
+    stems:
+        1-: ὑπισχ
 
 ὑπνάω:
     stems:
@@ -9107,6 +11229,10 @@
 ὑποβάλλω:
     stems:
         1-: ὑββαλλ
+
+ὑποδάμναμαι:
+    stems:
+        1-: ὑποδαμνα{athematic}
 
 ὑποδείδω:
     stems:
@@ -9121,7 +11247,9 @@
 
 ὑποδύομαι:
     stems:
+        3-: ὑποδυ{root}
         # 3+: {frozenset({'ὑπεδυ{root}'}), frozenset({'ὑπεδυσ{2nd}', 'ὑπεδυσε{athematic}'})}  # @0
+    stems:
 
 ὑποζεύγνυμι:
     stems:
@@ -9131,13 +11259,20 @@
     stems:
         6+: ὑπεθερμανθ
 
+ὑποθωρήσσομαι:
+    stems:
+
 ὑποκλίνομαι:
     stems:
         6+: ὑπεκλινθ
 
+ὑποκλονέομαι:
+    stems:
+
 ὑποκρίνομαι:
     stems:
         3-: ὑποκριν
+    stems:
 
 ὑποκρύπτω:
     stems:
@@ -9152,6 +11287,9 @@
         1+: ὑπελειπ
         2-: ὑπολειψ
 
+ὑπολευκαίνομαι:
+    stems:
+
 ὑπολύω:
     stems:
         3+: ὑπελυσ
@@ -9164,6 +11302,11 @@
 ὑπομιμνήσκω:
     stems:
         2-: ὑπομνησ
+        3+: ὑπεμνησ
+
+ὑπομνάομαι:
+    stems:
+        1+: ὑπεμναα{athematic}
 
 ὑποπίπτω:
     stems:
@@ -9203,6 +11346,7 @@
 ὑποτίθημι:
     stems:
         2-: ὑποθησ
+    stems:
 
 ὑποτρέχω:
     stems:
@@ -9248,6 +11392,7 @@
         1-: ὑφαιν
         # 1+: {frozenset({'ὑφαιν'}), frozenset({'ὑφαινεσκ'})}  # @0
         3-: ὑφην
+    stems:
 
 ὑφέλκω:
     stems:
@@ -9261,10 +11406,12 @@
     stems:
         3-: ὑποστα{root}
         # 3+: {frozenset({'ὑπεστα{root}'}), frozenset({'ὑπεστ'}), frozenset({'ὑπεστη{athematic}', 'ὑπεστα{root}'})}  # @0
+    stems:
 
 ὕω:
     stems:
         1+: ὑ
+    stems:
 
 φαγεῖν:
     stems:
@@ -9272,6 +11419,7 @@
         # 1+: {frozenset({'φαγο{athematic}', 'φαγ'}), frozenset({'ἐφαγ'})}  # @0
         3-: φαγ{2nd}
         # 3+: {frozenset({'φαγ{2nd}'}), frozenset({'φαγ{2nd}', 'φαγ'}), frozenset({'ἐφαγ{2nd}'})}  # @0
+    stems:
 
 φαέθω:
     stems:
@@ -9284,8 +11432,10 @@
         2-: φαν{contract}
         3-: φην
         # 3+: {frozenset({'ἐφην{2nd}', 'ἐφην'}), frozenset({'φανεσκ{2nd}', 'φανεσκ'})}  # @0
+        5-: πεφαν
         6-: φαν
         # 6+: {frozenset({'φαανθ'}), frozenset({'ἐφαν'}), frozenset({'φαν'})}  # @0
+    stems:
 
 φαρμάσσω:
     stems:
@@ -9294,15 +11444,22 @@
 φάσκω:
     stems:
         # 1+: {frozenset({'ἐφασκ'}), frozenset({'φασκ'})}  # @0
+    stems:
 
 φάω:
     stems:
         1+: φα
 
+φέβομαι:
+    stems:
+        1-: φεβ
+    stems:
+
 φείδομαι:
     stems:
         2-: πεφιδησ
         3-: πεφιδ{2nd}
+    stems:
 
 φέρω:
     stems:
@@ -9311,6 +11468,7 @@
         2-: οἰσ
         # 3-: {frozenset({'ἐνεικ'}), frozenset({'ἐνεικ', 'ἐνεικ{2nd}'}), frozenset({'οἰσε{athematic}', 'οἰσ{2nd}'}), frozenset({'ἐνεικ', 'ἐνεικα{athematic}'})}  # @0
         # 3+: {frozenset({'ἐνεικ'}), frozenset({'ἐνεικ', 'ἐνεικ{2nd}'}), frozenset({'ἠνεικ'}), frozenset({'ἐνεικ', 'ἐνεικα{athematic}'})}  # @0
+    stems:
 
 φεύγω:
     stems:
@@ -9320,6 +11478,8 @@
         3-: φυγ{2nd}
         # 3+: {frozenset({'φυγ{2nd}', 'φυγο{athematic}'}), frozenset({'φυγεσκ', 'φυγεσκ{2nd}'}), frozenset({'φυγ{2nd}', 'φυγ'}), frozenset({'φυγ{2nd}'}), frozenset({'ἐφυγ{2nd}'})}  # @0
         # 4-: {frozenset({'πεφυζ'}), frozenset({'πεφευγ'})}  # @0
+        5-: πεφυγ
+    stems:
 
 φημί:
     stems:
@@ -9327,17 +11487,22 @@
         # 1+: {frozenset({'ἐφε{athematic}', 'ἐφα{athematic}', 'ἐφε{root}', 'ἐφα', 'ἐφη{athematic}'}), frozenset({'ἐφε', 'ἐφα{athematic}', 'ἐφη', 'ἐφα', 'ἐφη{athematic}'}), frozenset({'ἐφη', 'ἐφε', 'ἐφα', 'ἐφα{athematic}'}), frozenset({'ἐφα{athematic}'}), frozenset({'ἐφη{athematic}'}), frozenset({'φα{athematic}'})}  # @0
         2-: φησ
         3+: ἐφ
+        5-: πεφασ
+    stems:
 
 φθάνω:
     stems:
         1-: φθαν
         2-: φθησ
         # 3-: {frozenset({'φθη', 'φθη{2nd}'}), frozenset({'φθα{root}'}), frozenset({'φθα{root}', 'φθ'}), frozenset({'φθε{2nd}', 'φθε'})}  # @0
+    stems:
 
 φθέγγομαι:
     stems:
+        1-: φθεγγ
         3-: φθεγξ
         3+: φθεγξ
+    stems:
 
 φθείρω:
     stems:
@@ -9347,6 +11512,7 @@
     stems:
         1-: φθινυθ
         # 1+: {frozenset({'φθινυθεσκ'}), frozenset({'φθινυθ'})}  # @0
+    stems:
 
 φθίω:
     stems:
@@ -9354,6 +11520,8 @@
         2-: φθισ
         # 3-: {frozenset({'φθι{athematic}'}), frozenset({'φθισ'}), frozenset({'φθισ{2nd}', 'φθισ'})}  # @0
         3+: φθισ
+        5-: ἐφθι
+    stems:
 
 φθονέω:
     stems:
@@ -9366,6 +11534,7 @@
         2-: φιλησ
         # 3-: {frozenset({'φιλησ{2nd}', 'φιλησ'}), frozenset({'φιλησ'}), frozenset({'φιλ'})}  # @0
         # 3+: {frozenset({'ἐφιλησ'}), frozenset({'ἐφιλ'}), frozenset({'φιλ'}), frozenset({'φιλησ{2nd}', 'φιλησ'}), frozenset({'ἐφιλησ', 'ἐφιλησ{2nd}'}), frozenset({'ἐφιλησ', 'ἐφιλα{root}', 'ἐφιλε{root}'}), frozenset({'φιλησ'})}  # @0
+    stems:
 
 φλεγέθω:
     stems:
@@ -9374,6 +11543,7 @@
 φλέγω:
     stems:
         1-: φλεγ
+    stems:
 
 φλύω:
     stems:
@@ -9385,22 +11555,30 @@
         2-: φοβησ
         3-: φοβησ
         3+: ἐφοβησ
+        5-: πεφοβη
         6-: φοβηθ
+    stems:
 
 φοιτάω:
     stems:
         1-: φοιτα
         # 1+: {frozenset({'φοιτα'}), frozenset({'ἐφοιτα'}), frozenset({'φοιτη', 'φοιτα', 'φοιτο'}), frozenset({'ἐφοιτη', 'ἐφοιτα', 'ἐφοιτο'})}  # @0
         3-: φοιτησ
+    stems:
 
 φορέω:
     stems:
         1-: φορε
         # 1+: {frozenset({'φορε{nocontract}', 'φορε'}), frozenset({'φορεεσκ'}), frozenset({'φορε{athematic}', 'φορε'}), frozenset({'ἐφορε', 'ἐφορε{athematic}'}), frozenset({'ἐφορε', 'ἐφορε{nocontract}'})}  # @0
+        3+: φορησ
+    stems:
 
 φορμίζω:
     stems:
         1-: φορμιζ
+
+φορύνω:
+    stems:
 
 φορύσσω:
     stems:
@@ -9412,6 +11590,7 @@
         # 3-: {frozenset({'φρασ'}), frozenset({'πεφραδ{2nd}'})}  # @0
         # 3+: {frozenset({'ἐφρασσ'}), frozenset({'ἐπεφραδ{2nd}'}), frozenset({'φρασ'}), frozenset({'ἐπεφραδ{2nd}', 'ἐπεφραδ'}), frozenset({'φρασσ'}), frozenset({'ἐφρασ'}), frozenset({'φρασ{2nd}', 'φρασ'}), frozenset({'πεφραδ', 'πεφραδ{2nd}'})}  # @0
         6+: ἐφρασθ
+    stems:
 
 φράσσω:
     stems:
@@ -9423,6 +11602,7 @@
     stems:
         1-: φρισσ
         3-: φριξ
+        3+: ἐφριξ
         4-: πεφρικ
 
 φρονέω:
@@ -9440,16 +11620,24 @@
         # 1+: {frozenset({'ἐφυλασσ'}), frozenset({'φυλασσ'})}  # @0
         2-: φυλαξ
         3-: φυλαξ
+        3+: φυλαξ
+    stems:
 
 φύρω:
     stems:
         1+: ἐφυρ
         3-: φυρσ
+        5-: πεφυρ
+
+φύς:
+    stems:
+        3-: φυ{root}
 
 φυσάω:
     stems:
         1-: φυσα
         # 1+: {frozenset({'ἐφυση', 'ἐφυσα', 'ἐφυσο'}), frozenset({'φυσε{athematic}', 'φυσε'})}  # @0
+    stems:
 
 φυτεύω:
     stems:
@@ -9460,19 +11648,23 @@
 φύω:
     stems:
         1-: φυ
+        3-: φυ{root}
         # 3+: {frozenset({'ἐφυ{root}'}), frozenset({'ἐφυσ', 'ἐφυσ{2nd}'})}  # @0
         # 4-: {frozenset({'πεφυκ'}), frozenset({'πεφυ'}), frozenset({'πεφυα{athematic}'})}  # @0
         4+: πεφυκ
+    stems:
 
 φωνέω:
     stems:
         3-: φωνησ
+    stems:
 
 χάζω:
     stems:
         # 2-: {frozenset({'χασσ'}), frozenset({'κεκαδησ'})}  # @0
         # 3-: {frozenset({'χασσ'}), frozenset({'χασσα{root}', 'χασσ'}), frozenset({'κεκαδ{2nd}'})}  # @0
         3+: κεκαδ{2nd}
+    stems:
 
 χαίρω:
     stems:
@@ -9484,6 +11676,7 @@
         6-: χαρ
         # 6+: {frozenset({'χαρ'}), frozenset({'ἐχαρ'})}  # @0
         8-: κεχαρησ
+    stems:
 
 χαλεπαίνω:
     stems:
@@ -9510,6 +11703,13 @@
         # 3+: {frozenset({'χαδ{2nd}', 'χαδ'}), frozenset({'ἐχαδ', 'ἐχαδ{2nd}'})}  # @0
         4-: κεχανδ
         4+: κεχανδ
+    stems:
+
+χαρίζομαι:
+    stems:
+        3-: χαρισ
+        5-: κεχαρισ
+    stems:
 
 χάσκω:
     stems:
@@ -9524,6 +11724,10 @@
     stems:
         1-: χατιζ
 
+χερνίπτομαι:
+    stems:
+        3+: χερνιψ
+
 χέω:
     stems:
         1-: χε
@@ -9531,7 +11735,10 @@
         2-: χευ
         3-: χευ
         # 3+: {frozenset({'χευ'}), frozenset({'ἐχε'}), frozenset({'χευα{athematic}', 'χευ'}), frozenset({'ἐχευ'}), frozenset({'ἐχευ{2nd}', 'ἐχευ'})}  # @0
+        5-: κεχυ
+        5+: κεχυ
         6-: χυθ
+    stems:
 
 χηρεύω:
     stems:
@@ -9541,12 +11748,18 @@
     stems:
         3+: χηρωσ
 
+χολάω:
+    stems:
+
 χολόω:
     stems:
         3-: χολωσ
         # 3+: {frozenset({'ἐχολωσ'}), frozenset({'ἐχολωσα{athematic}', 'ἐχολωσ'}), frozenset({'χολωσ'})}  # @0
+        5-: κεχολω
+        5+: κεχολω
         6-: χολωθ
         # 6+: {frozenset({'χολωθ'}), frozenset({'ἐχολωθ'})}  # @0
+    stems:
 
 χραισμέω:
     stems:
@@ -9554,6 +11767,12 @@
         2-: χραισμησ
         # 3-: {frozenset({'χραισμ', 'χραισμ{2nd}'}), frozenset({'χραισμι{2nd}', 'χραισμ{2nd}'}), frozenset({'χραισμησ'})}  # @0
         # 3+: {frozenset({'ἐχραισμ', 'ἐχραισμ{2nd}'}), frozenset({'χραισμ', 'χραισμ{2nd}'})}  # @0
+    stems:
+
+χράομαι:
+    stems:
+        5-: κεχρη
+    stems:
 
 χραύω:
     stems:
@@ -9565,6 +11784,7 @@
         1-: χρει
         1+: ἐχρα
         2-: χρησ
+        5-: κεχρη
 
 χρεμετίζω:
     stems:
@@ -9573,6 +11793,7 @@
 χρῄζω:
     stems:
         # 1-: {frozenset({'χρηϊζ'}), frozenset({'χρηιζ0', 'χρηιζ'}), frozenset({'χρηϊζ0', 'χρηϊζ'})}  # @0
+    stems:
 
 χρίμπτω:
     stems:
@@ -9583,6 +11804,7 @@
         1+: χρι
         3-: χρισ
         3+: χρισ
+    stems:
 
 χυτλόω:
     stems:
@@ -9594,14 +11816,17 @@
 
 χώομαι:
     stems:
+        1-: χω
         3-: χωσ
         # 3+: {frozenset({'ἐχωσ'}), frozenset({'χωσ'})}  # @0
+    stems:
 
 χωρέω:
     stems:
         2-: χωρησ
         3-: χωρησ
         # 3+: {frozenset({'χωρα{root}', 'χωρε{root}', 'χωρησ'}), frozenset({'ἐχωρησ', 'ἐχωρα{root}', 'ἐχωρε{root}'})}  # @0
+    stems:
 
 ψαύω:
     stems:
@@ -9610,6 +11835,7 @@
 
 ψεύδω:
     stems:
+        1-: ψευδ
         2-: ψευσ
         3-: ψευσ
 
@@ -9632,12 +11858,15 @@
 ὠθέω:
     stems:
         1-: ὠθε
+        1+: ὠθεσκ  # @@@
         # 1+: {frozenset({'ὠθεσκ'}), frozenset({'ὠθε', 'ὠθε{athematic}'})}  # @0
         3-: ὠσ
         # 3+: {frozenset({'ὠσ', 'ὠσ{2nd}'}), frozenset({'ὠσ'}), frozenset({'ἐωσ{2nd}', 'ἐωσ'}), frozenset({'ὠσασκ{2nd}', 'ὠσασκ'})}  # @0
+    stems:
 
 ὠμοθετέω:
     stems:
+        1+: ὠμοθετε
         3+: ὠμοθετησ
 
 ὠχράω:
