@@ -4,10 +4,10 @@ import yaml
 
 
 with open("morphgnt_lexicon.yaml") as f:
-    lexicon1 = yaml.load(f)
+    lexicon1 = yaml.safe_load(f)
 
 with open("lxx_lexicon.yaml") as f:
-    lexicon2 = yaml.load(f)
+    lexicon2 = yaml.safe_load(f)
 
 in_both = set()
 in_1_only = set()

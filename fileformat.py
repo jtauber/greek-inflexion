@@ -22,7 +22,7 @@ def load_stemming(stemming_file, strip_length=False):
     ruleset = StemmingRuleSet()
 
     with open(stemming_file) as f:
-        stemming_dict = yaml.load(f)
+        stemming_dict = yaml.safe_load(f)
 
     for key, rules in stemming_dict.items():
 
@@ -90,7 +90,7 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
     with open(lexicon_file) as f:
 
-        for lemma, entry in yaml.load(f).items():
+        for lemma, entry in yaml.safe_load(f).items():
 
             if entry:
                 if "stems" in entry:
