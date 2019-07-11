@@ -531,7 +531,6 @@ AMN:
     - "|ο{athematic}>ό<|σθαι"  # §62 (@@@ or treat as root?)
     - "|α>ᾶ<|σθαι"  # @@@ or is there an intervocalic sigma lost?
     - "|ο>οῦ<T_2|σθαι"  # @@@ or is there an intervocalic sigma lost?
-
 AMO.1S:
     - "|>α<α|ίμην"
     - "|{2nd}>ο<ο|ίμην"
@@ -676,16 +675,25 @@ AMS.2S:
     - "|{2nd}>ῃ<η+σαι|"
     - "|ο{athematic}>ῷ<η+σαι|"
     - "|ε{athematic}>ῇ<η+σαι|"
+    - "|>η<|αι;+Homer"
 AMS.3S:
     - "|>η<η|ται"
     - "|{2nd}>η<η|ται"
     - "|ο{athematic}>ῶ<|ται"
     - "|ε{athematic}>ῆ<|ται"
+AMS.2D:
+    - "|>η<|σθον;+Homer"
+AMS.3D:
+    ref: AMS.2D
 AMS.1P:
     - "|>ω<ω|μεθα"
     - "|{2nd}>ω<ω|μεθα"
     - "|ο{athematic}>ω<|μεθα"
     - "|ε{athematic}>ω<|μεθα"
+    - "|>ω<ω|μεσθα;+Homer"
+    - "|{2nd}>ω<ω|μεσθα+Homer"
+    - "|ο{athematic}>ω<|μεσθα+Homer"
+    - "|ε{athematic}>ω<|μεσθα+Homer"
 AMS.2P:
     - "|>η<η|σθε"
     - "|{2nd}>η<η|σθε"
@@ -2021,6 +2029,9 @@ PAS.3P:
     - "|ε{athematic}>ῶ<ω|σι(ν)"
     - "|η{athematic}>ῶ<ω|σι(ν)"
 
+PMS.1S:
+    - "|"
+
 PMD.2S:
     - "|><|ου"  # εσο
     - "|ε>οῦ<ου|"  # εσο
@@ -3160,5 +3171,54 @@ YMI.3P:
     - "|ε>ει<ε|ντο"
     - "[αεηιουῡωρ]|><|ατο;+Homer"
 
+ZMI.1S:
+    ref: FMI.1S
+ZMI.2S:
+    ref: FMI.2S
 ZMI.3S:
     ref: FMI.3S
+ZMI.2D:
+    ref: FMI.2D
+ZMI.3D:
+    ref: FMI.3D
+ZMI.1P:
+    ref: FMI.1P
+ZMI.2P:
+    ref: FMI.2P
+ZMI.3P:
+    ref: FMI.3P
+
+PMS.1S:
+    - "|>ω<|μαι"  # §49
+    # - "|{athematic}>ο<|μαι"
+    - "|{contract}>ῶ<ω|μαι"  # added for principal parts
+PMS.2S:
+    - "|>ῃ<T_2+σαι|;-no-fmi.2s-eta"  # §49
+    - "|>ει<T_2+σαι|"  # §49
+    - "|{contract}>εῖ<T_2+σαι|"
+    - "|{contract}>ῇ<T_2+σαι|"  # LXX
+    - "|>ε<|σαι;+HGrk"  # @@@ no loss of intervocalic sigma
+    - "ασ|>ῃ<T_2+σαι|"  # just here to stop next rule swallowing default
+    - "|ασ>ᾷ<T_2+σαι|"  # @@@
+    - "|>η<|αι;+Homer"
+PMS.3S:
+    - "|>η<T_2|ται"  # §49
+    - "|{athematic}><|ται"
+    - "|{contract}>εῖ<T_2|ται"
+    - "ασ|>η<T_2|ται"
+    - "|ασ>η<T_2|ται"  # @@@
+PMS.2D:
+    - "|>η<|σθον;+Homer"
+PMS.3D:
+    ref: PMI.2D
+PMS.1P:
+    - "|>ω<T_1|μεθα"  # §49
+    - "|{contract}>ω<T_1|μεθα"
+    - "|>ώ<|μεσθα;+Homer"
+PMS.2P:
+    - "|>η<T_2|σθε"  # §49
+    - "|{contract}>η<T_2|σθε"
+PMS.3P:
+    - "|>ω<T_1|νται"  # §49
+    # - "|{athematic}>ο<|νται"
+    - "|{contract}>ω<T_1|νται"
