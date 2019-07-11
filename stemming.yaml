@@ -16,6 +16,10 @@ AAD.3S:
     - "|ω{root}>ώ<|τω"
     - "|α{root}>ή<@|τω"  # @@@
     # - "|α{athematic}>ή<|τω"  # @@@
+AAD.2D:
+    - "|>α<|τον;+Homer"
+AAD.3D:
+    - "|>ά<|των;+Homer"
 AAD.2P:
     ref: AAI.2P
 AAD.3P:
@@ -117,6 +121,8 @@ AAN:
     - "|ε{athematic}>εῖ<_2|ναι"  # §62
     - "|ο{athematic}>οῦ<_2|ναι"  # §62
     - "|ι{2nd}>εῖ<T_2+ε|ν"  # @@@ πεῖν
+    - "|><|άμεν;+Homer"
+    - "|><|άμεναι;+Homer"
 
 AAO.1S:
     - "|><|αιμι"
@@ -135,6 +141,7 @@ AAO.2S:
     - "|ο{athematic}>οί<ι|ης"
     - "|ε{athematic}>εί<ι|ης"
     # - "|α{athematic}>αί<ι|ης"
+    - "|>α<|ισθα;+Homer"
 AAO.3S:
     - "|><|αι;-only-epsilon-aao"  # long
     - "|><|ειε(ν);-no-final-nu-aao.3s"
@@ -146,6 +153,10 @@ AAO.3S:
     # - "|ἑ{athematic}>εἵ<ι|η"  # @@@
     - "|α{root}>αί<ι|η"  # @@@
     # - "|α{athematic}>αί<ι|η"  # @@@
+AAO.2D:
+    - "|>α<|ιτον;+Homer"
+AAO.3D:
+    - "|>α<|ίτην;+Homer"
 AAO.1P:
     - "|>α<α|ιμεν"
     - "|{2nd}>ο<T_1|ιμεν"
@@ -470,32 +481,47 @@ AMI.1S:
     - "|ε{athematic}>έ<|μην"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ό<|μην"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εί<|μην"  # §62 (@@@ or treat as root?)
+    - "|{root}><|μην;+Homer"
 AMI.2S:
     - "|>ω<α+σο|"  # §50
     - "|{2nd}>ου<T_2+σο|"  # §50
     - "|ε{athematic}>ου<σο|"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ου<σο|"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εῖ<|σο"  # §62 (@@@ or treat as root?)
+    - "|>α<α|ο;+Homer"  # §50
+    - "|{root}><|σο;+Homer"  # §50
 AMI.3S:
     - "|>α<α|το"  # §50
     - "|{2nd}>ε<T_2|το"  # §50
     - "|ε{athematic}>ε<|το"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ο<|το"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εῖ<|το"
+    - "|{root}><|το;+Homer"  # §50
+AMI.2D:
+    - "|>α<|σθον;+Homer"
+    - "|{root}><|σθον;+Homer"
+AMI.3D:
+    - "|>α<|σθην;+Homer"
+    - "|{root}><|σθην;+Homer"
 AMI.1P:
     - "|>α<α|μεθα"  # §50
     - "|{2nd}>ο<T_1|μεθα"  # §50
     - "|{athematic}><|μεθα"  # §62 (@@@ or treat as root?)
+    - "|>α<|μεσθα;+Homer"
+    - "|{root}><|μεσθα;+Homer"
+    - "|{root}><|μεθα;+Homer"
 AMI.2P:
     - "|>α<α|σθε"  # §50
     - "|{2nd}>ε<T_2|σθε"  # §50
     - "|{athematic}><|σθε"  # §62 (@@@ or treat as root?)
+    - "|{root}><|σθε;+Homer"
 AMI.3P:
     - "|>α<α|ντο"  # §50
     - "|{2nd}>ο<T_1|ντο"  # §50
     - "|ε{athematic}>ε<|ντο"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ο<|ντο"  # §62 (@@@ or treat as root?)
     - "|ει{athematic}>εῖ<|ντο"
+    - "|{root}><|ντο;+Homer"
 
 AMN:
     - "|>α<α|σθαι"  # §50
@@ -861,6 +887,8 @@ FAI.3P:
 FAN:
     - "|>ειν<|"  # §49
     - "|{contract}>εῖν<|"
+    - "|><|έμεν;+Homer"
+    - "|><|έμεναι;+Homer"
 
 FAO.1S:
     - "|><|οιμι"
@@ -973,15 +1001,21 @@ FMI.2S:
     - "|>ε<|σαι;+HGrk"  # @@@ no loss of intervocalic sigma
     - "ασ|>ῃ<T_2+σαι|"  # just here to stop next rule swallowing default
     - "|ασ>ᾷ<T_2+σαι|"  # @@@
+    - "|>ε<|αι;+Homer"
 FMI.3S:
     - "|>ε<T_2|ται"  # §49
     - "|{athematic}><|ται"
     - "|{contract}>εῖ<T_2|ται"
     - "ασ|>ε<T_2|ται"
     - "|ασ>ᾶ<T_2|ται"  # @@@
+FMI.2D:
+    - "|>ε<|σθον;+Homer"
+FMI.3D:
+    ref: PMI.2D
 FMI.1P:
     - "|>ο<T_1|μεθα"  # §49
     - "|{contract}>ου<T_1|μεθα"
+    - "|>ό<|μεσθα;+Homer"
 FMI.2P:
     - "|>ε<T_2|σθε"  # §49
     - "|{contract}>εῖ<T_2|σθε"
@@ -1292,6 +1326,8 @@ IMI.1S:
     # - "|{athematic}><|μην"
 IMI.2S:
     - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
+    - "[^{athematic}εοαη]|><|εο;+Homer"
+    - "[^{athematic}εοαη]|><|ευ;+Homer"
     - "|ε>οῦ<σο|"  # §58
     - "|ο>οῦ<σο|"  # §59
     - "|α>ῶ<σο|"  # §57
@@ -1316,6 +1352,10 @@ IMI.3S:
     - "|α{athematic}>α<|το"  # §60d
     - "|η{athematic}>η<|το"  # NT
     - "|ει{athematic}>ει<|το"  # NT
+IMI.2D:
+    - "|>ε<|σθον"
+IMI.3D:
+    - "|>έ<|σθην"
 IMI.1P:
     ref: PMI.1P
     # - "|>ό<T_1|μεθα"  # §48
@@ -1368,6 +1408,10 @@ PAD.3S:
     - "|ο>ού<Τ_2|τω"
     - "|η>η<Τ_2|τω"
     - "|{athematic}><|τω"
+PAD.2D:
+    - "|>ε<|τον"
+PAD.3D:
+    - "|>ε<|των"
 PAD.2P:
     ref: PAI.2P
 PAD.3P:
@@ -1494,7 +1538,10 @@ PAN:
     - "(?<!ε)ι|{athematic}>έ<|ναι"
     - "|ει{athematic}>εῖ<|ναι"
     - "|εσ{athematic}>εῖ<|ναι"
+    - "|><|μεν;+Homer"
+    - "|><|μεναι;+Homer"
     - "|><|έμεν;+Homer"
+    - "|><|έμεναι;+Homer"
 
 PAO.1S:
     - "|><|οιμι"
@@ -1526,6 +1573,7 @@ PAO.2S:
     - "ν|υ{athematic}>ύ<|οις"
     # - "|εσ{athematic}>ει<ι|ης"
     - "|εσ{athematic}>εί<ι|ης"
+    - "|>ο<|ισθα;+Homer"
 PAO.3S:
     - "|><|οι"  # long
     - "|ε>οῖ<οι|;-no-alt-opt-sg"
@@ -1541,6 +1589,10 @@ PAO.3S:
     - "ν|υ{athematic}>ύ<|οι"
     # - "|εσ{athematic}>εί<ι|η"
     - "|εσ{athematic}>εί<ι|η"
+PAO.2D:
+    - "|>ο<|ιτον;+Homer"
+PAO.3D:
+    - "|>ο<|ίτην;+Homer"
 PAO.1P:
     - "|>ο<ο|ιμεν"
     - "|ε>οῖ<οι|μεν"
@@ -2026,6 +2078,7 @@ PMI.2S:
     - "|α{athematic}>ῃ<σαι|;+HGrk"  # NT
     - "|η{athematic}>ῃ<σαι|"  # loss of intervocalic sigma (from NT?)
     - "|α>ᾶ<T_2|σαι;+HGrk"  # contraction without loss of intervocalic sigma (from NT)
+    - "|>ε<|αι;+Homer"
 PMI.3S:
     - "|>ε<T_2|ται"  # §48
     - "|ε>εῖ<T_2|ται"  # §58
@@ -2034,6 +2087,10 @@ PMI.3S:
     - "|α>ᾶ<T_2|ται"  # §57
     - "|η>ῆ<T_2|ται"
     - "|{athematic}><|ται"  # §60abcd + η and ει
+PMI.2D:
+    - "|>ε<|σθον;+Homer"
+PMI.3D:
+    ref: PMI.2D
 PMI.1P:
     - "|>ο<T_1|μεθα"  # §48
     - "|>ό<T_1|μεθα"  # §48
@@ -2043,6 +2100,7 @@ PMI.1P:
     - "|α>ω<T_1|μεθα"  # §57
     - "|η>ω<T_1|μεθα"
     - "|{athematic}><|μεθα"  # §60abcd
+    - "|>ό<|μεσθα;+Homer"
 PMI.2P:
     - "|>ε<T_2|σθε"  # §48
     - "|ε>εῖ<T_2|σθε"  # §58
@@ -2484,6 +2542,8 @@ XAI.3P:
 XAN:
     - "|>έ<@|ναι"  # §51
     - "|α{athematic}>ά<|ναι"  # §63
+    - "|><|έμεν;+Homer"
+    - "|><|έμεναι;+Homer"
 
 XAO.1S:
     - "|>ο<T_1|ιμι"
@@ -2493,10 +2553,15 @@ XAO.2S:
     - "|>ο<T_1|ις"
     - "|ε{athematic}>εί<ι|ης"
     - "|α{athematic}>αί<ι|ης"
+    - "|>ο<T_1|ισθα;+Homer"
 XAO.3S:
     - "|>ο<T_1|ι"
     - "|ε{athematic}>εί<ι|η"
     - "|α{athematic}>αί<ι|η"
+XAO.2D:
+    - "|>ο<|ιτον;+Homer"
+XAO.3D:
+    - "|>ο<|ίτην;+Homer"
 XAO.1P:
     - "|>ο<T_1|ιμεν"
     - "ε|{athematic}><|ιημεν;+alt-xao-pl"
@@ -2730,6 +2795,10 @@ XMI.3S:
     - "|κ>κτ<τ|αι"
     - "|γ>κτ<τ|αι"
     - "|χ>κτ<τ|αι"
+XMI.2D:
+    - "|><|σθον;+Homer"
+XMI.3D:
+    ref: XMI.2D
 XMI.1P:
     - "|><|μεθα"  # §51
     - "|μπ>μμ<μ|εθα"
@@ -2742,6 +2811,7 @@ XMI.1P:
     - "|κ>γμ<μ|εθα"
     - "|γ>γμ<μ|εθα"
     - "|χ>γμ<μ|εθα"
+    - "|><|μεσθα;+Homer"
 XMI.2P:
     - "|><|σθε"  # §51
     - "|π>φθ<σθ|ε"
@@ -2761,6 +2831,7 @@ XMI.3P:
     - "|ε>η<|νται"  # for κεκράτηνται @@@
     - "|{o}>ω<|νται"  # hack for ἀφέωνται @@@
     - "|@>ῶ<|νται"  # @@@
+    - "|><|αται;+Homer"
 
 XMN:
     - "|><|σθαι"  # §51
@@ -3075,6 +3146,10 @@ YMI.3S:
     - "|κ>κτ<τ|ο"
     - "|γ>κτ<τ|ο"
     - "|χ>κτ<τ|ο"
+YMI.2D:
+    - "|><|σθον;+Homer"
+YMI.3D:
+    - "|><|σθην;+Homer"
 YMI.1P:
     ref: XMI.1P
 YMI.2P:
@@ -3083,6 +3158,7 @@ YMI.3P:
     # only stems ending in vowel
     - "[αεηιουῡωρ]|><|ντο"
     - "|ε>ει<ε|ντο"
+    - "[αεηιουῡωρ]|><|ατο;+Homer"
 
 ZMI.3S:
     ref: FMI.3S

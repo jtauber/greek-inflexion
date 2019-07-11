@@ -24,8 +24,8 @@ ginflexion = GreekInflexion(
 
 first = True
 
-with open("homer-data/verbs.tsv") as f:
-# with open("homer-data/paradigms.tsv") as f:
+# with open("homer-data/verbs.tsv") as f:
+with open("homer-data/paradigms.tsv") as f:
     for row in f:
         total_count += 1
 
