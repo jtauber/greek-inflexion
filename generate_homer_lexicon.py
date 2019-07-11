@@ -61,9 +61,11 @@ for lemma, parts in sorted(STEM_GUESSES.items()):
             parts.items(), key=lambda x: (x[0][0], {"-": 0, "+": 1}[x[0][1]])):
         stem = set.intersection(*(set(s) for s in stem_sets))
         if len(stem) == 0:
-            pass  # print("        {}: {}  # @0".format(part, stem_sets))
+            if False:
+                print("        {}: {}  # @0".format(part, stem_sets))
         elif len(stem) == 1:
             print("        {}: {}  # @1".format(part, stem.pop()))
         else:
-            pass  # print("        {}: {}".format(part, trim_multiples(
-                # stem, part, lemma, parts)))
+            if False:
+                print("        {}: {}".format(part, trim_multiples(
+                    stem, part, lemma, parts)))

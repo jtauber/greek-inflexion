@@ -42,7 +42,7 @@ PARTS = {
         "FPI", "FPN", "FPP", "FPO",
     ],
     "8-": [
-               "ZAN",
+        "ZAI", "ZAN",
         "ZMI",
     ],
 }

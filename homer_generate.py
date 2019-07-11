@@ -5,10 +5,7 @@ from collections import defaultdict
 from accent import strip_length
 from greek_inflexion import GreekInflexion
 from test_generate import output_item
-# from normalise import convert as norm_convert
 from homer_utils import key_to_part
-# from lxxmorph_utils import get_words, convert_parse
-
 
 
 debug = False
@@ -24,8 +21,10 @@ ginflexion = GreekInflexion(
 
 first = True
 
-# with open("homer-data/verbs.tsv") as f:
-with open("homer-data/paradigms.tsv") as f:
+FILENAME = "homer-data/verbs.tsv"
+# FILENAME = "homer-data/paradigms.tsv"
+
+with open(FILENAME) as f:
     for row in f:
         total_count += 1
 
@@ -61,7 +60,8 @@ with open("homer-data/paradigms.tsv") as f:
                 ]
                 likely_stems = [
                     (key_to_part(a), b)
-                    for a, b in ginflexion.possible_stems(form, "^" + key + "$")
+                    for a, b in ginflexion.possible_stems(
+                        form, "^" + key + "$")
                 ]
                 possible_parses = []
                 for plemma, pparse in ginflexion.parse(form):

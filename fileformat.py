@@ -104,7 +104,8 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
                         key_regex = partnum_to_key_regex[partnum]
 
                         for stem, tag in split_stem_tags(stems):
-                            lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                            lexicon.add(
+                                lemma, key_regex, pre_processor(stem), tag)
 
                     for key_regex, stems in entry.get("stem_overrides", []):
 
@@ -112,7 +113,8 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
                             continue
 
                         for stem, tag in split_stem_tags(stems):
-                            lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                            lexicon.add(
+                                lemma, key_regex, pre_processor(stem), tag)
 
                 for key, form in entry.get("forms", {}).items():
                     form_override[(lemma, key)] = form
