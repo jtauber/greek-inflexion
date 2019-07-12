@@ -201,7 +201,8 @@ AAP.NSM:
     # - "|α{athematic}>ᾱ́<@|ς"  # §32 (mi+root)
     - "|α{root}>ᾱ́<@|ς"  # §32 (mi+root)
     - "|ο{root}>ού<@|ς"  # (root) @@@
-    - "|υ{root}>ῡ́<@|ς"
+    - "|υ{root}>ῡ́<@|ς"  # @@@ should result be long?
+    - "|ῡ{root}>ῡ́<@|ς"
 AAP.VSM:
     ref: AAP.NSM
 AAP.NSF:  # σα = σᾰ
@@ -212,7 +213,8 @@ AAP.NSF:  # σα = σᾰ
     # - "|α{athematic}>ᾶ<@|σα"  # §32 (mi+root)
     - "|α{root}>ᾶ<@|σα"  # §32 (mi+root)
     - "|ο{root}>οῦ<@|σα"  # root @@@
-    - "|υ{root}>ῦ<|σα"
+    - "|υ{root}>ῦ<|σα"  # @@@
+    - "|ῡ{root}>ῦ<|σα"
     # - "|υ{athematic}>ῦ<@|σα"  # φύω @@@ thematic or athematic?
 AAP.VSF:
     ref: AAP.NSF
@@ -293,7 +295,8 @@ AAP.GSF:
     # - "|α{athematic}>ᾱ́<@|σης"  # §32 (mi+root)
     - "|ο{root}>ού<@|σης"  # §64 (root)
     - "|α{root}>ᾱ́<@|σης"  # §64 (root)
-    - "|υ{root}>ῡ́<@|σης"  # root
+    - "|υ{root}>ῡ́<@|σης"  # root @@@
+    - "|ῡ{root}>ῡ́<@|σης"  # root
 AAP.GSN:
     ref: AAP.GSM
 AAP.GPM:
@@ -2211,7 +2214,7 @@ PMO.1P:
     - "|ο{athematic}>οι<ι|μεθα"  # change stem? (no because of ε{athematic})
     - "|α{athematic}>αι<ι|μεθα"
     - "νυ|{athematic}>οι<οι|μεθα"  # not really athematic because of ο
-    - "|><|οιμεσθα;+Homer"          # Ethan Yates: Not sure if all of these need the alternate form. Doing them 
+    - "|><|οιμεσθα;+Homer"          # Ethan Yates: Not sure if all of these need the alternate form. Doing them
     - "|ε>οι<οι|μεσθα;+Homer"       # all just to be safe with the extra sigma.
     - "|ο>οί<οι|μεσθα;+Homer"
     - "|α>ῴ<οι|μεσθα;+Homer"
@@ -2698,7 +2701,7 @@ XAP.GSF:
     - "|>υίης<|;+HGrk"  # @@@
     - "|>υίης<|;+Homer"  # @@@
     - "|α{athematic}>ώσ<|ης"
-    - "|ε{athematic}>ώσ<|ης"
+    - "ε|{athematic}>ώσ<|ης"
 XAP.GSN:
     - "|>ό<ο|τος"  # §33
     - "|α{athematic}>ῶ<ο|τος"
