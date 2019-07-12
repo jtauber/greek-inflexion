@@ -71,7 +71,8 @@ class InflexionTest(unittest.TestCase):
                 ('FMI.1S', 'ποι{contract}'),
                 ('PMI.1S', 'ποιε'),
                 ('PMI.1S', 'ποιο'),
-                ('XMI.1S', 'ποιου')
+                ('XMI.1S', 'ποιου'),
+                ('ZMI.1S', 'ποι{contract}'),
             ]
         )
 
@@ -82,7 +83,8 @@ class InflexionTest(unittest.TestCase):
                 ('FMI.1S', 'ποι{contract}'),
                 ('PMI.1S', 'ποιε'),
                 ('PMI.1S', 'ποιο'),
-                ('XMI.1S', 'ποιου')
+                ('XMI.1S', 'ποιου'),
+                ('ZMI.1S', 'ποι{contract}'),
             ]
         )
 

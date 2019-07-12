@@ -21,7 +21,7 @@ ginflexion = GreekInflexion(
 
 first = True
 
-#FILENAME = "homer-data/verbs.tsv"
+# FILENAME = "homer-data/verbs.tsv"
 FILENAME = "homer-data/paradigms.tsv"
 
 with open(FILENAME) as f:
