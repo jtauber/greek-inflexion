@@ -547,10 +547,17 @@ AMO.3S:
     - "|{2nd}><|οιτο"
     - "|ε{athematic}>εῖ<ι|το"
     - "|ο{athematic}>οῖ<ι|το"
+AMO.2D:
+    - "|>α<|ισθον;+Homer"
+AMO.3D:
+    - "|>α<|ισθην;+Homer"
 AMO.1P:
     - "|>α<α|ιμεθα"
     - "|{2nd}>ο<T_1|ιμεθα"
     - "|{athematic}><|ιμεθα"
+    - "|>α<α|ιμεσθα;+Homer"
+    - "|{2nd}>ο<T_1|ιμεσθα;+Homer"
+    - "|{athematic}><|ιμεσθα;+Homer"
 AMO.2P:
     - "|>α<α|ισθε"
     - "|{2nd}>ο<T_1|ισθε"
@@ -560,6 +567,7 @@ AMO.3P:
     - "|{2nd}><|οιντο"
     - "|ο{athematic}>οῖ<ι|ντο"
     - "|ε{athematic}>εῖ<ι|ντο"
+    - "|>α<|ιατο;+Homer"
 
 AMP.NSM:
     - "|>ά<α|μενος"  # §37
@@ -728,12 +736,17 @@ API.2S:
     - "|>η<|ς"  # §50
 API.3S:
     - "|>η<|"  # §50
+API.2D:
+    - "|>η<|τον;+Homer"
+API.3D:
+    - "|>η<|την;+Homer"
 API.1P:
     - "|>η<|μεν"  # §50
 API.2P:
     - "|>η<|τε"  # §50
 API.3P:
     - "|>η<|σαν"  # §50
+    - "|>ε<|ν;+Homer"
 
 APN:
     - "|>ῆ<|ναι"  # §50
@@ -853,18 +866,29 @@ APP.APN:
 
 APS.1S:
     - "|><|ῶ"  # ε-contraction
+    - "|>έ<|ω;+Homer"
 APS.2S:
     - "|><|ῇς"  # ε-contraction
+    - "|>έ<|ῃς;+Homer"
 APS.3S:
     - "|><|ῇ"  # ε-contraction
+    - "|>έ<|ῃ;+Homer"
+APS.2D:
+    - "|><|ῆτον;+Homer"  # ε-contraction
+    - "|>έ<|ητον;+Homer"
+APS.3D:
+    ref: APS.2D
 APS.1P:
     - "|><|ῶμεν"  # ε-contraction
+    - "|>έ<|ωμεν;+Homer"
 APS.2P:
     - "|><|ῆτε"  # ε-contraction
     - "|><|ητε;+HGrk"  # @@@
+    - "|>έ<|ητε;+Homer"
 APS.3P:
     - "|><|ῶσι(ν);-no-final-nu-aps.3p"  # ε-contraction
     - "|><|ῶσι;+no-final-nu-aps.3p"  # ε-contraction
+    - "|>έ<|ωσι;+Homer"
 
 FAI.1S:
     - "|>ω<|"  # §49
@@ -2173,6 +2197,10 @@ PMO.3S:
     - "|α{athematic}>αῖ<ι|το"
     - "|ο{athematic}>οῖ<ι|το"
     - "ν|υ{athematic}>ύ<|οιτο"  # ο suggests not athematic
+PMO.2D:
+    - "|>ο<|ισθον"
+PMO.3D:
+    - "|>ο<|ισθην"
 PMO.1P:
     - "|><|οιμεθα"
     - "|ε>οι<οι|μεθα"
@@ -2183,6 +2211,15 @@ PMO.1P:
     - "|ο{athematic}>οι<ι|μεθα"  # change stem? (no because of ε{athematic})
     - "|α{athematic}>αι<ι|μεθα"
     - "νυ|{athematic}>οι<οι|μεθα"  # not really athematic because of ο
+    - "|><|οιμεσθα;+Homer"          # Ethan Yates: Not sure if all of these need the alternate form. Doing them 
+    - "|ε>οι<οι|μεσθα;+Homer"       # all just to be safe with the extra sigma.
+    - "|ο>οί<οι|μεσθα;+Homer"
+    - "|α>ῴ<οι|μεσθα;+Homer"
+    - "|ε{athematic}>ει<ι|μεσθα;+Homer"
+    - "|α{athematic}{recessive}>αι<ι|μεσθα;+Homer"
+    - "|ο{athematic}>οι<ι|μεσθα;+Homer"  # change stem? (no because of ε{athematic})
+    - "|α{athematic}>αι<ι|μεσθα;+Homer"
+    - "νυ|{athematic}>οι<οι|μεσθα;+Homer"  # not really athematic because of ο
 PMO.2P:
     - "|><|οισθε"
     - "|ε>οῖ<οι|σθε"
@@ -2203,6 +2240,7 @@ PMO.3P:
     - "|ο{athematic}>οῖ<ι|ντο"
     - "|ε{athematic}>εῖ<ι|ντο"
     - "ν|υ{athematic}>ύ<|οιντο"  # ο suggests NOT athematic
+    - "|>οι<|ατο;+Homer"
 
 PMP.NSM:
     - "|>ό<T_1|μενος"  # § 34

@@ -21,8 +21,8 @@ ginflexion = GreekInflexion(
 
 first = True
 
-FILENAME = "homer-data/verbs.tsv"
-# FILENAME = "homer-data/paradigms.tsv"
+#FILENAME = "homer-data/verbs.tsv"
+FILENAME = "homer-data/paradigms.tsv"
 
 with open(FILENAME) as f:
     for row in f:
@@ -40,7 +40,9 @@ with open(FILENAME) as f:
             "no-final-nu-xai.3s",
             "no-final-nu-xai.3p",
             "no-final-nu-yai.3s",
+            "no-final-nu-aps.3p",
             "Homer",
+
         ])
 
         c = form.count("/") + 1
