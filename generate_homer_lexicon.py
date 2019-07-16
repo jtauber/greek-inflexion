@@ -28,6 +28,7 @@ with open("homer-data/verbs.tsv") as f:
             "no-final-nu-xai.3s",
             "no-final-nu-xai.3p",
             "no-final-nu-yai.3s",
+            "alt-apo-pl",
             "Homer",
         ])
 
