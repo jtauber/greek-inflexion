@@ -469,7 +469,7 @@ AMD.3D:
     - "|>ά<|σθων;+Homer"
 
 AMD.3S:
-    - "|>ά<ά|σθω" 
+    - "|>ά<ά|σθω"
     - "|{2nd}>έ<T_2|σθω"
     - "|{athematic}><|σθω"
 
@@ -1540,15 +1540,15 @@ PAI.3S:
     - "|ει{athematic}>εῖ<|σι(ν)"  # §66c
     - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
     - "|εσ{athematic}>εσ<|τι(ν)"  # NT § -εἰμί
-    - "|α{athematic}>η<_1|σι" 
-    - "|ε{athematic}>η<_1|σι"
+    - "|α{athematic}>η<_1|σι;+no-final-nu-pai.3s"
+    - "|ε{athematic}>η<_1|σι;+no-final-nu-pai.3s"
     - "|ε{athematic}>εῖ<σι|;+Homer"
-    - "|ο{athematic}>ω<_1|σι"
+    - "|ο{athematic}>ω<_1|σι;+no-final-nu-pai.3s"
     - "|ο{athematic}>οῖ<σι|;+Homer"
 
 PAI.2D:
     - "|>ε<T_1|τον;+Homer"
-    - "|{athematic}><|τον"
+    - "|{athematic}><|τον;+Homer"
 PAI.3D:
     ref: PAI.2D
 PAI.1P:
@@ -1586,12 +1586,12 @@ PAI.3P:
     - "|α{athematic}{enclitic}>ᾱ<ᾱ|σί(ν)"  # enclitic
     - "|ει{athematic}{enclitic}>ει<|σί(ν)"  # §65a εἰμί
     - "|ει{athematic}>ει<|σι(ν)"  # -εἰμί
-    - "|α{athematic}>ᾶ<ᾱ|σι"
-    - "|ε{athematic}>εῖ<ᾱ|σι;+Homer" 
+    - "|α{athematic}>ᾶ<ᾱ|σι;+no-final-nu-pai.3p"
+    - "|ε{athematic}>εῖ<ᾱ|σι;+Homer"
     - "|ε{athematic}>ε<|ουσι;+Homer"
-    - "|ε{athematic}>έᾱ<ᾱ|σι"
-    - "|ο{athematic}>οῦ<ᾱ|σι"
-    - "|ο{athematic}>όᾱ<ᾱ|σι"
+    - "|ε{athematic}>έᾱ<ᾱ|σι;+no-final-nu-pai.3p"
+    - "|ο{athematic}>οῦ<ᾱ|σι;+no-final-nu-pai.3p"
+    - "|ο{athematic}>όᾱ<ᾱ|σι;+no-final-nu-pai.3p"
 PAN:
     - "|>ει<T_2+ε|ν"  # §48
     - "|ε>εῖ<T_2+ε|ν"  # §58

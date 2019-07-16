@@ -21,13 +21,15 @@ with open("homer-data/verbs.tsv") as f:
             "fixed-final-nu-aai.3s",
             "no-final-nu-aai.3s",
             "no-final-nu-aao.3s",
-            "no-final-nu-aas.3p",
             "no-final-nu-fai.3p",
             "no-final-nu-pai.3p",
             "no-final-nu-iai.3s",
             "no-final-nu-xai.3s",
             "no-final-nu-xai.3p",
             "no-final-nu-yai.3s",
+            "no-final-nu-aps.3p",
+            "no-final-nu-pai.3s",
+            "alt-apo-pl",
             "Homer",
         ])
 
