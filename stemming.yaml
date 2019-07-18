@@ -44,6 +44,7 @@ AAI.1S:
     - "|ῡ{root}>υ<|ν;+length-missing"  # for when length not marked in form
     - "ω|{root}><|ν"  # if you model it this way rather than ο{root}
     # - "|α{athematic}>η<_2|ν"
+    - "|α{2nd}>η<η|ν;+Homer"
 AAI.2S:
     - "|>α<α|ς"  # §50 (1st/weak)
     - "|{2nd}>ε<T_2|ς"  # §50 (2nd/strong)
@@ -54,6 +55,7 @@ AAI.2S:
     - "ῡ|{root}><|ς"
     - "ω|{root}><|ς"  # if you model it this way rather than ο{root}
     # - "|α{athematic}>η<_2|ς"  # §64 (mi+root)
+    - "|α{2nd}>η<ε|ς;+Homer"
 AAI.3S:
     - "|>ε(ν)<|;+final-nu-aai.3s"  # §50 (1st/weak)
     - "|>εν<|;+fixed-final-nu-aai.3s"
@@ -69,10 +71,20 @@ AAI.3S:
     - "ω|{root}><|"  # if you model it this way rather than ο{root}
     # - "|α{athematic}>η<|"  # @@@
     # - "|υ{athematic}>υ<|"  # @@@
+    - "|α{2nd}>η<ε|;+Homer"
 AAI.2D:
     - "|>α<|τον;+Homer"
+    - "|α{2nd}>η<ε|τον;+Homer"
+    - "|{2nd}>ε<|τον;+Homer"
+    - "|{2nd}>εἱ<ε|τον;+Homer"
+    - "|{athematic}><|τον;+Homer"  # The only way I could get εἷτον to generate. May be problematic.
+    - "ε|{athematic}><|τον;+Homer"
 AAI.3D:
     - "|>α<|την;+Homer"
+    - "|α{2nd}>η<α|την;+Homer"
+    - "|{2nd}>ε<|την;+Homer"
+    - "ε|{athematic}><|την;+Homer"
+    - "|{athematic}><|την;+Homer"
 AAI.1P:
     - "|>α<α|μεν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|μεν"  # §50 (2nd/strong)
@@ -83,6 +95,7 @@ AAI.1P:
     - "ω|{root}><|μεν"  # if you model it this way rather than ο{root}
     # - "|ε{root}>η<_1|μεν"  # §50 (root)
     # - "|ο{root}>ω<_1|μεν"  # §50 (root)
+    - "|α{2nd}>η<ο|μεν;+Homer"
 AAI.2P:
     - "|>α<α|τε"  # §50 (1st/weak)
     - "|{2nd}>ε<T_2|τε"  # §50 (2nd/strong)
@@ -93,6 +106,7 @@ AAI.2P:
     - "ῡ|{root}><|τε"
     - "ω|{root}><|τε"  # if you model it this way rather than ο{root}
     - "|{athematic}><|τε"  # §62 (@@@ or treat as root?)
+    - "|α{2nd}>η<ε|τε;+Homer"
 AAI.3P:
     - "|>α<α|ν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
@@ -106,6 +120,9 @@ AAI.3P:
     - "|ει{athematic}>εῖ<|σαν"  # §62 (@@@ or treat as root?)
     - "|ο{athematic}>ο<|σαν"  # §62 (@@@ or treat as root?)
     - "|{2nd}>ο<@|σαν;+HGrk"  # @@@
+    - "|α{2nd}>α<ο|ν;+Homer"
+    - "|{2nd}>ε<|σαν;+Homer"
+
 
 AAN:
     - "|><|αι"  # §50 (1st/weak)
@@ -1298,6 +1315,8 @@ IAI.1S:
     # - "|η{athematic}{enclitic}>ῆ<|ν"  # -εἰμί
     - "|ῃ{athematic}>ῇα<|;+alt-eimi-imp"  # @@@
     - "|ῃ{athematic}>ῄειν<|"  # @@@
+    - "|ε{athematic}>η<|ν;+Homer"
+    - "|ε{athematic}>ει<|ν;+Homer"
 IAI.2S:
     - "|>ε<T_2|ς"  # §48
     - "|ε>ει<T_2|ς"  # §58
@@ -1339,6 +1358,9 @@ IAI.2D:
     ref: PAI.2D
 IAI.3D:
     - "|>ε<T_1|την;+Homer"
+    - "|α{athematic}>α<|την"
+    - "|ο{athematic}>ο<|την"
+    - "|ε{athematic}>ε<|την"
 IAI.1P:
     ref: PAI.1P
 IAI.2P:
@@ -1360,6 +1382,8 @@ IAI.3P:
     - "|ῃ{athematic}>ῄε<|σαν"  # @@@
     - "|>ο<T_1|σαν;+HGrk"  # @@@
     - "|ε>οῦ<T_1|σαν;+HGrk"  # @@@
+    - "|ε{athematic}>ε<|ν;+Homer"  # @@@
+
 
 IMI.1S:
     - "|>ό<T_1|μην"  # §48
