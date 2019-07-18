@@ -21,17 +21,14 @@ ginflexion = GreekInflexion(
 
 first = True
 
-FILENAME = "homer-data/verbs.tsv"
-PART = ["3-"]
+FILENAME = "homer-data/paradigms.tsv"
+
 
 with open(FILENAME) as f:
     for row in f:
         total_count += 1
 
         lemma, key, form = row.strip().split()
-        if PART:
-            if key_to_part(key) not in PART:
-                continue
 
         tags = set([
             "fixed-final-nu-aai.3s",
@@ -45,7 +42,6 @@ with open(FILENAME) as f:
             "no-final-nu-yai.3s",
             "no-final-nu-aps.3p",
             "no-final-nu-pai.3s",
-            "no-final-nu-aas.3p",
             "alt-apo-pl",
             "Homer",
         ])

@@ -1,3 +1,4 @@
+
 ἀάω:
     stems:
         1-: ἀα
@@ -1061,6 +1062,7 @@
 ἀνθίστημι:
     stems:
         1+: ἀνθιστα{athematic}
+        3+: ἀντεστα{2nd}
 
 ἀνιάζω:
     stems:
@@ -2069,6 +2071,7 @@
     stems:
         1-: ἀφιστα{athematic}
         3-: ἀποστησ
+        3+: ἀπεστα{2nd}
         # 4-: {frozenset({'ἀφεστ', 'ἀφεστα{athematic}'}), frozenset({'ἀφεστα{athematic}'}), frozenset({'ἀφεστα'})}  # @0
         # 4+: {frozenset({'ἀφεστα{athematic}', 'ἀφεσταδ{athematic}'}), frozenset({'ἀφεστηκ'})}  # @0
 
@@ -3755,7 +3758,8 @@
     stems:
         1-: ἐμβαιν
         1+: ἐμβαιν
-        3-: ἐμβη
+        3-: ἐμβη  # @@@
+        3+: ἐμβα{2nd}  # @@@
         # 4-: {frozenset({'ἐμβεβαα{athematic}'}), frozenset({'ἐμβεβα'})}  # @0
         4+: ἐμβεβα{athematic}
 
@@ -4221,6 +4225,10 @@
 ἐξοφέλλω:
     stems:
         3+: ἐξωφελλ
+
+ἐξυπανίστημι:
+    stems:
+        3+: ἐξυπανεστα{2nd}
 
 ἔοικα:
     stems:
@@ -5309,6 +5317,7 @@
     stems:
         1+: ἐφιστα{athematic}
         3-: ἐπιστα{athematic}
+        3+: ἐπεστα{2nd}  # @@@
         4-: ἐφεστα
         # 4+: {frozenset({'ἐφεσταδ{athematic}', 'ἐφεστα{athematic}'}), frozenset({'ἐφεστηκ'})}  # @0
 
@@ -5893,8 +5902,6 @@
         # 4-: {frozenset({'ἑστεα{athematic}'}), frozenset({'ἑστα'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         # 4+: {frozenset({'ἑσταδ{athematic}', 'ἑστα{athematic}'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         6+: ἐσταθ
-#    stem_overrides:
-#        - ["AAO", "ἐστησ/ἐστα{2nd}"]
 
 ἰσχανάω:
     stems:
@@ -6279,6 +6286,10 @@
 καταπέσσω:
     stems:
         3-: καταπεψ
+
+καταπέτομαι:
+    stems:
+        3+: καταπτη{athematic}
 
 καταπήγνυμι:
     stems:
@@ -10121,7 +10132,8 @@
 
 συνίημι:
     stems:
-        1-: ξυνιε
+        1-: ξυνιε  # @@@
+        1+: ξυνιε{athematic}
         3-: ξυνε{athematic}
         3+: ξυνεηκ
 
@@ -10940,7 +10952,8 @@
 
 ὑφίστημι:
     stems:
-        3-: ὑποστα{root}
+        3-: ὑποστα{root}  # @@@
+        3+: ὑπεστα{2nd}
         # 3+: {frozenset({'ὑπεστα{root}'}), frozenset({'ὑπεστ'}), frozenset({'ὑπεστη{athematic}', 'ὑπεστα{root}'})}  # @0
 
 ὕω:
@@ -11022,6 +11035,7 @@
         1-: φθαν
         2-: φθησ
         # 3-: {frozenset({'φθη', 'φθη{2nd}'}), frozenset({'φθα{root}'}), frozenset({'φθα{root}', 'φθ'}), frozenset({'φθε{2nd}', 'φθε'})}  # @0
+        3+: ἐφθα{2nd}
 
 φθέγγομαι:
     stems:
