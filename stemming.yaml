@@ -649,17 +649,15 @@ AMN:
     - "|>α<α|σθαι"  # §50
     - "|{2nd}>έ<T_2|σθαι"  # §50 (but Pratt doesn't accent)
     - "|{2nd}>ε<T_2|σθαι;+Homer"  # @@@
-    - "|ε{athematic}>έ<|σθαι"  # §62 (@@@ or treat as root?)
-    - "|ο{athematic}>ό<|σθαι"  # §62 (@@@ or treat as root?)
+    - "|{athematic}><|σθαι"  # §62 (@@@ or treat as root?)
     - "|α>ᾶ<|σθαι"  # @@@ or is there an intervocalic sigma lost?
     - "|ο>οῦ<T_2|σθαι"  # @@@ or is there an intervocalic sigma lost?
     - "|{root}><|σθαι"
 
 AMO.1S:
-    - "|>α<α|ίμην"
-    - "|{2nd}>ο<ο|ίμην"
-    - "|ε{athematic}>εί<ι|μην"
-    - "|ο{athematic}>οί<ι|μην"
+    - "|>αι<αι|μην"
+    - "|{2nd}>οι<οι|μην"
+    - "|{athematic}>ι<ι|μην"
     - "|{root}>ι<|μην"
 AMO.2S:
     - "|><|αιο"  # αισο
@@ -670,16 +668,15 @@ AMO.2S:
 AMO.3S:
     - "|><|αιτο"
     - "|{2nd}><|οιτο"
-    - "|ε{athematic}>εῖ<ι|το"
-    - "|ο{athematic}>οῖ<ι|το"
+    - "|{athematic}>ι<ι|το"
     - "|{root}>ι<|το"
 AMO.2D:
-    - "|>α<|ισθον;+Homer"
-    - "|{2nd}>ο<|ισθον"
+    - "|>αι<|σθον;+Homer"
+    - "|{2nd}>οι<|σθον"
     - "|{root}>ι<|σθον"
 AMO.3D:
-    - "|>α<|ισθην;+Homer"
-    - "|{2nd}>ο<|ισθην"
+    - "|>αι<|σθην;+Homer"
+    - "|{2nd}>οι<|σθην"
     - "|{root}>ι<|σθην"
 AMO.1P:
     - "|>α<α|ιμεθα"
@@ -687,7 +684,7 @@ AMO.1P:
     - "|{athematic}><|ιμεθα"
     - "|>α<α|ιμεσθα;+Homer"
     - "|{2nd}>ο<T_1|ιμεσθα;+Homer"
-    - "|{athematic}><|ιμεσθα;+Homer"
+    - "|{athematic}>ι<ι|μεσθα;+Homer"
     - "|{root}>ι<|μεθα"
     - "|{root}>ι<|μεσθα"
 AMO.2P:
@@ -699,18 +696,17 @@ AMO.2P:
 AMO.3P:
     - "|><|αιντο"
     - "|{2nd}><|οιντο"
-    - "|ο{athematic}>οῖ<ι|ντο"
-    - "|ε{athematic}>εῖ<ι|ντο"
-    - "|>α<|ιατο;+Homer"
-    - "|{2nd}>ο<|ιατο;+Homer"
+    - "|{athematic}>ι<ι|ντο"
+    - "|>αι<|ατο;+Homer"
+    - "|{2nd}>οι<|ατο;+Homer"
     - "|{root}>ι<|ατο"
 AMP.NSM:
     - "|>ά<α|μενος"  # §37
     - "|{2nd}>ό<T_1|μενος"  # §37
-    - "|ε{athematic}>έ<|μενος"  # §37
-    - "|ο{athematic}>ό<|μενος"  # §37
+    - "|{athematic}><|μενος"  # §37
+    # - "|ο{athematic}>ό<|μενος"  # §37
     # - "|α{athematic}>ά<|μενος"  # §37
-    - "|α{root}>ά<|μενος"  # §37
+    - "|{root}><|μενος"  # §37
 AMP.VSM:
     - "|>ά<α|μενε"
     - "|{2nd}>ό<T_1|μενε"
@@ -718,10 +714,10 @@ AMP.VSM:
 AMP.NSF:
     - "|>α<α|μένη"  # §37
     - "|{2nd}>ο<T_1|μένη"  # §37
-    - "|ε{athematic}>ε<|μένη"  # §37
-    - "|ο{athematic}>ο<|μένη"  # §37
+    - "|{athematic}><|μένη"  # §37
+    # - "|{athematic}>ο<|μένη"  # §37
     # - "|α{athematic}>α<|μένη"  # §37
-    - "|α{root}>α<|μένη"  # §37
+    - "|{root}><|μένη"  # §37
 AMP.VSF:
     ref: AMP.NSF
 AMP.NSN:
@@ -1487,9 +1483,10 @@ IAI.2D:
     ref: PAI.2D
 IAI.3D:
     - "|>ε<T_1|την;+Homer"
-    - "|α{athematic}>α<|την"
-    - "|ο{athematic}>ο<|την"
-    - "|ε{athematic}>ε<|την"
+    - "|{athematic}><|την"
+    # - "|α{athematic}>α<|την"
+    # - "|ο{athematic}>ο<|την"
+    # - "|ε{athematic}>ε<|την"
 IAI.1P:
     ref: PAI.1P
 IAI.2P:
@@ -1502,16 +1499,16 @@ IAI.3P:
     - "|ο>ω<T_1|ν;+doric/aeolic"
     - "|α>ω<T_1|ν"  # §57
     - "|η>ω<T_1|ν"  # §57
-    - "|ο{athematic}>ο<|σαν"  # §60a
-    - "|ε{athematic}>ε<|σαν"  # §60b
-    - "|υ{athematic}>υ<|σαν"  # §60c
-    - "|α{athematic}>α<|σαν"  # §60d
-    - "|η{athematic}>ῆ<|σαν"  # §65a εἰμί/-εἰμί
+    # - "|ο{athematic}>ο<|σαν"  # §60a
+    # - "|ε{athematic}>ε<|σαν"  # §60b
+    # - "|υ{athematic}>υ<|σαν"  # §60c
+    # - "|α{athematic}>α<|σαν"  # §60d
+    - "|{athematic}><|σαν"  # §65a εἰμί/-εἰμί
     - "|ῃ{athematic}>ῇ<|σαν;+alt-eimi-imp"  # @@@
     - "|ῃ{athematic}>ῄε<|σαν"  # @@@
     - "|>ο<T_1|σαν;+HGrk"  # @@@
     - "|ε>οῦ<T_1|σαν;+HGrk"  # @@@
-    - "|ε{athematic}>ε<|ν;+Homer"  # @@@
+    - "|{athematic}><|ν;+Homer"  # @@@
 
 
 IMI.1S:
@@ -1522,11 +1519,11 @@ IMI.1S:
     - "|α>ώ<T_1|μην"  # §57
     - "|η>ώ<T_1|μην"
     - "|ο{athematic}>ό<|μην"  # §60a
-    - "|ε{athematic}>έ<|μην"  # §60b
-    - "|υ{athematic}>ύ<|μην"  # §60c
-    - "|α{athematic}>ά<|μην"  # §60d
-    - "|η{athematic}>ή<|μην"  # NT εἰμί
-    - "|ῳ{athematic}>ῴ<|μην"  # @@@ collapse all the above?
+    # - "|ε{athematic}>έ<|μην"  # §60b
+    # - "|υ{athematic}>ύ<|μην"  # §60c
+    # - "|α{athematic}>ά<|μην"  # §60d
+    # - "|η{athematic}>ή<|μην"  # NT εἰμί
+    - "|{athematic}><|μην"  # @@@ collapse all the above?
     # - "|{athematic}><|μην"
 IMI.2S:
     - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
@@ -1536,10 +1533,11 @@ IMI.2S:
     - "|ο>οῦ<σο|"  # §59
     - "|α>ῶ<σο|"  # §57
     - "|η>ῶ<σο|"
-    - "|ο{athematic}>ο<|σο"  # §60a
-    - "|ε{athematic}>ε<|σο"  # §60b
-    - "|υ{athematic}>υ<|σο"  # §60c
-    - "|ῡ{athematic}>ῡ<|σο"
+    # - "|ο{athematic}>ο<|σο"  # §60a
+    # - "|ε{athematic}>ε<|σο"  # §60b
+    # - "|υ{athematic}>υ<|σο"  # §60c
+    # - "|ῡ{athematic}>ῡ<|σο"
+    - "|{athematic}><|σο"
     - "|α{athematic}>α<|σο;+no-sigma-loss-imi.2s"  # §60d
     - "|α{athematic}>ω<σο|;+sigma-loss-imi.2s"  # loss of intervocalic sigma followed by contraction (not in Pratt)
     # - "|η{athematic}>ῆ<|σθα"
@@ -1550,12 +1548,14 @@ IMI.3S:
     - "|ο>οῦ<T_2|το"  # §59
     - "|α>ᾶ<T_2|το"  # §57
     - "|η>ῆ<T_2|το"
-    - "|ο{athematic}>ο<|το"  # §60a
-    - "|ε{athematic}>ε<|το"  # §60b
-    - "|υ{athematic}>υ<|το"  # §60c
-    - "|α{athematic}>α<|το"  # §60d
-    - "|η{athematic}>η<|το"  # NT
-    - "|ει{athematic}>ει<|το"  # NT
+    # - "|ο{athematic}>ο<|το"  # §60a
+    # - "|ε{athematic}>ε<|το"  # §60b
+    # - "|υ{athematic}>υ<|το"  # §60c
+    # - "|α{athematic}>α<|το"  # §60d
+    # - "|η{athematic}>η<|το"  # NT
+    # - "|ει{athematic}>ει<|το"  # NT
+    - "|{athematic}><|το"
+
 IMI.2D:
     - "|>ε<|σθον"
 IMI.3D:
@@ -1624,9 +1624,10 @@ PAD.3P:
     - "|α>ώ<Τ_1|ντων"
     - "|ο>ού<Τ_1|ντων"
     - "|η>ω<Τ_1|ντων"
-    - "|α{athematic}>ά<|ντων"
-    - "|ο{athematic}>ό<|ντων"
-    - "|ε{athematic}>έ<|ντων"
+    # - "|α{athematic}>ά<|ντων"
+    # - "|ο{athematic}>ό<|ντων"
+    # - "|ε{athematic}>έ<|ντων"
+    - "|{athematic}><|ντων"
     - "ν|υ{athematic}>ύ<|ντων"
     # - "|η{athematic}>η<|ντων"
     - "|σ{athematic}>σ<ν|των"
