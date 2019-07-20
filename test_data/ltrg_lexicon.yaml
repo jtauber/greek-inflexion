@@ -104,13 +104,11 @@
         1-: βαιν
         1+: ἐβαιν
         2-: βησ
-        3-: βη{root}
-        # 3-altroot: βα{root}
-        3+: ἐβη{root}
+        3-: βα{root}  # LTRG claims βη{root} and βα{root} depending on grade
+        3+: ἐβα{root}
         4-: βεβηκ
-    notes:
-        - LTRG claims AAS stem is βε but no need for this
-
+    # stem_overrides:
+    #     - ["AAS", "βε"]  # LTRG claims this but so far not necessary
 γιγνώσκω:
     chapter: 14
     glosses:
@@ -137,13 +135,15 @@
         1+: ἐγιγνωσκ
         2-: γνωσ
         3-: γνω{root}
-        # 3-altroot: γνο{root}
         3+: ἐγνω{root}
         4-: ἐγνωκ
         5-: ἐγνωσ  # @@@
         6-: γνωσθ
         6+: ἐγνωσθ
         7-: γνωσθησ
+    stem_overrides:
+        - ["AA[OP]", "γνο{root}"]
+        - ["AAD.3P", "γνο{root}"]
 δείκνυμι:  # δείκνῡμι
     chapter: 11
     glosses:
@@ -223,8 +223,8 @@
         1-: διδο{athematic}  # @@@
         1+: ἐδιδο{athematic}  # @@@
         2-: δωσ
-        3-: δο{root}
-        3+: ἐδο{root}
+        3-: δο{athematic}
+        3+: ἐδο{athematic}
         4-: δεδωκ
         5-: δεδο
         6-: δοθ
@@ -233,8 +233,6 @@
     stem_overrides:
       - ["PAD.2S", "διδο"]
       - ["AAI.[123]S", "ἐδωκ"]
-      - ["AAS", "δω{root}"]  # @@@
-      - ["AAD.2S", "δο{root}{sigma}"]
 δύναμαι:
     chapter: 10
     glosses:
@@ -437,7 +435,7 @@
         4-: ἐσχηκ  # 4+ would be the same but is rare
         5-: -εσχη  # 5+ would be the same but is rare
     stem_overrides:
-      - ["AAD.2S", "σχ{2nd}{sigma}"]  # @@@
+      - ["AAD.2S", "σχ{2nd}{sigma}"]
 ζάω:
     chapter: 8
     glosses:
@@ -499,8 +497,8 @@
         1-: ῑ̔ε{athematic}  # should be ῑ̔η{athematic} in PAI.[123]S ?
         1+: ῑ̔ε{athematic}  # should be ῑ̔η{athematic} in PAI.1S ?
         2-: ἡσ
-        3-: ἑ{root}
-        3+: εἱ{root}
+        3-: ἑ{athematic}
+        3+: εἱ{athematic}
         4-: εἰκ
         5-: εἰ
         6+: εἰθ
@@ -508,7 +506,6 @@
       - ["PAI.3P", "ῑ̔α{athematic}"]  # might want to consider {#} or something rather than α{athematic}
       - ["PAD.2S", "ῑ̔ε"]
       - ["AAI.[123]S", "ἡκ"]
-      - ["AAD.2S", "ἑ{root}{sigma}"]
 ἵστημι:
     chapter: 15
     glosses:
@@ -532,22 +529,21 @@
         1-: ἱστα{athematic}
         1+: ῑ̔στα{athematic}
         2-: στησ
-        3-: στησ;-intrans/στη{root};-trans
-        # 3-altroot: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστη{root};-trans
+        3-: στησ/στα{root}
+        3+: ἐστησ/ἐστα{root}
         4-: ἑστηκ
         4+: εἱστηκ
         6+: ἐσταθ
     stem_overrides:
-        - ["PAI..S", "ἱστη{athematic}"]
-        - ["PAD.2S", "ἱστη"]  # η or α{#} ?
-        - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
-        - ["PMS.3P", "ἱστα"]
-        # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
-        # - ["IAI..2S", "ῑ̔στη"]
-        - ["[XY]AI.[123]P", "ἑστα{athematic}"]
-        - ["XAN", "ἑστα{athematic}"]
-        - ["XAP", "ἑστηκ/ἑστα{athematic}"]
+      - ["PAI..S", "ἱστη{athematic}"]
+      - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+      - ["PAS", "ἱστε"]  # @@@ model this way or in stemming?
+      - ["PMS.3P", "ἱστα"]
+      # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
+      # - ["IAI..2S", "ῑ̔στη"]
+      - ["[XY]AI.[123]P", "ἑστα{athematic}"]
+      - ["XAN", "ἑστα{athematic}"]
+      - ["XAP", "ἑστηκ/ἑστα{athematic}"]
 λαμβάνω:
     chapter: 9
     glosses:
@@ -837,8 +833,8 @@
         1-: τιθε{athematic}
         1+: ἐτιθε{athematic}
         2-: θησ
-        3-: θε{root}
-        3+: ἐθε{root}
+        3-: θε{athematic}
+        3+: ἐθε{athematic}
         4-: τεθηκ
         5-: τεθει
         6-: τεθ
@@ -848,7 +844,6 @@
       - ["PAD.2S", "τιθε"]
       - ["PMO.3S", "τιθε/τιθε{athematic}"]
       - ["AAI.[123]S", "ἐθηκ"]
-      - ["AAD.2S", "θε{root}{sigma}"]
 φαίνω:
     chapter: 12
     glosses:

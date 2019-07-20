@@ -34,51 +34,47 @@
     stems:
         1-: διδο{athematic}
         1+: ἐδιδο{athematic}
-        3-: δο{root}
-        3+: ἐδο{root}
+        3-: δο{athematic}
+        3+: ἐδο{athematic}
     stem_overrides:
       - ["PAD.2S", "διδο"]
       - ["AAI.[123]S", "ἐδωκ"]
-      - ["AAS", "δω{root}"]  # @@@
-      - ["AAD.2S", "δο{root}{sigma}"]
 
 τίθημι:
     stems:
         1-: τιθε{athematic}
         1+: ἐτιθε{athematic}
-        3-: θε{root}
-        3+: ἐθε{root}
+        3-: θε{athematic}
+        3+: ἐθε{athematic}
     stem_overrides:
       - ["PAD.2S", "τιθε"]
       - ["AAI.[123]S", "ἐθηκ"]
-      - ["AAD.2S", "θε{root}{sigma}"]
 
 ἵημι:
     stems:
         1-: ἱε{athematic}
         1+: ἱε{athematic}
-        3-: ἑ{root}
-        3+: εἱ{root}
+        3-: ἑ{athematic}
+        3+: εἱ{athematic}
     stem_overrides:
         - ["PAI.3P", "ἱα{athematic}"]
         - ["PAD.2S", "ἱε"]
+        - ["IAI.1S", "ἱε{root}"]
         - ["AAI..S", "ἡκ"]
-        - ["AAD.2S", "ἑ{root}{sigma}"]
 
 ἵστημι:
     stems:
         1-: ἱστα{athematic}
         1+: ἱστα{athematic}
         2-: στησ
-        3-: στησ;-intrans/στη{root};-trans
-        # 3-altroot: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστη{root};-trans
+        3-: στησ;-intrans/στα{root};-trans
+        3+: ἐστησ;-intrans/ἐστα{root};-trans
         6+: ἐσταθ
         7-: σταθησ
     stem_overrides:
-        - ["PAI..S", "ἱστη{athematic}"]
-        - ["PAD.2S", "ἱστη"]  # η or α{#} ?
-        - ["PMS.3P", "ἱστα"]
+      - ["PAI..S", "ἱστη{athematic}"]
+      - ["PAD.2S", "ἱστη"]  # η or α{#} ?
+      - ["PMS.3P", "ἱστα"]
 
 δείκνυμι:
     stems:
@@ -92,5 +88,7 @@
 γιγνώσκω:
     stems:
         3-: γνω{root}
-        # 3-altroot: γνο{root}
         3+: ἐγνω{root}
+    stem_overrides:
+        - ["AA[OP]", "γνο{root}"]
+        - ["AAD.3P", "γνο{root}"]
