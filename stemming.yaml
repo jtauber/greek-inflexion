@@ -46,7 +46,15 @@ AAI.3S:
     - "|>ε<|;+no-final-nu-aai.3s"
     - "|{2nd}>ε(ν)<T_2|;+final-nu-aai.3s"  # §50 (2nd/strong)
     - "|{2nd}>ε<T_2|;+no-final-nu-aai.3s"
-
+    - "[^ρ]|α{root}>η<|"  # §50 (root)
+    - "ρ|α{root}>α<|"  # @@@
+    # - "|ε{root}>η<|"  # §50 (root)
+    # - "|ο{root}>ω<|"  # §50 (root)
+    - "ῡ|{root}><|"
+    - "υ|{root}><|"
+    - "ω|{root}><|"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<|"  # @@@
+    # - "|υ{athematic}>υ<|"  # @@@
     - "|η{root}>η<|"  # @@@ workaround as can't handle empty ending
     - "|ω{root}>ω<|"  # @@@ workaround as can't handle empty ending
     - "|ῡ{root}>ῡ<|"  # @@@ workaround as can't handle empty ending
@@ -260,7 +268,8 @@ AAP.ASN:
 AAP.APM:
     - "|>α<|ντας"  # §30
     - "|{2nd}>ό<|ντας"  # §31
-
+    # - "α|{root}><|ντας"
+    # - "υ|{root}><|ντας"
     - "|{root}><|ντας"
 
 AAP.APF:
@@ -337,10 +346,14 @@ AMD.2S:
     - "|><|αι"
     - "|{2nd}><|οῦ"  # εσο
     - "|{2nd}><|ου;+HGrk"  # @@@
+    - "|ο{athematic}><|οῦ"
+    - "|ο{athematic}><|ου;+HGrk"  # @@@
+    - "|ε{athematic}><|οῦ"
+    # - "|ἑ{athematic}><|οὗ"
 
-    - "|ε{root}><|οῦ"
-    - "|ε{root}><|ου;+HGrk"  # @@@
-    - "|ο{root}><|οῦ"
+# - "|ε{root}><|οῦ"
+    # - "|ε{root}><|ου;+HGrk"  # @@@
+    # - "|ο{root}><|οῦ"
 
 AMD.3S:
     - "|>ά<ά|σθω"
@@ -594,8 +607,10 @@ AMS.3P:
     - "|ο{root}>ῶ<ω|νται"
 
 APD.2S:
-    - "[^θ]|><|ηθι"
-    - "θ|><|ητι"
+    - "|><|ηθι;+HGrk"
+    - "|><|ητι"
+    # - "[^θ]|><|ηθι"
+    # - "θ|><|ητι"
 
 APD.3S:
     - "|><|ήτω"
@@ -1227,7 +1242,8 @@ PAD.2S:
     - "|ε>ει<Τ_2|"
     - "|ε{nocontract}>εε<T_2|"
     - "|ε>η<Τ_2|;+doric/aeolic"
-    - "|α>α<Τ_2|"  # @@@
+    - "|α>α<Τ_2|"  # @@@ long or not? σιώπα says long, νῖκα says short
+    # - "|α>ᾱ<Τ_2|"
     - "|ο>ου<Τ_2|"
     - "|η>η<Τ_2|"
     - "|υ{#}>ῡ<|"  # need to distinguish from both {athematic} and thematic
@@ -1263,6 +1279,7 @@ PAD.3P:
 PAI.1S:
     - "|>ω<ω|"  # §48
     - "|ε>ῶ<ω|"  # §58
+    - "|ε{nocontract}>έ<|ω"  # @@@
     - "|ο>ῶ<ω|"  # §59
     - "|α>ῶ<ω|"  # §57
     - "|η>ῶ<ω|"
@@ -2161,7 +2178,8 @@ PMS.1S:
     - "|η>ῶ<ω|μαι"
     - "|ε{athematic}>ῶ<ω|μαι"
     - "|ο{athematic}>ῶ<ω|μαι"
-    - "|α{athematic}>ῶ<ω|μαι"
+    - "|α{athematic}>ῶ<ω|μαι;-HGrk"  # @@@ check this accentuation
+    - "|α{athematic}>ω<ω|μαι;+HGrk"  # @@@ check this accentuation
     - "ν|υ{athematic}>ύ<|ωμαι"
 PMS.2S:
     - "|>ῃ<η+σαι|"
@@ -2559,6 +2577,7 @@ XMP.VSN:
 XMP.NPM:
     - "|><|μένοι"
     - "|π>μμ<μ|ένοι"
+    - "|ν>μμ<μ|ένοι"
     - "|β>μμ<μ|ένοι"
     - "|φ>μμ<μ|ένοι"
     # - "|τ>σμ<μ|ένοι"
@@ -2651,7 +2670,7 @@ XMP.DSN:
     ref: XMP.DSM
 XMP.DPM:
     - "|><|μένοις"
-    - "|ν>μμ<μ|ένοις"  # should this be extended to all others?
+    - "|ν>μμ<μ|ένοις"
     - "|π>μμ<μ|ένοις"
     # - "|β>μμ<μ|ένοις"
     # - "|φ>μμ<μ|ένοις"
