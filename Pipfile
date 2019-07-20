@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+greek-accentuation = "==1.2.0"
+inflexion = {editable = true,git = "git://github.com/jtauber/inflexion.git",ref = "939e356f667054ce985fc87cb8bd91c055e6629a"}
+pyuca = "==1.1.2"
+py-sblgnt = "==0.5"
+greek-utils = "==0.2"
+PyYAML = "==3.12"
+
+[requires]
+python_version = "3.7"
