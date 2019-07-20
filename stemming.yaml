@@ -74,6 +74,15 @@ AAI.2P:
 AAI.3P:
     - "|>α<α|ν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
+    - "|α{root}>η<_1|σαν"  # §50 (root)
+    - "|ε{root}>η<_1|σαν"  # §50 (root)
+    - "|ο{root}>ω<_1|σαν"  # §50 (root)
+    - "ῡ|{root}><|σαν"
+    - "ω|{root}><|σαν"  # if you model it this way rather than ο{root}
+    # - "|α{athematic}>η<@|σαν"  # @@@
+    - "|ε{athematic}>ε<|σαν"  # §62 (@@@ or treat as root?)
+    - "|ει{athematic}>εῖ<|σαν"  # §62 (@@@ or treat as root?)
+    - "|ο{athematic}>ο<|σαν"  # §62 (@@@ or treat as root?)
     - "|{2nd}>ο<@|σαν;+HGrk"  # @@@
 
     - "|{root}><|σαν"
@@ -268,7 +277,7 @@ AAP.ASN:
 AAP.APM:
     - "|>α<|ντας"  # §30
     - "|{2nd}>ό<|ντας"  # §31
-    # - "α|{root}><|ντας"
+    - "α|{root}><|ντας"
     # - "υ|{root}><|ντας"
     - "|{root}><|ντας"
 
