@@ -2145,9 +2145,15 @@
         # 1+: {frozenset({'βαιν', 'βαινο{athematic}'}), frozenset({'ἐβαιν'}), frozenset({'βαιν'})}  # @0
         2-: βησ
         # 3-: {frozenset({'βα{root}', 'βα{athematic}'}), frozenset({'βει', 'βει{2nd}'}), frozenset({'βα{root}', 'βην'}), frozenset({'βα{root}'}), frozenset({'βημεν'})}  # @0
+        3-: βα{root}
         # 3+: {frozenset({'ἐβησ', 'ἐβησα{athematic}'}), frozenset({'ἐβ'}), frozenset({'ἐβα{root}'}), frozenset({'βησ'}), frozenset({'ἐβη{athematic}', 'ἐβα{root}'}), frozenset({'ἐβησ{2nd}', 'ἐβησε{athematic}'}), frozenset({'βησ{2nd}', 'βησ'}), frozenset({'βησα{athematic}', 'βησ'}), frozenset({'βη{athematic}'}), frozenset({'ἐβησ', 'ἐβε{root}', 'ἐβα{root}'})}  # @0
+        3+: ἐβα{2nd}
         # 4-: {frozenset({'βεβα'}), frozenset({'βεβαα{athematic}', 'βεβα'}), frozenset({'βεβηκ'}), frozenset({'βεβαα{athematic}'}), frozenset({'βεβα{athematic}'})}  # @0
         # 4+: {frozenset({'βεβα{athematic}', 'βεβαδ{athematic}'}), frozenset({'ἐβεβηκ'}), frozenset({'βεβηκ'})}  # @0
+    stem_overrides:
+        - ["AAS.1S", "βη"]
+        - ["AAS.3S", "βε"]
+        - ["AAS.3P", "β"]
 
 βάλλω:
     stems:
@@ -2441,7 +2447,12 @@
         1+: γιγνωσκ
         2-: γνωσ
         # 3-: {frozenset({'γνωμεν'}), frozenset({'γνο{root}', 'γνων', 'γνω{root}'}), frozenset({'γνω{root}', 'γνε{athematic}', 'γνο{athematic}', 'γνα{root}'}), frozenset({'γνο{root}', 'γνο{athematic}'}), frozenset({'γνω{root}', 'γνο{athematic}'}), frozenset({'γνω{2nd}', 'γνω'}), frozenset({'γνω{athematic}'})}  # @0
+        3-: γνω{root}
         3+: ἐγνω{root}
+    stem_overrides:
+        - ["AAS..S", "γνω{root}/γνω"]
+        - ["AAS..P", "γνω{root}/γνω"] 
+        - ["AAO..S", "γνο{root}"]
 
 γλαυκιάω:
     stems:
@@ -2899,6 +2910,7 @@
         1+: ἐδιδο{athematic}
         # 2-: {frozenset({'διδωσ'}), frozenset({'δωσ'})}  # @0
         2-: δωσ
+        3-: δο{root}
         # 3-: {frozenset({'δουν', 'δο{athematic}', 'δου{root}'}), frozenset({'δο{athematic}', 'δω{root}'}), frozenset({'δο{root}', 'δ{2nd}', 'δο{athematic}'}), frozenset({'δε{athematic}', 'δα{root}', 'δω{root}', 'δο{athematic}'}), frozenset({'δο{athematic}'}), frozenset({'δω', 'δω{2nd}'}), frozenset({'δο{root}', 'δο{athematic}'}), frozenset({'δο{root}', 'δ{2nd}'}), frozenset({'δομεν'})}  # @0
         # 3+: {frozenset({'δοσ'}), frozenset({'ἐδ{2nd}', 'ἐδο{athematic}'}), frozenset({'δο{athematic}'}), frozenset({'ἐδωκ'}), frozenset({'δωκ'}), frozenset({'ἐδ{2nd}', 'ἐδοσ', 'ἐδο{athematic}'}), frozenset({'δωκ', 'δωκ{2nd}'}), frozenset({'ἐδωκ{2nd}', 'ἐδωκ'})}  # @0
         3+: ἐδωκ
@@ -2907,6 +2919,7 @@
     stem_overrides:
         - ["AAI..D", "ἐδωκ/ἐδο{athematic}"]
         - ["AAI..P", "ἐδωκ/ἐδο{athematic}"]
+        - ['AMI...', "ἐδο{athematic}"]
 
 διεῖπον:
     stems:
@@ -3109,7 +3122,7 @@
         3-: δυ{root}
         # 3-: {frozenset({'δυσ'}), frozenset({'δυσ', 'δυσ{2nd}'}), frozenset({'δυ{athematic}', 'δυ{root}'}), frozenset({'δυ{athematic}'}), frozenset({'δυμεν'}), frozenset({'δυ{root}', 'δυν'}), frozenset({'δυ{2nd}', 'δυ'})}  # @0
         # 3+: {frozenset({'ἐδυ{root}', 'ἐδυ{athematic}'}), frozenset({'δυσ'}), frozenset({'δυσε{athematic}', 'δυσ{2nd}'}), frozenset({'ἐδυσ{2nd}', 'ἐδυσε{athematic}'}), frozenset({'ἐδυ{root}'}), frozenset({'δυν{2nd}', 'δυν'}), frozenset({'ἐδυν', 'ἐδυν{2nd}'}), frozenset({'ἐδυ{root}', 'ἐδυσ'}), frozenset({'ἐδυσ'})}  # @0
-
+        3+: ἐδῡ{root}
 ἑάφθη:
     stems:
         6+: ἑαφθ
@@ -5793,13 +5806,14 @@
         # 1-: {frozenset({'ἱε'}), frozenset({'ἱε{athematic}'})}  # @0
         1+: ἱε{athematic}
         2-: ἡσ
-        3-: ἑ{athematic}
+        3-: ἑ{root}
         # 3+: {frozenset({'εἰσ'}), frozenset({'ἑσ'}), frozenset({'ἑηκ{2nd}', 'ἑηκ'}), frozenset({'ἡκ'}), frozenset({'ἡκ{2nd}', 'ἡκ'})}  # @0
         3+: ἑηκ
     stem_overrides:
         - ["FAI.3S", "ἥσ/ἕσ"]
         - ["AAI..D", "ἑηκ/εἱ{athematic}"]
         - ["AAI..P", "ἑηκ/εἱ{athematic}"]
+        - ["AMI...", "εἱ{athematic}"]
 
 ἰθύνω:
     stems:
@@ -5897,11 +5911,19 @@
         1+: ἱστα{athematic}
         2-: στησ
         # 3-: {frozenset({'στημεν'}), frozenset({'στα{root}', 'στα{athematic}'}), frozenset({'στα{root}'}), frozenset({'στα{root}', 'στην'}), frozenset({'στησ'}), frozenset({'στ', 'στα{root}'}), frozenset({'στε{2nd}', 'στε'}), frozenset({'στησ', 'στησα{athematic}'}), frozenset({'στη{athematic}'}), frozenset({'στησα{root}', 'στησ'}), frozenset({'στη', 'στη{2nd}'})}  # @0
+        3-: στα{root}
         # 3+: {frozenset({'στασκ{2nd}', 'στασκ'}), frozenset({'ἐστη{athematic}', 'ἐστα{root}'}), frozenset({'ἐστησ', 'ἐστε{root}', 'ἐστα{root}'}), frozenset({'ἐστησ', 'ἐστησ{2nd}'}), frozenset({'ἐστα{root}'}), frozenset({'στησ'}), frozenset({'στησ', 'στησα{athematic}'}), frozenset({'ἐστ'}), frozenset({'στη{athematic}'}), frozenset({'στησ{2nd}', 'στησ'})}  # @0
         3+: ἐστησ/ἐστα{2nd}
         # 4-: {frozenset({'ἑστεα{athematic}'}), frozenset({'ἑστα'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
+        4-: ἑστα{athematic}
+        4+: ἑστα{athematic}
         # 4+: {frozenset({'ἑσταδ{athematic}', 'ἑστα{athematic}'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         6+: ἐσταθ
+    stem_overrides:
+        - ["XAI..S", "ἑστηκ/ἑστα{athematic}"]
+        - ["XAI.3P", "ἑστηκ/ἑστα{athematic}"]
+        - ["XAS...", "ἑστηκ"]
+        - ["YAI..S", "ἑστηκ"]
 
 ἰσχανάω:
     stems:
@@ -7095,6 +7117,7 @@
         2-: λειψ
         3-: λιπ{2nd}
         # 3+: {frozenset({'ἐλιπ{2nd}'}), frozenset({'ἐλιπ{2nd}', 'ἐλιπο{athematic}'}), frozenset({'ἐλιπ', 'ἐλιπ{2nd}'}), frozenset({'λιπ{2nd}'}), frozenset({'λιπ', 'λιπ{2nd}'}), frozenset({'λιπο{athematic}', 'λιπ{2nd}'})}  # @0
+        3+: ἐλιπ{2nd}
         5-: λελειπ
         8-: λελειψ
 
@@ -10374,10 +10397,15 @@
         1+: ἐτιθε{athematic}
         2-: θησ
         # 3-: {frozenset({'θε{2nd}', 'θε'}), frozenset({'θ{2nd}{sigma}', 'θε{athematic}'}), frozenset({'θει', 'θει{2nd}'}), frozenset({'θεμεν'}), frozenset({'θη', 'θη{2nd}'}), frozenset({'θε{athematic}', 'θ{2nd}'}), frozenset({'θε{athematic}', 'θειν'}), frozenset({'θε{athematic}'})}  # @0
+        3-: θε{root}
         # 3+: {frozenset({'θεσ'}), frozenset({'θηκ{2nd}', 'θηκ'}), frozenset({'ἐθε{athematic}'}), frozenset({'ἐθ{2nd}', 'ἐθε{athematic}'}), frozenset({'ἐθηκ', 'ἐθηκ{2nd}'}), frozenset({'ἐθεσ', 'ἐθε{athematic}'}), frozenset({'ἐθηκ'}), frozenset({'θηκ'}), frozenset({'θε{athematic}'})}  # @0
         3+: ἐθηκ/ἐθε{athematic}
     stem_overrides:
         - ['PAI.3P', "θε{athematic}/τιθε{athematic}"]
+        - ["AMI..P", "ἐθε{athematic}"]
+        - ["AMI.1S", "ἐθε{athematic}"]
+        - ["AMI.2S", "ἐθε{athematic}"]
+        - ["AMI..D", "ἐθε{athematic}"]
 
 τίκτω:
     stems:
@@ -10508,6 +10536,9 @@
         3-: θρεψ
         # 3+: {frozenset({'θρεψ', 'θρεψ{2nd}'}), frozenset({'θρεψ'}), frozenset({'ἐθρεψ{2nd}', 'ἐθρεψ'})}  # @0
         # 6+: {frozenset({'τραφ'}), frozenset({'ἐτραφ'})}  # @0
+        6-: τραφ
+        6+: ἐτραφ
+
 
 τρέχω:
     stems:
@@ -10978,6 +11009,7 @@
         2-: φαν{contract}
         3-: φην
         # 3+: {frozenset({'ἐφην{2nd}', 'ἐφην'}), frozenset({'φανεσκ{2nd}', 'φανεσκ'})}  # @0
+        3+: ἐφην
         5-: πεφαν
         6-: φαν
         # 6+: {frozenset({'φαανθ'}), frozenset({'ἐφαν'}), frozenset({'φαν'})}  # @0
