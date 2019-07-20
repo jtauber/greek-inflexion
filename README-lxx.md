@@ -1,9 +1,4 @@
-# lxx branch
-
-This branch is where work on supporting the LXX forms is taking place.
-
-It adds the following files:
-
+# LXX [WORK IN PROGRESS]
 
 * `lxxmorph/` -- directory of patch files to correct CATSS lxxmorph
 * `lxx_lexicon.yaml` -- WIP stem dataset for LXX

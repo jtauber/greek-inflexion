@@ -47,5 +47,4 @@ them up and moving them into this repo.
  - better stem shape heuristics when conjecturing stems
  - better stem conjecture when multiple forms available
  - richer stem database from principal parts lists
- - support for all verb forms in MorphGNT
  - support for more nominal forms
