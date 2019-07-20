@@ -91,7 +91,7 @@ def test_generate(
     ginflexion = GreekInflexion(stemming_file, lexicon_file)
 
     with open(test_file) as f:
-        for test in yaml.load(f):
+        for test in yaml.safe_load(f):
             source = test.pop("source", None)
             test.pop("test_length", False)
             lemma = test.pop("lemma")

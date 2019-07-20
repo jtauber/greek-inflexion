@@ -43,7 +43,8 @@ be:
  ('FMI.1S', 'ποι{contract}'),
  ('PMI.1S', 'ποιε'),
  ('PMI.1S', 'ποιο'),
- ('XMI.1S', 'ποιου')]
+ ('XMI.1S', 'ποιου'),
+ ('ZMI.1S', 'ποι{contract}')]
 
 Notice that the system doesn't yet have any heuristics around likely stem
 shape.
@@ -55,7 +56,8 @@ parsing:
 [('FMI.1S', 'ποι{contract}'),
  ('PMI.1S', 'ποιε'),
  ('PMI.1S', 'ποιο'),
- ('XMI.1S', 'ποιου')]
+ ('XMI.1S', 'ποιου'),
+ ('ZMI.1S', 'ποι{contract}')]
 
 
 ``GreekInflexion`` can also generate paradigms in a YAML format that can then

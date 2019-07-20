@@ -22,7 +22,7 @@ def load_stemming(stemming_file, strip_length=False):
     ruleset = StemmingRuleSet()
 
     with open(stemming_file) as f:
-        stemming_dict = yaml.load(f)
+        stemming_dict = yaml.safe_load(f)
 
     for key, rules in stemming_dict.items():
 
@@ -69,7 +69,6 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
         "2-A": "FA",
         "2-M": "FM",
         "3-": "A[AM][NPDSO]",
-        "3-altroot": "AAD.3P|AAO|A[AM]P",
         "3+": "A[AM]I",
         "3+A": "AAI",
         "3+M": "AMI",
@@ -91,33 +90,36 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
     with open(lexicon_file) as f:
 
-        for lemma, entry in yaml.load(f).items():
+        for lemma, entry in yaml.safe_load(f).items():
 
-            if "stems" in entry:
+            if entry:
+                if "stems" in entry:
 
-                stems = []
+                    stems = []
 
-                for partnum, stems in sorted((
-                    entry["stems"] if entry.get("stems") else {}
-                ).items()):
+                    for partnum, stems in sorted((
+                        entry["stems"] if entry.get("stems") else {}
+                    ).items()):
 
-                    key_regex = partnum_to_key_regex[partnum]
+                        key_regex = partnum_to_key_regex[partnum]
 
-                    for stem, tag in split_stem_tags(stems):
-                        lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                        for stem, tag in split_stem_tags(stems):
+                            lexicon.add(
+                                lemma, key_regex, pre_processor(stem), tag)
 
-                for key_regex, stems in entry.get("stem_overrides", []):
+                    for key_regex, stems in entry.get("stem_overrides", []):
 
-                    if stems is None:
-                        continue
+                        if stems is None:
+                            continue
 
-                    for stem, tag in split_stem_tags(stems):
-                        lexicon.add(lemma, key_regex, pre_processor(stem), tag)
+                        for stem, tag in split_stem_tags(stems):
+                            lexicon.add(
+                                lemma, key_regex, pre_processor(stem), tag)
 
-            for key, form in entry.get("forms", {}).items():
-                form_override[(lemma, key)] = form
+                for key, form in entry.get("forms", {}).items():
+                    form_override[(lemma, key)] = form
 
-            for key_regex, form in entry.get("accents", []):
-                accent_override[lemma].append((key_regex, form))
+                for key_regex, form in entry.get("accents", []):
+                    accent_override[lemma].append((key_regex, form))
 
     return lexicon, form_override, accent_override

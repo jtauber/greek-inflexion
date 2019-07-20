@@ -1,7 +1,6 @@
 # greek-inflexion
 
 [![Build Status](https://travis-ci.org/jtauber/greek-inflexion.svg)](https://travis-ci.org/jtauber/greek-inflexion)
-[![Coverage Status](https://coveralls.io/repos/jtauber/greek-inflexion/badge.svg?branch=master&service=github)](https://coveralls.io/github/jtauber/greek-inflexion?branch=master)
 
 A Python 3 library for generating (and analyzing) Ancient Greek inflectional
 paradigms.

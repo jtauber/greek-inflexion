@@ -12,9 +12,9 @@ USAGE = """
 def check(filename):
     with open(filename) as f:
         data1 = f.read()
-    out1 = yaml.load(data1)
+    out1 = yaml.safe_load(data1)
     data2 = yaml.dump(out1)
-    out2 = yaml.load(data2)
+    out2 = yaml.safe_load(data2)
     print(out1 == out2)
 
 

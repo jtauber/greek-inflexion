@@ -4,14 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
 
 [packages]
-greek-accentuation = "==1.2.0"
+greek-accentuation = "*"
 inflexion = {editable = true,git = "git://github.com/jtauber/inflexion.git",ref = "939e356f667054ce985fc87cb8bd91c055e6629a"}
-pyuca = "==1.1.2"
-py-sblgnt = "==0.5"
-greek-utils = "==0.2"
-PyYAML = "==3.12"
+pyuca = "*"
+py-sblgnt = "*"
+greek-utils = "*"
+PyYAML = "==3.13"
+lxml = "*"
+greek-normalisation = "*"
 
 [requires]
 python_version = "3.7"
