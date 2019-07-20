@@ -45,6 +45,7 @@ with open(FILENAME) as f:
             "no-final-nu-aas.3p",
             "no-final-nu-pas.3p",
             "no-final-nu-xas.3p",
+            "no-sigma-loss-imi.2s",
             "alt-apo-pl",
             "Homer",
         ])

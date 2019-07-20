@@ -9044,6 +9044,14 @@
 πεύθομαι:
     stems:
         1-: πευθ
+        5-: πεπυσ
+        5+: ἐπεπυσ
+    stem_overrides:
+        - ["XMI.3P", "πεπυθ"]
+        - ["YMI.3P", "ἐπεπυθ"]
+        - ["XMD..P", "πεπυσ/πεπυθ"]
+
+
 
 πήγνυμι:
     stems:
@@ -10550,7 +10558,8 @@
         2-: τρεψ
         # 3-: {frozenset({'τρεψ'}), frozenset({'τρεψ', 'τρεψα{athematic}'}), frozenset({'τραπ{2nd}', 'τραπε{athematic}'})}  # @0
         # 3+: {frozenset({'ἐτραπ', 'ἐτραπ{2nd}'}), frozenset({'τραπ{2nd}', 'τραπο{athematic}'}), frozenset({'ἐτραπ{2nd}'}), frozenset({'τραπ{2nd}', 'τραπ'}), frozenset({'ἐτρεψ', 'ἐτρεψ{2nd}'}), frozenset({'ἐτραπε{athematic}', 'ἐτραπ{2nd}'}), frozenset({'τρεψ{2nd}', 'τρεψ'}), frozenset({'τραπ{2nd}', 'τραπε{athematic}'})}  # @0
-        5+: τετραπ
+        5-: τετραπ
+        5+: ἐτετραπ
         6-: τραφθ
 
 τρέφω:
