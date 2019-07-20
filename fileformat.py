@@ -69,6 +69,7 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
         "2-A": "FA",
         "2-M": "FM",
         "3-": "A[AM][NPDSO]",
+        "3-altroot": "AAD.3P|AAO|A[AM]P",
         "3+": "A[AM]I",
         "3+A": "AAI",
         "3+M": "AMI",

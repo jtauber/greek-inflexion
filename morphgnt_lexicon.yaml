@@ -327,11 +327,13 @@
         1-: ἀναβαιν
         1+: ἀνεβαιν
         2-: ἀναβησ
-        3-: ἀναβα{root}/ἀναβα{athematic}
-        3+: ἀνεβα{root}
+        3-: ἀναβη{root}
+        3-altroot: ἀναβα{root}
+        3+: ἀνεβη{root}
         4-: ἀναβεβηκ
-    forms:
-        AAD.2S: ἀνάβα  # just for accent and Rev form
+    stem_overrides:
+        - ["AAD.2P", "ἀναβη{root}/ἀναβα{root}"]  # @@@
+        - ["AAD.2S", "ἀν|αβα{2nd}"]
 
 ἀναβάλλομαι:
     stems:
@@ -370,10 +372,9 @@
         1-: ἀναγινωσκ
         1+: ἀνεγινωσκ
         3-: ἀναγνω{root}
+        3-altroot: ἀναγνο{root}
         3+: ἀνεγνω{root}
         6-: ἀναγνωσθ
-    stem_overrides:
-        - ["AAP.N[SP]M", "ἀναγνο{root}"]
 
 ἀναγκάζω:
     stems:
@@ -635,7 +636,7 @@
 
 ἀνατίθεμαι:
     stems:
-        3+: ἀνεθε{athematic}
+        3+: ἀνεθε{root}
 
 ἀνατρέπω:
     stems:
@@ -710,8 +711,9 @@
     stems:
         1-: ἀνθιστα{athematic}
         1+: ἀνθιστα{athematic}
-        3-: ἀντιστα{root}
-        3+: ἀντεστα{root}
+        3-: ἀντιστη{root}
+        3-altroot: ἀντιστα{root}
+        3+: ἀντεστη{root}
         4-: ἀνθεστηκ
 
 ἀνθομολογέομαι:
@@ -721,17 +723,20 @@
 ἀνίημι:
     stems:
         1-: ἀνιε{athematic}
-        3-: ἀνε{athematic}
+        3-: ἀνε{root}
         6+: ἀνεθ
 
 ἀνίστημι:
     stems:
         1-: ἀνιστα{athematic}
         2-: ἀναστησ
-        3-: ἀναστησ/ἀναστα{root}
-        3+: ἀνεστησ/ἀνεστα{root}
+        3-: ἀναστησ/ἀναστη{root}
+        3-altroot: ἀναστησ/ἀναστα{root}
+        3+: ἀνεστησ/ἀνεστη{root}
     stem_overrides:
-        - ["AAD.2S", "ἀναστα{root}/ἀν|αστα{2nd}"]  # @@@
+        - ["AAD.2S", "ἀναστη{root}/ἀν|αστα{2nd}"]  # @@@
+    accents:
+        - ["AAP", "ἀναστάς"]  # @@@ automate this
     notes:
         - ἀναστησ;-intrans/ἀναστα{root};-trans
 
@@ -770,7 +775,7 @@
 ἀνταποδίδωμι:
     stems:
         2-: ἀνταποδωσ
-        3-: ἀνταποδο{athematic}
+        3-: ἀνταποδο{root}
         7-: ἀνταποδοθησ
 
 ἀνταποκρίνομαι:
@@ -793,7 +798,7 @@
 
 ἀντικαθίστημι:
     stems:
-        3+: ἀντικατεστα{root}
+        3+: ἀντικατεστη{root}
 
 ἀντικαλέω:
     stems:
@@ -982,8 +987,9 @@
 ἀποβαίνω:
     stems:
         2-: ἀποβησ
-        3-: ἀποβα{root}
-        3+: ἀπεβα{root}
+        3-: ἀποβη{root}
+        3-altroot: ἀποβα{root}
+        3+: ἀπεβη{root}
 
 ἀποβάλλω:
     stems:
@@ -1031,11 +1037,13 @@
         1-: ἀποδιδο{athematic}/ἀποδιδο
         1+: ἀπεδιδο
         2-: ἀποδωσ
-        3-: ἀποδο{athematic}
-        3+: ἀπεδωκ/ἀπεδο{athematic}/ἀπεδε{athematic}  # @@@
+        3-: ἀποδο{root}
+        3+: ἀπεδωκ/ἀπεδο{root}  # @@@
         6-: ἀποδοθ
-    forms:
-        AAD.2S: ἀπόδος  # @@@ just accent
+    stem_overrides:
+        - ["AAS", "ἀποδω{root}"]
+        - ["AMI.3S", "ἀπεδωκ/ἀπεδο{root}/ἀπεδ{2nd}"]  # last one could be ἀπεδε{root} too
+        - ["AAD.2S", "ἀπ|οδο{root}{sigma}"]
 
 ἀποδιορίζω:
     stems:
@@ -1068,7 +1076,7 @@
     stems:
         1-: ἀποκαθισταν
         2-: ἀποκαταστησ
-        3+: ἀπεκατεστα{root}
+        3+: ἀπεκατεστη{root}
         6-: ἀποκατασταθ
         6+: ἀπεκατεσταθ
 
@@ -1294,8 +1302,8 @@
 
 ἀποτίθημι:
     stems:
-        3-: ἀποθε{athematic}
-        3+: ἀπεθε{athematic}
+        3-: ἀποθε{root}
+        3+: ἀπεθε{root}
 
 ἀποτινάσσω:
     stems:
@@ -1544,7 +1552,7 @@
         1-: ἀφιε{athematic}
         1+: ἠφι
         2-: ἀφησ
-        3-: ἀφε{athematic}
+        3-: ἀφε{root}
         3+: ἀφ|ηκ/ἀφ|ηκ{2nd}  # @@@
         5-: ἀφε{o}
         6-: ἀφεθ
@@ -1553,6 +1561,7 @@
     stem_overrides:
         - ["PAI.2S", "ἀφε"]
         - ["PAI..P", "ἀφι"]
+        - ["AAD.2S", "ἀφε{root}{sigma}"]
     notes:
         - not sure about 3+
         - 5- is a hack
@@ -1566,8 +1575,9 @@
         1-: ἀφιστα{athematic}
         1+: ἀφιστα{athematic}
         2-: ἀποστησ
-        3-: ἀποστα{root}
-        3+: ἀπεστα{root}/ἀπεστησ
+        3-: ἀποστη{root}
+        3-altroot: ἀποστα{root}
+        3+: ἀπεστησ/ἀπεστη{root}
     accents:
         - ["AAP", "ἀποστάντα"]  # @@@
 
@@ -1883,6 +1893,7 @@
         1+: ἐγινωσκ
         2-: γνωσ
         3-: γνω{root}
+        3-altroot: γνο{root}
         3+: ἐγνω{root}
         4-: ἐγνωκ
         4+: ἐγνωκ
@@ -1891,10 +1902,7 @@
         6+: ἐγνωσθ
         7-: γνωσθησ
     stem_overrides:
-        - ["AAP", "γνο{root}"]
         - ["AAS", "γνο{root}/γνω{root}"]
-    forms:
-        XAI.3P: ἔγνωκαν
     notes:
         - investigate why XAI.3P (LTRG doesn't need it)
         - Dik and LTRG extend "γνο{root}" to all AA[OP] and at least AAD.3P
@@ -2065,8 +2073,9 @@
 
 διαβαίνω:
     stems:
-        3-: διαβα{root}
-        3+: διεβα{root}
+        3-: διαβη{root}
+        3-altroot: διαβα{root}
+        3+: διεβη{root}
 
 διαβάλλω:
     stems:
@@ -2115,12 +2124,12 @@
     stems:
         1-: διαδιδο{athematic}
         1+: διεδιδο{athematic}/διεδιδ
-        3-: διαδο{athematic}
+        3-: διαδο{root}
         3+: διεδωκ
+    stem_overrides:
+        - ["AAD.2S", "δι|αδο{root}{sigma}"]
     notes:
         - Classical 3+ had διεδωκ in singular but διεδο{athematic} in plural
-    forms:
-        AAD.2S: διάδος  # just accent @@@
 
 διαζώννυμι:
     stems:
@@ -2188,8 +2197,8 @@
         3+: διελιπ{2nd}
 
 διαλλάσσομαι:
-    forms:
-        APD.2S: διαλλάγηθι
+    stems:
+        6-: διαλλαγ
 
 διαλογίζομαι:
     stems:
@@ -2369,8 +2378,8 @@
     stems:
         1-: διατιθε{athematic}
         2-: διαθησ
-        3-: διαθε{athematic}
-        3+: διεθε{athematic}
+        3-: διαθε{root}
+        3+: διεθε{root}
 
 διατρίβω:
     stems:
@@ -2437,7 +2446,7 @@
         1-: διδο{athematic}
         1+: ἐδιδο{athematic}
         2-: δωσ
-        3-: δο{athematic}/δωσ
+        3-: δο{root}/δωσ
         3+: ἐδωκ
         4-: δεδωκ
         4+: δεδωκ
@@ -2446,11 +2455,13 @@
         6+: ἐδοθ
         7-: δοθησ
     stem_overrides:
-        - ["IAI.3P", "ἐδιδο/ἐδιδο{athematic}"]
-        - ["AAS.3S", "δο{root}/δωσ/δο{athematic}/δω"]  # @@@
         - ["PAD.2S", "διδο"]
-    forms:
-        AAO.3S: δῴη  # @@@
+        - ["IAI.3P", "ἐδιδο/ἐδιδο{athematic}"]
+        - ["AAS.2S", "δω{root}"]
+        - ["AAS.3S", "δω{root}/δο{root}/δωσ/δω"]
+        - ["AAS..P", "δω{root}"]
+        - ["AAD.2S", "δο{root}{sigma}"]
+        - ["AAO.3S", "δω{root}"]
     notes:
         - not 100% sure about 3-
         - δωσ in 3- seems a HGrk change
@@ -2498,8 +2509,9 @@
 
 διΐστημι:
     stems:
-        3-: διαστα{root}/διαστησ
-        3+: διεστα{root}
+        3-: διαστησ/διαστη{root}
+        3-altroot: διαστησ/διαστα{root}
+        3+: διεστη{root}
 
 διϊσχυρίζομαι:
     stems:
@@ -2586,8 +2598,9 @@
         5-: δεδοκιμασ
 
 δολιόω:
-    forms:
-        IAI.3P: ἐδολιοῦσαν
+    stems:
+        1-: δολιο
+        1+: ἐδολιο
 
 δολόω:
     stems:
@@ -2793,12 +2806,10 @@
     forms:
         PAI.2S: εἶ
         PAI.3S: ἐστί(ν)
-        IMI.2S: ἦσθα  # IAI/IMI
+        IAI.3S: ἦν
+        IMI.2S: ἦσθα
     accents:
         - ["PAP", "ὤν"]
-    notes:
-        forms:
-            IAI.3S: ἦν
 
 εἰρηνεύω:
     stems:
@@ -2872,7 +2883,7 @@
 
 ἐκβαίνω:
     stems:
-        3+: ἐξεβα{root}  # ἐξεβησ
+        3+: ἐξεβη{root}
 
 ἐκβάλλω:
     stems:
@@ -3124,7 +3135,7 @@
 ἐκτίθημι:
     stems:
         1+: ἐξετιθε{athematic}
-        3+: ἐξεθε{athematic}
+        3+: ἐξεθε{root}
         6-: ἐκτεθ
 
 ἐκτινάσσω:
@@ -3148,8 +3159,8 @@
         2-: ἐξοισ
         3-: ἐξενεγκ/ἐξενεγκ{2nd}
         3+: ἐξηνεγκ{2nd}
-    forms:
-        AAP.NPM: ἐξενέγκαντες  # just for accent @@@
+    accents:
+        - ["AAP", "ἐξενέγκαντες"]
 
 ἐκφεύγω:
     stems:
@@ -3266,8 +3277,9 @@
 ἐμβαίνω:
     stems:
         1-: ἐμβαιν
-        3-: ἐμβα{root}
-        3+: ἐνεβα{root}
+        3-: ἐμβη{root}
+        3-altroot: ἐμβα{root}
+        3+: ἐνεβη{root}
 
 ἐμβάλλω:
     stems:
@@ -3671,6 +3683,8 @@
         1-: ἐξεσ{athematic}
     stem_overrides:
         - ["PAP", "ἐξ|0"]
+    forms:
+        PAI.3S: ἔξεστι(ν)
 
 ἐξετάζω:
     stems:
@@ -3691,7 +3705,7 @@
     stems:
         1-: ἐξιστα{athematic}
         1+: ἐξιστα{athematic}
-        3+: ἐξεστα{root}
+        3+: ἐξεστη{root}
         4-: ἐξεστακ
     stem_overrides:
         - ["PAP", "ἐξισταν"]
@@ -3893,8 +3907,9 @@
 ἐπιβαίνω:
     stems:
         1-: ἐπιβαιν
-        3-: ἐπιβα{root}
-        3+: ἐπεβα{root}
+        3-: ἐπιβη{root}
+        3-altroot: ἐπιβα{root}
+        3+: ἐπεβη{root}
         4-: ἐπιβεβηκ
 
 ἐπιβάλλω:
@@ -3934,11 +3949,10 @@
         1+: ἐπεγινωσκ
         2-: ἐπιγνωσ
         3-: ἐπιγνω{root}
+        3-altroot: ἐπιγνο{root}
         3+: ἐπεγνω{root}
         4-: ἐπεγνωκ
         6+: ἐπεγνωσθ
-    stem_overrides:
-        - ["AAP", "ἐπιγνο{root}"]
 
 ἐπιγράφω:
     stems:
@@ -4210,13 +4224,12 @@
         1-: ἐπιτιθε{athematic}
         1+: ἐπετιθε{athematic}
         2-: ἐπιθησ
-        3-: ἐπιθε{athematic}
+        3-: ἐπιθε{root}
         3+: ἐπεθηκ
     stem_overrides:
         - ["PAD", "ἐπιτιθε"]
-        - ["AMI.3P", "ἐπεθε{athematic}"]
-    forms:
-        AAD.2S: ἐπίθες  # just accent @@@
+        - ["AMI.3P", "ἐπεθε{root}"]
+        - ["AAD.2S", "ἐπ|ιθε{root}{sigma}"]
 
 ἐπιτιμάω:
     stems:
@@ -4527,9 +4540,12 @@
 ἐφίστημι:
     stems:
         1-: ἐφιστα{athematic}
-        3-: ἐπιστα{root}
-        3+: ἐπεστα{root}
+        3-: ἐπιστη{root}
+        3-altroot: ἐπιστα{root}
+        3+: ἐπεστη{root}
         4-: ἐφεστα{athematic}/ἐφεστηκ
+    accents:
+        - ["AAP", "ἐπιστάς"]  # automate
 
 ἐφοράω:
     stems:
@@ -4573,7 +4589,7 @@
         1-: ζηλο
         3-: ζηλωσ
     forms:
-        PAS.2P: ζηλοῦτε  # handle in stemming @@@
+        PAS.2P: ζηλοῦτε  # @@@ why this form?
 
 ζημιόω:
     stems:
@@ -4879,8 +4895,9 @@
         1-: ἱσταν  # @@@
         1+: ἐστηκ
         2-: στησ
-        3-: στα{root}/στησ
-        3+: ἐστα{root}/ἐστησ
+        3-: στησ/στη{root}
+        3-altroot: στησ/στα{root}
+        3+: ἐστησ/ἐστη{root}
         4-: ἑστηκ  # singular; Pratt has ἑστα{athematic} for plural
         4+: εἱστηκ
         6-: σταθ
@@ -5070,11 +5087,12 @@
         1-: καταβαιν
         1+: κατεβαιν
         2-: καταβησ
-        3-: καταβα{root}
-        3+: κατεβα{root}
+        3-: καταβη{root}
+        3-altroot: καταβα{root}
+        3+: κατεβη{root}
         4-: καταβεβηκ
     stem_overrides:
-        - ["AAD.3S", "καταβα{athematic}"]
+        - ["AAD.3S", "καταβα{root}"]
 
 καταβάλλω:
     stems:
@@ -5264,8 +5282,8 @@
         3+: κατελιπ{2nd}/κατελειπ{2nd}
         5-: καταλελειπ
         6-: καταλειφθ
-    forms:
-        AAP.APM: καταλείψαντας  # just for accent @@@
+    accents:
+        - ["AAP", "καταλείψαντας"]
 
 καταλιθάζω:
     stems:
@@ -5469,7 +5487,7 @@
 
 κατατίθημι:
     stems:
-        3-: καταθε{athematic}
+        3-: καταθε{root}
 
 κατατρέχω:
     stems:
@@ -5550,7 +5568,7 @@
 
 κατεφίστημι:
     stems:
-        3+: κατεπεστα{root}
+        3+: κατεπεστη{root}
 
 κατέχω:
     stems:
@@ -5825,9 +5843,7 @@
         1-: κοπια
         3-: κοπιασ
         3+: ἐκοπιασ
-        4-: κεκοπιακ
-    forms:
-        XAI.2S: κεκοπίακες  # @@@ Rev
+        4-: κεκοπιακ/κεκοπιακ{2nd}
 
 κόπτω:
     stems:
@@ -5858,10 +5874,8 @@
         1+: ἐκραζ
         2-: κραξ
         3-: κραξ
-        3+: ἐκραξ
+        3+: ἐκραξ/ἐκεκραξ
         4-: κεκραγ
-    forms:
-        AAI.1S: ἐκέκραξα  # @@@
 
 κραταιόομαι:
     stems:
@@ -6322,11 +6336,12 @@
     stems:
         1-: μεταβαιν
         2-: μεταβησ
-        3-: μεταβα{root}
-        3+: μετεβα{root}
+        3-: μεταβη{root}
+        3-altroot: μεταβα{root}
+        3+: μετεβη{root}
         4-: μεταβεβηκ
-    forms:
-        AAD.2S: ["μετάβα", "μετάβηθι"]  # @@@
+    stem_overrides:
+        - ["AAD.2S", "μεταβη{root}/μετ|αβα{2nd}"]
 
 μεταβάλλομαι:
     stems:
@@ -6339,7 +6354,9 @@
 μεταδίδωμι:
     stems:
         1-: μεταδιδο{athematic}
-        3-: μεταδο{athematic}
+        3-: μεταδο{root}
+    stem_overrides:
+      - ["AAS", "μεταδω{root}"]
 
 μεταίρω:
     stems:
@@ -6926,7 +6943,7 @@
 παραβαίνω:
     stems:
         1-: παραβαιν
-        3+: παρεβα{root}
+        3+: παρεβη{root}
 
 παραβάλλω:
     stems:
@@ -6974,7 +6991,7 @@
         1-: παραδιδο{athematic}
         1+: παρεδιδο{athematic}/παρεδιδο/παρεδιδ  # @@@
         2-: παραδωσ
-        3-: παραδο{athematic}
+        3-: παραδο{root}
         3+: παρεδωκ
         4-: παραδεδωκ
         4+: παραδεδωκ
@@ -6983,10 +7000,12 @@
         6+: παρεδοθ
         7-: παραδοθησ
     stem_overrides:
-        - ["AAS.3S", "παραδο{root}/παραδο{athematic}"]
-        - ["AAI..P", "παρεδωκ/παρεδο{athematic}"]
+        - ["AAS.1S", "παραδω{root}"]
+        - ["AAS.3S", "παραδο{root}/παραδω{root}"]
+        - ["AAS.3P", "παραδω{root}"]
+        - ["AAI..P", "παρεδωκ/παρεδο{root}"]
     notes:
-        - Classical had 3+ of παρεδωκ in singular but παρεδο{athematic} for plural
+        - Classical had 3+ of παρεδωκ in singular but παρεδο{root} for plural
 
 παραζηλόω:
     stems:
@@ -7108,7 +7127,7 @@
 
 παραρρέω:
     stems:
-        3-: παραρυε{athematic}  # @@@
+        3-: παραρυε{root}  # @@@
 
 παρασκευάζω:
     stems:
@@ -7130,12 +7149,10 @@
     stems:
         1-: παρατιθε{athematic}
         2-: παραθησ
-        3-: παραθε{athematic}
+        3-: παρ|αθε{root}
         3+: παρεθηκ
     stem_overrides:
-        - ["AMI.3P", "παρεθε{athematic}"]
-    forms:
-        AMD.2S: παράθου  # just for accent
+        - ["AMI.3P", "παρεθε{root}"]
 
 παρατυγχάνω:
     stems:
@@ -7165,11 +7182,13 @@
         1-: παρεσ{athematic}
         1+: παρη{athematic}
         2-: παρ|εσ{athematic}
-        3-: παρε{athematic}
+        3-: παρε{root}
     stem_overrides:
         - ["PAI.2S", "παρει{athematic}"]
         - ["PAI.3P", "παρει{athematic}"]
         - ["PAP", "παρ0"]
+    forms:
+        PAI.3S: πάρεστι(ν)
     accents:
         - ["PAP", "παρών"]  # @@@
 
@@ -7221,8 +7240,9 @@
     stems:
         1-: παρισταν
         2-: παραστησ
-        3-: παραστησ/παραστα{root}
-        3+: παρεστησ/παρεστα{root}
+        3-: παραστησ/παραστη{root}
+        3-altroot: παραστησ/παραστα{root}
+        3+: παρεστησ/παρεστη{root}
         4-: παρεστηκ
         4+: παρειστηκ
     stem_overrides:
@@ -7418,7 +7438,7 @@
 περιΐστημι:
     stems:
         1-: περιϊστα{athematic}
-        3+: περιεστα{root}
+        3+: περιεστη{root}
         4-: περιεστα{athematic}
 
 περικαλύπτω:
@@ -7430,8 +7450,6 @@
 περίκειμαι:
     stems:
         1-: περικει{athematic}
-    # forms:
-    #     PMI.1S: περίκειμαι
 
 περικρύβω:
     stems:
@@ -7509,7 +7527,7 @@
 περιτίθημι:
     stems:
         1-: περιτιθε{athematic}
-        3-: περιθε{athematic}
+        3-: περιθε{root}
         3+: περιεθηκ
 
 περιτρέπω:
@@ -7831,7 +7849,8 @@
 
 προβαίνω:
     stems:
-        3-: προβα{root}
+        3-: προβη{root}
+        3-altroot: προβα{root}
         4-: προβεβηκ
 
 προβάλλω:
@@ -7905,7 +7924,8 @@
 προΐστημι:
     stems:
         1-: προϊστα{athematic}
-        3-: προστα{root}
+        3-: προστη{root}
+        3-altroot: προστα{root}
         4-: προεστα{athematic}
 
 προκαλέομαι:
@@ -8011,7 +8031,8 @@
 
 προσαναβαίνω:
     stems:
-        3-: προσαναβα{root}
+        3-: προσαναβη{root}
+        3-altroot: προσαναβα{root}
 
 προσαναλίσκω:
     stems:
@@ -8024,7 +8045,7 @@
 
 προσανατίθημι:
     stems:
-        3+: προσανεθε{athematic}
+        3+: προσανεθε{root}
 
 προσαπειλέομαι:
     stems:
@@ -8187,11 +8208,13 @@
 προστίθημι:
     stems:
         1+: προσετιθε{athematic}
-        3-: προσθε{athematic}
-        3+: προσεθηκ/προσεθε{athematic}  # @@@
+        3-: προσθε{root}
+        3+: προσεθηκ/προσεθε{root}  # @@@
         6-: προστεθ
         6+: προσετεθ
         7-: προστεθησ
+    stem_overrides:
+        - ["AAD.2S", "προσθε{root}{sigma}"]
 
 προστρέχω:
     stems:
@@ -8228,7 +8251,7 @@
 
 προτίθεμαι:
     stems:
-        3+: προεθε{athematic}
+        3+: προεθε{root}
 
 προτρέπομαι:
     stems:
@@ -8743,7 +8766,8 @@
 
 συγκαταβαίνω:
     stems:
-        3-: συγκαταβα{root}
+        3-: συγκαταβη{root}
+        3-altroot: συγκαταβα{root}
 
 συγκατατίθεμαι:
     stems:
@@ -8868,8 +8892,9 @@
     stems:
         1-: συμβαιν
         1+: συνεβαιν
-        3-: συμβα{root}
-        3+: συνεβα{root}
+        3-: συμβη{root}
+        3-altroot: συμβα{root}
+        3+: συνεβη{root}
         4-: συμβεβηκ
 
 συμβάλλω:
@@ -9038,7 +9063,8 @@
 
 συναναβαίνω:
     stems:
-        3-: συναναβα{root}
+        3-: συναναβη{root}
+        3-altroot: συναναβα{root}
 
 συνανάκειμαι:
     stems:
@@ -9127,7 +9153,7 @@
 
 συνεπιτίθεμαι:
     stems:
-        3+: συνεπεθε{athematic}
+        3+: συνεπεθε{root}
 
 συνέπομαι:
     stems:
@@ -9163,7 +9189,7 @@
 
 συνεφίστημι:
     stems:
-        3+: συνεπεστα{root}
+        3+: συνεπεστη{root}
 
 συνέχω:
     stems:
@@ -9198,7 +9224,7 @@
     stems:
         1-: συνιε{athematic}/συνι
         2-: συνησ
-        3-: συνε{athematic}
+        3-: συνε{root}
         3+: συν|ηκ
     stem_overrides:
         - ["PAI.3P", "συνια{athematic}/συνι"]  # @@@
@@ -9263,7 +9289,7 @@
 
 συντίθεμαι:
     stems:
-        3+: συνεθε{athematic}
+        3+: συνεθε{root}
         5+: συνετεθε
 
 συντρέχω:
@@ -9490,14 +9516,14 @@
         1-: τιθε{athematic}
         1+: ἐτιθε/ἐτιθε{athematic}
         2-: θησ
-        3-: θησ/θε{athematic}
-        3+: ἐθηκ/ἐθε{athematic}
+        3-: θησ/θε{root}
+        3+: ἐθηκ/ἐθε{root}
         4-: τεθεικ
         5-: τεθει
         6-: τεθ
         6+: ἐτεθ
     notes:
-        - Classical 3+ was ἐθηκ in singular, ἐθε{athematic} in plural
+        - Classical 3+ was ἐθηκ in singular, ἐθε{root} in plural
         - LTRG/Pratt have τεθηκ for 4-
 
 τίκτω:
