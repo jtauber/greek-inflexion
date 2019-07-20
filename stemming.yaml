@@ -128,7 +128,7 @@ AAI.1P:
     - "|ο{athematic}>ο<|μεν"
     - "|ει{athematic}>ει<|μεν"
     - "|α{athematic}>η<@|μεν"  # §64 (@@@ why does vowel change? should it be {root}?)
-    - "|α{root}>η<_1|μεν"  # §50 (root)
+    - "|α{root}>α<|μεν"  # §50 (root)
     - "|η{root}>η<|μεν"  # §50 (root)
     - "ῡ|{root}><|μεν"
     - "ω|{root}><|μεν"  # if you model it this way rather than ο{root}
@@ -160,8 +160,9 @@ AAI.2P:
 AAI.3P:
     - "|>α<α|ν"  # §50 (1st/weak)
     - "|{2nd}>ο<T_1|ν"  # §50 (2nd/strong)
-    - "|α{root}>η<_1|σαν"  # §50 (root)
-    - "|ε{root}>η<_1|σαν"  # §50 (root)
+    - "|α{root}>α<|σαν"  # §50 (root)
+    - "|η{root}>η<|σαν"  # §50 (root)
+    - "|ε{root}>η<_1|σαν"  # §50 (root) @@@
     - "|ο{root}>ω<_1|σαν"  # §50 (root)
     - "ῡ|{root}><|σαν"
     - "ω|{root}><|σαν"  # if you model it this way rather than ο{root}
@@ -174,6 +175,7 @@ AAI.3P:
     - "|{2nd}>ε<|σαν;+Homer"
     - "|α{2nd}>η<ε|σαν;+Homer"
     - "|{2nd}><|σαν;+Homer"
+    - "α|{root}><|ν;+Homer"
     - "|ω{root}>ο<|ν;+Homer"
     - "ῡ|{root}><|ν;+Homer"
 
@@ -489,6 +491,7 @@ AAS.1S:
     # - "|ο{root}>ῶ<ω|"  # Pratt lexicon used to do it this way
     - "|α{root}>ῶ<ω|"
     - "|η{root}>ῶ<ω|"
+    - "|η{root}>ηω<ω|;+Homer"
     - "|α{athematic}>ῶ<ω|"  # @@@
     - "|><|ωμι;+Homer"
     - "|α{athematic}>ῶ<ω|μι;+Homer"
@@ -522,6 +525,7 @@ AAS.3S:
     - "|{2nd}><|ῃσι;+Homer"
     - "|ο{athematic}>ῷ<ῃ|"
     - "|ε{athematic}>ῇ<ῃ|"
+    - "|ε{root}>έῃ<ῃ|;+Homer"
     - "υ|{root}><|ῃ"
     - "|ω{root}>ῷ<ῃ|"  # LTRG does it this way
     # - "|ο{root}>ῷ<ῃ|"  # Pratt lexicon used to do it this way (but would clash with below)
@@ -599,6 +603,8 @@ AAS.3P:
     - "|α{athematic}>ῶ<ω|σι;+Homer"
     - "|ε{athematic}>ῶ<ω|σι;+Homer"
     - "|ο{athematic}>ῶ<ω|σι;+Homer"
+    - "|α{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
+    - "|η{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
 
 AMD.2S:
     - "|><|αι"
@@ -2871,23 +2877,29 @@ XAD.2S:
     - "|><|ε"
     - "|δ>σ<|θι"  # @@@ should stem diacritic indicate θι ending?
     - "α|{athematic}><|θι"
+    - "α|{root}><|θι"
 
 XAD.3S:
     - "|>έ<έ|τω"
     - "|δ>σ<|τω"
     - "|α{athematic}>ά<|τω"
+    - "|α{root}>ά<|τω"
 XAD.2D:
     - "|{athematic}><|τον"
+    - "|{root}><|τον"
 XAD.3D:
     - "|{athematic}><|των"
+    - "|{root}><|των"
 XAD.2P:
     - "|>ε<T_2|τε"
     - "|δ>σ<|τε"
     - "α|{athematic}><|τε"
+    - "α|{root}><|τε"
 XAD.3P:
     - "|>έ<έ|τωσαν"
     - "|δ>σ<|των"  # @@@ should stem diacritic indicate ων ending?
     - "|α{athematic}>ά<|ντων"  # @@@
+    - "|α{root}>ά<|ντων"  # @@@
 
 XAI.1S:
     - "|><|α"  # §51
@@ -2904,16 +2916,19 @@ XAI.3S:
 XAI.2D:
     - "|>α<α|τον"
     - "|{athematic}><|τον"
+    - "|{root}><|τον"
 XAI.3D:
     ref: XAI.2D
 XAI.1P:
     - "|>α<α|μεν"  # §51
     - "|α{athematic}>α<|μεν"  # §63
     - "|δ{athematic}>σμ<μ|εν"
+    - "|{root}><|μεν"
 XAI.2P:
     - "|>α<α|τε"  # §51
     - "|α{athematic}>α<|τε"  # §63
     - "|δ{athematic}>στ<τ|ε"  # §65b οἶδα
+    - "|{root}><|τε"
 XAI.3P:
     - "|>ᾱ<α|σι(ν);-no-final-nu-xai.3p"  # §51
     - "|>ᾱ<α|σι;+no-final-nu-xai.3p"
@@ -2921,12 +2936,15 @@ XAI.3P:
     - "|δ{athematic}>σα<σα|σι(ν)"  # @@@
     - "|><|αν;+HGrk"  # @@@
     - "|α{athematic}>ᾶ<|σι;+no-final-nu-xai.3p"
+    - "|{root}><|ᾱσι;+no-final-nu-xai.3p"
 
 XAN:
     - "|>έ<@|ναι"  # §51
     - "|α{athematic}>ά<|ναι"  # §63
     - "|><|έμεν;+Homer"
     - "|><|έμεναι;+Homer"
+    - "|α{root}>ά<|μεν;+Homer"
+    - "|α{root}>ά<|μεναι;+Homer"
 
 XAO.1S:
     - "|>ο<T_1|ιμι"
@@ -3507,19 +3525,23 @@ YAI.3S:
 YAI.2D:
     - "|>ε<ε|τον;+Homer"
     - "|{athematic}><|τον"
+    - "|{root}><|τον"
 YAI.3D:
     - "|>ε<ε|την;+Homer"
     - "|{athematic}><|την"
+    - "|{root}><|την"
 YAI.1P:
     - "|>ε<ε|μεν"  # §51
     - "|>ει<ει|μεν;+HGrk"
     - "|δ{athematic}>σ<|μεν"  # οἶδα
     - "α|{athematic}><|μεν"
+    - "α|{root}><|μεν"
 YAI.2P:
     - "|>ε<ε|τε"  # classical §51
     - "|>ει<ει|τε;+HGrk"  # NTGreek
     - "|δ{athematic}>σ<|τε"  # οἶδα
     - "α|{athematic}><|τε"
+    - "α|{root}><|τε"
 YAI.3P:
     - "|>ε<ε|σαν;-HGrk"  # classical §51
     - "|>ει<ει|σαν;+HGrk"  # NTGreek (and see oida-yai3p-variant)
@@ -3527,6 +3549,7 @@ YAI.3P:
     - "|δ{athematic}>δει<ει|σαν;+oida-yai3p-variant"  # ᾔδεισαν (οἶδα)
     - "|δ{athematic}>δε<ε|σαν;-oida-yai3p-variant"  # ᾔδεσαν (οἶδα) (classical)
     - "|α{athematic}>α<|σαν"
+    - "|α{root}>α<|σαν"
 
 YMI.1S:
     - "|><|μην"  # §51
