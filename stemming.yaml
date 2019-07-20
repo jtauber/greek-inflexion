@@ -3032,20 +3032,24 @@ XAS.3S:
     - "|α{athematic}>ῇ<ῃ|"
     - "|>ῃ<|σι;+Homer"
 XAS.2D:
-    # - "|>η<|τον;+Homer" Not actually found in Homer. λύω X does not occur in Homer, removed from paradigms.
-    - "|><|ετον"
+    - "|>η<|τον" 
+    - "|><|ετον;+Homer"
 XAS.3D:
     ref: XAS.2D
 XAS.1P:
     # - "|>ω<ω|μεν"
     # - "|ε>ῶ<ω|μεν"  # just used by εἰδε
     - "|α{athematic}>ῶ<ω|μεν"  # @@@
-    - "|><|ομεν"
+    - "|><|ομεν;+Homer"
+    - "|><|ωμεν"
+
 XAS.2P:
     # - "|>η<η|τε"
     # - "|ε>ῆ<η|τε"  # just used by εἰδε
     - "|α{athematic}>ῆ<η|τε"
-    - "|><|ετε"
+    - "|><|ετε;+Homer"
+    - "|><|ητε"
+
 XAS.3P:
     - "|>ω<ω|σι(ν);-no-final-nu-xas.3p"
     - "|>ω<ω|σι;+no-final-nu-xas.3p"
