@@ -16,7 +16,7 @@ total_count = 0
 summary_by_lemma = defaultdict(set)
 
 ginflexion = GreekInflexion(
-    "stemming.yaml", "homer_lexicon.yaml"
+    "stemming.yaml", "STEM_DATA/homer_lexicon.yaml"
 )
 
 first = True

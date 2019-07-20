@@ -36,7 +36,7 @@ class InflexionTest(unittest.TestCase):
     def setUp(self):
         self.inflexion = GreekInflexion(
             "stemming.yaml",
-            "test_data/pratt_lexicon.yaml"
+            "STEM_DATA/pratt_lexicon.yaml"
         )
 
     def test_generate(self):

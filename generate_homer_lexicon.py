@@ -8,7 +8,7 @@ from homer_utils import key_to_part, trim_multiples
 
 
 ginflexion = GreekInflexion(
-    "stemming.yaml", "homer_lexicon.yaml"
+    "stemming.yaml", "STEM_DATA/homer_lexicon.yaml"
 )
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
