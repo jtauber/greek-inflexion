@@ -2820,23 +2820,29 @@ XAD.2S:
     - "|><|ε"
     - "|δ>σ<|θι"  # @@@ should stem diacritic indicate θι ending?
     - "α|{athematic}><|θι"
+    - "|><|αθι;+Homer"
 
 XAD.3S:
     - "|>έ<έ|τω"
     - "|δ>σ<|τω"
     - "|α{athematic}>ά<|τω"
+    - "|><|ατω;+Homer"
 XAD.2D:
     - "|{athematic}><|τον"
+    - "|><|ατον;+Homer"
 XAD.3D:
     - "|{athematic}><|των"
+    - "|><|ατων;+Homer"
 XAD.2P:
     - "|>ε<T_2|τε"
     - "|δ>σ<|τε"
     - "α|{athematic}><|τε"
+    - "|><|ατε;+Homer"
 XAD.3P:
     - "|>έ<έ|τωσαν"
     - "|δ>σ<|των"  # @@@ should stem diacritic indicate ων ending?
     - "|α{athematic}>ά<|ντων"  # @@@
+    - "|><|αντων;+Homer"
 
 XAI.1S:
     - "|><|α"  # §51
@@ -2876,6 +2882,8 @@ XAN:
     - "|α{athematic}>ά<|ναι"  # §63
     - "|><|έμεν;+Homer"
     - "|><|έμεναι;+Homer"
+    - "|><|αμεν;+Homer"
+    - "|><|άμεναι;+Homer"
 
 XAO.1S:
     - "|>ο<T_1|ιμι"
@@ -3453,19 +3461,24 @@ YAI.3S:
 YAI.2D:
     - "|>ε<ε|τον;+Homer"
     - "|{athematic}><|τον"
+    - "|><|ατον;+Homer"
 YAI.3D:
     - "|>ε<ε|την;+Homer"
     - "|{athematic}><|την"
+    - "|><|ατην;+Homer"
 YAI.1P:
     - "|>ε<ε|μεν"  # §51
     - "|>ει<ει|μεν;+HGrk"
     - "|δ{athematic}>σ<|μεν"  # οἶδα
     - "α|{athematic}><|μεν"
+    - "|><|αμεν;+Homer"
 YAI.2P:
     - "|>ε<ε|τε"  # classical §51
     - "|>ει<ει|τε;+HGrk"  # NTGreek
     - "|δ{athematic}>σ<|τε"  # οἶδα
     - "α|{athematic}><|τε"
+    - "|><|ατε;+Homer"
+
 YAI.3P:
     - "|>ε<ε|σαν;-HGrk"  # classical §51
     - "|>ει<ει|σαν;+HGrk"  # NTGreek (and see oida-yai3p-variant)
@@ -3473,6 +3486,7 @@ YAI.3P:
     - "|δ{athematic}>δει<ει|σαν;+oida-yai3p-variant"  # ᾔδεισαν (οἶδα)
     - "|δ{athematic}>δε<ε|σαν;-oida-yai3p-variant"  # ᾔδεσαν (οἶδα) (classical)
     - "|α{athematic}>α<|σαν"
+    - "|><|ασαν;+Homer"
 
 YMI.1S:
     - "|><|μην"  # §51

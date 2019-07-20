@@ -2151,11 +2151,20 @@
         # 3+: {frozenset({'ἐβησ', 'ἐβησα{athematic}'}), frozenset({'ἐβ'}), frozenset({'ἐβα{root}'}), frozenset({'βησ'}), frozenset({'ἐβη{athematic}', 'ἐβα{root}'}), frozenset({'ἐβησ{2nd}', 'ἐβησε{athematic}'}), frozenset({'βησ{2nd}', 'βησ'}), frozenset({'βησα{athematic}', 'βησ'}), frozenset({'βη{athematic}'}), frozenset({'ἐβησ', 'ἐβε{root}', 'ἐβα{root}'})}  # @0
         3+: ἐβα{2nd}
         # 4-: {frozenset({'βεβα'}), frozenset({'βεβαα{athematic}', 'βεβα'}), frozenset({'βεβηκ'}), frozenset({'βεβαα{athematic}'}), frozenset({'βεβα{athematic}'})}  # @0
+        4-: βεβηκ
         # 4+: {frozenset({'βεβα{athematic}', 'βεβαδ{athematic}'}), frozenset({'ἐβεβηκ'}), frozenset({'βεβηκ'})}  # @0
+        4+: ἐβεβ
     stem_overrides:
         - ["AAS.1S", "βη"]
         - ["AAS.3S", "βε"]
         - ["AAS.3P", "β"]
+        - ["XAI.3P", "βεβα/βεβηκ"]
+        - ["XAI..D", "βεβ"]
+        - ["XAI.1P", "βεβ"]
+        - ["XAI.2P", "βεβ"]
+        - ["YAI..S", "ἐβεβηκ"]
+        - ["XAD...", "βεβ"]
+        - ["XAN", "βεβ"]
 
 βάλλω:
     stems:
