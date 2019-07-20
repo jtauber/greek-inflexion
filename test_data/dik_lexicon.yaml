@@ -67,8 +67,8 @@
         1-: ἱστα{athematic}
         1+: ἱστα{athematic}
         2-: στησ
-        3-: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστα{root};-trans
+        3-: στησ;-intrans/στα{athematic};-trans
+        3+: ἐστησ;-intrans/ἐστα{athematic};-trans
         6+: ἐσταθ
         7-: σταθησ
     stem_overrides:

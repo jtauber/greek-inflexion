@@ -8,8 +8,11 @@
 βαίνω:
     stems:
         1-: βαιν
-        3-: βα{root}
-        3+: ἐβα{root}
+        3-: βη{root}
+        3+: ἐβη{root}
+    stem_overrides:
+        - ["AA[OP]", "βα{root}"]
+        - ["AAD.3P", "βα{root}"]
 
 βάλλω:
     stems:
@@ -124,8 +127,8 @@
         1-: ἱστα{athematic}  # @@@ do long grade in stemming or here?
         1+: ἱστα{athematic}  # long iota @@@ do long grade in stemming or here?
         2-: στησ
-        3-: στησ;-intrans/στα{root};-trans
-        3+: ἐστησ;-intrans/ἐστα{root};-trans
+        3-: στησ;-intrans/στα{athematic};-trans
+        3+: ἐστησ;-intrans/ἐστα{athematic};-trans
         4-: ἑστα{athematic}
         4+: εἱστηκ
         5-: ἑστα

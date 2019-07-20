@@ -78,7 +78,7 @@ def calculate_accent(w, parse, lemma, stem, inflexion, accent_override):
         elif parse[0:3] == "PAN" and stem.endswith("{athematic}"):
             # athematic present inf. penult
             return clean(on_penult(w, default_short=True))
-        elif parse[0:3] == "AMN" and stem.endswith("{root}"):
+        elif parse[0:3] == "AMN" and stem.endswith(("{root}", "{athematic}", "{2nd}")):
             # root aorist inf. penult
             return clean(on_penult(w, default_short=True))
         elif parse[2] == "O":
