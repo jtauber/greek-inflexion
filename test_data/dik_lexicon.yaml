@@ -71,7 +71,7 @@
         1+: ἱστα{athematic}
         2-: στησ
         3-: στησ;-intrans/στη{root};-trans
-        3-altroot: στησ;-intrans/στα{root};-trans
+        # 3-altroot: στησ;-intrans/στα{root};-trans
         3+: ἐστησ;-intrans/ἐστη{root};-trans
         6+: ἐσταθ
         7-: σταθησ
@@ -92,5 +92,5 @@
 γιγνώσκω:
     stems:
         3-: γνω{root}
-        3-altroot: γνο{root}
+        # 3-altroot: γνο{root}
         3+: ἐγνω{root}

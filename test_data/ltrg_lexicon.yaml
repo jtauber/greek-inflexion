@@ -105,7 +105,7 @@
         1+: ἐβαιν
         2-: βησ
         3-: βη{root}
-        3-altroot: βα{root}
+        # 3-altroot: βα{root}
         3+: ἐβη{root}
         4-: βεβηκ
     notes:
@@ -137,7 +137,7 @@
         1+: ἐγιγνωσκ
         2-: γνωσ
         3-: γνω{root}
-        3-altroot: γνο{root}
+        # 3-altroot: γνο{root}
         3+: ἐγνω{root}
         4-: ἐγνωκ
         5-: ἐγνωσ  # @@@
@@ -533,7 +533,7 @@
         1+: ῑ̔στα{athematic}
         2-: στησ
         3-: στησ;-intrans/στη{root};-trans
-        3-altroot: στησ;-intrans/στα{root};-trans
+        # 3-altroot: στησ;-intrans/στα{root};-trans
         3+: ἐστησ;-intrans/ἐστη{root};-trans
         4-: ἑστηκ
         4+: εἱστηκ
