@@ -444,7 +444,10 @@
 ἁλίσκομαι:
     stems:
         # 3-: {frozenset({'ἁλω', 'ἁλω{2nd}'}), frozenset({'ἁλο{root}', 'ἁλω{root}', 'ἁλων'}), frozenset({'ἁλο{root}', 'ἁλο{athematic}'}), frozenset({'ἁλωμεν'}), frozenset({'ἁλο{root}', 'ἁλ{2nd}', 'ἁλο{athematic}'})}  # @0
+        3-: ἁλω{root}  # @@@
         3+: ἡλω{root}
+    stem_overrides:
+      - ["AA[OP]", "ἁλο{root}"]
 
 ἀλιταίνω:
     stems:
@@ -500,7 +503,7 @@
 
 ἀμαλδύνω:
     stems:
-        3-: ἀμαλδυν
+        3-: ἀμαλδῡν
 
 ἁμαρτάνω:
     stems:
@@ -546,7 +549,7 @@
     stems:
         1-: ἀμυν
         # 1+: {frozenset({'ἀμυν'}), frozenset({'ἠμυν'})}  # @0
-        3-: ἀμυν
+        3-: ἀμῡν
 
 ἀμύσσω:
     stems:
@@ -629,6 +632,10 @@
     stems:
         1+: ἀμφελαχαιν
 
+ἀμφιμαίομαι:
+    stems:
+        3-: ἀμφιμασ
+
 ἀμφιμάχομαι:
     stems:
         1-: ἀμφιμαχ
@@ -698,7 +705,11 @@
         # 1-: {frozenset({'ἀναβαιν'}), frozenset({'ἀμβαιν'}), frozenset({'ἀμβαιν0', 'ἀμβαιν'})}  # @0
         1+: ἀνεβαιν
         # 3-: {frozenset({'ἀμβα{root}'}), frozenset({'ἀναβησα{athematic}', 'ἀναβησ'}), frozenset({'ἀναβημεν'}), frozenset({'ἀναβα{root}'}), frozenset({'ἀναβα{root}', 'ἀναβε{athematic}'}), frozenset({'ἀναβα{athematic}', 'ἀναβα{root}'})}  # @0
+        3-: ἀναβη{root}/ἀναβησ
         3+: ἀνεβησ{2nd}
+    stem_overrides:
+        - ["AAO", "ἀναβα{root}/ἀμβα{root}"]
+        - ["AAP", "ἀναβα{root}"]
 
 ἀναβάλλω:
     stems:
@@ -706,12 +717,14 @@
 
 ἀναβρόχω:
     stems:
-        # 3-: {frozenset({'ἀναβροξ'}), frozenset({'ἀναβροχε{athematic}'})}  # @0
+        3-: ἀναβροξ
 
 ἀναγιγνώσκω:
     stems:
         # 3-: {frozenset({'ἀναγνο{root}', 'ἀναγνο{athematic}'}), frozenset({'ἀναγν{2nd}'}), frozenset({'ἀναγνο{root}', 'ἀναγν{2nd}', 'ἀναγνο{athematic}'})}  # @0
         3+: ἀνεγνω{root}
+    stem_overrides:
+        - ["AAO", "ἀναγνο{root}"]
 
 ἀναγνάμπτω:
     stems:
@@ -11138,7 +11151,8 @@
         # 1-: {frozenset({'φη{athematic}{enclitic}'}), frozenset({'φα{athematic}'}), frozenset({'φη'})}  # @0
         # 1+: {frozenset({'ἐφε{athematic}', 'ἐφα{athematic}', 'ἐφε{root}', 'ἐφα', 'ἐφη{athematic}'}), frozenset({'ἐφε', 'ἐφα{athematic}', 'ἐφη', 'ἐφα', 'ἐφη{athematic}'}), frozenset({'ἐφη', 'ἐφε', 'ἐφα', 'ἐφα{athematic}'}), frozenset({'ἐφα{athematic}'}), frozenset({'ἐφη{athematic}'}), frozenset({'φα{athematic}'})}  # @0
         2-: φησ
-        3+: ἐφ
+        3-: φησ
+        3+: ἐφ  # @@@
         5-: πεφασ
 
 φθάνω:

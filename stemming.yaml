@@ -202,6 +202,8 @@ AAN:
     - "|{2nd}>εει<|ν;+Homer"  # @@@
     - "|{2nd}>ε<|μεν;+Homer"
     - "|{2nd}>έ<|μεναι;+Homer"
+    - "|ω{root}>ώ<|μεναι;+Homer"  # @@@
+    - "|η{root}>ή<|μεναι;+Homer"  # @@@
 
     # restored for MorphGNT
     - "|ε{root}>εῖ<ε|ναι"
@@ -326,6 +328,7 @@ AAP.NDM:
     - "|>α<|ντε;+Homer"
     - "|{2nd}>ο<|ντε;+Homer"
     - "|υ{root}>ύ<|ντε;+Homer"
+    - "|ο{root}>ο<|ντε;+Homer"
 AAP.ADM:
     ref: AAP.NDM
 AAP.VDM:
@@ -495,6 +498,7 @@ AAS.1S:
     - "|α{root}>ῶ<ω|"
     - "|η{root}>ῶ<ω|"
     - "|η{root}>ηω<ω|;+Homer"
+    - "|ω{root}>ωω<ω|;+Homer"
     - "|α{athematic}>ῶ<ω|"  # @@@
     - "|><|ωμι;+Homer"
     - "|{2nd}><|ωμι;+Homer"
@@ -540,11 +544,13 @@ AAS.3S:
     - "|α{root}>ῇ<ῃ|"  # @@@
     - "|η{root}>ῇ<ῃ|"  # @@@
     - "|><|ῃσι;+Homer"
+    - "|><|ει;+Homer"  # @@@
     - "|α{athematic}>ῇ<ῃ|σι;+Homer"
     - "|ε{athematic}>ῃ<η|;+Homer"
     - "|ε{athematic}>ῃ<η|σι;+Homer"
     - "|ο{athematic}>ῳ<η|;+Homer"
     - "|ο{athematic}>ῳ<η|σι;+Homer"
+    - "|ω{root}>ώ<|ῃ;+Homer"
 
     # restored for MorphGNT
     - "|υ{root}>υ<|ῃ"
