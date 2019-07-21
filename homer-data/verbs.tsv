@@ -58,7 +58,7 @@
 ἀγείρω	AAP.NSM	ἀγείρας
 ἀγείρω	AAS.1P	ἀγείρομεν
 ἀγείρω	AMI.3P	ἀγέροντο
-ἀγείρω	AMN	ἀγέρεσθαι
+# ἀγείρω	AMN	ἀγέρεσθαι # odd grade and odd accentuation
 ἀγείρω	AMP.DPF	ἀγρομένῃσι
 ἀγείρω	AMP.DPM	ἀγρομένοισι
 ἀγείρω	AMP.DPM	ἀγρομένοισιν
@@ -402,7 +402,7 @@
 αἱρέω	AMO.3P	ἑλοίατο
 αἱρέω	AMO.3S	ἕλοιτο
 αἱρέω	AMS.1S	ἕλωμαι
-αἱρέω	AMS.2S	αἱρήσεαι
+αἱρέω	AMS.2S	αἱρήσεαι  # considered AMS.2S not FMI.2S??
 αἱρέω	AMS.3P	ἕλωνται
 αἱρέω	AMS.3S	ἕληται
 αἱρέω	FAI.1P	αἱρήσομεν
@@ -440,10 +440,10 @@
 ἀίσσω	AAI.3S	ἤϊξε
 ἀίσσω	AAI.3S	ἤϊξεν
 ἀίσσω	AAP.ASM	ἀΐξαντα
-ἀίσσω	AAP.NDM	ἀίξαντε
+# ἀίσσω	AAP.NDM	ἀίξαντε  # missing diaerisis?
 ἀίσσω	AAP.NDM	ἀΐξαντε
 ἀίσσω	AAP.NPF	ἀΐξασαι
-ἀίσσω	AAP.NSF	ἀίξασα
+# ἀίσσω	AAP.NSF	ἀίξασα  # missing diaerisis?
 ἀίσσω	AAP.NSF	ἀΐξασα
 ἀίσσω	AAP.NSM	ἀΐξας
 ἀίσσω	AAS.3P	ἀΐξωσι
@@ -592,7 +592,7 @@
 ἀλαλύκτημαι	XMI.1S	ἀλαλύκτημαι
 ἀλάομαι	AMI.1S	ἀλήθην
 ἀλάομαι	AMI.2S	ἀλήθης
-ἀλάομαι	AMP.NSM	ἀληθείς
+# ἀλάομαι	AMP.NSM	ἀληθείς  # originally AMP.NSM but I think this is APP.NSM
 ἀλάομαι	IMI.1S	ἠλώμην
 ἀλάομαι	IMI.3S	ἀλᾶτο
 ἀλάομαι	IMI.3S	ἠλᾶτο

@@ -199,6 +199,7 @@ AAN:
     - "|><|άμεν;+Homer"
     - "|><|άμεναι;+Homer"
     - "|{2nd}>εε<|ν;+Homer"
+    - "|{2nd}>εει<|ν;+Homer"  # @@@
     - "|{2nd}>ε<|μεν;+Homer"
     - "|{2nd}>έ<|μεναι;+Homer"
 
@@ -235,6 +236,7 @@ AAO.2S:
 AAO.3S:
     - "|><|αι;-only-epsilon-aao"  # long
     - "|><|ειε(ν);-no-final-nu-aao.3s"
+    - "|><|ειεν;+Homer"
     - "|><|ειε;+no-final-nu-aao.3s"
     - "|{2nd}><|οι"  # long
     - "|ο{root}>οί<ι|η"
@@ -322,6 +324,7 @@ AAP.VSN:
     ref: AAP.NSN
 AAP.NDM:
     - "|>α<|ντε;+Homer"
+    - "|{2nd}>ο<|ντε;+Homer"
     - "|υ{root}>ύ<|ντε;+Homer"
 AAP.ADM:
     ref: AAP.NDM
@@ -494,6 +497,7 @@ AAS.1S:
     - "|η{root}>ηω<ω|;+Homer"
     - "|α{athematic}>ῶ<ω|"  # @@@
     - "|><|ωμι;+Homer"
+    - "|{2nd}><|ωμι;+Homer"
     - "|α{athematic}>ῶ<ω|μι;+Homer"
     - "|ε{athematic}>ῶ<ω|;+Homer"
     - "|ε{athematic}>ῶ<ω|μι;+Homer"
@@ -501,6 +505,7 @@ AAS.1S:
     - "|ο{athematic}>ῶ<ω|;+Homer"
 AAS.2S:
     - "|><|ῃς"
+    - "|><|εις;+Homer"  # @@@ add for ἀλεξήσεις
     - "|{2nd}><|ῃς"
     - "|{2nd}><|ῃσθα;+Homer"
     - "|ο{athematic}>ῷ<ῃ|ς"
@@ -523,6 +528,7 @@ AAS.3S:
     - "|{2nd}><|ῃ"
 
     - "|{2nd}><|ῃσι;+Homer"
+    - "|{2nd}><|ῃσιν;+Homer"
     - "|ο{athematic}>ῷ<ῃ|"
     - "|ε{athematic}>ῇ<ῃ|"
     - "|ε{root}>έῃ<ῃ|;+Homer"
@@ -586,8 +592,10 @@ AAS.2P:
     - "|α{athematic}>ῆ<η|τε"
     - "|ε{root}>ῆ<η|τε;+Homer"
     - "|ο{root}>ω<η|τε;+Homer"
+    - "|>ε<T_2|τε;+Homer"
 AAS.3P:
     - "|><|ωσι(ν);-no-final-nu-aas.3p"
+    - "|><|ωσιν;+Homer"
     - "|><|ωσι;+no-final-nu-aas.3p"
     - "|{2nd}><|ωσι(ν);-no-final-nu-aas.3p"
     - "|{2nd}><|ωσι;+no-final-nu-aas.3p"
@@ -615,6 +623,7 @@ AMD.2S:
     - "|{2nd}><|οῦ"  # εσο
     - "|{2nd}><|έο;+Homer"  # εσο
     - "|{2nd}><|ου;+HGrk"  # @@@
+    - "|{2nd}><|ευ;+Homer"  # @@@
     - "|ο{athematic}><|οῦ"
     - "|ο{athematic}><|ου;+HGrk"  # @@@
     - "|ε{athematic}><|οῦ"
@@ -789,6 +798,8 @@ AMP.NSN:
     ref: AMP.ASN
 AMP.VSN:
     ref: AMP.NSN
+AMP.NDM:
+    - "|>α<α|μένω;+Homer"
 AMP.NPM:
     - "|>ά<α|μενοι"
     - "|{2nd}>ό<T_1|μενοι"
@@ -886,8 +897,10 @@ AMS.2S:
     - "|{2nd}>η<|αι;+Homer"
     - "|ε{athematic}>η<ω|αι;+Homer"
     - "|ο{athematic}>ω<ω|αι;+Homer"
+    - "|><|εαι;+Homer"  # @@@ added for αἱρήσεαι
 AMS.3S:
     - "|>η<η|ται"
+    - "|>ε<ε|ται;+Homer"  # @@@ added for αἰδέσεται
     - "|{2nd}>η<η|ται"
     - "|ο{athematic}>ῶ<|ται"
     - "|ε{athematic}>ῆ<|ται"
