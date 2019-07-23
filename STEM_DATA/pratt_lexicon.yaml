@@ -128,7 +128,7 @@
         1+: ἱστα{athematic}  # long iota @@@ do long grade in stemming or here?
         2-: στησ
         3-: στησ;-intrans/στα{athematic};-trans
-        3+: ἐστησ;-intrans/ἐστα{athematic};-trans
+        3+: ἐστησ;-intrans/ἐστη{athematic};-trans
         4-: ἑστα{athematic}
         4+: εἱστηκ
         5-: ἑστα
@@ -138,6 +138,7 @@
         - ["XAI..S", "ἑστηκ"]
         - ["PAD.2S", "ἱστη"]
         - ["PMS.3P", "ἱστα"]
+        - ["AAD.2P", "στησ;-intrans/στη{athematic};-trans"]  # temporary until 3- is updated
     forms:
         XAP.NSN: ἑστός
         XAP.NSF: ἑστῶσα

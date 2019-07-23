@@ -532,7 +532,7 @@
         1+: ῑ̔στα{athematic}
         2-: στησ
         3-: στησ/στα{athematic}
-        3+: ἐστησ/ἐστα{athematic}
+        3+: ἐστησ/ἐστη{athematic}
         4-: ἑστηκ
         4+: εἱστηκ
         6+: ἐσταθ
@@ -543,6 +543,7 @@
       - ["PMS.3P", "ἱστα"]
       # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
       # - ["IAI..2S", "ῑ̔στη"]
+      - ["AAD.2P", "στησ;-intrans/στη{athematic};-trans"]  # temporary until 3- is updated
       - ["[XY]AI.[123]P", "ἑστα{athematic}"]
       - ["XAN", "ἑστα{athematic}"]
       - ["XAP", "ἑστηκ/ἑστα{athematic}"]

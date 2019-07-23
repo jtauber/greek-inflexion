@@ -713,8 +713,10 @@
         1-: ἀνθιστα{athematic}
         1+: ἀνθιστα{athematic}
         3-: ἀντιστα{athematic}
-        3+: ἀντεστα{athematic}
+        3+: ἀντεστη{athematic}
         4-: ἀνθεστηκ
+    stem_overrides:
+      - ["AAD.2P", "ἀντιστη{athematic}"]  # temporary until 3- is updated
 
 ἀνθομολογέομαι:
     stems:
@@ -731,13 +733,13 @@
         1-: ἀνιστα{athematic}
         2-: ἀναστησ
         3-: ἀναστησ/ἀναστα{athematic}
-        3+: ἀνεστησ/ἀνεστα{athematic}
+        3+: ἀνεστησ/ἀνεστη{athematic}
     stem_overrides:
         - ["AAD.2S", "ἀναστα{athematic}/ἀν|αστα{2nd}"]  # @@@
     accents:
         - ["AAP", "ἀναστάς"]  # @@@ automate this
     notes:
-        - ἀναστησ;-intrans/ἀναστα{athematic};-trans
+        - ἀναστησ;-intrans/ἀναστη{athematic};-trans
 
 ἀνοίγω:
     stems:
@@ -797,7 +799,7 @@
 
 ἀντικαθίστημι:
     stems:
-        3+: ἀντικατεστα{athematic}
+        3+: ἀντικατεστη{athematic}
 
 ἀντικαλέω:
     stems:
@@ -1075,7 +1077,7 @@
     stems:
         1-: ἀποκαθισταν
         2-: ἀποκαταστησ
-        3+: ἀπεκατεστα{athematic}
+        3+: ἀπεκατεστη{athematic}
         6-: ἀποκατασταθ
         6+: ἀπεκατεσταθ
 
@@ -1574,9 +1576,11 @@
         1+: ἀφιστα{athematic}
         2-: ἀποστησ
         3-: ἀποστα{athematic}
-        3+: ἀπεστησ/ἀπεστα{athematic}
+        3+: ἀπεστησ/ἀπεστη{athematic}
     accents:
         - ["AAP", "ἀποστάντα"]  # @@@
+    stem_overrides:
+        - ["AAD.2P", "ἀποστη{athematic}"]
 
 ἀφομοιόω:
     stems:
@@ -2505,7 +2509,7 @@
 διΐστημι:
     stems:
         3-: διαστησ/διαστα{athematic}
-        3+: διεστα{athematic}
+        3+: διεστη{athematic}
 
 διϊσχυρίζομαι:
     stems:
@@ -3700,7 +3704,7 @@
     stems:
         1-: ἐξιστα{athematic}
         1+: ἐξιστα{athematic}
-        3+: ἐξεστα{athematic}
+        3+: ἐξεστη{athematic}
         4-: ἐξεστακ
     stem_overrides:
         - ["PAP", "ἐξισταν"]
@@ -4537,7 +4541,7 @@
     stems:
         1-: ἐφιστα{athematic}
         3-: ἐπιστα{athematic}
-        3+: ἐπεστα{athematic}
+        3+: ἐπεστη{athematic}
         4-: ἐφεστα{athematic}/ἐφεστηκ
     accents:
         - ["AAP", "ἐπιστάς"]  # automate
@@ -4891,17 +4895,18 @@
         1+: ἐστηκ
         2-: στησ
         3-: στησ/στα{athematic}
-        3+: ἐστησ/ἐστα{athematic}
+        3+: ἐστησ/ἐστη{athematic}
         4-: ἑστηκ  # singular; Pratt has ἑστα{athematic} for plural
         4+: εἱστηκ
         6-: σταθ
         6+: ἐσταθ
         7-: σταθησ
     stem_overrides:
+        - ["AAD.2P", "στη{athematic}"]  # temporary until 3- is updated
         - ["XAN", "ἑστα{athematic}"]
         - ["XAP", "ἑστηκ/ἑστα{athematic}"]
     notes:
-        - in Dik/Pratt ἐστα{athematic} is intrans; ἐστησ is trans
+        - in Dik/Pratt ἐστη{athematic} is intrans; ἐστησ is trans
         - ["[XY]AI.[123]P", "ἑστα{athematic}"]
         - ἐστηκ imperfect is from present στήκω which is a HGrk regularization of ἵστημι
 
@@ -5562,7 +5567,7 @@
 
 κατεφίστημι:
     stems:
-        3+: κατεπεστα{athematic}
+        3+: κατεπεστη{athematic}
 
 κατέχω:
     stems:
@@ -7233,7 +7238,7 @@
         1-: παρισταν
         2-: παραστησ
         3-: παραστησ/παραστα{athematic}
-        3+: παρεστησ/παρεστα{athematic}
+        3+: παρεστησ/παρεστη{athematic}
         4-: παρεστηκ
         4+: παρειστηκ
     stem_overrides:
@@ -7429,7 +7434,7 @@
 περιΐστημι:
     stems:
         1-: περιϊστα{athematic}
-        3+: περιεστα{athematic}
+        3+: περιεστη{athematic}
         4-: περιεστα{athematic}
 
 περικαλύπτω:
@@ -9182,7 +9187,7 @@
 
 συνεφίστημι:
     stems:
-        3+: συνεπεστα{athematic}
+        3+: συνεπεστη{athematic}
 
 συνέχω:
     stems:

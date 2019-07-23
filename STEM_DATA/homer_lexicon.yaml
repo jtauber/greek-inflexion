@@ -503,7 +503,7 @@
 
 ἀμαλδύνω:
     stems:
-        3-: ἀμαλδῡν
+        3-: ἀμαλδῡν  # @@@
 
 ἁμαρτάνω:
     stems:
@@ -721,6 +721,7 @@
 
 ἀναγιγνώσκω:
     stems:
+        3-: ἀναγν{2nd}
         # 3-: {frozenset({'ἀναγνο{root}', 'ἀναγνο{athematic}'}), frozenset({'ἀναγν{2nd}'}), frozenset({'ἀναγνο{root}', 'ἀναγν{2nd}', 'ἀναγνο{athematic}'})}  # @0
         3+: ἀνεγνω{root}
     stem_overrides:
@@ -747,8 +748,8 @@
 
 ἀναδύνω:
     stems:
-        3-: ἀναδυ{root}
-        3+: ἀνεδυ{root}
+        3-: ἀναδῡ{root}
+        3+: ἀνεδῡ{root}
 
 ἀναείρω:
     stems:
@@ -791,7 +792,7 @@
 
 ἀνακλίνω:
     stems:
-        3-: ἀνακλιν
+        3-: ἀνακλῑν/ἀγκλῑν
         # 3-: {frozenset({'ἀνακλιν'}), frozenset({'ἀγκλιν'})}  # @0
         6-: ἀνακλινθ
 
@@ -2475,6 +2476,8 @@
         - ["AAS..S", "γνω{root}/γνω"]
         - ["AAS..P", "γνω{root}/γνω"]
         - ["AAO..S", "γνο{root}"]
+    forms:
+        AAI.3P: ["ἔγνωσαν", "ἔγνον"]  # @@@
 
 γλαυκιάω:
     stems:
@@ -2743,8 +2746,9 @@
 διαβαίνω:
     stems:
         1-: διαβαιν
-        3-: διαβημεν
-        # 3-: {frozenset({'διαβημεν'}), frozenset({'διαβα{root}'})}  # @0
+        3-: διαβη{root}
+    stem_overrides:
+        - ["AA[OP]", "διαβα{root}"]
 
 διαγιγνώσκω:
     stems:
@@ -5956,17 +5960,20 @@
         # 3-: {frozenset({'στημεν'}), frozenset({'στα{root}', 'στα{athematic}'}), frozenset({'στα{root}'}), frozenset({'στα{root}', 'στην'}), frozenset({'στησ'}), frozenset({'στ', 'στα{root}'}), frozenset({'στε{2nd}', 'στε'}), frozenset({'στησ', 'στησα{athematic}'}), frozenset({'στη{athematic}'}), frozenset({'στησα{root}', 'στησ'}), frozenset({'στη', 'στη{2nd}'})}  # @0
         3-: στα{athematic}
         # 3+: {frozenset({'στασκ{2nd}', 'στασκ'}), frozenset({'ἐστη{athematic}', 'ἐστα{root}'}), frozenset({'ἐστησ', 'ἐστε{root}', 'ἐστα{root}'}), frozenset({'ἐστησ', 'ἐστησ{2nd}'}), frozenset({'ἐστα{root}'}), frozenset({'στησ'}), frozenset({'στησ', 'στησα{athematic}'}), frozenset({'ἐστ'}), frozenset({'στη{athematic}'}), frozenset({'στησ{2nd}', 'στησ'})}  # @0
-        3+: ἐστησ/ἐστα{2nd}
+        3+: ἐστησ/ἐστη{athematic}
         # 4-: {frozenset({'ἑστεα{athematic}'}), frozenset({'ἑστα'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         4-: ἑστα{athematic}
         4+: ἑστα{athematic}
         # 4+: {frozenset({'ἑσταδ{athematic}', 'ἑστα{athematic}'}), frozenset({'ἑστα{athematic}'}), frozenset({'ἑστηκ'})}  # @0
         6+: ἐσταθ
     stem_overrides:
+        - ["AAD.2P", "στη{athematic}"]  # temporary until 3- is updated
         - ["XAI..S", "ἑστηκ/ἑστα{athematic}"]
         - ["XAI.3P", "ἑστηκ/ἑστα{athematic}"]
         - ["XAS...", "ἑστηκ"]
         - ["YAI..S", "ἑστηκ"]
+    forms:
+        AAI.3P: ["ἔστησαν", "ἔσταν"]  # @@@
 
 ἰσχανάω:
     stems:

@@ -68,13 +68,14 @@
         1+: ἱστα{athematic}
         2-: στησ
         3-: στησ;-intrans/στα{athematic};-trans
-        3+: ἐστησ;-intrans/ἐστα{athematic};-trans
+        3+: ἐστησ;-intrans/ἐστη{athematic};-trans
         6+: ἐσταθ
         7-: σταθησ
     stem_overrides:
       - ["PAI..S", "ἱστη{athematic}"]
       - ["PAD.2S", "ἱστη"]  # η or α{#} ?
       - ["PMS.3P", "ἱστα"]
+      - ["AAD.2P", "στη{athematic}"]  # temporary until 3- is updated
 
 δείκνυμι:
     stems:
