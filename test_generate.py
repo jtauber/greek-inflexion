@@ -4,7 +4,6 @@ from accent import strip_length
 
 from greek_inflexion import GreekInflexion
 
-
 def output_detail(detail):
     print("          -")
 

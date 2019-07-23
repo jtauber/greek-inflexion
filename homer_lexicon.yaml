@@ -8737,6 +8737,13 @@
         # 3+: {frozenset({'πιθο{athematic}', 'πιθ{2nd}'}), frozenset({'ἐπιθο{athematic}', 'ἐπιθ{2nd}'})}  # @0
         4-: πεποιθ
         4+: ἐπεποιθ
+    stem_overrides:
+        - ["XAI..D", "πεπιθ"]
+        - ["YAI..D", "ἐπεπιθ"]
+        - ["XAI.[12]P", "πεπιθ"]
+        - ["YAI.[12]P", "ἐπεπιθ"]
+        - ["XAI.3P", "πεπιθ/πεποιθ"]
+        - ["YAI.3P", "ἐπεπιθ/ἐπεποιθ"]
 
 πεινάω:
     stems:
@@ -9189,6 +9196,7 @@
     stems:
         1-: ποιε{nocontract}
         # 1+: {frozenset({'ποιε{athematic}', 'ποιε'}), frozenset({'ποιε{nocontract}', 'ποιε'}), frozenset({'ἐποιε', 'ἐποιε{athematic}'})}  # @0
+        1+: ἐποιε{nocontract}
         2-: ποιησ
         3-: ποιησ
         # 3+: {frozenset({'ἐποια{root}', 'ἐποιε{root}', 'ἐποιησ'}), frozenset({'ποιησ'}), frozenset({'ποιησ{2nd}', 'ποιησ'}), frozenset({'ποιε{root}', 'ποιησ', 'ποια{root}'})}  # @0
