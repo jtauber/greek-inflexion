@@ -4,7 +4,7 @@
 Instantiate ``GreekInflexion`` with the stemming rule file and a lexicon file
 (in this case, the lexicon for the paradigms in Pratt's Essentials).
 
->>> inflexion = GreekInflexion('stemming.yaml', 'test_data/pratt_lexicon.yaml')
+>>> inflexion = GreekInflexion('stemming.yaml', 'STEM_DATA/pratt_lexicon.yaml')
 
 Now, you can generate forms
 

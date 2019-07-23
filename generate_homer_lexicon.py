@@ -8,7 +8,7 @@ from homer_utils import key_to_part, trim_multiples
 
 
 ginflexion = GreekInflexion(
-    "stemming.yaml", "homer_lexicon.yaml"
+    "stemming.yaml", "STEM_DATA/homer_lexicon.yaml"
 )
 
 STEM_GUESSES = defaultdict(lambda: defaultdict(set))
@@ -59,9 +59,7 @@ with open("homer-data/verbs.tsv") as f:
 
 
 for lemma, parts in sorted(STEM_GUESSES.items()):
-    print()
-    print("{}:".format(lemma))
-    print("    stems:".format(lemma))
+    printed = False
     for part, stem_sets in sorted(
             parts.items(), key=lambda x: (x[0][0], {"-": 0, "+": 1}[x[0][1]])):
         stem = set.intersection(*(set(s) for s in stem_sets))
@@ -69,6 +67,11 @@ for lemma, parts in sorted(STEM_GUESSES.items()):
             if False:
                 print("        {}: {}  # @0".format(part, stem_sets))
         elif len(stem) == 1:
+            if not printed:
+                print()
+                print("{}:".format(lemma))
+                print("    stems:".format(lemma))
+                printed = True
             print("        {}: {}  # @1".format(part, stem.pop()))
         else:
             if False:

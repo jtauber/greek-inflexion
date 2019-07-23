@@ -16,19 +16,24 @@ total_count = 0
 summary_by_lemma = defaultdict(set)
 
 ginflexion = GreekInflexion(
-    "stemming.yaml", "homer_lexicon.yaml"
+    "stemming.yaml", "STEM_DATA/homer_lexicon.yaml"
 )
 
 first = True
 
 FILENAME = "homer-data/verbs.tsv"
-PART = []  # ["3-"]
+PART = ["3-"]
 
 with open(FILENAME) as f:
     for row in f:
+
+        data = row.split("#")[0].strip()
+        if not data:
+            continue
+
         total_count += 1
 
-        lemma, key, form = row.strip().split()
+        lemma, key, form = data.split()
         if PART:
             if key_to_part(key) not in PART:
                 continue

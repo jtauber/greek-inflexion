@@ -10,7 +10,7 @@ from lxxmorph_utils import get_words, convert_parse, trim_multiples
 
 
 ginflexion = GreekInflexion(
-    "stemming.yaml", "lxx_lexicon.yaml", strip_length=True
+    "stemming.yaml", "STEM_DATA/lxx_lexicon.yaml", strip_length=True
 )
 
 LXX_FILENAME = "lxxmorph/12.1Sam.mlxx"

@@ -12,7 +12,7 @@ inflexion = {editable = true,git = "git://github.com/jtauber/inflexion.git",ref 
 pyuca = "*"
 py-sblgnt = "*"
 greek-utils = "*"
-PyYAML = "==3.13"
+PyYAML = "*"
 lxml = "*"
 greek-normalisation = "*"
 

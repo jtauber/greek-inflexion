@@ -19,7 +19,7 @@ argparser.add_argument(
 
 argparser.add_argument(
     "--lexicon", dest="lexicon",
-    default="morphgnt_lexicon.yaml",
+    default="STEM_DATA/morphgnt_lexicon.yaml",
     help="path to stem lexicon file "
          "(defaults to morphgnt_lexicon.yaml)")
 
