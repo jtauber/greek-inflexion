@@ -14,8 +14,8 @@ test_generate(
     "test_data/dik_test.yaml"
 )
 
-test_generate(
-    "stemming.yaml",
-    "STEM_DATA/ltrg_lexicon.yaml",
-    "test_data/ltrg_test.yaml"
-)
+# test_generate(
+#     "stemming.yaml",
+#     "STEM_DATA/ltrg_lexicon.yaml",
+#     "test_data/ltrg_test.yaml"
+# )
