@@ -226,7 +226,7 @@
         1+: ἐδιδο{athematic}  # @@@
         2-: δωσ
         3-: δο{athematic}
-        3+: ἐδο{athematic}
+        3+: ἐδο{root}
         4-: δεδωκ
         5-: δεδο
         6-: δοθ
@@ -500,7 +500,7 @@
         1+: ῑ̔ε{athematic}  # should be ῑ̔η{athematic} in PAI.1S ?
         2-: ἡσ
         3-: ἑ{athematic}
-        3+: εἱ{athematic}
+        3+: εἱ{root}
         4-: εἰκ
         5-: εἰ
         6+: εἰθ
@@ -508,6 +508,7 @@
       - ["PAI.3P", "ῑ̔α{athematic}"]  # might want to consider {#} or something rather than α{athematic}
       - ["PAD.2S", "ῑ̔ε"]
       - ["AAI.[123]S", "ἡκ"]
+      - ["A[AM]D.2P", "ἑ{root}"]  # temporary until 3- is updated
 ἵστημι:
     chapter: 15
     glosses:
@@ -532,7 +533,7 @@
         1+: ῑ̔στα{athematic}
         2-: στησ
         3-: στησ/στα{athematic}
-        3+: ἐστησ/ἐστα{athematic}
+        3+: ἐστησ/ἐστη{root}
         4-: ἑστηκ
         4+: εἱστηκ
         6+: ἐσταθ
@@ -543,6 +544,7 @@
       - ["PMS.3P", "ἱστα"]
       # - ["IAI.[13]S", "ῑ̔στη{athematic}"]
       # - ["IAI..2S", "ῑ̔στη"]
+      - ["A[AM]D.2P", "στησ;-intrans/στη{root};-trans"]  # temporary until 3- is updated
       - ["[XY]AI.[123]P", "ἑστα{athematic}"]
       - ["XAN", "ἑστα{athematic}"]
       - ["XAP", "ἑστηκ/ἑστα{athematic}"]
@@ -836,7 +838,7 @@
         1+: ἐτιθε{athematic}
         2-: θησ
         3-: θε{athematic}
-        3+: ἐθε{athematic}
+        3+: ἐθε{root}
         4-: τεθηκ
         5-: τεθει
         6-: τεθ
