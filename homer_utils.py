@@ -100,4 +100,4 @@ def trim_multiples(stem_set, part, lemma, parts):
     elif len(trimmed_stems) == 0:
         return "{}  # @mm".format(stem_set)
     else:
-        return "{}  # @m".format(trimmed_stems)
+        return "{}  # @m".format("/".join(trimmed_stems))
