@@ -590,8 +590,8 @@
 ἄλαλκε	AAP.NSM	ἀλαλκών
 ἄλαλκε	AAS.3S	ἀλάλκῃσιν
 ἀλαλύκτημαι	XMI.1S	ἀλαλύκτημαι
-ἀλάομαι	AMI.1S	ἀλήθην
-ἀλάομαι	AMI.2S	ἀλήθης
+# ἀλάομαι	AMI.1S	ἀλήθην  # originally AMI.1S but I think this is API.1S
+# ἀλάομαι	AMI.2S	ἀλήθης  # originally AMI.2S but I think this is API.2S
 # ἀλάομαι	AMP.NSM	ἀληθείς  # originally AMP.NSM but I think this is APP.NSM
 ἀλάομαι	IMI.1S	ἠλώμην
 ἀλάομαι	IMI.3S	ἀλᾶτο
@@ -1007,7 +1007,7 @@
 ἀνανεύω	AAI.3S	ἀνένευσε
 ἀνανεύω	IAI.3S	ἀνένευε
 ἀναξηραίνω	AAS.3S	ἀγξηράνῃ
-ἀναπάλλω	AAI.3S	ἀνέπαλτο
+# ἀναπάλλω	AAI.3S	ἀνέπαλτο   # original AAI.3S but really AMI.3S?
 ἀναπάλλω	AAP.NSM	ἀμπεπαλών
 ἀναπάλλω	AMI.3S	ἀνεπᾶλτο
 ἀναπάλλω	PMI.3S	ἀναπάλλεται
