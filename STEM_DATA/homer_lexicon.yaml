@@ -8848,9 +8848,9 @@
 
 ποιέω:
     stems:
-        1-: ποιε{nocontract}
+        1-: ποιε{nocontract}/ποιε
         # 1+: {frozenset({'ποιε{athematic}', 'ποιε'}), frozenset({'ποιε{nocontract}', 'ποιε'}), frozenset({'ἐποιε', 'ἐποιε{athematic}'})}  # @0
-        1+: ἐποιε{nocontract}
+        1+: ἐποιε{nocontract}/ἐποιε 
         2-: ποιησ
         3-: ποιησ
 
@@ -10904,6 +10904,8 @@
 
 χολόω:
     stems:
+        1-: χολο{nocontract}/χολο
+        1+: ἐχολο{nocontract}/ἐχολο
         2-: χολωσ
         3-: χολωσ
         5-: κεχολω
