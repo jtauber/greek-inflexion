@@ -65,6 +65,11 @@ for lemma, parts in sorted(STEM_GUESSES.items()):
         stem = set.intersection(*(set(s) for s in stem_sets))
         if len(stem) == 0:
             if False:
+                if not printed:
+                    print()
+                    print("{}:".format(lemma))
+                    print("    stems:".format(lemma))
+                    printed = True
                 print("        {}: {}  # @0".format(part, stem_sets))
         elif len(stem) == 1:
             if not printed:
@@ -74,6 +79,11 @@ for lemma, parts in sorted(STEM_GUESSES.items()):
                 printed = True
             print("        {}: {}  # @1".format(part, stem.pop()))
         else:
-            if False:
+            if True:
+                if not printed:
+                    print()
+                    print("{}:".format(lemma))
+                    print("    stems:".format(lemma))
+                    printed = True
                 print("        {}: {}".format(part, trim_multiples(
                     stem, part, lemma, parts)))
