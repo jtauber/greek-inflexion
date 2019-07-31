@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from collections import defaultdict
+import sys
 
 from accent import strip_length
 from greek_inflexion import GreekInflexion
@@ -91,3 +92,6 @@ with open(FILENAME) as f:
 print()
 print("{}/{} incorrect".format(incorrect_count, total_count))
 print(len(summary_by_lemma))
+
+if incorrect_count > 0:
+    sys.exit(1)
