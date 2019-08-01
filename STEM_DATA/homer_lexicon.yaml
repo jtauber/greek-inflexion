@@ -3288,9 +3288,37 @@
         3+: ἰδ{2nd}/εἰδ{2nd}/ἰδεσκ
 
 εἴδω:
-    stems:
-        2-: εἰσ
+    stems:    
+        1-: εἰδε/εἰδε{nocontract}
+        2-: εἰδησ
         3+: εἰσ
+        4-: οἰδ
+        4+: ᾐδ
+    stem_overrides:
+        - ["PAI.1S", "εἰδε/εἰδε{nocontract}/ἰδε{nocontract}"]
+        - ["PAI..D", "εἰδ"]
+        - ["PAI.[12]P", "εἰδ"]
+        - ["PAO", "εἰδε{athematic}"]
+        - ["XAI..[DP]", "ἰσ{athematic}"]
+        - ["XAI.3P", "ισ/ισσ"]
+        - ["FMI", "εἰσ"]
+        - ["PAD", "ἰσ{athematic}"]
+    forms:
+        PAI.2S: ["εἰδῇς", "εἰδῇσθα"]
+        PAI.3S: ["εἰδῇ", "εἰδῇσι"]
+        PAI.3P: εἰδῶσι
+        XAI.2S: ["οἶδας", "οἶσθα"]
+        XAI.1P: ἴδμεν
+        YAI.1P: ἴδμεν
+        XAI.2P: ἴστε
+        YAI.2S: ["ᾔδης", "ᾔδησθα", "ᾔδεας", "ᾐείδεις"]
+        YAI.3S: ["ᾔδη", "ᾔδεε", "ἠείδει"] 
+        YAI.2D: ἴστον
+        YAI.3D: ἴστην
+        YAI.2P: ἴστε
+        YAI.3P: ἴσαν
+        PAD.2S: ἴσθι
+        PAN: ["ἴδμεν", "ἴδμεναι"]
 
 εἴκω:
     stems:
@@ -3317,10 +3345,46 @@
         6-: ἀλ
         6+: ἐαλ
 
+εἰμί:
+    stems:
+        1-: ἐσ{athematic}
+        1+: ἠ{athematic}
+        2-: ἐσ
+    stem_overrides:
+        - ["PAI.1S", "εἰ{athematic}{enclitic}"]
+        # - ["PAI.3S", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.[23]D", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.[12]P", "ἐσ{athematic}{enclitic}"]
+        - ["PAI.3P", "εἰ{athematic}{enclitic}"]
+        - ["PAP", "0"]
+        - ["PAD.2S", "ἰσ{athematic}"]
+        - ["FMI.3S", "ἐσ{athematic}"]
+        - ["IAI.[23]D", "ἠσ{athematic}"]
+        - ["IAI.2P", "ἠ{athematic}/ἠσ{athematic}"]  # ;+alt-εἰμί-iai.2p-stem
+        - ["FMI.1S", "ἐσ/ἐσσ"] 
+    accents:
+        - ["PAP", "ὤν"]
+    forms:
+        IAI.2S: ["ἦσθα", "ἔησθα"]
+        IAI.3S: ["ἦν", "ἦεν", "ἤην", "ἔην"]
+        PAN: ["εἶναι", "ἔμεν", "ἔμμεν", "ἔμεναι", "ἔμμεναι"]
+
 εἶμι:
     stems:
+        1-: ἰ{athematic}
+        1+: ᾐ{athematic}
         2-: εἰσ
         3+: εἰσ/ἐεισ
+
+    stem_overrides:
+        - ["PAI.[123]S", "εἰ{athematic}"]
+        - ["PAP", "ἰ"]  # @@@ should stemming just support ἰ{athematic} ?
+        - ["PAO", "ἰ"]  # existence of ο suggests not athematic
+        - ["PAN", "ἰε{athematic}"]  # @@@
+    accents:
+        - ["PAP", "ἰών"]
+
+
 
 εἶπον:
     stems:
@@ -5470,6 +5534,11 @@
     stems:
         1-: ἠλασκ
 
+ἧμαι:
+    stems:
+        1-: ἡ
+        1+: ἡ
+
 ἠμύω:
     stems:
         1-: ἠμυ
@@ -6490,7 +6559,13 @@
         3+: ἐκεδασσ
         6-: κεδασθ
         6+: κεδασθ
-
+        
+κεῖμαι:
+    stems:
+        1-: κει
+        1+: ἐκει
+        2-: κεισ
+        
 κείρω:
     stems:
         1-: κειρ
@@ -8127,12 +8202,15 @@
 
 ὁράω:
     stems:
+        1-: ὁρα{nocontract}/ὁρα
         1+: ὁρα
         2-: ὀψ
         3-: ὀψ{2nd}
         4-: ὀπωπ
         4+: ὀπωπ
-
+    stem_overrides:
+        - ["PA[IO].[13][SP]", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"] 
+        - ["PAI.[23]S", "ὁρα{nocontract}/ὁρα/ὁρα{assimilate}"]
 ὀρέγνυμι:
     stems:
         1-: ὀρεγνυ{athematic}
@@ -10959,10 +11037,24 @@
 
 φημί:
     stems:
+        1-: φα{athematic}
+        1+: ἐφα{athematic}
         2-: φησ
-        3-: φησ
-        3+: ἐφ  # @@@
-        5-: πεφασ
+        3-: φη{root}
+        3+: ἐφη{root}
+    stem_overrides:
+        - ["PAI..S", "φη{athematic}{enclitic}"]
+        - ["PAI..P", "φα{athematic}{enclitic}"]
+        - ["PAS", "φε"]  # @@@ model this way or in stemming?
+        - ["IAI..S", "ἐφη{athematic}"]
+        - ["PAP", "φασκ"]  # suppletive but handled this way in Pratt
+        - ["AAI..[DP]", "ἐφα{root}"]
+        - ["PAD", "φα{athematic}{enclitic}"]
+    forms:
+        # PAI.2S: φῄς
+        IAI.1S: ἔφην
+        # IAI.2S: ἔφησθα/ἔφης  # @@@
+        IAI.3S: ἔφη
 
 φθάνω:
     stems:

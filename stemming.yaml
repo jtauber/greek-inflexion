@@ -64,6 +64,8 @@ AAI.2S:
     - "|>α<A|ς"
     - "|{2nd}>ε<T_2|ς"
     - "|{root}><|ς"
+    - "|{root}><|σθα;+Homer"
+
 AAI.3S:
     - "|><|ε(ν);+final-nu-aai.3s"
     - "|><|εν;+fixed-final-nu-aai.3s"
@@ -103,6 +105,8 @@ AAN:
     - "|ο{root}>ῶ<_1|ναι"  # §50 (root)
     # - "|υ{root}>ῦ<_1|ναι"
     - "|ῡ{root}>ῦ<_1|ναι"
+    - "|υ{root}>ῦ<_1|ναι;+Homer"
+    - "|υ{root}>ῡ́<_1|μεναι;+Homer"
     - "|ω{root}>ῶ<_1|ναι"  # if you model it this way rather than ο{root}
     - "|α{athematic}>ῆ<_2|ναι"  # ?
     - "|ε{athematic}>εῖ<_2|ναι"  # §62
@@ -116,6 +120,11 @@ AAN:
     - "|{2nd}>έ<|μεναι;+Homer"
     - "|ω{root}>ώ<|μεναι;+Homer"  # @@@
     - "|η{root}>ή<|μεναι;+Homer"  # @@@
+    - "|α{athematic}>ή<|μεναι;+Homer"
+    - "|{athematic}><|μεν;+Homer"
+    - "|α{athematic}>ά<|μεναι;+Homer"
+    - "|ο{athematic}>ό<|μεναι;+Homer"
+    - "|ε{athematic}>έ<|μεναι;+Homer"
 
     # restored for MorphGNT
     - "|ε{root}>εῖ<ε|ναι"
@@ -1182,6 +1191,7 @@ FMI.3S:
     - "|{contract}>εῖ<T_2|ται"
     - "ασ|>ε<T_2|ται"
     - "|ασ>ᾶ<T_2|ται"  # @@@
+    - "|{athematic}><|εται;+Homer"
 FMI.2D:
     - "|>ε<|σθον;+Homer"
 FMI.3D:
@@ -1300,7 +1310,32 @@ FMP.DPF:
     - "|{contract}>ου<|μέναις"
 FMP.DPN:
     ref: FMP.DPM
-
+FMP.NDM:
+    - "|>ο<|μενω;+Homer"
+FMP.ADM:
+    ref: FMP.NDM
+FMP.VDM:
+    ref: FMP.NDM
+FMP.GDM:
+    - "|>ο<|μενοῖιν;+Homer"
+FMP.DDM:
+    ref: FMP.GDM
+FMP.NDN:
+    ref: FMP.NDM 
+FMP.ADN:
+    ref: FMP.NDM
+FMP.VDN:
+    ref: FMP.NDM
+FMP.GDN:
+    ref: FMP.GDM
+FMP.DDN:
+    ref: FMP.GDM
+FMP.NDF:
+    - "|>ο<|μενᾱ;+Homer"
+      #FMP.ADF:
+      #FMP.VDF:
+      #FMP.GDF:
+      #FMP.DDF:
 FPI.1S:
     - "ήσ|>ο<T_1|μαι"  # §49 (+ used in principal parts testing)
     - "ησ|>ο<T_1|μαι"  # §49 @@@
@@ -1417,11 +1452,16 @@ IAI.1S:
     - "|α{athematic}>η<_2|ν"  # §60d @@@ or stem?
     - "|η{athematic}>ῆ<|"  # §65a εἰμί
     - "|η{athematic}>η<|ν"
+    - "|η{athematic}>η<|α;+Homer"
+    - "|η{athematic}>ε<|α;+Homer"
+    - "|η{athematic}>ε<|ον;+Homer"
     # - "|ἠ{athematic}>ἦ<|ν"  # §65a εἰμί
     # - "|η{athematic}{enclitic}>ῆ<|"  # -εἰμί
     # - "|η{athematic}{enclitic}>ῆ<|ν"  # -εἰμί
     - "|ῃ{athematic}>ῇα<|;+alt-eimi-imp"  # @@@
     - "|ῃ{athematic}>ῄειν<|"  # @@@
+    - "|ῃ{athematic}>ηια<|;+Homer"
+    - "|ῃ{athematic}>ηιον<|;+Homer"
     - "|ε{athematic}>η<|ν;+Homer"
     - "|ε{athematic}>ει<|ν;+Homer"
     - "|{nocontract}><|ον;+Homer"
@@ -1443,6 +1483,7 @@ IAI.2S:
     - "|η{athematic}>η<|σθα"
     - "|η{athematic}>η<|ς"
     - "|ῃ{athematic}>ῄει<|ς"  # @@@
+    - "|ῃ{athematic}>ῄει<|σθα;+Homer"  # @@@
     # - "|ᾐ{athematic}>ᾔει<|σθα"  # @@@
     - "|{nocontract}><|ες;+Homer"
 IAI.3S:
@@ -1462,7 +1503,11 @@ IAI.3S:
     # - "|η{athematic}>η<|"
     - "|η{athematic}>ῆν<|"  # §65a εἰμί
     # - "|η{athematic}{enclitic}>ῆν<|"  # -εἰμί
-    - "|ῃ{athematic}>ῄει(ν)<|"  # @@@
+    - "|ῃ{athematic}>ῄει(ν)<|;-no-final-nu-iai.3s"  # @@@
+    - "|ῃ{athematic}>ῄει<|;+no-final-nu-iai.3s"  # @@@
+    - "|ῃ{athematic}>ἤιε<|;+Homer"
+    - "|ῃ{athematic}>ἦε<|;+Homer"
+    - "|ῃ{athematic}>ἴε<|;+Homer"
     - "|{nocontract}><|ε;+Homer"
 IAI.2D:
     ref: PAI.2D
@@ -1476,6 +1521,7 @@ IAI.3D:
     # - "|α{athematic}>α<|την"
     # - "|ο{athematic}>ο<|την"
     # - "|ε{athematic}>ε<|την"
+    - "|ῃ{athematic}>ι<|την;+Homer"
 IAI.1P:
     ref: PAI.1P
 IAI.2P:
@@ -1492,7 +1538,8 @@ IAI.3P:
     - "|ε{athematic}>ε<|σαν"  # §60b
     - "|υ{athematic}>υ<|σαν"  # §60c
     - "|α{athematic}>α<|σαν"  # §60d
-    -  "|η{athematic}>ῆ<|σαν"  # §65a εἰμί/-εἰμί
+    - "|η{athematic}>ῆ<|σαν"  # §65a εἰμί/-εἰμί
+    - "|η{athematic}>ε<|σαν;+Homer"
     - "|ῃ{athematic}>ῇ<|σαν;+alt-eimi-imp"  # @@@
     - "|ῃ{athematic}>ῄε<|σαν"  # @@@
     - "|>ο<T_1|σαν;+HGrk"  # @@@
@@ -1501,6 +1548,10 @@ IAI.3P:
     - "|{athematic}><|ν;+Homer"  # @@@
     - "|{nocontract}><|ον;+Homer"
     - "|ε>ευ<ο|ν;+Homer"
+    - "|ῃ{athematic}>ηι<|σαν;+Homer"
+    - "|ῃ{athematic}>ῃ<|σαν;+Homer"
+    - "|ῃ{athematic}>η<|ιον;+Homer"
+    - "|ῃ{athematic}>ι<|σαν;+Homer"
 IMI.1S:
     - "|>ό<T_1|μην"  # §48
     - "|ε>ού<T_1|μην"  # §58
@@ -1517,6 +1568,8 @@ IMI.1S:
     # - "|{athematic}><|μην"
     - "|{nocontract}><|όμην"
     - "|ε>ευ<ο|μην;+Homer"
+    - "ει|><ο|μην"
+    - "η|><|μην"
 IMI.2S:
     - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
     - "[^{athematic}εοαη]|><|εο;+Homer"
@@ -1534,6 +1587,8 @@ IMI.2S:
     # - "|η{athematic}>ῆ<|σθα"
     - "|{nocontract}><|εο"
     - "|ε>εῖ<ε|ο;+Homer"
+    - "ει|><ε|σο"
+    - "η|><|σο"
 IMI.3S:
     - "|>ε<T_2|το"  # §48
     - "|ε>εῖ<T_2|το"  # §58
@@ -1549,7 +1604,9 @@ IMI.3S:
     # - "|ει{athematic}>ει<|το"  # NT
     - "|{athematic}><|το"
     - "|{nocontract}><|ετο"
-
+    - "ει|><ε|το"
+    - "η|><ε|το"
+    - "η|><ε|στο"
 IMI.2D:
     - "|α>ᾶ<ε|σθον;+Homer"
     - "|ε>εῖ<ε|σθον;+Homer"   
@@ -1559,6 +1616,8 @@ IMI.2D:
     - "|ε{athematic}>ε<|σθον;+Homer"
     - "|ο{athematic}>ο<|σθον;+Homer"
     - "|{nocontract}><|εσθον;+Homer"
+    - "ει|><|σθον;+Homer"
+    - "η|><ε|σθον;+Homer"
 IMI.3D:
     - "|ε>ει<ε|σθην"
     - "|α>ᾱ<ε|σθην"
@@ -1568,6 +1627,8 @@ IMI.3D:
     - "|ε{athematic}>ε<|σθην;+Homer"
     - "|ο{athematic}>ο<|σθην;+Homer"
     - "|{nocontract}><|εσθην;+Homer"
+    - "ει|><|σθην;+Homer"
+    - "η|><ε|σθην"
 IMI.1P:
     ref: PMI.1P
     # - "|>ό<T_1|μεθα"  # §48
@@ -1589,7 +1650,7 @@ IMI.3P:
     # @@@ could add uncontracted variant
     - "|ο>οῦ<T_1|ντο"  # §59
     - "|α>ῶ<T_1|ντο"  # §57
-    - "|η>ῶ<T_1|ντο"
+    # - "|η>ῶ<T_1|ντο"
     - "|ο{athematic}>ο<|ντο"  # §60a
     - "|ε{athematic}>ε<|ντο"  # §60b
     - "|υ{athematic}>υ<|ντο"  # §60c
@@ -1598,7 +1659,12 @@ IMI.3P:
     - "|η{athematic}>η<|ντο"
     - "|{nocontract}><|οντο"
     - "|ε>εῦ<|ντο;+Homer"
-
+    - "ει|><ο|ντο"
+    - "ει|><|ατο"
+    - "|ει>ε<|ατο"
+    - "η|><ο|ντο"
+    - "η|><|ατο"
+    - "|η>ε<|ατο"
 PAD.2S:
     # @@@ should this be T_2 here or just ε?
     - "|>ε<Τ_2|"
@@ -1622,6 +1688,8 @@ PAD.2S:
     - "|ο{athematic}>ου<ε|;+Homer"
     - "|ο{athematic}>ω<η|θι;+Homer"
     - "|{nocontract}><|ε"
+    - "|{athematic}{enclitic}><|θί;+Homer"
+    - "|{athematic}{enclitic}><|θι;+Homer"
 PAD.3S:
     - "|>έ<Τ_2|τω"
     - "|ε>εί<Τ_2|τω"
@@ -1630,6 +1698,7 @@ PAD.3S:
     - "|η>η<Τ_2|τω"
     - "|{athematic}><|τω"
     - "|{nocontract}><|ετω"
+    - "|{athematic}{enclitic}><|τω;+Homer"
 PAD.2D:
     - "|>ε<|τον"
     - "|{athematic}><|τον"
@@ -1637,6 +1706,7 @@ PAD.2D:
     - "|ε>εῖ<ε|τον"
     - "|α>ᾶ<ε|τον;+Homer"
     - "|ο>οῦ<ε|τον;+Homer"
+    - "|{athematic}{enclitic}><|τον;+Homer"
 PAD.3D:
     - "|>ε<|των"
     - "|{athematic}><|των"
@@ -1644,6 +1714,7 @@ PAD.3D:
     - "|ε>ει<ε|των"
     - "|α>α<ε|των"
     - "|ο>ου<ε|των;+Homer"
+    - "|{athematic}{enclitic}><|των;+Homer"
 PAD.2P:
     ref: PAI.2P
 PAD.3P:
@@ -1666,7 +1737,7 @@ PAD.3P:
     - "|{athematic}><|τωσαν;+HGrk"
     - "|{nocontract}><|οντων"
     - "|ε>ευ<ο|ντων;+Homer"
-
+    - "|{athematic}{enclitic}><|ντων"
 PAI.1S:
     - "|>ω<ω|"  # §48
     - "|ε>ῶ<ω|"  # §58
@@ -1699,14 +1770,21 @@ PAI.2S:
     - "|η{athematic}>η<_1|ς"
     # - "|α{athematic}>ή<_1|ς"
     # - "|η{athematic}{enclitic}>ῄ<ει|ς"
-    # - "|εσ{athematic}>εῖ<@|"  # §65a εἰμί @@@
-    # - "|ει{athematic}>εῖ<|"  # §66c
+    - "|εσ{athematic}>εῖ<@|"  # §65a εἰμί @@@
+    - "|εσ{athematic}>εῖ<|ς;+Homer"
+    - "εσ|{athematic}><|σί;+Homer"
+    - "|ει{athematic}>εῖ<|"  # §66c
+    - "|ει{athematic}>εῖ<|ς;+Homer"
+    - "|ει{athematic}>εῖ<|σθα;+Homer"
     - "|ει{athematic}>ει<|"
     - "|ε{athematic}>η<_1|σθα;+Homer"
     - "|ε{athematic}>εῖ<|ς;+Homer"
     - "|ο{athematic}>οῖ<_1|ς;+Homer"
     - "|ο{athematic}>οῖ<_1|σθα;+Homer"
     - "|{nocontract}><|εις;+Homer"
+    - "|η{athematic}{enclitic}>ή<ει|ς;+Homer"
+    - "|η{athematic}{enclitic}>ῇ<ει|σθα;+Homer"
+    - "|{assimilate}><|ᾳς;+Homer"
 PAI.3S:
     - "|>ει<ει|"  # §48
     - "|ε>εῖ<ει|"  # §58
@@ -1721,7 +1799,9 @@ PAI.3S:
     - "|η{athematic}>η<_1|σι(ν)"
     # - "|α{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic  @@@
     - "|η{athematic}{enclitic}>η<_1|σί(ν)"  # enclitic
-    - "|ει{athematic}>εῖ<|σι(ν)"  # §66c
+    - "|η{athematic}{enclitic}>η<_1|σί;+no-final-nu-pai.3s"  # enclitic
+    - "|ει{athematic}>εῖ<|σι(ν);-no-final-nu-pai.3s"  # §66c
+    - "|ει{athematic}>εῖ<|σι;+no-final-nu-pai.3s"  # §66c
     - "|εσ{athematic}{enclitic}>εσ<|τί(ν)"  # §65a εἰμί
     - "|εσ{athematic}>εσ<|τι(ν)"  # NT § -εἰμί
     - "|α{athematic}>η<_1|σι;+no-final-nu-pai.3s"
@@ -1730,7 +1810,9 @@ PAI.3S:
     - "|ο{athematic}>ω<_1|σι;+no-final-nu-pai.3s"
     - "|ο{athematic}>οῖ<σι|;+Homer"
     - "|{nocontract}><|ει;+Homer"
-
+    - "|{assimilate}><|ᾳ;+Homer" # proprietary solution for ὁράᾳ
+    - "|εσ{athematic}>εσ<|τί(ν);-no-final-nu-pai.3s"
+    - "|εσ{athematic}>εσ<|τί;+no-final-nu-pai.3s"
 PAI.2D:
     - "|ε>εῖ<ε|τον;+Homer"
     - "|α>ᾶ<ε|τον"
@@ -1738,6 +1820,9 @@ PAI.2D:
     - "|{athematic}><|τον;+Homer"
     - "|>ε<T_1|τον"
     - "|{nocontract}><|ετον;+Homer"
+    - "|α{athematic}>α<|τόν;+Homer"
+    - "|ῃ{athematic}>ι<|τον;+Homer"
+    - "|{athematic}{enclitic}><|τόν;+Homer"
 PAI.3D:
     ref: PAI.2D
 PAI.1P:
@@ -1751,6 +1836,8 @@ PAI.1P:
     - "|{athematic}{enclitic}><|μέν"  # enclitic
     - "|{nocontract}><|ομεν;+Homer"
     - "|ε>εῦ<ο|μεν;+Homer"
+    - "|ῃ{athematic}>ᾔ<|ομεν;+Homer"
+    - "|εσ{athematic}{enclitic}>ει<|μέν;+Homer" # for εἰμέν 
 PAI.2P:
     - "|>ε<T_2|τε"  # §48
     - "|ε>εῖ<T_2|τε"  # §58
@@ -1760,6 +1847,7 @@ PAI.2P:
     - "|η>ῆ<T_2|τε"  # ζάω
     - "|{athematic}><|τε"  # §60abcd
     - "|{athematic}{enclitic}><|τέ"  # enclitic
+    - "|{athematic}{enclitic}><|τε;+Homer"  # enclitic
     - "|{nocontract}><|ετε"  # might only be used by PAD.2P
 PAI.3P:
     - "|>ου<ου|σι(ν);-no-final-nu-pai.3p"  # §48
@@ -1777,10 +1865,15 @@ PAI.3P:
     - "|ε{athematic}>έᾱ<ᾱ|σι(ν)"  # §60b
     - "|υ{athematic}>ύᾱ<ᾱ|σι(ν)"  # §60c
     - "|ι{athematic}>ίᾱ<ᾱ|σι(ν)"  # §66c
-    - "|α{athematic}>ᾶ<ᾱ|σι(ν)"  # §60d
+    - "|ι{athematic}>ίᾱ<ᾱ|σι;+no-final-nu-pai.3p"  # §66c
+    - "|α{athematic}>ᾶ<ᾱ|σι(ν);-no-final-nu-pai.3p"  # §60d
     - "|α{athematic}{enclitic}>ᾱ<ᾱ|σί(ν)"  # enclitic
-    - "|ει{athematic}{enclitic}>ει<|σί(ν)"  # §65a εἰμί
+    - "|α{athematic}{enclitic}>ᾱ<ᾱ|σί;+no-final-nu-pai.3p"  # enclitic
+    - "|ει{athematic}{enclitic}>ει<|σί(ν);-no-final-nu-pai.3p"  # §65a εἰμί
+    - "|ει{athematic}{enclitic}>ει<|σί;+no-final-nu-pai.3p"
     - "|ει{athematic}>ει<|σι(ν)"  # -εἰμί
+    - "|ει{athematic}{enclitic}>εᾱ<|σι(ν);+Homer"
+    - "|ει{athematic}{enclitic}>εᾱ<|σι;+Homer"
     - "|α{athematic}>ᾶ<ᾱ|σι;+no-final-nu-pai.3p"
     - "|ε{athematic}>εῖ<ᾱ|σι;+Homer"
     - "|ε{athematic}>ε<|ουσι;+Homer"
@@ -1788,6 +1881,7 @@ PAI.3P:
     - "|ο{athematic}>οῦ<ᾱ|σι;+no-final-nu-pai.3p"
     - "|ο{athematic}>όᾱ<ᾱ|σι;+no-final-nu-pai.3p"
     - "|{nocontract}><|ουσι;+Homer"
+    - "|{nocontract}><|ωσι;+Homer"
 
 PAN:
     - "|>ει<T_2+ε|ν"  # §48
@@ -1810,7 +1904,16 @@ PAN:
     - "|ε>η<ε|μεναι;+Homer"
     - "|α>η<ε|μεναι;+Homer"
     - "|ε>ῆ<ε|ναι;+Homer"
+    - "|{athematic}><|μεν;+Homer"
+    - "|α{athematic}>ά<|μεναι;+Homer"
+    - "|ε{athematic}>έ<|μεναι;+Homer"
+    - "|ο{athematic}>ό<|μεναι;+Homer"
+    - "|ο{athematic}>οῦ<ε|ναι;+Homer"
+    - "|α{nocontract}>ά<|αν;+Homer"
+    - "|ιε{athematic}>ι<|μεν;+Homer"
+    - "|ιε{athematic}>ἴ<|μεναι;+Homer"
 PAO.1S:
+    - "|ο{nocontract}>ο<|ῳμι;+Homer"
     - "|><|οιμι"
     - "|ε>οῖ<οι|μι;-no-alt-opt-sg"
     - "|ε>οί<οί|ην"
@@ -1864,6 +1967,8 @@ PAO.3S:
     - "|{nocontract}><|οι;+Homer"
     - "|{nocontract}><|οιη;+Homer"
     - "|><|οιη;+Homer"
+    - "ι|><|ειη;+Homer"
+    - "ι|><|οι"
 PAO.2D:
     - "|>ο<|ιτον;+Homer"
     - "|{athematic}><|ῖτον;+Homer"
@@ -1886,6 +1991,7 @@ PAO.1P:
     - "|ε{athematic}>εῖ<ι|μεν"
     - "|ο{athematic}>οῖ<ι|μεν"
     - "|α{athematic}>αῖ<ι|μεν"
+    - "|{athematic}><|ιημεν;+Homer"
     - "ι|{athematic}>ο<ο|ιμεν"  # why is ο there if athematic?
     - "υ|{athematic}>ο<ο|ιμεν"  # why is ο there if athematic?
     - "|εσ{athematic}>εῖ<ι|μεν"
@@ -1913,6 +2019,7 @@ PAO.2P:
     - "|εσ{athematic}>εῖ<ι|τε"
     - "|εσ{athematic}>ει<ι|ητε;+alt-eimi-opt"
     - "|{nocontract}><|οιτε;+Homer"
+    - "|{athematic}><|ιητε;+Homer"
 PAO.3P:
     - "|><|οιεν"
     - "|ε>οῖ<οι|εν"
@@ -1930,6 +2037,7 @@ PAO.3P:
     - "|εσ{athematic}>εῖ<ι|εν"
     - "|εσ{athematic}>εί<ι|ησαν;+alt-eimi-opt"
     - "|{nocontract}><|οιεν"
+    - "|{athematic}><|ιησαν;+Homer"
 
 PAP.NSM:
     # - "|0>ὤ<|ν"  # §25
@@ -2223,14 +2331,17 @@ PAP.APN:
     - "|η>ῶ<T_1|ντα"
     - "|ο{athematic}>ό<|ντα"  # §27*
 
+    - "|ε>ῇ<ῃ|"
 PAS.1S:
     - "|><|ω"
+    - "φ|ε>ῶ<ω|μι;+Homer"
     - "|ε>ῶ<ω|"
     - "|α>ῶ<ω|"
     - "|ο>ῶ<ω|"
     - "|η>ῶ<ω|"
     - "|εσ{athematic}>ῶ<ω|"  # @@@ check
     - "|ι{athematic}>ί<|ω"  # @@@ check
+    - "|ι{athematic}>ί<|ωμι;+Homer"
     - "ν|υ{athematic}>ύ<|ω"
     - "|α{athematic}>ῶ<ω|"
     - "|ε{athematic}>ῶ<ω|"
@@ -2243,11 +2354,13 @@ PAS.1S:
 PAS.2S:
     - "|><|ῃς"
     - "|ε>ῇ<ῃ|ς"
+    - "|ε>ῇ<ῃ|σθα;+Homer"
     - "|α>ᾷ<ῃ|ς"
     - "|ο>οῖ<ῃ|ς"
     - "|η>ῇ<ῃ|ς"
     - "|εσ{athematic}>ῇ<ῃ|ς"
     - "|ι{athematic}>ί<|ῃς"
+    - "|ι{athematic}>ί<|ῃσθα;+Homer"
     - "ν|υ{athematic}>ύ<|ῃς"
     - "|ε{athematic}>ῇ<ῃ|ς"
     - "|α{athematic}>ῇ<ῃ|ς"
@@ -2257,15 +2370,20 @@ PAS.2S:
     - "|ο{athematic}>ῷ<ῃ|σθα;+Homer"
     - "|><|ῃσθα;+Homer"
     - "|{nocontract}><|ῃς"
+    - "|{nocontract}><|ᾳς;+Homer"
+    - "|{nocontract}><|"
 PAS.3S:
     - "|><|ῃ"
     - "|ε>ῇ<ῃ|"
+    - "|ε>ῇ<ῃ|"
+    - "|ε>ῇ<ῃ|σι;+Homer"
     - "|{nocontract}><|ῃ"
     - "|α>ᾷ<ῃ|"
     - "|ο>οῖ<ῃ|"
     - "|η>ῇ<ῃ|"
     - "|εσ{athematic}>ῇ<ῃ|"
     - "|ι{athematic}>ί<|ῃ"  # @@@
+    - "|ι{athematic}>ί<|ῃσι;+Homer"
     - "ν|υ{athematic}>ύ<|ῃ"
     - "|α{athematic}>ῇ<ῃ|"
     - "|ε{athematic}>ῇ<ῃ|"
@@ -2283,6 +2401,7 @@ PAS.2D:
     - "|ε{athematic}>ῆ<ῃ|τον"
     - "|ο{athematic}>ῶ<ῃ|τον"
     - "|{nocontract}><|ητον;+Homer"
+    - "|ι{athematic}>ι<|ητον;+Homer"
 PAS.3D:
     ref: PAS.2D
 PAS.1P:
@@ -2324,7 +2443,8 @@ PAS.3P:
     - "|ο>ῶ<ω|σι;+no-final-nu-pas.3p"
     - "|η>ῶ<ω|σι(ν)"
     - "|εσ{athematic}>ῶ<ω|σι(ν)"
-    - "|ι{athematic}>ί<|ωσι(ν)"
+    - "|ι{athematic}>ί<|ωσι(ν);-no-final-nu-pas.3p"
+    - "|ι{athematic}>ί<|ωσι;+no-final-nu-pas.3p"
     - "ν|υ{athematic}>ύ<|ωσι(ν)"  # check LTRG on this
     - "|α{athematic}>ῶ<ω|σι(ν)"
     - "|ο{athematic}>ῶ<ω|σι(ν)"
@@ -2334,6 +2454,7 @@ PAS.3P:
     - "|ε{athematic}>ῶ<ω|σι;+no-final-nu-pas.3p"
     - "|η{athematic}>ῶ<ω|σι(ν)"
     - "|{nocontract}><|ωσι"
+
 
 PMD.2S:
     - "|><|ου"  # εσο
@@ -2348,14 +2469,17 @@ PMD.2S:
     - "|>ευ<|;+Homer"
     - "|{nocontract}><|εο;+Homer"
     - "|ε>εῦ<εο|;+Homer"
+    - "ει|><|σο"
+    - "η|><|σο"
 PMD.2D:
     - "|>ε<|σθον;+Homer"
     - "|{athematic}><|σθον"
     - "|{nocontract}><|εσθον;+Homer"
     - "|ε>εῖ<ε|σθον;+Homer"
     - "|α>ᾶ<ε|σθον;+Homer"
-    - "|ο>οῦ<ε|σθον;+Homer" 
-                           
+    - "|ο>οῦ<ε|σθον;+Homer"                           
+    - "ει|><|σθον;+Homer" 
+    - "η|><ε|σθον;+Homer"
 PMD.3D:                    
     - "|>έ<|σθων;+Homer"   
     - "|{athematic}><|σθων;+Homer"
@@ -2363,6 +2487,8 @@ PMD.3D:
     - "|ε>ει<ε|σθων;+Homer"
     - "|α>ᾱ<ε|σθων;+Homer"
     - "|ο>ου<ε|σθων;+Homer" 
+    - "ει|><|σθων;+Homer" 
+    - "η|><ε|σθων;+Homer"
 PMD.3S:                    
     - "|>έ<Τ_2|σθω"        
     - "|ε>εί<Τ_2|σθω"      
@@ -2372,6 +2498,7 @@ PMD.3S:
     - "|{athematic}><|σθω"
     - "|{nocontract}><|εσθω;+Homer"
     - "|ε>ει<|σθω;+Homer"
+    - "ει|><ε|σθω"
 PMD.2P:
     ref: PMI.2P
 PMD.3P:
@@ -2387,7 +2514,7 @@ PMD.3P:
     - "|{athematic}><|σθωσαν;+HGrk"
     - "|{nocontract}><|εσθων;+Homer"
     - "|ε>ει<|σθων;+Homer"
-
+    - "ει|><|σθων"
 PMI.1S:
     - "|>ο<T_1|μαι"  # §48
     - "|ε>οῦ<T_1|μαι"  # §58
@@ -2404,7 +2531,9 @@ PMI.1S:
     # - "|ει{athematic}>εῖ<|μαι"  # needed for principal parts
     - "|ει{athematic}>ει<|μαι"
     - "|οι{athematic}>οῖ<|μαι"  # needed for principal parts
-    - "|{nocontract}><|ομαι" 
+    - "|{nocontract}><|ομαι"
+    - "|ει>εῖ<ο|μαι"
+    - "η|><|μαι" 
 PMI.2S:
     - "|>ῃ<T_2+σαι|;-no-pmi.2s-eta"  # §48
     - "|>ει<T_2+σαι|"  # §48
@@ -2420,6 +2549,8 @@ PMI.2S:
     - "|>ε<|αι;+Homer"
     - "|{nocontract}><|εαι;+Homer"
     - "|ε{nocontract}>εῖ<ε|αι;+Homer"
+    - "|ει>εῖ<|σαι"
+    - "η|><|σαι"
 PMI.3S:
     - "|>ε<T_2|ται"  # §48
     - "|ε>εῖ<T_2|ται"  # §58
@@ -2429,6 +2560,8 @@ PMI.3S:
     - "|η>ῆ<T_2|ται"
     - "|{athematic}><|ται"  # §60abcd + η and ει
     - "|{nocontract}><|εται"
+    - "|ει>εῖ<|ται"
+    - "η|><|σται"
 PMI.2D:
     - "|>ε<|σθον;+Homer"
     - "|ο{athematic}>ο<|σθον;+Homer"
@@ -2438,6 +2571,8 @@ PMI.2D:
     - "|ε>εῖ<ε|σθον;+Homer"
     - "|α>ᾶ<ε|σθον;+Homer"
     - "|ο>οῦ<ε|σθον;+Homer"
+    - "|ει>εῖ<ε|σθον;+Homer"
+    - "η|><|σθον;+Homer"
 PMI.3D:
     ref: PMI.2D
 PMI.1P:
@@ -2462,6 +2597,10 @@ PMI.1P:
     - "|ε>ευ<ο|μεσθα;+Homer"
     - "|{nocontract}><|ομεθα;+Homer"
     - "|{nocontract}><|ομεσθα;+Homer"
+    - "ει|><ο|μεθα"
+    - "ει|><ο|μεσθα"
+    - "η|><|μεθα"
+    - "η|><|μεσθα"
 PMI.2P:
     - "|>ε<T_2|σθε"  # §48
     - "|ε>εῖ<T_2|σθε"  # §58
@@ -2470,6 +2609,7 @@ PMI.2P:
     - "|η>ῆ<T_2|σθε"
     - "|{athematic}><|σθε"  # §60abcd
     - "|{nocontract}><|εσθε;+Homer"
+    - "ει|><|σθε"
 
 PMI.3P:
     - "|>ο<T_1|νται"  # §48
@@ -2486,6 +2626,12 @@ PMI.3P:
     # @@@ collapse athematics
     - "|ε>εῦ<ο|νται;+Homer"
     - "|{nocontract}><|ονται;+Homer"
+    - "ει|>α<ον|ται"
+    - "|ει>ε<|ονται"
+    - "|ει>ε<|αται"
+    - "η|><|νται"
+    - "η|><|αται"
+    - "|η>ε<|αται"
 PMN:
     - "|>ε<T_2|σθαι"  # §48
     - "|ε>εῖ<T_2|σθαι"  # §58
@@ -2499,7 +2645,8 @@ PMN:
     - "|η{athematic}>ῆ<|σθαι"
     - "|ει{athematic}>εῖ<|σθαι"
     - "|{nocontract}><|εσθαι"
-
+    - "|{nocontract}><|ασθαι;+Homer"
+    - "ει|><|σθαι"
 PMO.1S:
     - "|><|οίμην"
     - "|ε>οί<οι|μην"
@@ -2830,7 +2977,36 @@ PMP.DPF:
     # - "|η>ω<T_1|μέναις"
 PMP.DPN:
     ref: PMP.DPM
-
+PMP.NDM:
+    - "|>ό<|μενω;+Homer"
+PMP.VDM:
+    ref: PMP.NDM
+PMP.ADM:
+    ref: PMP.NDM
+PMP.GDM:
+   - "|>ο<|μενοῖιν;+Homer" 
+PMP.DDM:
+    ref: PMP.GDM
+PMP.NDN:
+    ref: PMP.NDM
+PMP.ADN:
+    ref: PMP.NDM
+PMP.VDN:
+    ref: PMP.NDM
+PMP.GDN:
+    ref: PMP.GDM
+PMP.DDN:
+    ref: PMP.DDM
+PMP.NDF:
+    - "|>ο<|μενᾱ;+Homer"
+PMP.ADF:
+    ref: PMP.NDF
+PMP.VDF:
+    ref: PMP.NDF
+PMP.GDF:
+    - "|>ο<|μενῇιν;+Homer"
+PMP.DDF:
+    ref: PMP.GDF
 PMS.1S:
     - "|><|ωμαι"
     - "|ε>ῶ<ω|μαι"
@@ -2872,6 +3048,8 @@ PMS.3S:
     - "|ο{athematic}>ῶ<η|ται"
     - "ν|υ{athematic}>ύ<|ηται"
     - "|{nocontract}><|ηται"
+    - "ει|><η|ται"
+    - "|ει>η<η|ται"
 PMS.2D:
     - "|>η<|σθον;+Homer"
     - "|α{athematic}>ῆ<η|σθον;+Homer"
@@ -3010,6 +3188,8 @@ XAN:
     - "|><|έμεναι;+Homer"
     - "|α{root}>ά<|μεν;+Homer"
     - "|α{root}>ά<|μεναι;+Homer"
+    - "|{athematic}><|μεν;+Homer"
+    - "|α{athematic}>ά<|μεναι;+Homer"
 
 XAO.1S:
     - "|>ο<T_1|ιμι"
@@ -3677,7 +3857,8 @@ YMI.3P:
     - "[αεηιουῡωρ]|><|ατο;+Homer"
     - "θ|><|ατο;+Homer"
     - "|π>φ<|ατο;+Homer"
-
+ZMN: 
+    - "|>ε<|σθαι"
 ZMI.1S:
     ref: FMI.1S
 ZMI.2S:

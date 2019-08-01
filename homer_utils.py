@@ -43,7 +43,7 @@ PARTS = {
     ],
     "8-": [
         "ZAI", "ZAN",
-        "ZMI",
+        "ZMI", "ZMN",
     ],
 }
 
