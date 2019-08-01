@@ -1321,7 +1321,7 @@ FMP.GDM:
 FMP.DDM:
     ref: FMP.GDM
 FMP.NDN:
-    ref: FMP.NDM 
+    ref: FMP.NDM
 FMP.ADN:
     ref: FMP.NDM
 FMP.VDN:
@@ -1609,8 +1609,8 @@ IMI.3S:
     - "η|><ε|στο"
 IMI.2D:
     - "|α>ᾶ<ε|σθον;+Homer"
-    - "|ε>εῖ<ε|σθον;+Homer"   
-    - "|ο>οῦ<ε|σθον;+Homer" 
+    - "|ε>εῖ<ε|σθον;+Homer"
+    - "|ο>οῦ<ε|σθον;+Homer"
     - "|>ε<|σθον;+Homer"
     - "|α{athematic}>α<|σθον;+Homer"
     - "|ε{athematic}>ε<|σθον;+Homer"
@@ -1621,7 +1621,7 @@ IMI.2D:
 IMI.3D:
     - "|ε>ει<ε|σθην"
     - "|α>ᾱ<ε|σθην"
-    - "|ο>ου<ε|σθην;+Homer" 
+    - "|ο>ου<ε|σθην;+Homer"
     - "|>έ<|σθην;+Homer"
     - "|α{athematic}>α<|σθην;+Homer"
     - "|ε{athematic}>ε<|σθην;+Homer"
@@ -1837,7 +1837,7 @@ PAI.1P:
     - "|{nocontract}><|ομεν;+Homer"
     - "|ε>εῦ<ο|μεν;+Homer"
     - "|ῃ{athematic}>ᾔ<|ομεν;+Homer"
-    - "|εσ{athematic}{enclitic}>ει<|μέν;+Homer" # for εἰμέν 
+    - "|εσ{athematic}{enclitic}>ει<|μέν;+Homer" # for εἰμέν
 PAI.2P:
     - "|>ε<T_2|τε"  # §48
     - "|ε>εῖ<T_2|τε"  # §58
@@ -2476,23 +2476,23 @@ PMD.2D:
     - "|{nocontract}><|εσθον;+Homer"
     - "|ε>εῖ<ε|σθον;+Homer"
     - "|α>ᾶ<ε|σθον;+Homer"
-    - "|ο>οῦ<ε|σθον;+Homer"                           
-    - "ει|><|σθον;+Homer" 
+    - "|ο>οῦ<ε|σθον;+Homer"
+    - "ει|><|σθον;+Homer"
     - "η|><ε|σθον;+Homer"
-PMD.3D:                    
-    - "|>έ<|σθων;+Homer"   
+PMD.3D:
+    - "|>έ<|σθων;+Homer"
     - "|{athematic}><|σθων;+Homer"
     - "|{nocontract}><|εσθων;+Homer"
     - "|ε>ει<ε|σθων;+Homer"
     - "|α>ᾱ<ε|σθων;+Homer"
-    - "|ο>ου<ε|σθων;+Homer" 
-    - "ει|><|σθων;+Homer" 
+    - "|ο>ου<ε|σθων;+Homer"
+    - "ει|><|σθων;+Homer"
     - "η|><ε|σθων;+Homer"
-PMD.3S:                    
-    - "|>έ<Τ_2|σθω"        
-    - "|ε>εί<Τ_2|σθω"      
-    - "|α>ᾱ́<Τ_2|σθω"       
-    - "|ο>ού<Τ_2|σθω"      
+PMD.3S:
+    - "|>έ<Τ_2|σθω"
+    - "|ε>εί<Τ_2|σθω"
+    - "|α>ᾱ́<Τ_2|σθω"
+    - "|ο>ού<Τ_2|σθω"
     - "|η>η<Τ_2|σθω"
     - "|{athematic}><|σθω"
     - "|{nocontract}><|εσθω;+Homer"
@@ -2532,7 +2532,7 @@ PMI.1S:
     - "|οι{athematic}>οῖ<|μαι"  # needed for principal parts
     - "|{nocontract}><|ομαι"
     - "|ει>εῖ<ο|μαι"
-    - "η|><|μαι" 
+    - "η|><|μαι"
 PMI.2S:
     - "|>ῃ<T_2+σαι|;-no-pmi.2s-eta"  # §48
     - "|>ει<T_2+σαι|"  # §48
@@ -2983,7 +2983,7 @@ PMP.VDM:
 PMP.ADM:
     ref: PMP.NDM
 PMP.GDM:
-   - "|>ο<|μενοῖιν;+Homer" 
+   - "|>ο<|μενοῖιν;+Homer"
 PMP.DDM:
     ref: PMP.GDM
 PMP.NDN:
@@ -3053,7 +3053,7 @@ PMS.2D:
     - "|>η<|σθον;+Homer"
     - "|α{athematic}>ῆ<η|σθον;+Homer"
     - "|ε{athematic}>ῆ<η|σθον;+Homer"
-    - "|ο{athematic}>ῶ<η|σθον;+Homer" 
+    - "|ο{athematic}>ῶ<η|σθον;+Homer"
     - "|{nocontract}><|ησθον"
     - "|α>ᾶ<η|σθον"
     - "|ο>ῶ<η|σθον"
@@ -3856,7 +3856,7 @@ YMI.3P:
     - "[αεηιουῡωρ]|><|ατο;+Homer"
     - "θ|><|ατο;+Homer"
     - "|π>φ<|ατο;+Homer"
-ZMN: 
+ZMN:
     - "|>ε<|σθαι"
 ZMI.1S:
     ref: FMI.1S
