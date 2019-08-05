@@ -44,6 +44,7 @@ PARTS = {
     "8-": [
         "ZAI", "ZAN",
         "ZMI", "ZMN",
+        "ZMP",
     ],
 }
 
