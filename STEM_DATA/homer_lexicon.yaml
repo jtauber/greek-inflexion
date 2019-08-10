@@ -8269,7 +8269,8 @@
         - ["PA[IO].[13][SP]", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
         - ["PAI.[23]S", "ὁρα{nocontract}/ὁρα/ὁρα{assimilate}"]
         - ["PAP", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
-
+        - ["PAP", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
+        
 ὀρέγνυμι:
     stems:
         1-: ὀρεγνυ{athematic}

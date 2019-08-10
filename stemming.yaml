@@ -2307,7 +2307,7 @@ PAP.ASN:
     - "|α{athematic}>ά<|ν"  # §28
     - "|υ{athematic}>ύ<|ν"  # §28
     - "|0>ἐό<|ν;+Homer"
-    - "φ|α>ᾱ<α|ν;+Homer"
+    - "φ|α>α<α|ν;+Homer"
 PAP.ADM:
     ref: PAP.NDM
 PAP.ADF:
