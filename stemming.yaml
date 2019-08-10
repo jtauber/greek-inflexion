@@ -1313,6 +1313,32 @@ FMP.DPF:
     - "|{contract}>ου<|μέναις"
 FMP.DPN:
     ref: FMP.DPM
+FMP.NDM:
+    - "|>ο<|μενω;+Homer"
+FMP.ADM:
+    ref: FMP.NDM
+FMP.VDM:
+    ref: FMP.NDM
+FMP.GDM:
+    - "|>ο<|μενοῖιν;+Homer"
+FMP.DDM:
+    ref: FMP.GDM
+FMP.NDN:
+    ref: FMP.NDM
+FMP.ADN:
+    ref: FMP.NDM
+FMP.VDN:
+    ref: FMP.NDM
+FMP.GDN:
+    ref: FMP.GDM
+FMP.DDN:
+    ref: FMP.GDM
+FMP.NDF:
+    - "|>ο<|μενᾱ;+Homer"
+      #FMP.ADF:
+      #FMP.VDF:
+      #FMP.GDF:
+      #FMP.DDF:
 FPI.1S:
     - "ήσ|>ο<T_1|μαι"  # §49 (+ used in principal parts testing)
     - "ησ|>ο<T_1|μαι"  # §49 @@@
@@ -2970,7 +2996,36 @@ PMP.DPF:
     # - "|η>ω<T_1|μέναις"
 PMP.DPN:
     ref: PMP.DPM
-
+PMP.NDM:
+    - "|>ό<|μενω;+Homer"
+PMP.VDM:
+    ref: PMP.NDM
+PMP.ADM:
+    ref: PMP.NDM
+PMP.GDM:
+   - "|>ο<|μενοῖιν;+Homer"
+PMP.DDM:
+    ref: PMP.GDM
+PMP.NDN:
+    ref: PMP.NDM
+PMP.ADN:
+    ref: PMP.NDM
+PMP.VDN:
+    ref: PMP.NDM
+PMP.GDN:
+    ref: PMP.GDM
+PMP.DDN:
+    ref: PMP.DDM
+PMP.NDF:
+    - "|>ο<|μενᾱ;+Homer"
+PMP.ADF:
+    ref: PMP.NDF
+PMP.VDF:
+    ref: PMP.NDF
+PMP.GDF:
+    - "|>ο<|μενῇιν;+Homer"
+PMP.DDF:
+    ref: PMP.GDF
 PMS.1S:
     - "|><|ωμαι"
     - "|ε>ῶ<ω|μαι"
