@@ -227,6 +227,7 @@ AAP.NSM:
     - "|ο{root}>ού<@|ς"  # (root) @@@
     - "|υ{root}>ῡ́<@|ς"  # @@@ should result be long?
     - "|ῡ{root}>ῡ́<@|ς"
+    - "|ω{root}>ού<ᾱ|ς;+Homer"
 AAP.VSM:
     ref: AAP.NSM
 AAP.NSF:  # σα = σᾰ
@@ -239,6 +240,7 @@ AAP.NSF:  # σα = σᾰ
     - "|ο{root}>οῦ<@|σα"  # root @@@
     - "|υ{root}>ῦ<|σα"  # @@@
     - "|ῡ{root}>ῦ<|σα"
+    - "|ω{root}>οῦ<ᾱ|σα;+Homer"
     # - "|υ{athematic}>ῦ<@|σα"  # φύω @@@ thematic or athematic?
 AAP.VSF:
     ref: AAP.NSF
@@ -394,6 +396,7 @@ AAP.ASN:
     - "|ο{root}>ό<|ν"  # §64 (root)
     - "υ|{root}><|ν"
     - "|>α<|ν;+Homer"  # α is short (not really Homeric)
+    - "|ω{root}>ο<ο|ν;+Homer"
 AAP.APM:
     - "|>α<|ντας"  # §30
     - "|{2nd}>ό<|ντας"  # §31
@@ -2042,6 +2045,7 @@ PAO.3P:
 PAP.NSM:
     # - "|0>ὤ<|ν"  # §25
     - "|0>ω<|ν"  # §25
+    - "|0>ἐώ<|ν;+Homer"
     - "|>ω<|ν"  # §26
     - "|ε>ῶ<|ν"  # §27
     - "|ε{nocontract}>έω<|ν"
@@ -2052,6 +2056,8 @@ PAP.NSM:
     - "|ο{athematic}>ού<@|ς"  # §28
     - "|α{athematic}>ᾱ́<@|ς"  # §28
     - "|υ{athematic}>ῡ́<@|ς"  # §28
+    - "|{nocontract}>ω<|ν"
+    - "φ|α>ᾱ<α|ς;+Homer"
     # - "|ο{athematic}>ώ<|ν"  # §28 why is this not ούς? @@@
     # - "|>ώ<|ν"  # @@@
     # - "|{contract}>ῶ<|ν"  # not sure how else to model κατακρινῶν
@@ -2070,6 +2076,10 @@ PAP.NSF:
     - "|ο{athematic}>οῦ<_3|σᾰ"  # §28
     - "|α{athematic}>ᾶ<_3|σᾰ"  # §28
     - "|υ{athematic}>ῦ<_3|σᾰ"  # §28
+    - "|0>ἐοῦ<|σα;+Homer"
+    - "|{nocontract}><|ουσα"
+    - "|{nocontract}><|ωσα;+Homer"
+    - "φ|α>ᾱ<α|σα;+Homer"
 PAP.VSF:
     ref: PAP.NSF
 PAP.NSN:
@@ -2151,6 +2161,8 @@ PAP.GSM:
     - "|ο{athematic}>ό<|ντος"  # §28
     - "|α{athematic}>ά<|ντος"  # §28
     - "|υ{athematic}>ύ<|ντος"  # §28
+    - "|{nocontract}><|οντος"
+    - "|ο{nocontract}>οω<ο|ντος;+Homer"
 PAP.GSF:
     # - "|0>οὔ<ου|σης"  # §25
     - "|0>ού<ου|σης"  # §25
@@ -2294,6 +2306,8 @@ PAP.ASN:
     - "|ο{athematic}>ό<|ν"  # §28
     - "|α{athematic}>ά<|ν"  # §28
     - "|υ{athematic}>ύ<|ν"  # §28
+    - "|0>ἐό<|ν;+Homer"
+    - "φ|α>α<α|ν;+Homer"
 PAP.ADM:
     ref: PAP.NDM
 PAP.ADF:
@@ -2762,6 +2776,11 @@ PMP.NSM:
     - "|υ{athematic}>ύ<|μενος"  # § 35
     - "|η{athematic}>ή<|μενος"  # NT
     - "|ει{athematic}>εί<|μενος"  # NT
+    - "|ε>εύ<ο|μενος;+Homer"
+    - "|α{nocontract}>αο<ο|μενος"
+    - "|{nocontract}><|ομενος"
+    - "|hη>hη<|μενος;+Homer"
+    - "|ει>εί<ο|μενος;+Homer"
 PMP.VSM:
     - "|>ό<T_1|μενε"
     # - "|ε>ού<T_1|μενε"
@@ -2946,6 +2965,7 @@ PMP.DSM:
     # - "|υ{athematic}>υ<|μένῳ"  # § 35*
     - "|η{athematic}>η<|μένῳ"
     - "|ει{athematic}>ει<|μένῳ"
+
 PMP.DSF:
     - "|>ο<T_1|μένῃ"  # § 34
     - "|ε>ου<T_1|μένῃ"  # § 35*
@@ -3229,6 +3249,8 @@ XAP.NSM:
     - "|>ώ<@|ς"  # §33
     - "|α{athematic}>ώ<@|ς"  # §63
     - "ε|{athematic}>ώ<@|ς"
+    - "|α{athematic}>α<|ώς;+Homer"
+    - "|α{root}>α<|ώς;+Homer"
 XAP.VSM:
     ref: XAP.NSM
 XAP.NSF:
@@ -3856,6 +3878,8 @@ YMI.3P:
     - "[αεηιουῡωρ]|><|ατο;+Homer"
     - "θ|><|ατο;+Homer"
     - "|π>φ<|ατο;+Homer"
+ZMP.NSM:
+    - "|>ο<|μενος;+Homer"
 ZMN:
     - "|>ε<|σθαι"
 ZMI.1S:

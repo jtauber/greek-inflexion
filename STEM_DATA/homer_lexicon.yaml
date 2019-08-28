@@ -8268,7 +8268,9 @@
     stem_overrides:
         - ["PA[IO].[13][SP]", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
         - ["PAI.[23]S", "ὁρα{nocontract}/ὁρα/ὁρα{assimilate}"]
-
+        - ["PAP", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
+        - ["PAP", "ὁρα{nocontract}/ὁρα/ὁρο{nocontract}"]
+        
 ὀρέγνυμι:
     stems:
         1-: ὀρεγνυ{athematic}
@@ -11117,7 +11119,7 @@
         - ["PAI..P", "φα{athematic}{enclitic}"]
         - ["PAS", "φε"]  # @@@ model this way or in stemming?
         - ["IAI..S", "ἐφη{athematic}"]
-        - ["PAP", "φασκ"]  # suppletive but handled this way in Pratt
+        - ["PAP", "φασκ/φα"]  # suppletive but handled this way in Pratt
         - ["AAI..[DP]", "ἐφα{root}"]
         - ["PAD", "φα{athematic}{enclitic}"]
     forms:
