@@ -73,7 +73,7 @@ AAI.3S:
     - "|{2nd}>ε<T_2|(ν);+final-nu-aai.3s"
     - "|{2nd}>ε<T_2|ν;+fixed-final-nu-aai.3s"
     - "|{2nd}>ε<T_2|;+no-final-nu-aai.3s"
-    - "[εηωῡ]|{root}><|"  # initial regex is to prevent this rule being overapplied in stem prediction
+    - "[εηωῡα]|{root}><|"  # initial regex is to prevent this rule being overapplied in stem prediction
 AAI.2D:
     - "|>α<A|τον;+Homer"
     - "|{2nd}>ε<T_2|τον;+Homer"
