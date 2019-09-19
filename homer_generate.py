@@ -22,7 +22,7 @@ ginflexion = GreekInflexion(
 first = True
 
 FILENAME = "homer-data/verbs.tsv"
-PART = ["3+"]
+PART = ["3+", "3-"]
 
 with open(FILENAME) as f:
     for row in f:

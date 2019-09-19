@@ -692,19 +692,15 @@ AMP.NSM:
     - "|>ά<α|μενος"  # §37
     - "|{2nd}>ό<T_1|μενος"  # §37
     - "|{athematic}><|μενος"  # §37
-    # - "|ο{athematic}>ό<|μενος"  # §37
-    # - "|α{athematic}>ά<|μενος"  # §37
     - "|{root}><|μενος"  # §37
 AMP.VSM:
     - "|>ά<α|μενε"
     - "|{2nd}>ό<T_1|μενε"
-    # - "|{athematic}><|μενε"
+    - "|{athematic}><|μενε"
 AMP.NSF:
     - "|>α<α|μένη"  # §37
     - "|{2nd}>ο<T_1|μένη"  # §37
     - "|{athematic}><|μένη"  # §37
-    # - "|{athematic}>ο<|μένη"  # §37
-    # - "|α{athematic}>α<|μένη"  # §37
     - "|{root}><|μένη"  # §37
 AMP.VSF:
     ref: AMP.NSF
@@ -723,7 +719,7 @@ AMP.VPM:
 AMP.NPF:
     - "|>ά<α|μεναι"
     - "|{2nd}>ό<T_1|μεναι"
-    # - "|{athematic}><|μεναι"
+    - "|{athematic}><|μεναι"
 AMP.VPF:
     ref: AMP.NPF
 AMP.NPN:
@@ -737,13 +733,13 @@ AMP.GSM:
 AMP.GSF:
     - "|>α<α|μένης"
     - "|{2nd}>ο<T_1|μένης"
-    # - "|{athematic}><|μένης"
+    - "|{athematic}><|μένης"
 AMP.GSN:
     ref: AMP.GSM
 AMP.GPM:
     - "|>α<α|μένων"
     - "|{2nd}>ο<T_1|μένων"
-    # - "|{athematic}><|μένων"
+    - "|{athematic}><|μένων"
 AMP.GPF:
     ref: AMP.GPM
 AMP.GPN:
@@ -751,23 +747,23 @@ AMP.GPN:
 AMP.DSM:
     - "|>α<α|μένῳ"
     - "|{2nd}>ο<T_1|μένῳ"
-    # - "|{athematic}><|μένῳ"
+    - "|{athematic}><|μένῳ"
 AMP.DSF:
     - "|>α<α|μένῃ"
     - "|{2nd}>ο<T_1|μένῃ"
-    # - "|{athematic}><|μένῃ"
+    - "|{athematic}><|μένῃ"
 AMP.DSN:
     ref: AMP.DSM
 AMP.DPM:
     - "|>α<α|μένοις"
     - "|{2nd}>ο<T_1|μένοις"
-    # - "|{athematic}><|μένοις"
+    - "|{athematic}><|μένοις"
     - "|{2nd}>ο<T_1|μένοισι;+Homer"
     - "|{2nd}>ο<T_1|μένοισιν;+Homer"
 AMP.DPF:
     - "|>α<α|μέναις"
     - "|{2nd}>ο<T_1|μέναις"
-    # - "|{athematic}><|μέναις"
+    - "|{athematic}><|μέναις"
     - "|{2nd}>ο<T_1|μένῃσι;+Homer"
 AMP.DPN:
     ref: AMP.DPM
@@ -779,21 +775,21 @@ AMP.ASM:
 AMP.ASF:
     - "|>α<α|μένην"
     - "|{2nd}>ο<T_1|μένην"
-    # - "|{athematic}><|μένην"
+    - "|{athematic}><|μένην"
 AMP.ASN:
     ref: AMP.ASM
 AMP.APM:
     - "|>α<α|μένους"
     - "|{2nd}>ο<T_1|μένους"
-    # - "|{athematic}><|μένους"
+    - "|{athematic}><|μένους"
 AMP.APF:
     - "|>α<α|μένᾱς"
     - "|{2nd}>ο<T_1|μένᾱς"
-    # - "|{athematic}><|μένᾱς"
+    - "|{athematic}><|μένᾱς"
 AMP.APN:
     - "|>ά<α|μενα"
     - "|{2nd}>ό<T_1|μενα"
-    # - "|{athematic}><|μενα"
+    - "|{athematic}><|μενα"
 
 AMS.1S:
     - "|><|ωμαι"

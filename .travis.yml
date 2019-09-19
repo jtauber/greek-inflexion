@@ -9,6 +9,7 @@ script:
   - flake8 .
   - python unit_tests.py
   - python data_test.py
+  - python regression_tests.py
   - python -m doctest examples.rst
   - python morphgnt_generate.py 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 23 24 25 26 27
   - python homer_generate_paradigms.py
