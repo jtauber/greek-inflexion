@@ -6,11 +6,11 @@ AAD.2S:
     - "|{2nd}{enclitic}>έ<T_2|"
     - "|{2nd}{sigma}>έ<|ς"  # related to {athematic} ?
     # - "|{athematic}><|ς"  # @@@
-    - "|ο{athematic}>ο<|ς"  # @@@
-    - "|ε{athematic}>ε<|ς"  # @@@
+    # - "|ο{athematic}>ο<|ς"  # @@@
+    # - "|ε{athematic}>ε<|ς"  # @@@
     - "|ω{root}>ω<|θι"
     - "[^ρ]|α{root}>η<|θι"  # @@@
-    - "|α{athematic}>η<|θι"  # @@@
+    # - "|α{athematic}>η<|θι"  # @@@
     - "ρ|α{root}>α<|θι"  # @@@
     - "|η{root}>η<|θι"  # @@@
     - "|υ{root}>ῦ<|θι"
@@ -20,39 +20,35 @@ AAD.2S:
 AAD.3S:
     - "|>ά<ά|τω"
     - "|{2nd}>έ<T_2|τω"
-    - "|ε{athematic}>ε<|τω"  # @@@
-    - "|ο{athematic}>ο<|τω"  # @@@
+    # - "|ε{athematic}>ε<|τω"  # @@@
+    # - "|ο{athematic}>ο<|τω"  # @@@
     - "|ω{root}>ώ<|τω"
     - "|α{root}>ά<@|τω"  # @@@
     - "|η{root}>ή<@|τω"  # @@@
-    - "|α{athematic}>ή<|τω"  # @@@
+    # - "|α{athematic}>ή<|τω"  # @@@
     - "|ε{root}>ε<|τω"
     - "|ο{root}>ο<|τω"
 AAD.2D:
     - "|>α<|τον;+Homer"
-    - "|{2nd}>ε<|τον"
-    - "|α{athematic}>η<η|τον"
-    - "|ε{athematic}>ε<η|τον"
-    - "|ο{athematic}>ο<α|τον"
+    - "|{2nd}>ε<|τον;+Homer"
+    - "|{root}><|τον;+Homer"
 
 AAD.3D:
     - "|>ά<|των;+Homer"
-    - "|{2nd}>ε<|των"
-    - "|α{athematic}>η<α|των"
-    - "|ε{athematic}>ε<α|των"
-    - "|ο{athematic}>ο<α|των"
+    - "|{2nd}>ε<|των;+Homer"
+    - "|{root}><|των;+Homer"
 AAD.2P:
     ref: AAI.2P
 AAD.3P:
     - "|>ά<ά|ντων"
     - "|{2nd}>ό<T_1|ντων"
-    - "|{athematic}><|ντων"
+    # - "|{athematic}><|ντων"
     # - "|ω{root}>ο<|ντων"  # do we need this?
     - "|ο{root}>ό<|ντων"  # @@@
     - "|α{root}>ά<|ντων"  # @@@
     - "|>ά<|τωσαν;+HGrk"
     - "|{2nd}>έ<T_2|τωσαν;+HGrk"
-    - "|{athematic}><|τωσαν;+HGrk"
+    # - "|{athematic}><|τωσαν;+HGrk"
     - "|{root}><|τωσαν;+HGrk"
     - "|ε{root}>ε<α|ντων"
 
@@ -102,15 +98,15 @@ AAN:
     - "|{2nd}>εῖ<T_2+ε|ν"  # §56 (2nd/strong)  (Pratt doesn't have accent)
     - "|α{root}>ῆ<_1|ναι"  # §50 (root)
     # - "|ε{root}>ῆ<_1|ναι"  # §50 (root)
-    - "|ο{root}>ῶ<_1|ναι"  # §50 (root)
+    # - "|ο{root}>ῶ<_1|ναι"  # §50 (root)
+    - "|ο{root}>οῦ<_2|ναι"  # §62
     # - "|υ{root}>ῦ<_1|ναι"
     - "|ῡ{root}>ῦ<_1|ναι"
     - "|υ{root}>ῦ<_1|ναι;+Homer"
     - "|υ{root}>ῡ́<_1|μεναι;+Homer"
     - "|ω{root}>ῶ<_1|ναι"  # if you model it this way rather than ο{root}
-    - "|α{athematic}>ῆ<_2|ναι"  # ?
-    - "|ε{athematic}>εῖ<_2|ναι"  # §62
-    - "|ο{athematic}>οῦ<_2|ναι"  # §62
+    # - "|α{athematic}>ῆ<_2|ναι"  # ?
+    # - "|ε{athematic}>εῖ<_2|ναι"  # §62
     - "|ι{2nd}>εῖ<T_2+ε|ν"  # @@@ πεῖν
     - "|><|άμεν;+Homer"
     - "|><|άμεναι;+Homer"
@@ -118,13 +114,11 @@ AAN:
     - "|{2nd}>εει<|ν;+Homer"  # @@@
     - "|{2nd}>ε<|μεν;+Homer"
     - "|{2nd}>έ<|μεναι;+Homer"
-    - "|ω{root}>ώ<|μεναι;+Homer"  # @@@
-    - "|η{root}>ή<|μεναι;+Homer"  # @@@
-    - "|α{athematic}>ή<|μεναι;+Homer"
-    - "|{athematic}><|μεν;+Homer"
-    - "|α{athematic}>ά<|μεναι;+Homer"
-    - "|ο{athematic}>ό<|μεναι;+Homer"
-    - "|ε{athematic}>έ<|μεναι;+Homer"
+    - "|ε{root}>έ<|μεναι;+Homer"  # only added for accentuation (fix later)
+    - "|ο{root}>ό<|μεναι;+Homer"  # only added for accentuation (fix later)
+    - "|η{root}>ή<|μεναι;+Homer"  # only added for accentuation (fix later)
+    - "|ω{root}>ώ<|μεναι;+Homer"  # only added for accentuation (fix later)
+    - "|{root}><|μεν;+Homer"
 
     # restored for MorphGNT
     - "|ε{root}>εῖ<ε|ναι"
@@ -137,12 +131,12 @@ AAO.1S:
     - "|><|αιμι"
     - "|{2nd}><|οιμι"
     - "|ο{root}>οί<ι|ην"
-    - "|ε{athematic}>εί<ι|ην"
-    - "|ο{athematic}>οί<ι|ην"
+    # - "|ε{athematic}>εί<ι|ην"
+    # - "|ο{athematic}>οί<ι|ην"
     - "|{root}>ί<ι|ην"  # @@@
     - "|α>αι<ι|ην;+Homer"
     - "|ο>οι<ι|ην;+Homer"
-    - "|α{athematic}>αί<ι|ην"  # @@@
+    # - "|α{athematic}>αί<ι|ην"  # @@@
     - "|υ{root}>υ<|ην;+Homer"
 AAO.2S:
     - "|><|αις;-only-epsilon-aao"
@@ -151,9 +145,9 @@ AAO.2S:
     - "|{2nd}><|οισθα;+Homer"
     - "|{root}>ι<ι|ης"
     - "|ο{root}>οί<ι|ης"
-    - "|ο{athematic}>οί<ι|ης"
-    - "|ε{athematic}>εί<ι|ης"
-    - "|α{athematic}>αί<ι|ης"
+    # - "|ο{athematic}>οί<ι|ης"
+    # - "|ε{athematic}>εί<ι|ης"
+    # - "|α{athematic}>αί<ι|ης"
     - "|>αι<|σθα;+Homer"
     - "|υ{root}>υ<|ης;+Homer"
 AAO.3S:
@@ -162,67 +156,51 @@ AAO.3S:
     - "|><|ειεν;+Homer"
     - "|><|ειε;+no-final-nu-aao.3s"
     - "|{2nd}><|οι"  # long
-    - "|ο{root}>οί<ι|η"
-    - "|ο{athematic}>οί<ι|η"
-    - "|ε{athematic}>εί<ι|η"
-    # - "|ἑ{athematic}>εἵ<ι|η"  # @@@
+    # - "|ο{root}>οί<ι|η"
     - "|{root}>ι<ι|η"  # @@@
-    - "|α{athematic}>αί<ι|η"  # @@@
     - "|υ{root}>υ<|η;+Homer"
     - "|ῡ{root}>ῡ<|η;+Homer"
-    - "|ω{athematic}>ῳ<ι|η"  # @@@
+    - "|ω{root}>ῳ<ι|η"
 AAO.2D:
     - "|>α<|ιτον;+Homer"
     - "|{2nd}>οι<|τον;+Homer"
-    - "|{athematic}>ι<ι|τον;+Homer"
+    - "|{root}>ι<ι|τον;+Homer"
 AAO.3D:
     - "|>α<|ίτην;+Homer"
     - "|{2nd}>οι<|την;+Homer"
-    - "|{athematic}>ι<ι|την;+Homer"
+    - "|{root}>ι<ι|την;+Homer"
 AAO.1P:
     - "|>α<α|ιμεν"
     - "|{2nd}>ο<T_1|ιμεν"
-    - "|ο{root}>οῖ<ι|μεν"
-    - "[αεο]|{root}><|ιημεν;+alt-aao-pl"
-    - "|ο{athematic}>οῖ<ι|μεν"
-    - "[αεο]|{athematic}><|ιημεν;+alt-aao-pl"  # @@@ should this actually be root?
-    - "[αεο]|{athematic}><|ιημεν;+alt-aao-1p-only"  # @@@ should this actually be root?
-    - "|ε{athematic}>εῖ<ι|μεν"
     - "|{root}>ι<ι|μεν"
-    - "|α{athematic}>αῖ<ι|μεν"
+    - "|{root}><|ιημεν;+alt-aao-pl"
+    - "|{root}><|ιημεν;+alt-aao-1p-only"
 AAO.2P:
     - "|>α<α|ιτε"
     - "|{2nd}>ο<T_1|ιτε"
     - "|ο{root}>οῖ<ι|τε"
     - "[αεο]|{root}><|ιητε;+alt-aao-pl"
-    - "|ο{athematic}>οῖ<ι|τε"
-    - "[αεο]|{athematic}><|ιητε;+alt-aao-pl"  # @@@ should this actually be root?
-    - "|ε{athematic}>εῖ<ι|τε"
+    # - "|ο{athematic}>οῖ<ι|τε"
+    # - "[αεο]|{athematic}><|ιητε;+alt-aao-pl"  # @@@ should this actually be root?
+    # - "|ε{athematic}>εῖ<ι|τε"
     - "|{root}>ι<ι|τε"  # @@@
-    - "|α{athematic}>αῖ<ι|τε"  # @@@
+    # - "|α{athematic}>αῖ<ι|τε"  # @@@
 AAO.3P:
     - "|><|αιεν;-only-epsilon-aao"
-    - "|><|ειαν"  # @@@ is this an alt-aao-pl?
+    - "|><|ειαν"
+    - "|>α<|ισαν;+HGrk"  # @@@
     - "|{2nd}>ο<T|ιεν"
+    - "|{2nd}>ο<T|ισαν;+HGrk"  # @@@
+    - "|ε{root}>εῖ<ι|εν"
     - "|ο{root}>οῖ<ι|εν"
     - "|α{root}>αῖ<ι|εν"  # @@@
-    - "[αεο]|{root}><|ιησαν;+alt-aao-pl"
-    - "|ο{athematic}>οῖ<ι|εν"
-    - "[αεο]|{athematic}><|ιησαν;+alt-aao-pl"  # @@@ should this actually be root?
-    - "|>α<|ισαν;+HGrk"  # @@@
-    - "|{2nd}>ο<T|ισαν;+HGrk"  # @@@
-    - "|ε{athematic}>εῖ<ι|εν"
-    - "|{athematic}>ι<ι|ησαν;+Homer"
+    - "|{root}><|ιησαν;+alt-aao-pl"
     - "|{root}>ι<|εν;+Homer"
-    # - "|ἑ{athematic}>εἷ<ι|εν"  # @@@
-    - "|α{athematic}>αῖ<ι|εν"  # @@@
 
 AAP.NSM:
     - "|>ᾱ<@|ς"  # §30 (1st)
     - "|{2nd}>ώ<@|ν"  # §31 (2nd)
-    - "|ε{athematic}>εί<@|ς"  # §32 (mi)
-    - "|ο{athematic}>ού<@|ς"  # §32 (mi)
-    - "|α{athematic}>ᾱ́<@|ς"  # §32 (mi+root)
+    - "|ε{root}>εί<@|ς"  # §32 (mi)
     - "|α{root}>ᾱ́<@|ς"  # §32 (mi+root)
     - "|ο{root}>ού<@|ς"  # (root) @@@
     - "|υ{root}>ῡ́<@|ς"  # @@@ should result be long?
@@ -233,15 +211,12 @@ AAP.VSM:
 AAP.NSF:  # σα = σᾰ
     - "|>ᾱ<@|σα"  # §30 (1st)
     - "|{2nd}>οῦ<@|σα"  # §31 (2nd)
-    - "|ε{athematic}>εῖ<@|σα"  # §32 (mi)
-    - "|ο{athematic}>οῦ<@|σα"  # §32 (mi)
-    - "|α{athematic}>ᾶ<@|σα"  # §32 (mi+root)
+    - "|ε{root}>εῖ<@|σα"  # §32 (mi)
     - "|α{root}>ᾶ<@|σα"  # §32 (mi+root)
-    - "|ο{root}>οῦ<@|σα"  # root @@@
+    - "|ο{root}>οῦ<@|σα"  # §32 (mi) root
     - "|υ{root}>ῦ<|σα"  # @@@
     - "|ῡ{root}>ῦ<|σα"
     - "|ω{root}>οῦ<ᾱ|σα;+Homer"
-    # - "|υ{athematic}>ῦ<@|σα"  # φύω @@@ thematic or athematic?
 AAP.VSF:
     ref: AAP.NSF
 AAP.NSN:
@@ -287,12 +262,7 @@ AAP.DDN:
 AAP.NPM:
     - "|>α<|ντες"  # §30
     - "|{2nd}>ό<|ντες"  # §31
-    - "|α{athematic}>ά<|ντες"  # NT
-    - "|ε{athematic}>έ<|ντες"  # NT
-    - "|ο{athematic}>ό<|ντες"
-    - "|α{root}>ά<|ντες"
-    - "|ο{root}>ό<|ντες"  # NT
-    - "|υ{root}>ύ<|ντες"
+    - "|{root}><|ντες"
 AAP.VPM:
     ref: AAP.NPM
 AAP.NPF:
@@ -309,20 +279,16 @@ AAP.VPN:
 AAP.GSM:
     - "|>α<|ντος"  # §30 (1st)
     - "|{2nd}>ό<|ντος"  # §31 (2nd)
-    - "|ε{athematic}>έ<|ντος"  # §32 (mi)
-    - "|ο{athematic}>ό<|ντος"  # §32 (mi)
-    - "|α{athematic}>ά<|ντος"  # §32 (mi+root)  # both this and below? @@@
+    - "|ε{root}>έ<|ντος"  # §32 (mi)
     - "|α{root}>ά<|ντος"  # §32 (mi+root)
     - "|ο{root}>ό<|ντος"  # §64 root
     - "υ|{root}><|ντος"
 AAP.GSF:
     - "|>ᾱ́<@|σης"  # §30 (1st)
     - "|{2nd}>ού<@|σης"  # §31 (2nd)
-    - "|ε{athematic}>εί<@|σης"  # §32 (mi)
-    - "|ο{athematic}>ού<@|σης"  # §32 (mi)
-    - "|α{athematic}>ᾱ́<@|σης"  # §32 (mi+root)
-    - "|ο{root}>ού<@|σης"  # §64 (root)
-    - "|α{root}>ᾱ́<@|σης"  # §64 (root)
+    - "|ε{root}>εί<@|σης"  # §32 (mi)
+    - "|ο{root}>ού<@|σης"  # §32 (mi) §64 (root)
+    - "|α{root}>ᾱ́<@|σης"  # §32 (mi+root) §64 (root)
     - "|υ{root}>ῡ́<@|σης"  # root @@@
     - "|ῡ{root}>ῡ́<@|σης"  # root
 AAP.GSN:
@@ -379,7 +345,7 @@ AAP.ASM:
     - "|{2nd}>ό<|ντα"  # §31
     - "|{root}><|ντα"  # NT
     # - "υ|{root}><|ντα"
-    - "|{athematic}><|ντα"  # @@@
+    # - "|{athematic}><|ντα"  # @@@
 AAP.ASF:
     - "|>ᾱ<@|σαν"  # §30
     - "|{2nd}>οῦ<@|σαν"  # §31
@@ -388,15 +354,12 @@ AAP.ASN:
     - "|>ᾰ<|ν"  # §30 (1st)
     - "|{2nd}>ό<|ν"  # §31 (2nd)
     - "|{2nd}>ο<|ν;+HGrk"  # @@@ not accented this way
-    - "|ε{athematic}>έ<|ν"  # §32 (mi)
-    - "|ο{athematic}>ό<|ν"  # §32 (mi)
-    - "|α{athematic}>ά<|ν"  # §32 (mi+root)
-    # - "|υ{athematic}>ύ<|ν"  # φύω @@@ thematic or athematic?
+    - "|ε{root}>έ<|ν"  # §32 (mi)
     - "|α{root}>ά<|ν"  # §32 (mi+root)
-    - "|ο{root}>ό<|ν"  # §64 (root)
+    - "|ο{root}>ό<|ν"  # §32 (mi) §64 (root)
     - "υ|{root}><|ν"
     - "|>α<|ν;+Homer"  # α is short (not really Homeric)
-    - "|ω{root}>ο<ο|ν;+Homer"
+    - "|ω{root}>ο<ο|ν;+Homer"  # @@@
 AAP.APM:
     - "|>α<|ντας"  # §30
     - "|{2nd}>ό<|ντας"  # §31
@@ -414,43 +377,46 @@ AAP.APN:
 AAS.1S:
     - "|><|ω"
     - "|{2nd}><|ω"
-    - "|ο{athematic}>ῶ<ω|"
-    - "|ε{athematic}>ῶ<ω|"
-    # - "|ἑ{athematic}>ὧ<ω|"  # hopefully can go away with better breathing support
+    - "|{2nd}><|ωμι;+Homer"
+    - "|><|ωμι;+Homer"
+    # - "|ο{athematic}>ῶ<ω|"
+    # - "|ε{athematic}>ῶ<ω|"
     - "υ|{root}><|ω"
     - "|ω{root}>ῶ<ω|"  # LTRG does it this way
     # - "|ο{root}>ῶ<ω|"  # Pratt lexicon used to do it this way
     - "|α{root}>ῶ<ω|"
     - "|η{root}>ῶ<ω|"
+    - "|ε{root}>ῶ<ω|"
     - "|η{root}>ηω<ω|;+Homer"
     - "|ω{root}>ωω<ω|;+Homer"
-    - "|α{athematic}>ῶ<ω|"  # @@@
-    - "|><|ωμι;+Homer"
-    - "|{2nd}><|ωμι;+Homer"
-    - "|α{athematic}>ῶ<ω|μι;+Homer"
-    - "|ε{athematic}>ῶ<ω|;+Homer"
-    - "|ε{athematic}>ῶ<ω|μι;+Homer"
-    - "|ο{athematic}>ῶ<ω|μι;+Homer"
-    - "|ο{athematic}>ῶ<ω|;+Homer"
+    # - "|α{athematic}>ῶ<ω|"  # @@@
+#    - "|α{root}>ῶ<ω|μι;+Homer"
+    - "|η{root}>ῶ<ω|μι;+Homer"  # @@@
+    # - "|ε{athematic}>ῶ<ω|;+Homer"
+    - "|ε{root}>ῶ<ω|μι;+Homer"
+    - "|ο{root}>ῶ<ω|μι;+Homer"
+    - "|ο{root}>ῶ<ω|;+Homer"
 AAS.2S:
     - "|><|ῃς"
     - "|><|εις;+Homer"  # @@@ add for ἀλεξήσεις
     - "|{2nd}><|ῃς"
     - "|{2nd}><|ῃσθα;+Homer"
-    - "|ο{athematic}>ῷ<ῃ|ς"
-    - "|ε{athematic}>ῇ<ῃ|ς"
+    # - "|ο{athematic}>ῷ<ῃ|ς"
+    # - "|ε{athematic}>ῇ<ῃ|ς"
     - "υ|{root}><|ῃς"
     - "|ω{root}>ῷ<ῃ|ς"  # LTRG does it this way
     # - "|ο{root}>ῷ<ῃ|ς"  # Pratt lexicon used to do it this way but now LTRG way
     - "|α{root}>ῇ<ῃ|ς"
     - "|η{root}>ῇ<ῃ|ς"
-    - "|α{athematic}>ῇ<ῃ|ς"
+    - "|ε{root}>ῇ<ῃ|ς"
+    # - "|α{athematic}>ῇ<ῃ|ς"
     - "|><|ῃσθα;+Homer"
-    - "|α{athematic}>ῇ<ῃ|σθα;+Homer"
-    - "|ε{athematic}>ῃ<η|ς;+Homer"
-    - "|ε{athematic}>ῃ<η|σθα;+Homer"
-    - "|ο{athematic}>ῳ<η|ς;+Homer"
-    - "|ο{athematic}>ῳ<η|σθα;+Homer"
+#    - "|α{root}>ῇ<ῃ|σθα;+Homer"
+    - "|η{root}>ῇ<ῃ|σθα;+Homer"
+    # - "|ε{athematic}>ῃ<η|ς;+Homer"
+    - "|ε{root}>ῃ<η|σθα;+Homer"
+    - "|ο{root}>ῳ<η|ς;+Homer"
+    - "|ο{root}>ῳ<η|σθα;+Homer"
 
 AAS.3S:
     - "|><|ῃ"
@@ -458,23 +424,23 @@ AAS.3S:
 
     - "|{2nd}><|ῃσι;+Homer"
     - "|{2nd}><|ῃσιν;+Homer"
-    - "|ο{athematic}>ῷ<ῃ|"
-    - "|ε{athematic}>ῇ<ῃ|"
+    # - "|ο{athematic}>ῷ<ῃ|"
+    # - "|ε{athematic}>ῇ<ῃ|"
     - "|ε{root}>έῃ<ῃ|;+Homer"
     - "υ|{root}><|ῃ"
     - "|ω{root}>ῷ<ῃ|"  # LTRG does it this way
     # - "|ο{root}>ῷ<ῃ|"  # Pratt lexicon used to do it this way (but would clash with below)
-    - "|ο{athematic}>οῖ<ῃ|;+HGrk"  # NT
-    - "|α{athematic}>ῇ<ῃ|"
+    # - "|ο{athematic}>οῖ<ῃ|;+HGrk"  # NT
+    # - "|α{athematic}>ῇ<ῃ|"
     - "|α{root}>ῇ<ῃ|"  # @@@
     - "|η{root}>ῇ<ῃ|"  # @@@
     - "|><|ῃσι;+Homer"
     - "|><|ει;+Homer"  # @@@
-    - "|α{athematic}>ῇ<ῃ|σι;+Homer"
-    - "|ε{athematic}>ῃ<η|;+Homer"
-    - "|ε{athematic}>ῃ<η|σι;+Homer"
-    - "|ο{athematic}>ῳ<η|;+Homer"
-    - "|ο{athematic}>ῳ<η|σι;+Homer"
+    - "|η{root}>ῇ<ῃ|σι;+Homer"
+    # - "|ε{athematic}>ῃ<η|;+Homer"
+    - "|ε{root}>ῃ<η|σι;+Homer"
+    - "|ο{root}>ῳ<η|;+Homer"  # @@@
+    - "|ο{root}>ῳ<η|σι;+Homer"
     - "|ω{root}>ώ<|ῃ;+Homer"
 
     # restored for MorphGNT
@@ -486,109 +452,97 @@ AAS.3S:
 
 AAS.2D:
     - "|>η<|τον;+Homer"
-    - "|ω>ω<η|τον;+Homer"
-    - "|ω{root}>ω<η|τον;+Homer"
+    # - "|ω>ω<η|τον;+Homer"
     - "|{2nd}>η<η|τον;+Homer"
-    - "|α{athematic}>η<η|τον;+Homer"
-    - "|ε{athematic}>ῆ<η|τον;+Homer"
-    - "|ο{athematic}>ω<η|τον;+Homer"
+    - "|ω{root}>ω<η|τον;+Homer"
+    - "|ο{root}>ω<η|τον;+Homer"
+    - "|η{root}>η<η|τον;+Homer"
+    - "|ε{root}>ῆ<η|τον;+Homer"
 
 AAS.3D:
     ref: AAS.2D
 AAS.1P:
     - "|>ω<ω|μεν"
     - "|{2nd}>ω<ω|μεν"
-    - "|ο{athematic}>ῶ<ω|μεν"
-    - "|ε{athematic}>ῶ<ω|μεν"
+    # - "|ο{athematic}>ῶ<ω|μεν"
+    # - "|ε{athematic}>ῶ<ω|μεν"
     - "υ|{root}><|ωμεν"
     - "|ω{root}>ῶ<ω|μεν"  # LTRG does it this way
     # - "|ο{root}>ῶ<ω|μεν"  # Pratt lexicon used to it this way
     - "|α{root}>ῶ<ω|μεν"
     - "|η{root}>ῶ<ω|μεν"
-    - "|α{athematic}>ῶ<ω|μεν"
+    - "|ε{root}>ῶ<ω|μεν"
+    # - "|α{athematic}>ῶ<ω|μεν"
     - "|>ο<ο|μεν;+Homer"  # @@@
     - "|ε{root}>ω<ω|μεν;+Homer"
     - "|ο{root}>ω<ω|μεν;+Homer"
 
 AAS.2P:
     - "|>η<η|τε"
+    - "|>ε<T_2|τε;+Homer"
     - "|{2nd}>η<η|τε"
-    - "|ο{athematic}>ῶ<@|τε"
-    - "|ε{athematic}>ῆ<@|τε"
     - "υ|{root}><|ητε"
     - "|ω{root}>ῶ<η|τε"
     - "|ο{root}>ῶ<η|τε"  # NT
     - "|α{root}>ῆ<η|τε"
     - "|η{root}>ῆ<η|τε"
-    - "|α{athematic}>ῆ<η|τε"
-    - "|ε{root}>ῆ<η|τε;+Homer"
+    - "|ε{root}>ῆ<η|τε"
     - "|ο{root}>ω<η|τε;+Homer"
-    - "|>ε<T_2|τε;+Homer"
 AAS.3P:
     - "|><|ωσι(ν);-no-final-nu-aas.3p"
     - "|><|ωσιν;+Homer"
     - "|><|ωσι;+no-final-nu-aas.3p"
     - "|{2nd}><|ωσι(ν);-no-final-nu-aas.3p"
     - "|{2nd}><|ωσι;+no-final-nu-aas.3p"
-    - "|ο{athematic}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
-    - "|ε{athematic}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
-    - "υ|{root}><|ωσι(ν);-no-final-nu-aas.3p"
     - "|ω{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
-    - "|ω{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
-    - "|ο{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
-    - "|α{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
-    - "|η{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"  # @@@
-    - "|α{athematic}>ῶ<ω|σι(ν)"  # @@@
-    - "|α{athematic}>ῶ<ω|σι;+Homer"
-    - "|ε{athematic}>ῶ<ω|σι;+Homer"
-    - "|ο{athematic}>ῶ<ω|σι;+Homer"
+    - "|ε{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
+    - "|ο{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|α{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|η{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
+    - "|ω{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|ε{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|ο{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|α{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|η{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "υ|{root}><|ωσι(ν);-no-final-nu-aas.3p"
+    # - "|α{athematic}>ῶ<ω|σι;+Homer"
+    # - "|ε{athematic}>ῶ<ω|σι;+Homer"
+    # - "|ο{athematic}>ῶ<ω|σι;+Homer"
 
 AMD.2S:
     - "|><|αι"
-    - "|ο{athematic}><|οο;+Homer"
-    - "|ο{athematic}><|οῦ;+Homer"
-    - "|ε{athematic}><|εο;+Homer"
-    - "|ε{athematic}><|ευ;+Homer"
     - "|{2nd}><|οῦ"  # εσο
     - "|{2nd}><|έο;+Homer"  # εσο
     - "|{2nd}><|ου;+HGrk"  # @@@
     - "|{2nd}><|ευ;+Homer"  # @@@
-    - "|ο{athematic}><|οῦ"
-    - "|ο{athematic}><|ου;+HGrk"  # @@@
-    - "|ε{athematic}><|οῦ"
-    - "|ε{athematic}><|ου;+HGrk"  # @@@
-    # - "|ἑ{athematic}><|οὗ"
-AMD.2D:
-    - "|>α<|σθον;+Homer"
-    - "|{2nd}>ε<|σθον"
-    - "|ε{athematic}>ε<|σθον"
-    - "|ο{athematic}>ο<|σθον"
-
-AMD.3D:
-    - "|>ά<|σθων;+Homer"
-    - "|{2nd}>ε<|σθων"
-    - "|ε{athematic}>ε<|σθων"
-    - "|ο{athematic}>ο<|σθων"
-
+    - "|ε{root}><|εο;+Homer"
+    - "|ε{root}><|ευ;+Homer"
+    - "|ε{root}><|ου;+HGrk"  # @@@
+    - "|ε{root}><|οῦ"
+    - "|ἑ{root}><|οὗ"
+    - "|ο{root}><|οο;+Homer"
+    - "|ο{root}><|ου;+HGrk"  # @@@
+    - "|ο{root}><|οῦ;+Homer"
+    - "|ο{root}><|οῦ"
 AMD.3S:
     - "|>ά<ά|σθω"
     - "|{2nd}>έ<T_2|σθω"
-    - "|{athematic}><|σθω"
-    - "|ο{root}>ο<|σθω"
-    - "|ε{root}>ε<|σθω"
-
+    - "|{root}><|σθω"
+AMD.2D:
+    - "|>α<|σθον;+Homer"
+    - "|{2nd}>ε<|σθον;+Homer"
+    - "|{root}><|σθον;+Homer"
+AMD.3D:
+    - "|>ά<|σθων;+Homer"
+    - "|{2nd}>ε<|σθων;+Homer"
+    - "|{root}><|σθων;+Homer"
 AMD.2P:
     ref: AMI.2P
-
 AMD.3P:
     - "|>ά<α|σθων"
-    - "|{2nd}>έ<T_2|σθων"
-    - "|{athematic}><|σθων"
     - "|>ά<α|σθωσαν;+HGrk"
-    - "|ο{root}>ο<|σθων"
-    - "|ε{root}>ε<|σθων"
+    - "|{2nd}>έ<T_2|σθων"
+    - "|{root}><|σθων"
 
 AMI.1S:
     - "|>ά<A|μην"
@@ -603,6 +557,7 @@ AMI.2S:
     - "|{root}><|σο;+Homer"
     - "|ε{root}>ου<σο|"
     - "|ε{root}>εο<σο|;+Homer"
+    - "|ι{root}>ι<|σο"
     - "|ι{root}>ιο<σο|;+Homer"
     - "|ο{root}>ου<σο|"
 AMI.3S:
@@ -637,7 +592,7 @@ AMN:
     - "|>α<α|σθαι"  # §50
     - "|{2nd}>έ<T_2|σθαι"  # §50 (but Pratt doesn't accent)
     - "|{2nd}>ε<T_2|σθαι;+Homer"  # @@@
-    - "|{athematic}><|σθαι"  # §62
+    # - "|{athematic}><|σθαι"  # §62
     - "|α>ᾶ<|σθαι"  # @@@ or is there an intervocalic sigma lost?
     - "|ο>οῦ<T_2|σθαι"  # @@@ or is there an intervocalic sigma lost?
     - "|{root}><|σθαι"
@@ -645,62 +600,53 @@ AMN:
 AMO.1S:
     - "|>αι<αι|μην"
     - "|{2nd}>οι<οι|μην"
-    - "|{athematic}>ι<ι|μην"
     - "|{root}>ι<|μην"
 AMO.2S:
     - "|><|αιο"  # αισο
     - "|{2nd}><|οιο"  # οισο
-    - "|ε{athematic}>εῖ<ι|ο"  # ισο
-    - "|ο{athematic}>οῖ<ι|ο"  # ισο
-    - "|{athematic}>ι<|ο"
+    - "|{root}>ι<|ο"
 AMO.3S:
     - "|><|αιτο"
     - "|{2nd}><|οιτο"
-    - "|{athematic}>ι<ι|το"
-    - "|{athematic}>ι<|το"
+    - "|{root}>ι<|το"
 AMO.2D:
     - "|>αι<|σθον;+Homer"
-    - "|{2nd}>οι<|σθον"
-    - "|{athematic}>ι<|σθον"
+    - "|{2nd}>οι<|σθον;+Homer"
+    - "|{root}>ι<|σθον;+Homer"
 AMO.3D:
     - "|>αι<|σθην;+Homer"
-    - "|{2nd}>οι<|σθην"
-    - "|{athematic}>ι<|σθην"
+    - "|{2nd}>οι<|σθην;+Homer"
+    - "|{root}>ι<|σθην;+Homer"
 AMO.1P:
     - "|>α<α|ιμεθα"
-    - "|{2nd}>ο<T_1|ιμεθα"
-    - "|{athematic}><|ιμεθα"
     - "|>α<α|ιμεσθα;+Homer"
+    - "|{2nd}>ο<T_1|ιμεθα"
     - "|{2nd}>ο<T_1|ιμεσθα;+Homer"
-    - "|{athematic}>ι<ι|μεσθα;+Homer"
     - "|{root}>ι<|μεθα"
-    - "|{root}>ι<|μεσθα"
+    - "|{root}>ι<|μεσθα;+Homer"
 AMO.2P:
     - "|>α<α|ισθε"
     - "|{2nd}>ο<T_1|ισθε"
-    - "|{athematic}><|ισθε"
     - "|{root}>ι<|σθε"
 
 AMO.3P:
     - "|><|αιντο"
-    - "|{2nd}><|οιντο"
-    - "|{athematic}>ι<ι|ντο"
     - "|>αι<|ατο;+Homer"
+    - "|{2nd}><|οιντο"
     - "|{2nd}>οι<|ατο;+Homer"
-    - "|{athematic}>ι<|ατο;+Homer"
+    - "|{root}>ι<ι|ντο"
+    - "|{root}>ι<|ατο;+Homer"
 AMP.NSM:
     - "|>ά<α|μενος"  # §37
     - "|{2nd}>ό<T_1|μενος"  # §37
-    - "|{athematic}><|μενος"  # §37
     - "|{root}><|μενος"  # §37
 AMP.VSM:
     - "|>ά<α|μενε"
     - "|{2nd}>ό<T_1|μενε"
-    - "|{athematic}><|μενε"
+    - "|{root}><|μενε"
 AMP.NSF:
     - "|>α<α|μένη"  # §37
     - "|{2nd}>ο<T_1|μένη"  # §37
-    - "|{athematic}><|μένη"  # §37
     - "|{root}><|μένη"  # §37
 AMP.VSF:
     ref: AMP.NSF
@@ -713,13 +659,13 @@ AMP.NDM:
 AMP.NPM:
     - "|>ά<α|μενοι"
     - "|{2nd}>ό<T_1|μενοι"
-    - "|{athematic}><|μενοι"
+    - "|{root}><|μενοι"
 AMP.VPM:
     ref: AMP.NPM
 AMP.NPF:
     - "|>ά<α|μεναι"
     - "|{2nd}>ό<T_1|μεναι"
-    - "|{athematic}><|μεναι"
+    - "|{root}><|μεναι"
 AMP.VPF:
     ref: AMP.NPF
 AMP.NPN:
@@ -729,17 +675,17 @@ AMP.VPN:
 AMP.GSM:
     - "|>α<α|μένου"
     - "|{2nd}>ο<T_1|μένου"
-    - "|{athematic}><|μένου"
+    - "|{root}><|μένου"
 AMP.GSF:
     - "|>α<α|μένης"
     - "|{2nd}>ο<T_1|μένης"
-    - "|{athematic}><|μένης"
+    - "|{root}><|μένης"
 AMP.GSN:
     ref: AMP.GSM
 AMP.GPM:
     - "|>α<α|μένων"
     - "|{2nd}>ο<T_1|μένων"
-    - "|{athematic}><|μένων"
+    - "|{root}><|μένων"
 AMP.GPF:
     ref: AMP.GPM
 AMP.GPN:
@@ -747,107 +693,98 @@ AMP.GPN:
 AMP.DSM:
     - "|>α<α|μένῳ"
     - "|{2nd}>ο<T_1|μένῳ"
-    - "|{athematic}><|μένῳ"
+    - "|{root}><|μένῳ"
 AMP.DSF:
     - "|>α<α|μένῃ"
     - "|{2nd}>ο<T_1|μένῃ"
-    - "|{athematic}><|μένῃ"
+    - "|{root}><|μένῃ"
 AMP.DSN:
     ref: AMP.DSM
 AMP.DPM:
     - "|>α<α|μένοις"
     - "|{2nd}>ο<T_1|μένοις"
-    - "|{athematic}><|μένοις"
     - "|{2nd}>ο<T_1|μένοισι;+Homer"
     - "|{2nd}>ο<T_1|μένοισιν;+Homer"
+    - "|{root}><|μένοις"
 AMP.DPF:
     - "|>α<α|μέναις"
     - "|{2nd}>ο<T_1|μέναις"
-    - "|{athematic}><|μέναις"
     - "|{2nd}>ο<T_1|μένῃσι;+Homer"
+    - "|{root}><|μέναις"
 AMP.DPN:
     ref: AMP.DPM
 AMP.ASM:
     - "|>ά<α|μενον"  # §37
     - "|{2nd}>ό<T_1|μενον"  # §37
-    - "|{athematic}><|μενον"  # §37
     - "|{root}><|μενον"  # §37
 AMP.ASF:
     - "|>α<α|μένην"
     - "|{2nd}>ο<T_1|μένην"
-    - "|{athematic}><|μένην"
+    - "|{root}><|μένην"
 AMP.ASN:
     ref: AMP.ASM
 AMP.APM:
     - "|>α<α|μένους"
     - "|{2nd}>ο<T_1|μένους"
-    - "|{athematic}><|μένους"
+    - "|{root}><|μένους"
 AMP.APF:
     - "|>α<α|μένᾱς"
     - "|{2nd}>ο<T_1|μένᾱς"
-    - "|{athematic}><|μένᾱς"
+    - "|{root}><|μένᾱς"
 AMP.APN:
     - "|>ά<α|μενα"
     - "|{2nd}>ό<T_1|μενα"
-    - "|{athematic}><|μενα"
+    - "|{root}><|μενα"
 
 AMS.1S:
     - "|><|ωμαι"
     - "|{2nd}><|ωμαι"
-    - "|ο{athematic}>ῶ<|μαι"
-    - "|ε{athematic}>ῶ<|μαι"
-    - "|ε{root}>ω<ω|μαι"
-    - "|ο{root}>ω<ω|μαι"
+    - "|ε{root}>ῶ<ω|μαι"
+    - "|ο{root}>ῶ<ω|μαι"
 AMS.2S:
     - "|>ῃ<η+σαι|"
     - "|{2nd}>ῃ<η+σαι|"
-    - "|ο{athematic}>ῷ<η+σαι|"
-    - "|ε{athematic}>ῇ<η+σαι|"
+    - "|ο{root}>ῷ<η+σαι|"
+    - "|ε{root}>ῇ<η+σαι|"
     - "|>η<|αι;+Homer"
     - "|{2nd}>η<|αι;+Homer"
-    - "|ε{athematic}>η<ω|αι;+Homer"
-    - "|ο{athematic}>ω<ω|αι;+Homer"
+    - "|ε{root}>η<ω|αι;+Homer"
+    - "|ο{root}>ω<ω|αι;+Homer"
     - "|><|εαι;+Homer"  # @@@ added for αἱρήσεαι
 AMS.3S:
     - "|>η<η|ται"
     - "|>ε<ε|ται;+Homer"  # @@@ added for αἰδέσεται
     - "|{2nd}>η<η|ται"
-    - "|ο{athematic}>ῶ<|ται"
-    - "|ε{athematic}>ῆ<|ται"
-    - "|ε{root}>η<ω|ται"
-    - "|ο{root}>ω<ω|ται"
+    - "|ε{root}>ῆ<ω|ται"
+    - "|ο{root}>ῶ<ω|ται"
 AMS.2D:
     - "|>η<|σθον;+Homer"
     - "|{2nd}>η<|σθον;+Homer"
-    - "|ε{athematic}>η<ω|σθον;+Homer"
-    - "|ο{athematic}>ω<ω|σθον;+Homer"
+    - "|ε{root}>η<ω|σθον;+Homer"
+    - "|ο{root}>ω<ω|σθον;+Homer"
 AMS.3D:
     ref: AMS.2D
 AMS.1P:
     - "|>ω<ω|μεθα"
-    - "|{2nd}>ω<ω|μεθα"
-    - "|ο{athematic}>ω<|μεθα"
-    - "|ε{athematic}>ω<|μεθα"
     - "|>ω<ω|μεσθα;+Homer"
+    - "|{2nd}>ω<ω|μεθα"
     - "|{2nd}>ω<ω|μεσθα;+Homer"
-    - "|ο{athematic}>ω<|μεσθα;+Homer"
-    - "|ε{athematic}>ω<|μεσθα;+Homer"
-    - "|ε{root}>ω<ω|μεθα"
-    - "|ο{root}>ω<ω|μεθα"
-    - "|ε{root}>ω<ω|μεσθα"
-    - "|ο{root}>ω<ω|μεσθα"
+    - "[^εο]|{root}>ω<ω|μεθα"
+    - "[^εο]|{root}>ω<ω|μεσθα;+Homer"
+    - "|ε{root}>ώ<ω|μεθα"
+    - "|ε{root}>ώ<ω|μεσθα;+Homer"
+    - "|ο{root}>ώ<ω|μεθα"
+    - "|ο{root}>ώ<ω|μεσθα;+Homer"
 AMS.2P:
     - "|>η<η|σθε"
     - "|{2nd}>η<η|σθε"
-    - "|ο{athematic}>ῶ<@|σθε"
-    - "|ε{athematic}>ῆ<@|σθε"
-    - "|ε{root}>η<ω|σθε"
-    - "|ο{root}>ω<ω|σθε"
+    - "|ε{root}>ῆ<ω|σθε"
+    - "|ο{root}>ῶ<ω|σθε"
 AMS.3P:
     - "|>ω<ω|νται"
     - "|{2nd}>ω<ω|νται"
-    - "|ο{athematic}>ῶ<|νται"
-    - "|ε{athematic}>ῶ<|νται"
+    # - "|ο{athematic}>ῶ<|νται"
+    # - "|ε{athematic}>ῶ<|νται"
     - "|ε{root}>ω<ω|νται"
     - "|ο{root}>ω<ω|νται"
 
@@ -1567,8 +1504,8 @@ IMI.1S:
     # - "|{athematic}><|μην"
     - "|{nocontract}><|όμην"
     - "|ε>ευ<ο|μην;+Homer"
-    - "ει|><ο|μην"
-    - "η|><|μην"
+    # - "ει|><ο|μην"
+    # - "η|><|μην"
 IMI.2S:
     - "[^{athematic}εοαη]|>ου<σο|"  # §48 @@@
     - "[^{athematic}εοαη]|><|εο;+Homer"
@@ -1577,17 +1514,14 @@ IMI.2S:
     - "|ο>οῦ<σο|"  # §59
     - "|α>ῶ<σο|"  # §57
     - "|η>ῶ<σο|"
-    - "|ο{athematic}>ο<|σο"  # §60a
-    - "|ε{athematic}>ε<|σο"  # §60b
-    - "|υ{athematic}>υ<|σο"  # §60c
-    - "|ῡ{athematic}>ῡ<|σο"
+    - "[^α]|{athematic}><|σο"  # §60
     - "|α{athematic}>α<|σο;+no-sigma-loss-imi.2s"  # §60d
     - "|α{athematic}>ω<σο|;+sigma-loss-imi.2s"  # loss of intervocalic sigma followed by contraction (not in Pratt)
     # - "|η{athematic}>ῆ<|σθα"
     - "|{nocontract}><|εο"
     - "|ε>εῖ<ε|ο;+Homer"
-    - "ει|><ε|σο"
-    - "η|><|σο"
+    # - "ει|><ε|σο"
+    # - "η|><|σο"
 IMI.3S:
     - "|>ε<T_2|το"  # §48
     - "|ε>εῖ<T_2|το"  # §58
@@ -1603,44 +1537,22 @@ IMI.3S:
     # - "|ει{athematic}>ει<|το"  # NT
     - "|{athematic}><|το"
     - "|{nocontract}><|ετο"
-    - "ει|><ε|το"
-    - "η|><ε|το"
-    - "η|><ε|στο"
 IMI.2D:
+    - "|>ε<|σθον;+Homer"
     - "|α>ᾶ<ε|σθον;+Homer"
     - "|ε>εῖ<ε|σθον;+Homer"
     - "|ο>οῦ<ε|σθον;+Homer"
-    - "|>ε<|σθον;+Homer"
-    - "|α{athematic}>α<|σθον;+Homer"
-    - "|ε{athematic}>ε<|σθον;+Homer"
-    - "|ο{athematic}>ο<|σθον;+Homer"
+    - "|{athematic}><|σθον;+Homer"
     - "|{nocontract}><|εσθον;+Homer"
-    - "ει|><|σθον;+Homer"
-    - "η|><ε|σθον;+Homer"
 IMI.3D:
+    - "|>έ<|σθην;+Homer"
     - "|ε>ει<ε|σθην"
     - "|α>ᾱ<ε|σθην"
     - "|ο>ου<ε|σθην;+Homer"
-    - "|>έ<|σθην;+Homer"
-    - "|α{athematic}>α<|σθην;+Homer"
-    - "|ε{athematic}>ε<|σθην;+Homer"
-    - "|ο{athematic}>ο<|σθην;+Homer"
-    - "|{nocontract}><|εσθην;+Homer"
-    - "ει|><|σθην;+Homer"
-    - "η|><ε|σθην"
+    - "|{nocontract}>ε<ε|σθην;+Homer"
+    - "|{athematic}><|σθην;+Homer"
 IMI.1P:
     ref: PMI.1P
-    # - "|>ό<T_1|μεθα"  # §48
-    # - "|ε>ού<T_1|μεθα"  # §58
-    # # @@@ could add uncontracted variant
-    # - "|ο>ού<T_1|μεθα"  # §59
-    # - "|α>ώ<T_1|μεθα"  # §57
-    # - "|η>ώ<T_1|μεθα"
-    # - "|ο{athematic}>ό<|μεθα"  # §60a
-    # - "|ε{athematic}>έ<|μεθα"  # §60b
-    # - "|υ{athematic}>ύ<|μεθα"  # §60c
-    # - "|α{athematic}>ά<|μεθα"  # §60d
-    # - "|η{athematic}>ή<|μεθα"  # εἰμί
 IMI.2P:
     ref: PMI.2P
 IMI.3P:
@@ -1649,21 +1561,11 @@ IMI.3P:
     # @@@ could add uncontracted variant
     - "|ο>οῦ<T_1|ντο"  # §59
     - "|α>ῶ<T_1|ντο"  # §57
-    # - "|η>ῶ<T_1|ντο"
-    - "|ο{athematic}>ο<|ντο"  # §60a
-    - "|ε{athematic}>ε<|ντο"  # §60b
-    - "|υ{athematic}>υ<|ντο"  # §60c
-    - "|α{athematic}>α<|ντο"  # §60d
-    - "|ει{athematic}>ει<|ντο"  # NT
-    - "|η{athematic}>η<|ντο"
+    - "|η>ῶ<T_1|ντο"
     - "|{nocontract}><|οντο"
+    - "|{athematic}><|ντο"  # §60
+    - "|{athematic}><|ατο;+Homer"
     - "|ε>εῦ<|ντο;+Homer"
-    - "ει|><ο|ντο"
-    - "ει|><|ατο"
-    - "|ει>ε<|ατο"
-    - "η|><ο|ντο"
-    - "η|><|ατο"
-    - "|η>ε<|ατο"
 PAD.2S:
     # @@@ should this be T_2 here or just ε?
     - "|>ε<Τ_2|"
@@ -2340,8 +2242,7 @@ PAP.APN:
     - "|α>ῶ<T_1|ντα"  # §27*
     - "|η>ῶ<T_1|ντα"
     - "|ο{athematic}>ό<|ντα"  # §27*
-
-    - "|ε>ῇ<ῃ|"
+    # - "|ε>ῇ<ῃ|"
 PAS.1S:
     - "|><|ω"
     - "φ|ε>ῶ<ω|μι;+Homer"
@@ -2478,8 +2379,8 @@ PMD.2S:
     - "|>ευ<|;+Homer"
     - "|{nocontract}><|εο;+Homer"
     - "|ε>εῦ<εο|;+Homer"
-    - "ει|><|σο"
-    - "η|><|σο"
+    # - "ει|><|σο"
+    # - "η|><|σο"
 PMD.2D:
     - "|>ε<|σθον;+Homer"
     - "|{athematic}><|σθον"
@@ -2532,17 +2433,9 @@ PMI.1S:
     - "|ο>οῦ<T_1|μαι"  # §59
     - "|α>ῶ<T_1|μαι"  # §57
     - "|η>ῶ<T_1|μαι"
-    - "|ο{athematic}>ο<|μαι"  # §60a
-    - "|ε{athematic}>ε<|μαι"  # §60b
-    - "|υ{athematic}>υ<|μαι"  # §60c
-    - "|α{athematic}>α<|μαι"  # §60d
-    - "|η{athematic}>η<|μαι"
-    # - "|ει{athematic}>εῖ<|μαι"  # needed for principal parts
-    - "|ει{athematic}>ει<|μαι"
-    - "|οι{athematic}>οῖ<|μαι"  # needed for principal parts
+    - "|{athematic}><|μαι"  # §60
     - "|{nocontract}><|ομαι"
-    - "|ει>εῖ<ο|μαι"
-    - "η|><|μαι"
+    # - "η|><|μαι"
 PMI.2S:
     - "|>ῃ<T_2+σαι|;-no-pmi.2s-eta"  # §48
     - "|>ει<T_2+σαι|"  # §48
@@ -2558,8 +2451,8 @@ PMI.2S:
     - "|>ε<|αι;+Homer"
     - "|{nocontract}><|εαι;+Homer"
     - "|ε{nocontract}>εῖ<ε|αι;+Homer"
-    - "|ει>εῖ<|σαι"
-    - "η|><|σαι"
+    # - "|ει>εῖ<|σαι"
+    # - "η|><|σαι"
 PMI.3S:
     - "|>ε<T_2|ται"  # §48
     - "|ε>εῖ<T_2|ται"  # §58
@@ -2569,19 +2462,15 @@ PMI.3S:
     - "|η>ῆ<T_2|ται"
     - "|{athematic}><|ται"  # §60abcd + η and ει
     - "|{nocontract}><|εται"
-    - "|ει>εῖ<|ται"
-    - "η|><|σται"
+    # - "|ει>εῖ<|ται"
+    # - "η|><|σται"
 PMI.2D:
     - "|>ε<|σθον;+Homer"
-    - "|ο{athematic}>ο<|σθον;+Homer"
-    - "|ε{athematic}>ε<|σθον;+Homer"
-    - "|α{athematic}>α<|σθον;+Homer"
-    - "|{nocontract}><|εσθον;+Homer"
     - "|ε>εῖ<ε|σθον;+Homer"
     - "|α>ᾶ<ε|σθον;+Homer"
     - "|ο>οῦ<ε|σθον;+Homer"
-    - "|ει>εῖ<ε|σθον;+Homer"
-    - "η|><|σθον;+Homer"
+    - "|{nocontract}>ε<ε|σθον;+Homer"
+    - "|{athematic}><|σθον;+Homer"
 PMI.3D:
     ref: PMI.2D
 PMI.1P:
@@ -2596,20 +2485,12 @@ PMI.1P:
     - "|η>ω<T_1|μεθα"
     - "|{athematic}><|μεθα"  # §60abcd
     - "|>ό<|μεσθα;+Homer"
-    - "|ο{athematic}>ο<|μεθα;+Homer"
-    - "|ε{athematic}>ε<|μεθα;+Homer"
-    - "|α{athematic}>α<|μεθα;+Homer"
-    - "|ο{athematic}>ο<|μεσθα;+Homer"
-    - "|ε{athematic}>ε<|μεσθα;+Homer"
-    - "|α{athematic}>α<|μεσθα;+Homer"
+    - "|{athematic}><|μεθα;+Homer"
+    - "|{athematic}><|μεσθα;+Homer"
     - "|ε>ευ<ο|μεθα;+Homer"
     - "|ε>ευ<ο|μεσθα;+Homer"
     - "|{nocontract}><|ομεθα;+Homer"
     - "|{nocontract}><|ομεσθα;+Homer"
-    - "ει|><ο|μεθα"
-    - "ει|><ο|μεσθα"
-    - "η|><|μεθα"
-    - "η|><|μεσθα"
 PMI.2P:
     - "|>ε<T_2|σθε"  # §48
     - "|ε>εῖ<T_2|σθε"  # §58
@@ -2626,21 +2507,10 @@ PMI.3P:
     - "|ο>οῦ<T_1|νται"  # §59
     - "|α>ῶ<T_1|νται"  # §57
     - "|η>ῶ<T_1|νται"
-    - "|ο{athematic}>ο<|νται"  # §60a
-    - "|ε{athematic}>ε<|νται"  # §60b
-    - "|υ{athematic}>υ<|νται"  # §60c
-    - "|α{athematic}>α<|νται"  # §60d
-    - "|ει{athematic}>ει<|νται"
-    - "|η{athematic}>η<|νται"
-    # @@@ collapse athematics
-    - "|ε>εῦ<ο|νται;+Homer"
     - "|{nocontract}><|ονται;+Homer"
-    - "ει|>α<ον|ται"
-    - "|ει>ε<|ονται"
-    - "|ει>ε<|αται"
-    - "η|><|νται"
-    - "η|><|αται"
-    - "|η>ε<|αται"
+    - "|ε>εῦ<ο|νται;+Homer"
+    - "|{athematic}><|νται"  # §60
+    - "|{athematic}><|αται;+Homer"
 PMN:
     - "|>ε<T_2|σθαι"  # §48
     - "|ε>εῖ<T_2|σθαι"  # §58
@@ -3028,28 +2898,23 @@ PMS.1S:
     - "|α>ῶ<ω|μαι"
     - "|ο>ῶ<ω|μαι"
     - "|η>ῶ<ω|μαι"
-    - "|ε{athematic}>ῶ<ω|μαι"
-    - "|ο{athematic}>ῶ<ω|μαι"
-    - "|α{athematic}>ῶ<ω|μαι;-HGrk"  # @@@ check this accentuation
-    - "|α{athematic}>ω<ω|μαι;+HGrk"  # @@@ check this accentuation
-    - "ν|υ{athematic}>ύ<|ωμαι"
+    # - "|ε{athematic}>ῶ<ω|μαι"
+    # - "|ο{athematic}>ῶ<ω|μαι"
+    # - "|α{athematic}>ῶ<ω|μαι;-HGrk"  # @@@ check this accentuation
+    # - "|α{athematic}>ω<ω|μαι;+HGrk"  # @@@ check this accentuation
+    # - "ν|υ{athematic}>ύ<|ωμαι"
     - "|{nocontract}><|ωμαι;+Homer"
 PMS.2S:
     - "|>ῃ<η+σαι|"
     - "|ε>ῇ<η+σαι|"
     - "|α>ᾷ<η+σαι|"
     - "|ο>οῖ<η+σαι|"
+    - "|ω>ῷ<η+σαι|"
     - "|η>ῇ<η+σαι|"
-    - "|α{athematic}>ῇ<η+σαι|;-HGrk"  # @@@ check this accentuation
-    - "|α{athematic}>ῃ<η+σαι|;+HGrk"
-    - "|ο{athematic}>ῷ<η+σαι|"
-    - "|ε{athematic}>ῇ<η+σαι|"
-    - "ν|υ{athematic}>ύῃ<η+σαι|"
+    - "|ε>ῆ<|αι;+Homer"
+    - "|η>ῆ<|αι;+Homer"
+    - "|ω>ῶ<|αι;+Homer"
     - "|>η<|αι;+Homer"
-    - "|α{athematic}>ῆαι<η+σαι|;+Homer"
-    - "|ο{athematic}>ῶαι<η+σαι|;+Homer"
-    - "|ε{athematic}>ῆαι<η+σαι|;+Homer"
-    - "|ε>εηαι<η+σαι|;+Homer"
     - "|{nocontract}><|ηαι"
 PMS.3S:
     - "|><|ηται"
@@ -3058,23 +2923,15 @@ PMS.3S:
     - "|α>ᾶ<η|ται"
     - "|ο>ῶ<η|ται"
     - "|η>ῆ<η|ται"
-    - "|ε{athematic}>ῆ<η|ται"
-    - "|α{athematic}>ῆ<η|ται"  # check if needed outside of Pratt? stem alternation instead?
-    - "|ο{athematic}>ῶ<η|ται"
-    - "ν|υ{athematic}>ύ<|ηται"
+    - "|{athematic}><|ται"
     - "|{nocontract}><|ηται"
-    - "ει|><η|ται"
-    - "|ει>η<η|ται"
 PMS.2D:
     - "|>η<|σθον;+Homer"
-    - "|α{athematic}>ῆ<η|σθον;+Homer"
-    - "|ε{athematic}>ῆ<η|σθον;+Homer"
-    - "|ο{athematic}>ῶ<η|σθον;+Homer"
-    - "|{nocontract}><|ησθον"
-    - "|α>ᾶ<η|σθον"
-    - "|ο>ῶ<η|σθον"
+    - "|α>ᾶ<η|σθον;+Homer"
+    - "|ο>ῶ<η|σθον;+Homer"
+    - "|ε>ῆ<η|σθον;+Homer"
+    - "|η>ῆ<η|σθον;+Homer"
     - "|{nocontract}><|ησθον;+Homer"
-    - "|ε>ῆ<η|σθον"
 PMS.3D:
     ref: PMS.2D
 PMS.1P:
@@ -3083,21 +2940,11 @@ PMS.1P:
     - "|α>ω<ω|μεθα"
     - "|ο>ω<ω|μεθα"
     - "|η>ω<ω|μεθα"
-    - "|α{athematic}>ω<ω|μεθα"  # check if needed outside of Pratt
-    - "|ο{athematic}>ω<ω|μεθα"
-    - "|ε{athematic}>ω<ω|μεθα"
-    - "νυ|{athematic}>ω<ω|μεθα"
     - "|><|ωμεσθα;+Homer"
     - "|ε>ω<ω|μεσθα;+Homer"
     - "|α>ω<ω|μεσθα;+Homer"
     - "|ο>ω<ω|μεσθα;+Homer"
     - "|η>ω<ω|μεσθα;+Homer"
-    - "|α{athematic}>ω<ω|μεσθα;+Homer"  # check if needed outside of Pratt
-    - "|ο{athematic}>ω<ω|μεσθα;+Homer"
-    - "|ε{athematic}>ω<ω|μεσθα;+Homer"
-    - "νυ|{athematic}>ω<ω|μεσθα;+Homer"
-    # - "|ε{nocontract}>ε<|ωμεθα;+Homer"
-    # - "|ε{nocontract}>ε<|ωμεσθα;+Homer"
     - "|{nocontract}><|ωμεθα;+Homer"
     - "|{nocontract}><|ωμεσθα;+Homer"
 PMS.2P:
@@ -3106,11 +2953,11 @@ PMS.2P:
     - "|α>ᾶ<η|σθε"
     - "|ο>ῶ<η|σθε"
     - "|η>ῆ<η|σθε"
-    - "|α{athematic}>ῆ<η|σθε;-HGrk"  # @@@ check this accentuation
-    - "|α{athematic}>η<η|σθε;+HGrk"
-    - "|ο{athematic}>ῶ<η|σθε"
-    - "|ε{athematic}>ῆ<η|σθε"
-    - "ν|υ{athematic}>ύ<|ησθε"  # η suggests not athematic
+    # - "|α{athematic}>ῆ<η|σθε;-HGrk"  # @@@ check this accentuation
+    # - "|α{athematic}>η<η|σθε;+HGrk"
+    # - "|ο{athematic}>ῶ<η|σθε"
+    # - "|ε{athematic}>ῆ<η|σθε"
+    # - "ν|υ{athematic}>ύ<|ησθε"  # η suggests not athematic
     - "|{nocontract}><|ησθε;+Homer"
     #  - "|α{nocontract}><|ησθε"
 PMS.3P:
@@ -3119,11 +2966,11 @@ PMS.3P:
     - "|α>ῶ<ω|νται"
     - "|ο>ῶ<ω|νται"
     - "|η>ῶ<ω|νται"
-    - "|α{athematic}>ω<ω|νται;+HGrk"  # NT
-    - "|α{athematic}>ῶ<ω|νται"  # check if needed outside of Pratt
-    - "|ο{athematic}>ῶ<ω|νται"
-    - "|ε{athematic}>ῶ<ω|νται"
-    - "ν|υ{athematic}>ύ<|ωνται"
+    # - "|α{athematic}>ω<ω|νται;+HGrk"  # NT
+    # - "|α{athematic}>ῶ<ω|νται"  # check if needed outside of Pratt
+    # - "|ο{athematic}>ῶ<ω|νται"
+    # - "|ε{athematic}>ῶ<ω|νται"
+    # - "ν|υ{athematic}>ύ<|ωνται"
     - "|{nocontract}><|ωνται;+Homer"
     # - "|α{nocontract}>α<|ωνται;+Homer"
 

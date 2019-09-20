@@ -1430,7 +1430,7 @@
 ἀποδίδωμι:
     stems:
         2-: ἀποδωσ
-        3-: ἀποδο{athematic}
+        3-: ἀποδο{root}
         3+: ἀπεδωκ
 
 ἀποδοχμόω:
@@ -1768,7 +1768,7 @@
 
 ἀποτίθημι:
     stems:
-        3-: ἀποθ{2nd}/ἀποθε{root}/ἀποθε{athematic}
+        3-: ἀποθ{2nd}/ἀποθε{root}
 
 ἀποτίνω:
     stems:
@@ -1811,7 +1811,7 @@
 
 ἀποφθίνω:
     stems:
-        3-: ἀποφθι{athematic}
+        3-: ἀποφθι{root}
         3+: ἀπεφθι{root}
         5+: ἀπεφθι
         6+: ἀπεφθιθ
@@ -2934,18 +2934,21 @@
         1-: διδο{athematic}
         1+: ἐδιδο{athematic}
         2-: δωσ
-        3-: δο{athematic}
+        3-: δο{root}
         3+: δωκ/ἐδωκ/δο{root}/ἐδο{root}
         5-: δεδο
         6-: δοθ
     stem_overrides:
-        - ["A[AM]D.2P", "δο{root}"]  # temporary until 3- is updated
+        - ["PMS.2S", "διδω"]
+        - ["PMS.[13]S", "διδο"]
+        - ["PMS..[DP]", "διδο"]
     forms:
         AMI.2S: ["ἔδοεο", "ἔδου"]  # how to model ἔδοεο ? @@@
 
+
 διεῖπον:
     stems:
-        3-: διαειπε{athematic}
+        3-: διαειπε{root}
         3+: διειπ{2nd}
 
 διείργω:
@@ -3013,7 +3016,7 @@
 διίστημι:
     stems:
         1+: διιστα{athematic}
-        3-: διαστα{athematic}
+        3-: διαστα{root}
         3+: διεστα{root}/διαστη{root}/διεστη{root}
 
 δικάζω:
@@ -3578,7 +3581,7 @@
 
 ἐκδίδωμι:
     stems:
-        3-: ἐκδο{athematic}
+        3-: ἐκδο{root}
 
 ἐκδύω:
     stems:
@@ -3773,7 +3776,7 @@
 ἐκχέω:
     stems:
         1+: ἐκχε/ἐκχε{nocontract}
-        3-: ἐκχυ{athematic}
+        3-: ἐκχυ{root}
 
 ἐλαστρέω:
     stems:
@@ -4010,7 +4013,7 @@
     stems:
         1-: ἐνιε{athematic}
         2-: ἐνησ
-        3-: ἐνε{athematic}
+        3-: ἐνε{root}
         3+: ἐν|ηκ/ἐνεηκ
         4-: ἐνεικ
 
@@ -4081,7 +4084,7 @@
 ἐντίθημι:
     stems:
         2-: ἐνθησ
-        3-: ἐνθε{athematic}
+        3-: ἐνθε{root}
         3+: ἐνθε{root}
 
 ἐντρέπω:
@@ -4296,7 +4299,7 @@
 ἐξίημι:
     stems:
         1-: ἐξιε{athematic}
-        3-: ἐξε{athematic}
+        3-: ἐξε{root}
 
 ἐξιθύνω:
     stems:
@@ -4617,7 +4620,7 @@
 
 ἐπιδίδωμι:
     stems:
-        3-: ἐπιδο{athematic}
+        3-: ἐπιδο{root}
         3+: ἐπεδωκ
 
 ἐπιδινέω:
@@ -4862,7 +4865,7 @@
 
 ἐπιπροίημι:
     stems:
-        3-: ἐπιπροε{athematic}
+        3-: ἐπιπροε{root}
         3+: ἐπιπροεηκ
 
 ἐπιπταίρω:
@@ -4967,7 +4970,7 @@
 ἐπιτίθημι:
     stems:
         2-: ἐπιθησ
-        3-: ἐπιθε{athematic}
+        3-: ἐπιθε{root}
         3+: ἐπεθηκ
 
 ἐπιτλῆναι:
@@ -5440,7 +5443,7 @@
 ἐφίστημι:
     stems:
         1+: ἐφιστα{athematic}
-        3-: ἐπιστα{athematic}
+        3-: ἐπιστα{root}
         3+: ἐπεστη{root}
         4-: ἐφεστα
 
@@ -5584,8 +5587,23 @@
 
 ἧμαι:
     stems:
-        1-: ἡ
-        1+: ἡ
+        1-: ἡσ{athematic}
+        1+: ἡσ{athematic}
+    stem_overrides:
+        # some of this could be handled in the endings
+        - ["PMI.[12]S", "ἡ{athematic}"]
+        - ["IMI.[12]S", "ἡ{athematic}"]
+        - ["PMI.[23]D", "ἡ{athematic}"]
+        - ["IMI.[23]D", "ἡ{athematic}"]
+        - ["PMI.[12]P", "ἡ{athematic}"]
+        - ["IMI.[12]P", "ἡ{athematic}"]
+        - ["PMI.3P", "ἡ{athematic}/ἑ{athematic}"]
+        - ["IMI.3P", "ἡ{athematic}/ἑ{athematic}"]
+        - ["PMD.[23]S", "ἡ{athematic}"]
+        - ["PMD.[23]D", "ἡ{athematic}"]
+        - ["PMD.[23]P", "ἡ{athematic}"]
+        - ["PMN", "ἡ{athematic}"]
+        - ["PMP", "ἡ{athematic}"]
 
 ἠμύω:
     stems:
@@ -5900,11 +5918,11 @@
         1-: ἱε{athematic}
         1+: ἱε{athematic}
         2-: ἡσ
-        3-: ἑ{athematic}
+        3-: ἑ{root}
         3+: ἡκ/ἑηκ/ἑ{root}/εἱ{root}/ἑσ/εἰσ  # @@@
     stem_overrides:
         - ["FAI.3S", "ἥσ/ἕσ"]
-        - ["A[AM]D.2P", "ἑ{root}"]  # temporary until 3- is updated
+        - ["PMS", "ἱε"]
 
 ἰθύνω:
     stems:
@@ -6010,13 +6028,15 @@
         1-: ἱστα{athematic}  # @@@
         1+: ἱστα{athematic}
         2-: στησ
-        3-: στα{athematic}
+        3-: στη{root}
         3+: στησ/ἐστησ/στη{root}/στα{root}/ἐστη{root}/ἐστα{root}/στασκ  # @@@
         4-: ἑστα{athematic}
         4+: ἑστα{athematic}
         6+: ἐσταθ
     stem_overrides:
-        - ["A[AM]D.2P", "στη{root}"]  # temporary until 3- is updated
+        - ["PMS", "ἱστη"]
+        - ["A[AM][OP]", "στα{root}"]
+        - ["AAD.3P", "στα{root}"]
         - ["XAI..S", "ἑστηκ/ἑστα{athematic}"]
         - ["XAI.3P", "ἑστηκ/ἑστα{athematic}"]
         - ["XAS...", "ἑστηκ"]
@@ -6573,7 +6593,7 @@
 κατέρχομαι:
     stems:
         1-: κατερχ
-        3-: κατελθε{athematic}
+        3-: κατελθε{root}
         3+: κατ|ηλθ{2nd}/κατηλυθ{2nd}
 
 κατεσθίω:
@@ -6625,9 +6645,13 @@
 
 κεῖμαι:
     stems:
-        1-: κει
-        1+: ἐκει
+        1-: κει{athematic}
+        1+: ἐκει{athematic}
         2-: κεισ
+    stem_overrides:
+        - ["PMI.3P", "κε{nocontract}/κε{athematic}/κει{athematic}"]  # @@@
+        - ["PMS.3S", "κε/κει{athematic}"]
+        - ["IMI.3P", "ἐκε{athematic}/ἐκει{athematic}"]  # @@@
 
 κείρω:
     stems:
@@ -6700,7 +6724,7 @@
 κεράννυμι:
     stems:
         1-: κερα{athematic}/κερ{nocontract}/κερ  # @@@
-        3-: κερασσ/κερασσα{athematic}/κερασσα{root}  # @@@
+        3-: κερασσ/κερασσα{root}  # @@@
         3+: κερασσ/κεκρα  # @@@
 
 κεράω:
@@ -9102,7 +9126,7 @@
 
 περιτίθημι:
     stems:
-        3-: περιθε{athematic}
+        3-: περιθε{root}
 
 περιτρέφομαι:
     stems:
@@ -9507,7 +9531,7 @@
     stems:
         1-: προϊε
         1+: προϊε{athematic}
-        3-: προε{athematic}
+        3-: προε{root}
         3+: προ|ηκ/προεηκ/προε{root}
 
 προίστημι:
@@ -9622,7 +9646,7 @@
 
 προσδέχομαι:
     stems:
-        3-: ποτιδεγ{athematic}
+        3-: ποτιδεγ{root}
 
 προσειλέω:
     stems:
@@ -10366,7 +10390,7 @@
     stems:
         1-: ξυνιε  # @@@
         1+: ξυνιε{athematic}
-        3-: ξυνε{athematic}
+        3-: ξυνε{root}
         3+: ξυνεηκ
 
 συνίστημι:
@@ -10606,11 +10630,11 @@
         1-: τιθε{athematic}
         1+: ἐτιθε{athematic}
         2-: θησ
-        3-: θε{athematic}
+        3-: θε{root}
         3+: θηκ/ἐθηκ/θε{root}/ἐθε{root}
     stem_overrides:
-        - ['PAI.3P', "θε{athematic}/τιθε{athematic}"]
-        - ["A[AM]D.2P", "θε{root}"]  # temporary until 3- is updated
+        - ["PAI.3P", "θε{athematic}/τιθε{athematic}"]
+        - ["PMS", "τιθε"]
 
 τίκτω:
     stems:
@@ -11182,7 +11206,7 @@
 
 ὑφίημι:
     stems:
-        3-: ὑφε{athematic}
+        3-: ὑφε{root}
 
 ὑφίστημι:
     stems:

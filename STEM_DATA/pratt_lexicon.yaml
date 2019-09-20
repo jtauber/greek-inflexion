@@ -43,6 +43,7 @@
         - ["PAI.[123]S", "δεικνῡ{athematic}"]
         - ["IAI.[123]S", "ἐδεικνῡ{athematic}"]
         - ["PAD.2S", "δεικνυ{#}"]
+        - ["PMS", "δεικνυ"]
 
 δηλόω:
     stems:
@@ -55,7 +56,7 @@
         1-: διδο{athematic}
         1+: ἐδιδο{athematic}
         2-: δωσ
-        3-: δο{athematic}
+        3-: δο{root}
         3+: ἐδο{root}
         4-: δεδωκ
         5-: δεδο
@@ -63,8 +64,11 @@
         7-: δοθησ
     stem_overrides:
         - ["PAD.2S", "διδο"]
+        - ["PMS.2S", "διδω"]  # @@@
+        - ["PMS.[13]S", "διδο"]
+        - ["PMS..P", "διδο"]
         - ["AAI.[123]S", "ἐδωκ"]
-        - ["A[AM]D.2P", "δο{root}"]
+        - ["AAS", "δω{root}"]
 
 εἰμί:
     stems:
@@ -111,7 +115,7 @@
         1-: ἱε{athematic}
         1+: ἱε{athematic}
         2-: ἡσ
-        3-: ἑ{athematic}
+        3-: ἑ{root}
         3+: εἱ{root}
         4-: εἱκ
         5-: εἱ
@@ -120,9 +124,9 @@
     stem_overrides:
         - ["PAI.3P", "ἱα{athematic}"]
         - ["PAD.2S", "ἱε"]
+        - ["PMS", "ἱε"]
         - ["IAI.1S", "ἱε{root}"]
         - ["AAI..S", "ἡκ"]
-        - ["A[AM]D.2P", "ἑ{root}"]  # temporary until 3- is updated
     forms:
         AMI.2S: εἷσο  # no contraction @@@
 
@@ -131,7 +135,7 @@
         1-: ἱστα{athematic}  # @@@ do long grade in stemming or here?
         1+: ἱστα{athematic}  # long iota @@@ do long grade in stemming or here?
         2-: στησ
-        3-: στησ;-intrans/στα{athematic};-trans
+        3-: στησ;-intrans/στη{root};-trans
         3+: ἐστησ;-intrans/ἐστη{root};-trans
         4-: ἑστα{athematic}
         4+: εἱστηκ
@@ -141,8 +145,10 @@
     stem_overrides:
         - ["XAI..S", "ἑστηκ"]
         - ["PAD.2S", "ἱστη"]
-        - ["PMS.3P", "ἱστα"]
-        - ["A[AM]D.2P", "στησ;-intrans/στη{root};-trans"]  # temporary until 3- is updated
+        - ["PMS", "ἱστη"]
+        # - ["PMS.3P", "ἱστα"]
+        - ["A[AM][OP]", "στησ;-intrans/στα{root};-trans"]
+        - ["AAD.3P", "στησ;-intrans/στα{root};-trans"]
     forms:
         XAP.NSN: ἑστός
         XAP.NSF: ἑστῶσα
@@ -197,7 +203,7 @@
         1-: τιθε{athematic}
         1+: ἐτιθε{athematic}
         2-: θησ
-        3-: θε{athematic}
+        3-: θε{root}
         3+: ἐθε{root}
         4-: τεθηκ
         5-: τεθει  # had τεθη for Pratt although principal parts suggest τεθει
@@ -206,6 +212,7 @@
     stem_overrides:
         # - ["IAI.1S", "ἐτιθε{root}"]  # Pratt had this
         - ["PAD.2S", "τιθε"]
+        - ["PMS", "τιθε"]
         - ["AAI.[123]S", "ἐθηκ"]
         - ["A[AM]D.2P", "θε{root}"]
 
