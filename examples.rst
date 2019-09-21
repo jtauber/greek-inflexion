@@ -10,7 +10,8 @@ Now, you can generate forms
 
 >>> pprint.pprint(inflexion.generate('λύω', 'AAI.1S'))
 defaultdict(<class 'list'>,
-            {'ἔλυσα': [{'original_form': 'ελυσα',
+            {'ἔλυσα': [{'accent_notes': 'recessive (default)',
+                        'original_form': 'ελυσα',
                         'stem': 'ελυσ',
                         'stemming': {'base': 'ελυσ',
                                      'ending': 'α',

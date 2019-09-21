@@ -19,7 +19,9 @@ class FileFormatTest(unittest.TestCase):
         self.assertEqual(s.key_to_rules["foo"][1].tags, {"baz"})
 
     def test_lexicon(self):
-        lexicon, form_override, accent_override = load_lexicon(
+        (
+            lexicon, form_override, accent_override, segmented_lemmas
+        ) = load_lexicon(
             "test_files/lexicon_test.yaml")
         self.assertEqual(form_override[("lemma2", "PAI.3S")], "blah")
         self.assertEqual(accent_override["lemma2"], [('PAI', 'blah')])

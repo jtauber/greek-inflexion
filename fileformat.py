@@ -87,12 +87,17 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
 
     form_override = {}
     accent_override = defaultdict(list)
+    segmented_lemmas = {}
 
     with open(lexicon_file) as f:
 
         for lemma, entry in yaml.safe_load(f).items():
-
             if entry:
+                if "-" in lemma:
+                    segmented_lemma = lemma
+                    lemma = lemma.replace("-", "")
+                    segmented_lemmas[lemma] = segmented_lemma
+
                 if "stems" in entry:
 
                     stems = []
@@ -122,4 +127,4 @@ def load_lexicon(lexicon_file, pre_processor=lambda x: x):
                 for key_regex, form in entry.get("accents", []):
                     accent_override[lemma].append((key_regex, form))
 
-    return lexicon, form_override, accent_override
+    return lexicon, form_override, accent_override, segmented_lemmas

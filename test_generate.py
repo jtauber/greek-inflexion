@@ -23,13 +23,15 @@ def output_detail(detail):
 
     if "original_form" in detail:
         print("            original_form: {}".format(detail["original_form"]))
+    if "accent_notes" in detail:
+        print("            accent_notes: {}".format(detail["accent_notes"]))
 
     if "override" in detail:
         print("            override: {}".format(detail["override"]))
 
 
 def output_item(
-        lemma, key, part, form, line, stem,
+        lemma, segmented_lemma, key, part, form, line, stem,
         possible_stems, likely_stems, possible_parses, generated, correct):
     print()
     print("-")
@@ -41,6 +43,8 @@ def output_item(
     ))
     print()
     print("    lemma: {}".format(lemma))
+    if segmented_lemma:
+        print("    segmented_lemma: {}".format(segmented_lemma))
     print("    key: {}".format(key))
     print("    part: {}".format(part))
     if line:
@@ -101,6 +105,7 @@ def test_generate(
             if global_tags:
                 tags.update(global_tags)
 
+            segmented_lemma = ginflexion.segmented_lemmas.get(lemma)
             for key, form in sorted(test.items()):
                 stem = ginflexion.find_stems(lemma, key, tags)
                 generated = ginflexion.generate(lemma, key, tags)
@@ -119,5 +124,5 @@ def test_generate(
                     correct = "✕"
                 if debug or correct == "✕":
                     output_item(
-                        lemma, key, None, form, None, stem,
+                        lemma, segmented_lemma, key, None, form, None, stem,
                         stem_guess, None, None, generated, correct)

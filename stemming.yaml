@@ -491,6 +491,7 @@ AAS.2P:
 AAS.3P:
     - "|><|ωσι(ν);-no-final-nu-aas.3p"
     - "|><|ωσιν;+Homer"
+    - "|><|ουσιν;+Homer"  # Logeion has this as NCA
     - "|><|ωσι;+no-final-nu-aas.3p"
     - "|{2nd}><|ωσι(ν);-no-final-nu-aas.3p"
     - "|{2nd}><|ωσι;+no-final-nu-aas.3p"

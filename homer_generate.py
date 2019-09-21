@@ -22,7 +22,7 @@ ginflexion = GreekInflexion(
 first = True
 
 FILENAME = "homer-data/verbs.tsv"
-PART = ["3+"]
+PART = ["3+", "3-"]
 
 with open(FILENAME) as f:
     for row in f:
@@ -60,6 +60,7 @@ with open(FILENAME) as f:
         c = form.count("/") + 1
         stem = ginflexion.find_stems(lemma, key, tags)
         generated = ginflexion.generate(lemma, key, tags)
+        segmented_lemma = ginflexion.segmented_lemmas.get(lemma)
         if strip_length(form) in [
                 strip_length(w) for w in sorted(generated)]:
             correct = "✓"
@@ -88,7 +89,7 @@ with open(FILENAME) as f:
         if debug or correct == "✕":
             if first:
                 output_item(
-                    lemma, key, key_to_part(key), form, None,
+                    lemma, segmented_lemma, key, key_to_part(key), form, None,
                     stem, possible_stems, likely_stems, possible_parses,
                     generated, correct)
             # if len(likely_stems) == 1:

@@ -15,12 +15,15 @@ class GreekInflexion:
         self.ruleset = load_stemming(stemming_file, strip_length)
 
         if lexicon_file:
-            self.lexicon, self.form_override, self.accent_override = \
-                load_lexicon(lexicon_file, pre_processor=debreath)
+            (
+                self.lexicon, self.form_override, self.accent_override,
+                self.segmented_lemmas
+            ) = load_lexicon(lexicon_file, pre_processor=debreath)
         else:
             self.lexicon = Lexicon()
             self.form_override = {}
             self.accent_override = defaultdict(list)
+            self.segmented_lemmas = {}
 
         self.inflexion = Inflexion()
         self.inflexion.add_lexicon(self.lexicon)
@@ -43,10 +46,12 @@ class GreekInflexion:
         for orig_form, details in self.inflexion.generate(
                 lemma, key, tags).items():
             for detail in details:
-                accent_form = calculate_accent(
-                    orig_form, key, lemma, detail["stem"],
+                segmented_lemma = self.segmented_lemmas.get(lemma)
+                accent_form, accent_notes = calculate_accent(
+                    orig_form, key, lemma, segmented_lemma, detail["stem"],
                     self.inflexion, self.accent_override)
                 detail.update({"original_form": orig_form})
+                detail.update({"accent_notes": accent_notes})
                 generated[accent_form].append(detail)
         return generated
 
