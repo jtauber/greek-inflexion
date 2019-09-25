@@ -226,8 +226,7 @@ AAP.VSN:
 AAP.NDM:
     - "|>α<|ντε;+Homer"
     - "|{2nd}>ο<|ντε;+Homer"
-    - "|υ{root}>ύ<|ντε;+Homer"
-    - "|ο{root}>ο<|ντε;+Homer"
+    - "|{root}><|ντε;+Homer"
 AAP.ADM:
     ref: AAP.NDM
 AAP.VDM:
@@ -420,8 +419,10 @@ AAS.2S:
 
 AAS.3S:
     - "|><|ῃ"
+    - "|><|ει;+Homer"  # @@@
+    - "|><|ῃσι;+Homer"
+    - "|><|ῃσιν;+Homer"
     - "|{2nd}><|ῃ"
-
     - "|{2nd}><|ῃσι;+Homer"
     - "|{2nd}><|ῃσιν;+Homer"
     # - "|ο{athematic}>ῷ<ῃ|"
@@ -434,13 +435,12 @@ AAS.3S:
     # - "|α{athematic}>ῇ<ῃ|"
     - "|α{root}>ῇ<ῃ|"  # @@@
     - "|η{root}>ῇ<ῃ|"  # @@@
-    - "|><|ῃσι;+Homer"
-    - "|><|ει;+Homer"  # @@@
     - "|η{root}>ῇ<ῃ|σι;+Homer"
     # - "|ε{athematic}>ῃ<η|;+Homer"
     - "|ε{root}>ῃ<η|σι;+Homer"
     - "|ο{root}>ῳ<η|;+Homer"  # @@@
     - "|ο{root}>ῳ<η|σι;+Homer"
+    - "|ο{root}>ῷ<η|σιν;+Homer"
     - "|ω{root}>ώ<|ῃ;+Homer"
 
     # restored for MorphGNT
@@ -496,15 +496,17 @@ AAS.3P:
     - "|{2nd}><|ωσι(ν);-no-final-nu-aas.3p"
     - "|{2nd}><|ωσι;+no-final-nu-aas.3p"
     - "|ω{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
-    - "|ε{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
-    - "|ο{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
-    - "|α{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
-    - "|η{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|ω{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|ε{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|ε{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|ο{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|ο{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|α{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|α{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|α{root}>ῶ<|σιν;+Homer"
+    - "|η{root}>ῶ<ω|σι;+no-final-nu-aas.3p"
     - "|η{root}>ῶ<ω|σι(ν);-no-final-nu-aas.3p"
+    - "|η{root}>ῶ<|σιν;+Homer"
     - "υ|{root}><|ωσι(ν);-no-final-nu-aas.3p"
     # - "|α{athematic}>ῶ<ω|σι;+Homer"
     # - "|ε{athematic}>ῶ<ω|σι;+Homer"
@@ -601,7 +603,8 @@ AMN:
 AMO.1S:
     - "|>αι<αι|μην"
     - "|{2nd}>οι<οι|μην"
-    - "|{root}>ι<|μην"
+    - "[^ι]|{root}>ι<ι|μην"
+    - "|ι{root}>ι<ι|μην"
 AMO.2S:
     - "|><|αιο"  # αισο
     - "|{2nd}><|οιο"  # οισο
@@ -657,6 +660,8 @@ AMP.VSN:
     ref: AMP.NSN
 AMP.NDM:
     - "|>α<α|μένω;+Homer"
+    - "|{2nd}>ο<T_1|μένω;+Homer"
+    - "|{root}><|μένω;+Homer"
 AMP.NPM:
     - "|>ά<α|μενοι"
     - "|{2nd}>ό<T_1|μενοι"
@@ -675,8 +680,11 @@ AMP.VPN:
     ref: AMP.NPN
 AMP.GSM:
     - "|>α<α|μένου"
+    - "|>α<α|μένοιο;+Homer"
     - "|{2nd}>ο<T_1|μένου"
+    - "|{2nd}>ο<T_1|μένοιο;+Homer"
     - "|{root}><|μένου"
+    - "|{root}><|μένοιο;+Homer"
 AMP.GSF:
     - "|>α<α|μένης"
     - "|{2nd}>ο<T_1|μένης"
@@ -724,6 +732,8 @@ AMP.ASF:
     - "|{root}><|μένην"
 AMP.ASN:
     ref: AMP.ASM
+AMP.ADM:
+    ref: AMP.NDM
 AMP.APM:
     - "|>α<α|μένους"
     - "|{2nd}>ο<T_1|μένους"
@@ -739,6 +749,7 @@ AMP.APN:
 
 AMS.1S:
     - "|><|ωμαι"
+    - "|><|ομαι;+Homer"  # short vowel subjunctive
     - "|{2nd}><|ωμαι"
     - "|ε{root}>ῶ<ω|μαι"
     - "|ο{root}>ῶ<ω|μαι"

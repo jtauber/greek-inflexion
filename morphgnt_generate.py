@@ -75,6 +75,7 @@ for book_num in args.books:
             c = form.count("/") + 1
             stem = ginflexion.find_stems(lemma, key, tags)
             generated = ginflexion.generate(lemma, key, tags)
+            segmented_lemma = ginflexion.segmented_lemmas.get(lemma)
 
             if strip_length(form) in [
                     strip_length(w) for w in sorted(generated)]:
@@ -96,7 +97,7 @@ for book_num in args.books:
 
             if debug or correct == "✕":
                 output_item(
-                    lemma, key, key_to_part(key), form, None,
+                    lemma, segmented_lemma, key, key_to_part(key), form, None,
                     stem, possible_stems, likely_stems, possible_parses,
                     generated, correct)
 

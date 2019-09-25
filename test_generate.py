@@ -38,9 +38,9 @@ def output_item(
     print("    form: {}".format(form))
     print("    correct: \"{}/{} {}\"".format(
         len(generated), form.count("/") + 1, correct))
-    print("    generated: {}".format(
-        "/".join(generated_form for generated_form, _ in generated.items())
-    ))
+    print("    generated:")
+    for generated_form in generated.keys():
+        print(f"        - {generated_form}")
     print()
     print("    lemma: {}".format(lemma))
     if segmented_lemma:

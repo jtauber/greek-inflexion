@@ -402,7 +402,7 @@
 αἱρέω	AMO.3P	ἑλοίατο
 αἱρέω	AMO.3S	ἕλοιτο
 αἱρέω	AMS.1S	ἕλωμαι
-αἱρέω	AMS.2S	αἱρήσεαι  # considered AMS.2S not FMI.2S??
+αἱρέω	AMS.2S	αἱρήσεαι
 αἱρέω	AMS.3P	ἕλωνται
 αἱρέω	AMS.3S	ἕληται
 αἱρέω	FAI.1P	αἱρήσομεν
@@ -440,10 +440,10 @@
 ἀίσσω	AAI.3S	ἤϊξε
 ἀίσσω	AAI.3S	ἤϊξεν
 ἀίσσω	AAP.ASM	ἀΐξαντα
-# ἀίσσω	AAP.NDM	ἀίξαντε  # missing diaerisis?
+# ἀίσσω	AAP.NDM	ἀίξαντε  # missing diaeresis?
 ἀίσσω	AAP.NDM	ἀΐξαντε
 ἀίσσω	AAP.NPF	ἀΐξασαι
-# ἀίσσω	AAP.NSF	ἀίξασα  # missing diaerisis?
+# ἀίσσω	AAP.NSF	ἀίξασα  # missing diaeresis?
 ἀίσσω	AAP.NSF	ἀΐξασα
 ἀίσσω	AAP.NSM	ἀΐξας
 ἀίσσω	AAS.3P	ἀΐξωσι
@@ -1167,10 +1167,10 @@
 ἀνέχω	AAN	ἀνασχεῖν
 ἀνέχω	AAN	ἀνασχέμεν
 ἀνέχω	AAN	ἀνσχεθέειν
-ἀνέχω	AAP.NPM	ἀνίσχοντες
+# ἀνέχω	AAP.NPM	ἀνίσχοντες  # this is PAP.NPM
 ἀνέχω	AAP.NSM	ἀνασχών
-ἀνέχω	AMD.2S	ἀνάσχεο
-ἀνέχω	AMD.2S	ἄνσχεο
+# ἀνέχω	AMD.2S	ἀνάσχεο  # accentuation seems weird
+# ἀνέχω	AMD.2S	ἄνσχεο  # accentuation seems weird
 ἀνέχω	AMI.2S	ἄνσχεο
 ἀνέχω	AMI.3S	ἀνέσχετο
 ἀνέχω	AMN	ἀνασχέσθαι
@@ -1343,7 +1343,7 @@
 ἄνωγα	YAI.3S	ἠνώγει
 ἄνωγα	YAI.3S	ἠνώγειν
 ἀνώγω	YAI.3S	ἠνώγειν
-ἀνωθέω	AAP.NPM	ἀνώσαντες
+# ἀνωθέω	AAP.NPM	ἀνώσαντες  # why is this not accented ἀνωσάντες? @@@
 ἀοιδιάω	PAI.3S	ἀοιδιάει
 ἀολλίζω	AAI.3P	ἀόλλισσαν
 ἀολλίζω	AAP.NSF	ἀολλίσσασα
@@ -1463,10 +1463,10 @@
 ἀπερωέω	AAO.2S	ἀπερωήσειας
 ἀπεχθαίρω	AAS.1S	ἀπεχθήρω
 ἀπεχθαίρω	PAI.3S	ἀπεχθαίρει
-# ἀπεχθάνομαι	AAI.3S	ἀπήχθετο  # not AAI.3S
-ἀπεχθάνομαι	AAP.DPM	ἀπεχθομένοισι
-ἀπεχθάνομαι	AAP.NSM	ἀπεχθόμενος
-ἀπεχθάνομαι	AAS.2S	ἀπέχθηαι
+# ἀπεχθάνομαι	AAI.3S	ἀπήχθετο  # not AAI
+# ἀπεχθάνομαι	AAP.DPM	ἀπεχθομένοισι  # not AAP
+# ἀπεχθάνομαι	AAP.NSM	ἀπεχθόμενος  # not AAP
+# ἀπεχθάνομαι	AAS.2S	ἀπέχθηαι  # not AAS?
 ἀπεχθάνομαι	AMI.3S	ἀπήχθετο
 ἀπεχθάνομαι	AMN	ἀπεχθέσθαι
 ἀπεχθάνομαι	IMI.3S	ἀπήχθετο
@@ -1730,7 +1730,7 @@
 ἀποτέμνω	IAI.3S	ἀπέταμνε
 ἀποτέμνω	PMP.ASM	ἀποταμνόμενον
 ἀποτίθημι	AMN	ἀποθέσθαι
-ἀποτίθημι	AMS.1S	ἀποθείομαι
+# ἀποτίθημι	AMS.1S	ἀποθείομαι  # not sure how to think about this @@@
 ἀποτίνω	AAI.3P	ἀπέτισαν
 ἀποτίνω	AAI.3S	ἀπέτισεν
 ἀποτίνω	AAN	ἀποτῖσαι
@@ -1834,7 +1834,7 @@
 ἀραρίσκω	AAI.3S	ἄρσε
 ἀραρίσκω	AAI.3S	ἤραρε
 ἀραρίσκω	AAI.3S	ἤραρεν
-ἀραρίσκω	AAP.NDM	ἀραρόντε
+# ἀραρίσκω	AAP.NDM	ἀραρόντε  # @@@ until we can handle multiple accent overrides
 ἀραρίσκω	AAP.NPM	ἄρσαντες
 ἀραρίσκω	AAP.NSM	ἀραρών
 ἀραρίσκω	AAP.NSM	ἄρσας
@@ -2047,7 +2047,7 @@
 αὔω	AAI.3S	ἄϋσεν
 αὔω	AAI.3S	ἤϋσε
 αὔω	AAI.3S	ἤϋσεν
-αὔω	AAN	ἀῦσαι
+# αὔω	AAN	ἀῦσαι  # missing diaeresis
 αὔω	AAP.GPM	ἀϋσάντων
 αὔω	AAP.NPM	ἀΰσαντες
 αὔω	AAP.NSM	ἀΰσας

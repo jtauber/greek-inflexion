@@ -55,6 +55,7 @@ with open(FILENAME) as f:
         c = form.count("/") + 1
         stem = ginflexion.find_stems(lemma, key, tags)
         generated = ginflexion.generate(lemma, key, tags)
+        segmented_lemma = ginflexion.segmented_lemmas.get(lemma)
         if strip_length(form) in [
                 strip_length(w) for w in sorted(generated)]:
             correct = "✓"
@@ -83,16 +84,14 @@ with open(FILENAME) as f:
         if debug or correct == "✕":
             if first:
                 output_item(
-                    lemma, key, key_to_part(key), form, None,
+                    lemma, segmented_lemma, key, key_to_part(key), form, None,
                     stem, possible_stems, likely_stems, possible_parses,
                     generated, correct)
             # if len(likely_stems) == 1:
             #     print(lemma, likely_stems[0][0], likely_stems[0][1])
             first = False
 
-print()
-print("{}/{} incorrect".format(incorrect_count, total_count))
-print(len(summary_by_lemma))
+print("{}/{} incorrect ({} lemmas)".format(incorrect_count, total_count, len(summary_by_lemma)))
 
 if incorrect_count > 0:
     sys.exit(1)

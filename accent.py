@@ -9,7 +9,7 @@ from greek_accentuation.accentuation import (
 
 
 def clean(w):
-    return rebreath(w).replace("|", "")
+    return rebreath(w).replace("|", "").replace("-", "")
 
 
 def calculate_accent(w, parse, lemma, segmented_lemma, stem, inflexion,
