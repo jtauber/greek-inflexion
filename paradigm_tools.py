@@ -8,6 +8,7 @@ except ImportError:
 
 inflexion = GreekInflexion('stemming.yaml', 'STEM_DATA/pratt_lexicon.yaml')
 
+
 def rotate_lists(xs):
     len_x0 = len(xs[0])
     for x in xs:
@@ -17,10 +18,12 @@ def rotate_lists(xs):
         out.append([x[i] for x in xs])
     return out
 
+
 def load_labels(fpath, lang):
     with open(fpath, 'r', encoding="UTF-8") as f:
         labels = load(f, Loader=Loader)
         return labels[lang]
+
 
 def layout_merged_imp_paradigm_md(verbs, TVMs, labels):
     verbs = [[f' {y} ' for y in xs] for xs in verbs]
@@ -36,6 +39,7 @@ def layout_merged_imp_paradigm_md(verbs, TVMs, labels):
     tcontent += "\n".join(['|' + "|".join(x) + '|' for x in r_verbs])
     print(tcontent)
     print()
+
 
 def layout_non_merged_imp_paradigm_md(verbs, tvm, labels):
     row_labels = [f' {labels[x]} ' for x in ['2nd', '3rd']] * 2
@@ -67,6 +71,7 @@ def layout_merged_verb_paradigm_md(verbs, TVMs, labels):
     print(tcontent)
     print()
 
+
 def layout_non_merged_verb_paradigm_md(verbs, tvm, labels):
     row_labels = [f' {labels[x]} ' for x in ['1st', '2nd', '3rd']] * 2
     v = [f' {y} ' for y in verbs]
@@ -81,6 +86,7 @@ def layout_non_merged_verb_paradigm_md(verbs, tvm, labels):
     print(tcontent)
     print()
 
+
 def layout_merged_inf_paradigm_md(forms, labels):
     print("| | " + labels["inf"] + " |")
     print("|:---|:---|")
@@ -88,11 +94,13 @@ def layout_merged_inf_paradigm_md(forms, labels):
         print(f'| {labels[tvm] if tvm in labels else labels["unknown"]} | {form[0]} |')
     print()
 
+
 def layout_non_merged_inf_paradigm_md(form, tvm, labels):
     print("| | " + labels["inf"] + " |")
     print("|:---|:---|")
     print(f'| {labels[tvm] if tvm in labels else labels["unknown"]} | {form[0]} |')
     print()
+
 
 def layout_participle_summary_paradigm_md(forms, label, labels):
     forms = [f' {x} ' for x in forms]
@@ -115,6 +123,7 @@ def layout_participle_summary_paradigm_md(forms, label, labels):
     tcontent += "\n".join([f'| {"|".join(x)} |' for x in rows])
     print(tcontent)
     print()
+
 
 def conjugate_md(lemma, *TVMs, tags=None, labels="labels.yaml", lang="el", merge_paradigms=True):
     labels = load_labels(labels, lang)
@@ -167,6 +176,7 @@ def layout_merged_imp_paradigm_html(verbs, TVMs, labels):
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
 
+
 def layout_non_merged_imp_paradigm_html(verbs, tvm, labels):
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['2nd', '3rd']] * 2
     v = [f'<td class="para-item">{y}</td>' for y in verbs]
@@ -182,6 +192,7 @@ def layout_non_merged_imp_paradigm_html(verbs, tvm, labels):
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
 
+
 def layout_merged_inf_paradigm_html(verbs, labels):
     header = [f'<td class="para-header-cell"></td>',
              f'<td class="para-header-cell">{labels["inf"]}</td>']
@@ -192,6 +203,7 @@ def layout_merged_inf_paradigm_html(verbs, labels):
     print("<link href=\"./paradigm.css\" rel=\"stylesheet\">")
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
+
 
 def layout_non_merged_inf_paradigm_html(verbs, tvm, labels):
     header = [f'<td class="para-header-cell"></td>',
@@ -226,6 +238,7 @@ def layout_participle_summary_paradigm_html(forms, label, labels):
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
 
+
 def layout_merged_verb_paradigm_html(verbs, TVMs, labels):
     verbs = [[f'<td class="para-item">{y}</td>' for y in xs] for xs in verbs]
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['1st', '2nd', '3rd']] * 2
@@ -242,6 +255,7 @@ def layout_merged_verb_paradigm_html(verbs, TVMs, labels):
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
 
+
 def layout_non_merged_verb_paradigm_html(verbs, tvm, labels):
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['1st', '2nd', '3rd']] * 2
     v = [f'<td class="para-item">{y}</td>' for y in verbs]
@@ -256,6 +270,7 @@ def layout_non_merged_verb_paradigm_html(verbs, tvm, labels):
     print("<link href=\"./paradigm.css\" rel=\"stylesheet\">")
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
+
 
 def conjugate_html(lemma, *TVMs, tags=None, labels="labels.yaml", lang="el", merge_paradigms=True):
     labels = load_labels(labels, lang)
@@ -291,6 +306,7 @@ def conjugate_html(lemma, *TVMs, tags=None, labels="labels.yaml", lang="el", mer
         for label, v in parts:
             layout_participle_summary_paradigm_html(v, label, labels)
 
+
 def layout_nouny_paradigm_md(forms, labels):
     forms = [[f" {y} " for y in x] for x in forms]
     header = [f' {labels["number"]} ',
@@ -313,10 +329,12 @@ def layout_nouny_paradigm_md(forms, labels):
     print(tcontent)
     print()
 
+
 def decline_md(lemma, TVM, tags=None, labels="labels.yaml", lang="el"):
     labels = load_labels(labels, lang)
     forms = [list(x.values()) for x in inflexion.decline_core(lemma, TVM, tags=tags)]
     layout_nouny_paradigm_md(forms, labels)
+
 
 def layout_nouny_paradigm_html(forms, labels):
     forms = [[f'<td class="para-item">{y}</td>' for y in x] for x in forms]
@@ -339,6 +357,7 @@ def layout_nouny_paradigm_html(forms, labels):
     print("<link href=\"./paradigm.css\" rel=\"stylesheet\">")
     print(f'<table class="verb-paradigm">\n{tcontent}\n</table>')
     print()
+
 
 def decline_html(lemma, TVM, tags=None, labels="labels.yaml", lang="el"):
     labels = load_labels(labels, lang)
