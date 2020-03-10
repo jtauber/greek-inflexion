@@ -1,7 +1,7 @@
 .para-header-row { }
-.para-header-cell {margin-bottom:3em; border-bottom: solid 0.125em black;}
+.para-header-cell {margin-bottom:3em; border-bottom: solid 0.125em black; word-wrap: normal; max-width: 92px;}
 
-.para-row-label {margin-right:1.25em;}
+.para-row-label {padding-right:1.25em; word-wrap: normal; max-width: 94px;}
 
 table {
     border-collapse: collapse;

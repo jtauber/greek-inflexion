@@ -16,7 +16,7 @@ labels = pu.load_labels("labels.yaml", "el")
 #pu.decline_md("λύω", "PAP")
 
 #pu.conjugate_html("λύω", "PAD", "AAD", tags={"final-nu-aai.3s"}, merge_paradigms=False)
-pu.conjugate_html("λύω", "PAN", "AAN", tags={"final-nu-aai.3s"})
+pu.conjugate_html("λύω", "PAI", "AAI", tags={"final-nu-aai.3s"})
 
 
 exit()
