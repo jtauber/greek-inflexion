@@ -1,0 +1,13 @@
+.para-header-row { }
+.para-header-cell {margin-bottom:3em; border-bottom: solid 0.125em black;}
+
+.para-row-label {margin-right:1.25em;}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+  font-size: 1.25em;
+  padding:0.25em;
+}

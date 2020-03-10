@@ -1,0 +1,58 @@
+en:
+  PL: plural
+  SG: singular
+  pres: present
+  act: active
+  mid: middle
+  pass: passive
+  1st: 1st
+  2nd: 2nd
+  3rd: 3rd
+  case: case
+  masc: M
+  fem: F
+  neut: N
+  nom: nom
+  gen: gen
+  dat: dat
+  acc: acc
+  voc: voc
+  person: person
+  number: number
+  unknown: '' #allows columns to be blank if '' else uses whatever lebel you assign for them
+  AAI: Aorist Active Indicative
+  PAI: Present Active Indicative
+  XAI: perfect active indicative
+  IAI: Imperfect Active Indicative
+  FAI: Future Active Indicative
+  PMI: Present Middle Indicative
+el:
+  PL: πληθυντικόν
+  SG: ἑνικόν
+  act: ἐνεργητικόν
+  mid: μέσον
+  pass: παθητικόν
+  person: πρώσοπον
+  1st: πρῶτον
+  2nd: δευτέρον
+  3rd: τρίτον
+  number: ἀριθμός
+  masc: ἀρσενικόν
+  fem: θηλυκόν
+  neut: οὐδέτερον
+  case: πτῶσις
+  nom: ὀνομαστική
+  gen: γενική
+  dat: δοτική
+  acc: αἰτιατική
+  voc: κλητική
+  inf: ἀπαρέμφατος
+  unknown: '' #allows columns to be blank if '' else uses whatever lebel you assign for them
+  AAI: ἀόριστος ἐνεργητικόν ὁριστική
+  PAI: ἐνεστώς ἐνεργητικόν ὁριστική
+  XAI: παρακείμενος ἐνεργητικόν ὁριστική
+  IAI: παρατατικός ἐνεργητικόν ὁριστική
+  FAI: μέλλων ἐνεργητικόν ὁριστική
+  PMI: ἐνεστώς μέσον ὁριστική
+  PAN: ἐνεστώς ἐνεργητικόν
+  AAN: ἀόριστος ἐνεργητικόν
