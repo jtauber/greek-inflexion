@@ -14,7 +14,7 @@ def rotate_lists(xs):
     for x in xs:
         assert len(x) == len_x0
     out = []
-    for i in range(0,len(xs[0])):
+    for i in range(0, len(xs[0])):
         out.append([x[i] for x in xs])
     return out
 
@@ -28,9 +28,9 @@ def load_labels(fpath, lang):
 def layout_merged_imp_paradigm_md(verbs, TVMs, labels):
     verbs = [[f' {y} ' for y in xs] for xs in verbs]
     row_labels = [f' {labels[x]} ' for x in ['2nd', '3rd']] * 2
-    verbs.insert(0,row_labels)
-    sgpl = [f' {labels["SG"]} ', ' ', f' {labels["PL"]} ' , ' ']
-    verbs.insert(0,sgpl)
+    verbs.insert(0, row_labels)
+    sgpl = [f' {labels["SG"]} ', ' ', f' {labels["PL"]} ', ' ']
+    verbs.insert(0, sgpl)
     header = [f' {labels["number"]} ', f' {labels["person"]} ']
     header.extend([f' {labels[x]} ' if x in labels else f' {labels["unknown"]} ' for x in TVMs])
     r_verbs = rotate_lists(verbs)
@@ -45,8 +45,8 @@ def layout_non_merged_imp_paradigm_md(verbs, tvm, labels):
     row_labels = [f' {labels[x]} ' for x in ['2nd', '3rd']] * 2
     v = [f' {y} ' for y in verbs]
     header = [f' {labels["number"]} ',
-             f' {labels["person"]} ',
-             f' {labels[tvm] if tvm in labels else labels["unknown"]} ']
+              f' {labels["person"]} ',
+              f' {labels[tvm] if tvm in labels else labels["unknown"]} ']
     numbers = [f' {labels["SG"]} ', ' ', f' {labels["PL"]} ', ' ']
     r_verbs = rotate_lists([numbers, row_labels, v])
     tcontent = "|" + "|".join(header) + "|\n"
@@ -59,9 +59,9 @@ def layout_non_merged_imp_paradigm_md(verbs, tvm, labels):
 def layout_merged_verb_paradigm_md(verbs, TVMs, labels):
     verbs = [[f' {y} ' for y in xs] for xs in verbs]
     row_labels = [f' {labels[x]} ' for x in ['1st', '2nd', '3rd']] * 2
-    verbs.insert(0,row_labels)
-    sgpl = [f' {labels["SG"]} ', ' ', ' ', f' {labels["PL"]} ' , ' ' , ' ']
-    verbs.insert(0,sgpl)
+    verbs.insert(0, row_labels)
+    sgpl = [f' {labels["SG"]} ', ' ', ' ', f' {labels["PL"]} ', ' ', ' ']
+    verbs.insert(0, sgpl)
     header = [f' {labels["number"]} ', f' {labels["person"]} ']
     header.extend([f' {labels[x]} ' if x in labels else f' {labels["unknown"]} ' for x in TVMs])
     r_verbs = rotate_lists(verbs)
@@ -76,9 +76,9 @@ def layout_non_merged_verb_paradigm_md(verbs, tvm, labels):
     row_labels = [f' {labels[x]} ' for x in ['1st', '2nd', '3rd']] * 2
     v = [f' {y} ' for y in verbs]
     header = [f' {labels["number"]} ',
-             f' {labels["person"]} ',
-             f' {labels[tvm] if tvm in labels else labels["unknown"]} ']
-    numbers = [f' {labels["SG"]} ', ' ', ' ', f' {labels["PL"]} ' , ' ' , ' ']
+              f' {labels["person"]} ',
+              f' {labels[tvm] if tvm in labels else labels["unknown"]} ']
+    numbers = [f' {labels["SG"]} ', ' ', ' ', f' {labels["PL"]} ', ' ', ' ']
     r_verbs = rotate_lists([numbers, row_labels, v])
     tcontent = "|" + "|".join(header) + "|\n"
     tcontent += "|:----|:----|:----|\n"
@@ -105,12 +105,12 @@ def layout_non_merged_inf_paradigm_md(form, tvm, labels):
 def layout_participle_summary_paradigm_md(forms, label, labels):
     forms = [f' {x} ' for x in forms]
     header = [f' {labels["number"]} ',
-             f' {labels["case"]} ',
-             f' {labels["masc"]} ',
-             f' {labels["fem"]} ',
-             f' {labels["neut"]} ']
-    cases =  [f' {labels["nom"]} ',
-               f' {labels["gen"]} '] * 2
+              f' {labels["case"]} ',
+              f' {labels["masc"]} ',
+              f' {labels["fem"]} ',
+              f' {labels["neut"]} ']
+    cases = [f' {labels["nom"]} ',
+             f' {labels["gen"]} '] * 2
     row1 = forms[0:3]
     row2 = forms[3:]
     row1.insert(0, f' {labels["nom"]} ')
@@ -163,7 +163,7 @@ def conjugate_md(lemma, *TVMs, tags=None, labels="labels.yaml", lang="el", merge
 def layout_merged_imp_paradigm_html(verbs, TVMs, labels):
     verbs = [[f'<td class="para-item">{y}</td>' for y in xs] for xs in verbs]
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['2nd', '3rd']] * 2
-    verbs.insert(0,row_labels)
+    verbs.insert(0, row_labels)
     header = [f'<td class="para-header-cell">{labels[x]}</td>' if x in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>' for x in TVMs]
     header.insert(0, f'<td class="para-header-cell">{labels["person"]}</td>')
     header.insert(0, f'<td class="para-header-cell">{labels["number"]}</td>')
@@ -181,8 +181,8 @@ def layout_non_merged_imp_paradigm_html(verbs, tvm, labels):
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['2nd', '3rd']] * 2
     v = [f'<td class="para-item">{y}</td>' for y in verbs]
     header = [f'<td class="para-header-cell">{labels["number"]}</td>',
-             f'<td class="para-header-cell">{labels["person"]}</td>',
-             f'<td class="para-header-cell">{labels[tvm]}</td>' if tvm in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>']
+              f'<td class="para-header-cell">{labels["person"]}</td>',
+              f'<td class="para-header-cell">{labels[tvm]}</td>' if tvm in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>']
     r_verbs = rotate_lists([row_labels, v])
     r_verbs[0].insert(0, f'<td class="para-row-label" rowspan="2" valign="top">{labels["SG"]}</td>')
     r_verbs[2].insert(0, f'<td class="para-row-label" rowspan="2" valign="top">{labels["PL"]}</td>')
@@ -195,9 +195,9 @@ def layout_non_merged_imp_paradigm_html(verbs, tvm, labels):
 
 def layout_merged_inf_paradigm_html(verbs, labels):
     header = [f'<td class="para-header-cell"></td>',
-             f'<td class="para-header-cell">{labels["inf"]}</td>']
+              f'<td class="para-header-cell">{labels["inf"]}</td>']
     vs = [[f'<td class="para-item">{labels[tvm] if tvm in labels else labels["unknown"]}</td>',
-            f'<td class="para-item">{y[0]}</td>'] for (tvm, y) in verbs]
+           f'<td class="para-item">{y[0]}</td>'] for (tvm, y) in verbs]
     tcontent = f'<thead><tr class="para-header-row">{"".join(header)}</tr></thead>'
     tcontent += "<tbody>\n" + "\n".join([f'<tr>{"".join(x)}</tr>' for x in vs]) + "\n</tbody>"
     print("<link href=\"./paradigm.css\" rel=\"stylesheet\">")
@@ -207,9 +207,9 @@ def layout_merged_inf_paradigm_html(verbs, labels):
 
 def layout_non_merged_inf_paradigm_html(verbs, tvm, labels):
     header = [f'<td class="para-header-cell"></td>',
-             f'<td class="para-header-cell">{labels["inf"]}</td>']
+              f'<td class="para-header-cell">{labels["inf"]}</td>']
     vs = [[f'<td class="para-item">{labels[tvm] if tvm in labels else labels["unknown"]}</td>',
-            f'<td class="para-item">{y}</td>'] for y in verbs]
+           f'<td class="para-item">{y}</td>'] for y in verbs]
     tcontent = f'<thead><tr class="para-header-row">{"".join(header)}</tr></thead>'
     tcontent += "<tbody>\n" + "\n".join([f'<tr>{"".join(x)}</tr>' for x in vs]) + "\n</tbody>"
     print("<link href=\"./paradigm.css\" rel=\"stylesheet\">")
@@ -220,12 +220,12 @@ def layout_non_merged_inf_paradigm_html(verbs, tvm, labels):
 def layout_participle_summary_paradigm_html(forms, label, labels):
     forms = [f'<td class="para-item">{x}</td>' for x in forms]
     header = [f'<td class="para-header-cell">{labels["number"]}</td>',
-             f'<td class="para-header-cell">{labels["case"]}</td>',
-             f'<td class="para-header-cell">{labels["masc"]}</td>',
-             f'<td class="para-header-cell">{labels["fem"]}</td>',
-             f'<td class="para-header-cell">{labels["neut"]}</td>']
-    cases =  [f'<td class="para-row-label">{labels["nom"]}</td>',
-               f'<td class="para-row-label">{labels["gen"]}</td>'] * 2
+              f'<td class="para-header-cell">{labels["case"]}</td>',
+              f'<td class="para-header-cell">{labels["masc"]}</td>',
+              f'<td class="para-header-cell">{labels["fem"]}</td>',
+              f'<td class="para-header-cell">{labels["neut"]}</td>']
+    cases = [f'<td class="para-row-label">{labels["nom"]}</td>',
+             f'<td class="para-row-label">{labels["gen"]}</td>'] * 2
     row1 = forms[0:3]
     row2 = forms[3:]
     row1.insert(0, f'<td class="para-row-label">{labels["nom"]}</td>')
@@ -242,8 +242,8 @@ def layout_participle_summary_paradigm_html(forms, label, labels):
 def layout_merged_verb_paradigm_html(verbs, TVMs, labels):
     verbs = [[f'<td class="para-item">{y}</td>' for y in xs] for xs in verbs]
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['1st', '2nd', '3rd']] * 2
-    verbs.insert(0,row_labels)
-    header = [f'<td class="para-header-cell">{labels[x]}</td>' if x in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>' for x in TVMs ]
+    verbs.insert(0, row_labels)
+    header = [f'<td class="para-header-cell">{labels[x]}</td>' if x in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>' for x in TVMs]
     header.insert(0, f'<td class="para-header-cell">{labels["person"]}</td>')
     header.insert(0, f'<td class="para-header-cell">{labels["number"]}</td>')
     r_verbs = rotate_lists(verbs)
@@ -260,8 +260,8 @@ def layout_non_merged_verb_paradigm_html(verbs, tvm, labels):
     row_labels = [f'<td class="para-row-label">{labels[x]}</td>' for x in ['1st', '2nd', '3rd']] * 2
     v = [f'<td class="para-item">{y}</td>' for y in verbs]
     header = [f'<td class="para-header-cell">{labels["number"]}</td>',
-             f'<td class="para-header-cell">{labels["person"]}</td>',
-             f'<td class="para-header-cell">{labels[tvm]}</td>'if tvm in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>']
+              f'<td class="para-header-cell">{labels["person"]}</td>',
+              f'<td class="para-header-cell">{labels[tvm]}</td>'if tvm in labels else f'<td class="para-header-cell">{labels["unknown"]}</td>']
     r_verbs = rotate_lists([row_labels, v])
     r_verbs[0].insert(0, f'<td class="para-row-label" rowspan="3" valign="top">{labels["SG"]}</td>')
     r_verbs[3].insert(0, f'<td class="para-row-label" rowspan="3" valign="top">{labels["PL"]}</td>')
@@ -310,17 +310,17 @@ def conjugate_html(lemma, *TVMs, tags=None, labels="labels.yaml", lang="el", mer
 def layout_nouny_paradigm_md(forms, labels):
     forms = [[f" {y} " for y in x] for x in forms]
     header = [f' {labels["number"]} ',
-             f' {labels["case"]} ',
-             f' {labels["masc"]} ',
-             f' {labels["fem"]} ',
-             f' {labels["neut"]} ']
-    cases =  [f' {labels["nom"]} ',
-               f' {labels["gen"]} ',
-               f' {labels["dat"]} ',
-               f' {labels["acc"]} ',
-               f' {labels["voc"]} '] * 2
+              f' {labels["case"]} ',
+              f' {labels["masc"]} ',
+              f' {labels["fem"]} ',
+              f' {labels["neut"]} ']
+    cases = [f' {labels["nom"]} ',
+             f' {labels["gen"]} ',
+             f' {labels["dat"]} ',
+             f' {labels["acc"]} ',
+             f' {labels["voc"]} '] * 2
     forms.insert(0, cases)
-    numbers = [f' {labels["SG"]} ', ' ', ' ',' ',' ', f' {labels["PL"]} ' , ' ' , ' ', ' ', ' ']
+    numbers = [f' {labels["SG"]} ', ' ', ' ', ' ', ' ', f' {labels["PL"]} ', ' ', ' ', ' ', ' ']
     forms.insert(0, numbers)
     r_forms = rotate_lists(forms)
     tcontent = f'| {"|".join(header)} |\n'
@@ -339,15 +339,15 @@ def decline_md(lemma, TVM, tags=None, labels="labels.yaml", lang="el"):
 def layout_nouny_paradigm_html(forms, labels):
     forms = [[f'<td class="para-item">{y}</td>' for y in x] for x in forms]
     header = [f'<td class="para-header-cell">{labels["number"]}</td>',
-             f'<td class="para-header-cell">{labels["case"]}</td>',
-             f'<td class="para-header-cell">{labels["masc"]}</td>',
-             f'<td class="para-header-cell">{labels["fem"]}</td>',
-             f'<td class="para-header-cell">{labels["neut"]}</td>']
-    cases =  [f'<td class="para-row-label">{labels["nom"]}</td>',
-               f'<td class="para-row-label">{labels["gen"]}</td>',
-               f'<td class="para-row-label">{labels["dat"]}</td>',
-               f'<td class="para-row-label">{labels["acc"]}</td>',
-               f'<td class="para-row-label">{labels["voc"]}</td>'] * 2
+              f'<td class="para-header-cell">{labels["case"]}</td>',
+              f'<td class="para-header-cell">{labels["masc"]}</td>',
+              f'<td class="para-header-cell">{labels["fem"]}</td>',
+              f'<td class="para-header-cell">{labels["neut"]}</td>']
+    cases = [f'<td class="para-row-label">{labels["nom"]}</td>',
+             f'<td class="para-row-label">{labels["gen"]}</td>',
+             f'<td class="para-row-label">{labels["dat"]}</td>',
+             f'<td class="para-row-label">{labels["acc"]}</td>',
+             f'<td class="para-row-label">{labels["voc"]}</td>'] * 2
     forms.insert(0, cases)
     r_forms = rotate_lists(forms)
     r_forms[0].insert(0, f'<td class="para-row-label" rowspan="5" valign="top">{labels["SG"]}</td>')
