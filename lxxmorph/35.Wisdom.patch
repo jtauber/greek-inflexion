@@ -1,0 +1,142 @@
+--- 35.Wisdom.orig	1994-07-13 19:53:02.000000000 +0200
++++ 35.Wisdom.mlxx	2023-01-21 19:28:58.828622100 +0100
+@@ -56,7 +56,7 @@
+ EI)SELEU/SETAI           VF  FMI3S  E)/RXOMAI        EI)S
+ SOFI/A                   N1A NSF    SOFI/A
+ OU)DE\                   C          OU)DE/
+-KATOIKH/SEI              N3I DSF    KATOI/KHSIS
++KATOIKH/SEI              V2  FAI3S  KATOI/KEW
+ E)N                      P          E)N
+ SW/MATI                  N3M DSN    SW=MA
+ KATA/XREW|               A1B DSN    KATA/XREOS
+@@ -107,7 +107,7 @@
+ KAI\                     C          KAI/
+ TH=S                     RA  GSF    O(
+ GLW/SSHS                 N1S GSF    GLW=SSA
+-A)KOUSTH/S               A1  GSF    A)KOUSTO/S
++A)KOUSTH/S               N1M NSM    A)KOUSTH/S
+ 
+ Wis 1:7
+ O(/TI                    C          O(/TI
+@@ -911,7 +911,7 @@
+ KOI/THN                  N1  ASF    KOI/TH
+ E)N                      P          E)N
+ PARAPTW/MATI             N3M DSN    PARA/PTWMA
+-E(/CEI                   N3I DSF    E(/CIS
++E(/CEI                   VF  FAI3S  E)/XW
+ KARPO\N                  N2  ASM    KARPO/S
+ E)N                      P          E)N
+ E)PISKOPH=|              N1  DSF    E)PISKOPH/
+@@ -1187,7 +1187,7 @@
+ BASKANI/A                N1A NSF    BASKANI/A
+ GA\R                     X          GA/R
+ FAULO/THTOS              N3T GSF    FAULO/THS
+-A)MAUROI=                A1A NPM    A)MAURO/S
++A)MAUROI=                V4  PAI3S  A)MAURO/W
+ TA\                      RA  NPN    O(
+ KALA/                    A1  NPN    KALO/S
+ KAI\                     C          KAI/
+@@ -1512,7 +1512,7 @@
+ EU(REI=N                 VB  AAN    EU(RI/SKW
+ OU)DE\                   C          OU)DE/
+ A)TRAPO\N                N2  ASF    A)TRAPO/S
+-TRO/PIOS                 N3  GSF    TROPIA/
++TRO/PIOS                 N3I GSF    TRO/PIS
+ AU)TH=S                  RD  GSF    AU)TO/S
+ E)N                      P          E)N
+ KU/MASIN                 N3M DPN    KU=MA
+@@ -2744,7 +2744,7 @@
+ E)KDIDA/SKEI             V1  PAI3S  DIDA/SKW         E)K
+ DIKAIOSU/NHN             N1  ASF    DIKAIOSU/NH
+ KAI\                     C          KAI/
+-A)NDREI/AN               A1A ASF    A)NDREI=OS
++A)NDREI/AN               N1A ASF    A)NDREI/A
+ W(=N                     RR  GPN    O(/S
+ XRHSIMW/TERON            A1  ASNC   XRH/SIMOS
+ OU)DE/N                  A3  ASN    OU)DEI/S
+@@ -2789,7 +2789,7 @@
+ TAU/THN                  RD  ASF    OU(=TOS
+ A)GAGE/SQAI              VB  AMN    A)/GW
+ PRO\S                    P          PRO/S
+-SUMBI/WSIN               V4  PAS3P  BIO/W            SUN
++SUMBI/WSIN               N3I ASF    SUMBI/WSIS
+ EI)DW\S                  VX  XAPNSM OI)=DA
+ O(/TI                    C          O(/TI
+ E)/STAI                  VF  FMI3S  EI)MI/
+@@ -3643,7 +3643,7 @@
+ E)GE/NETO                VBI AMI3S  GI/GNOMAI
+ AU)TOI=S                 RD  DPM    AU)TO/S
+ EI)S                     P          EI)S
+-SKE/PHN                  N1  ASF    SKE/PHS
++SKE/PHN                  N1  ASF    SKE/PH
+ H(ME/RAS                 N1A GSF    H(ME/RA
+ KAI\                     C          KAI/
+ EI)S                     P          EI)S
+@@ -4249,7 +4249,7 @@
+ E)KTRI=YAI               VA  AAN    TRI/BW           E)K
+ 
+ Wis 12:10
+-KRI/NWN                  N2N GPN    KRI/NON
++KRI/NWN                  V1  PAPNSM KRI/NW
+ DE\                      X          DE/
+ KATA\                    P          KATA/
+ BRAXU\                   A3U ASN    BRAXU/S
+@@ -5828,11 +5828,11 @@
+ A(MARTA/NEI              V1  PAI3S  A(MARTA/NW
+ U(/LHS                   N1  GSF    U(/LH
+ GEW/DOUS                 A3H GSF    GEW/DHS
+-EU)/QRAUSTA              A1B APN    EU)/QRASTOS
++EU)/QRAUSTA              A1B APN    EU)/QRAUSTOS
+ SKEU/H                   N3E APN    SKEU=OS
+ KAI\                     C          KAI/
+ GLUPTA\                  A1  APN    GLUPTO/S
+-DHMIOURGW=N              N2  GPM    DHMIOURGO/S
++DHMIOURGW=N              V2  PAPNSM DHMIOURGE/W
+ 
+ Wis 15:14
+ PA/NTES                  A3  NPM    PA=S
+@@ -6002,7 +6002,7 @@
+ I(/NA                    C          I(/NA
+ E)KEI=NOI                RD  NPM    E)KEI=NOS
+ ME\N                     X          ME/N
+-E)PIQUMOU=NTES           V4  PAPNPM QUMO/W           E)PI
++E)PIQUMOU=NTES           V2  PAPNPM QUMΕ/W           E)PI
+ TROFH\N                  N1  ASF    TROFH/
+ DIA\                     P          DIA/
+ TH\N                     RA  ASF    O(
+@@ -6529,7 +6529,7 @@
+ PA/XNH                   N1  NSF    PA/XNH
+ TAKH/SETAI               VF  FMI3S  TH/KW
+ KAI\                     C          KAI/
+-R(UH/SETAI               VF  FMI3S  R(UO/MAI
++R(UH/SETAI               VF  FMI3S  R(E/W
+ W(S                      C          W(S
+ U(/DWR                   N3  NSN    U(/DWR
+ A)/XRHSTON               A1B NSN    A)/XRHSTOS
+@@ -6818,7 +6818,7 @@
+ MO/XQWN                  N2  GPM    MO/XQOS
+ PROLHMFQEI\S             VV  APPNSM LAMBA/NW         PRO
+ TH\N                     RA  ASF    O(
+-DUSA/LUKTON              A1B ASF    DUSA/LHKTOS
++DUSA/LUKTON              A1B ASF    DUSA/LUKTOS
+ E)/MENEN                 V1I IAI3S  ME/NW
+ A)NA/GKHN                N1  ASF    A)NA/GKH
+ MIA=|                    A1A DSF    EI(=S
+@@ -6837,7 +6837,7 @@
+ PERI\                    P          PERI/
+ A)MFILAFEI=S             A3H APM    A)MFILAFH/S
+ KLA/DOUS                 N2  APM    KLA/DOS
+-O)RNE/WN                 N3I GPM    O)/RNIS
++O)RNE/WN                 N3I GPM    O)/RNEON
+ H)=XOS                   N2  NSM    H)=XOS
+ EU)MELH\S                A3H NSM    EU)MELH/S
+ H)\                      C          H)/
+@@ -7599,7 +7599,7 @@
+ KAI\                     D          KAI/
+ GE/NESIN                 N3E DPN    GE/NOS
+ NE/AN                    A1A ASF    NE/OS
+-O)RNE/WN                 N3I GPM    O)/RNIS
++O)RNE/WN                 N3I GPM    O)/RNEON
+ O(/TE                    D          O(/TE
+ E)PIQUMI/A|              N1A DSF    E)PIQUMI/A
+ PROAXQE/NTES             VQ  APPNPM A)/GW            PRO
